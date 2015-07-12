@@ -1,4 +1,4 @@
-baseurl = "http://homepages.uibk.ac.at/~c1891011/"
+baseurl = "http://homepage.uibk.ac.at/~c1891011/"
 languageCode = "de-at"
 title = "Clemens Ager"
 theme = "vienna"
@@ -34,5 +34,7 @@ Paginate = 10
 
 #https://www.linkedin.com/pub/clemens-ager/95/8a2/122
 
+[blackfriday]
+  fractions = false
 
 # vim: fdm=marker : 
