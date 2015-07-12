@@ -1,0 +1,38 @@
+{{ partial "header.html" . }}
+
+<div class="jumbotron">
+  <a href='{{ .Site.BaseURL }}/post'>
+	<H1>Blog <small>a few thoughts</small></H1>
+  </a>
+</div>
+
+<div class="jumbotron">
+  <h1>Science stuff <small>a selection</small></h1>
+
+  <div class="row">
+	<div class="col-sm-6 col-md-4">
+	  <div class="thumbnail">
+		<img data-src="holder.js/300x200" alt="">
+		<h3>Coauthored Papers</h3>
+		<p>Thumbnail caption...</p>
+	  </div>
+	</div>
+	<div class="col-sm-6 col-md-4">
+	  <div class="thumbnail">
+		<img data-src="holder.js/300x200" alt="">
+		<h3>Presentations</h3>
+		<p>Thumbnail caption...</p>
+	  </div>
+	</div>
+	<div class="col-sm-6 col-md-4">
+	  <div class="thumbnail">
+		<img data-src="holder.js/300x200" alt="">
+		<h3>R</h3>
+		<p>Thumbnail caption...</p>
+	  </div>
+	</div>
+  </div>
+</div>
+
+{{ partial "footer.html" . }}
+

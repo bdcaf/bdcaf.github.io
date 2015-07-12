@@ -3,7 +3,7 @@ languageCode = "de-at"
 title = "Clemens Ager"
 theme = "vienna"
 # Copyright notice. This is displayer in the footer.
-copyright = "Inhaber: Clemens Ager, Brixlegg"
+copyright = "Inhaber: Clemens Ager, Brixlegg, 2015"
 
 Paginate = 10
 
@@ -17,7 +17,7 @@ Paginate = 10
 	# Social accounts. Link to these accounts are displayed in the header and footer.
 	twitter = "c_decaf"
 	github = "bdcaf"
-	linkedin = "clemens-ager"
+	linkedin = "https://at.linkedin.com/pub/clemens-ager/95/8a2/122"
 	#linkedin = "at.linkedin.com/pub/clemens-ager/95/8a2/122"
 	stackoverflow = "471614"
 	#keybase = "Your keybase.io username"
@@ -32,6 +32,7 @@ Paginate = 10
 	subtitle = "Sammlung von Nützlichem und Kuriosem"
 	#themecolor = "#hexcolor" # Defines the tab color in Chrome for Android.
 
+#https://www.linkedin.com/pub/clemens-ager/95/8a2/122
 
 
 # vim: fdm=marker : 
