@@ -22,8 +22,8 @@
 	<div class="col-sm-6 col-md-4">
 	  <div class="thumbnail">
 		<a href='{{ .Site.BaseURL }}/coauthored'>
-		<i class="fa fa-newspaper-o" style="font-size: 8em;"></i>
-		<h3>Coauthored Papers</h3>
+		  <i class="fa fa-newspaper-o" style="font-size: 8em;"></i>
+		  <h3>Coauthored Papers</h3>
 		</a>
 		<p>some of the papers I collaborated</p>
 	  </div>
@@ -36,11 +36,11 @@
 	  </div>
 	</div>
 	<!--<div class="col-sm-6 col-md-4">-->
-	  <!--<div class="thumbnail">-->
-		<!--<img data-src="holder.js/300x200" alt="">-->
-		<!--<h3>R</h3>-->
-		<!--<p>Thumbnail caption...</p>-->
-	  <!--</div>-->
+	<!--<div class="thumbnail">-->
+	<!--<img data-src="holder.js/300x200" alt="">-->
+	<!--<h3>R</h3>-->
+	<!--<p>Thumbnail caption...</p>-->
+	<!--</div>-->
 	<!--</div>-->
   </div>
 </div>
@@ -48,16 +48,24 @@
 <div >
   <h2><i class="fa fa-puzzle-piece"></i> anderes Zeugs</h2>
   <div class="row">
-	<div class="col-sm-3 col-md-2">
+	<a href='{{ .Site.BaseURL }}/pubring.gpg' role='button' class='btn btn-default'>
+	  <div class="col-sm-3 col-md-2">
 		<i class="fa fa-user-secret" style="font-size: 4em;"></i>
 		<h3>Public GPG Key</h3>
-	</div>
-	<div class="col-sm-3 col-md-2">
-	  CV to come...
-	</div>
-	<div class="col-sm-3 col-md-2">
-	  more to come...
-	</div>
+	  </div>
+	</a>
+	<a href='{{ ref . "linklist.md"}}' role='button' class='btn btn-default'>
+	  <div class="col-sm-3 col-md-2">
+		<i class="fa fa-external-link" style="font-size: 4em;"></i>
+		<h3>List of Links</h3>
+	  </div>
+	</a>
+	<!--<div class="col-sm-3 col-md-2">-->
+	  <!--CV to come...-->
+	<!--</div>-->
+	<!--<div class="col-sm-3 col-md-2">-->
+	  <!--more to come...-->
+	<!--</div>-->
   </div>
 </div>
 
