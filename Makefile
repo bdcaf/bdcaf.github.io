@@ -5,8 +5,5 @@ local:
 	hugo server --buildDrafts --watch
 
 
-deploy-list.txt: site
-	find public -type f -and ! -name ".*" > $@
-
-deploy: deploy-list.txt
-
+deploy: site
+	rsync -amzW --exclude '.*' --delete public/ -e ssh info-adm:homepage/
