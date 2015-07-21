@@ -48,6 +48,12 @@
 <div >
   <h2><i class="fa fa-puzzle-piece"></i> anderes Zeugs</h2>
   <div class="row">
+	<a href='{{ ref . "cv.md"}}' role='button' class='btn btn-default'>
+	  <div class="col-sm-3 col-md-2">
+		<i class="fa fa-user" style="font-size: 4em;"></i>
+		<h3>about me</h3>
+	  </div>
+	</a>
 	<a href='{{ .Site.BaseURL }}/pubring.gpg' role='button' class='btn btn-default'>
 	  <div class="col-sm-3 col-md-2">
 		<i class="fa fa-user-secret" style="font-size: 4em;"></i>
