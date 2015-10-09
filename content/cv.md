@@ -10,11 +10,6 @@ Clemens Ager
 ============
 
 
-|        | &nbsp; &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;    |  
-|---------------|----|----:
-|Marktstr. 25   |    |   clemens.ager@uibk.ac.at
-|6230 Brixlegg  |    |                  @c_decaf
-|Austria        |    |         +43 512 504 27783
 
 
 
