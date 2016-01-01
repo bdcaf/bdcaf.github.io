@@ -5,7 +5,7 @@
 	<H1><i class="fa fa-paper-plane-o"></i>
 	Blog <small>a few thoughts</small></H1>
   </a>
-  {{ range first 2 (where .Data.Pages "Section" "post" )}}
+  {{ range first 5 (where .Data.Pages "Section" "post" )}}
   {{ .Render "li" }}
   {{ end }}
   <p>

@@ -19,14 +19,14 @@ Paginate = 10
 	github = "bdcaf"
 	linkedin = "https://at.linkedin.com/pub/clemens-ager/95/8a2/122"
 	#linkedin = "at.linkedin.com/pub/clemens-ager/95/8a2/122"
-	stackoverflow = "471614"
+	#stackoverflow = "471614"
 	#keybase = "Your keybase.io username"
 	# Google Analytics API key.
 	#ga_api_key = "Your Google Analytics tracking id"
 	# Mixpanel API key.
 	#mixpanel_api_key = "Your Mixpanel API key"
 	author = "Clemens Ager"
-	avatar = "/~c1891011/img/avatar.jpg"
+	avatar = "/~c1891011/img/avatar.png"
 	contact = "mailto:clemens.ager@uibk.ac.at"
 	bio = "Rechenknecht // Student" # Short subtitle/tagline.  This is displayed in the header.  
 	subtitle = "Sammlung von Nützlichem und Kuriosem"

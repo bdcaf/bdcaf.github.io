@@ -8,6 +8,7 @@ title = "Bilder von der Breath Vienna"
 
 Einige Impressionen von der [ BreathVienna ](http://breathvienna.at) Konferenz.
 
+<!--more--> 
 {{< figure src="/~c1891011/photo/2015_breathvienna/DSC_0101.jpg" caption="Prof. Buszewski and Pawel">}}
 
 {{< figure src="/~c1891011/photo/2015_breathvienna/DSC_0104.jpg" caption="Prof. Buszewski and Wojtek">}}
