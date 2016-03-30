@@ -1,6 +1,7 @@
 site: 
 	hugo
-	chmod -R a+r public
+	find public -type f -exec chmod a+r {} \;
+	find public -type d -exec chmod a+rx {} \;
 
 local:
 	hugo server --buildDrafts --watch

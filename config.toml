@@ -5,7 +5,7 @@ theme = "vienna"
 # Copyright notice. This is displayer in the footer.
 copyright = "Inhaber: Clemens Ager, Brixlegg, 2015"
 
-Paginate = 10
+Paginate = 5
 
 [params]
 	name = "Clemens Ager"
