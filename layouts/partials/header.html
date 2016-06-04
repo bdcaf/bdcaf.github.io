@@ -3,6 +3,7 @@
 <head prefix="og: http://ogp.me/ns#">
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
   <meta property="og:title" content="{{ if ne .URL "/" }} {{ .Title }} &middot; {{ end }} {{ .Site.Title }}" />
   {{ with .Site.Params.themecolor }}
   <meta name="theme-color" content="{{ . }}" />
@@ -37,8 +38,8 @@
   <link rel="stylesheet" href="{{ .Site.BaseURL }}css/main.css" />
   <!--<link rel="stylesheet" href="{{ .Site.BaseURL }}css/github.css" />-->
   <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400" type="text/css">
-  <link rel="shortcut icon" href="{{ .Site.BaseURL }}images/favicon.ico" />
-  <link rel="apple-touch-icon" href="{{ .Site.BaseURL }}images/apple-touch-icon.png" />
+  <!--<link rel="icon" href="{{ .Site.BaseURL }}images/favicon.ico" />-->
+  <!--<link rel="apple-touch-icon" href="{{ .Site.BaseURL }}images/apple-touch-icon.png" />-->
   {{ if eq .URL "/" }}
   <!--<link href="{{ .RSSLink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />-->
   {{ end }}
