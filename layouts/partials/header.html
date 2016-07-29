@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ja">
+<html lang="{{ .Site.LanguageCode }}">
 <head prefix="og: http://ogp.me/ns#">
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
@@ -36,16 +36,17 @@
 <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css"> -->
 
   <link rel="stylesheet" href="{{ .Site.BaseURL }}css/main.css" />
-  <!--<link rel="stylesheet" href="{{ .Site.BaseURL }}css/github.css" />-->
+  <link rel="stylesheet" href="{{ .Site.BaseURL }}css/font-awesome.min.css" />
+  <link rel="stylesheet" href="{{ .Site.BaseURL }}css/github.css" />
   <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400" type="text/css">
-  <!--<link rel="icon" href="{{ .Site.BaseURL }}images/favicon.ico" />-->
-  <!--<link rel="apple-touch-icon" href="{{ .Site.BaseURL }}images/apple-touch-icon.png" />-->
+  <link rel="shortcut icon" href="{{ .Site.BaseURL }}images/favicon.ico" />
+  <link rel="apple-touch-icon" href="{{ .Site.BaseURL }}images/apple-touch-icon.png" />
   {{ if eq .URL "/" }}
-  <!--<link href="{{ .RSSLink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />-->
+  <link href="{{ .RSSLink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
   {{ end }}
 </head>
 <body>
-  <header class="global-header">
+    <header class="global-header"  style="background-image:url({{ if isset .Params "image" }}{{ .Params.image }} {{ else }} /images/bg.jpg {{ end }})">
     <section class="header-text">
       <h1><a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a></h1>
       {{ with .Site.Params.subtitle }}
@@ -56,13 +57,13 @@
       {{ partial "link.html" . }}
       {{ if ne .URL "/" }}
       <a href="{{ .Site.BaseURL }}" class="btn-header btn-back hidden-xs">
-        <i class="fa fa-angle-left"></i>
+        <i class="fa fa-angle-left" aria-hidden="true"></i>
         &nbsp;Home
       </a>
       {{ end }}
       {{ with .RSSLink }}
       <a href="{{ . }}" class="btn-header btn-subscribe hidden-xs">
-        <i class="fa fa-rss"></i>
+        <i class="fa fa-rss" aria-hidden="true"></i>
         &nbsp;Subscribe
       </a>
       {{ end }}
