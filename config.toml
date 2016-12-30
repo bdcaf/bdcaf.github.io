@@ -9,8 +9,8 @@ MetaDataFormat = "yaml"
 
 Paginate = 5
 
-builddrafts = true
-canonifyurls = true
+builddrafts = false
+canonifyurls = false
 contentdir = "content"
 layoutdir = "layouts"
 publishdir = "public"
