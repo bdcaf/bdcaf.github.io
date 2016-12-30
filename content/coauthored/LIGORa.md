@@ -1,7 +1,8 @@
-+++
-title = "Determination of volatile organic compounds in exhaled breath of patients with lung cancer using solid phase microextraction and gas chromatography mass spectrometry"
-date = "2009-08-01"
-+++
+---
+date: 2009-08-01
+title: Determination of volatile organic compounds in exhaled breath of patients with
+  lung cancer using solid phase microextraction and gas chromatography mass spectrometry
+---
 
 Ligor, Magdalena and Ligor, Tomasz and Bajtarevic, Amel and Ager, Clemens and Pienz, Martin and Klieber, Martin and Denz, Hubert and Fiegl, Michael and Hilbe, Wolfgang and Weiss, Wolfgang and Lukas, Peter and Jamnig, Herbert and Hackl, Martin and Buszewski, Bogusław and Miekisch, Wolfram and Schubert, Jochen K and Amann, Anton (2009), 
 **[Determination of volatile organic compounds in exhaled breath of patients with lung cancer using solid phase microextraction and gas chromatography mass spectrometry](http://cat.inist.fr/?aModele=afficheN\&cpsidt=21500531)** ,

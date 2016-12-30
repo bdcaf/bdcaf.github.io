@@ -1,10 +1,9 @@
-+++
-Description = ""
-Tags = []
-date = "2016-07-17T11:25:24+02:00"
-title = "R.E. Kalman verstorben"
-
-+++
+---
+Description: ""
+Tags: []
+date: 2016-07-17T11:25:24+02:00
+title: R.E. Kalman verstorben
+---
 
 Ich hatte das gar  nicht verfolgt.  Der Kalman-Filter war ja Hauptteil
 meiner Dipl. Arbeit.  Prof. Amann war ein riesen Fan - wollte alles

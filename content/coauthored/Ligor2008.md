@@ -1,7 +1,8 @@
-+++
-title = "The analysis of healthy volunteers' exhaled breath by the use of solid-phase microextraction and GC-MS"
-date = "2008-08-01"
-+++
+---
+date: 2008-08-01
+title: The analysis of healthy volunteers' exhaled breath by the use of solid-phase
+  microextraction and GC-MS
+---
 
 Ligor, Tomasz and Ligor, Magdalena and Amann, Anton and Ager, Clemens and Bachler, Miriam and Dzien, Alexander and Buszewski, Bogusław (2008), 
 **[The analysis of healthy volunteers' exhaled breath by the use of solid-phase microextraction and GC-MS](http://www.ncbi.nlm.nih.gov/pubmed/21386193 http://iopscience.iop.org/1752-7163/2/4/046006/)** ,

@@ -1,10 +1,9 @@
-+++
-Description = ""
-Tags = []
-date = "2015-07-26T17:05:31+02:00"
-title = "Projekt Euler"
-
-+++
+---
+Description: ""
+Tags: []
+date: 2015-07-26T17:05:31+02:00
+title: Projekt Euler
+---
 
 Hab ich schon erwähnt, dass ich in der Freizeit bei [Projekt Euler](https://projecteuler.net) mitmache.   Das ist eine Programmierseite auf der es darum geht Probleme mathematische Probleme numerisch zu lösen - viele aus der Zahlentheorie. Es ist eine tolle Übung um das Programmieren und die Mathematik aufzubessern.
 

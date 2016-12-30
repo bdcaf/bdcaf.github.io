@@ -1,7 +1,8 @@
-+++
-title = "Characterization of volatile metabolites taken up by or released from Streptococcus pneumoniae and Haemophilus influenzae by using GC-MS."
-date = "2012-08-01"
-+++
+---
+date: 2012-08-01
+title: Characterization of volatile metabolites taken up by or released from Streptococcus
+  pneumoniae and Haemophilus influenzae by using GC-MS.
+---
 
 Filipiak, Wojciech and Sponring, Andreas and Bauer, Maria and AGER, Clemens and FILIPIAK, Anna and WIESENHOFER, Helmut and NAGL, Markus and Troppmair, Jakob and Amann, Anton and Baur, Maria M and AGER, Clemens and FILIPIAK, Anna and WIESENHOFER, Helmut and NAGL, Markus and Troppmair, Jakob and Amann, Anton (2012), 
 **[Characterization of volatile metabolites taken up by or released from Streptococcus pneumoniae and Haemophilus influenzae by using GC-MS.](http://www.ncbi.nlm.nih.gov/pubmed/23059976 http://cat.inist.fr/?aModele=afficheN\&cpsidt=26727487)** ,

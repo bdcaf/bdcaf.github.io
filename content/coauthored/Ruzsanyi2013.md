@@ -1,7 +1,7 @@
-+++
-title = "Multi-Capillary-Column Proton-Transfer-Reaction Time-of-Flight Mass Spectrometry"
-date = "2013-08-01"
-+++
+---
+date: 2013-08-01
+title: Multi-Capillary-Column Proton-Transfer-Reaction Time-of-Flight Mass Spectrometry
+---
 
 Ruzsanyi, Veronika and Fischer, Lukas and Herbig, Jens and Ager, Clemens and Amann, Anton (2013), 
 **[Multi-Capillary-Column Proton-Transfer-Reaction Time-of-Flight Mass Spectrometry](http://linkinghub.elsevier.com/retrieve/pii/S0021967313015392 http://www.ncbi.nlm.nih.gov/pubmed/24119758)** ,

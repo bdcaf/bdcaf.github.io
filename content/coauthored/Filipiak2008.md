@@ -1,7 +1,8 @@
-+++
-title = "Release of volatile organic compounds (VOCs) from the lung cancer cell line CALU-1 in vitro."
-date = "2008-08-01"
-+++
+---
+date: 2008-08-01
+title: Release of volatile organic compounds (VOCs) from the lung cancer cell line
+  CALU-1 in vitro.
+---
 
 Filipiak, Wojciech and Sponring, Andreas and Mikoviny, Tomas and Ager, Clemens and Schubert, Jochen K and Miekisch, Wolfram and Amann, Anton and Troppmair, Jakob (2008), 
 **[Release of volatile organic compounds (VOCs) from the lung cancer cell line CALU-1 in vitro.](http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=2639533\&tool=pmcentrez\&rendertype=abstract)** ,

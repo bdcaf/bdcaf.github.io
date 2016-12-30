@@ -1,9 +1,12 @@
-+++
-Description = "Mal sehen was es gibt"
-Tags = ["research", "breath", "congress"]
-date = "2015-08-17T18:49:07+02:00"
-title = "Das Programm für den Atemgas Kongress ist heraußen"
-+++
+---
+Description: Mal sehen was es gibt
+Tags:
+- research
+- breath
+- congress
+date: 2015-08-17T18:49:07+02:00
+title: Das Programm für den Atemgas Kongress ist heraußen
+---
 
 Auf der Seite [Breathvienna](http://breathvienna.at) gibt es das [Programm](http://breathvienna.at/wp-content/uploads/2015/08/CLICK-HERE-to-download-IABR-summit-2015-PROGRAM.pdf) nun zum ansehen.
 

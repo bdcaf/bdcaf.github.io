@@ -1,10 +1,13 @@
-+++
-Categories = []
-Description = ""
-Tags = ["blog"]
-date = "2015-10-19T10:36:21+02:00"
-title = "Breath analysis for in vivo detection of pathogens related to ventilator-associated pneumonia in intensive care patients: A prospective pilot study"
-+++
+---
+Categories: []
+Description: ""
+Tags:
+- blog
+date: 2015-10-19T10:36:21+02:00
+title: 'Breath analysis for in vivo detection of pathogens related to ventilator-associated
+  pneumonia in intensive care patients: A prospective pilot study'
+---
+
 [research gate](https://www.researchgate.net/publication/270513085_Breath_analysis_for_in_vivo_detection_of_pathogens_related_to_ventilator-associated_pneumonia_in_intensive_care_patients_A_prospective_pilot_study)
 
 ## Authors

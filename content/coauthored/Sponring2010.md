@@ -1,7 +1,8 @@
-+++
-title = "Analysis of volatile organic compounds (VOCs) in the headspace of NCI-H1666 lung cancer cells."
-date = "2010-08-01"
-+++
+---
+date: 2010-08-01
+title: Analysis of volatile organic compounds (VOCs) in the headspace of NCI-H1666
+  lung cancer cells.
+---
 
 Sponring, Andreas and Filipiak, Wojciech and Ager, Clemens and Schubert, Jochen K and Miekisch, Wolfram and Amann, Anton and Troppmair, Jakob (2010), 
 **[Analysis of volatile organic compounds (VOCs) in the headspace of NCI-H1666 lung cancer cells.](http://www.ncbi.nlm.nih.gov/pubmed/21263191)** ,

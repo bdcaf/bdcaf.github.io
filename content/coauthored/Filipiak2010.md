@@ -1,7 +1,8 @@
-+++
-title = "TD-GC-MS analysis of volatile metabolites of human lung cancer and normal cells in vitro."
-date = "2010-08-01"
-+++
+---
+date: 2010-08-01
+title: TD-GC-MS analysis of volatile metabolites of human lung cancer and normal cells
+  in vitro.
+---
 
 Filipiak, Wojciech and Sponring, Andreas and Filipiak, Anna and Ager, Clemens and Schubert, Jochen K and Miekisch, Wolfram and Amann, Anton and Troppmair, Jakob (2010), 
 **[TD-GC-MS analysis of volatile metabolites of human lung cancer and normal cells in vitro.](http://www.ncbi.nlm.nih.gov/pubmed/20056637)** ,

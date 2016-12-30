@@ -1,7 +1,8 @@
-+++
-title = "ABA-Cloud: support for collaborative breath research."
-date = "2013-08-01"
-+++
+---
+date: 2013-08-01
+title: 'ABA-Cloud: support for collaborative breath research.'
+---
+
 ## Authors
 Elsayed, Ibrahim and Ludescher, Thomas and King, Julian and Ager, Clemens and Trosin, Michael and Senocak, Uygar and Brezany, Peter and Feilhauer, Thomas and Amann, Anton (2013), 
 **[ABA-Cloud: support for collaborative breath research.](http://www.ncbi.nlm.nih.gov/pubmed/23619467)** ,

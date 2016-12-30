@@ -1,7 +1,8 @@
-+++
-title = "Dependence of exhaled breath composition on exogenous factors, smoking habits and exposure to air pollutants"
-date = "2012-08-01"
-+++
+---
+date: 2012-08-01
+title: Dependence of exhaled breath composition on exogenous factors, smoking habits
+  and exposure to air pollutants
+---
 
 Filipiak, Wojciech and Ruzsanyi, Veronika and Mochalski, Paweł and Filipiak, Anna and Bajtarevic, Amel and Ager, Clemens and Denz, Hubert and Hilbe, Wolfgang and Jamnig, Herbert and Hackl, Martin and Dzien, Alexander and Amann, Anton (2012), 
 **[Dependence of exhaled breath composition on exogenous factors, smoking habits and exposure to air pollutants](http://iopscience.iop.org/1752-7163/6/3/036008/ http://www.ncbi.nlm.nih.gov/pubmed/22932429)** ,

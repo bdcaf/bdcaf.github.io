@@ -1,10 +1,9 @@
-+++
-Description = "Von mir empfohlene Links"
-Tags = []
-date = "2015-07-13T11:22:43+02:00"
-title = "List of Links"
-
-+++
+---
+Description: Von mir empfohlene Links
+Tags: []
+date: 2015-07-13T11:22:43+02:00
+title: List of Links
+---
 
 # Professional
 

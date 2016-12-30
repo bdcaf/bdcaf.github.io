@@ -1,7 +1,8 @@
-+++
-title = "Comparative analyses of volatile organic compounds (VOCs) from patients, tumors and transformed cell lines for the validation of lung cancer-derived breath markers."
-date = "2013-08-01"
-+++
+---
+date: 2013-08-01
+title: Comparative analyses of volatile organic compounds (VOCs) from patients, tumors
+  and transformed cell lines for the validation of lung cancer-derived breath markers.
+---
 
 Filipiak, Wojciech and Filipiak, Anna and Sponring, Andreas and Schmid, Thomas and Zelger, Bettina and Ager, Clemens and Klodzinska, Ewa and Denz, Hubert and Pizzini, Alex and Jamnig, Herbert and Amann, Anton and Lucciarini, Paolo and Troppmair, Jakob (2013), 
 **[Comparative analyses of volatile organic compounds (VOCs) from patients, tumors and transformed cell lines for the validation of lung cancer-derived breath markers.](http://www.ncbi.nlm.nih.gov/pubmed/24862102)** ,

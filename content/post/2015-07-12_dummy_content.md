@@ -1,10 +1,9 @@
-+++
-Description = "dumm, dumm, dumm"
-Tags = []
-date = "2015-07-12T11:46:09+02:00"
-title = "etwas Dummy Content"
-
-+++
+---
+Description: dumm, dumm, dumm
+Tags: []
+date: 2015-07-12T11:46:09+02:00
+title: etwas Dummy Content
+---
 
 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
 tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At

@@ -1,7 +1,7 @@
-+++
-title = "Noninvasive detection of lung cancer by analysis of exhaled breath."
-date = "2009-08-01"
-+++
+---
+date: 2009-08-01
+title: Noninvasive detection of lung cancer by analysis of exhaled breath.
+---
 
 Bajtarevic, Amel and Ager, Clemens and Pienz, Martin and Klieber, Martin and Schwarz, Konrad Eugen and Ligor, Magdalena and Ligor, Tomasz and Filipiak, Wojciech and Denz, Hubert and Fiegl, Michael and Hilbe, Wolfgang and Weiss, Wolfgang and Lukas, Peter and Jamnig, Herbert and Hackl, Martin and Haidenberger, Alfred and Buszewski, Bogusław and Miekisch, Wolfram and Schubert, Jochen K and Amann, Anton (2009), 
 **[Noninvasive detection of lung cancer by analysis of exhaled breath.](https://www.biomedcentral.com/1471-2407/9/348)** ,

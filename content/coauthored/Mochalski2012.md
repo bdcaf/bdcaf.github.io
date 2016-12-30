@@ -1,7 +1,8 @@
-+++
-title = "Temporal profiling of human urine VOCs and its potential role under the ruins of collapsed buildings."
-date = "2012-08-01"
-+++
+---
+date: 2012-08-01
+title: Temporal profiling of human urine VOCs and its potential role under the ruins
+  of collapsed buildings.
+---
 
 Mochalski, Paweł and Krapf, Karin and Ager, Clemens and Wiesenhofer, Helmut and Agapiou, Agapios and Statheropoulos, Milt and Fuchs, Dietmar and Ellmerer, Ernst and Buszewski, Bogusław and Amann, Anton (2012), 
 **[Temporal profiling of human urine VOCs and its potential role under the ruins of collapsed buildings.](http://www.ncbi.nlm.nih.gov/pubmed/22482743)** ,

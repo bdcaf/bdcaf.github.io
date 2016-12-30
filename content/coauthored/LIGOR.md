@@ -1,7 +1,8 @@
-+++
-title = "Comparison of Proton Transfer Reaction-Mass Spectrometry and Gas Chromatography-Mass Spectrometry in Analysis of Breath Samples"
-date = "2009-08-01"
-+++
+---
+date: 2009-08-01
+title: Comparison of Proton Transfer Reaction-Mass Spectrometry and Gas Chromatography-Mass
+  Spectrometry in Analysis of Breath Samples
+---
 
 Ligor, Tomasz and Ager, Clemens and Schwarz, Konrad Eugen and Zebrowski, Wojciech and Amann, Anton and Buszewski, Bogusław (2009), 
 **[Comparison of Proton Transfer Reaction-Mass Spectrometry and Gas Chromatography-Mass Spectrometry in Analysis of Breath Samples](http://cat.inist.fr/?aModele=afficheN\&cpsidt=21776577)** ,

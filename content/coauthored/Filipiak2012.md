@@ -1,7 +1,8 @@
-+++
-title = "Optimization of sampling parameters for collection and preconcentration of alveolar air by needle traps."
-date = "2012-08-01"
-+++
+---
+date: 2012-08-01
+title: Optimization of sampling parameters for collection and preconcentration of
+  alveolar air by needle traps.
+---
 
 Filipiak, Wojciech and Filipiak, Anna and Ager, Clemens and Wiesenhofer, Helmut and Amann, Anton (2012), 
 **[Optimization of sampling parameters for collection and preconcentration of alveolar air by needle traps.](http://www.ncbi.nlm.nih.gov/pubmed/22621839)** ,

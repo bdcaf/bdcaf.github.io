@@ -1,7 +1,8 @@
-+++
-title = "Release of volatile organic compounds from the lung cancer cell line NCI-H2087 in vitro"
-date = "2009-08-01"
-+++
+---
+date: 2009-08-01
+title: Release of volatile organic compounds from the lung cancer cell line NCI-H2087
+  in vitro
+---
 
 Sponring, Andreas and Filipiak, Wojciech and Mikoviny, Tomas and Ager, Clemens and Schubert, Jochen and Miekisch, Wolfram and Amann, Anton and Troppmair, Jakob (2009), 
 **[Release of volatile organic compounds from the lung cancer cell line NCI-H2087 in vitro](http://ar.iiarjournals.org/content/29/1/419.short)** ,
