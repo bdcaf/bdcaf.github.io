@@ -1,40 +1,57 @@
 baseurl = "http://homepage.uibk.ac.at/~c1891011/"
 languageCode = "de-at"
-title = "Clemens Ager"
+author = "Clemens Ager"
+title = "Clemens Homepage"
 theme = "vienna"
 # Copyright notice. This is displayer in the footer.
 copyright = "Inhaber: Clemens Ager, Brixlegg, 2015"
+MetaDataFormat = "yaml"
 
 Paginate = 5
 
+builddrafts = true
+canonifyurls = true
+contentdir = "content"
+layoutdir = "layouts"
+publishdir = "public"
+pygmentsuseclasses = true
+disqusshortname = ""
+pluralizelisttitles = false
+
+[permalinks]
+fixed = ":title/"
+blog = "blog/:slug/"
+
 [params]
-	name = "Clemens Ager"
+	author = "Clemens Ager"
+	bio = "Rechenknecht // Student" # Short subtitle/tagline.  This is displayed in the header.  
 	description = "Rechenknecht, Student"
+	subtitle = "Sammlung von Nützlichem und Kuriosem"
 	authorlocation = "Tirol"
 	email = "clemens.ager@uibk.ac.at"
-    logo = "images/logo.png"
+    #logo = "images/logo.png"
+    logofile = "images/logo.png"
+	faviconfile = "images/logo.png"
 
-	# Social accounts. Link to these accounts are displayed in the header and footer.
-	twitter = "c_decaf"
-	github = "bdcaf"
-	linkedin = "https://at.linkedin.com/pub/clemens-ager/95/8a2/122"
-	#linkedin = "at.linkedin.com/pub/clemens-ager/95/8a2/122"
-	#stackoverflow = "471614"
-	#keybase = "Your keybase.io username"
-	# Google Analytics API key.
-	#ga_api_key = "Your Google Analytics tracking id"
 	# Mixpanel API key.
+	# Social accounts. Link to these accounts are displayed in the header and footer.
+	#ga_api_key = "Your Google Analytics tracking id"
+	#keybase = "Your keybase.io username"
+	#linkedin = "at.linkedin.com/pub/clemens-ager/95/8a2/122"
 	#mixpanel_api_key = "Your Mixpanel API key"
-	author = "Clemens Ager"
+	#stackoverflow = "471614"
+	#themecolor = "#hexcolor" # Defines the tab color in Chrome for Android.
 	avatar = "/~c1891011/img/avatar.png"
 	contact = "mailto:clemens.ager@uibk.ac.at"
-	bio = "Rechenknecht // Student" # Short subtitle/tagline.  This is displayed in the header.  
-	subtitle = "Sammlung von Nützlichem und Kuriosem"
-	#themecolor = "#hexcolor" # Defines the tab color in Chrome for Android.
+	linkedin = "clemens-ager-1228a295"
+	github = "bdcaf"
+	twitter = "c_decaf"
 
-#https://www.linkedin.com/pub/clemens-ager/95/8a2/122
-
-[blackfriday]
-  fractions = false
+	cachebuster = true
+	dateform = "2. 1. 2006"
+	dateformfull = "Mon  2. Jan 2006 15:04:05 MST"
+	name = "Clemens blog"
+	highlightjs = true
+	lang = "de"
 
 # vim: fdm=marker : 
