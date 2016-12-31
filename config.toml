@@ -2,7 +2,7 @@ baseurl = "http://homepage.uibk.ac.at/~c1891011/"
 languageCode = "de-at"
 author = "Clemens Ager"
 title = "Clemens Homepage"
-theme = "vienna"
+theme = "hugo-finite"
 # Copyright notice. This is displayer in the footer.
 copyright = "Inhaber: Clemens Ager, Brixlegg, 2015"
 MetaDataFormat = "yaml"
