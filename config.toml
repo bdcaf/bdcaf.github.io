@@ -1,4 +1,4 @@
-baseurl = "http://homepage.uibk.ac.at/~c1891011/"
+baseurl = "homepage.uibk.ac.at/~c1891011/"
 author = "Clemens Ager"
 title = "Clemens Ager"
 theme = "academic"
@@ -12,21 +12,17 @@ footnotereturnlinkcontents = "<sup>^</sup>"
 defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = false
 
-Paginate = 5
-paginate = 3
+Paginate = 10
+PaginatePath = ""
 
 builddrafts = false
-canonifyurls = false
+canonifyurls = true
 contentdir = "content"
 layoutdir = "layouts"
 publishdir = "public"
 pygmentsuseclasses = true
 disqusshortname = ""
 pluralizelisttitles = false
-
-[permalinks]
-fixed = ":title/"
-blog = "blog/:slug/"
 
 [params]
 name = "Clemens Ager"
@@ -61,10 +57,10 @@ github = "bdcaf"
 twitter = "c_decaf"
 
 cachebuster = true
-dateform = "2. 1. 2006"
+date_format = "2006-01-02"
 dateformfull = "Mon  2. Jan 2006 15:04:05 MST"
 highlightjs = true
-lang = "en"
+#lang = "en"
 
   # Link custom CSS and JS assets
   #   (relative to /static/css and /static/js respectively)
@@ -105,13 +101,13 @@ lang = "en"
   weight = 1
 
 [[menu.main]]
-  name = "Publications"
-  url = "#publications_selected"
+  name = "Posts"
+  url = "#posts"
   weight = 2
 
 [[menu.main]]
-  name = "Posts"
-  url = "#posts"
+  name = "Publications"
+  url = "#publications_selected"
   weight = 3
 
 [[menu.main]]
@@ -119,10 +115,10 @@ lang = "en"
   url = "#projects"
   weight = 4
 
-[[menu.main]]
-  name = "Teaching"
-  url = "#teaching"
-  weight = 5
+#[[menu.main]]
+  #name = "Teaching"
+  #url = "#teaching"
+  #weight = 5
 
 [[menu.main]]
   name = "Contact"
@@ -130,9 +126,12 @@ lang = "en"
   weight = 6
 
 # Configure the English version of the website.
-[languages.de]
-  languageCode = "de-at"
-[languages.en]
-  languageCode = "en-uk"
+[Languages]
+[Languages.de]
+languageCode = "de-at"
+weight = 2
+[Languages.en]
+weight = 1
+languageCode = "en-uk"
 
 # vim: fdm=marker : 

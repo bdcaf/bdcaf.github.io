@@ -1,0 +1,308 @@
+﻿@article{RN3477,
+   author = {Amann, Anton and Ligor, Magdalena and Ligor, Tomasz and Bajtarevic, Amel and Ager, Clemens and Pienz, Martin and Denz, Hubert and Fiegl, Michael and Hilbe, Wolfgang and Weiss, Wolfgang and others and Lukas, Peter and Jamnig, Herbert and Hackl, Martin and Haidenberger, Alfred and Sponring, Andreas and Filipiak, Wojciech and Miekisch, Wolfram and Schubert, Jochen K. and Troppmair, Jakob and Buszewski, Bogusław},
+   title = {Analysis of exhaled breath for screening of lung cancer patients},
+   journal = {memo-Magazine of},
+   volume = {memo(2010)},
+   number = {3},
+   pages = {106-112},
+   DOI = {10.1007/s12254-010-0219-2s12254-010-0219-2},
+   url = {http://www.springerlink.com/index/2G4G4271214G2057.pdf},
+   year = {2010},
+   type = {Journal Article}
+}
+
+@article{RN3490,
+   author = {Bajtarevic, Amel and Ager, Clemens and Pienz, Martin and Klieber, Martin and Schwarz, Konrad Eugen and Ligor, Magdalena and Ligor, Tomasz and Filipiak, Wojciech and Denz, Hubert and Fiegl, Michael and others and Hilbe, Wolfgang and Weiss, Wolfgang and Lukas, Peter and Jamnig, Herbert and Hackl, Martin and Haidenberger, Alfred and Buszewski, Bogusław and Miekisch, Wolfram and Schubert, Jochen K. and Amann, Anton},
+   title = {Noninvasive detection of lung cancer by analysis of exhaled breath},
+   abstract = {BACKGROUND: Lung cancer is one of the leading causes of death in Europe and the western world. At present, diagnosis of lung cancer very often happens late in the course of the disease since inexpensive, non-invasive and sufficiently sensitive and specific screening methods are not available. Even though the CT diagnostic methods are good, it must be assured that "screening benefit outweighs risk, across all individuals screened, not only those with lung cancer". An early non-invasive diagnosis of lung cancer would improve prognosis and enlarge treatment options. Analysis of exhaled breath would be an ideal diagnostic method, since it is non-invasive and totally painless. METHODS: Exhaled breath and inhaled room air samples were analyzed using proton transfer reaction mass spectrometry (PTR-MS) and solid phase microextraction with subsequent gas chromatography mass spectrometry (SPME-GCMS). For the PTR-MS measurements, 220 lung cancer patients and 441 healthy volunteers were recruited. For the GCMS measurements, we collected samples from 65 lung cancer patients and 31 healthy volunteers. Lung cancer patients were in different disease stages and under treatment with different regimes. Mixed expiratory and indoor air samples were collected in Tedlar bags, and either analyzed directly by PTR-MS or transferred to glass vials and analyzed by gas chromatography mass spectrometry (GCMS). Only those measurements of compounds were considered, which showed at least a 15% higher concentration in exhaled breath than in indoor air. Compounds related to smoking behavior such as acetonitrile and benzene were not used to differentiate between lung cancer patients and healthy volunteers. RESULTS: Isoprene, acetone and methanol are compounds appearing in everybody's exhaled breath. These three main compounds of exhaled breath show slightly lower concentrations in lung cancer patients as compared to healthy volunteers (p < 0.01 for isoprene and acetone, p = 0.011 for methanol; PTR-MS measurements). A comparison of the GCMS-results of 65 lung cancer patients with those of 31 healthy volunteers revealed differences in concentration for more than 50 compounds. Sensitivity for detection of lung cancer patients based on presence of (one of) 4 different compounds not arising in exhaled breath of healthy volunteers was 52% with a specificity of 100%. Using 15 (or 21) different compounds for distinction, sensitivity was 71% (80%) with a specificity of 100%. Potential marker compounds are alcohols, aldehydes, ketones and hydrocarbons. CONCLUSION: GCMS-SPME is a relatively insensitive method. Hence compounds not appearing in exhaled breath of healthy volunteers may be below the limit of detection (LOD). PTR-MS, on the other hand, does not need preconcentration and gives much more reliable quantitative results then GCMS-SPME. The shortcoming of PTR-MS is that it cannot identify compounds with certainty. Hence SPME-GCMS and PTR-MS complement each other, each method having its particular advantages and disadvantages. Exhaled breath analysis is promising to become a future non-invasive lung cancer screening method. In order to proceed towards this goal, precise identification of compounds observed in exhaled breath of lung cancer patients is necessary. Comparison with compounds released from lung cancer cell cultures, and additional information on exhaled breath composition in other cancer forms will be important.},
+   journal = {BMC cancer},
+   volume = {9},
+   number = {1},
+   pages = {348-348},
+   ISSN = {1471-2407 (Electronic)
+1471-2407 (Linking)},
+   DOI = {10.1186/1471-2407-9-348},
+   url = {http://www.biomedcentral.com/1471-2407/9/348
+http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=2761408&tool=pmcentrez&rendertype=abstract
+https://www.biomedcentral.com/1471-2407/9/348
+http://download.springer.com/static/pdf/528/art%253A10.1186%252F1471-2407-9-348.pdf?originUrl=http%3A%2F%2Fhttp%3A%2F%2Fbmccancer.biomedcentral.com%2Farticle%2F10.1186%2F1471-2407-9-348&token2=exp=1452273179~acl=%2Fstatic%2Fpdf%2F528%2Fart%25253A10.1186%25252F1471-2407-9-348.pdf*~hmac=246fe47258ff7aab3d82588d12da7eba6e101718ba3dceb8cf0b78ee82f5165c},
+   year = {2009},
+   type = {Journal Article}
+}
+
+@article{RN3284,
+   author = {Elsayed, Ibrahim and Ludescher, Thomas and King, Julian and Ager, Clemens and Trosin, Michael and Senocak, Uygar and Brezany, Peter and Feilhauer, Thomas and Amann, Anton},
+   title = {Aba-Cloud: Support For Collaborative Breath Research},
+   abstract = {This paper introduces the advanced breath analysis (ABA) platform, an innovative scientific research platform for the entire breath research domain. Within the ABA project, we are investigating novel data management concepts and semantic web technologies to document breath analysis studies for the long run as well as to enable their full automatic reproducibility. We propose several concept taxonomies (a hierarchical order of terms from a glossary of terms), which can be seen as a first step toward the definition of conceptualized terms commonly used by the international community of breath researchers. They build the basis for the development of an ontology (a concept from computer science used for communication between machines and/or humans and representation and reuse of knowledge) dedicated to breath research.},
+   journal = {Journal of breath research},
+   volume = {7},
+   number = {2},
+   pages = {026007-026007},
+   ISSN = {1752-7163 (Electronic)
+1752-7155 (Linking)},
+   DOI = {10.1088/1752-7155/7/2/026007},
+   url = {http://www.ncbi.nlm.nih.gov/pubmed/23619467
+http://iopscience.iop.org/article/10.1088/1752-7155/7/2/026007/pdf},
+   year = {2013},
+   type = {Journal Article}
+}
+
+@article{RN3295,
+   author = {Filipiak, Wojciech and Filipiak, Anna and Ager, Clemens and Wiesenhofer, Helmut and Amann, Anton},
+   title = {Optimization Of Sampling Parameters For Collection And Preconcentration Of Alveolar Air By Needle Traps},
+   abstract = {The approach for breath-VOCs' collection and preconcentration by applying needle traps was developed and optimized. The alveolar air was collected from only a few exhalations under visual control of expired CO(2) into a large gas-tight glass syringe and then warmed up to 45 °C for a short time to avoid condensation. Subsequently, a specially constructed sampling device equipped with Bronkhorst® electronic flow controllers was used for automated adsorption. This sampling device allows time-saving collection of expired/inspired air in parallel onto three different needle traps as well as improvement of sensitivity and reproducibility of NT-GC-MS analysis by collection of relatively large (up to 150 ml) volume of exhaled breath. It was shown that the collection of alveolar air derived from only a few exhalations into a large syringe followed by automated adsorption on needle traps yields better results than manual sorption by up/down cycles with a 1 ml syringe, mostly due to avoided condensation and electronically controlled stable sample flow rate. The optimal profile and composition of needle traps consists of 2 cm Carbopack X and 1 cm Carboxen 1000, allowing highly efficient VOCs' enrichment, while injection by a fast expansive flow technique requires no modifications in instrumentation and fully automated GC-MS analysis can be performed with a commercially available autosampler. This optimized analytical procedure considerably facilitates the collection and enrichment of alveolar air, and is therefore suitable for application at the bedside of critically ill patients in an intensive care unit. Due to its simplicity it can replace the time-consuming sampling of sufficient breath volume by numerous up/down cycles with a 1 ml syringe.},
+   journal = {Journal of breath research},
+   volume = {6},
+   number = {2},
+   pages = {027107-027107},
+   ISSN = {1752-7163 (Electronic)
+1752-7155 (Linking)},
+   DOI = {10.1088/1752-7155/6/2/027107},
+   url = {http://www.ncbi.nlm.nih.gov/pubmed/22621839
+http://iopscience.iop.org/1752-7163/6/2/027107/pdf/1752-7163_6_2_027107.pdf},
+   year = {2012},
+   type = {Journal Article}
+}
+
+@article{RN3552,
+   author = {Filipiak, Wojciech and Filipiak, Anna and Sponring, Andreas and Schmid, Thomas and Zelger, Bettina and Ager, Clemens and Klodzinska, Ewa and Denz, Hubert and Pizzini, Alex and Lucciarini, Paolo and Jamnig, Herbert and Troppmair, Jakob and Amann, Anton and Lucciarini, Paolo and Troppmair, Jakob},
+   title = {Comparative analyses of volatile organic compounds (VOCs) from patients, tumors and transformed cell lines for the validation of lung cancer-derived breath markers},
+   abstract = {Breath analysis for the purpose of non-invasive diagnosis of lung cancer has yielded numerous candidate compounds with still questionable clinical relevance. To arrive at suitable volatile organic compounds our approach combined the analysis of different sources: isolated tumor samples compared to healthy lung tissues, and exhaled breath from lung cancer patients and healthy controls. Candidate compounds were further compared to substances previously identified in the comparison of transformed and normal lung epithelial cell lines. For human studies, a breath sampling device was developed enabling automated and CO2-controlled collection of the end-tidal air. All samples were first preconcentrated on multibed sorption tubes and analyzed with gas chromatography mass spectrometry (GC-MS). Significantly (p < 0.05) higher concentrations in all three types of cancer samples studied were observed for ethanol and n-octane. Additional metabolites (inter alia 2-methylpentane, n-hexane) significantly released by lung cancer cells were observed at higher levels in cancer lung tissues and breath samples (compared to respective healthy controls) with statistical significance (p < 0.05) only in breath samples. The results obtained confirmed the cancer-related origin of volatile metabolites, e.g. ethanol and octane that were both detected at significantly (p < 0.05) elevated concentrations in all three kinds of cancer samples studied. This work is an important step towards identification of volatile breath markers of lung cancer through the demonstration of cancer-related origin of certain volatile metabolites.},
+   journal = {Cancer Epidemiology, Biomarkers & Prevention},
+   volume = {8},
+   number = {0},
+   pages = {22-22},
+   ISSN = {1752-7163 (Electronic)\n1752-7155 (Linking)},
+   DOI = {10.1088/1752-7155/8/2/027111},
+   url = {http://www.ncbi.nlm.nih.gov/pubmed/24862102
+http://iopscience.iop.org/article/10.1088/1752-7155/8/2/027111
+http://iopscience.iop.org/article/10.1088/1752-7155/8/2/027111/pdf},
+   year = {2013},
+   type = {Journal Article}
+}
+
+@article{RN13008,
+   author = {Filipiak, W. and Mochalski, P. and Filipiak, A. and Ager, C. and Cumeras, R. and Davis, C. E. and Agapiou, A. and Unterkofler, K. and Troppmair, J.},
+   title = {A Compendium of Volatile Organic Compounds (VOCs) Released By Human Cell Lines},
+   abstract = {Volatile organic compounds (VOCs) offer unique insights into ongoing biochemical processes in healthy and diseased humans. Yet, their diagnostic use is hampered by the limited understanding of their biochemical or cellular origin and their frequently unclear link to the underlying diseases. Major advancements are expected from the analyses of human primary cells, cell lines and cultures of microorganisms. In this review, a database of 125 reliably identified VOCs previously reported for human healthy and diseased cells was assembled and their potential origin is discussed. The majority of them have also been observed in studies with other human matrices (breath, urine, saliva, feces, blood, skin emanations). Moreover, continuing improvements of qualitative and quantitative analyses, based on the recommendations of the ISO-11843 guidelines, are suggested for the necessary standardization of analytical procedures and better comparability of results. The data provided contribute to arriving at a more complete human volatilome and suggest potential volatile biomarkers for future validation. Dedication:This review is dedicated to the memory of Prof. Dr. Anton Amann, who sadly passed away on January 6, 2015. He was motivator and motor for the field of breath research.},
+   journal = {Curr Med Chem},
+   volume = {23},
+   number = {20},
+   pages = {2112-31},
+   ISSN = {1875-533X (Electronic)
+0929-8673 (Linking)},
+   DOI = {10.2174/09},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/27160536},
+   year = {2016},
+   type = {Journal Article}
+}
+
+@article{RN3553,
+   author = {Filipiak, Wojciech and Ruzsanyi, Veronika and Mochalski, Paweł and Filipiak, Anna and Bajtarevic, Amel and Ager, Clemens and Denz, Hubert and Hilbe, Wolfgang and Jamnig, Herbert and Hackl, Martin and others and Dzien, Alexander and Amann, Anton},
+   title = {Dependence of exhaled breath composition on exogenous factors, smoking habits and exposure to air pollutants},
+   abstract = {Non-invasive disease monitoring on the basis of volatile breath markers is a very attractive but challenging task. Several hundreds of compounds have been detected in exhaled air using modern analytical techniques (e.g. proton-transfer reaction mass spectrometry, gas chromatography-mass spectrometry) and have even been linked to various diseases. However, the biochemical background for most of compounds detected in breath samples has not been elucidated; therefore, the obtained results should be interpreted with care to avoid false correlations. The major aim of this study was to assess the effects of smoking on the composition of exhaled breath. Additionally, the potential origin of breath volatile organic compounds (VOCs) is discussed focusing on diet, environmental exposure and biological pathways based on other's studies. Profiles of VOCs detected in exhaled breath and inspired air samples of 115 subjects with addition of urine headspace derived from 50 volunteers are presented. Samples were analyzed with GC-MS after preconcentration on multibed sorption tubes in case of breath samples and solid phase micro-extraction (SPME) in the case of urine samples. Altogether 266 compounds were found in exhaled breath of at least 10% of the volunteers. From these, 162 compounds were identified by spectral library match and retention time (based on reference standards). It is shown that the composition of exhaled breath is considerably influenced by exposure to pollution and indoor-air contaminants and particularly by smoking. More than 80 organic compounds were found to be significantly related to smoking, the largest group comprising unsaturated hydrocarbons (29 dienes, 27 alkenes and 3 alkynes). On the basis of the presented results, we suggest that for the future understanding of breath data it will be necessary to carefully investigate the potential biological origin of volatiles, e.g., by means of analysis of tissues, isolated cell lines or other body fluids. In particular, VOCs linked to smoking habit or being the results of human exposure should be considered with care for clinical diagnosis since small changes in their concentration profiles (typically in the ppt(v)-ppb(v) range) revealing that the outbreak of certain disease might be hampered by already high background.},
+   journal = {Journal of Breath Research},
+   volume = {6},
+   number = {3},
+   pages = {036008-036008},
+   DOI = {10.1088/1752-7155/6/3/036008},
+   url = {http://iopscience.iop.org/1752-7163/6/3/036008/
+http://www.ncbi.nlm.nih.gov/pubmed/22932429
+http://iopscience.iop.org/article/10.1088/1752-7155/6/3/036008
+http://iopscience.iop.org/article/10.1088/1752-7155/6/3/036008/pdf},
+   year = {2012},
+   type = {Journal Article}
+}
+
+@article{RN3554,
+   author = {Filipiak, Wojciech and Sponring, Andreas and Bauer, Maria and Ager, Clemens and Filipiak, Anna and Wiesenhofer, Helmut and Nagl, Markus and Troppmair, Jakob and Amann, Anton and Baur, Maria M. and Ager, Clemens and Filipiak, Anna and Wiesenhofer, Helmut and Nagl, Markus and Troppmair, Jakob and Amann, Anton},
+   title = {Characterization of volatile metabolites taken up by or released from Streptococcus pneumoniae and Haemophilus influenzae by using GC-MS},
+   abstract = {Volatile organic compounds (VOCs) released from or taken up by Streptococcus pneumoniae and Haemophilus influenzae cultures were analysed by means of GC-MS after adsorption of headspace samples on multi-bed sorption tubes. Sampling was performed at different time points during cultivation of bacteria to follow the dynamics of VOC metabolism. VOCs were identified not only by spectral library match but also based on retention times of native standards. As many as 34 volatile metabolites were released from S. pneumoniae and 28 from H. influenzae, comprising alcohols, aldehydes, esters, hydrocarbons, ketones and sulfur-containing compounds. For both species, acetic acid, acetaldehyde, methyl methacrylate, 2,3-butanedione and methanethiol were found in strongly elevated concentrations and 1-butanol and butanal in moderately elevated concentrations. In addition, characteristic volatile biomarkers were detected for both bacterial species and exclusively for S. pneumoniae, also catabolism of aldehydes (3-methylbutanal and hexanal) was found. The results obtained provide important input into the knowledge about volatile bacterial biomarkers, which may become particularly important for detection of pathogens in upper airways by breath-gas analysis in the future.},
+   journal = {Microbiology (Reading, England)},
+   volume = {158},
+   number = {Pt 12},
+   pages = {3044-53},
+   ISSN = {1465-2080 (Electronic)
+1350-0872 (Linking)},
+   DOI = {10.1099/mic.0.062687-0},
+   url = {http://www.ncbi.nlm.nih.gov/pubmed/23059976
+http://cat.inist.fr/?aModele=afficheN&cpsidt=26727487},
+   year = {2012},
+   type = {Journal Article}
+}
+
+@article{RN3555,
+   author = {Filipiak, Wojciech and Sponring, Andreas and Baur, Maria Magdalena and Filipiak, Anna and Ager, Clemens and Wiesenhofer, Helmut and Nagl, Markus and Troppmair, Jakob and Amann, Anton and Bauer, Maria and Filipiak, Anna and Ager, Clemens and Wiesenhofer, Helmut and Nagl, Markus and Troppmair, Jakob and Amann, Anton and Baur, Maria Magdalena and Filipiak, Anna and Ager, Clemens and Wiesenhofer, Helmut and Nagl, Markus and Troppmair, Jakob and Amann, Anton},
+   title = {Molecular analysis of volatile metabolites released specifically by Staphylococcus aureus and Pseudomonas aeruginosa},
+   abstract = {BACKGROUND: The routinely used microbiological diagnosis of ventilator associated pneumonia (VAP) is time consuming and often requires invasive methods for collection of human specimens (e.g. bronchoscopy). Therefore, it is of utmost interest to develop a non-invasive method for the early detection of bacterial infection in ventilated patients, preferably allowing the identification of the specific pathogens. The present work is an attempt to identify pathogen-derived volatile biomarkers in breath that can be used for early and non- invasive diagnosis of ventilator associated pneumonia (VAP). For this purpose, in vitro experiments with bacteria most frequently found in VAP patients, i.e. Staphylococcus aureus and Pseudomonas aeruginosa, were performed to investigate the release or consumption of volatile organic compounds (VOCs). RESULTS: Headspace samples were collected and preconcentrated on multibed sorption tubes at different time points and subsequently analyzed with gas chromatography mass spectrometry (GC-MS). As many as 32 and 37 volatile metabolites were released by S. aureus and P. aeruginosa, respectively. Distinct differences in the bacteria-specific VOC profiles were found, especially with regard to aldehydes (e.g. acetaldehyde, 3-methylbutanal), which were taken up only by P. aeruginosa but released by S. aureus. Differences in concentration profiles were also found for acids (e.g. isovaleric acid), ketones (e.g. acetoin, 2-nonanone), hydrocarbons (e.g. 2-butene, 1,10-undecadiene), alcohols (e.g. 2-methyl-1-propanol, 2-butanol), esters (e.g. ethyl formate, methyl 2-methylbutyrate), volatile sulfur compounds (VSCs, e.g. dimethylsulfide) and volatile nitrogen compounds (VNCs, e.g. 3-methylpyrrole).Importantly, a significant VOC release was found already 1.5 hours after culture start, corresponding to cell numbers of ~8*106 [CFUs/ml]. CONCLUSIONS: The results obtained provide strong evidence that the detection and perhaps even identification of bacteria could be achieved by determination of characteristic volatile metabolites, supporting the clinical use of breath-gas analysis as non-invasive method for early detection of bacterial lung infections.},
+   journal = {BMC microbiology},
+   volume = {12},
+   number = {1},
+   pages = {113-113},
+   ISSN = {1471218012113},
+   DOI = {10.1186/1471-2180-12-113},
+   url = {http://www.biomedcentral.com/1471-2180/12/113
+http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=3444334&tool=pmcentrez&rendertype=abstract
+http://www.ncbi.nlm.nih.gov/pubmed/22716902
+http://download.springer.com/static/pdf/998/art%253A10.1186%252F1471-2180-12-113.pdf?originUrl=http%3A%2F%2Fhttp%3A%2F%2Fbmcmicrobiol.biomedcentral.com%2Farticle%2F10.1186%2F1471-2180-12-113&token2=exp=1453735158~acl=%2Fstatic%2Fpdf%2F998%2Fart%25253A10.1186%25252F1471-2180-12-113.pdf*~hmac=b96750d3569bcad3dbb5efd212d8d82f20848a9658b1bc8da875d29a3588257c},
+   year = {2012},
+   type = {Journal Article}
+}
+
+@article{RN6469,
+   author = {Filipiak, Wojciech and Sponring, A. and Filipiak, A. and Ager, C. and Schubert, J. and Miekisch, W. and Amann, Anton and Troppmair, J.},
+   title = {TD-GC-MS analysis of volatile metabolites of human lung cancer and normal cells in vitro},
+   abstract = {The aim of this study was to confirm the existence of volatile organic compounds (VOC) specifically released or consumed by the lung cancer cell line A549, which could be used in future screens as biomarkers for the early detection of lung cancer. For comparison, primary human bronchial epithelial cells (HBEpC) and human fibroblasts (hFB) were included. VOCs were detected in the headspace of cell cultures or medium controls following adsorption on solid sorbents, thermodesorption, and analysis by gas chromatography mass spectrometry. Using this approach, we identified VOCs that behaved similarly in normal and transformed cells. Thus, concentrations of 2-pentanone and 2,4-dimethyl-1-heptene were found to increase in the headspace of A549, HBEpC, and hFB cell cultures. In addition, the ethers methyl tert-butyl ether and ethyl tert-butyl ether could be detected at elevated levels in the case of A549 cells and one of the untransformed cell lines. However, especially branched hydrocarbons and alcohols were seen increased more frequently in untransformed than A549 cells. A big variety of predominantly aldehydes and the ester n-butyl acetate were found at decreased concentrations in the headspace of all cell lines tested compared with medium controls. Again, more different aldehydes were found to be decreased in hFB and HBEpC cells compared with A549 cells and 2-butenal was metabolized exclusively by both control cell lines. These data suggest that certain groups of VOCs may be preferentially associated with the transformed phenotype.},
+   journal = {Cancer Epidemiol Biomarkers Prev},
+   volume = {19},
+   number = {1},
+   pages = {182-95},
+   ISSN = {1538-7755 (Electronic)
+1055-9965 (Linking)},
+   DOI = {19/1/182 [pii]
+10.1158/1055-9965.EPI-09-0162},
+   url = {http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Citation&list_uids=20056637
+http://cebp.aacrjournals.org/content/19/1/182.full.pdf},
+   year = {2010},
+   type = {Journal Article}
+}
+
+@inbook{RN3278,
+   author = {Filipiak, Wojciech and Sponring, Andreas and Filipiak, Anna and Baur, Maria and Ager, Clemens and Wiesenhofer, Helmut and Margesin, Rosa and Nagl, Markus and Troppmair, Jakob and Amann, Anton},
+   title = {Volatile Organic Compounds (Vocs) Released By Pathogenic Microorganisms In Vitro: Potential Breath Biomarkers},
+   booktitle = {Volatile Biomarkers: Non-Invasive Diagnosis in Physiology and Medicine},
+   pages = {463},
+   ISBN = {0444626204},
+   year = {2013},
+   type = {Book Section}
+}
+
+@article{RN6470,
+   author = {Filipiak, Wojciech and Sponring, A. and Mikoviny, T. and Ager, C. and Schubert, J. and Miekisch, W. and Amann, Anton and Troppmair, J.},
+   title = {Release of volatile organic compounds (VOCs) from the lung cancer cell line CALU-1 in vitro},
+   abstract = {BACKGROUND: The aim of this work was to confirm the existence of volatile organic compounds (VOCs) specifically released or consumed by lung cancer cells. METHODS: 50 million cells of the human non-small cell lung cancer (NSCLC) cell line CALU-1 were incubated in a sealed fermenter for 4 h or over night (18 hours). Then air samples from the headspace of the culture vessel were collected and preconcentrated by adsorption on solid sorbents with subsequent thermodesorption and analysis by means of gas chromatography mass spectrometry (GC-MS). Identification of altogether 60 compounds in GCMS measurement was done not only by spectral library match, but also by determination of retention times established with calibration mixtures of the respective pure compounds. RESULTS: The results showed a significant increase in the concentrations of 2,3,3-trimethylpentane, 2,3,5-trimethylhexane, 2,4-dimethylheptane and 4-methyloctane in the headspace of CALU-1 cell culture as compared to medium controls after 18 h. Decreased concentrations after 18 h of incubation were found for acetaldehyde, 3-methylbutanal, butyl acetate, acetonitrile, acrolein, methacrolein, 2-methylpropanal, 2-butanone, 2-methoxy-2-methylpropane, 2-ethoxy-2-methylpropane, and hexanal. CONCLUSION: Our findings demonstrate that certain volatile compounds can be cancer-cell derived and thus indicative of the presence of a tumor, whereas other compounds are not released but seem to be consumed by CALU-1 cells.},
+   journal = {Cancer Cell Int},
+   volume = {8},
+   pages = {17},
+   ISSN = {1475-2867 (Electronic)
+1475-2867 (Linking)},
+   DOI = {1475-2867-8-17 [pii]
+10.1186/1475-2867-8-17},
+   url = {http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Citation&list_uids=19025629
+http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2639533/pdf/1475-2867-8-17.pdf},
+   year = {2008},
+   type = {Journal Article}
+}
+
+@article{RN3605,
+   author = {Ligor, Magdalena and Ligor, Tomasz and Bajtarevic, Amel and Ager, Clemens and Pienz, Martin and Klieber, Martin and Denz, Hubert and Fiegl, Michael and Hilbe, Wolfgang and Weiss, Wolfgang and Lukas, Peter and Jamnig, Herbert and Hackl, Martin and Buszewski, Bogusław Boguslaw and Miekisch, Wolfram and Schubert, Jochen K. and Amann, Anton},
+   title = {Determination of volatile organic compounds in exhaled breath of patients with lung cancer using solid phase microextraction and gas chromatography mass spectrometry},
+   abstract = {BACKGROUND: Analysis of exhaled breath is a promising diagnostic method. Sampling of exhaled breath is non-invasive and can be performed as often as considered desirable. There are indications that the concentration and presence of certain of volatile compounds in exhaled breath of lung cancer patients is different from concentrations in healthy volunteers. This might lead to a future diagnostic test for lung cancer. METHODS: Exhaled breath samples from 65 patients with different stages of lung cancer and undergoing different treatment regimes were analysed. Mixed expiratory and indoor air samples were collected. Solid phase microextraction (SPME) with carboxen/polydimethylsiloxane (CAR/PDMS) sorbent was applied. Compounds were analysed by means of gas chromatography (GC) and mass spectrometry (MS). RESULTS: The method we used allowed identification with the spectral library of 103 compounds showing at least 15% higher concentration in exhaled breath than in inhaled air. Among those 103 compounds, 84 were confirmed by determination of the retention time using standards based on the respective pure compound. Approximately, one third of the compounds detected were hydrocarbons. We found aromatic hydrocarbons, alcohols, aldehydes, ketones, esters, ethers, sulfur compounds, nitrogen-containing compounds and halogenated compounds. Acetonitrile and benzene were two of 10 compounds which correlated with smoking behaviour. A comparison of results from cancer patients with those of 31 healthy volunteers revealed differences in the concentration and presence of certain compounds. The sensitivity for detection of lung cancer patients based on eight different compounds not seen in exhaled breath of healthy volunteers was 51% and the specificity was 100%. These eight potential markers for detection of lung cancer are 1-propanol, 2-butanone, 3-butyn-2-ol, benzaldehyde, 2-methyl-pentane, 3-methyl-pentane, n-pentane and n-hexane. CONCLUSIONS: SPME is a relatively insensitive method and compounds not observed in exhaled breath may be present at a concentration lower than LOD. The main achievement of the present work is the validated identification of compounds observed in exhaled breath of lung cancer patients. This identification is indispensible for future work on the biochemical sources of these compounds and their metabolic pathways.},
+   journal = {Clinical chemistry and laboratory medicine},
+   volume = {47},
+   number = {5},
+   pages = {550-60},
+   ISSN = {1434-6621 (Print)
+1434-6621 (Linking)},
+   DOI = {10.1515/CCLM.2009.133},
+   url = {http://www.ncbi.nlm.nih.gov/pubmed/19397483
+http://cat.inist.fr/?aModele=afficheN&cpsidt=21500531
+http://www.degruyter.com/dg/viewarticle.fullcontentlink:pdfeventlink/$002fj$002fcclm.2009.47.issue-5$002fcclm.2009.133$002fcclm.2009.133.pdf?t:ac=j$002fcclm.2009.47.issue-5$002fcclm.2009.133$002fcclm.2009.133.xml},
+   year = {2009},
+   type = {Journal Article}
+}
+
+@article{RN3293,
+   author = {Ligor, Tomasz and Ager, Clemens and Schwarz, Konrad and Zebrowski, Wojciech and Amann, Anton and Buszewski, Boguslaw},
+   title = {Comparison of proton transfer reaction-mass spectrometry and gas chromatography-mass spectrometry in analysis of breath samples},
+   abstract = {Proton transfer reaction-mass spectrometry (PTR-MS) and gas chromatography-mass spectrometry (GC-MS) methods were compared and used for determination of volatile organic compounds in breath of patients suffering from COPD (chronic obstructive pulmonary disease). The working ranges available in PTR-MS and GC-MS were 0.3-5.8 nmol dm(-3) and 0.9-1.8 nmol dm(-3), respectively. Principal component analysis was used for comparison of sensitivity of PTR-MS and GC-MS towards particular compounds (alkanes, ketones and aldehydes).},
+   journal = {Chemia Analityczna},
+   volume = {54},
+   number = {3},
+   pages = {329},
+   ISSN = {0009-2223},
+   url = {<Go to ISI>://WOS:000268347600004},
+   year = {2009},
+   type = {Journal Article}
+}
+
+@article{RN3862,
+   author = {Ligor, Tomasz and Ligor, Magdalena and Amann, Anton and Ager, Clemens and Bachler, Miriam and Dzien, Alexander and Buszewski, Bogusław},
+   title = {The analysis of healthy volunteers' exhaled breath by the use of solid-phase microextraction and GC-MS},
+   abstract = {We analysed breath and inhaled room air samples from 39 healthy volunteers (28 non-smokers, 8 smokers and 3 ex-smokers) by SPME-GC-MS. Mixed expiratory and indoor air samples were collected in freshly cleaned Tedlar bags. Eighteen millilitres of each sample were transferred into sealed, evacuated glass vials, preconcentrated by solid-phase microextraction (SPME, carboxen/polydimethylsiloxane) and investigated by gas chromatography with mass spectrometric detection (GC-MS). For the unequivocal identification of potential marker compounds, pure calibration mixtures of reference compounds (depending on commercial availability) were prepared to determine the retention time and mass spectra with respect to our analytical setting. Applying the adapted SPME-GC/MS method with limit of detection in the high ppb range (0.05-15.00 ppb), we succeeded in identifying altogether 38 compounds with concentrations in exhaled breath being at least 50% higher than concentration in inhaled air. From these 38 compounds, 31 were identified not only by the spectral library match but also by retention time of standards. A comparison of retention times and spectrum obtained for standards and determined compounds was performed. We found hydrocarbons (isoprene, 2-pentene, 2-methyl-1-pentene, benzene, toluene, p-cymene, limonene, 2,4-dimethylheptane, n-butane), ketones (acetone, hydroxypropanone, methylvinyl ketone), ethers (dimethyl ether, 1,3-dioxolane), esters (ethyl acetate), aldehydes (propanal, hexanal, heptanal, acrolein) and alcohols (ethanol, 2-metoxyethanol, isopropyl alcohol, 2,2,3,3- tetramethylcyclopropanemethanol, 3,4-dimethylcyclohexanol). Proper identification of compounds in different cohorts of patients and volunteers is the base for further investigation of origin, biochemical background and distribution of potential breath biomarkers.},
+   journal = {Journal of Breath Research},
+   volume = {2},
+   number = {4},
+   pages = {046006-046006},
+   ISSN = {1752-7163},
+   DOI = {10.1088/1752-7155/2/4/046006},
+   url = {http://www.ncbi.nlm.nih.gov/pubmed/21386193
+http://iopscience.iop.org/1752-7163/2/4/046006/
+http://iopscience.iop.org/article/10.1088/1752-7155/2/4/046006/pdf},
+   year = {2008},
+   type = {Journal Article}
+}
+
+@article{RN3615,
+   author = {Mochalski, Paweł Pawel and Krapf, Karin and Ager, Clemens and Wiesenhofer, Helmut and Agapiou, Agapios and Statheropoulos, Milt and Fuchs, Dietmar and Ellmerer, Ernst and Buszewski, Bogusław Boguslaw and Amann, Anton},
+   title = {Temporal profiling of human urine VOCs and its potential role under the ruins of collapsed buildings},
+   abstract = {Context: The scent profile of human urine was investigated as potential source of chemical markers of human presence in collapsed buildings after natural or man-made disasters. Objective: The main goals of this study were to build a library of potential biomarkers of human urine to be used for the detection of entrapped victims and to further examine their evolution profile in time. Materials and methods: Headspace solid-phase microextraction-gas chromatography-mass spectrometry (HS-SPME-GC-MS) was used to detect and identify the volatile organic compounds (VOCs) spontaneously released from urine of 20 healthy volunteers. Additionally, the evolution of human urine headspace during four days storage at room temperature was investigated. Results: 33 omnipresent species with incidence higher than 80% were selected as potential urine markers. The most represented chemical classes were ketones with 10 representatives, aldehydes (7 species) and sulfur compounds (7 species). The monitoring of the evolution of the urine scent demonstrated an increase in the emission of 26 omnipresent urinary volatiles (rise from 36% to 526%). The highest increase was noted for dimethyldisulfide and dimethyltrisulfide (fivefold increase) and 3-methyl-2-butanone, 4-methyl-2-pentanone and 3-hexanone (fourfold rise). Only three compounds exhibited decreasing trend; dimethylsulfone, octanal and propanal. Conclusion: The ubiquitous urine VOCs identified within this study create a library of potential markers of human urine to be verified in further field studies, involving portable and sensitive instruments, directly applied in the field.},
+   journal = {Toxicology mechanisms and methods},
+   volume = {22},
+   number = {7},
+   pages = {502-11},
+   ISSN = {1537-6524 (Electronic)
+1537-6516 (Linking)},
+   DOI = {10.3109/15376516.2012.682664},
+   url = {http://www.ncbi.nlm.nih.gov/pubmed/22482743},
+   year = {2012},
+   type = {Journal Article}
+}
+
+@article{RN3292,
+   author = {Ruzsanyi, Veronika and Fischer, Lukas and Herbig, Jens and Ager, Clemens and Amann, Anton},
+   title = {Multi-Capillary-Column Proton-Transfer-Reaction Time-Of-Flight Mass Spectrometry},
+   abstract = {Proton-transfer-reaction time-of-flight mass-spectrometry (PTR-TOFMS) exhibits high selectivity with a resolution of around 5000m/Δm. While isobars can be separated with this resolution, discrimination of isomeric compounds is usually not possible. The coupling of a multi-capillary column (MCC) with a PTR-TOFMS overcomes these problems as demonstrated in this paper for the ketone isomers 3-heptanone and 2-methyl-3-hexanone and for different aldehydes. Moreover, fragmentation of compounds can be studied in detail which might even improve the identification. LODs for compounds tested are in the range of low ppbv and peak positions of the respective separated substances show good repeatability (RSD of the peak positions <3.2%). Due to its special characteristics, such as isothermal operation, compact size, the MCC setup is suitable to be installed inside the instrument and the overall retention time for a complete spectrum is only a few minutes: this allows near real-time measurements in the optional MCC mode. In contrast to other methods that yield additional separation, such as the use of pre-cursor ions other than H3O(+), this method yields additional information without increasing complexity.},
+   journal = {Journal of Chromatography A},
+   volume = {1316},
+   pages = {112-118},
+   ISSN = {1873-3778 (Electronic)
+0021-9673 (Linking)},
+   DOI = {10.1016/j.chroma.2013.09.072},
+   url = {http://linkinghub.elsevier.com/retrieve/pii/S0021967313015392
+http://www.ncbi.nlm.nih.gov/pubmed/24119758
+http://ac.els-cdn.com/S0021967313015392/1-s2.0-S0021967313015392-main.pdf?_tid=9166d9d6-b614-11e5-b4d4-00000aab0f6c&acdnat=1452263696_725c612ad9346e4888ab7364eeb5d20f},
+   year = {2013},
+   type = {Journal Article}
+}
+
+@article{RN3951,
+   author = {Sponring, Andreas and Filipiak, Wojciech and Ager, Clemens and Schubert, Jochen K. and Miekisch, Wolfram and Amann, Anton and Troppmair, Jakob},
+   title = {Analysis of volatile organic compounds (VOCs) in the headspace of NCI-H1666 lung cancer cells},
+   abstract = {Analysis of volatile organic compounds (VOCs) provides an elegant approach for cancer screening and disease monitoring, whose use is currently limited by a lack of validated cancer-derived metabolites, which may serve as biomarkers. The aim of the experiments presented here was to investigate the release and consumption of VOCs from the non small cell lung cancer cell line NCI-H1666, which was originally derived from a bronchoalveolar carcinoma.Following detachment by trypsinization suspended cells were incubated in a sealed fermenter for 21 hours. 200 ml of headspace from the cell culture were sampled, diluted with dry, highly purified air and preconcentrated by adsorption on three different solid sorbents with increasing adsorption strength. VOC-analysis was performed by thermodesorption-gas chromatography mass spectrometry (TD-GC-MS). In contrast to our previous studies experiments with NCI-H1666 cells only confirmed the consumption of several aldehydes, n-butyl acetate and the ethers methyl tert-butyl ether and ethyl tert-butyl ether, but no unequivocal release of VOCs was observed. Together with our previously published work these data indicate that the consumption of certain VOCs is commonly observed while their release shows cell line-restricted patterns, whose underlying causes are unknown.},
+   journal = {Cancer biomarkers : section A of Disease markers},
+   volume = {7},
+   number = {3},
+   pages = {153-61},
+   ISSN = {1574-0153},
+   DOI = {10.3233/CBM-2010-0182},
+   url = {http://www.ncbi.nlm.nih.gov/pubmed/21263191
+http://content.iospress.com/articles/cancer-biomarkers/cbm00182},
+   year = {2010},
+   type = {Journal Article}
+}
+
+@article{RN3288,
+   author = {Sponring, Andreas and Filipiak, Wojciech and Mikoviny, Tomas and Ager, Clemens and Schubert, Jochen and Miekisch, Wolfram and Amann, Anton and Troppmair, Jakob},
+   title = {Release Of Volatile Organic Compounds From The Lung Cancer Cell Line Nci-H2087 In Vitro},
+   abstract = {AIM: The aim of this work was to confirm the existence of volatile organic compounds (VOCs) specifically released by lung cancer cells. MATERIALS AND METHODS: NCI-H2087 cells were trypsinized and 100 x 10(6) cells were incubated in a sealed fermenter overnight. Samples from the headspace of the culture vessel were collected with simultaneous preconcentration by adsorption on solid sorbents and subsequently thermodesorbed for analysis by gas chromatography mass spectrometry (GC-MS). RESULTS: The results showed a significant increase in the concentration of 2-ethyl-1-hexanol and 2-methylpentane in the headspace as compared with medium controls. 2-Methylpentane is also found in exhaled breath of lung cancer patients in contrast to that from healthy volunteers. Statistically significantly lower abundances of acetaldehyde, 2-methylpropanal, 3-methylbutanal, 2-methylbutanal and butyl acetate were found. CONCLUSION: Our findings demonstrate that certain compounds can be cancer cell derived and thus may be indicative of the presence of a tumor. Some compounds were not released but seem to be consumed by cancer cells.},
+   journal = {Anticancer research},
+   volume = {29},
+   number = {1},
+   pages = {419-426},
+   ISSN = {0250-7005},
+   url = {http://ar.iiarjournals.org/content/29/1/419.full.pdf},
+   year = {2009},
+   type = {Journal Article}
+}
+

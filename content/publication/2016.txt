@@ -1,5 +1,6 @@
 ﻿+++
 authors = ["Amann, Anton","Ligor, Magdalena","Ligor, Tomasz","Bajtarevic, Amel","Ager, Clemens","Pienz, Martin","Denz, Hubert","Fiegl, Michael","Hilbe, Wolfgang","Weiss, Wolfgang","others","Lukas, Peter","Jamnig, Herbert","Hackl, Martin","Haidenberger, Alfred","Sponring, Andreas","Filipiak, Wojciech","Miekisch, Wolfram","Schubert, Jochen K.","Troppmair, Jakob "," Buszewski, Bogusław"]
+date = "2010-06-06"
 year = "2010"
 title = "Analysis of exhaled breath for screening of lung cancer patients"
 publication = "memo-Magazine of"
@@ -10,6 +11,7 @@ selected = false
 
 +++
 authors = ["Bajtarevic, Amel","Ager, Clemens","Pienz, Martin","Klieber, Martin","Schwarz, Konrad Eugen","Ligor, Magdalena","Ligor, Tomasz","Filipiak, Wojciech","Denz, Hubert","Fiegl, Michael","others","Hilbe, Wolfgang","Weiss, Wolfgang","Lukas, Peter","Jamnig, Herbert","Hackl, Martin","Haidenberger, Alfred","Buszewski, Bogusław","Miekisch, Wolfram","Schubert, Jochen K. "," Amann, Anton"]
+date = "2009-06-06"
 year = "2009"
 title = "Noninvasive detection of lung cancer by analysis of exhaled breath"
 publication = "BMC cancer"
@@ -21,6 +23,7 @@ selected = false
 
 +++
 authors = ["Elsayed, Ibrahim","Ludescher, Thomas","King, Julian","Ager, Clemens","Trosin, Michael","Senocak, Uygar","Brezany, Peter","Feilhauer, Thomas "," Amann, Anton"]
+date = "2013-06-06"
 year = "2013"
 title = "Aba-Cloud: Support For Collaborative Breath Research"
 publication = "Journal of breath research"
@@ -32,6 +35,7 @@ selected = false
 
 +++
 authors = ["Filipiak, Wojciech","Filipiak, Anna","Ager, Clemens","Wiesenhofer, Helmut "," Amann, Anton"]
+date = "2012-06-06"
 year = "2012"
 title = "Optimization Of Sampling Parameters For Collection And Preconcentration Of Alveolar Air By Needle Traps"
 publication = "Journal of breath research"
@@ -43,6 +47,7 @@ selected = false
 
 +++
 authors = ["Filipiak, Wojciech","Filipiak, Anna","Sponring, Andreas","Schmid, Thomas","Zelger, Bettina","Ager, Clemens","Klodzinska, Ewa","Denz, Hubert","Pizzini, Alex","Lucciarini, Paolo","Jamnig, Herbert","Troppmair, Jakob","Amann, Anton","Lucciarini, Paolo "," Troppmair, Jakob"]
+date = "2013-06-06"
 year = "2013"
 title = "Comparative analyses of volatile organic compounds (VOCs) from patients, tumors and transformed cell lines for the validation of lung cancer-derived breath markers"
 publication = "Cancer Epidemiology, Biomarkers & Prevention"
@@ -54,6 +59,7 @@ selected = false
 
 +++
 authors = ["Filipiak, W.","Mochalski, P.","Filipiak, A.","Ager, C.","Cumeras, R.","Davis, C. E.","Agapiou, A.","Unterkofler, K. "," Troppmair, J."]
+date = "2016-06-06"
 year = "2016"
 title = "A Compendium of Volatile Organic Compounds (VOCs) Released By Human Cell Lines"
 publication = "Curr Med Chem"
@@ -65,6 +71,7 @@ selected = false
 
 +++
 authors = ["Filipiak, Wojciech","Ruzsanyi, Veronika","Mochalski, Paweł","Filipiak, Anna","Bajtarevic, Amel","Ager, Clemens","Denz, Hubert","Hilbe, Wolfgang","Jamnig, Herbert","Hackl, Martin","others","Dzien, Alexander "," Amann, Anton"]
+date = "2012-06-06"
 year = "2012"
 title = "Dependence of exhaled breath composition on exogenous factors, smoking habits and exposure to air pollutants"
 publication = "Journal of Breath Research"
@@ -76,6 +83,7 @@ selected = false
 
 +++
 authors = ["Filipiak, Wojciech","Sponring, Andreas","Bauer, Maria","Ager, Clemens","Filipiak, Anna","Wiesenhofer, Helmut","Nagl, Markus","Troppmair, Jakob","Amann, Anton","Baur, Maria M.","Ager, Clemens","Filipiak, Anna","Wiesenhofer, Helmut","Nagl, Markus","Troppmair, Jakob "," Amann, Anton"]
+date = "2012-06-06"
 year = "2012"
 title = "Characterization of volatile metabolites taken up by or released from Streptococcus pneumoniae and Haemophilus influenzae by using GC-MS"
 publication = "Microbiology (Reading, England)"
@@ -87,6 +95,7 @@ selected = false
 
 +++
 authors = ["Filipiak, Wojciech","Sponring, Andreas","Baur, Maria Magdalena","Filipiak, Anna","Ager, Clemens","Wiesenhofer, Helmut","Nagl, Markus","Troppmair, Jakob","Amann, Anton","Bauer, Maria","Filipiak, Anna","Ager, Clemens","Wiesenhofer, Helmut","Nagl, Markus","Troppmair, Jakob","Amann, Anton","Baur, Maria Magdalena","Filipiak, Anna","Ager, Clemens","Wiesenhofer, Helmut","Nagl, Markus","Troppmair, Jakob "," Amann, Anton"]
+date = "2012-06-06"
 year = "2012"
 title = "Molecular analysis of volatile metabolites released specifically by Staphylococcus aureus and Pseudomonas aeruginosa"
 publication = "BMC microbiology"
@@ -98,6 +107,7 @@ selected = false
 
 +++
 authors = ["Filipiak, Wojciech","Sponring, A.","Filipiak, A.","Ager, C.","Schubert, J.","Miekisch, W.","Amann, Anton "," Troppmair, J."]
+date = "2010-06-06"
 year = "2010"
 title = "TD-GC-MS analysis of volatile metabolites of human lung cancer and normal cells in vitro"
 publication = "Cancer Epidemiol Biomarkers Prev"
@@ -118,6 +128,7 @@ selected = false
 
 +++
 authors = ["Filipiak, Wojciech","Sponring, A.","Mikoviny, T.","Ager, C.","Schubert, J.","Miekisch, W.","Amann, Anton "," Troppmair, J."]
+date = "2008-06-06"
 year = "2008"
 title = "Release of volatile organic compounds (VOCs) from the lung cancer cell line CALU-1 in vitro"
 publication = "Cancer Cell Int"
@@ -129,6 +140,7 @@ selected = false
 
 +++
 authors = ["Ligor, Magdalena","Ligor, Tomasz","Bajtarevic, Amel","Ager, Clemens","Pienz, Martin","Klieber, Martin","Denz, Hubert","Fiegl, Michael","Hilbe, Wolfgang","Weiss, Wolfgang","Lukas, Peter","Jamnig, Herbert","Hackl, Martin","Buszewski, Bogusław Boguslaw","Miekisch, Wolfram","Schubert, Jochen K. "," Amann, Anton"]
+date = "2009-06-06"
 year = "2009"
 title = "Determination of volatile organic compounds in exhaled breath of patients with lung cancer using solid phase microextraction and gas chromatography mass spectrometry"
 publication = "Clinical chemistry and laboratory medicine"
@@ -140,6 +152,7 @@ selected = false
 
 +++
 authors = ["Ligor, Tomasz","Ager, Clemens","Schwarz, Konrad","Zebrowski, Wojciech","Amann, Anton "," Buszewski, Boguslaw"]
+date = "2009-06-06"
 year = "2009"
 title = "Comparison of proton transfer reaction-mass spectrometry and gas chromatography-mass spectrometry in analysis of breath samples"
 publication = "Chemia Analityczna"
@@ -151,6 +164,7 @@ selected = false
 
 +++
 authors = ["Ligor, Tomasz","Ligor, Magdalena","Amann, Anton","Ager, Clemens","Bachler, Miriam","Dzien, Alexander "," Buszewski, Bogusław"]
+date = "2008-06-06"
 year = "2008"
 title = "The analysis of healthy volunteers' exhaled breath by the use of solid-phase microextraction and GC-MS"
 publication = "Journal of Breath Research"
@@ -162,6 +176,7 @@ selected = false
 
 +++
 authors = ["Mochalski, Paweł Pawel","Krapf, Karin","Ager, Clemens","Wiesenhofer, Helmut","Agapiou, Agapios","Statheropoulos, Milt","Fuchs, Dietmar","Ellmerer, Ernst","Buszewski, Bogusław Boguslaw "," Amann, Anton"]
+date = "2012-06-06"
 year = "2012"
 title = "Temporal profiling of human urine VOCs and its potential role under the ruins of collapsed buildings"
 publication = "Toxicology mechanisms and methods"
@@ -173,6 +188,7 @@ selected = false
 
 +++
 authors = ["Ruzsanyi, Veronika","Fischer, Lukas","Herbig, Jens","Ager, Clemens "," Amann, Anton"]
+date = "2013-06-06"
 year = "2013"
 title = "Multi-Capillary-Column Proton-Transfer-Reaction Time-Of-Flight Mass Spectrometry"
 publication = "Journal of Chromatography A"
@@ -184,6 +200,7 @@ selected = false
 
 +++
 authors = ["Sponring, Andreas","Filipiak, Wojciech","Ager, Clemens","Schubert, Jochen K.","Miekisch, Wolfram","Amann, Anton "," Troppmair, Jakob"]
+date = "2010-06-06"
 year = "2010"
 title = "Analysis of volatile organic compounds (VOCs) in the headspace of NCI-H1666 lung cancer cells"
 publication = "Cancer biomarkers : section A of Disease markers"
@@ -195,6 +212,7 @@ selected = false
 
 +++
 authors = ["Sponring, Andreas","Filipiak, Wojciech","Mikoviny, Tomas","Ager, Clemens","Schubert, Jochen","Miekisch, Wolfram","Amann, Anton "," Troppmair, Jakob"]
+date = "2009-06-06"
 year = "2009"
 title = "Release Of Volatile Organic Compounds From The Lung Cancer Cell Line Nci-H2087 In Vitro"
 publication = "Anticancer research"

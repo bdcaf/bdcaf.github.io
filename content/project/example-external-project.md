@@ -24,5 +24,6 @@ external_link = "http://example.org"
 # Does the project detail page use math formatting?
 math = false
 
+draft = true
 +++
 
