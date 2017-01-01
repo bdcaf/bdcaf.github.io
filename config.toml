@@ -6,6 +6,8 @@ theme = "academic"
 copyright = "Inhaber: Clemens Ager, Brixlegg, 2015"
 MetaDataFormat = "yaml"
 
+ignoreFiles = [ "\\.sh$", "\\.tmp$", "\\.txt" ]
+
 enableEmoji = true
 footnotereturnlinkcontents = "<sup>^</sup>"
 
@@ -22,11 +24,11 @@ layoutdir = "layouts"
 publishdir = "public"
 pygmentsuseclasses = true
 disqusshortname = ""
-pluralizelisttitles = false
+pluralizelisttitles = true
 
 [params]
 name = "Clemens Ager"
-role = "Rechenknecht"
+role = "Rechenknecht // PhD Candidate // Physiker"
 organization = "Universität Innsbruck"
 author = "Clemens Ager"
 address = "Innrain 66, 6020 Innsbruck"
@@ -41,7 +43,7 @@ email = "clemens.ager@uibk.ac.at"
 logofile = "images/logo.png"
 faviconfile = "images/logo.png"
 
-math = true
+math = false
 sharing = false
 
 # Social accounts. Link to these accounts are displayed in the header and footer.
@@ -62,76 +64,77 @@ dateformfull = "Mon  2. Jan 2006 15:04:05 MST"
 highlightjs = true
 #lang = "en"
 
-  # Link custom CSS and JS assets
-  #   (relative to /static/css and /static/js respectively)
-  custom_css = []
-  custom_js  = []
+# Link custom CSS and JS assets
+#   (relative to /static/css and /static/js respectively)
+custom_css = []
+custom_js  = []
 
 [blackfriday]
-  hrefTargetBlank = true
+hrefTargetBlank = true
 
-  [[params.social]]
-  icon = "envelope"
-  icon_pack = "fa"
-  link = "mailto:clemens.ager@uibk.ac.at"
+[[params.social]]
+icon = "envelope"
+icon_pack = "fa"
+link = "mailto:clemens.ager@uibk.ac.at"
 
-  [[params.social]]
-  icon = "twitter"
-  icon_pack = "fa"
-  link = "//twitter.com/c_decaf"
+[[params.social]]
+icon = "twitter"
+icon_pack = "fa"
+link = "//twitter.com/c_decaf"
 
-  [[params.social]]
-  icon = "google-scholar"
-  icon_pack = "ai"
-  link = "https://scholar.google.co.uk/citations?user=Agq35HgAAAAJ"
+[[params.social]]
+icon = "google-scholar"
+icon_pack = "ai"
+link = "https://scholar.google.co.uk/citations?user=Agq35HgAAAAJ"
 
-  [[params.social]]
-  icon = "github"
-  icon_pack = "fa"
-  link = "//github.com/bdcaf"
- 
+[[params.social]]
+icon = "github"
+icon_pack = "fa"
+link = "//github.com/bdcaf"
+
 # Navigation Links
 #   To link a homepage widget, specify the URL as a hash `#` followed by the filename of the
 #     desired widget in your `content/home/` folder.
 #   The weight parameter defines the order that the links will appear in.
 
 [[menu.main]]
-  name = "Home"
-  url = "#about"
-  weight = 1
+name = "Home"
+url = "#about"
+weight = 1
 
 [[menu.main]]
-  name = "Posts"
-  url = "#posts"
-  weight = 2
+name = "Posts"
+url = "#posts"
+weight = 2
 
 [[menu.main]]
-  name = "Publications"
-  url = "#publications_selected"
-  weight = 3
+name = "Publications"
+url = "#publications_selected"
+weight = 3
 
 [[menu.main]]
-  name = "Projects"
-  url = "#projects"
-  weight = 4
+name = "Projects"
+url = "#projects"
+weight = 4
 
 #[[menu.main]]
-  #name = "Teaching"
-  #url = "#teaching"
-  #weight = 5
+#name = "Teaching"
+#url = "#teaching"
+#weight = 5
 
 [[menu.main]]
-  name = "Contact"
-  url = "#contact"
-  weight = 6
+name = "Contact"
+url = "#contact"
+weight = 6
 
 # Configure the English version of the website.
 [Languages]
-[Languages.de]
-languageCode = "de-at"
-weight = 2
 [Languages.en]
 weight = 1
 languageCode = "en-uk"
+[Languages.de]
+languageCode = "de-at"
+weight = 2
+
 
 # vim: fdm=marker : 
