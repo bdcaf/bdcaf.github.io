@@ -8,7 +8,7 @@
 
       {{ with $.Site.Params.avatar }}
       <div class="portrait" itemprop="image"
-           style="background-image: url('{{ "/img/" | relURL }}{{ . }}');">
+           style="background-image: url('{{ "img/" | absURL }}{{ . }}');">
       </div>
       {{ end }}
 
@@ -18,7 +18,7 @@
         {{ with $.Site.Params.organization }}<h3 itemprop="worksFor">{{ . }}</h3>{{ end }}
       </div>
 
-      <ul class="social-icon" aria-hidden="true">
+      <ul class="social-icon-2" aria-hidden="true">
         {{ range $.Site.Params.social }}
         {{ $pack := or .icon_pack "fa" }}
         <li>

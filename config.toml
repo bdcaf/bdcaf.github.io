@@ -1,4 +1,4 @@
-baseurl = "homepage.uibk.ac.at/~c1891011/"
+baseurl = "//homepage.uibk.ac.at/~c1891011/"
 author = "Clemens Ager"
 title = "Clemens Ager"
 theme = "academic"
@@ -6,7 +6,7 @@ theme = "academic"
 copyright = "Inhaber: Clemens Ager, Brixlegg, 2015"
 MetaDataFormat = "yaml"
 
-ignoreFiles = [ "\\.sh$", "\\.tmp$", "\\.txt" ]
+ignoreFiles = [ "\\.sh$", "\\.tmp$", "\\.txt", "\\.old", "\\.DS_Store"]
 
 enableEmoji = true
 footnotereturnlinkcontents = "<sup>^</sup>"
@@ -26,9 +26,12 @@ pygmentsuseclasses = true
 disqusshortname = ""
 pluralizelisttitles = true
 
+[permalinks]
+    post = "/:year/:month/:day/:slug"
+
 [params]
 name = "Clemens Ager"
-role = "Rechenknecht // PhD Candidate // Physiker"
+role = "Number Cruncher // PhD Candidate // Physicist"
 organization = "Universität Innsbruck"
 author = "Clemens Ager"
 address = "Innrain 66, 6020 Innsbruck"
@@ -52,7 +55,7 @@ sharing = false
 #linkedin = "at.linkedin.com/pub/clemens-ager/95/8a2/122"
 #mixpanel_api_key = "Your Mixpanel API key"
 #stackoverflow = "471614"
-avatar = "/~c1891011/img/avatar.png"
+avatar = "avatar.png"
 contact = "mailto:clemens.ager@uibk.ac.at"
 linkedin = "clemens-ager-1228a295"
 github = "bdcaf"
@@ -66,7 +69,7 @@ highlightjs = true
 
 # Link custom CSS and JS assets
 #   (relative to /static/css and /static/js respectively)
-custom_css = []
+custom_css = ["cle.css"]
 custom_js  = []
 
 [blackfriday]
@@ -92,13 +95,18 @@ icon = "github"
 icon_pack = "fa"
 link = "//github.com/bdcaf"
 
+[[params.social]]
+icon = "linkedin"
+icon_pack = "fa"
+link = "//at.linkedin.com/in/clemens-ager-1228a295"
+
 # Navigation Links
 #   To link a homepage widget, specify the URL as a hash `#` followed by the filename of the
 #     desired widget in your `content/home/` folder.
 #   The weight parameter defines the order that the links will appear in.
 
 [[menu.main]]
-name = "Home"
+name = "About"
 url = "#about"
 weight = 1
 

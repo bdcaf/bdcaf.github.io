@@ -7,7 +7,7 @@ draft = false
 widget = "about"
 
 # Order that this section will appear in.
-weight = 0
+weight = 01
 
 # List your academic interests.
 [interests]
@@ -19,12 +19,28 @@ weight = 0
 
 # List your qualifications (such as academic degrees).
 [[education.courses]]
-  course = "Mag.rer.nat"
-  institution = "Universität Innsbruck"
+  course = "HTBLA Chemical Engineering"
+  institution = "HTBLA Wels"
+  year = 1997
+[[education.courses]]
+  course = "Mag.rer.nat Physics"
+  institution = "University Innsbruck"
   year = 2012
 
 +++
 
-# Biographie
+# Biography
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate. 
+Born in [1977](https://en.wikipedia.org/wiki/1977). 
+
+Joined the [institute of breath
+research](https://www.uibk.ac.at/breath-research/) in 2005. 
+
+Current research interests include:
+
+  - [R](https://www.r-project.org/) programming
+  - Functional programming in [Haskell](https://www.haskell.org/)
+  - Data visualization
+  - Modelling real time processes
+
+
