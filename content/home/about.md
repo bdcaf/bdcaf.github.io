@@ -14,6 +14,7 @@ weight = 01
   interests = [
     "Life Science",
     "Machine Learning",
+    "Mass Spectrometry",
     "Programming",
     "Statistics"
   ]
