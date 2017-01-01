@@ -31,8 +31,8 @@ pluralizelisttitles = true
 
 [params]
 name = "Clemens Ager"
-role = "Number Cruncher // PhD Candidate // Physicist"
-organization = "Universität Innsbruck"
+role = "Number Cruncher // PhD Candidate // Physicist"
+organization = "University Innsbruck"
 author = "Clemens Ager"
 address = "Innrain 66, 6020 Innsbruck"
 bio = "Rechenknecht //Student" # Short subtitle/tagline.  This is displayed in the header.  
@@ -42,19 +42,12 @@ description = "Rechenknecht, Student"
 subtitle = "Sammlung von Nützlichem und Kuriosem"
 authorlocation = "Tirol"
 email = "clemens.ager@uibk.ac.at"
-#logo = "images/logo.png"
-logofile = "images/logo.png"
-faviconfile = "images/logo.png"
 
 math = false
 sharing = false
 
 # Social accounts. Link to these accounts are displayed in the header and footer.
-#ga_api_key = "Your Google Analytics tracking id"
 #keybase = "Your keybase.io username"
-#linkedin = "at.linkedin.com/pub/clemens-ager/95/8a2/122"
-#mixpanel_api_key = "Your Mixpanel API key"
-#stackoverflow = "471614"
 avatar = "avatar.png"
 contact = "mailto:clemens.ager@uibk.ac.at"
 linkedin = "clemens-ager-1228a295"
