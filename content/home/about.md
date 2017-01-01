@@ -13,14 +13,15 @@ weight = 01
 [interests]
   interests = [
     "Life Science",
-    "Statistic",
-    "Machine Learning"
+    "Machine Learning",
+    "Programming",
+    "Statistics"
   ]
 
 # List your qualifications (such as academic degrees).
 [[education.courses]]
   course = "HTBLA Chemical Engineering"
-  institution = "HTBLA Wels"
+  institution = "HTL Wels"
   year = 1997
 [[education.courses]]
   course = "Mag.rer.nat Physics"
