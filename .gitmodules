@@ -1,6 +1,3 @@
 [submodule "themes"]
 	path = themes
 	url = https://github.com/spf13/hugoThemes
-[submodule "theme4"]
-	path = theme4
-	url = https://github.com/spf13/hugoThemes
