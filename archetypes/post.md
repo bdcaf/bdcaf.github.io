@@ -1,7 +1,6 @@
 +++
 Description = ""
 Tags = []
+lang = "en"
 +++
-
-<!--more-->
 
