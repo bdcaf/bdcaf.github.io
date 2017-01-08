@@ -3,7 +3,7 @@ author = "Clemens Ager"
 title = "Clemens Ager"
 theme = "academic"
 # Copyright notice. This is displayer in the footer.
-copyright = "Inhaber: Clemens Ager, Brixlegg, 2015"
+copyright = "Clemens Ager, Brixlegg"
 MetaDataFormat = "yaml"
 
 ignoreFiles = [ "\\.sh$", "\\.tmp$", "\\.txt", "\\.old", "\\.DS_Store"]

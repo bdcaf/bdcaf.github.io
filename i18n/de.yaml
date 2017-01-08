@@ -3,6 +3,11 @@
 - id: toggle_navigation
   translation: Navigation
 
+- id: owner
+  translation: Inhaber
+- id: last_change
+  translation: letztes Update
+
 # Buttons
 
 - id: btn_details
