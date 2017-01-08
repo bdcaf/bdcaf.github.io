@@ -62,7 +62,7 @@ highlightjs = true
 
 # Link custom CSS and JS assets
 #   (relative to /static/css and /static/js respectively)
-custom_css = ["cle.css"]
+custom_css = ["cle.css", "flags.css"]
 custom_js  = []
 
 [blackfriday]

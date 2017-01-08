@@ -47,15 +47,17 @@
           </a>
         </li>
 
-
         {{ end }}
         {{ end }}
 
 		{{ if .IsTranslated }}
-		{{ i18n "translations" }}
-		{{ range .Translations }}
-		<li><a href="{{ .Permalink }}">{{ .Lang }}</a></li>
+		  {{ i18n "translations" }}
+		  {{ range .Translations }}
+		  <li><a href="{{ .Permalink }}">
+			  <span class="flag flag-{{.Lang}}" />
+			</a></li>
 		{{ end }}
+
       </ul>
 
     </div><!-- /.navbar-collapse -->
