@@ -31,12 +31,8 @@ pluralizelisttitles = true
 
 [params]
 name = "Clemens Ager"
-role = "Number Cruncher // PhD Candidate // Physicist"
-organization = "University Innsbruck"
 author = "Clemens Ager"
 address = "Innrain 66, 6020 Innsbruck"
-bio = "Rechenknecht //Student" # Short subtitle/tagline.  This is displayed in the header.  
-bio_full = "Clemens Ager: Rechenknecht"
 bio_twitter = "c_decaf" 
 description = "Rechenknecht, Student"
 subtitle = "Sammlung von Nützlichem und Kuriosem"
@@ -97,7 +93,8 @@ link = "//at.linkedin.com/in/clemens-ager-1228a295"
 #   To link a homepage widget, specify the URL as a hash `#` followed by the filename of the
 #     desired widget in your `content/home/` folder.
 #   The weight parameter defines the order that the links will appear in.
-
+#{{{
+# {{{
 [[menu.main]]
 name = "About"
 url = "#about"
@@ -127,14 +124,47 @@ weight = 4
 name = "Contact"
 url = "#contact"
 weight = 6
+# }}}
+# {{{
+[[Languages.de.menu.main]]
+name = "Über"
+url = "#about.de"
+weight = 1
+
+[[Languages.de.menu.main]]
+name = "Posts"
+url = "#posts.de"
+weight = 2
+
+[[Languages.de.menu.main]]
+name = "Publikationen"
+url = "#publications_selected.de"
+weight = 3
+
+[[Languages.de.menu.main]]
+name = "Projects"
+url = "#projects.de"
+weight = 4
+
+[[Languages.de.menu.main]]
+name = "Kontakt"
+url = "#contact.de"
+weight = 6
+# }}}
+# }}}
 
 # Configure the English version of the website.
 [Languages]
 [Languages.en]
 weight = 1
 languageCode = "en-uk"
+role = "Number Cruncher // PhD Candidate // Physicist"
+organization = "University Innsbruck"
+
 [Languages.de]
 languageCode = "de-at"
 weight = 2
+role = "Rechenknecht // Doktoranwärter // Physiker"
+organization = "Universität Innsbruck"
 
 # vim: fdm=marker : 

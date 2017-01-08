@@ -5,7 +5,7 @@
 date = "2017-01-08T10:12:34"
 draft = false
 
-title = "Recent Posts"
+title = "Aktuelle Posts"
 subtitle = ""
 widget = "posts"
 
