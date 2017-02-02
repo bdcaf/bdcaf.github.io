@@ -44,7 +44,8 @@ sharing = false
 
 # Social accounts. Link to these accounts are displayed in the header and footer.
 #keybase = "Your keybase.io username"
-avatar = "portrait2.jpg"
+#avatar = "portrait2.jpg"
+avatar = "IMG_1867.png"
 contact = "mailto:clemens.ager@uibk.ac.at"
 linkedin = "clemens-ager-1228a295"
 github = "bdcaf"
