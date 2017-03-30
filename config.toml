@@ -7,6 +7,8 @@ copyright = "Clemens Ager, Brixlegg"
 MetaDataFormat = "yaml"
 
 ignoreFiles = [ "\\.sh$", "\\.tmp$", "\\.txt", "\\.old", "\\.DS_Store"]
+editor = "nvim"
+newContentEditor = "nvim"
 
 enableEmoji = true
 footnotereturnlinkcontents = "<sup>^</sup>"
