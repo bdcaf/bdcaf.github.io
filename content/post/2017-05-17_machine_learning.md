@@ -10,7 +10,6 @@ title: Machine Learning
 
 ![the comic](https://imgs.xkcd.com/comics/machine_learning.png)
 
-
 These days there also was an [article in MIT technology
 review](https://www.technologyreview.com/s/604087/the-dark-secret-at-the-heart-of-ai/?set=607864)
 criticising the same issue.
@@ -24,7 +23,7 @@ additional information mixed in.  And once a machine learning procedure
 is through all is hashed and mixed.
 
 Personally I prefer hypothesis tests in research and leave
-the classification to black magicians.  These point out 
+the classification to black magicians.  These point out
 effects that can be discussed; using not just stats but also all the
 other scientific knowledge we have at hand.  Then we can make models and
 start predicting on these.  Our models are on the more simplistic
