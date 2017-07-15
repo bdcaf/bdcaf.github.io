@@ -8,6 +8,11 @@ local:
 
 
 deploy: site
+
+deploy_bplaced: 
+	lftp -e 'mirror -R public /; quit' ager.bplaced
+
+deploy_uibk:
 	rsync -iIprmvz --exclude '.*' \
 	  --chmod=Da+rx,Fa+r --delete \
 	  public/ \
