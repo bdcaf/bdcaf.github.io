@@ -7,7 +7,12 @@ local:
 	hugo server --buildDrafts --watch
 
 
-deploy: site
+deploy: site deploy_bplaced
+
+deploy_bplaced: 
+	lftp -e "mirror --parallel=3 -R public /; quit" ager.bplaced
+
+deploy_uibk:
 	rsync -iIprmvz --exclude '.*' \
 	  --chmod=Da+rx,Fa+r --delete \
 	  public/ \

@@ -1,6 +1,6 @@
-+++
-Description = ""
-Tags = []
-lang = "en"
-+++
-
+---
+title: "{{ replace .TranslationBaseName "-" " " | title }}"
+date: {{ .Date }}
+tags:
+  -
+---
