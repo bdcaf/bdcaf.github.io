@@ -1,0 +1,15 @@
+#!/usr/bin/awk -f
+BEGIN {OUT="mddir/start"}
+/^- id: / { 
+  print "---" > OUT; 
+  close(OUT); 
+  OUT=sprintf("mddir/%s.md",substr($0, 7)); 
+  print "---" > OUT
+  print "selected: false" > OUT
+  print "lang: en" > OUT
+};
+OUT { print substr($0,3) > OUT };
+END {
+  print "---" > OUT; 
+  close(OUT); 
+};

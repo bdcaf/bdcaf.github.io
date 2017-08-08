@@ -1,7 +1,7 @@
 baseurl = "//ager.bplaced.net/"
 author = "Clemens Ager"
 title = "Clemens Ager"
-theme = "academic"
+theme = "hugo-academic"
 # Copyright notice. This is displayer in the footer.
 copyright = "Clemens Ager, Brixlegg"
 MetaDataFormat = "yaml"
