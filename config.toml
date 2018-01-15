@@ -1,4 +1,4 @@
-baseurl = "//ager.bplaced.net/"
+baseurl = "https://pages.gitlab.io/bdcaf"
 author = "Clemens Ager"
 title = "Clemens Ager"
 theme = "hugo-academic"
