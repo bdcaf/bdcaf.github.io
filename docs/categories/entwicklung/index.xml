@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Entwicklung on Clemens Ager</title>
+    <link>https://bdcaf.gitlab.io/bdcaf/categories/entwicklung/</link>
+    <description>Recent content in Entwicklung on Clemens Ager</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-uk</language>
+    <copyright>Clemens Ager, Brixlegg</copyright>
+    <lastBuildDate>Fri, 16 Nov 2012 16:13:38 +0000</lastBuildDate>
+    <atom:link href="/categories/entwicklung/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Um mal wieder Anzugeben</title>
+      <link>https://bdcaf.gitlab.io/bdcaf/2012/11/16/um-mal-wieder-anzugeben/</link>
+      <pubDate>Fri, 16 Nov 2012 16:13:38 +0000</pubDate>
+      
+      <guid>https://bdcaf.gitlab.io/bdcaf/2012/11/16/um-mal-wieder-anzugeben/</guid>
+      <description>&lt;p&gt;Um mal wieder anzugeben mein &lt;a href=&#34;http://projecteuler.net/about&#34; target=&#34;_blank&#34;&gt;Projekt Euler&lt;/a&gt; Status:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://projecteuler.net/profile/cager.png&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;http://projecteuler.net/profile/cager.png&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Spielt eigentlich sonst noch wer?&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

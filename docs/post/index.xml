@@ -1,0 +1,464 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Clemens Ager</title>
+    <link>https://bdcaf.gitlab.io/bdcaf/post/</link>
+    <description>Recent content in Posts on Clemens Ager</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-uk</language>
+    <copyright>Clemens Ager, Brixlegg</copyright>
+    <lastBuildDate>Sat, 05 Aug 2017 17:51:52 +0200</lastBuildDate>
+    <atom:link href="/post/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Package rawTof</title>
+      <link>https://bdcaf.gitlab.io/bdcaf/2017/08/05/package-rawtof/</link>
+      <pubDate>Sat, 05 Aug 2017 17:51:52 +0200</pubDate>
+      
+      <guid>https://bdcaf.gitlab.io/bdcaf/2017/08/05/package-rawtof/</guid>
+      <description>&lt;p&gt;I have just released a simple package to read PTR-TOF h5
+files.  This used to be part of a larger project on
+developing a pipeline for working with PTR-TOF files, but
+stripped from all experimental functions.  The other package
+should become a paper, so hold on for that.&lt;/p&gt;
+
+&lt;p&gt;The package can be found at
+&lt;a href=&#34;https://github.com/bdcaf/rawTof&#34; target=&#34;_blank&#34;&gt;bdcaf/rawTof&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Play aftermath</title>
+      <link>https://bdcaf.gitlab.io/bdcaf/2017/07/17/play-aftermath/</link>
+      <pubDate>Mon, 17 Jul 2017 09:38:09 +0100</pubDate>
+      
+      <guid>https://bdcaf.gitlab.io/bdcaf/2017/07/17/play-aftermath/</guid>
+      <description>&lt;p&gt;Finally have seen it.  Impressive what they did on the
+stage.  Not only a play, but they incorporated some stage
+magic as well.  They suggest strongly to #keepthesecret.  I
+can understand the show had more than one twist.&lt;/p&gt;
+
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;//www.youtube.com/embed/2jvwA5ObQeA&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34; title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+ &lt;/div&gt;
+
+</description>
+    </item>
+    
+    <item>
+      <title>Day of the cursed child</title>
+      <link>https://bdcaf.gitlab.io/bdcaf/2017/07/16/day-of-the-cursed-child/</link>
+      <pubDate>Sun, 16 Jul 2017 10:55:52 +0200</pubDate>
+      
+      <guid>https://bdcaf.gitlab.io/bdcaf/2017/07/16/day-of-the-cursed-child/</guid>
+      <description>&lt;p&gt;Finally got enough time to see &lt;a href=&#34;https://www.harrypottertheplay.com&#34; target=&#34;_blank&#34;&gt;Harry Potter and the cursed
+child&lt;/a&gt;.  It&amp;rsquo;s quite the
+investment to have two plays on a day.  Anyway finally
+seeing how it goes on.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.harrypottertheplay.com/uk/ticket-information/&#34; target=&#34;_blank&#34;&gt;
+&lt;img src=&#34;https://www.harrypottertheplay.com/uk/content/themes/full-site/build/images/elements/nest-main-tablet.png&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Move from uibk home pages</title>
+      <link>https://bdcaf.gitlab.io/bdcaf/2017/06/13/move-from-uibk-home-pages/</link>
+      <pubDate>Tue, 13 Jun 2017 18:00:00 +0100</pubDate>
+      
+      <guid>https://bdcaf.gitlab.io/bdcaf/2017/06/13/move-from-uibk-home-pages/</guid>
+      <description>&lt;p&gt;So the university is shutting down the personal home pages.
+Well it&amp;rsquo;s no big deal, though it was helpful that there was a
+server that would accept ssh connections.&lt;/p&gt;
+
+&lt;p&gt;Now I&amp;rsquo;m experimenting with the free tier of
+&lt;a href=&#34;http://www.bplaced.net&#34; target=&#34;_blank&#34;&gt;bplaced&lt;/a&gt;.  Which is basic but
+should suffice for my plain text pages.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Machine Learning</title>
+      <link>https://bdcaf.gitlab.io/bdcaf/2017/05/17/machine-learning/</link>
+      <pubDate>Wed, 17 May 2017 10:55:52 +0200</pubDate>
+      
+      <guid>https://bdcaf.gitlab.io/bdcaf/2017/05/17/machine-learning/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://xkcd.com&#34; target=&#34;_blank&#34;&gt;XKCD&lt;/a&gt; has a wonderful new comic:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://imgs.xkcd.com/comics/machine_learning.png&#34; alt=&#34;the comic&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;These days there also was an &lt;a href=&#34;https://www.technologyreview.com/s/604087/the-dark-secret-at-the-heart-of-ai/?set=607864&#34; target=&#34;_blank&#34;&gt;article in MIT technology
+review&lt;/a&gt;
+criticising the same issue.&lt;/p&gt;
+
+&lt;p&gt;For me this is a daily issue.  My colleagues usually are happy to just
+get a quick test procedure; usually on smallish data.  Chances are it
+pattern matches some noise.  But nobody will find out as reading what a
+classifier found is near impossible.  I mean sure we weed out all the
+nonsensical predictor variables &amp;ndash; but even on the sensibel there is
+additional information mixed in.  And once a machine learning procedure
+is through all is hashed and mixed.&lt;/p&gt;
+
+&lt;p&gt;Personally I prefer hypothesis tests in research and leave
+the classification to black magicians.  These point out
+effects that can be discussed; using not just stats but also all the
+other scientific knowledge we have at hand.  Then we can make models and
+start predicting on these.  Our models are on the more simplistic
+side, but at least they make hypotheses that are testable.  And
+ultimately can be used as classifier.&lt;/p&gt;
+
+&lt;p&gt;By the way another common misunderstanding is that the existence of a
+classifier is evidence for a pattern.  It couldn&amp;rsquo;t be more wrong &amp;ndash;
+machine learning will always produce a classifier, no matter whether
+there is sense to it or not.  In scientific sense it means this can not
+be falsified as there only is one outcome.&lt;/p&gt;
+
+&lt;p&gt;Too bad that too often I am required to quickly present a classifier.
+These classifiers just are so attractive to medics.  I would like to
+finish with &lt;a href=&#34;http://oneweirdkerneltrick.com/&#34; target=&#34;_blank&#34;&gt;one weird kernel trick&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://oneweirdkerneltrick.com/&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;http://oneweirdkerneltrick.com/paperfigs/vapnik.jpg&#34; alt=&#34;weird kernel trick&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Nice stuff from uibk</title>
+      <link>https://bdcaf.gitlab.io/bdcaf/2017/04/22/nice-stuff-from-uibk/</link>
+      <pubDate>Sat, 22 Apr 2017 10:54:55 +0200</pubDate>
+      
+      <guid>https://bdcaf.gitlab.io/bdcaf/2017/04/22/nice-stuff-from-uibk/</guid>
+      <description>&lt;p&gt;As I was checking whether the uibk would offer us some storage for
+&lt;a href=&#34;https://git-scm.com&#34; target=&#34;_blank&#34;&gt;git&lt;/a&gt; projects I was positively surprised they run
+a full &lt;a href=&#34;https://about.gitlab.com&#34; target=&#34;_blank&#34;&gt;gitlab&lt;/a&gt; instance.&lt;/p&gt;
+
+&lt;p&gt;Unfortunately we will be limited to 50 projects - so I will not be able
+to abandon my bitbucket account.  Anyway nice to be able to host
+potentially sensitive stuff internal.&lt;/p&gt;
+
+&lt;p&gt;Also they run
+&lt;a href=&#34;https://mattermost.uibk.ac.at/breath-research/channels/town-square&#34; target=&#34;_blank&#34;&gt;mattermost&lt;/a&gt;
+- now that looks very interesting.  Chatting without going through american
+services&amp;hellip; Need to get my friends in there.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Configuring offlineimap</title>
+      <link>https://bdcaf.gitlab.io/bdcaf/2017/03/30/configuring-offlineimap/</link>
+      <pubDate>Thu, 30 Mar 2017 10:48:59 +0200</pubDate>
+      
+      <guid>https://bdcaf.gitlab.io/bdcaf/2017/03/30/configuring-offlineimap/</guid>
+      <description>
+
+&lt;p&gt;Having most of my workflow on the commandline mailing my results using
+Tunderbird or Mail.app is sometimes quite a chore.  I would rather do
+it from inside my workflow.  &lt;a href=&#34;http://www.mutt.org/&#34; target=&#34;_blank&#34;&gt;mutt&lt;/a&gt; seems like a
+natural option.  I also quite quickly considered alternatives like
+&lt;a href=&#34;https://www.washington.edu/alpine/&#34; target=&#34;_blank&#34;&gt;alpine&lt;/a&gt; - though since I prefer
+vim for my text editing I quickly decided against it.&lt;/p&gt;
+
+&lt;h2 id=&#34;offlineimap&#34;&gt;offlineimap&lt;/h2&gt;
+
+&lt;p&gt;For mutt it quickly became aparent that I would need some external
+tool to fetch my mail.  Many sites describe
+&lt;a href=&#34;http://www.offlineimap.org/&#34; target=&#34;_blank&#34;&gt;offlineimap&lt;/a&gt; though as the maintainer
+put a message that he moved on to
+&lt;a href=&#34;https://github.com/OfflineIMAP/imapfw&#34; target=&#34;_blank&#34;&gt;imapfw&lt;/a&gt; I was worried.  Also
+my first attempt didn&amp;rsquo;t work out so I quickly decided I wanted to go
+with a &amp;ldquo;maintained&amp;rdquo; project.&lt;/p&gt;
+
+&lt;p&gt;So ultimately I ended at &lt;a href=&#34;http://isync.sourceforge.net/&#34; target=&#34;_blank&#34;&gt;isync&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Initial configurations that I frankensteined together didn&amp;rsquo;t work
+either so I had to go on debugging.&lt;/p&gt;
+
+&lt;h3 id=&#34;certificate-woes&#34;&gt;certificate woes&lt;/h3&gt;
+
+&lt;p&gt;I immediately got certificate errors.  Even for google.  In the
+configuration the have a commented line for certificates in the home
+directory.  So I decided to get them for myself.  Since I am behind
+the universities firewall in the same subnet as the mail servers I was
+not to worried that someone might MITM me bad certs.&lt;/p&gt;
+
+&lt;p&gt;In short I used&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;[~]$ openssl s_client -connect mailserver.uni.ac.at:993 -showcerts &amp;gt; crt
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;to download them. Basically I replace mailserver.uni.ac.at with my
+servers.  Then I used trusty old vim to cut the blocks from
+&lt;code&gt;-----BEGIN CERTIFICATE-----&lt;/code&gt; down to &lt;code&gt;-----END CERTIFICATE-----&lt;/code&gt;
+(including those lines) into individual files which I named based on
+the identification before the blocks.&lt;/p&gt;
+
+&lt;h3 id=&#34;passwords&#34;&gt;passwords&lt;/h3&gt;
+
+&lt;p&gt;Along with this certificate issues I noticed that passwords often are
+put in plain text in the config files.  An absolute no-go for me.  I
+quickly discovered &lt;a href=&#34;https://www.passwordstore.org/&#34; target=&#34;_blank&#34;&gt;pass&lt;/a&gt; which uses
+gpg to encrypt them.&lt;/p&gt;
+
+&lt;p&gt;Sure still worried as these are then passed around in plain text - but
+at least I will not have them in my repositories on github.&lt;/p&gt;
+
+&lt;h3 id=&#34;oh-gmail&#34;&gt;oh gmail&lt;/h3&gt;
+
+&lt;p&gt;since most tutorials explicitely explain how to set up gmail I was
+confused why it just wouldn&amp;rsquo;t work for me!
+It just wouldn&amp;rsquo;t accept the password.  After long and useless research
+I recalled something was changed by google.  You can now &lt;a href=&#34;https://support.google.com/accounts/answer/185833&#34; target=&#34;_blank&#34;&gt;create
+passwords for less secure
+apps&lt;/a&gt; - and that
+was it.  All I had to do was create an app password on the linked
+site. Nice - so now even in the encrypted store is my google password
+and I can easily delete the one for the app.&lt;/p&gt;
+
+&lt;h3 id=&#34;final-config&#34;&gt;final config&lt;/h3&gt;
+
+&lt;p&gt;so this is what is in my &lt;code&gt;.mbsyncrc&lt;/code&gt;.  I don&amp;rsquo;t want to post it as big
+text block as one needs to fill in the values that fit ones setup.&lt;/p&gt;
+
+&lt;h5 id=&#34;accounts&#34;&gt;accounts&lt;/h5&gt;
+
+&lt;pre&gt;&lt;code&gt;IMAPAccount uibk
+Host exchange.uibk.ac.at
+User c....
+AuthMechs LOGIN
+PassCmd &amp;quot;pass Mail/uibk&amp;quot;
+SSLType IMAPS
+SSLVersions TLSv1.2
+CertificateFile ~/.cert/uibk.crt
+
+IMAPAccount gmail
+Host imap.gmail.com
+User ....@gmail.com
+AuthMechs LOGIN
+PassCmd &amp;quot;pass Mail/gmail&amp;quot;
+SSLType IMAPS
+SSLVersions TLSv1.2
+CertificateFile ~/.cert/gmail.crt
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;stores&#34;&gt;stores&lt;/h3&gt;
+
+&lt;p&gt;nothing fancy here&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;IMAPStore uibk-remote
+Account uibk
+MaildirStore uibk-local
+Path ~/Archive/Mail/Uibk/
+Inbox ~/Archive/Mail/Uibk/Inbox
+
+IMAPStore gmail-remote
+Account gmail
+MaildirStore gmail-local
+Path ~/Archive/Mail/Gmail/
+Inbox ~/Archive/Mail/Gmail/Inbox
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;though it was essential to create the folders using
+&lt;code&gt;mkdir -p ~/Archive/Mail/Gmail&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;and finally &lt;code&gt;mbsync uibk gmail&lt;/code&gt; will work without error.&lt;/p&gt;
+
+&lt;h3 id=&#34;check-automatically&#34;&gt;check automatically&lt;/h3&gt;
+
+&lt;p&gt;Gotta leave this for now.  I see there is an issue with cron on Mac.&lt;/p&gt;
+
+&lt;h2 id=&#34;mutt-later&#34;&gt;Mutt later&lt;/h2&gt;
+
+&lt;p&gt;Wow this got quite some post. I will describe how to set up mutt next
+time.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Story on Moebius</title>
+      <link>https://bdcaf.gitlab.io/bdcaf/2017/03/16/story-on-moebius/</link>
+      <pubDate>Thu, 16 Mar 2017 10:54:35 +0100</pubDate>
+      
+      <guid>https://bdcaf.gitlab.io/bdcaf/2017/03/16/story-on-moebius/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/channel/UCOGeU-1Fig3rrDjhm9Zs_wg&#34; target=&#34;_blank&#34;&gt;Vi Hart&lt;/a&gt;
+tells this lovely mathematical story.&lt;/p&gt;
+
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/4mdEsouIXGM&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Publishing work flow template</title>
+      <link>https://bdcaf.gitlab.io/bdcaf/2017/03/03/publishing-work-flow-template/</link>
+      <pubDate>Fri, 03 Mar 2017 11:20:28 +0100</pubDate>
+      
+      <guid>https://bdcaf.gitlab.io/bdcaf/2017/03/03/publishing-work-flow-template/</guid>
+      <description>&lt;p&gt;After some time my
+&lt;a href=&#34;https://github.com/audreyr/cookiecutter&#34; target=&#34;_blank&#34;&gt;cookiecutter&lt;/a&gt; templates for
+my data analysis work flow is finally in a state that I can show the
+world.  You can get it from &lt;a href=&#34;https://github.com/bdcaf/cookiecutter-r-data-analysis&#34; target=&#34;_blank&#34;&gt;github&lt;/a&gt;.
+All in all it is my way to setup a &lt;em&gt;reproducible research work flow&lt;/em&gt; -
+for too long I have just copied files around.&lt;/p&gt;
+
+&lt;p&gt;It is all about using external tools in addition to
+&lt;a href=&#34;https://r-project.org/&#34; target=&#34;_blank&#34;&gt;R&lt;/a&gt;.  The most essential being
+&lt;a href=&#34;https://www.gnu.org/software/make/&#34; target=&#34;_blank&#34;&gt;make&lt;/a&gt;.  I am very proud about the
+makefile that keeps code and data directories clean.  I am still
+considering to name the directories differently - but I have used this
+scheme for so long that it has become my second nature.  Also the way
+make tracks dependencies between code and data helps me keep sane in
+more complex analysis work flow.&lt;/p&gt;
+
+&lt;p&gt;The longest I spent on getting &lt;a href=&#34;https://yihui.name/knitr/&#34; target=&#34;_blank&#34;&gt;knitr&lt;/a&gt;
+respect the directory layout on which I insist.  But finally it seems
+to obey me.&lt;/p&gt;
+
+&lt;p&gt;I am looking forward how it will speed up my setup.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>ERJ accepted correspondence</title>
+      <link>https://bdcaf.gitlab.io/bdcaf/2017/02/21/erj-accepted-correspondence/</link>
+      <pubDate>Tue, 21 Feb 2017 11:08:13 +0100</pubDate>
+      
+      <guid>https://bdcaf.gitlab.io/bdcaf/2017/02/21/erj-accepted-correspondence/</guid>
+      <description>&lt;p&gt;Nice the &lt;a href=&#34;http://erj.ersjournals.com&#34; target=&#34;_blank&#34;&gt;ERJ&lt;/a&gt; has accepted our
+correspondence about the future of respiratory medicine.  Hope I will
+have the link soon.&lt;/p&gt;
+
+&lt;p&gt;Unfortunately I had extremely limited room to address the statistical
+issues.  Anyway writing this correspondence was a pleasant experience.
+Really hope we will have more to say soon.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>So relatable.</title>
+      <link>https://bdcaf.gitlab.io/bdcaf/2017/02/11/so-relatable./</link>
+      <pubDate>Sat, 11 Feb 2017 09:40:41 +0100</pubDate>
+      
+      <guid>https://bdcaf.gitlab.io/bdcaf/2017/02/11/so-relatable./</guid>
+      <description>&lt;p&gt;This is just soo eerily familiar.
+&lt;a href=&#34;http://phdcomics.com/comics.php?f=1922&#34; target=&#34;_blank&#34;&gt; &lt;img src=&#34;http://www.phdcomics.com/comics/archive/phd020817s.gif&#34; alt=&#34;comic&#34; /&gt; &lt;/a&gt;
+&lt;a href=&#34;http://phdcomics.com/comics.php?f=1922&#34; target=&#34;_blank&#34;&gt;phd comic&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Ever wondered about statistical mechanics?</title>
+      <link>https://bdcaf.gitlab.io/bdcaf/2017/02/08/ever-wondered-about-statistical-mechanics/</link>
+      <pubDate>Wed, 08 Feb 2017 09:53:31 +0100</pubDate>
+      
+      <guid>https://bdcaf.gitlab.io/bdcaf/2017/02/08/ever-wondered-about-statistical-mechanics/</guid>
+      <description>&lt;p&gt;&lt;blockquote class=&#34;twitter-tweet&#34; data-lang=&#34;en&#34;&gt;&lt;p lang=&#34;en&#34;
+dir=&#34;ltr&#34;&gt;This is a very ominous first paragraph of a textbook (States
+of Matter, by David Goodstein): &lt;a
+href=&#34;https://t.co/POlhOdQNaV&#34;&gt;pic.twitter.com/POlhOdQNaV&lt;/a&gt;&lt;/p&gt;&amp;mdash;
+Julia Galef (@juliagalef) &lt;a
+href=&#34;https://twitter.com/juliagalef/status/829400130185023500&#34;&gt;February
+8, 2017&lt;/a&gt;&lt;/blockquote&gt; &lt;script async
+src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+
+&lt;p&gt;At least the book got it right 😺&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Publication word cloud</title>
+      <link>https://bdcaf.gitlab.io/bdcaf/2017/01/19/publication-word-cloud/</link>
+      <pubDate>Thu, 19 Jan 2017 12:56:26 +0100</pubDate>
+      
+      <guid>https://bdcaf.gitlab.io/bdcaf/2017/01/19/publication-word-cloud/</guid>
+      <description>&lt;p&gt;I wanted to play with word clouds for some time. Usually the problem
+is to obtain a nice corpus.  Luckily
+&lt;a href=&#34;https://felixfan.github.io/PubMedWordcloud/&#34; target=&#34;_blank&#34;&gt;PubMedWordCloud&lt;/a&gt; was
+recently updated and I had something to play with.&lt;/p&gt;
+
+&lt;p&gt;The initial cloud looks not good enough - I did not like how plurals
+are counted separately.
+Since I couldn&amp;rsquo;t clean it up easy enough I ended up going back to the
+&lt;a href=&#34;https://cran.r-project.org/web/packages/tm/index.html&#34; target=&#34;_blank&#34;&gt;tm&lt;/a&gt; package
+and roll my own script.  Unfortunately it&amp;rsquo;s far from publishable.&lt;/p&gt;
+
+&lt;p&gt;Anyway the result is way more to my liking.
+&lt;img src=&#34;https://bdcaf.gitlab.io/bdcaf/img/wc_clean.png&#34; alt=&#34;clean word cloud&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;My final script looks like this - I still use &lt;code&gt;getAbstracts&lt;/code&gt; from
+&lt;code&gt;PubMedWordCloud&lt;/code&gt;.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;library(PubMedWordcloud)  
+library(tm)
+library(wordcloud)
+library(magrittr)
+
+pmids &amp;lt;- getPMIDs(author=&amp;quot;Clemens Ager&amp;quot;,dFrom=2002,dTo=2016,n=30)
+
+abstracts &amp;lt;- getAbstracts(pmids)
+corp &amp;lt;- VCorpus(VectorSource(abstracts))
+
+f &amp;lt;- content_transformer(function(x, pattern) gsub(pattern, &amp;quot;&amp;quot;, x))
+c1 &amp;lt;- tm_map(corp, removePunctuation) %&amp;gt;% 
+  tm_map(removeNumbers) %&amp;gt;% 
+  tm_map(content_transformer(tolower)) %&amp;gt;% 
+  tm_map(content_transformer(function(x) gsub(&amp;quot;([^si])s\\&amp;gt;&amp;quot;, &amp;quot;\\1&amp;quot;, x))) %&amp;gt;% 
+  tm_map(removeWords, stopwords(&amp;quot;english&amp;quot;)) %&amp;gt;%
+  tm_map(removeWords, c(&amp;quot;also&amp;quot;, &amp;quot;thus&amp;quot;, &amp;quot;three&amp;quot;, &amp;quot;calu&amp;quot;, &amp;quot;hbepc&amp;quot;, &amp;quot;gcm&amp;quot;, &amp;quot;ptrm&amp;quot;)) %&amp;gt;%
+  tm_map(stripWhitespace) %&amp;gt;%
+  tm_map(f, &amp;quot;\\&amp;lt;[[:alpha:]]{,2}\\&amp;gt;\\W+&amp;quot;)
+
+
+wordcloud(c1, random.order=F, min.freq = 6, 
+		  colors = brewer.pal(9,&amp;quot;Set1&amp;quot;),
+		  rot.per= 0.3)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;I already have some ideas on where to improve - basically I could
+crawl our pdfs as well.  But for today I&amp;rsquo;m done.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>After three months finally an Euler result again</title>
+      <link>https://bdcaf.gitlab.io/bdcaf/2017/01/14/after-three-months-finally-an-euler-result-again/</link>
+      <pubDate>Sat, 14 Jan 2017 10:14:24 +0100</pubDate>
+      
+      <guid>https://bdcaf.gitlab.io/bdcaf/2017/01/14/after-three-months-finally-an-euler-result-again/</guid>
+      <description>&lt;p&gt;Having spent three months on and off a problem I finally managed to
+sufficiently solve &lt;a href=&#34;https://projecteuler.net/problem=110&#34; target=&#34;_blank&#34;&gt;Problem
+110&lt;/a&gt;.  Strange how problems
+change once you work on &lt;em&gt;huge&lt;/em&gt; numbers.&lt;/p&gt;
+
+&lt;p&gt;But now I can again proudly present my score
+&lt;a href=&#34;https://projecteuler.net&#34;&gt;&lt;img
+src=&#34;https://projecteuler.net/profile/cager.png&#34;, alt=&#34;Project Euler
+Score&#34;/&gt;&lt;/a&gt;.
+Nicely this puts me in the statistics of active ones on place 19 in
+Austria.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>WTF - LOQ</title>
+      <link>https://bdcaf.gitlab.io/bdcaf/2017/01/11/wtf---loq/</link>
+      <pubDate>Wed, 11 Jan 2017 13:53:20 +0100</pubDate>
+      
+      <guid>https://bdcaf.gitlab.io/bdcaf/2017/01/11/wtf---loq/</guid>
+      <description>&lt;p&gt;Just got &lt;a href=&#34;http://dx.doi.org/10.1088/1752-7155/10/4/045001&#34; target=&#34;_blank&#34;&gt;Imputing defensible values for left-censored ‘below level of
+quantitation’ (LoQ) biomarker
+measurements&lt;/a&gt; forwarded.  It
+starts as interesting read stating the problem but IMHO ultimatively fails to
+address the problem.
+I am especially disappointed that neither the IUPAC definition and guidelines
+are mentioned, nor the current ISO 11843.  Especially the works of &lt;a href=&#34;https://scholar.google.at/scholar?q=lloyd+a+currie&#34; target=&#34;_blank&#34;&gt;Lloyd A.
+Currie&lt;/a&gt; offer great insight
+in this topic.&lt;/p&gt;
+
+&lt;p&gt;The whole idea of censoring values below LOQ was already debunked by Currie.
+While I find the whole censored data method is promising I expect it useful for
+cases where the measurement device reaches its limits - not cases of manual
+censorship.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Homes on Clemens Ager</title>
+    <link>https://bdcaf.gitlab.io/bdcaf/de/home/</link>
+    <description>Recent content in Homes on Clemens Ager</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>de-at</language>
+    <copyright>Clemens Ager, Brixlegg</copyright>
+    <lastBuildDate>Sun, 08 Jan 2017 10:12:34 +0000</lastBuildDate>
+    <atom:link href="/de/home/" rel="self" type="application/rss+xml" />
+    
+  </channel>
+</rss>

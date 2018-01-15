@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+	
+	<sitemap>
+	   	<loc>https://bdcaf.gitlab.io/bdcaf/en/sitemap.xml</loc>
+		
+	   	<lastmod>2017-08-05T17:51:52+02:00</lastmod>
+		
+	</sitemap>
+	
+	<sitemap>
+	   	<loc>https://bdcaf.gitlab.io/bdcaf/de/sitemap.xml</loc>
+		
+	   	<lastmod>2017-01-08T10:12:34+00:00</lastmod>
+		
+	</sitemap>
+	
+</sitemapindex>
