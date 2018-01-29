@@ -6,7 +6,6 @@ categories:
 - Reise
 tags:
 - dubai
-- featured
 - reise
 - silvester
 ---
