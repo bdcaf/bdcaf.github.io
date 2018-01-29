@@ -1,4 +1,4 @@
-baseurl = "https://bdcaf.gitlab.io/bdcaf/"
+baseurl = "https://bdcaf.gitlab.io/"
 author = "Clemens Ager"
 title = "Clemens Ager"
 theme = "hugo-academic"
