@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Statistic on C. Ager</title>
+    <link>https://bdcaf.github.io/tags/statistic/</link>
+    <description>Recent content in Statistic on C. Ager</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-uk</language>
+    <copyright>Clemens Ager, Brixlegg</copyright>
+    <lastBuildDate>Tue, 24 Nov 2015 10:40:57 +0100</lastBuildDate>
+    
+	<atom:link href="https://bdcaf.github.io/tags/statistic/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Zero Axis Video</title>
+      <link>https://bdcaf.github.io/2015/11/24/zero-axis-video/</link>
+      <pubDate>Tue, 24 Nov 2015 10:40:57 +0100</pubDate>
+      
+      <guid>https://bdcaf.github.io/2015/11/24/zero-axis-video/</guid>
+      <description>&lt;p&gt;Es hat ja jeder die schwierige Diskussion um Axen die bei 0 oder nicht
+0 los gehen.  Ich verwende ja meist logarithmische - da spart man sich
+die Diskussion.&lt;/p&gt;
+
+&lt;p&gt;Da gibt es jetzt auch ein Video von Vox:&lt;/p&gt;
+
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34;
+src=&#34;https://www.youtube.com/embed/14VYnFhBKcY&#34; frameborder=&#34;0&#34;
+allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;Die rücken da die Story in den Vordergrund - das ist ein interessanter
+Gesichtspunkt.  Allerdings finde ich fast immer den Kontext ebenso
+wichtig.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Spannendes Paper</title>
+      <link>https://bdcaf.github.io/2015/10/19/spannendes-paper/</link>
+      <pubDate>Mon, 19 Oct 2015 10:17:23 +0200</pubDate>
+      
+      <guid>https://bdcaf.github.io/2015/10/19/spannendes-paper/</guid>
+      <description>&lt;p&gt;Das Paper &lt;a href=&#34;http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2627354&#34; target=&#34;_blank&#34;&gt;Surprised by the Gambler&amp;rsquo;s and Hot Hand Fallacies? A Truth in the Law of Small Numbers&lt;/a&gt;
+ist spannend für mich.  Am Ende bedeutet es, dass unsere Studien von der Statistik künstlich gehandicapt wurden.  Versuche das aufzuklären.  Leider braucht es wohl massig Simulationen und dann wird das nicht sonderlich klar.
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Statistical nightmare</title>
+      <link>https://bdcaf.github.io/2014/09/18/statistical-nightmare/</link>
+      <pubDate>Thu, 18 Sep 2014 07:42:13 +0000</pubDate>
+      
+      <guid>https://bdcaf.github.io/2014/09/18/statistical-nightmare/</guid>
+      <description>via Saturday Morning Breakfast Cereal (updated daily) http://ift.tt/1r9Mjxl</description>
+    </item>
+    
+  </channel>
+</rss>

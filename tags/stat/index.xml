@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Stat on C. Ager</title>
+    <link>https://bdcaf.github.io/tags/stat/</link>
+    <description>Recent content in Stat on C. Ager</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-uk</language>
+    <copyright>Clemens Ager, Brixlegg</copyright>
+    <lastBuildDate>Wed, 11 Jan 2017 13:53:20 +0100</lastBuildDate>
+    
+	<atom:link href="https://bdcaf.github.io/tags/stat/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>WTF - LOQ</title>
+      <link>https://bdcaf.github.io/2017/01/11/wtf---loq/</link>
+      <pubDate>Wed, 11 Jan 2017 13:53:20 +0100</pubDate>
+      
+      <guid>https://bdcaf.github.io/2017/01/11/wtf---loq/</guid>
+      <description>Just got Imputing defensible values for left-censored ‘below level of quantitation’ (LoQ) biomarker measurements forwarded. It starts as interesting read stating the problem but IMHO ultimatively fails to address the problem. I am especially disappointed that neither the IUPAC definition and guidelines are mentioned, nor the current ISO 11843. Especially the works of Lloyd A. Currie offer great insight in this topic.
+The whole idea of censoring values below LOQ was already debunked by Currie.</description>
+    </item>
+    
+  </channel>
+</rss>

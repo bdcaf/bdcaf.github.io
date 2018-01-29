@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dev on C. Ager</title>
+    <link>https://bdcaf.github.io/tags/dev/</link>
+    <description>Recent content in Dev on C. Ager</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-uk</language>
+    <copyright>Clemens Ager, Brixlegg</copyright>
+    <lastBuildDate>Fri, 30 Mar 2018 12:40:33 +0200</lastBuildDate>
+    
+	<atom:link href="https://bdcaf.github.io/tags/dev/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Layout changes</title>
+      <link>https://bdcaf.github.io/2018/03/30/layout-changes/</link>
+      <pubDate>Fri, 30 Mar 2018 12:40:33 +0200</pubDate>
+      
+      <guid>https://bdcaf.github.io/2018/03/30/layout-changes/</guid>
+      <description>I played around removing all the JavaScript dependencies of the hugo-academic template. I feel bootstrap and jQuery have little reason to be on such a simple site. By now I think I deviated from the original theme to no longer need it in the powered by section.
+Anyway should you note something amiss - let me know.</description>
+    </item>
+    
+    <item>
+      <title>Advent of Code</title>
+      <link>https://bdcaf.github.io/2017/12/04/advent-of-code/</link>
+      <pubDate>Mon, 04 Dec 2017 07:56:29 +0100</pubDate>
+      
+      <guid>https://bdcaf.github.io/2017/12/04/advent-of-code/</guid>
+      <description>There is an advent calendar for grown ups this year. advent of code gives every day a nice challenge. This year I try to remember what I learnt of Haskell. The leader board is a bit annoying as it is completely filled with people that manage to solve the problems in seconds (the problems are released at midnight EST).
+Still they are worth checking out.</description>
+    </item>
+    
+    <item>
+      <title>Makey Makey</title>
+      <link>https://bdcaf.github.io/2017/11/05/makey-makey/</link>
+      <pubDate>Sun, 05 Nov 2017 08:51:41 +0100</pubDate>
+      
+      <guid>https://bdcaf.github.io/2017/11/05/makey-makey/</guid>
+      <description>I am quite confident using make to create complex reports. As I dig into R I see they have an interesting work flow creating packages. It addresses a few important issues - tracking dependent packages, documenting stuff and testing. Most important packaging and installing on other systems can be done automatically using a single command. I want that.
+I found Makefiles mentioned several times included in the documentation - but so far haven&amp;rsquo;t figured out how they are supposed to be used.</description>
+    </item>
+    
+    <item>
+      <title>Package rawTof</title>
+      <link>https://bdcaf.github.io/2017/08/05/package-rawtof/</link>
+      <pubDate>Sat, 05 Aug 2017 17:51:52 +0200</pubDate>
+      
+      <guid>https://bdcaf.github.io/2017/08/05/package-rawtof/</guid>
+      <description>I have just released a simple package to read PTR-TOF h5 files. This used to be part of a larger project on developing a pipeline for working with PTR-TOF files, but stripped from all experimental functions. The other package should become a paper, so hold on for that.
+The package can be found at bdcaf/rawTof.</description>
+    </item>
+    
+    <item>
+      <title>Publishing work flow template</title>
+      <link>https://bdcaf.github.io/2017/03/03/publishing-work-flow-template/</link>
+      <pubDate>Fri, 03 Mar 2017 11:20:28 +0100</pubDate>
+      
+      <guid>https://bdcaf.github.io/2017/03/03/publishing-work-flow-template/</guid>
+      <description>After some time my cookiecutter templates for my data analysis work flow is finally in a state that I can show the world. You can get it from github. All in all it is my way to setup a reproducible research work flow - for too long I have just copied files around.
+It is all about using external tools in addition to R. The most essential being make. I am very proud about the makefile that keeps code and data directories clean.</description>
+    </item>
+    
+    <item>
+      <title>Category Theory Course</title>
+      <link>https://bdcaf.github.io/2016/11/05/category-theory-course/</link>
+      <pubDate>Sat, 05 Nov 2016 12:12:16 +0100</pubDate>
+      
+      <guid>https://bdcaf.github.io/2016/11/05/category-theory-course/</guid>
+      <description>Bartosz Milewski has put his category theory course on youtube.
+ An amazing introduction for newcomers. But wrapping my head around monads and comonads still feels like I haven&amp;rsquo;t fully groked the magic.</description>
+    </item>
+    
+    <item>
+      <title>Bye bye StackOverflow</title>
+      <link>https://bdcaf.github.io/2015/10/23/bye-bye-stackoverflow/</link>
+      <pubDate>Fri, 23 Oct 2015 09:08:07 +0200</pubDate>
+      
+      <guid>https://bdcaf.github.io/2015/10/23/bye-bye-stackoverflow/</guid>
+      <description>&lt;p&gt;Ich war früher großer Fan von StackOverflow.  Auch jetzt wann immer ich ein &lt;em&gt;einfaches&lt;/em&gt; Programmierproblem habe taucht die Seite mit möglichen Lösungen auf.&lt;/p&gt;
+
+&lt;p&gt;In letzter Zeit hat sich leider die Policy geändert so, dass ich es nicht mehr interessant finde.  Vor allem die strengen Relevanzkriterien machen eigentlich alle Fragestellungen die mich ursprünglich interessiert haben Offtopic.  Und lassen meiner Meinung nach nur noch Fragen zu die sich mit dem Manual problemlos lösen liesen.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Um mal wieder Anzugeben</title>
+      <link>https://bdcaf.github.io/2012/11/16/um-mal-wieder-anzugeben/</link>
+      <pubDate>Fri, 16 Nov 2012 16:13:38 +0000</pubDate>
+      
+      <guid>https://bdcaf.github.io/2012/11/16/um-mal-wieder-anzugeben/</guid>
+      <description>Um mal wieder anzugeben mein Projekt Euler Status:
+
+Spielt eigentlich sonst noch wer?</description>
+    </item>
+    
+  </channel>
+</rss>

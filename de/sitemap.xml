@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+    
+    
+    <url>
+    
+      <xhtml:link rel="alternate" href="https://bdcaf.github.io/de/" hreflang="de"/>
+      <xhtml:link rel="alternate" href="https://bdcaf.github.io/" hreflang="en"/>
+    
+      <loc>https://bdcaf.github.io/de/</loc>
+      <lastmod>2017-01-08T10:12:34+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <xhtml:link rel="alternate" href="https://bdcaf.github.io/de/categories/" hreflang="de"/>
+      <xhtml:link rel="alternate" href="https://bdcaf.github.io/categories/" hreflang="en"/>
+    
+      <loc>https://bdcaf.github.io/de/categories/</loc>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <xhtml:link rel="alternate" href="https://bdcaf.github.io/de/tags/" hreflang="de"/>
+      <xhtml:link rel="alternate" href="https://bdcaf.github.io/tags/" hreflang="en"/>
+    
+      <loc>https://bdcaf.github.io/de/tags/</loc>
+      <priority>0</priority>
+    </url>
+    
+  
+</urlset>

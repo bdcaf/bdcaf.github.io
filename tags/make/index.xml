@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Make on C. Ager</title>
+    <link>https://bdcaf.github.io/tags/make/</link>
+    <description>Recent content in Make on C. Ager</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-uk</language>
+    <copyright>Clemens Ager, Brixlegg</copyright>
+    <lastBuildDate>Sun, 05 Nov 2017 08:51:41 +0100</lastBuildDate>
+    
+	<atom:link href="https://bdcaf.github.io/tags/make/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Makey Makey</title>
+      <link>https://bdcaf.github.io/2017/11/05/makey-makey/</link>
+      <pubDate>Sun, 05 Nov 2017 08:51:41 +0100</pubDate>
+      
+      <guid>https://bdcaf.github.io/2017/11/05/makey-makey/</guid>
+      <description>I am quite confident using make to create complex reports. As I dig into R I see they have an interesting work flow creating packages. It addresses a few important issues - tracking dependent packages, documenting stuff and testing. Most important packaging and installing on other systems can be done automatically using a single command. I want that.
+I found Makefiles mentioned several times included in the documentation - but so far haven&amp;rsquo;t figured out how they are supposed to be used.</description>
+    </item>
+    
+  </channel>
+</rss>
