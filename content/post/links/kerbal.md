@@ -3,7 +3,6 @@ title: "Kerbal Space Program"
 date: 2018-01-27T14:50:00+01:00
 draft: 
 tags:
-  - link
   - game
   - space
 categories:
@@ -22,6 +21,7 @@ orbit is a challenge in the beginning.
 
 {{< figure src="/post/links/2018-01-kerbal.jpg" title="My first Mun landing without breaking stuff." >}}
 
+<!-- more -->
 The only critic point would be that one needs to learn about most
 concepts outside the game.  These may be small things like how the
 solid fuel boosters are different from rocket engines - the boosters

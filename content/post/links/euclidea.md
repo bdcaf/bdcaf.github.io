@@ -12,3 +12,4 @@ categories:
 Having some extra time?  [Euclidea](https://euclidea.xyz) teaches
 euclidean geometry using puzzles.  Only working with compass and
 straightedge.  Too long time I practiced these.
+<!-- more -->
