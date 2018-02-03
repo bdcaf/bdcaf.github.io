@@ -3,7 +3,7 @@ title: "Vim builtin package manger"
 date: 2018-01-26T09:33:42+01:00
 tags:
   - vim
-  - today_i_learnt
+  - today-i-learnt
 ---
 
 I was using [dein package manager](https://github.com/Shougo/dein.vim)

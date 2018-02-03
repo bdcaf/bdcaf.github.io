@@ -2,7 +2,7 @@
 title: "Readline"
 date: 2018-01-23T17:55:06+01:00
 tags:
-  - today_i_learnt
+  - today-i-learnt
   - shell
 ---
 
