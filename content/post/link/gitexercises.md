@@ -10,8 +10,8 @@ categories:
 ---
 
 I probably mentioned I use git for managing my code.  Even in the
-simplistic way I know - already helpful.  Just like in this
-![xkcd comic](https://imgs.xkcd.com/comics/git.png xkcd).  However it
+simplistic way I know - already helpful.   Like in this [xkcd][1]
+[![xkcd comic](https://imgs.xkcd.com/comics/git.png)][1]   It
 is not easy finding good exercises to improve.
 
 I got pointed to
@@ -19,3 +19,5 @@ I got pointed to
 polished and the exercises are short enough to do between.  Just
 somehow I overlooked the commandos `reset` and `undo` to restart the
 exercised.
+
+[1]: https://xkcd.com/1597/
