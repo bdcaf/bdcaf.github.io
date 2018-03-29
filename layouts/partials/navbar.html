@@ -53,7 +53,7 @@
         {{ else }}
 
         <li>
-          <a href="{{ .URL | relLangURL }}"{{ if $.IsHome }} data-target="{{ .URL }}"{{ end }}>
+          <a href="{{ .URL | relLangURL }}">
             {{ .Pre }}
             <span>{{ .Name }}</span>
           </a>
