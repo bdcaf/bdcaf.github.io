@@ -229,7 +229,6 @@ blockquote p:last-child {
 }
 
 .section-heading p {
-  font-family: 'Lato', sans-serif;
   font-weight: 400;
   font-size: 1.1rem;
   color: #b2b2b2;
@@ -242,7 +241,6 @@ blockquote p:last-child {
 #profile {
   text-align: center;
   padding: 30px 10px;
-  position: relative;
 }
 
 #profile .portrait {
@@ -1105,6 +1103,8 @@ article {
     list-style: none;
     padding: 0;
     margin-top: 30px;
+    justify-content: center; 
+    align-items: center; 
   }
 
   #profile .social-icon-2 li {
@@ -1320,19 +1320,22 @@ article {
   } 
 
   /* manual get out bootstrap */
-  .col-md-4 {
+  .main-leftcol {
   width: 33.3%;
   float: left;
-  min-height: 1px;
   padding-right: 15px;
   padding-left: 15px;
   }
-  .col-md-8 {
+  .main-rightcol {
   width: 66.6%;
   float: left;
-  min-height: 1px;
   padding-right: 15px;
   padding-left: 15px;
+  }
+
+  .half-content {
+    width: 40%;
+    float: left;
   }
 
   .container {
@@ -1341,7 +1344,8 @@ article {
     margin-right: auto;
     margin-left: auto;
   }
-  .row {
-    margin-right: -15px;
-    margin-left: -15px;
+
+  .continue{
+    font-size: 60%;
   }
+

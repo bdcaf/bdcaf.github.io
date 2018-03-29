@@ -1,6 +1,6 @@
 baseurl = "https://bdcaf.github.io/"
 author = "Clemens Ager"
-title = "Clemens Ager"
+title = "C. Ager"
 theme = "hugo-academic"
 # Copyright notice. This is displayer in the footer.
 copyright = "Clemens Ager, Brixlegg"
@@ -10,7 +10,6 @@ ignoreFiles = [ "\\.sh$", "\\.tmp$", "\\.txt", "\\.old", "\\.DS_Store"]
 editor = "nvim"
 newContentEditor = "nvim"
 
-enableEmoji = true
 footnotereturnlinkcontents = "<sup>^</sup>"
 
 defaultContentLanguage = "en"
