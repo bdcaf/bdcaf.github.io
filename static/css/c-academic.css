@@ -96,6 +96,7 @@ h3.article-title a:hover {
 a:hover,
 a:focus {
   color: #005181;
+  text-decoration: underline;
 }
 
 img,
@@ -122,7 +123,6 @@ figcaption {
   line-height: 1.25;
   font-size: 1rem;
   margin-bottom: 1.65rem;
-  font-family: 'Lato', sans-serif;
   counter-increment: captions;
 }
 
@@ -203,7 +203,17 @@ blockquote p:last-child {
 
 .home-section {
   background-color: rgb(255, 255, 255);
-  /*padding: 50px 0 50px 0;*/
+  padding: 50px 0 50px 0;
+  height: auto;
+}
+
+.home-section:after{
+   content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
 }
 
 .home-section:first-of-type {
@@ -521,13 +531,15 @@ article {
 
 .pub-list-item .pub-abstract {
   font-size: 1rem;
+  line-height: 1.2; /* Match share bar line height. */
+  margin-bottom: 12px;
 }
 
 .pub-list-item .pub-authors {
   line-height: normal;
   font-style: normal;
   font-size: 1rem;
-  color: #3170A5;
+  color: #999;
 }
 
 .pub-list-item .pub-publication {
@@ -572,6 +584,8 @@ article {
   font-size: 0.75rem;
   color: #9c9c9c;
 }
+
+
 
 #container-projects {
   display: block;

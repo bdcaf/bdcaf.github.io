@@ -9,7 +9,8 @@
   {{ $params := dict "root" $ "page" $page }}
   {{ $widget := printf "widgets/%s.html" ( or $page.Params.widget "custom" ) }}
 
-  <section class="home-section" >
+  <section id="{{ $page.File.TranslationBaseName }}" 
+    class="home-section" >
     <div class="container">
       {{ partial $widget $params }}
     </div>
