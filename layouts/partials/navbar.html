@@ -1,0 +1,71 @@
+<header>
+    <h1 class="logo">
+      <a href="{{ "/" | relLangURL }}">{{ .Site.Title }}</a>
+    </h1>
+    
+  <div class="container">
+    <a href="#main-menu"
+       role="button"
+       id="main-menu-toggle"
+       class="menu-toggle"
+       aria-expanded="false"
+       aria-controls="main-menu"
+       aria-label="Open main menu">
+
+      <span class="sr-only">Open main menu</span>
+      <span class="fa fa-bars" aria-hidden="true"></span>
+    </a>
+
+
+    <nav id="main-menu" role="navigation" class="main-menu" aria-expanded="false" aria-label="Main menu">
+      <a href="#main-menu-toggle"
+	 role="button"
+  id="main-menu-close"
+  class="menu-close"
+  aria-expanded="false"
+  aria-controls="main-menu"
+  aria-label="Close main menu">
+
+	<span class="sr-only">Close main menu</span>
+	<span class="fa fa-close" aria-hidden="true"></span>
+      </a>
+      <ul>
+        {{ range .Site.Menus.main }}
+
+        {{ if .HasChildren }}
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true">
+            {{ .Name }}
+            <span class="caret"></span>
+          </a>
+          <ul class="dropdown-menu">
+            {{ range .Children }}
+            <li class="nav-item">
+              <a href="{{ .URL | relLangURL }}"{{ if $.IsHome }} data-target="{{ .URL }}"{{ end }}>
+                {{ .Pre }}
+                <span>{{ .Name }}</span>
+              </a>
+            </li>
+            {{ end }}
+          </ul>
+        </li>
+
+        {{ else }}
+
+        <li>
+          <a href="{{ .URL | relLangURL }}"{{ if $.IsHome }} data-target="{{ .URL }}"{{ end }}>
+            {{ .Pre }}
+            <span>{{ .Name }}</span>
+          </a>
+        </li>
+
+        {{ end }}
+        {{ end }}
+      </ul>
+    </nav>
+    <a href="#main-menu-toggle"
+       class="backdrop"
+       tabindex="-1"
+       aria-hidden="true" hidden></a>
+  </div>
+</header>
