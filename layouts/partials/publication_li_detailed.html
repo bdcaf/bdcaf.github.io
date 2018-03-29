@@ -34,7 +34,7 @@
         {{ if .Params.abstract_short }}
         {{ .Params.abstract_short | markdownify }}
         {{ else }}
-        {{ .Params.abstract | markdownify}}
+        {{ .Params.abstract | truncate 400 | markdownify}}
         {{ end }}
       </div>
 

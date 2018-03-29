@@ -14,7 +14,6 @@
 
 
 html {
-  font-family: 'Merriweather', serif;
   font-size: 16px;
   color: rgba(0,0,0,0.8);
   line-height: 1.65;
@@ -78,7 +77,7 @@ h2 {
 }
 h3 {
   font-weight: 700;
-  margin-top: 1.5rem;
+  margin-top: 0;
   font-size: 1.25rem;
 }
 h4, h5, h6 {
@@ -89,7 +88,7 @@ h4, h5, h6 {
 
 a,
 h3.article-title a:hover {
-  color: #0095eb;
+  color: #2020A0;
   text-decoration: none;
   transition: color 0.6s ease;
 }
@@ -733,49 +732,12 @@ article {
     color: #899596;
   }
 
-  /*************************************************
-   *  Button Primary: Color Override
-   **************************************************/
-
-  .btn-primary {
-    border-color: #0095eb;
-    background: #0095eb;
-  }
-
   .btn-primary:hover,
   .btn-primary:focus,
   .btn-primary:active,
   .btn-primary.active,
   .open > .dropdown-toggle.btn-primary {
-    background: #0095eb;
-  }
-
-  /*************************************************
-   *  Toolbar Buttons
-   **************************************************/
-
-  .btn-toolbar .btn {
-    font-size: 0.9rem;
-    padding: 10px 14px 9px;
-    border: none;
-  }
-
-  .btn-toolbar .btn:first-child {
-    border-radius: 6px 0 0 6px;
-  }
-
-  .btn-toolbar .btn:last-child {
-    border-radius: 0 6px 6px 0;
-  }
-
-  .btn-toolbar .btn.btn-primary:hover,
-  .btn-toolbar .btn.btn-primary:focus {
-    background-color: rgba(0,149,235,0.6);
-  }
-
-  .btn-toolbar .btn.btn-primary:active,
-  .btn-toolbar .btn.btn-primary.active {
-    background-color: rgba(0,89,175,1);
+    background: #152522;
   }
 
   /*************************************************
@@ -789,8 +751,8 @@ article {
   }
 
   .btn-primary.btn-outline {
-    color: #0095eb;
-    border-color: #0095eb;
+    color: #20203D;
+    border-color: #20203D;
   }
 
   .btn-success.btn-outline {
@@ -1288,14 +1250,14 @@ article {
     }
     
     .main-menu a {
-      color: #06c;
+      color: #2020AD;
       border: 0 !important; /* Remove borders from off-canvas styling */
     }
     
     .main-menu a:hover,
     .main-menu a:focus {
-      background: none; /* Remove background from off-canvas styling */
-      color: #c00;
+      background: none; 
+      color: #23283D;
     }
 
   header {
