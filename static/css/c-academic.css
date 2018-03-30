@@ -18,25 +18,9 @@ html {
   color: rgba(0,0,0,0.8);
   line-height: 1.65;
 }
-@media screen and (min-width: 58em) {
-  html {
-    font-size: 20px;
-  }
-}
 
 body {
-  font-family: inherit;
-  font-size: 1rem;
-  line-height: inherit;
-  color: inherit;
-  margin-top: 71px; /* Offset body content by navbar height. */
-  padding-top: 0;
   counter-reset: captions;
-}
-@media screen and (max-width: 1200px) { /* Match max-width of .nav-bar query. */
-  body {
-    margin-top: 51px; /* Offset body content by navbar height. */
-  }
 }
 
 /* Body text */
@@ -49,14 +33,6 @@ p {
 ul, ol, dl {
   margin-top: 0;
   margin-bottom: 1rem;
-}
-
-/* Navigation bar text */
-.navbar-default {
-  font-family: "Book Antiqua", Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
-  font-weight: 400;
-  line-height: 1.25;
-  text-rendering: optimizeLegibility;
 }
 
 /* Headings */
@@ -104,11 +80,6 @@ video {
   height: auto;
   max-width: 100%;
   display: block;
-}
-
-.img-responsive {
-  /* Extend Bootstrap declaration with centering. */
-  margin: 0 auto;
 }
 
 figcaption:before {
@@ -170,11 +141,6 @@ blockquote p:last-child {
 .space-below {
   margin-bottom: 50px;
 }
-@media screen and (max-width: 768px) {
-  .space-below {
-    margin-bottom: 10px;
-  }
-}
 
 .universal-wrapper {
   margin: 0 auto;
@@ -182,31 +148,17 @@ blockquote p:last-child {
   padding-left: 15px;
   width: 100%;
 }
-@media only screen and (min-width: 1001px) {
-  .universal-wrapper {
-    width: 1000px;
-  }
-}
 
 /*************************************************
  *  Home Sections
  **************************************************/
 
-@keyframes intro {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
 .home-section {
   background-color: rgb(255, 255, 255);
   padding: 50px 0 50px 0;
-  height: auto;
 }
 
+/* need this to get backgrounds and anchors correct*/
 .home-section:after{
    content: ".";
     display: block;
@@ -221,17 +173,10 @@ blockquote p:last-child {
 }
 
 .home-section:nth-of-type(even) {
-  background-color: rgb(247, 247, 247);
+  background-color: #EEE;
+  border-radius: 12px;
 }
 
-@media screen and (max-width: 768px) {
-  .home-section {
-    /*padding: 60px 0 60px 0;*/
-  }
-  .home-section:first-of-type {
-    /*padding-top: 40px;*/
-  }
-}
 
 .section-heading h1 {
   margin: 0 0 10px 0;
@@ -621,6 +566,7 @@ article {
   background: #fff;
   box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
   transition: all 0.2s ease-out;
+  border-radius: 12px;
 }
 
 .card .card-image {
@@ -862,100 +808,6 @@ article {
     color: #2b2b2b;
   }
 
-  @media screen and (max-width: 1200px) {
-    .navbar {
-      min-height: 50px !important;
-    }
-
-    .navbar-brand,
-    .navbar-nav li a {
-      height: inherit;
-      line-height: 40px;
-      padding-top: 5px;
-      padding-bottom: 5px;
-    }
-
-    .navbar-header {
-      float: none;
-      min-height: inherit;
-    }
-
-    .navbar-left,
-    .navbar-right {
-      float: none !important;
-    }
-
-    .navbar-toggle {
-      display: block;
-    }
-
-    .navbar-fixed-top {
-      top: 0;
-      border-width: 0 0 1px;
-    }
-
-    .navbar-collapse.collapse {
-      display: none !important;
-    }
-
-    .navbar-nav {
-      float: none !important;
-      margin-top: 7.5px;
-    }
-
-    .navbar-nav > li {
-      float: none;
-    }
-
-    .navbar-nav > li > a {
-      padding-top: 10px;
-      padding-bottom: 10px;
-      line-height: normal;
-    }
-
-    .dropdown-menu > li > a {
-      display: block;
-      padding: 3px 20px;
-      clear: both;
-      font-weight: 400;
-      line-height: 1.42857143;
-      color: #34495e;
-      white-space: nowrap;
-    }
-
-    .navbar-default .navbar-nav .open .dropdown-menu {
-      position: static;
-      float: none;
-      width: auto;
-      margin-top: 0;
-      background-color: transparent;
-      border: 0;
-      box-shadow: none;
-    }
-
-    .navbar-default .navbar-nav .open .dropdown-menu > li > a {
-      padding: 5px 15px 5px 25px;
-      line-height: 20px;
-      color: #34495e;
-    }
-
-    .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus,
-    .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover {
-      color: inherit;
-      background-color: transparent;
-    }
-
-    .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
-    .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus,
-    .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover {
-      color: #0095eb;
-      background-color: transparent;
-    }
-
-    .collapse.in {
-      display: block !important;
-    }
-  }
 
   /*************************************************
    *  Tables
@@ -1113,7 +965,7 @@ article {
     display: inline-block;
     padding: .75em 15px;
     line-height: 1em;
-    font-size: 1em;
+    font-size: 2em;
     color: #333;
   }
 
@@ -1206,87 +1058,90 @@ article {
   }
 
   /* 
-   We could us `.main-menu:target:after`, but
-   it wouldn't be clickable.
-  */
+  We could us `.main-menu:target:after`, but
+  it wouldn't be clickable.
+   */
+.main-menu:target + .backdrop,
+.main-menu[aria-expanded="true"] + .backdrop {
+  position: absolute;
+  display: block;  
+  content: "";
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 998;
+  background: #000;
+  background: rgba(0,0,0,.85);
+  cursor: default;
+}
+
+@supports (position: fixed) {
+  .main-menu,
   .main-menu:target + .backdrop,
   .main-menu[aria-expanded="true"] + .backdrop {
-    position: absolute;
-    display: block;  
-    content: "";
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 998;
-    background: #000;
-    background: rgba(0,0,0,.85);
-    cursor: default;
+    position: fixed;
   }
+}
 
-  @supports (position: fixed) {
-    .main-menu,
-    .main-menu:target + .backdrop,
-    .main-menu[aria-expanded="true"] + .backdrop {
-      position: fixed;
-    }
-  }
+header {
+  display:flex;
+  justify-content: space-between;
+}
+header > .container { 
+  margin-right: 0;
+}
 
   /*
-   Larger screen styling
-   Horizontal menu
-  */
-  @media (min-width: 768px) {
-    .menu-toggle,
-    .main-menu .menu-close {
-      display: none;
-    }
-    
-    /* Undo positioning of off-canvas menu */
-    .main-menu {
-      position: relative;
-		  left: 0;
-		  top: auto;
-		  height: auto;
-    }
-    
-    .main-menu ul {
-      display: flex;
-      
-      /* Undo off-canvas styling */
-      padding: 0;
-      -webkit-box-shadow: none;
-	 -moz-box-shadow: none;
-	      box-shadow: none;
-      height: auto;
-      width: auto;
-      background: none;
-    }
-    
-    .main-menu a {
-      color: #2020AD;
-      border: 0 !important; /* Remove borders from off-canvas styling */
-    }
-    
-    .main-menu a:hover,
-    .main-menu a:focus {
-      background: none; 
-      color: #23283D;
-    }
+  Larger screen styling
+  Horizontal menu
+   */
+@media (min-width: 768px) {
+  .menu-toggle,
+  .main-menu .menu-close {
+    display: none;
+  }
+
+  /* Undo positioning of off-canvas menu */
+  .main-menu {
+    position: relative;
+    left: 0;
+    top: auto;
+    height: auto;
+  }
+
+  .main-menu ul {
+    display: flex;
+
+    /* Undo off-canvas styling */
+    padding: 0;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    height: auto;
+    width: auto;
+    background: none;
+  }
+
+  .main-menu a {
+    color: #2020AD;
+    border: 0 !important; /* Remove borders from off-canvas styling */
+  }
+
+  .main-menu a:hover,
+  .main-menu a:focus {
+    background: none; 
+    color: #23283D;
+  }
 
   header {
     padding: 20px;
     display: flex;
     align-items: baseline;
+    background-color: #EEE;
+    border-radius: 12px;
   }
-  header > .container {
-  margin-right: 0;}
 
-  #logo {
-    margin: 0 30px 0 10px;
-    font-size: 1.5em;
-    display: inline;
-  } 
 
   .logo {
     margin: 0 30px 0 10px;
