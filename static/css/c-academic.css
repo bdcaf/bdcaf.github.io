@@ -173,7 +173,7 @@ blockquote p:last-child {
 }
 
 .home-section:nth-of-type(even) {
-  background-color: #EEE;
+  background-color: #FAFAFA;
   border-radius: 12px;
 }
 
@@ -1093,7 +1093,7 @@ header {
 
 header > .container { 
   margin-right: 0;
-  background-color: #F1F1F1;
+  background-color: #FAFAFA;
   border-radius: 12px;
 }
 
