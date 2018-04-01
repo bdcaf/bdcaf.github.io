@@ -965,7 +965,7 @@ article {
     display: inline-block;
     padding: .75em 15px;
     line-height: 1em;
-    font-size: 2em;
+    font-size: 1.2em;
     color: #333;
   }
 
@@ -1086,17 +1086,22 @@ article {
 
 header {
   display:flex;
+  padding: 20px;
   justify-content: space-between;
+  align-items: center;
 }
+
 header > .container { 
   margin-right: 0;
+  background-color: #F1F1F1;
+  border-radius: 12px;
 }
 
   /*
   Larger screen styling
   Horizontal menu
    */
-@media (min-width: 768px) {
+@media (min-width: 640px) {
   .menu-toggle,
   .main-menu .menu-close {
     display: none;
@@ -1135,11 +1140,7 @@ header > .container {
   }
 
   header {
-    padding: 20px;
     display: flex;
-    align-items: baseline;
-    background-color: #EEE;
-    border-radius: 12px;
   }
 
 
