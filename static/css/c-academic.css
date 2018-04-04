@@ -1184,6 +1184,4 @@ header > .container {
   .embed-responsive {
     position: relative;
     display: block;
-    overflow: hidden;
-    max-width: 30em;
   }
