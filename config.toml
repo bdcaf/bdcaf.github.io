@@ -67,29 +67,24 @@ custom_js  = []
 hrefTargetBlank = true
 
 [[params.social]]
-icon = "envelope"
-icon_pack = "fa"
+fa_class = "far fa-envelope"
 link = "mailto:clemens.ager@uibk.ac.at"
 
 [[params.social]]
-icon = "twitter"
-icon_pack = "fa"
+fa_class = "fab fa-twitter"
 link = "//twitter.com/c_decaf"
 
 [[params.social]]
-icon = "google-scholar"
-icon_pack = "ai"
+fa_class = "fas fa-graduation-cap"
 link = "https://scholar.google.co.uk/citations?user=Agq35HgAAAAJ"
 
 [[params.social]]
-icon = "github"
-icon_pack = "fa"
-link = "//github.com/bdcaf"
+fa_class = "fab fa-github-square"
+link = "https://github.com/bdcaf"
 
 [[params.social]]
-icon = "linkedin"
-icon_pack = "fa"
-link = "//at.linkedin.com/in/clemens-ager-1228a295"
+fa_class = "fab fa-linkedin"
+link = "https://at.linkedin.com/in/clemens-ager-1228a295"
 
 # Navigation Links
 #   To link a homepage widget, specify the URL as a hash `#` followed by the filename of the

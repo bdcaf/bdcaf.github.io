@@ -20,18 +20,17 @@
       </div>
       <ul class="social-icon-2" aria-hidden="true">
 	{{ range $.Site.Params.social }}
-	{{ $pack := or .icon_pack "fa" }}
-	<li>
-	  <a href="{{ .link | safeURL }}" class="{{ $pack }} {{ $pack }}-{{ .icon }} big-icon" target="_blank">
+	<li> 
+	  <a href="{{ .link | safeURL }}" target="_blank">
+	  <i class="{{ .fa_class }}"></i>
 	  </a>
 	</li>
 	{{ end }}
-	<li> 
-	  <a href="https://projecteuler.net">
-	    <img src="https://projecteuler.net/profile/cager.png",
-	  alt="Project Euler Score"/></a> 
-	</li>
+	<br/>
       </ul>
+      <a href="https://projecteuler.net">
+	<img src="https://projecteuler.net/profile/cager.png",
+      alt="Project Euler Score" style="min-width: 100px;"/></a> 
     </div>
   </div>
 
