@@ -50,14 +50,32 @@ margin-top:1rem;
 font-size:1rem
 }
 
+.logo {
+margin:0 30px 0 10px;
+display:inline;
+white-space:nowrap;
+font:100 2.5em "Raleway",sans-serif
+}
+
+.logo a {
+color:#000
+}
+
+.logo b {
+font-family:'Raleway Black',sans-serif;
+font-weight:900;
+padding-left:2px;
+color:#2AB
+}
+
 a,h3.article-title a:hover {
-color:#2020A0;
+color:#30465d;
 text-decoration:none;
 transition:color .6s ease
 }
 
 a:hover,a:focus {
-color:#005181;
+color:#30465d;
 text-decoration:underline
 }
 
@@ -149,7 +167,7 @@ height:0
 }
 
 .home-section:nth-of-type(even) {
-background-color:#FAFAFA;
+background-color:#FCFCFC;
 border-radius:12px
 }
 
@@ -189,26 +207,6 @@ font-size:1.13em;
 font-weight:300;
 color:#AAA;
 margin:0 0 10px
-}
-
-#profile ul.social-icon {
-display:inline-flex;
-font-size:3em;
-list-style:none;
-padding:0;
-margin-top:30px
-}
-
-#profile .social-icon li {
-margin-right:10px
-}
-
-#profile .social-icon li:last-of-type {
-margin-right:0
-}
-
-#profile .social-icon li:hover {
-transform:scale(1.2)
 }
 
 .big-icon {
@@ -336,7 +334,7 @@ font-size:1.75rem
 }
 
 .article-title a {
-color:#151515;
+color:#281618;
 transition:color .6s ease
 }
 
@@ -437,7 +435,7 @@ color:#999
 }
 
 .pub-list-item .pub-publication {
-color:#090;
+color:#DFAA2E;
 font-size:1rem
 }
 
@@ -615,7 +613,7 @@ text-align:center
 }
 
 .site-footer,footer a#back_to_top i {
-color:#899596
+color:#DFAA2E;
 }
 
 .btn-primary:hover,.btn-primary:focus,.btn-primary:active,.btn-primary.active,.open > .dropdown-toggle.btn-primary {
@@ -707,7 +705,7 @@ outline:0
 text-transform:uppercase;
 font-weight:700;
 font-size:1.2em;
-color:#2b2b2b
+color:#f39218
 }
 
 table {
@@ -807,7 +805,7 @@ display:inline-flex;
 list-style:none;
 padding:0;
 margin-top:30px;
-font-size:3em
+font-size:2em
 }
 
 #profile .social-icon-2 li {
@@ -924,7 +922,7 @@ cursor:default
 
 header {
 display:flex;
-padding:20px
+padding:10px
 }
 
 header > .container {
@@ -941,8 +939,8 @@ display:none
 .main-menu {
 position:relative;
 left:0;
-top:auto;
-height:auto
+top:3px;
+height:auto;
 }
 
 .main-menu ul {
@@ -955,34 +953,16 @@ background:none
 }
 
 .main-menu a {
-color:#2020AD;
+color:#011627;
 border:0!important
 }
 
 .main-menu a:hover,.main-menu a:focus {
 background:none;
-color:#23283D
 }
 
 header {
 display:flex
-}
-
-.logo {
-margin:0 30px 0 10px;
-display:inline;
-white-space:nowrap;
-font:100 2.5em "Raleway",sans-serif
-}
-
-.logo a {
-color:#000
-}
-
-.logo b {
-font-family:'Raleway Black',sans-serif;
-font-weight:900;
-color:#2AB
 }
 
 .main-leftcol {
