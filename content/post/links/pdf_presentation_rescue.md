@@ -1,6 +1,6 @@
 ---
 title: "Rescuing my PDF presentation on mac"
-date: 2018-06-02T10:44:19+02:00
+date: 2018-05-29T10:44:19+02:00
 tags:
   - presentation
   - latex
