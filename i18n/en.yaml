@@ -49,6 +49,10 @@
 - id: continue_reading
   translation: CONTINUE READING
 
+- id: post_page
+  translation: Post
+
+
 - id: more_posts
   translation: More Posts
 
