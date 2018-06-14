@@ -3,8 +3,9 @@ title: "Merchant of Venice"
 date: 2018-05-23T12:38:11+02:00
 tags:
   - theatre
+  - shakespeare
 categories:
-  - media
+  - theatre
 ---
 
 These days I saw the [shitfaced shakespeares](https://www.shit-facedshakespeare.com) merchant of
