@@ -3,10 +3,10 @@ date: 2012-12-10 13:47:43+00:00
 layout: post
 title: Waterberg Plateau
 categories:
-- Reise
+- trips
 tags:
-- reise
-- Süd Afrika
+- trip
+- south-africa
 ---
 
 [![](http://clemi.ag3r.at/wp-content/uploads/2012/12/wpid-Photo-10.12.2012-1236.jpg)](http://clemi.ag3r.at/wp-content/uploads/2012/12/wpid-Photo-10.12.2012-1236.jpg)Ganz beeindruckend des [Plateu](http://de.wikipedia.org/wiki/Waterberg). Geht so über den kompletten Horizont.

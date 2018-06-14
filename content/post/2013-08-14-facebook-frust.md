@@ -2,8 +2,6 @@
 date: 2013-08-14 09:54:09+00:00
 layout: post
 title: Facebook frust
-categories:
-- Allgemein
 post_format:
 - Statusmitteilung
 ---

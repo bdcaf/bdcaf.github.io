@@ -3,10 +3,10 @@ date: 2014-01-01 16:34:38+00:00
 layout: post
 title: Ein paar Bildln vom letzten Tag
 categories:
-- Reise
+- trips
 tags:
 - dubai
-- reise
+- trip
 ---
 
 [![](http://clemi.ag3r.at/wp-content/uploads/2014/01/wpid-Photo-01.01.2014-1200.jpg)](http://clemi.ag3r.at/wp-content/uploads/2014/01/wpid-Photo-01.01.2014-1200.jpg)

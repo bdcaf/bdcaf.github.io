@@ -1,13 +1,10 @@
 ---
 date: 2014-09-26 22:27:51+00:00
 layout: post
-title: 'Recommended Read: September 26, 2014'
-categories:
-- Allgemein
+title: 'another smbc'
 tags:
-- Recently Read
-- Recommended
-- Saved for Later
+- strip
+- fun
 ---
 
 ![](http://ift.tt/1qCqaCy)  

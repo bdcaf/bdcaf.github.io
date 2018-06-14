@@ -8,7 +8,7 @@ tags:
 - desaster
 - featured
 - fun
-- games
+- game
 ---
 
 Hab jetzt den [Surgeon Simulator](http://www.surgeonsimulator2013.com) am laufen. Ist im [Humble Indie Bundle X (pay what you want and help charity)](https://www.humblebundle.com/) grad zu kaufen.

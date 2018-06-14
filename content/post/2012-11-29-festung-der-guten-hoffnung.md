@@ -3,12 +3,12 @@ date: 2012-11-29 08:05:53+00:00
 layout: post
 title: Festung der guten Hoffnung
 categories:
-- Reise
+- trips
 post_format:
 - Galerie
 tags:
-- reise
-- Süd Afrika
+- trip
+- south-africa
 ---
 
 Ein schneller Morgenspaziergang führte mich erst durch den Distrikt 6 wo ich nicht fotografieren wollte, und dann in die Festung. Heut ist's ganz stürmisch deshalb flattern die Fahnen so schön.

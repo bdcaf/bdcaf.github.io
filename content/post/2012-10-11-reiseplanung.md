@@ -2,8 +2,6 @@
 date: 2012-10-11 12:14:52+00:00
 layout: post
 title: Reiseplanung
-categories:
-- Allgemein
 post_format:
 - Kurzmitteilung
 ---

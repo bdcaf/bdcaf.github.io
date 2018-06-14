@@ -3,10 +3,10 @@ date: 2012-12-08 12:02:21+00:00
 layout: post
 title: Noch so a Stamm
 categories:
-- Reise
+- trips
 tags:
-- reise
-- Süd Afrika
+- trip
+- south-africa
 ---
 
 [![](http://clemi.ag3r.at/wp-content/uploads/2012/12/wpid-Photo-08.12.2012-0712.jpg)](http://http://clemi.ag3r.at/wp-content/uploads/2012/12/wpid-Photo-08.12.2012-0712.jpg)

@@ -5,7 +5,7 @@ tags:
   - book
   - math
 categories:
-  - link
+  - links
 ---
 
 [RAND corporation](https://www.rand.org) has released some of their

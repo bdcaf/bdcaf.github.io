@@ -3,10 +3,10 @@ date: 2014-01-01 07:33:00+00:00
 layout: post
 title: Beim Feuerwerk
 categories:
-- Reise
+- trips
 tags:
 - dubai
-- reise
+- trip
 - silvester
 ---
 

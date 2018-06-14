@@ -2,8 +2,6 @@
 date: 2012-11-01 11:05:26+00:00
 layout: post
 title: Wer errät was hier gefixt wird?
-categories:
-- Allgemein
 post_format:
 - Bild
 ---

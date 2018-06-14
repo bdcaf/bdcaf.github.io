@@ -3,8 +3,6 @@ title: "Presentation of PhD topic"
 date: 2018-06-01T11:03:15+02:00
 tags:
   - study
-categories:
-  -
 ---
 
 I finally had a presentation on my PhD topic.  This was one of the

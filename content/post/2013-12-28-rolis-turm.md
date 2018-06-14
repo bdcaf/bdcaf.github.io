@@ -3,11 +3,11 @@ date: 2013-12-28 15:51:11+00:00
 layout: post
 title: Rolis Turm
 categories:
-- Reise
+- trips
 tags:
 - dubai
 - featured
-- reise
+- trip
 ---
 
 [caption id="" width="500" align="aligncenter" caption="Rechts ist er daheim. "]

@@ -2,7 +2,7 @@
 title: "Keep talking and nobody explodes"
 date: 2018-03-30T12:58:23+02:00
 tags:
-  - games
+  -  game
 categories:
   - links
 ---

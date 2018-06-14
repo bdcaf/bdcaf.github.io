@@ -5,7 +5,6 @@ tags:
   - paper
 categories: 
   - academic
-
 ---
 
 Alex Pizzini got a paper with us published.  It is a continuation of

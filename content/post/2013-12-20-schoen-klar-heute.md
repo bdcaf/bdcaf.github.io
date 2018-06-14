@@ -3,12 +3,12 @@ date: 2013-12-20 10:42:59+00:00
 layout: post
 title: Schön klar heute
 categories:
-- Reise
+- trips
 post_format:
 - Galerie
 tags:
-- reise
-- sri lanka
+- trip
+- sri-lanka
 ---
 
 [![](http://clemi.ag3r.at/wp-content/uploads/2013/12/wpid-Photo-20.12.2013-03002.jpg)](http://clemi.ag3r.at/wp-content/uploads/2013/12/wpid-Photo-20.12.2013-03002.jpg)

@@ -3,10 +3,10 @@ date: 2012-12-17 14:18:55+00:00
 layout: post
 title: Bootsfahrt im Chobe
 categories:
-- Reise
+- trips
 tags:
-- reise
-- Süd Afrika
+- trip
+- south-africa
 ---
 
 [![](http://clemi.ag3r.at/wp-content/uploads/2012/12/wpid-Photo-17.12.2012-1603.jpg)](http://clemi.ag3r.at/wp-content/uploads/2012/12/wpid-Photo-17.12.2012-1603.jpg)

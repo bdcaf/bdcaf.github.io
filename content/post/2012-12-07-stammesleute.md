@@ -3,10 +3,10 @@ date: 2012-12-07 10:24:53+00:00
 layout: post
 title: Stammesleute
 categories:
-- Reise
+- trips
 tags:
-- reise
-- Süd Afrika
+- trip
+- south-africa
 ---
 
 Liesen sich ungern fotografieren. Melanie hat's aber geschafft und mir die Bilder kopiert.

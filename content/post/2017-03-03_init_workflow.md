@@ -1,5 +1,4 @@
 ---
-Description: ""
 Tags: ["dev","git"]
 date: 2017-03-03T11:20:28+01:00
 lang: en

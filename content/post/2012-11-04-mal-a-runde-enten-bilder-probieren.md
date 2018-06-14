@@ -2,8 +2,6 @@
 date: 2012-11-04 14:53:26+00:00
 layout: post
 title: Mal a Runde Enten Bilder probieren
-categories:
-- Allgemein
 post_format:
 - Galerie
 ---

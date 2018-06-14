@@ -3,11 +3,10 @@ date: 2013-12-27 07:56:12+00:00
 layout: post
 title: Brunch im Burj al Arab
 categories:
-- Allgemein
-- Reise
+- trips
 tags:
 - dubai
-- reise
+- trip
 ---
 
 [caption id="" width="500" align="alignright" caption="Wikifoto"][![](http://upload.wikimedia.org/wikipedia/de/2/20/Burjalarab1.jpg)](http://de.wikipedia.org/wiki/Burj_al_Arab)[/caption]

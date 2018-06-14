@@ -2,8 +2,6 @@
 date: 2012-11-01 21:11:19+00:00
 layout: post
 title: Meine zwei Zombie Games
-categories:
-- Allgemein
 post_format:
 - Statusmitteilung
 ---

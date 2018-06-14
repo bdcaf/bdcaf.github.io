@@ -6,8 +6,8 @@ tags:
   - game
   - space
 categories:
-  - link
-  - game
+  - links
+  - Games
 ---
 
 These days I started up [Kerbal Space

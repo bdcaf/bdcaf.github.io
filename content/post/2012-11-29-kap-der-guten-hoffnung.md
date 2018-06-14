@@ -3,12 +3,12 @@ date: 2012-11-29 12:06:18+00:00
 layout: post
 title: Kap der guten Hoffnung
 categories:
-- Reise
+- trips
 post_format:
 - Galerie
 tags:
-- reise
-- Süd Afrika
+- trip
+- south-africa
 ---
 
 Wär natürlich eine Schande, wenn ich da nicht ans letzte etzerl Land rausfahr.

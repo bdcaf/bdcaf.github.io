@@ -1,5 +1,4 @@
 ---
-Description: ""
 Tags:
 - blog
 date: 2015-07-12T11:33:34+02:00

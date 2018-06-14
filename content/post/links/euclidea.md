@@ -5,8 +5,7 @@ tags:
   - math
   - geometry
 categories:
-  - link
-
+  - links
 ---
 
 Having some extra time?  [Euclidea](https://euclidea.xyz) teaches

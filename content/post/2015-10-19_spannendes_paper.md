@@ -1,10 +1,8 @@
 ---
 Categories:
-- sci
-- stat
-Description: ""
+- science
 Tags:
-- Sci
+- science
 - Statistic
 date: 2015-10-19T10:17:23+02:00
 title: Spannendes Paper

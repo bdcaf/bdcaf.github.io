@@ -2,8 +2,6 @@
 date: 2015-03-13 19:22:58+00:00
 layout: post
 title: Blue Marlin Club in Dubai
-categories:
-- Allgemein
 tags:
 - club
 - dubai

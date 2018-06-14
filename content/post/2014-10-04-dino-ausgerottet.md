@@ -2,9 +2,9 @@
 date: 2014-10-04 08:38:06+00:00
 layout: post
 title: Dino ausgerottet
-categories:
-- Hobby
-- sci
+tags:
+- course
+- science
 ---
 
 Ich mach in meiner Freizeit den netten[ Dino 101 Kurs auf Coursera.](https://class.coursera.org/dino101-003)

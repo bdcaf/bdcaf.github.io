@@ -3,7 +3,7 @@ date: 2012-11-03 15:45:34+00:00
 layout: post
 title: Abendprogramm
 categories:
-- Leseliste
+- links
 post_format:
 - Statusmitteilung
 ---

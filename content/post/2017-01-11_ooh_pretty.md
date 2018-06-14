@@ -1,5 +1,4 @@
 ---
-Description: ""
 Tags: []
 date: 2017-01-11T08:45:31+01:00
 lang: en

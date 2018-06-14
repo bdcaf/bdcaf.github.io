@@ -3,10 +3,10 @@ date: 2012-12-13 14:49:32+00:00
 layout: post
 title: Okavango Flug
 categories:
-- Reise
+- trips
 tags:
-- reise
-- Süd Afrika
+- trip
+- south-africa
 ---
 
 [![](http://clemi.ag3r.at/wp-content/uploads/2012/12/wpid-Photo-13.12.2012-1352.jpg)](http://clemi.ag3r.at/wp-content/uploads/2012/12/wpid-Photo-13.12.2012-1352.jpg)

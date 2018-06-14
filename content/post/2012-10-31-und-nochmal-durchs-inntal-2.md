@@ -2,8 +2,6 @@
 date: 2012-10-31 08:27:45+00:00
 layout: post
 title: Und nochmal durchs Inntal
-categories:
-- Allgemein
 post_format:
 - Bild
 ---

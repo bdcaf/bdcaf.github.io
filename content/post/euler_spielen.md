@@ -1,5 +1,4 @@
 ---
-Description: ""
 Tags: []
 date: 2015-07-26T17:05:31+02:00
 title: Projekt Euler

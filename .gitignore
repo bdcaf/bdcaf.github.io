@@ -4,3 +4,4 @@ deploy-list.txt
 private/publications/mddir/
 allinks.txt
 !*.pdf
+!tags

@@ -3,7 +3,7 @@ date: 2012-11-04 21:33:40+00:00
 layout: post
 title: Walking Dead
 categories:
-- Leseliste
+- links
 post_format:
 - Statusmitteilung
 ---

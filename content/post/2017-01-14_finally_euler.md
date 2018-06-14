@@ -1,5 +1,4 @@
 ---
-Description: ""
 Tags: ["sci"]
 date: 2017-01-14T10:14:24+01:00
 lang: en

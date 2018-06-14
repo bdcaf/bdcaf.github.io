@@ -2,8 +2,6 @@
 date: 2013-12-20 08:30:39+00:00
 layout: post
 title: Vogelspinne
-categories:
-- Allgemein
 ---
 
 [![](http://clemi.ag3r.at/wp-content/uploads/2013/12/wpid-Photo-19.12.2013-1953.jpg)](http://clemi.ag3r.at/wp-content/uploads/2013/12/wpid-Photo-19.12.2013-1953.jpg)

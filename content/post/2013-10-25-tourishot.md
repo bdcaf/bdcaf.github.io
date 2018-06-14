@@ -3,7 +3,7 @@ date: 2013-10-25 06:57:24+00:00
 layout: post
 title: Tourishot
 categories:
-- Reise
+- trips
 post_format:
 - Bild
 tags:

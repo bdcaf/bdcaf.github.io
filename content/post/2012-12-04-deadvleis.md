@@ -3,10 +3,10 @@ date: 2012-12-04 06:21:15+00:00
 layout: post
 title: Deadvleis
 categories:
-- Reise
+- trips
 tags:
-- reise
-- Süd Afrika
+- trip
+- south-africa
 ---
 
 Ebene die durch Dünen vom Wasser abgeschnitten wurde. 

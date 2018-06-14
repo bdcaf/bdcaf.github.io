@@ -4,7 +4,7 @@ date: 2018-01-18T10:55:02+01:00
 tags:
   - oldschool
 categories:
-  - link
+  - links
 ---
 
 There now is a Javascript recreation of Windows Paint:

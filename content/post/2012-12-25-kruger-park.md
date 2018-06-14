@@ -3,10 +3,10 @@ date: 2012-12-25 06:52:03+00:00
 layout: post
 title: Krüger Park
 categories:
-- Reise
+- trips
 tags:
-- reise
-- Süd Afrika
+- trip
+- south-africa
 ---
 
 [![](http://clemi.ag3r.at/wp-content/uploads/2012/12/wpid-Photo-24.12.2012-1019.jpg)](http://clemi.ag3r.at/wp-content/uploads/2012/12/wpid-Photo-24.12.2012-1019.jpg)

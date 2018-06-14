@@ -3,12 +3,12 @@ date: 2012-11-30 11:19:48+00:00
 layout: post
 title: Kirstenbosch
 categories:
-- Reise
+- trips
 post_format:
 - Galerie
 tags:
-- reise
-- Süd Afrika
+- trip
+- south-africa
 ---
 
 Heut früh wollten's mich nicht auf'n Berg lassen. Scheint der is länger gesperrt. Und allein war mir der Aufstieg zu riskant. I fahr ja abends weiter.

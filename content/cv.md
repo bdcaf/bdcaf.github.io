@@ -1,5 +1,4 @@
 ---
-Description: ""
 Tags: []
 date: 2015-07-13T14:48:50+02:00
 title: Curriculum Vitae

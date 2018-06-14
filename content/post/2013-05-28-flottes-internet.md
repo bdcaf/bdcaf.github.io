@@ -2,8 +2,6 @@
 date: 2013-05-28 08:46:38+00:00
 layout: post
 title: Flottes Internet
-categories:
-- Allgemein
 post_format:
 - Kurzmitteilung
 ---

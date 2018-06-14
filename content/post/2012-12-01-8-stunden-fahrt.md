@@ -3,10 +3,10 @@ date: 2012-12-01 08:32:50+00:00
 layout: post
 title: 8 Stunden Fahrt
 categories:
-- Reise
+- trips
 tags:
-- reise
-- Süd Afrika
+- trip
+- south-africa
 ---
 
 Die erste Fahrt war noch sehr ungewohnt. Mussten uns ja erst im Bus einrichten.

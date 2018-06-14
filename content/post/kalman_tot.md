@@ -1,5 +1,4 @@
 ---
-Description: ""
 Tags: []
 date: 2016-07-17T11:25:24+02:00
 title: R.E. Kalman verstorben

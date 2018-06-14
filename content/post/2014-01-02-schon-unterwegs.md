@@ -3,10 +3,10 @@ date: 2014-01-02 09:24:59+00:00
 layout: post
 title: Schon unterwegs
 categories:
-- Reise
+- trips
 tags:
 - dubai
-- reise
+- trip
 ---
 
 [![](http://clemi.ag3r.at/wp-content/uploads/2014/01/wpid-Photo-02.01.2014-1323.jpg)](http://clemi.ag3r.at/wp-content/uploads/2014/01/wpid-Photo-02.01.2014-1323.jpg)

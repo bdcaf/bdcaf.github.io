@@ -1,6 +1,5 @@
 ---
 Categories: []
-Description: ""
 Tags:
 - blog
 date: 2015-10-19T10:36:21+02:00

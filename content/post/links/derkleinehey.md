@@ -4,7 +4,7 @@ date: 2018-03-06T10:28:51+01:00
 tags:
   - rhetoric
 categories:
-  - link
+  - links
 ---
 
 I had a dental operation and have problems articulating.  I recalled

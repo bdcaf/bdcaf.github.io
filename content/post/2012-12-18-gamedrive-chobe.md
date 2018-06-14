@@ -3,10 +3,10 @@ date: 2012-12-18 04:19:34+00:00
 layout: post
 title: Gamedrive Chobe
 categories:
-- Reise
+- trips
 tags:
-- reise
-- Süd Afrika
+- trip
+- south-africa
 ---
 
 [caption id="" width="500" align="aligncenter" caption="Vor Sonnenaufgang aufstehen..."][![](http://clemi.ag3r.at/wp-content/uploads/2012/12/wpid-Photo-18.12.2012-0523.jpg)](http://clemi.ag3r.at/wp-content/uploads/2012/12/wpid-Photo-18.12.2012-0523.jpg)[/caption]

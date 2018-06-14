@@ -3,10 +3,10 @@ date: 2012-12-06 11:00:10+00:00
 layout: post
 title: Felsmalereien
 categories:
-- Reise
+- trips
 tags:
-- reise
-- Süd Afrika
+- trip
+- south-africa
 ---
 
 Bei [Twyfelfontein](http://de.wikipedia.org/wiki/Twyfelfontein) gibt's 2-600 Jahre alte Felsmalereien. eigentlich beeindruckend. Andrerseits was die Ägypter vor so 8000 Jahren hingestellt haben...

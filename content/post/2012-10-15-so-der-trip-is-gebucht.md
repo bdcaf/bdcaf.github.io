@@ -3,10 +3,10 @@ date: 2012-10-15 19:12:37+00:00
 layout: post
 title: So der Trip is gebucht!
 categories:
-- Reise
+- trips
 tags:
-- reise
-- Süd Afrika
+- trip
+- south-africa
 ---
 
 Dann kann ja nimmer viel schiefgehn... Jetzt muss i mi nur noch ausrüsten.

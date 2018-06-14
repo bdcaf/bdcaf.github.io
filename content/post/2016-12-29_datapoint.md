@@ -1,5 +1,4 @@
 ---
-Description: ""
 Tags: ["data", "ccc"]
 date: 2016-12-29 10:09:56+01:00
 title: A Datapoint walks into a bar

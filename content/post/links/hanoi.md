@@ -2,7 +2,7 @@
 title: "Math Acrobatics"
 date: 2018-06-04T09:33:04+02:00
 tags: 
-  - maths
+  - math
   - video
 categories:
   - links

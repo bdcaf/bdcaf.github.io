@@ -3,10 +3,10 @@ date: 2012-12-14 08:25:13+00:00
 layout: post
 title: Ins Okavango Delta
 categories:
-- Reise
+- trips
 tags:
-- reise
-- Süd Afrika
+- trip
+- south-africa
 ---
 
 [![](http://clemi.ag3r.at/wp-content/uploads/2012/12/wpid-Photo-14.12.2012-0727.jpg)](http://clemi.ag3r.at/wp-content/uploads/2012/12/wpid-Photo-14.12.2012-0727.jpg)

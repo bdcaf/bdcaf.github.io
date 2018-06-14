@@ -1,7 +1,6 @@
 ---
 title: "pretty git exercises"
 date: 2018-02-14T11:24:39+01:00
-
 tags:
   - git
 categories:

@@ -1,10 +1,9 @@
 ---
-Description: ""
 Tags:
-- sci
+- science
 - breath
 category:
-  - sci
+  - science
 date: 2016-09-11T21:05:19+02:00
 title: Endlich das Poster fertig
 ---

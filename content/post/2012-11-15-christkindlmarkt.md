@@ -2,8 +2,6 @@
 date: 2012-11-15 09:18:42+00:00
 layout: post
 title: Christkindlmarkt
-categories:
-- Allgemein
 post_format:
 - Kurzmitteilung
 ---

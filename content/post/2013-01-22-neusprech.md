@@ -4,7 +4,7 @@ layout: post
 title: Neusprech
 categories:
 - Fun and Stuff
-- Leseliste
+- links
 ---
 
 Ich will wieder mal eine Web-Empfehlung abgeben: das [Neusprech Blog](http://neusprech.org/).

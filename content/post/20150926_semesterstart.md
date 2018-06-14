@@ -1,5 +1,4 @@
 ---
-Description: ""
 Tags: []
 date: 2015-09-26T13:29:50+02:00
 title: Neues Semester

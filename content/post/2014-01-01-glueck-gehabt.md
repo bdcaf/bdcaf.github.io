@@ -2,8 +2,6 @@
 date: 2014-01-01 09:48:52+00:00
 layout: post
 title: Glück gehabt
-categories:
-- Allgemein
 tags:
 - desaster
 - dubai

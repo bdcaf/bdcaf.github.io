@@ -3,7 +3,7 @@ date: 2012-10-30 21:41:50+00:00
 layout: post
 title: Spieltipp
 categories:
-- Leseliste
+- links
 post_format:
 - Statusmitteilung
 ---

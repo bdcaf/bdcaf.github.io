@@ -15,7 +15,7 @@ footnotereturnlinkcontents = "<sup>^</sup>"
 defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = false
 
-Paginate = 10
+Paginate = 30
 PaginatePath = ""
 
 builddrafts = false

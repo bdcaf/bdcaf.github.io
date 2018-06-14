@@ -3,10 +3,10 @@ date: 2012-12-05 14:27:04+00:00
 layout: post
 title: Swakopmund
 categories:
-- Reise
+- trips
 tags:
-- reise
-- Süd Afrika
+- trip
+- south-africa
 ---
 
 Ja hier gib's wieder Netz. Fahrn aber morgen schon weiter, also bald wieder einige Tage Pause. 

@@ -3,12 +3,12 @@ date: 2012-11-28 20:01:27+00:00
 layout: post
 title: Aquarium der 2 Ozeane
 categories:
-- Reise
+- trips
 post_format:
 - Galerie
 tags:
-- reise
-- Süd Afrika
+- trip
+- south-africa
 ---
 
 Damit I ned nur in der prallen Sonne bin auch glei ins Aquarium. Die ham da tolle Dinger.

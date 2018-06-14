@@ -3,13 +3,13 @@ date: 2013-12-19 07:48:07+00:00
 layout: post
 title: Um den Neid zu wecken ;)
 categories:
-- Reise
+- trips
 post_format:
 - Galerie
 tags:
 - featured
-- reise
-- sri lanka
+- trip
+- sri-lanka
 ---
 
 Riesenstrand fast nur für uns...
