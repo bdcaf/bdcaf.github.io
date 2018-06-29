@@ -23,11 +23,11 @@
   <link rel="icon" type="image/png" href="https://bdcaf.github.io/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="https://bdcaf.github.io/img/apple-touch-icon.png">
 
-  <link rel="canonical" href="https://bdcaf.github.io/2018/06/14/mass-editing-tags/">
+  <link rel="canonical" href="https://bdcaf.github.io/2018/06/29/abandonware/">
 
   
 
-  <title>Mass editing tags | C. Ager</title>
+  <title>Abandonware | C. Ager</title>
 
 </head>
 <body id="top">
@@ -117,14 +117,14 @@
 
 
   <div class="article-container">
-    <h1 itemprop="name">Mass editing tags</h1>
+    <h1 itemprop="name">Abandonware</h1>
     
 
 <div class="article-metadata">
 
   <span class="article-date">
-    <time datetime="2018-06-14 08:42:28 &#43;0200 CEST" itemprop="datePublished">
-      2018-06-14
+    <time datetime="2018-06-29 12:12:04 &#43;0200 CEST" itemprop="datePublished">
+      2018-06-29
     </time>
   </span>
 
@@ -134,7 +134,7 @@
   <span class="article-categories">
     <i class="fa fa-folder"></i>
     
-    <a href="https://bdcaf.github.io/categories/dev">dev</a
+    <a href="https://bdcaf.github.io/categories/links">links</a
     >
     
   </span>
@@ -147,10 +147,7 @@
   <span class="article-tags">
     <i class="fa fa-tags"></i>
     
-    <a href="https://bdcaf.github.io/tags/site">site</a
-    >, 
-    
-    <a href="https://bdcaf.github.io/tags/script">script</a
+    <a href="https://bdcaf.github.io/tags/games">games</a
     >
     
   </span>
@@ -165,68 +162,15 @@
 </div>
 
     <div class="article-style" itemprop="articleBody">
-      <p>Having read some about the
-<a href="https://github.com/rstudio/blogdown" target="_blank">blogdown</a> package I thought I
-could cleanup my site some more.</p>
-
-<p>I came up with some scripts to clean up tags.</p>
+      <p>Every now and then I look up the games from my past.  It is amazing
+that there are now archives of these ancient games online.  Today I
+discovered <a href="https://www.myabandonware.com" target="_blank">myabandoneware</a> like the
+<a href="https://arvchive.org" target="_blank">internet archive</a> they not only have the
+downloads - but also a player where you can play in the browser
+window.  Not so nice for new games but for the ancient ones I did
+remember amazing.</p>
 
 <p></p>
-
-<p>Within R I could use some of the new functionality.</p>
-
-<pre><code>a &lt;- blogdown:::collect_yaml()
-</code></pre>
-
-<p>would give me a nice list of my categories and tags.</p>
-
-<p>First I would check how many files would use the offending
-tags.  I use <a href="https://github.com/BurntSushi/ripgrep" target="_blank">ripgrep</a> for my
-searches.  To avoid replacements inside text I chose to use a regexp
-as search expression.  In my case that avoided all collisions.</p>
-
-<pre><code>rg '^- offending'
-</code></pre>
-
-<p>Then if it&rsquo;s just one or two I can edit them. Just a warning I use
-fish and neovim - so adjust accordingly.</p>
-
-<pre><code>nvim (rg '^- offending')
-</code></pre>
-
-<p>To correct spelling I did replacements like this:</p>
-
-<pre><code>rg '^\W*- maths$' --files-with-matches | xargs sed -i '' 's/^\( *- *\) maths$/\1math/g'
-</code></pre>
-
-<p>annoyingly macs <code>sed</code> did not support the <code>\s</code> pattern.</p>
-
-<p>Fully removing a tag was done so:</p>
-
-<pre><code>rg '^- Allgemein' --files-with-matches | xargs sed -i '' '/^- Allgemein/d'
-</code></pre>
-
-<p>I think soon I will move stuff in subfolders.  For now this shouldn&rsquo;t
-be problematic as there are almost no files in the data folder.  Also
-I still have unresolved links to images in the old imports.  But
-that&rsquo;s for another day.</p>
-
-<h3 id="trouble-shooting">trouble shooting</h3>
-
-<p>I soon ended up having errors about empty section lists.
-Unfortunately it turned out too many.  And ripgrep wouldn&rsquo;t match
-multiline patterns.  So time to also use the (slower) <a href="https://github.com/ggreer/the_silver_searcher" target="_blank">silver searcher</a>.</p>
-
-<pre><code>ag -l &quot;^categories:\n--&quot; | xargs sed -i -e '/^categories:/d'
-ag -l &quot;^categories:\n[^ -]&quot; | xargs sed -i -e '/^categories:/d'
-</code></pre>
-
-<p>would delete the empty categories.</p>
-
-<h4 id="cases">cases&hellip;</h4>
-
-<p>It was a bit tricky as the page of tags showed them all in lower case - and I could locate them nicely using <code>rg -i</code> - however mac os <code>sed</code>
-  was not able to ignore cases in patterns.</p>
     </div>
   </div>
 
@@ -236,13 +180,10 @@ ag -l &quot;^categories:\n[^ -]&quot; | xargs sed -i -e '/^categories:/d'
   <nav>
   <ul class="pager">
     
-    <li class="previous"><a href="https://bdcaf.github.io/2018/06/04/math-acrobatics/"><span
-      aria-hidden="true">&larr;</span> Math Acrobatics</a></li>
+    <li class="previous"><a href="https://bdcaf.github.io/2018/06/14/mass-editing-tags/"><span
+      aria-hidden="true">&larr;</span> Mass editing tags</a></li>
     
 
-    
-    <li class="next"><a href="https://bdcaf.github.io/2018/06/29/abandonware/">Abandonware <span
-      aria-hidden="true">&rarr;</span></a></li>
     
   </ul>
 </nav>
