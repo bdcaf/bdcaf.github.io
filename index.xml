@@ -28,6 +28,32 @@ directly or subscribed in your podcatcher.&lt;/p&gt;
     </item>
     
     <item>
+      <title>Publii</title>
+      <link>https://bdcaf.github.io/2018/08/03/publii/</link>
+      <pubDate>Fri, 03 Aug 2018 12:13:16 +0200</pubDate>
+      
+      <guid>https://bdcaf.github.io/2018/08/03/publii/</guid>
+      <description>&lt;p&gt;I was quite happy to find the graphical tool
+&lt;a href=&#34;https://getpublii.com/&#34; target=&#34;_blank&#34;&gt;publii&lt;/a&gt; for building statical sites.&lt;/p&gt;
+
+&lt;p&gt;Many people still use Wordpress and the like to publish their blog.  I
+don&amp;rsquo;t like Wordpress as it requires to run PHP on the server meaning
+it offers a quite large attack surface.&lt;/p&gt;
+
+&lt;p&gt;I prefer the static site approach.   This also allows to radically cut
+down on JavaScript and other external resources and gives me
+the peace of mind that I don&amp;rsquo;t need to worry about updating a
+Wordpress installation.&lt;/p&gt;
+
+&lt;p&gt;However the tool of
+my choice, &lt;a href=&#34;https://gohugo.io&#34; target=&#34;_blank&#34;&gt;Hugo&lt;/a&gt; is a bit technical.   Now with
+&lt;a href=&#34;https://getpublii.com/&#34; target=&#34;_blank&#34;&gt;publii&lt;/a&gt; there is something that I might
+suggest command line muggles.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>Abandonware</title>
       <link>https://bdcaf.github.io/2018/06/29/abandonware/</link>
       <pubDate>Fri, 29 Jun 2018 12:12:04 +0200</pubDate>
@@ -326,47 +352,6 @@ exercised.&lt;/p&gt;
 euclidean geometry using puzzles.  Only working with compass and
 straightedge.  Too long time I practiced these.
 &lt;!-- more --&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Github pages</title>
-      <link>https://bdcaf.github.io/2018/01/29/github-pages/</link>
-      <pubDate>Mon, 29 Jan 2018 10:49:51 +0100</pubDate>
-      
-      <guid>https://bdcaf.github.io/2018/01/29/github-pages/</guid>
-      <description>&lt;p&gt;Now this site is on &lt;a href=&#34;https://pages.github.com&#34; target=&#34;_blank&#34;&gt;github pages&lt;/a&gt;.&lt;br /&gt;
-I had already repos on github for some time and trusted it - only
-private repos I keep on other places. But mostly I was
-missing some features a bplaced so now the move.  Mostly I like that I
-can now post new content via git so I just need to transfer new posts
-and not the whole site.  That now the site is &lt;code&gt;https&lt;/code&gt; secured is a
-nice boon.&lt;/p&gt;
-
-&lt;p&gt;It took me some time to reconfigure my &lt;a href=&#34;https://gohugo.io&#34; target=&#34;_blank&#34;&gt;hugo&lt;/a&gt; blog for the pages here&amp;rsquo;s what I learnt:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;the name of the repo must be &lt;code&gt;username.github.io&lt;/code&gt; - at first I had
-the impression &lt;code&gt;username&lt;/code&gt; was enough, and also some guides would
-describe how to use gitlab instead.&lt;/li&gt;
-&lt;li&gt;for me github insists publishing the &lt;code&gt;master&lt;/code&gt; branch - so I had to
-juggle around,  the previous master got renamed to hugo doing: &lt;code&gt;git
-branch -m master hugo&lt;/code&gt;.  I had already ignored the &lt;code&gt;public&lt;/code&gt;
-directory, and had to delete the original master from online and
-recreate it empty - but I think one can streamline that.
-Then added the master using worktree in public: &lt;code&gt;git worktree add -B master public origin/master&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;the url in &lt;code&gt;config.toml&lt;/code&gt; should be &lt;code&gt;https://username.github.io/&lt;/code&gt; -
-notice the trailing slash.&lt;/li&gt;
-&lt;li&gt;I can then use the &lt;code&gt;hugo&lt;/code&gt; command to build my site.  And publish
-using &lt;code&gt;cd public; git add . ; git commit -am pub; git push; cd ..&lt;/code&gt;  - I&amp;rsquo;m in
-&lt;a href=&#34;https://fishshell.com&#34; target=&#34;_blank&#34;&gt;fish&lt;/a&gt; -  many others use &lt;code&gt;&amp;amp;&amp;amp;&lt;/code&gt; instead.&lt;/li&gt;
-&lt;li&gt;I tried putting my binaries under &lt;code&gt;git lfs&lt;/code&gt; - so far it seems to
-work.  I will write back in case anything shows up.&lt;/li&gt;
-&lt;li&gt;It takes a minute till the change shows up. So I need to be
-patient.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;So there we are on github now&amp;hellip;&lt;/p&gt;
 </description>
     </item>
     

@@ -14,6 +14,15 @@
     
     <url>
     
+      <loc>https://bdcaf.github.io/2018/08/03/publii/</loc>
+      <lastmod>2018-08-03T12:13:16+02:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>https://bdcaf.github.io/2018/06/29/abandonware/</loc>
       <lastmod>2018-06-29T12:12:04+02:00</lastmod>
     </url>
@@ -2671,7 +2680,7 @@
     <url>
     
       <loc>https://bdcaf.github.io/tags/dev/</loc>
-      <lastmod>2018-03-30T12:40:33+02:00</lastmod>
+      <lastmod>2018-08-03T12:13:16+02:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -3485,6 +3494,16 @@
     
       <loc>https://bdcaf.github.io/tags/voc/</loc>
       <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://bdcaf.github.io/tags/web/</loc>
+      <lastmod>2018-08-03T12:13:16+02:00</lastmod>
       <priority>0</priority>
     </url>
     
