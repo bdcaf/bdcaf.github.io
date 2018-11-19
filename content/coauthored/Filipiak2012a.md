@@ -4,7 +4,9 @@ title: Molecular analysis of volatile metabolites released specifically by Staph
   aureus and Pseudomonas aeruginosa.
 ---
 
-Filipiak, Wojciech and Sponring, Andreas and Bauer, Maria and Filipiak, Anna and Ager, Clemens and Wiesenhofer, Helmut and Nagl, Markus and Troppmair, Jakob and Amann, Anton and Baur, Maria Magdalena and Filipiak, Anna and Ager, Clemens and Wiesenhofer, Helmut and Nagl, Markus and Troppmair, Jakob and Amann, Anton (2012), 
+Filipiak, Wojciech and Sponring, Andreas and Bauer, Maria and
+Filipiak, Anna and Ager, Clemens and Wiesenhofer, Helmut and Nagl,
+Markus and Troppmair, Jakob and Amann, Anton (2012) 
 **[Molecular analysis of volatile metabolites released specifically by Staphylococcus aureus and Pseudomonas aeruginosa.](http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=3444334\&tool=pmcentrez\&rendertype=abstract http://www.ncbi.nlm.nih.gov/pubmed/22716902)** ,
 *BMC microbiology (12)*,
 doi: 10.1186/1471-2180-12-113

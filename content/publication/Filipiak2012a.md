@@ -1,5 +1,5 @@
 ---
-selected: true
+selected: false
 lang: en
 id: Filipiak2012a
 pubtype: article-journal
@@ -8,34 +8,6 @@ author:
   given: Wojciech
 - family: Sponring
   given: Andreas
-- family: Baur
-  given: Maria Magdalena
-- family: Filipiak
-  given: Anna
-- family: Ager
-  given: Clemens
-- family: Wiesenhofer
-  given: Helmut
-- family: Nagl
-  given: Markus
-- family: Troppmair
-  given: Jakob
-- family: Amann
-  given: Anton
-- family: Bauer
-  given: Maria
-- family: Filipiak
-  given: Anna
-- family: Ager
-  given: Clemens
-- family: Wiesenhofer
-  given: Helmut
-- family: Nagl
-  given: Markus
-- family: Troppmair
-  given: Jakob
-- family: Amann
-  given: Anton
 - family: Baur
   given: Maria Magdalena
 - family: Filipiak
@@ -60,52 +32,7 @@ publisher: BMC Microbiology
 page: '113'
 volume: '12'
 issue: '1'
-annote: 'From Duplicate 1 (Molecular analysis of volatile metabolites released
-  specifically by Staphylococcus aureus and Pseudomonas aeruginosa. - Filipiak,
-  Wojciech; Sponring, Andreas; Baur, Maria Magdalena; Filipiak, Anna; Ager, Clemens;
-  Wiesenhofer, Helmut; Nagl, Markus; Troppmair, Jakob; Amann, Anton; Bauer, Maria;
-  Filipiak, Anna; Ager, Clemens; Wiesenhofer, Helmut; Nagl, Markus; Troppmair, Jakob;
-  Amann, Anton; Baur, Maria Magdalena; Filipiak, Anna; Ager, Clemens; Wiesenhofer,
-  Helmut; Nagl, Markus; Troppmair, Jakob; Amann, Anton)From Duplicate 1 (Molecular
-  analysis of volatile metabolites released specifically by Staphylococcus aureus
-  and Pseudomonas aeruginosa - Filipiak, W; Sponring, A; Baur, M M; Filipiak, A;
-  Ager, C; Wiesenhofer, H; Nagl, M; Troppmair, J; Amann, A)Filipiak, Wojciech Sponring,
-  Andreas Baur, Maria Magdalena Filipiak, Anna Ager, Clemens Wiesenhofer, Helmut
-  Nagl, Markus Troppmair, Jakob Amann, Anton eng Research Support, Non-U.S. Gov’t
-  England 2012/06/22 06:00 BMC Microbiol. 2012 Jun 20;12:113. doi: 10.1186/1471-2180-12-113.From
-  Duplicate 2 (Molecular analysis of volatile metabolites released specifically
-  by Staphylococcus aureus and Pseudomonas aeruginosa. - Filipiak, Wojciech; Sponring,
-  Andreas; Baur, Maria Magdalena; Filipiak, Anna; Ager, Clemens; Wiesenhofer, Helmut;
-  Nagl, Markus; Troppmair, Jakob; Amann, Anton; Bauer, Maria; Filipiak, Anna; Ager,
-  Clemens; Wiesenhofer, Helmut; Nagl, Markus; Troppmair, Jakob; Amann, Anton; Baur,
-  Maria Magdalena; Filipiak, Anna; Ager, Clemens; Wiesenhofer, Helmut; Nagl, Markus;
-  Troppmair, Jakob; Amann, Anton)From Duplicate 2 (Molecular analysis of volatile
-  metabolites released specifically by Staphylococcus aureus and Pseudomonas aeruginosa.
-  - Filipiak, Wojciech; Sponring, Andreas; Baur, Maria Magdalena; Filipiak, Anna;
-  Ager, Clemens; Wiesenhofer, Helmut; Nagl, Markus; Troppmair, Jakob; Amann, Anton;
-  Bauer, Maria; Filipiak, Anna; Ager, Clemens; Wiesenhofer, Helmut; Nagl, Markus;
-  Troppmair, Jakob; Amann, Anton; Baur, Maria Magdalena; Filipiak, Anna; Ager, Clemens;
-  Wiesenhofer, Helmut; Nagl, Markus; Troppmair, Jakob; Amann, Anton)From Duplicate
-  2 (Molecular analysis of volatile metabolites released specifically by Staphylococcus
-  aureus and Pseudomonas aeruginosa. - Filipiak, Wojciech; Sponring, Andreas; Baur,
-  Maria Magdalena; Filipiak, Anna; Ager, Clemens; Wiesenhofer, Helmut; Nagl, Markus;
-  Troppmair, Jakob; Amann, Anton; Bauer, Maria; Filipiak, Anna; Ager, Clemens; Wiesenhofer,
-  Helmut; Nagl, Markus; Troppmair, Jakob; Amann, Anton; Baur, Maria Magdalena; Filipiak,
-  Anna; Ager, Clemens; Wiesenhofer, Helmut; Nagl, Markus; Troppmair, Jakob; Amann,
-  Anton)From Duplicate 2 (Molecular analysis of volatile metabolites released specifically
-  by Staphylococcus aureus and Pseudomonas aeruginosa. - Filipiak, Wojciech; Sponring,
-  Andreas; Bauer, Maria; Filipiak, Anna; Ager, Clemens; Wiesenhofer, Helmut; Nagl,
-  Markus; Troppmair, Jakob; Amann, Anton; Baur, Maria Magdalena; Filipiak, Anna;
-  Ager, Clemens; Wiesenhofer, Helmut; Nagl, Markus; Troppmair, Jakob; Amann, Anton)From
-  Duplicate 2 (Molecular analysis of volatile metabolites released specifically
-  by Staphylococcus aureus and Pseudomonas aeruginosa. - Filipiak, Wojciech; Sponring,
-  Andreas; Bauer, Maria; Filipiak, Anna; Ager, Clemens; Wiesenhofer, Helmut; Nagl,
-  Markus; Troppmair, Jakob; Amann, Anton; Baur, Maria Magdalena)From Duplicate 2
-  ( Molecular analysis of volatile metabolites released specifically by Staphylococcus
-  aureus and Pseudomonas aeruginosa. - Filipiak, Wojciech; Sponring, Andreas; Baur,
-  Maria Magdalena; Filipiak, Anna; Ager, Clemens; Wiesenhofer, Helmut; Nagl, Markus;
-  Troppmair, Jakob; Amann, Anton )'
-abstract: 'ABSTRACT: BACKGROUND: The routinely used microbiological diagnosis
+abstract: 'BACKGROUND: The routinely used microbiological diagnosis
   of ventilator associated pneumonia (VAP) is time consuming and often requires
   invasive methods for collection of human specimens (e.g. bronchoscopy). Therefore,
   it is of utmost interest to develop a non-invasive method for the early detection
@@ -133,13 +60,7 @@ abstract: 'ABSTRACT: BACKGROUND: The routinely used microbiological diagnosis
   characteristic volatile metabolites, supporting the clinical use of breath-gas
   analysis as non-invasive method for early detection of bacterial lung infections.'
 keyword: '80 and over,Adult,Aged,Bacterial Infections,Bacterial Infections/diagnosis/microbiology,Bacterial
-  Infections: diagnosis,Bacterial Infections: microbiology,Breath Tests,Female,Gas
-  Chromatography-Mass Spectrometry,Humans,Lung Diseases,Lung Diseases/diagnosis/microbiology,Lung
-  Diseases: diagnosis,Lung Diseases: microbiology,Male,Middle Aged,Pseudomonas aeruginosa,Pseudomonas
-  aeruginosa/classification/\*metabolism,Pseudomonas aeruginosa: classification,Pseudomonas
-  aeruginosa: metabolism,Staphylococcus aureus,Staphylococcus aureus/classification/\*metabolism,Staphylococcus
-  aureus: classification,Staphylococcus aureus: metabolism,Volatile Organic Compounds,Volatile
-  Organic Compounds/\*analysis,Volatile Organic Compounds: analysis,Young Adult'
+  '
 url_pdf: https://www.ncbi.nlm.nih.gov/pubmed/22716902
 DOI: 10.1186/1471-2180-12-113
 ISBN: '1471218012113'
