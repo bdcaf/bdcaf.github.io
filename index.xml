@@ -11,6 +11,18 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Rubegoldberg</title>
+      <link>https://bdcaf.github.io/2018/11/19/rubegoldberg/</link>
+      <pubDate>Mon, 19 Nov 2018 15:22:52 +0100</pubDate>
+      
+      <guid>https://bdcaf.github.io/2018/11/19/rubegoldberg/</guid>
+      <description>&lt;p&gt;There&amp;rsquo;s a fun video about a real-live &lt;a href=&#34;https://en.wikipedia.org/wiki/Rube_Goldberg_machine&#34; target=&#34;_blank&#34;&gt;Rube-Goldberg
+machine&lt;/a&gt;&lt;/p&gt;
+
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/auIlGqEyTm8&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;</description>
+    </item>
+    
+    <item>
       <title>Crossover</title>
       <link>https://bdcaf.github.io/2018/11/19/crossover/</link>
       <pubDate>Mon, 19 Nov 2018 13:42:33 +0100</pubDate>
@@ -318,25 +330,6 @@ well worth checking out if you want to work on your (German)
 pronunciation.  Now - let&amp;rsquo;s see how soon I can talk again.&lt;/p&gt;
 
 &lt;!-- more --&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>pretty git exercises</title>
-      <link>https://bdcaf.github.io/2018/02/14/pretty-git-exercises/</link>
-      <pubDate>Wed, 14 Feb 2018 11:24:39 +0100</pubDate>
-      
-      <guid>https://bdcaf.github.io/2018/02/14/pretty-git-exercises/</guid>
-      <description>&lt;p&gt;I probably mentioned I use git for managing my code.  Even in the
-simplistic way I know - already helpful.   Like in this &lt;a href=&#34;https://xkcd.com/1597/&#34; target=&#34;_blank&#34;&gt;xkcd&lt;/a&gt;
-&lt;a href=&#34;https://xkcd.com/1597/&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://imgs.xkcd.com/comics/git.png&#34; alt=&#34;xkcd comic&#34; /&gt;&lt;/a&gt;   It
-is not easy finding good exercises to improve.&lt;/p&gt;
-
-&lt;p&gt;I got pointed to
-&lt;a href=&#34;https://learngitbranching.js.org&#34; target=&#34;_blank&#34;&gt;learngitbranching&lt;/a&gt;.  It looks
-polished and the exercises are short enough to do between.  Just
-somehow I overlooked the commandos &lt;code&gt;reset&lt;/code&gt; and &lt;code&gt;undo&lt;/code&gt; to restart the
-exercised.&lt;/p&gt;
 </description>
     </item>
     

@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
     <copyright>Clemens Ager, Brixlegg</copyright>
-    <lastBuildDate>Sat, 06 Jan 2018 10:16:59 +0100</lastBuildDate>
+    <lastBuildDate>Mon, 19 Nov 2018 15:22:52 +0100</lastBuildDate>
     
 	<atom:link href="https://bdcaf.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title></title>
+      <link>https://bdcaf.github.io/categories/</link>
+      <pubDate>Mon, 19 Nov 2018 15:22:52 +0100</pubDate>
+      
+      <guid>https://bdcaf.github.io/categories/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Academic</title>
