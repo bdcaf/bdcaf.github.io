@@ -7,10 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
     <copyright>Clemens Ager, Brixlegg</copyright>
-    <lastBuildDate>Tue, 21 Aug 2018 12:06:14 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 19 Nov 2018 13:42:33 +0100</lastBuildDate>
     
 	<atom:link href="https://bdcaf.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Crossover</title>
+      <link>https://bdcaf.github.io/2018/11/19/crossover/</link>
+      <pubDate>Mon, 19 Nov 2018 13:42:33 +0100</pubDate>
+      
+      <guid>https://bdcaf.github.io/2018/11/19/crossover/</guid>
+      <description>&lt;p&gt;Just recently got my hand on
+&lt;a href=&#34;https://www.codeweavers.com/products/crossover-mac&#34; target=&#34;_blank&#34;&gt;Crossover&lt;/a&gt;.  It&amp;rsquo;s
+essentially the commercially supported &lt;a href=&#34;https://www.winehq.org&#34; target=&#34;_blank&#34;&gt;wine&lt;/a&gt;.
+I am impressed how polished things feel nowadays.  I
+gave it usually &lt;em&gt;problematic&lt;/em&gt; scientific programs like the TofDaqViewer from
+Ionicon and the Nist library and it produced nicely running libraries.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Köhlmeier at br</title>
@@ -24,9 +38,7 @@ Köhlmeier&lt;/a&gt; has
 made several lectures where he retells classical literature.&lt;br /&gt;
 BR has made two podcasts available &lt;a href=&#34;https://www.br.de/mediathek/podcast/mythen-michael-koehlmeier-erzaehlt-sagen-des-klassischen-altertums/529&#34; target=&#34;_blank&#34;&gt;Mythen&lt;/a&gt; and &lt;a href=&#34;https://www.br.de/mediathek/podcast/koehlmeiers-maerchen/513&#34; target=&#34;_blank&#34;&gt;Märchen&lt;/a&gt;.
 Both feature an number of 15 minute episodes which can be downloaded
-directly or subscribed in your podcatcher.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+directly or subscribed in your podcatcher.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -50,9 +62,7 @@ Wordpress installation.&lt;/p&gt;
 &lt;p&gt;However the tool of
 my choice, &lt;a href=&#34;https://gohugo.io&#34; target=&#34;_blank&#34;&gt;Hugo&lt;/a&gt; is a bit technical.   Now with
 &lt;a href=&#34;https://getpublii.com/&#34; target=&#34;_blank&#34;&gt;publii&lt;/a&gt; there is something that I might
-suggest command line muggles.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+suggest command line muggles.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -67,9 +77,7 @@ discovered &lt;a href=&#34;https://www.myabandonware.com&#34; target=&#34;_blank
 &lt;a href=&#34;https://arvchive.org&#34; target=&#34;_blank&#34;&gt;internet archive&lt;/a&gt; they not only have the
 downloads - but also a player where you can play in the browser
 window.  Not so nice for new games but for the ancient ones I did
-remember amazing.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+remember amazing.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -82,9 +90,7 @@ remember amazing.&lt;/p&gt;
 &lt;a href=&#34;https://github.com/rstudio/blogdown&#34; target=&#34;_blank&#34;&gt;blogdown&lt;/a&gt; package I thought I
 could cleanup my site some more.&lt;/p&gt;
 
-&lt;p&gt;I came up with some scripts to clean up tags.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;I came up with some scripts to clean up tags.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -97,9 +103,7 @@ could cleanup my site some more.&lt;/p&gt;
 
 &lt;p&gt;Recently he made a fantastic video about solving the &lt;a href=&#34;https://youtu.be/2SUvWfNJSsM&#34; target=&#34;_blank&#34;&gt;towers of hanoi&lt;/a&gt;.  I did already know it is easy to spell out the solution in terms of recursion.  However he showed some connection to binary and ternary numbers - which alone is funny.  And finally that the solution also traverses the Sierpinsky triangle in &lt;a href=&#34;https://youtu.be/bdMfjfT0lKk&#34; target=&#34;_blank&#34;&gt;part 2&lt;/a&gt; which is surprising.&lt;/p&gt;
 
-&lt;p&gt;I embeded the videos after the &amp;ldquo;post&amp;rdquo; fold for convenient watching.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;I embeded the videos after the &amp;ldquo;post&amp;rdquo; fold for convenient watching.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -123,10 +127,7 @@ presentation.&lt;/p&gt;
   &lt;object data=&#34;/post/academic/phd_pres.pdf&#34; type=&#39;application/pdf&#39; width=&#39;100%&#39; height=&#39;400px&#39; &gt;
     &lt;p&gt;This browser does not support inline PDFs. Please download the PDF to view it: 
   &lt;/object&gt; &lt;a href=&#34;https://bdcaf.github.io/post/academic/phd_pres.pdf&#34;&gt;Download PDF&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;
-
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;/div&gt;</description>
     </item>
     
     <item>
@@ -153,8 +154,7 @@ slow in Acrobat Reader - however I don&amp;rsquo;t like that one.&lt;/p&gt;
 Keynote&lt;/a&gt;.
 Not only would it transfer my slides into sharp images,  I then could
 also use the fancy Keynote controls and the moderator screen for
-notes.
-&lt;/p&gt;</description>
+notes.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -175,9 +175,7 @@ more than cursing on stage - it just is not that outstanding - maybe
 for Americans.  Anyway the fooling around and raunchy got boring
 quickly.  The play itself is a bit of a complicated choice - being so
 anti-Semitic.  They always stayed on the political correct side
-though.  I just was hoping on a more modern interpretation.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+though.  I just was hoping on a more modern interpretation.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -196,10 +194,7 @@ though.  I just was hoping on a more modern interpretation.&lt;/p&gt;
   &lt;object data=&#34;/post/academic/2018-life-science.pdf&#34; type=&#39;application/pdf&#39; width=&#39;100%&#39; height=&#39;400px&#39; &gt;
     &lt;p&gt;This browser does not support inline PDFs. Please download the PDF to view it: 
   &lt;/object&gt; &lt;a href=&#34;https://bdcaf.github.io/post/academic/2018-life-science.pdf&#34;&gt;Download PDF&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;
-
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;/div&gt;</description>
     </item>
     
     <item>
@@ -216,9 +211,7 @@ allowed to see the bomb.  They need to talk the one on the bomb trough
 defusal.&lt;/p&gt;
 
 &lt;p&gt;I couldn&amp;rsquo;t resist.  Looking forward to try it at the next party.
-Before I was watching some Youtube videos and it looks great fun.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+Before I was watching some Youtube videos and it looks great fun.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -501,10 +494,10 @@ But now I can again proudly present my score . Nicely this puts me in the statis
     
     <item>
       <title>WTF - LOQ</title>
-      <link>https://bdcaf.github.io/2017/01/11/wtf---loq/</link>
+      <link>https://bdcaf.github.io/2017/01/11/wtf-loq/</link>
       <pubDate>Wed, 11 Jan 2017 13:53:20 +0100</pubDate>
       
-      <guid>https://bdcaf.github.io/2017/01/11/wtf---loq/</guid>
+      <guid>https://bdcaf.github.io/2017/01/11/wtf-loq/</guid>
       <description>Just got Imputing defensible values for left-censored ‘below level of quantitation’ (LoQ) biomarker measurements forwarded. It starts as interesting read stating the problem but IMHO ultimatively fails to address the problem. I am especially disappointed that neither the IUPAC definition and guidelines are mentioned, nor the current ISO 11843. Especially the works of Lloyd A. Currie offer great insight in this topic.
 The whole idea of censoring values below LOQ was already debunked by Currie.</description>
     </item>
@@ -582,8 +575,7 @@ Experiment bei dem CO während einem Ergometerexperiment gemessen
 wurden und ein chinesisches Experiment bei dem die Luft in einem
 Airliner beobachtet wurde.  Interessanterweise haben die Chinesen auch
 ein Paper über automatische GC/MS Auswertung gebracht.  Beides
-Steckenpferde von mir.
-&lt;/p&gt;</description>
+Steckenpferde von mir.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -598,8 +590,7 @@ um mein Poster und Networken.&lt;/p&gt;
 &lt;p&gt;Statistik ist hier immer noch ein heißes Thema.  Die wenigsten machen
 robuste Statistik und korrigieren für wiederholte Vergleiche.  Das
 scheint noch nicht angekommen sein.  Allerdings kann ich dann sicher
-Punkten wenn ich sie als erster erkläre :)
-&lt;/p&gt;</description>
+Punkten wenn ich sie als erster erkläre :)&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -614,14 +605,12 @@ Ansehen kann man das Poster &lt;a href=&#34;https://bdcaf.github.io/post/academi
 &lt;p&gt;Ich hoffe auf einige interessante Kontakte.  Gerade auf der
 statistischen Seite wäre es spannend die Sache zu erweitern.&lt;/p&gt;
 
-&lt;p&gt; 
+ 
 &lt;div class=&#34;embed-responsive&#34;&gt;
   &lt;object data=&#34;/post/academic/iabr2016_poster.pdf&#34; type=&#39;application/pdf&#39; width=&#39;100%&#39; height=&#39;400px&#39; &gt;
     &lt;p&gt;This browser does not support inline PDFs. Please download the PDF to view it: 
   &lt;/object&gt; &lt;a href=&#34;https://bdcaf.github.io/post/academic/iabr2016_poster.pdf&#34;&gt;Download PDF&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;
-
-&lt;/p&gt;</description>
+&lt;/div&gt;</description>
     </item>
     
     <item>
@@ -642,9 +631,7 @@ gute Programmierbücher wie das &amp;ldquo;&lt;a href=&#34;http://learnyouahaske
 good&lt;/a&gt;&amp;rdquo;.  Und an Programme gibts des
 berühmte &amp;ldquo;&lt;a href=&#34;http://www.thebeginnersgui.de/&#34; target=&#34;_blank&#34;&gt;Beginners Guide&lt;/a&gt;&amp;rdquo;.&lt;/p&gt;
 
-&lt;p&gt;Probierts mal aus. Ist cool!&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;Probierts mal aus. Ist cool!&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -655,9 +642,7 @@ berühmte &amp;ldquo;&lt;a href=&#34;http://www.thebeginnersgui.de/&#34; target=
       <guid>https://bdcaf.github.io/2016/07/27/am-postern/</guid>
       <description>&lt;p&gt;Mein Abstract für ein Poster in Zürich wurde angenommen.  Bin jetzt
 schön dabei meine Simulationen abzuschliessen.  Sie sind immer noch
-nicht so schön wie ich sie gerne hätte.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+nicht so schön wie ich sie gerne hätte.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -672,9 +657,7 @@ mit Kalman Filtern lösen.&lt;/p&gt;
 
 &lt;p&gt;Nun hab ich schon lange nicht mehr nachgesehen.  Ich habe aber immer
 noch im Hinterkopf Partikel Filter für die Echtzeitgeschichten
-einzubauen - wenn mal wieder Zeit is&amp;hellip;&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+einzubauen - wenn mal wieder Zeit is&amp;hellip;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -691,9 +674,7 @@ each other stay close in two dimensions as well.  Unfortunately the
 opposite does not hold.  Conveniently a function to produce a hilbert
 curve is provided via
 &lt;a href=&#34;https://bioconductor.org/packages/release/bioc/html/HilbertVis.html&#34; target=&#34;_blank&#34;&gt;HilbertVis&lt;/a&gt;
-on bioconductor.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+on bioconductor.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -714,9 +695,7 @@ allowfullscreen&gt;&lt;/iframe&gt;
 
 &lt;p&gt;Die rücken da die Story in den Vordergrund - das ist ein interessanter
 Gesichtspunkt.  Allerdings finde ich fast immer den Kontext ebenso
-wichtig.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+wichtig.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -730,9 +709,7 @@ Man kann den Preis für Downloads selbst bestimmen und die angebotenen Downloads
 
 &lt;p&gt;Diese Woche sind zum Beispiel die &lt;a href=&#34;https://de.wikipedia.org/wiki/Die_Peanuts&#34; target=&#34;_blank&#34;&gt;Peanuts&lt;/a&gt; comics im &lt;a href=&#34;https://www.humblebundle.com/books&#34; target=&#34;_blank&#34;&gt;books bundle&lt;/a&gt;.  Ich kann sie nur empfehlen.  Das letzte Mal hab ich die als Kind gelesen - sie werden aber nur besser.&lt;/p&gt;
 
-&lt;p&gt;Aus Begeisterung hab ich gleich den Avatar angepasst.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;Aus Begeisterung hab ich gleich den Avatar angepasst.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -754,9 +731,7 @@ Man kann den Preis für Downloads selbst bestimmen und die angebotenen Downloads
 
 &lt;p&gt;&lt;img src=&#34;http://imgs.xkcd.com/comics/human_subjects.png&#34; alt=&#34;xkcd strip&#34; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;http://xkcd.com/1594/&#34; target=&#34;_blank&#34;&gt;link out&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;&lt;a href=&#34;http://xkcd.com/1594/&#34; target=&#34;_blank&#34;&gt;link out&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -767,9 +742,7 @@ Man kann den Preis für Downloads selbst bestimmen und die angebotenen Downloads
       <guid>https://bdcaf.github.io/2015/10/23/bye-bye-stackoverflow/</guid>
       <description>&lt;p&gt;Ich war früher großer Fan von StackOverflow.  Auch jetzt wann immer ich ein &lt;em&gt;einfaches&lt;/em&gt; Programmierproblem habe taucht die Seite mit möglichen Lösungen auf.&lt;/p&gt;
 
-&lt;p&gt;In letzter Zeit hat sich leider die Policy geändert so, dass ich es nicht mehr interessant finde.  Vor allem die strengen Relevanzkriterien machen eigentlich alle Fragestellungen die mich ursprünglich interessiert haben Offtopic.  Und lassen meiner Meinung nach nur noch Fragen zu die sich mit dem Manual problemlos lösen liesen.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;In letzter Zeit hat sich leider die Policy geändert so, dass ich es nicht mehr interessant finde.  Vor allem die strengen Relevanzkriterien machen eigentlich alle Fragestellungen die mich ursprünglich interessiert haben Offtopic.  Und lassen meiner Meinung nach nur noch Fragen zu die sich mit dem Manual problemlos lösen liesen.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -779,8 +752,7 @@ Man kann den Preis für Downloads selbst bestimmen und die angebotenen Downloads
       
       <guid>https://bdcaf.github.io/2015/10/19/spannendes-paper/</guid>
       <description>&lt;p&gt;Das Paper &lt;a href=&#34;http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2627354&#34; target=&#34;_blank&#34;&gt;Surprised by the Gambler&amp;rsquo;s and Hot Hand Fallacies? A Truth in the Law of Small Numbers&lt;/a&gt;
-ist spannend für mich.  Am Ende bedeutet es, dass unsere Studien von der Statistik künstlich gehandicapt wurden.  Versuche das aufzuklären.  Leider braucht es wohl massig Simulationen und dann wird das nicht sonderlich klar.
-&lt;/p&gt;</description>
+ist spannend für mich.  Am Ende bedeutet es, dass unsere Studien von der Statistik künstlich gehandicapt wurden.  Versuche das aufzuklären.  Leider braucht es wohl massig Simulationen und dann wird das nicht sonderlich klar.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -791,9 +763,7 @@ ist spannend für mich.  Am Ende bedeutet es, dass unsere Studien von der Statis
       <guid>https://bdcaf.github.io/2015/10/09/launiger-artikel-bei-nature/</guid>
       <description>&lt;p&gt;Nature hat wieder einen ausgezeichneten Artikel: &lt;a href=&#34;http://www.nature.com/news/how-scientists-fool-themselves-and-how-they-can-stop-1.18517&#34; target=&#34;_blank&#34;&gt;How scientists fool themselves – and how they can stop&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;Es ist immer wieder die alte Diskussion.  Leider ohne Lösung bis jetzt.  Aber die Auflistung der typischen Fallacies hilft die eigenen Schlüsse zu hinterfragen.  Es ist jedenfalls beruhigend zu sehen, dass auch andere Felder unter den selben Problemen leiden.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;Es ist immer wieder die alte Diskussion.  Leider ohne Lösung bis jetzt.  Aber die Auflistung der typischen Fallacies hilft die eigenen Schlüsse zu hinterfragen.  Es ist jedenfalls beruhigend zu sehen, dass auch andere Felder unter den selben Problemen leiden.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -841,9 +811,7 @@ nächstes Jahr.  Selbst bin ich mir noch nicht so sicher.&lt;/p&gt;
 
 &lt;p&gt;Jetzt sitz&amp;rsquo; ich im Zug und versuch heim fahren. Wegen der
 deutschen Grenzen muss ich gewaltigen Umweg machen.  Hoffe
-ich komm aber noch in vernünftiger Zeit daheim an.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+ich komm aber noch in vernünftiger Zeit daheim an.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -1077,10 +1045,10 @@ weiter via IFTTT</description>
     
     <item>
       <title>Voynich - a provisional, partial decoding of the Voynich script</title>
-      <link>https://bdcaf.github.io/2014/09/20/voynich---a-provisional-partial-decoding-of-the-voynich-script/</link>
+      <link>https://bdcaf.github.io/2014/09/20/voynich-a-provisional-partial-decoding-of-the-voynich-script/</link>
       <pubDate>Sat, 20 Sep 2014 00:24:12 +0000</pubDate>
       
-      <guid>https://bdcaf.github.io/2014/09/20/voynich---a-provisional-partial-decoding-of-the-voynich-script/</guid>
+      <guid>https://bdcaf.github.io/2014/09/20/voynich-a-provisional-partial-decoding-of-the-voynich-script/</guid>
       <description>By: Stephen Bax
 Source: http://ift.tt/1lkeLKl</description>
     </item>
@@ -1357,10 +1325,10 @@ Sri Lanka</description>
     
     <item>
       <title>Um den Neid zu wecken ;)</title>
-      <link>https://bdcaf.github.io/2013/12/19/um-den-neid-zu-wecken-/</link>
+      <link>https://bdcaf.github.io/2013/12/19/um-den-neid-zu-wecken/</link>
       <pubDate>Thu, 19 Dec 2013 07:48:07 +0000</pubDate>
       
-      <guid>https://bdcaf.github.io/2013/12/19/um-den-neid-zu-wecken-/</guid>
+      <guid>https://bdcaf.github.io/2013/12/19/um-den-neid-zu-wecken/</guid>
       <description>Riesenstrand fast nur für uns&amp;hellip;</description>
     </item>
     

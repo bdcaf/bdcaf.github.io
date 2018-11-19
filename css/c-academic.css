@@ -410,7 +410,29 @@ margin-bottom:5px
 
 .pub .pub-authors {
 font-style:italic;
-line-height:30px
+line-height:30px;
+}
+
+.pub-authors-short-wrap {
+  font-style:italic;
+  line-height:30px;
+  height: 60px;
+}
+.pub-authors-short {
+  position:absolute;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: normal;
+  height: 30px;
+}
+
+.pub-authors-short:hover{
+  position:absolute;
+  background-color: rgba(255,255,204,0.6);
+  overflow: visible;
+  white-space: normal;
+  height: auto;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
 }
 
 .pub .pub-row-heading {

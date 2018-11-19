@@ -11,6 +11,23 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Crossover</title>
+      <link>https://bdcaf.github.io/2018/11/19/crossover/</link>
+      <pubDate>Mon, 19 Nov 2018 13:42:33 +0100</pubDate>
+      
+      <guid>https://bdcaf.github.io/2018/11/19/crossover/</guid>
+      <description>&lt;p&gt;Just recently got my hand on
+&lt;a href=&#34;https://www.codeweavers.com/products/crossover-mac&#34; target=&#34;_blank&#34;&gt;Crossover&lt;/a&gt;.  It&amp;rsquo;s
+essentially the commercially supported &lt;a href=&#34;https://www.winehq.org&#34; target=&#34;_blank&#34;&gt;wine&lt;/a&gt;.
+I am impressed how polished things feel nowadays.  I
+gave it usually &lt;em&gt;problematic&lt;/em&gt; scientific programs like the TofDaqViewer from
+Ionicon and the Nist library and it produced nicely running libraries.&lt;/p&gt;
+
+&lt;p&gt;Any how I should note that for TofDaqViewer one needs to mark the
+checkbox that it should end its recorder process.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>Köhlmeier at br</title>
       <link>https://bdcaf.github.io/2018/08/21/k%C3%B6hlmeier-at-br/</link>
       <pubDate>Tue, 21 Aug 2018 12:06:14 +0200</pubDate>
@@ -24,7 +41,7 @@ BR has made two podcasts available &lt;a href=&#34;https://www.br.de/mediathek/p
 Both feature an number of 15 minute episodes which can be downloaded
 directly or subscribed in your podcatcher.&lt;/p&gt;
 
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;and more&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -48,9 +65,7 @@ Wordpress installation.&lt;/p&gt;
 &lt;p&gt;However the tool of
 my choice, &lt;a href=&#34;https://gohugo.io&#34; target=&#34;_blank&#34;&gt;Hugo&lt;/a&gt; is a bit technical.   Now with
 &lt;a href=&#34;https://getpublii.com/&#34; target=&#34;_blank&#34;&gt;publii&lt;/a&gt; there is something that I might
-suggest command line muggles.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+suggest command line muggles.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -65,9 +80,7 @@ discovered &lt;a href=&#34;https://www.myabandonware.com&#34; target=&#34;_blank
 &lt;a href=&#34;https://arvchive.org&#34; target=&#34;_blank&#34;&gt;internet archive&lt;/a&gt; they not only have the
 downloads - but also a player where you can play in the browser
 window.  Not so nice for new games but for the ancient ones I did
-remember amazing.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+remember amazing.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -81,8 +94,6 @@ remember amazing.&lt;/p&gt;
 could cleanup my site some more.&lt;/p&gt;
 
 &lt;p&gt;I came up with some scripts to clean up tags.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;
 
 &lt;p&gt;Within R I could use some of the new functionality.&lt;/p&gt;
 
@@ -152,8 +163,6 @@ ag -l &amp;quot;^categories:\n[^ -]&amp;quot; | xargs sed -i -e &#39;/^categorie
 
 &lt;p&gt;I embeded the videos after the &amp;ldquo;post&amp;rdquo; fold for convenient watching.&lt;/p&gt;
 
-&lt;p&gt;&lt;/p&gt;
-
 &lt;iframe src=&#34;http://www.youtube.com/embed/2SUvWfNJSsM&#34; width=&#34;560&#34; height=&#34;315&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
 
 &lt;iframe src=&#34;http://www.youtube.com/embed/bdMfjfT0lKk&#34; width=&#34;560&#34; height=&#34;315&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;</description>
@@ -180,10 +189,7 @@ presentation.&lt;/p&gt;
   &lt;object data=&#34;/post/academic/phd_pres.pdf&#34; type=&#39;application/pdf&#39; width=&#39;100%&#39; height=&#39;400px&#39; &gt;
     &lt;p&gt;This browser does not support inline PDFs. Please download the PDF to view it: 
   &lt;/object&gt; &lt;a href=&#34;https://bdcaf.github.io/post/academic/phd_pres.pdf&#34;&gt;Download PDF&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;
-
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;/div&gt;</description>
     </item>
     
     <item>
@@ -210,8 +216,7 @@ slow in Acrobat Reader - however I don&amp;rsquo;t like that one.&lt;/p&gt;
 Keynote&lt;/a&gt;.
 Not only would it transfer my slides into sharp images,  I then could
 also use the fancy Keynote controls and the moderator screen for
-notes.
-&lt;/p&gt;</description>
+notes.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -232,9 +237,7 @@ more than cursing on stage - it just is not that outstanding - maybe
 for Americans.  Anyway the fooling around and raunchy got boring
 quickly.  The play itself is a bit of a complicated choice - being so
 anti-Semitic.  They always stayed on the political correct side
-though.  I just was hoping on a more modern interpretation.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+though.  I just was hoping on a more modern interpretation.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -253,10 +256,7 @@ though.  I just was hoping on a more modern interpretation.&lt;/p&gt;
   &lt;object data=&#34;/post/academic/2018-life-science.pdf&#34; type=&#39;application/pdf&#39; width=&#39;100%&#39; height=&#39;400px&#39; &gt;
     &lt;p&gt;This browser does not support inline PDFs. Please download the PDF to view it: 
   &lt;/object&gt; &lt;a href=&#34;https://bdcaf.github.io/post/academic/2018-life-science.pdf&#34;&gt;Download PDF&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;
-
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;/div&gt;</description>
     </item>
     
     <item>
@@ -273,9 +273,7 @@ allowed to see the bomb.  They need to talk the one on the bomb trough
 defusal.&lt;/p&gt;
 
 &lt;p&gt;I couldn&amp;rsquo;t resist.  Looking forward to try it at the next party.
-Before I was watching some Youtube videos and it looks great fun.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+Before I was watching some Youtube videos and it looks great fun.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -339,19 +337,6 @@ is not easy finding good exercises to improve.&lt;/p&gt;
 polished and the exercises are short enough to do between.  Just
 somehow I overlooked the commandos &lt;code&gt;reset&lt;/code&gt; and &lt;code&gt;undo&lt;/code&gt; to restart the
 exercised.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Euclidea</title>
-      <link>https://bdcaf.github.io/2018/02/03/euclidea/</link>
-      <pubDate>Sat, 03 Feb 2018 09:01:13 +0100</pubDate>
-      
-      <guid>https://bdcaf.github.io/2018/02/03/euclidea/</guid>
-      <description>&lt;p&gt;Having some extra time?  &lt;a href=&#34;https://euclidea.xyz&#34; target=&#34;_blank&#34;&gt;Euclidea&lt;/a&gt; teaches
-euclidean geometry using puzzles.  Only working with compass and
-straightedge.  Too long time I practiced these.
-&lt;!-- more --&gt;&lt;/p&gt;
 </description>
     </item>
     

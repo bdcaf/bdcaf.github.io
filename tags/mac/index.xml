@@ -7,10 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
     <copyright>Clemens Ager, Brixlegg</copyright>
-    <lastBuildDate>Tue, 29 May 2018 10:44:19 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 19 Nov 2018 13:42:33 +0100</lastBuildDate>
     
 	<atom:link href="https://bdcaf.github.io/tags/mac/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Crossover</title>
+      <link>https://bdcaf.github.io/2018/11/19/crossover/</link>
+      <pubDate>Mon, 19 Nov 2018 13:42:33 +0100</pubDate>
+      
+      <guid>https://bdcaf.github.io/2018/11/19/crossover/</guid>
+      <description>&lt;p&gt;Just recently got my hand on
+&lt;a href=&#34;https://www.codeweavers.com/products/crossover-mac&#34; target=&#34;_blank&#34;&gt;Crossover&lt;/a&gt;.  It&amp;rsquo;s
+essentially the commercially supported &lt;a href=&#34;https://www.winehq.org&#34; target=&#34;_blank&#34;&gt;wine&lt;/a&gt;.
+I am impressed how polished things feel nowadays.  I
+gave it usually &lt;em&gt;problematic&lt;/em&gt; scientific programs like the TofDaqViewer from
+Ionicon and the Nist library and it produced nicely running libraries.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Rescuing my PDF presentation on mac</title>
@@ -36,8 +50,7 @@ slow in Acrobat Reader - however I don&amp;rsquo;t like that one.&lt;/p&gt;
 Keynote&lt;/a&gt;.
 Not only would it transfer my slides into sharp images,  I then could
 also use the fancy Keynote controls and the moderator screen for
-notes.
-&lt;/p&gt;</description>
+notes.&lt;/p&gt;</description>
     </item>
     
     <item>

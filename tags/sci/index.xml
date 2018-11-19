@@ -34,10 +34,10 @@ But now I can again proudly present my score . Nicely this puts me in the statis
     
     <item>
       <title>WTF - LOQ</title>
-      <link>https://bdcaf.github.io/2017/01/11/wtf---loq/</link>
+      <link>https://bdcaf.github.io/2017/01/11/wtf-loq/</link>
       <pubDate>Wed, 11 Jan 2017 13:53:20 +0100</pubDate>
       
-      <guid>https://bdcaf.github.io/2017/01/11/wtf---loq/</guid>
+      <guid>https://bdcaf.github.io/2017/01/11/wtf-loq/</guid>
       <description>Just got Imputing defensible values for left-censored ‘below level of quantitation’ (LoQ) biomarker measurements forwarded. It starts as interesting read stating the problem but IMHO ultimatively fails to address the problem. I am especially disappointed that neither the IUPAC definition and guidelines are mentioned, nor the current ISO 11843. Especially the works of Lloyd A. Currie offer great insight in this topic.
 The whole idea of censoring values below LOQ was already debunked by Currie.</description>
     </item>
@@ -53,8 +53,7 @@ Experiment bei dem CO während einem Ergometerexperiment gemessen
 wurden und ein chinesisches Experiment bei dem die Luft in einem
 Airliner beobachtet wurde.  Interessanterweise haben die Chinesen auch
 ein Paper über automatische GC/MS Auswertung gebracht.  Beides
-Steckenpferde von mir.
-&lt;/p&gt;</description>
+Steckenpferde von mir.&lt;/p&gt;</description>
     </item>
     
   </channel>
