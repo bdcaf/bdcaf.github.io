@@ -98,6 +98,21 @@ change.&lt;/p&gt;</description>
     </item>
     
     <item>
+      <title>Colliding Blocks</title>
+      <link>https://bdcaf.github.io/2019/01/15/colliding-blocks/</link>
+      <pubDate>Tue, 15 Jan 2019 17:15:52 +0100</pubDate>
+      
+      <guid>https://bdcaf.github.io/2019/01/15/colliding-blocks/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/channel/UCYO_jab_esuFRV4b17AJtAw&#34; target=&#34;_blank&#34;&gt;Three blue one
+brown&lt;/a&gt; who
+makes amazing videos about maths found another amazing fact linking
+how masses collide with an amazing mathematical property.  Since I
+don&amp;rsquo;t want to spoil anything watch it!&lt;/p&gt;
+
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube-nocookie.com/embed/HEfHFsfGXjs&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;</description>
+    </item>
+    
+    <item>
       <title>Seeing statistics</title>
       <link>https://bdcaf.github.io/2018/12/28/seeing-statistics/</link>
       <pubDate>Fri, 28 Dec 2018 09:31:46 +0100</pubDate>
@@ -385,21 +400,6 @@ defusal.&lt;/p&gt;
 
 &lt;p&gt;I couldn&amp;rsquo;t resist.  Looking forward to try it at the next party.
 Before I was watching some Youtube videos and it looks great fun.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Layout changes</title>
-      <link>https://bdcaf.github.io/2018/03/30/layout-changes/</link>
-      <pubDate>Fri, 30 Mar 2018 12:40:33 +0200</pubDate>
-      
-      <guid>https://bdcaf.github.io/2018/03/30/layout-changes/</guid>
-      <description>&lt;p&gt;I played around removing all the JavaScript dependencies of the
-hugo-academic template.  I feel bootstrap and jQuery have little
-reason to be on such a simple site.  By now I think I deviated from
-the original theme to no longer need it in the powered by section.&lt;/p&gt;
-
-&lt;p&gt;Anyway should you note something amiss - let me know.&lt;/p&gt;
-</description>
     </item>
     
   </channel>

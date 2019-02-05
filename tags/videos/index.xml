@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Videos on C. Ager</title>
+    <link>https://bdcaf.github.io/tags/videos/</link>
+    <description>Recent content in Videos on C. Ager</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-uk</language>
+    <copyright>Clemens Ager, Brixlegg</copyright>
+    <lastBuildDate>Tue, 15 Jan 2019 17:15:52 +0100</lastBuildDate>
+    
+	<atom:link href="https://bdcaf.github.io/tags/videos/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Colliding Blocks</title>
+      <link>https://bdcaf.github.io/2019/01/15/colliding-blocks/</link>
+      <pubDate>Tue, 15 Jan 2019 17:15:52 +0100</pubDate>
+      
+      <guid>https://bdcaf.github.io/2019/01/15/colliding-blocks/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/channel/UCYO_jab_esuFRV4b17AJtAw&#34; target=&#34;_blank&#34;&gt;Three blue one
+brown&lt;/a&gt; who
+makes amazing videos about maths found another amazing fact linking
+how masses collide with an amazing mathematical property.  Since I
+don&amp;rsquo;t want to spoil anything watch it!&lt;/p&gt;
+
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube-nocookie.com/embed/HEfHFsfGXjs&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
