@@ -5,6 +5,15 @@
     
     <url>
     
+      <loc>https://bdcaf.github.io/2019/02/05/configuring-syncthing-on-mac-server/</loc>
+      <lastmod>2019-02-05T10:58:41+01:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>https://bdcaf.github.io/2018/12/28/seeing-statistics/</loc>
       <lastmod>2018-12-28T09:31:46+01:00</lastmod>
     </url>
@@ -2995,6 +3004,16 @@
     
     <url>
     
+      <loc>https://bdcaf.github.io/categories/mac/</loc>
+      <lastmod>2019-02-05T10:58:41+01:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>https://bdcaf.github.io/tags/machine-learning/</loc>
       <lastmod>2017-05-17T10:55:52+02:00</lastmod>
       <priority>0</priority>
@@ -3116,7 +3135,7 @@
     <url>
     
       <loc>https://bdcaf.github.io/post/</loc>
-      <lastmod>2018-12-28T09:31:46+01:00</lastmod>
+      <lastmod>2019-02-05T10:58:41+01:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -3417,6 +3436,16 @@
     
       <loc>https://bdcaf.github.io/categories/study/</loc>
       <lastmod>2018-04-04T12:45:05+02:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://bdcaf.github.io/tags/syncthing/</loc>
+      <lastmod>2019-02-05T10:58:41+01:00</lastmod>
       <priority>0</priority>
     </url>
     
