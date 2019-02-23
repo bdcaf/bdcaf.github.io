@@ -4,7 +4,6 @@
 {{ partial "header_image.html" . }}
 
 <div class="container">
-  <div class="row">
     <div class="col-md-12">
       <h1>{{ .Title | default (i18n "talks") }}</h1>
 
@@ -13,7 +12,6 @@
       {{ end }}
 
       {{ range .Data.Pages.GroupByDate "2006" }}
-      <div class="row" id="talk_list">
         <div class="col-md-2">
           <h3>{{ .Key }}</h3>
         </div>
@@ -30,13 +28,9 @@
             {{ end }}
 
           </ul>
-        </div>
       </div>
       {{ end }}
-
     </div>
-  </div>
-
 </div>
 {{ partial "footer_container.html" . }}
 {{ partial "footer.html" . }}

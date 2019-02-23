@@ -12,12 +12,10 @@ counter-reset:captions
 }
 
 p {
-margin-top:0;
 margin-bottom:1rem
 }
 
 ul,ol,dl {
-margin-top:0;
 margin-bottom:1rem
 }
 
@@ -34,19 +32,16 @@ font-size:2.25rem
 }
 
 h2 {
-margin-top:1rem;
 font-size:1.5rem
 }
 
 h3 {
 font-weight:700;
-margin-top:0;
 font-size:1.25rem
 }
 
 h4,h5,h6 {
 font-weight:700;
-margin-top:1rem;
 font-size:1rem
 }
 
@@ -81,8 +76,10 @@ text-decoration:underline
 
 img,video {
 height:auto;
-max-width:100%;
-display:block
+}
+.img-responsive{
+width : auto;
+height: 200px;
 }
 
 figcaption:before {
@@ -93,7 +90,6 @@ content:"Figure " counter(captions) ": "
 
 figcaption {
 display:block;
-margin-top:.75em;
 line-height:1.25;
 font-size:1rem;
 margin-bottom:1.65rem;
@@ -149,7 +145,6 @@ margin-bottom:50px
 margin:0 auto;
 padding-right:15px;
 padding-left:15px;
-width:100%
 }
 
 .home-section {
@@ -239,9 +234,6 @@ font-size:.75rem;
 color:rgba(0,0,0,0.6)
 }
 
-.share-box {
-float:right
-}
 
 ul.share {
 display:flex;
@@ -288,9 +280,15 @@ animation-delay:.15s
 }
 
 .article-container {
-max-width:760px;
-padding:1rem 20px 0;
-margin:0 auto
+  display:grid;
+  grid-template-columns: min-content 1fr;
+  grid-column-gap: 2em;
+  justify-content: space-around;
+  align-content: space-evenly;
+}
+.article-container h3, .article-container h4 {
+  margin-top: 0;
+  grid-column: 1;
 }
 
 .article-header {
@@ -299,7 +297,6 @@ clear:both
 }
 
 .article-banner {
-width:100%;
 height:auto
 }
 
@@ -378,12 +375,10 @@ margin:60px auto
 }
 
 .article-style figure {
-margin-top:60px;
 margin-bottom:60px
 }
 
 .article-style figure img {
-margin-top:0;
 margin-bottom:0
 }
 
@@ -398,7 +393,6 @@ padding-top:6px
 }
 
 .pub-banner {
-max-width:100%;
 height:auto;
 margin-left:auto;
 margin-right:auto
@@ -466,9 +460,6 @@ padding-top:10px
 }
 
 #container-publications {
-display:block;
-position:relative;
-overflow:hidden
 }
 
 #projects.home-section li {
@@ -495,9 +486,9 @@ color:#9c9c9c
 }
 
 #container-projects {
-display:block;
-position:relative;
-overflow:hidden
+display:grid;
+grid-template-columns: 1fr 1fr;
+grid-gap: 2em;
 }
 
 .project-toolbar {
@@ -523,12 +514,6 @@ background:#fff;
 box-shadow:0 2px 4px 0 rgba(0,0,0,0.2);
 transition:all .2s ease-out;
 border-radius:12px
-}
-
-.card .card-image {
-display:block;
-position:relative;
-min-height:100px
 }
 
 .card h4 {
@@ -558,49 +543,20 @@ color:#999;
 font-size:.75rem
 }
 
+.card-image{
+  margin-left:auto;
+  margin-right:auto;
+}
+
 .card p:last-child {
 margin-bottom:0
 }
 
-.card .card-image.hover-overlay:before {
-display:block;
-position:absolute;
-left:0;
-top:0;
-width:100%;
-height:100%;
-background:#fff;
-content:" ";
-opacity:0;
-transition:all .2s ease-out
-}
-
-.card .card-image.hover-overlay:after {
-display:block;
-position:absolute;
-left:0;
-top:50%;
-width:100%;
-transform:translate(0,-50%);
-opacity:0;
-transition:all .2s ease-out;
-content:'\f0c1';
-text-align:center;
-color:#666;
-font:3rem 'FontAwesome'
-}
 
 .card:hover {
 box-shadow:0 8px 16px 0 rgba(0,0,0,0.2)
 }
 
-.card:hover .card-image.hover-overlay:before {
-opacity:.8
-}
-
-.card:hover .card-image.hover-overlay:after {
-opacity:.6
-}
 
 #contact.home-section .fa-ul {
 margin-left:3.14285714rem
@@ -624,14 +580,14 @@ margin-bottom:0
 }
 
 footer {
-margin:4rem 0 0;
-padding:2rem 0;
-width:100%
+  margin-left: auto;
+  margin-right: auto;
+  width=100%;
 }
 
 footer p {
-font-size:.75rem;
-text-align:center
+  font-size:.75rem;
+  text-align:center
 }
 
 .site-footer,footer a#back_to_top i {
@@ -731,8 +687,6 @@ color:#f39218
 }
 
 table {
-width:100%;
-max-width:100%;
 margin-bottom:1rem;
 font-size:.93rem
 }
@@ -779,7 +733,6 @@ position:relative;
 display:block;
 font-size:1rem;
 margin-left:2rem;
-margin-top:0;
 margin-bottom:0
 }
 
@@ -826,7 +779,6 @@ border-color:#ebccd1
 display:inline-flex;
 list-style:none;
 padding:0;
-margin-top:30px;
 font-size:2em
 }
 
@@ -871,7 +823,6 @@ right:-200px;
 margin-left:auto;
 margin-right:0;
 top:0;
-height:100%;
 overflow-y:scroll;
 overflow-x:visible;
 transition:left .3s ease,box-shadow .3s ease;
@@ -944,16 +895,14 @@ cursor:default
 
 header {
 display:flex;
-padding:10px
 }
 
 header > .container {
-margin-right:0;
 background-color:#FCFCFC;
 border-radius:12px
 }
 
-@media (min-width: 640px) {
+@media (min-width: 800px) {
 .menu-toggle,.main-menu .menu-close {
 display:none
 }
@@ -967,7 +916,6 @@ height:auto;
 
 .main-menu ul {
 display:flex;
-padding:0;
 box-shadow:none;
 height:auto;
 width:auto;
@@ -983,34 +931,19 @@ border:0!important
 background:none;
 }
 
-header {
-display:flex
-}
-
-.main-leftcol {
-width:33.3%;
-float:left;
-padding-right:15px;
-padding-left:15px
-}
-
-.main-rightcol {
-width:66.6%;
-float:left;
-padding-right:15px;
-padding-left:15px
-}
-
-.half-content {
-width:40%;
-float:left
-}
-
 .container {
-padding-right:15px;
-padding-left:15px;
-margin-right:auto;
-margin-left:auto
+  display: grid;
+  grid-template-columns: 250px 3em 1fr;
+}
+.main-leftcol {
+  grid-column: 1;
+}
+.main-rightcol {
+  grid-column: 3;
+}
+.twotable{
+display: grid;
+grid-template-columns: 1fr 1fr;
 }
 
 .continue {
@@ -1021,4 +954,6 @@ font-size:60%
 position:relative;
 display:block
 }
+
+.post {
 }

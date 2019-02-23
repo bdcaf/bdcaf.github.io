@@ -93,3 +93,5 @@
 
 - id: talks
   translation: Talks
+- id: identification
+  translation: Identifier

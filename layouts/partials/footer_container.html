@@ -1,18 +1,8 @@
 <footer class="site-footer">
-  <div class="container">
     <p class="powered-by">
     {{ with .Site.Copyright }}{{ . | markdownify}} &middot; {{ end }}
     Powered by <a href="http://gohugo.io" target="_blank">Hugo</a>.
     &middot;
-    <a href="{{ .RSSLink | default .Site.RSSLink }}">RSS <i class="fas fa-rss-square fa-2x"></i></a>
-    &middot;
-    <span class="pull-right" aria-hidden="true">
-      <a href="#" id="back_to_top">
-	<span class="button_icon">
-	  <i class="fa fa-chevron-up fa-2x"></i>
-	</span>
-      </a>
-    </span>
+    <a href="{{ .RSSLink | default .Site.RSSLink }}">RSS <i class="fas fa-rss-square"></i></a>
     </p>
-  </div>
 </footer>

@@ -2,8 +2,7 @@
 {{ $page := .page }}
 
 <!-- Selected Publications widget -->
-<div class="row">
-  <div class=" main-leftcol section-heading">
+  <div class="main-leftcol section-heading">
     <h1 id="{{ $page.File.TranslationBaseName }}">{{ with $page.Title }}{{ . | markdownify }}{{ end }}</h1>
     {{ with $page.Params.subtitle }}<p>{{ . | markdownify }}</p>{{ end }}
   </div>
@@ -22,4 +21,3 @@
     {{ end }}
 
   </div>
-</div>
