@@ -1,7 +1,6 @@
 {{ $ := .root }}
 {{ $page := .page }}
 {{ $pubs_len := len (where $.Data.Pages "Type" "publication") }}
-
 <!-- Publications widget -->
 <div class="main-leftcol section-heading">
   <h1>{{ with $page.Title }}{{ . | markdownify }}{{ end }}</h1>

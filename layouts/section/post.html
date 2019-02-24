@@ -3,17 +3,15 @@
 
 {{ partial "header_image.html" . }}
 
-<div class="universal-wrapper">
-
+<div class="text-wrapper">
   <h1>{{ .Title | default (i18n "posts") }}</h1>
-
   {{ with .Content }}
   <div class="article-style" itemprop="articleBody">{{ . }}</div>
   {{ end }}
 
   {{ $paginator := .Paginate .Data.Pages }}
   {{ range $paginator.Pages }}
-  <div>
+  <div class="apost">
     {{ if .Params.image }}
     <a href="{{ .Permalink }}">
       <img src="{{ $.Site.BaseURL }}img/{{ .Params.image }}" class="article-banner">

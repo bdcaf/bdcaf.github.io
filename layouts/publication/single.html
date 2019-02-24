@@ -16,46 +16,44 @@
       {{ partial "share.html" . }}
     </span>
   </div>
-</div>
-<div class="article-container">
-  {{ if .Params.image }}
-  <img src="{{ "/img/" | relURL }}{{ .Params.image }}" class="pub-banner" itemprop="image">
-  {{end}}
-  {{ if .Params.abstract }}
-  <h3>{{ i18n "abstract" }}</h3>
-  <p class="pub-abstract" > {{- .Params.abstract | markdownify -}} </p>
-  {{ end }}
-  {{ if (.Params.publication_types) and (ne (index .Params.publication_types 0) "0") }}
-  {{ end }}
-  <h4>{{ i18n "publication" }}</h4>
-  <div >
-    {{ .Params.containertitle | markdownify }},
-    <i>{{ .Params.volume }}</i> 
-    {{ with .Params.issue }}
-    ({{.}})
+  <div class="article-container">
+    {{ if .Params.image }}
+    <img src="{{ "/img/" | relURL }}{{ .Params.image }}" class="pub-banner" itemprop="image">
+    {{end}}
+    {{ if .Params.abstract }}
+    <h3>{{ i18n "abstract" }}</h3>
+    <p class="pub-abstract" > {{- .Params.abstract | markdownify -}} </p>
     {{ end }}
-    {{with .Params.page }}, {{ . }}{{end}}
+    {{ if (.Params.publication_types) and (ne (index .Params.publication_types 0) "0") }}
+    {{ end }}
+    <h4>{{ i18n "publication" }}</h4>
+    <div >
+      {{ .Params.containertitle | markdownify }},
+      <i>{{ .Params.volume }}</i> 
+      {{ with .Params.issue }}
+      ({{.}})
+      {{ end }}
+      {{with .Params.page }}, {{ . }}{{end}}
+    </div>
+    <h4>{{ i18n "identification" }}</h4>
+    <div class="col-xs-12 col-sm-3"> 
+      {{ with .Params.DOI }}<a href = "https://doi.org/{{ . }}">
+	<span>DOI:&nbsp;{{ . }}</span></a>
+      {{end}}
+      {{ with .Params.ISBN }}<span>ISBN:&nbsp;{{ . }}</span>{{end}}
+      {{ with .Params.PMID }}<span> PMID:&nbsp;{{ . }}</span>{{end}}
+    </div>
+
+    <h4>{{ i18n "date" }}</h4>
+    <div class="col-xs-12 col-sm-9" itemprop="datePublished">
+      {{ .Date.Format "January, 2006" }}
+    </div>
+
+    <h4>{{ i18n "links" }}</h4>
+    <div class=""> {{ partial "publication_links" (dict "content" . "is_list" 0) }} </div>
+    <div class="article-style">{{ .Content }}</div>
   </div>
-  <h4>{{ i18n "identification" }}</h4>
-  <div class="col-xs-12 col-sm-3"> 
-    {{ with .Params.DOI }}<span>DOI:&nbsp;{{ . }}</span>{{end}}
-    {{ with .Params.ISBN }}<span>ISBN:&nbsp;{{ . }}</span>{{end}}
-    {{ with .Params.PMID }}<span> PMID:&nbsp;{{ . }}</span>{{end}}
-  </div>
-
-  <h4>{{ i18n "date" }}</h4>
-  <div class="col-xs-12 col-sm-9" itemprop="datePublished">
-    {{ .Date.Format "January, 2006" }}
-  </div>
-
-  <h4>{{ i18n "links" }}</h4>
-  <div class=""> {{ partial "publication_links" (dict "content" . "is_list" 0) }} </div>
-
-  <div class="article-style">{{ .Content }}</div>
-
 </div>
-
 {{ partial "section_pager.html" . }}
-
 {{ partial "footer_container.html" . }}
 {{ partial "footer.html" . }}

@@ -4,7 +4,7 @@
 
 <!-- Blog Posts widget -->
 <div class="main-leftcol section-heading">
-  <h1>{{ with $page.Title }}{{ . | markdownify }}{{ end }}</h1>
+  <h1 id = "posts">{{ with $page.Title }}{{ . | markdownify }}{{ end }}</h1>
   {{ with $page.Params.subtitle }}<p>{{ . | markdownify }}</p>{{ end }}
   {{ if gt $posts_len $page.Params.count }}
   <p class="view-all">
@@ -16,7 +16,7 @@
   {{ end }}
 
 </div>
-<div class=" main-rightcol">
+<div class="main-rightcol">
 
   {{ with $page.Content }}<p>{{ . | markdownify }}</p>{{ end }}
 
