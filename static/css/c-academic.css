@@ -8,7 +8,8 @@ html {
 }
 
 body {
-  counter-reset:captions
+  counter-reset:captions;
+  --typical-width: 600px;
 }
 
 p {
@@ -273,12 +274,13 @@ ul.share li:hover .fa {
 article {
   animation:intro .3s both;
   animation-delay:.15s
+  display: block;
+  max-width: var(--typical-width);
+  margin-left:auto;
+  margin-right:auto;
 }
 
 .article-container {
-  display:grid;
-  grid-template-columns: min-content 1fr;
-  grid-column-gap: 2em;
   justify-content: space-around;
   align-content: space-evenly;
 }
@@ -297,7 +299,10 @@ article {
 }
 
 .pager {
+  display: flex;
   list-style:none;
+  justify-content: space-between;
+  padding-left: 0;
 }
 
 .article-header-caption {
@@ -387,7 +392,7 @@ article {
 }
 
 .pub {
-max-width: 600px;
+  max-width: var(--typical-width);
 margin-left:auto;
 margin-right:auto;
 }
@@ -414,17 +419,14 @@ margin-right:auto;
 
 .pub-authors-short-wrap {
   font-style:italic;
-  line-height:30px;
-  height: 60px;
 }
 .pub-authors-short {
   position:absolute;
   overflow: hidden;
   text-overflow: ellipsis;
-  white-space: normal;
-  height: 30px;
+  white-space: nowrap;
+  max-width: var(--typical-width);
 }
-
 .pub-authors-short:hover{
   position:absolute;
   background-color: rgba(255,255,204,0.6);
@@ -433,13 +435,11 @@ margin-right:auto;
   height: auto;
   box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
 }
-
 .pub .pub-row-heading {
   font-weight:700
 }
-
 .pub-list-item {
-  margin-bottom:40px
+  margin-bottom:2rem;
 }
 
 .pub-list-item .pub-abstract {
@@ -635,7 +635,7 @@ nav#navbar-main li {
   white-space:nowrap;
   transition:.2s ease;
   color:#34495e;
-  font-weight:600
+  font-weight:600;
 }
 
 .navbar-default .navbar-nav>.active>a,.navbar-default .navbar-nav>.active>a:focus,.navbar-default .navbar-nav>.active>a:hover {
@@ -900,7 +900,7 @@ header > .container {
   grid-template-columns: 1fr 1fr;
 }
 .continue {
-  font-size:60%
+  font-size:80%
 }
   .main-allcol {
     grid-column: 1/span 2;
@@ -915,6 +915,7 @@ header > .container {
   .main-rightcol {
     grid-column: 2;
     padding-bottom: 2rem;
+    max-width: var(--typical-width);
   }
   .main-rightcol h3{
     margin-top: 0;
@@ -925,7 +926,7 @@ header > .container {
   }
 
 .text-wrapper{
-  max-width: 600px;
+  max-width: var(--typical-width);
   margin-left:auto;
   margin-right:auto;
 }
@@ -968,5 +969,17 @@ margin-bottom: 3rem;
     grid-column-gap: 2em;
   }
 
+}
+
+.fa-ul li {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+#profile ul {
+margin: 0;
+}
+#profile p {
+margin: 0;
 }
 

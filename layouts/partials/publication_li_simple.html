@@ -1,0 +1,7 @@
+<li itemscope itemtype="http://schema.org/CreativeWork">
+  <i class="fa-li fas fa-book-open fa-2x"></i>
+  <a href="{{ .Permalink }}" itemprop="url">{{ .Title }}</a>
+  <div class = "continue">
+    {{ partial "publication_links" (dict "content" . "is_list" 1) }}
+  </div>
+</li>

@@ -15,12 +15,13 @@
   {{ end }}
 </div>
 <div class=" main-rightcol">
-  {{ with $page.Content }}<p>{{ . | markdownify }}</p>{{ end }}
-
-  {{ if $page.Params.detailed_list }}
-  {{ range first $page.Params.count (where $.Data.Pages "Type" "publication") }}
-  {{ partial "publication_li_detailed" . }}
+  {{ with $page.Content }}
+  <p>{{ . | markdownify }}</p>
   {{ end }}
+  {{ if $page.Params.detailed_list }}
+    {{ range first $page.Params.count (where $.Data.Pages "Type" "publication") }}
+    {{ partial "publication_li_detailed" . }}
+    {{ end }}
   {{ else }}
   <ul class="fa-ul">
     {{ range first $page.Params.count (where $.Data.Pages "Type" "publication") }}
