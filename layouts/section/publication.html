@@ -1,6 +1,7 @@
 {{ partial "header.html" . }}
 {{ partial "navbar.html" . }}
 {{ partial "header_image.html" . }}
+<div class="standardbody">
 <h1>{{ .Title | default (i18n "publications") }}</h1>
 {{ with .Content }}
 <div class="article-style" itemprop="articleBody">{{ . }}</div>
@@ -26,11 +27,22 @@
   {{ end }}
 
   <div class="pubtype-{{ $.Scratch.Get "pubtype" }}">
-    <h2>{{ .Title }}</h2>
-    <p>{{ partial "publication_links" (dict "content" . "is_list" 1) }}</p> 
+    <h2> <a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+    <div class="pub-author-short-wrap">
+      <div class="pub-authors-short" itemprop="author">
+	{{ with .Params.author }}
+	{{ $numAuth := len .}}
+	{{ range $k, $v := . }}
+	{{ markdownify $v.given }}&nbsp;{{ markdownify $v.family }}{{ if lt $k (sub $numAuth 1) }}, {{ end }}
+	{{ end }}
+	{{ end }}
+      </div>
+      <br/>
+      <p>{{ partial "publication_links" (dict "content" . "is_list" 1) }}</p> 
+    </div>
   </div>
   {{ end }}
 </div>
-
+</div>
 {{ partial "footer_container.html" . }}
 {{ partial "footer.html" . }}

@@ -26,6 +26,7 @@
     {{ end }}
     {{ if (.Params.publication_types) and (ne (index .Params.publication_types 0) "0") }}
     {{ end }}
+    <div class="pub-attrib">
     <h4>{{ i18n "publication" }}</h4>
     <div >
       {{ .Params.containertitle | markdownify }},
@@ -36,7 +37,7 @@
       {{with .Params.page }}, {{ . }}{{end}}
     </div>
     <h4>{{ i18n "identification" }}</h4>
-    <div class="col-xs-12 col-sm-3"> 
+    <div class> 
       {{ with .Params.DOI }}<a href = "https://doi.org/{{ . }}">
 	<span>DOI:&nbsp;{{ . }}</span></a>
       {{end}}
@@ -52,6 +53,7 @@
     <h4>{{ i18n "links" }}</h4>
     <div class=""> {{ partial "publication_links" (dict "content" . "is_list" 0) }} </div>
     <div class="article-style">{{ .Content }}</div>
+  </div>
   </div>
 </div>
 {{ partial "section_pager.html" . }}

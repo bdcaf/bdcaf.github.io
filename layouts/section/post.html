@@ -2,7 +2,7 @@
 {{ partial "navbar.html" . }}
 {{ partial "header_image.html" . }}
 
-<div class="text-wrapper">
+<div class="standardbody">
   <h1>{{ .Title | default (i18n "posts") }}</h1>
   {{ with .Content }}
   <div class="article-style" itemprop="articleBody">{{ . }}</div>
