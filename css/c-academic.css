@@ -925,7 +925,7 @@ header > .container {
     display:block
   }
 
-.text-wrapper{
+.standardbody, .pubcontainer {
   max-width: var(--typical-width);
   margin-left:auto;
   margin-right:auto;
@@ -963,20 +963,26 @@ margin-bottom: 3rem;
     background:none;
   }
 
-  header, .widget-container {
-    margin-left: 3em;
+
+  .standardbody {
+    margin-left: minmax(3em,auto);
   }
+
   .widget-container {
     display: grid;
     grid-template-columns: min-content 1fr;
     grid-column-gap: 2em;
+    margin-left: 3em;
   }
-
 }
 
 .fa-ul li {
   margin-top: 0;
   margin-bottom: 1rem;
+}
+
+#container-publications > div {
+margin-bottom: 3em;
 }
 
 #profile ul {
