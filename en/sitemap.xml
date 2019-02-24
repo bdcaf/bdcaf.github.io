@@ -5,6 +5,15 @@
     
     <url>
     
+      <loc>https://bdcaf.github.io/2019/02/24/grid-layout-for-site/</loc>
+      <lastmod>2019-02-24T21:07:24+01:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>https://bdcaf.github.io/2019/02/05/configuring-syncthing-on-mac-server/</loc>
       <lastmod>2019-02-05T10:58:41+01:00</lastmod>
     </url>
@@ -2723,6 +2732,16 @@
     
     <url>
     
+      <loc>https://bdcaf.github.io/tags/css/</loc>
+      <lastmod>2019-02-24T21:07:24+01:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>https://bdcaf.github.io/tags/data/</loc>
       <lastmod>2016-12-29T10:09:56+01:00</lastmod>
       <priority>0</priority>
@@ -3144,7 +3163,7 @@
     <url>
     
       <loc>https://bdcaf.github.io/post/</loc>
-      <lastmod>2019-02-05T10:58:41+01:00</lastmod>
+      <lastmod>2019-02-24T21:07:24+01:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -3325,6 +3344,16 @@
     
       <loc>https://bdcaf.github.io/tags/site/</loc>
       <lastmod>2018-06-14T08:42:28+02:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://bdcaf.github.io/categories/site/</loc>
+      <lastmod>2019-02-24T21:07:24+01:00</lastmod>
       <priority>0</priority>
     </url>
     
