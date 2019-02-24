@@ -71,6 +71,15 @@ done
 I haven&amp;rsquo;t gotten the firewall warning.  So the final step was easy to
 allow &lt;code&gt;syncthing&lt;/code&gt; getting connections.&lt;/p&gt;
 
+&lt;h2 id=&#34;ssh&#34;&gt;ssh&lt;/h2&gt;
+
+&lt;p&gt;Last thing was getting things to work was to get to sync through an
+ssh tunnel.  There is a &lt;a href=&#34;https://docs.syncthing.net/users/tunneling.html&#34; target=&#34;_blank&#34;&gt;good
+description&lt;/a&gt; however
+I made the mistake to skim the last port number.  Turns out in the
+last command they leave one digit away so search all the ports.  Once
+fixing to &lt;code&gt;22000&lt;/code&gt; all syncing starts/&lt;/p&gt;
+
 &lt;h3 id=&#34;on-my-current-decisions&#34;&gt;on my current decisions&lt;/h3&gt;
 
 &lt;p&gt;With annex I continuously had problems that my repos wouldn&amp;rsquo;t merge
