@@ -27,5 +27,38 @@ Hope they will still work fine.&lt;/p&gt;
 &lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/tFKrK4eAiUQ&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;</description>
     </item>
     
+    <item>
+      <title>Mass editing tags</title>
+      <link>https://bdcaf.github.io/2018/06/14/mass-editing-tags/</link>
+      <pubDate>Thu, 14 Jun 2018 08:42:28 +0200</pubDate>
+      
+      <guid>https://bdcaf.github.io/2018/06/14/mass-editing-tags/</guid>
+      <description>&lt;p&gt;Having read some about the
+&lt;a href=&#34;https://github.com/rstudio/blogdown&#34; target=&#34;_blank&#34;&gt;blogdown&lt;/a&gt; package I thought I
+could cleanup my site some more.&lt;/p&gt;
+
+&lt;p&gt;I came up with some scripts to clean up tags.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Github pages</title>
+      <link>https://bdcaf.github.io/2018/01/29/github-pages/</link>
+      <pubDate>Mon, 29 Jan 2018 10:49:51 +0100</pubDate>
+      
+      <guid>https://bdcaf.github.io/2018/01/29/github-pages/</guid>
+      <description>Now this site is on github pages.
+I had already repos on github for some time and trusted it - only private repos I keep on other places. But mostly I was missing some features a bplaced so now the move. Mostly I like that I can now post new content via git so I just need to transfer new posts and not the whole site. That now the site is https secured is a nice boon.</description>
+    </item>
+    
+    <item>
+      <title>Move from uibk home pages</title>
+      <link>https://bdcaf.github.io/2017/06/13/move-from-uibk-home-pages/</link>
+      <pubDate>Tue, 13 Jun 2017 18:00:00 +0100</pubDate>
+      
+      <guid>https://bdcaf.github.io/2017/06/13/move-from-uibk-home-pages/</guid>
+      <description>So the university is shutting down the personal home pages. Well it&amp;rsquo;s no big deal, though it was helpful that there was a server that would accept ssh connections.
+Now I&amp;rsquo;m experimenting with the free tier of bplaced. Which is basic but should suffice for my plain text pages.</description>
+    </item>
+    
   </channel>
 </rss>

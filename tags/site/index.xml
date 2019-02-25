@@ -7,23 +7,10 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
     <copyright>Clemens Ager, Brixlegg</copyright>
-    <lastBuildDate>Thu, 14 Jun 2018 08:42:28 +0200</lastBuildDate>
+    <lastBuildDate>Fri, 30 Mar 2018 12:40:33 +0200</lastBuildDate>
     
 	<atom:link href="https://bdcaf.github.io/tags/site/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Mass editing tags</title>
-      <link>https://bdcaf.github.io/2018/06/14/mass-editing-tags/</link>
-      <pubDate>Thu, 14 Jun 2018 08:42:28 +0200</pubDate>
-      
-      <guid>https://bdcaf.github.io/2018/06/14/mass-editing-tags/</guid>
-      <description>&lt;p&gt;Having read some about the
-&lt;a href=&#34;https://github.com/rstudio/blogdown&#34; target=&#34;_blank&#34;&gt;blogdown&lt;/a&gt; package I thought I
-could cleanup my site some more.&lt;/p&gt;
-
-&lt;p&gt;I came up with some scripts to clean up tags.&lt;/p&gt;</description>
-    </item>
     
     <item>
       <title>Layout changes</title>
@@ -36,23 +23,14 @@ Anyway should you note something amiss - let me know.</description>
     </item>
     
     <item>
-      <title>Github pages</title>
-      <link>https://bdcaf.github.io/2018/01/29/github-pages/</link>
-      <pubDate>Mon, 29 Jan 2018 10:49:51 +0100</pubDate>
+      <title>Vim for Hugo</title>
+      <link>https://bdcaf.github.io/2015/09/27/vim-for-hugo/</link>
+      <pubDate>Sun, 27 Sep 2015 10:47:54 +0200</pubDate>
       
-      <guid>https://bdcaf.github.io/2018/01/29/github-pages/</guid>
-      <description>Now this site is on github pages.
-I had already repos on github for some time and trusted it - only private repos I keep on other places. But mostly I was missing some features a bplaced so now the move. Mostly I like that I can now post new content via git so I just need to transfer new posts and not the whole site. That now the site is https secured is a nice boon.</description>
-    </item>
-    
-    <item>
-      <title>Move from uibk home pages</title>
-      <link>https://bdcaf.github.io/2017/06/13/move-from-uibk-home-pages/</link>
-      <pubDate>Tue, 13 Jun 2017 18:00:00 +0100</pubDate>
-      
-      <guid>https://bdcaf.github.io/2017/06/13/move-from-uibk-home-pages/</guid>
-      <description>So the university is shutting down the personal home pages. Well it&amp;rsquo;s no big deal, though it was helpful that there was a server that would accept ssh connections.
-Now I&amp;rsquo;m experimenting with the free tier of bplaced. Which is basic but should suffice for my plain text pages.</description>
+      <guid>https://bdcaf.github.io/2015/09/27/vim-for-hugo/</guid>
+      <description>&lt;p&gt;Ich verwende ja den Sitegenerator &lt;a href=&#34;https://gohugo.io&#34; target=&#34;_blank&#34;&gt;hugo&lt;/a&gt; für diese Seite.  Das herumgewurschtel auf der Kommandozeile ist aber etwas nervig.  Daher hab ich ein paar Befehle für Vim geschrieben um es etwas schmerzfreier zu machen.  Soweit ist es aber noch etwas schmerzhaft.&lt;/p&gt;
+
+&lt;p&gt;Auf der Anleitung &lt;a href=&#34;http://www.thegeekstuff.com/2008/12/vi-and-vim-autocommand-3-steps-to-add-custom-header-to-your-file/&#34; target=&#34;_blank&#34;&gt;vi and vim autocommand&lt;/a&gt; hab ich ein paar Ideen gefunden.&lt;/p&gt;</description>
     </item>
     
   </channel>

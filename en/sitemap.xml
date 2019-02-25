@@ -2508,16 +2508,6 @@
     
     <url>
     
-      <loc>https://bdcaf.github.io/categories/</loc>
-      <lastmod>2018-11-19T15:22:52+01:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
       <loc>https://bdcaf.github.io/1/01/01/</loc>
     </url>
     
@@ -2653,7 +2643,7 @@
       <xhtml:link rel="alternate" href="https://bdcaf.github.io/de/categories/" hreflang="de"/>
     
       <loc>https://bdcaf.github.io/categories/</loc>
-      <lastmod>2018-11-19T15:22:52+01:00</lastmod>
+      <lastmod>2018-01-06T10:16:59+01:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -2773,7 +2763,7 @@
     <url>
     
       <loc>https://bdcaf.github.io/categories/dev/</loc>
-      <lastmod>2018-11-19T13:42:33+01:00</lastmod>
+      <lastmod>2019-02-05T10:58:41+01:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -3023,16 +3013,6 @@
     <url>
     
       <loc>https://bdcaf.github.io/tags/mac/</loc>
-      <lastmod>2018-11-19T13:42:33+01:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://bdcaf.github.io/categories/mac/</loc>
       <lastmod>2019-02-05T10:58:41+01:00</lastmod>
       <priority>0</priority>
     </url>
@@ -3343,7 +3323,7 @@
     <url>
     
       <loc>https://bdcaf.github.io/tags/site/</loc>
-      <lastmod>2018-06-14T08:42:28+02:00</lastmod>
+      <lastmod>2018-03-30T12:40:33+02:00</lastmod>
       <priority>0</priority>
     </url>
     
