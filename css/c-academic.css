@@ -995,4 +995,16 @@ margin: 0;
 #profile p {
 margin: 0;
 }
-
+.pub-attrib {
+  display: grid;
+  grid-template-columns: min-content 1fr;
+  grid-column-gap: 1em;
+  align-items: center;
+}
+.pub-attrib > h4 {
+  grid-column: 1;
+  margin: 0;
+}
+.pub-attrib > div {
+  grid-column: 2;
+}
