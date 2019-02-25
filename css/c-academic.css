@@ -976,6 +976,7 @@ margin-bottom: 3rem;
     grid-template-columns: min-content 1fr;
     grid-column-gap: 2em;
     margin-left: 3em;
+    margin-right: 3em;
   }
 }
 
