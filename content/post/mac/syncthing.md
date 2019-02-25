@@ -3,8 +3,9 @@ title: "Configuring Syncthing on Mac Server"
 date: 2019-02-05T10:58:41+01:00
 tags:
   - syncthing
-categories:
   - mac
+categories:
+  - dev
 ---
 
 [Syncthing](https://syncthing.net) is currently my preferred tool to

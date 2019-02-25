@@ -2,9 +2,9 @@
 title: "Mass editing tags"
 date: 2018-06-14T08:42:28+02:00
 tags:
-  - site
   - script
 categories: 
+  - site
   - dev
 ---
 

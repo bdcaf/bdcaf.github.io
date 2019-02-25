@@ -1,8 +1,9 @@
 ---
 title: "Move from uibk home pages"
 date: 2017-06-13T18:00:00+01:00
-Tags: ["site"]
 lang: en
+categories:
+  - site
 ---
 
 So the university is shutting down the personal home pages.
