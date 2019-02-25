@@ -1,19 +1,19 @@
 <div class="pub-list-item" itemscope itemtype="http://schema.org/CreativeWork">
     {{ if .Params.image_preview }}
-    <div class="col-md-12">
+    <div >
       <a href="{{ .Permalink }}">
 	<img src="{{ "/img/" | relURL }}{{ .Params.image_preview }}" class="pub-banner" itemprop="image"> </a>
     </div>
-    <div class="col-md-12">
+    <div >
       {{ else if .Params.header.image}}
-      <div class="col-md-12">
+      <div >
 	<a href="{{ .Permalink }}">
 	  <img src="{{ "/img/" | relURL }}{{ .Params.header.image }}" class="pub-banner" itemprop="image">
 	</a>
       </div>
-      <div class="col-md-12">
+      <div >
 	{{ else }}
-	<div class="col-md-12">
+	<div >
 	  {{ end }}
 	  <h3 class="article-title" itemprop="name">
 	    <a href="{{ .Permalink }}" itemprop="url">{{ .Title }}</a>
