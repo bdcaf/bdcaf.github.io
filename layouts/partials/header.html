@@ -1,32 +1,4 @@
 <!DOCTYPE html>
 <html lang="{{ .Site.LanguageCode | default "en-us" }}">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="theme" content="hugo-academic">
-  {{ .Hugo.Generator }}
-  {{ with .Site.Params.name }}<meta name="author" content="{{ . }}">{{ end }}
-  {{ with .Site.Params.role }}<meta name="description" content="{{ . }}">{{ end }}
-
-  <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/all.js" integrity="sha384-xymdQtn1n3lH2wcu0qhcdaOpQwyoarkgLVxC/wZ5q7h9gHtxICrpcaSUfygqZGOe" crossorigin="anonymous"></script>
-
-  <link href="https://fonts.googleapis.com/css?family=Montserrat|Raleway:100,400" rel="stylesheet">
-
-  {{ $options := (dict "targetPath" "style.css" "outputStyle" "compressed" "enableSourceMap" true "includePaths" (slice "scss")) }}
-  {{ $style := resources.Get "sass/main.scss" | resources.ToCSS $options | resources.Fingerprint "sha512"}}
-
-  <link rel="stylesheet" href="{{ $style.Permalink }}" 
-			 integrity="{{ $style.Data.Integrity }}">
-
-  <link rel="alternate" href="{{ .RSSLink | default .Site.RSSLink  }}" type="application/rss+xml" title="{{ .Site.Title }}">
-  <link rel="feed" href="{{ .RSSLink | default .Site.RSSLink }}" type="application/rss+xml" title="{{ .Site.Title }}">
-
-  <link rel="canonical" href="{{ .Permalink }}">
-
-  {{ partial "head_custom" . }}
-
-  <title>{{ if not .IsHome }}{{ .Title }} | {{ end }}{{ .Site.Title }}</title>
-
-</head>
+  {{ partial "head-section" . }}
 <body id="top">
