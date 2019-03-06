@@ -1,0 +1,84 @@
+.pub {
+  max-width: $typicalwidth;
+  margin-left: auto;
+  margin-right: auto;
+  .pub-title {
+    margin-bottom: 5px;
+  }
+  .pub-authors {
+    font-style: italic;
+    line-height: 30px;
+  }
+  .pub-row-heading {
+    font-weight: 700;
+  }
+}
+.pub-icon {
+  color: #03396c;
+  font-size: 0.81em;
+  padding-top: 6px;
+}
+
+.pub-banner {
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+.pub-authors-short-wrap {
+  font-style: italic;
+}
+.pub-authors-short {
+  position: absolute;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  max-width: $typicalwidth;
+
+  &:hover {
+    position: absolute;
+    background-color: rgba(255, 255, 204, 0.6);
+    overflow: visible;
+    white-space: normal;
+    height: auto;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
+  }
+}
+
+.pub-list-item {
+  margin-bottom: 2rem;
+
+  .pub-abstract {
+    font-size: 1rem;
+    line-height: 1.2;
+    margin-bottom: 12px;
+  }
+
+  .pub-authors {
+    line-height: normal;
+    font-style: normal;
+    font-size: 1rem;
+    color: #999;
+  }
+
+  .pub-publication {
+    color: #dfaa2e;
+    font-size: 1rem;
+  }
+
+  .pub-links {
+    padding-top: 10px;
+  }
+}
+.pub-attrib {
+  display: grid;
+  grid-template-columns: min-content 1fr;
+  grid-column-gap: 1em;
+  align-items: center;
+  h4 {
+    grid-column: 1;
+    margin: 0;
+  }
+  & > div {
+    grid-column: 2;
+  }
+}

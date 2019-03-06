@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="{{ .Site.LanguageCode | default "en-us" }}">
 <head>
-
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -14,10 +13,11 @@
 
   <link href="https://fonts.googleapis.com/css?family=Montserrat|Raleway:100,400" rel="stylesheet">
 
-  <link rel="stylesheet" href="{{ "/css/c-academic.css" | relURL }}">
-  {{ range .Site.Params.custom_css }}
-  <link rel="stylesheet" href="{{ "/css/" | relURL }}{{ . }}">
-  {{ end }}
+  {{ $options := (dict "targetPath" "style.css" "outputStyle" "compressed" "enableSourceMap" true "includePaths" (slice "scss")) }}
+  {{ $style := resources.Get "sass/main.scss" | resources.ToCSS $options | resources.Fingerprint "sha512"}}
+
+  <link rel="stylesheet" href="{{ $style.Permalink }}" 
+			 integrity="{{ $style.Data.Integrity }}">
 
   <link rel="alternate" href="{{ .RSSLink | default .Site.RSSLink  }}" type="application/rss+xml" title="{{ .Site.Title }}">
   <link rel="feed" href="{{ .RSSLink | default .Site.RSSLink }}" type="application/rss+xml" title="{{ .Site.Title }}">

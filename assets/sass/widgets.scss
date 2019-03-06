@@ -1,0 +1,86 @@
+#container-publications > div {
+  margin-bottom: 3em;
+}
+
+#profile {
+  text-align: center;
+  .portrait {
+    background-image: url(../img/portrait.jpg);
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    border-radius: 50%;
+    background-size: cover;
+  }
+
+  .portrait-title {
+    h2 {
+      font-size: 1.75em;
+      font-weight: 300;
+      color: black;
+      margin: 20px 0 10px;
+    }
+
+    h3 {
+      font-size: 1.13em;
+      font-weight: 300;
+      color: #aaa;
+      margin: 0 0 10px;
+    }
+  }
+
+  ul {
+    margin: 0;
+  }
+  p {
+    margin: 0;
+  }
+
+  ul.social-icon-2 {
+    display: inline-flex;
+    padding: 0;
+    font-size: 2em;
+    li {
+      list-style: none;
+      margin-right: 10px;
+      &:last-of-type {
+        margin-right: 0;
+      }
+      &:hover {
+        transform: scale(1.2);
+      }
+    }
+  }
+}
+
+#contact.home-section li {
+  padding-top: 0.8rem;
+  margin-bottom: 0.3rem;
+  &:last-of-type {
+    margin-bottom: 0;
+  }
+}
+
+#projects.home-section {
+  li {
+    margin-bottom: 1rem;
+    &:last-of-type {
+      margin-bottom: 0;
+    }
+  }
+
+  .project-title {
+    display: inline-block;
+    margin-bottom: 6px;
+  }
+
+  .project-summary {
+    font-size: 0.9rem;
+    margin-bottom: 0.4rem;
+  }
+
+  .project-tags {
+    font-size: 0.75rem;
+    color: #9c9c9c;
+  }
+}

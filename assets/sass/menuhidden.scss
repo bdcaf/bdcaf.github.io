@@ -1,0 +1,45 @@
+@media (min-width: 800px) {
+  .menu-toggle,
+  .main-menu .menu-close {
+    display: none;
+  }
+
+  .main-menu {
+    position: relative;
+    left: 0;
+    height: auto;
+    ul {
+      display: flex;
+      box-shadow: none;
+      height: auto;
+      width: auto;
+      background: none;
+      padding: 0;
+    }
+    a {
+      color: #011627;
+      border: 0 !important;
+      &:hover,
+      &:focus {
+        background: none;
+      }
+    }
+  }
+
+  .standardbody {
+    margin-left: minmax(3em, auto);
+  }
+
+  .main-allcol {
+    grid-template-columns: 1fr 1fr;
+    display: grid;
+  }
+
+  .widget-container {
+    display: grid;
+    grid-template-columns: min-content 1fr;
+    grid-column-gap: 2em;
+    margin-left: 3em;
+    margin-right: 3em;
+  }
+}
