@@ -31,9 +31,7 @@ weight = 01
 
 +++
 
-# Biographie
-
-Wurde [1977](https://de.wikipedia.org/wiki/1977) in
+[1977](https://de.wikipedia.org/wiki/1977) in
 [Österreich](https://de.wikipedia.org/wiki/Österreich) geboren. 
 
 Bin seit 2005 Mitarbeiter des [Instituts für Atemgasanalyse](https://www.uibk.ac.at/breath-research/). 

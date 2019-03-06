@@ -31,8 +31,6 @@ weight = 01
 
 +++
 
-# Biography
-
 Born in [1977](https://en.wikipedia.org/wiki/1977) in
 [Austria](https://en.wikipedia.org/wiki/austria). 
 
