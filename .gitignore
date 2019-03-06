@@ -5,3 +5,4 @@ private/publications/mddir/
 allinks.txt
 !*.pdf
 !tags
+resources/_gen/
