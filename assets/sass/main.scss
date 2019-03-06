@@ -25,6 +25,7 @@ footer {
   margin-left: auto;
   margin-right: auto;
   width: 100%;
+
   p {
     font-size: 0.75rem;
     text-align: center;
@@ -47,13 +48,16 @@ h6 {
 h1 {
   font-size: 2.25rem;
 }
+
 h2 {
   font-size: 1.5rem;
 }
+
 h3 {
   font-weight: 700;
   font-size: 1.25rem;
 }
+
 h4,
 h5,
 h6 {
@@ -65,6 +69,7 @@ a {
   color: #30465d;
   text-decoration: none;
   transition: color 0.6s ease;
+
   &:hover,
   &:focus {
     color: #30465d;
@@ -77,9 +82,11 @@ a {
   display: inline;
   white-space: nowrap;
   font: 100 2.5em $headerfont;
+
   a {
     color: black;
   }
+
   b {
     font-family: $headerfontbig;
     font-weight: 900;
@@ -92,6 +99,7 @@ img,
 video {
   height: auto;
 }
+
 .img-responsive {
   width: auto;
   height: 200px;
@@ -103,11 +111,13 @@ figcaption {
   font-size: 1rem;
   margin-bottom: 1.65rem;
   counter-increment: captions;
+
   &::before {
     font-weight: 700;
     text-transform: uppercase;
     content: "Figure " counter(captions) ": ";
   }
+
   h4 {
     display: inline-block;
     font-size: 1rem;
@@ -150,9 +160,11 @@ blockquote {
   margin: 0.8rem 0;
   color: #7a7a7a;
   border-left: 0.25rem solid #e5e5e5;
+
   p:last-child {
     margin-bottom: 0;
   }
+
   @media (min-width: 30em) {
     padding-right: 5rem;
     padding-left: 1.25rem;
@@ -202,14 +214,18 @@ ul.ul-interests li {
 
 ul.ul-edu {
   list-style: none;
+
   li {
     position: relative;
     padding: 0 15px 4px 3px;
+
     .description p {
       margin: 0;
+
       &.course {
         font-size: 0.9rem;
       }
+
       &.institution {
         font-size: 0.75rem;
         color: rgba(0, 0, 0, 0.6);
@@ -246,6 +262,7 @@ header > .container {
   grid-column: 2;
   padding-bottom: 2rem;
   max-width: $typicalwidth;
+
   h3 {
     margin-top: 0;
   }

@@ -8,6 +8,7 @@
     position: relative;
     left: 0;
     height: auto;
+
     ul {
       display: flex;
       box-shadow: none;
@@ -16,9 +17,11 @@
       background: none;
       padding: 0;
     }
+
     a {
       color: #011627;
       border: 0 !important;
+
       &:hover,
       &:focus {
         background: none;

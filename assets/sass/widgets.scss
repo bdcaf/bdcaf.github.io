@@ -1,6 +1,7 @@
 .home-section {
   padding: 0 auto;
   background-color: white;
+
   &::after {
     content: ".";
     display: block;
@@ -9,12 +10,15 @@
     line-height: 0;
     height: 0;
   }
+
   &:nth-of-type(even) {
     background-color: #fcfcfc;
     border-radius: 12px;
   }
+
   li {
     margin-bottom: 0.3rem;
+
     &:last-of-type {
       margin-bottom: 0;
     }
@@ -23,6 +27,7 @@
 
 .main-allcol {
   grid-template-columns: 1fr 1fr;
+
   @media (min-width: $smallerwidth) {
     display: grid;
   }
@@ -34,6 +39,7 @@
     grid-template-columns: min-content 1fr;
     grid-column-gap: 2em;
   }
+
   margin-left: 3em;
   margin-right: 3em;
 }
@@ -84,12 +90,15 @@
     display: inline-flex;
     padding: 0;
     font-size: 2em;
+
     li {
       list-style: none;
       margin-right: 10px;
+
       &:last-of-type {
         margin-right: 0;
       }
+
       &:hover {
         transform: scale(1.2);
       }

@@ -2,17 +2,21 @@
   max-width: $typicalwidth;
   margin-left: auto;
   margin-right: auto;
+
   .pub-title {
     margin-bottom: 5px;
   }
+
   .pub-authors {
     font-style: italic;
     line-height: 30px;
   }
+
   .pub-row-heading {
     font-weight: 700;
   }
 }
+
 .pub-icon {
   color: #03396c;
   font-size: 0.81em;
@@ -24,9 +28,11 @@
   margin-left: auto;
   margin-right: auto;
 }
+
 .pub-authors-short-wrap {
   font-style: italic;
 }
+
 .pub-authors-short {
   position: absolute;
   overflow: hidden;
@@ -69,15 +75,18 @@
     padding-top: 10px;
   }
 }
+
 .pub-attrib {
   display: grid;
   grid-template-columns: min-content 1fr;
   grid-column-gap: 1em;
   align-items: center;
+
   h4 {
     grid-column: 1;
     margin: 0;
   }
+
   & > div {
     grid-column: 2;
   }
