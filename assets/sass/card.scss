@@ -10,6 +10,16 @@
     font-weight: 700;
     line-height: 1.5;
     text-transform: uppercase;
+    a {
+      color: black;
+      border-bottom: solid 1px transparent;
+
+      &:hover {
+        color: black;
+        border-bottom: solid 1px black;
+        text-decoration: none;
+      }
+    }
   }
 
   .card-text {

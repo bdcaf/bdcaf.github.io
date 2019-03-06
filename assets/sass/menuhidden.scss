@@ -1,4 +1,4 @@
-@media (min-width: 800px) {
+@media (min-width: $smallwidth) {
   .menu-toggle,
   .main-menu .menu-close {
     display: none;
@@ -28,18 +28,5 @@
 
   .standardbody {
     margin-left: minmax(3em, auto);
-  }
-
-  .main-allcol {
-    grid-template-columns: 1fr 1fr;
-    display: grid;
-  }
-
-  .widget-container {
-    display: grid;
-    grid-template-columns: min-content 1fr;
-    grid-column-gap: 2em;
-    margin-left: 3em;
-    margin-right: 3em;
   }
 }
