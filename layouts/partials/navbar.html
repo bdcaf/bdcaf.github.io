@@ -1,57 +1,36 @@
 <header>
-    <h1 class="logo">
-      <a href="{{ "/" | relLangURL }}">clemens<b>ager</b></a>
-    </h1>
+    <h1 class="logo"> <a href="{{- "/" | relLangURL -}}">clemens<b>ager</b></a></h1>
   <div class="container">
-    <a href="#main-menu"
-       role="button"
-       id="main-menu-toggle"
-       class="menu-toggle"
-       aria-expanded="false"
-       aria-controls="main-menu"
-       aria-label="Open main menu">
-
+    <a href="#main-menu" role="button" id="main-menu-toggle" class="menu-toggle" aria-expanded="false" aria-controls="main-menu" aria-label="Open main menu">
       <span class="sr-only">Open main menu</span>
       <span aria-hidden="true"> <i class="fas fa-bars"></i> </span>
     </a>
-
     <nav id="main-menu" role="navigation" class="main-menu" aria-expanded="false" aria-label="Main menu">
-      <a href="#main-menu-toggle"
-	 role="button"
-  id="main-menu-close"
-  class="menu-close"
-  aria-expanded="false"
-  aria-controls="main-menu"
-  aria-label="Close main menu">
+      <a href="#main-menu-toggle" role="button" id="main-menu-close" class="menu-close" aria-expanded="false" aria-controls="main-menu" aria-label="Close main menu"> 
 	<span class="sr-only">Close main menu</span>
 	<span aria-hidden="true">
 	  <i class="fas fa-window-close"></i>
-	</span> </a> <ul> {{ range .Site.Menus.main }} {{ if .HasChildren }}
+	</span> </a> <ul> {{- range .Site.Menus.main -}} 
+	  {{- if .HasChildren -}}
         <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true">
-            {{ .Name }}
-            <span class="caret"></span>
-          </a>
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"> {{- .Name -}} <span class="caret"></span> </a>
           <ul class="dropdown-menu">
-            {{ range .Children }}
+            {{- range .Children -}}
             <li class="nav-item">
-              <a href="{{ .URL | relLangURL }}"{{ if $.IsHome }} data-target="{{ .URL }}"{{ end }}>
-                {{ .Pre }}
-                <span>{{ .Name }}</span>
+              <a href="{{- .URL | relLangURL -}}"{{- if $.IsHome -}} data-target="{{- .URL -}}"{{- end -}}>
+                {{- .Pre -}}
+                <span>{{- .Name -}}</span>
               </a>
             </li>
-            {{ end }}
+            {{- end -}}
           </ul>
         </li>
-        {{ else }}
+        {{- else -}}
         <li>
-          <a href="{{ .URL | relLangURL }}">
-            {{ .Pre }}
-            <span>{{ .Name }}</span>
-          </a>
+          <a href="{{- .URL | relLangURL -}}"> {{- .Pre -}} <span>{{- .Name -}}</span> </a>
         </li>
-        {{ end }}
-        {{ end }}
+        {{- end -}}
+        {{- end -}}
       </ul>
     </nav>
     <a href="#main-menu-toggle"

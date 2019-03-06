@@ -1,0 +1,26 @@
+{{- $is_list := .is_list -}}
+{{- $ := .content -}}
+{{- if $is_list -}}
+<a href="{{- $.Permalink -}}"> {{- i18n "btn_details" -}} </a>
+{{ end -}}
+{{- with $.Params.url_pdf -}}
+<a href="{{- . | absURL -}}"> {{- i18n "btn_pdf" -}} </a>
+{{ end -}}
+{{- with $.Params.url_slides -}}
+<a  href="{{- . | absURL -}}"> {{- i18n "btn_slides" -}} </a>
+{{ end -}}
+{{- with $.Params.url_video -}}
+<a href="{{- . | absURL -}}"> {{- i18n "btn_video" -}} </a>
+{{ end -}}
+{{- with $.Params.url_code -}}
+<a  href="{{- . | absURL -}}"> {{- i18n "btn_code" -}} </a>
+{{ end -}}
+{{- with $.Params.url_dataset -}}
+<a href="{{- . | absURL -}}"> {{- i18n "btn_dataset" -}} </a>
+{{ end -}}
+{{- with $.Params.url_project -}}
+<a href="{{- . | absURL -}}"> {{- i18n "btn_project" -}} </a>
+{{ end -}}
+{{- range $.Params.url_custom -}}
+<a href="{{- .url | absURL -}}"> {{- .name -}} </a>
+{{ end -}}

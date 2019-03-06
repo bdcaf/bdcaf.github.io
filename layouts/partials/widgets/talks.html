@@ -1,31 +1,31 @@
-{{ $ := .root }}
-{{ $page := .page }}
-{{ $talks_len := len (where $.Data.Pages "Type" "talk") }}
+{{- $ := .root -}}
+{{- $page := .page -}}
+{{- $talks_len := len (where $.Data.Pages "Type" "talk") -}}
 <!-- Talks widget -->
 <div class=" main-leftcol section-heading">
-  <h1>{{ with $page.Title }}{{ . | markdownify }}{{ end }}</h1>
-  {{ with $page.Params.subtitle }}<p>{{ . | markdownify }}</p>{{ end }}
-  {{ if gt $talks_len $page.Params.count }}
+  <h1>{{- with $page.Title -}}{{- . | markdownify -}}{{- end -}}</h1>
+  {{- with $page.Params.subtitle -}}<p>{{- . | markdownify -}}</p>{{- end -}}
+  {{- if gt $talks_len $page.Params.count -}}
   <p class="view-all">
-  <a href="{{ $.Site.BaseURL }}talk/">
-    {{ i18n "more_talks" | markdownify }}
+  <a href="{{- $.Site.BaseURL -}}talk/">
+    {{- i18n "more_talks" | markdownify -}}
     <i class="fa fa-angle-double-right"></i>
   </a>
   </p>
-  {{ end }}
+  {{- end -}}
 </div>
 <div class=" main-rightcol">
-  {{ with $page.Content }}<p>{{ . | markdownify }}</p>{{ end }}
+  {{- with $page.Content -}}<p>{{- . | markdownify -}}</p>{{- end -}}
 
-  {{ if $page.Params.detailed_list }}
-  {{ range first $page.Params.count (where $.Data.Pages "Type" "talk") }}
-  {{ partial "talk_li_detailed" . }}
-  {{ end }}
-  {{ else }}
+  {{- if $page.Params.detailed_list -}}
+  {{- range first $page.Params.count (where $.Data.Pages "Type" "talk") -}}
+  {{- partial "talk_li_detailed" . -}}
+  {{- end -}}
+  {{- else -}}
   <ul class="fa-ul">
-    {{ range first $page.Params.count (where $.Data.Pages "Type" "talk") }}
-    {{ partial "talk_li_simple" . }}
-    {{ end }}
+    {{- range first $page.Params.count (where $.Data.Pages "Type" "talk") -}}
+    {{- partial "talk_li_simple" . -}}
+    {{- end -}}
   </ul>
-  {{ end }}
+  {{- end -}}
 </div>

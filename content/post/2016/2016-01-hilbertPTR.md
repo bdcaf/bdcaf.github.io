@@ -1,7 +1,7 @@
 ---
 Tags:
 - science
-- visualization
+- visualisation
 date: 2016-03-30
 title: Mass spectra visualization
 ---

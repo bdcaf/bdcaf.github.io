@@ -1,15 +1,11 @@
-{{ partial "header.html" . }}
-{{ partial "navbar.html" . }}
-
-<!-- Widgets -->
+{{- partial "header.html" . -}}
+{{- partial "navbar.html" . -}}
 <div class="widget-container">
-  {{ range $index, $page := where .Data.Pages "Type" "home" }}
-  {{ $params := dict "root" $ "page" $page }}
-  {{ $widget := printf "widgets/%s.html" ( or $page.Params.widget "custom" ) }}
-    {{ partial $widget $params }}
-  {{ end }}
+  {{- range $index, $page := where .Data.Pages "Type" "home" -}}
+  {{- $params := dict "root" $ "page" $page -}}
+  {{- $widget := printf "widgets/%s.html" ( or $page.Params.widget "custom" ) -}}
+    {{- partial $widget $params -}}
+  {{- end -}}
 </div>
-
-<!-- Page Footer -->
-{{ partial "footer_container.html" . }}
-{{ partial "footer.html" . }}
+{{- partial "footer_container.html" . -}}
+{{- partial "footer.html" . -}}

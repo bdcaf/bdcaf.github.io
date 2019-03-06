@@ -1,26 +1,26 @@
-{{ $ := .root }}
-{{ $page := .page }}
+{{- $ := .root -}}
+{{- $page := .page -}}
 
 <!-- About widget -->
 <div class="main-allcol" id = "about">
   <div id="profile">
-    {{ with $.Site.Params.avatar }}
-    <div class="portrait" itemprop="image" style="background-image: url('{{ "img/" | absURL }}{{ . }}');">
+    {{- with $.Site.Params.avatar -}}
+    <div class="portrait" itemprop="image" style="background-image: url('{{- "img/" | absURL -}}{{- . -}}');">
     </div>
-    {{ end }}
+    {{- end -}}
     <div class="portrait-title">
-      <h2 itemprop="name">{{ $.Site.Params.name }}</h2>
-      <h3 itemprop="jobTitle">{{ $.Site.Params.role }}</h3>
-      {{ with $.Site.Params.organization }}<h3 itemprop="worksFor">{{ . }}</h3>{{ end }}
+      <h2 itemprop="name">{{- $.Site.Params.name -}}</h2>
+      <h3 itemprop="jobTitle">{{- $.Site.Params.role -}}</h3>
+      {{- with $.Site.Params.organization -}}<h3 itemprop="worksFor">{{- . -}}</h3>{{- end -}}
     </div>
     <ul class="social-icon-2" aria-hidden="true">
-      {{ range $.Site.Params.social }}
+      {{- range $.Site.Params.social -}}
       <li> 
-	<a href="{{ .link | safeURL }}" target="_blank">
-	  <i class="{{ .fa_class }}"></i>
+	<a href="{{- .link | safeURL -}}" target="_blank">
+	  <i class="{{- .fa_class -}}"></i>
 	</a>
       </li>
-      {{ end }}
+      {{- end -}}
     </ul>
     <p>
     <a href="https://projecteuler.net">
@@ -30,35 +30,35 @@
   </div>
 
   <div id="bio" itemprop="description">
-    {{ $page.Content }}
+    {{- $page.Content -}}
     <div class="twotable">
-      {{ with $page.Params.interests }}
+      {{- with $page.Params.interests -}}
       <div class="half-content">
-	<h3>{{ i18n "interests" | markdownify }}</h3>
+	<h3>{{- i18n "interests" | markdownify -}}</h3>
 	<ul class="ul-interests">
-	  {{ range .interests }}
-	  <li>{{ . }}</li>
-	  {{ end }}
+	  {{- range .interests -}}
+	  <li>{{- . -}}</li>
+	  {{- end -}}
 	</ul>
       </div>
-      {{ end }}
+      {{- end -}}
 
-      {{ with $page.Params.education }}
+      {{- with $page.Params.education -}}
       <div class="half-content">
-	<h3>{{ i18n "education" | markdownify }}</h3>
+	<h3>{{- i18n "education" | markdownify -}}</h3>
 	<ul class="ul-edu fa-ul">
-	  {{ range .courses }}
+	  {{- range .courses -}}
 	  <li>
 	    <i class="fa-li fa fa-graduation-cap"></i>
 	    <div class="description">
-	      <p class="course">{{ .course }}{{ with .year }}, {{ . }}{{ end }}</p>
-	      <p class="institution">{{ .institution }}</p>
+	      <p class="course">{{- .course -}}{{- with .year -}}, {{- . -}}{{- end -}}</p>
+	      <p class="institution">{{- .institution -}}</p>
 	    </div>
 	  </li>
-	  {{ end }}
+	  {{- end -}}
 	</ul>
       </div>
-      {{ end }}
+      {{- end -}}
 
     </div>
   </div>

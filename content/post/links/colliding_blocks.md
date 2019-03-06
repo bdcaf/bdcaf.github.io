@@ -3,7 +3,7 @@ title: "Colliding Blocks"
 date: 2019-01-15T17:15:52+01:00
 tags:
   - math
-  - videos
+  - video
 categories:
   - links
 ---

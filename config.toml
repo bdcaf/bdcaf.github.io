@@ -1,8 +1,8 @@
 baseurl = "https://bdcaf.github.io/"
 author = "Clemens Ager"
 title = "C. Ager"
-theme = "hugo-academic"
-# Copyright notice. This is displayer in the footer.
+#theme = "hugo-academic"
+# Copyright notice. This is displayed in the footer.
 copyright = "Clemens Ager, Brixlegg"
 MetaDataFormat = "yaml"
 

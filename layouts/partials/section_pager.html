@@ -3,10 +3,9 @@
     {{if .PrevInSection}}
     <li class="previous"><a href="{{.PrevInSection.Permalink}}"><span
       aria-hidden="true">&larr;</span> {{.PrevInSection.Title}}</a></li>
-    {{ else }}
+    {{- else -}}
     <li />
     {{end}}
-
     {{if .NextInSection}}
     <li class="next"><a href="{{.NextInSection.Permalink}}">{{.NextInSection.Title}} <span
       aria-hidden="true">&rarr;</span></a></li>

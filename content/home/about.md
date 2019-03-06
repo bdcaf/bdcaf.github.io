@@ -43,7 +43,7 @@ Current research interests include:
 
   - [R](https://www.r-project.org/) programming
   - Functional programming in [Haskell](https://www.haskell.org/)
-  - Data visualization
+  - Data visualisation
   - Modelling real time processes
 
 

@@ -1,6 +1,6 @@
-{{ range where $.Site.Pages ".Params.id" (.Get "id")}}
+{{- range where $.Site.Pages ".Params.id" (.Get "id")}}
     <ul class="fa-ul">
-{{ partial "publication_li_simple" . }}
+{{- partial "publication_li_simple" . -}}
     </ul>
-{{ end }}
+{{- end -}}
 
