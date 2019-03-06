@@ -1,0 +1,39 @@
+line 44 column 33 - Warning: trimming empty <i>
+line 44 column 7 - Warning: trimming empty <span>
+line 57 column 11 - Warning: trimming empty <i>
+line 56 column 9 - Warning: trimming empty <span>
+line 146 column 62 - Warning: trimming empty <i>
+Info: Document content looks like HTML5
+Tidy found 5 warnings and 0 errors!
+
+
+One or more empty elements were present in the source document but
+dropped on output. If these elements are necessary or you don't want
+this behavior, then consider setting the option "drop-empty-elements"
+to no.
+
+About HTML Tidy: https://github.com/htacg/tidy-html5
+Bug reports and comments: https://github.com/htacg/tidy-html5/issues
+Official mailing list: https://lists.w3.org/Archives/Public/public-htacg/
+Latest HTML specification: http://dev.w3.org/html5/spec-author-view/
+Validate your HTML documents: http://validator.w3.org/nu/
+Lobby your company to join the W3C: http://www.w3.org/Consortium
+
+Do you speak a language other than English, or a different variant of 
+English? Consider helping us to localize HTML Tidy. For details please see 
+https://github.com/htacg/tidy-html5/blob/master/README/LOCALIZE.md
+line 1 column 289 - Warning: discarding unexpected </html>
+Info: Document content looks like HTML5
+Tidy found 1 warning and 0 errors!
+
+
+About HTML Tidy: https://github.com/htacg/tidy-html5
+Bug reports and comments: https://github.com/htacg/tidy-html5/issues
+Official mailing list: https://lists.w3.org/Archives/Public/public-htacg/
+Latest HTML specification: http://dev.w3.org/html5/spec-author-view/
+Validate your HTML documents: http://validator.w3.org/nu/
+Lobby your company to join the W3C: http://www.w3.org/Consortium
+
+Do you speak a language other than English, or a different variant of 
+English? Consider helping us to localize HTML Tidy. For details please see 
+https://github.com/htacg/tidy-html5/blob/master/README/LOCALIZE.md
