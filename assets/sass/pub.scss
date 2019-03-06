@@ -39,6 +39,7 @@
   text-overflow: ellipsis;
   white-space: nowrap;
   max-width: $typicalwidth;
+  transition: 0.5s ease;
 
   &:hover {
     position: absolute;
@@ -67,7 +68,7 @@
   }
 
   .pub-publication {
-    color: #dfaa2e;
+    color: $highlight1;
     font-size: 1rem;
   }
 

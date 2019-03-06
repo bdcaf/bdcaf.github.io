@@ -60,10 +60,10 @@ article {
   font-size: 14px;
   letter-spacing: 0.03em;
   margin-bottom: 5px;
-  color: #888;
+  color: $subtextcolor;
 
   a {
-    color: #888;
+    color: $subtextcolor;
   }
 
   .article-date,
@@ -74,6 +74,7 @@ article {
 
   a:hover {
     color: #0095eb;
+    text-decoration: none;
   }
 }
 

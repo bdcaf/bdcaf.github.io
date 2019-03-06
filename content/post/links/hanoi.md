@@ -17,9 +17,9 @@ I embeded the videos after the "post" fold for convenient watching.
 
 <!--more-->
 
-<iframe src="http://www.youtube.com/embed/2SUvWfNJSsM" width="560" height="315" frameborder="0" allowfullscreen></iframe>
+{{< youtube 2SUvWfNJSsM>}}
 
-<iframe src="http://www.youtube.com/embed/bdMfjfT0lKk" width="560" height="315" frameborder="0" allowfullscreen></iframe>
+{{< youtube bdMfjfT0lKk>}}
 
 
 [1]: https://www.youtube.com/channel/UCYO_jab_esuFRV4b17AJtAw

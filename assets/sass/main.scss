@@ -1,15 +1,16 @@
 $typicalwidth: 600px;
 $smallwidth: 800px;
-$smallerwidth: 600px;
+$smallerwidth: 700px;
 $headerfontbig: "Raleway Black", sans-serif;
 $headerfont: "Raleway", sans-serif;
-
-* {
-  box-sizing: border-box;
-}
+$textcolor: #222;
+$subtextcolor: #555;
+$highlightcolor: #2ab;
+$highlight1: #dfaa2e;
+$linkcolor: #30465d;
 
 html {
-  color: rgba(0, 0, 0, 0.8);
+  color: $textcolor;
   font: 16px/1.65 "Montserrat", sans-serif;
 }
 
@@ -42,7 +43,6 @@ h6 {
   font-weight: 400;
   margin-bottom: 0.5rem;
   line-height: 1.25;
-  color: #313131;
 }
 
 h1 {
@@ -66,32 +66,37 @@ h6 {
 }
 
 a {
-  color: #30465d;
+  color: $linkcolor;
   text-decoration: none;
   transition: color 0.6s ease;
 
   &:hover,
   &:focus {
-    color: #30465d;
     text-decoration: underline;
   }
 }
 
 .logo {
-  margin: 0 30px 0 10px;
+  margin: 0 50px 0 10px;
   display: inline;
   white-space: nowrap;
   font: 100 2.5em $headerfont;
+  transition: 0.3s ease-in-out;
+  transform-origin: 0 50%;
+
+  &:hover {
+    transform: scale(1.2);
+  }
 
   a {
-    color: black;
+    text-decoration: none;
   }
 
   b {
     font-family: $headerfontbig;
     font-weight: 900;
     padding-left: 2px;
-    color: #2ab;
+    color: $highlightcolor;
   }
 }
 
@@ -151,14 +156,14 @@ hr {
   p {
     font-weight: 400;
     font-size: 1.1rem;
-    color: #b2b2b2;
+    color: $subtextcolor;
   }
 }
 
 blockquote {
   padding: 0.5rem 1rem;
   margin: 0.8rem 0;
-  color: #7a7a7a;
+  color: $subtextcolor;
   border-left: 0.25rem solid #e5e5e5;
 
   p:last-child {
@@ -185,8 +190,9 @@ blockquote {
   font-size: 2rem;
 }
 
-ul.ul-interests li {
-  font-size: 0.9rem;
+.fa-ul > li {
+  position: relative;
+  margin: 1em;
 }
 
 .pager {
@@ -212,41 +218,15 @@ ul.ul-interests li {
   z-index: 3;
 }
 
-ul.ul-edu {
-  list-style: none;
-
-  li {
-    position: relative;
-    padding: 0 15px 4px 3px;
-
-    .description p {
-      margin: 0;
-
-      &.course {
-        font-size: 0.9rem;
-      }
-
-      &.institution {
-        font-size: 0.75rem;
-        color: rgba(0, 0, 0, 0.6);
-      }
-    }
-  }
-}
 
 .site-footer,
 footer a#back_to_top i {
-  color: #dfaa2e;
+  color: $highlight1;
 }
 
 header {
   display: flex;
   padding-bottom: 2rem;
-}
-
-header > .container {
-  background-color: #fcfcfc;
-  border-radius: 12px;
 }
 
 .continue {

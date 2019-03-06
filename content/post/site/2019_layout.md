@@ -13,6 +13,6 @@ Hope they will still work fine.
 
 In particular I found the videos by Jen Simmons inspiring.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/tFKrK4eAiUQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+{{< youtube tFKrK4eAiUQ >}}
 
 <!--more-->

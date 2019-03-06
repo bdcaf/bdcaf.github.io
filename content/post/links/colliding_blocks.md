@@ -14,6 +14,5 @@ makes amazing videos about maths found another amazing fact linking
 how masses collide with an amazing mathematical property.  Since I
 don't want to spoil anything watch it!
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/HEfHFsfGXjs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
+{{< youtube HEfHFsfGXjs>}}
 <!--more-->

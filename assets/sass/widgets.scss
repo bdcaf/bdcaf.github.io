@@ -15,14 +15,6 @@
     background-color: #fcfcfc;
     border-radius: 12px;
   }
-
-  li {
-    margin-bottom: 0.3rem;
-
-    &:last-of-type {
-      margin-bottom: 0;
-    }
-  }
 }
 
 .main-allcol {
@@ -40,8 +32,28 @@
     grid-column-gap: 2em;
   }
 
-  margin-left: 3em;
-  margin-right: 3em;
+  margin: 0 auto;
+
+  ul li {
+    font-size: 0.9rem;
+  }
+
+  ul.ul-edu {
+    list-style: none;
+
+    li {
+      .description p {
+        &.course {
+          font-size: 0.9rem;
+        }
+
+        &.institution {
+          font-size: 0.75rem;
+          color: $subtextcolor;
+        }
+      }
+    }
+  }
 }
 
 #container-publications > div {
@@ -76,7 +88,7 @@
     h3 {
       font-size: 1.13em;
       font-weight: 300;
-      color: #aaa;
+      color: $subtextcolor;
       margin: 0 0 10px;
     }
   }
