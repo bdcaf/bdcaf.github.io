@@ -9,15 +9,13 @@
   {{- if gt $posts_len $page.Params.count -}}
   <p class="view-all">
   <a href="{{- "/post/" | relURL -}}">
-    {{- i18n "more_posts" | markdownify -}}
-    <i class="fa fa-angle-double-right"></i>
+    {{- i18n "more_posts" | markdownify }} <i class="fa fa-angle-double-right"></i>
   </a>
   </p>
   {{- end -}}
 
 </div>
 <div class="main-rightcol">
-
   {{- with $page.Content -}}<p>{{- . | markdownify -}}</p>{{- end -}}
 
   {{- if $page.Params.tags -}}
