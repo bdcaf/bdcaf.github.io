@@ -56,7 +56,7 @@ cachebuster = true
 date_format = "2006-01-02"
 dateformfull = "Mon  2. Jan 2006 15:04:05 MST"
 highlightjs = false
-#lang = "en"
+lang = "en"
 
 # Link custom CSS and JS assets
 #   (relative to /static/css and /static/js respectively)
@@ -154,12 +154,12 @@ weight = 6
 [Languages]
 [Languages.en]
 weight = 1
-languageCode = "en-uk"
+languageCode = "en"
 role = "Number Cruncher // PhD Candidate // Physicist"
 organization = "University Innsbruck"
 
 [Languages.de]
-languageCode = "de-at"
+languageCode = "de"
 weight = 2
 role = "Rechenknecht // Doktoranwärter // Physiker"
 organization = "Universität Innsbruck"
