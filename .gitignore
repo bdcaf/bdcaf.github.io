@@ -8,3 +8,5 @@ allinks.txt
 resources/_gen/
 assets/.sass-cache/
 assets/sass/.sass-cache/
+node_modules/
+package-lock.json
