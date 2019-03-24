@@ -6,3 +6,4 @@ allinks.txt
 !*.pdf
 !tags
 resources/_gen/
+assets/.sass-cache/
