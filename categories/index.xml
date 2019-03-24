@@ -5,7 +5,7 @@
     <link>https://bdcaf.github.io/categories/</link>
     <description>Recent content in Categories on C. Ager</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-uk</language>
+    <language>en</language>
     <copyright>Clemens Ager, Brixlegg</copyright>
     <lastBuildDate>Sat, 06 Jan 2018 10:16:59 +0100</lastBuildDate>
     
@@ -63,6 +63,15 @@
       <pubDate>Tue, 15 Jan 2019 17:15:52 +0100</pubDate>
       
       <guid>https://bdcaf.github.io/categories/links/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Podcast</title>
+      <link>https://bdcaf.github.io/categories/podcast/</link>
+      <pubDate>Sun, 24 Mar 2019 08:48:56 +0100</pubDate>
+      
+      <guid>https://bdcaf.github.io/categories/podcast/</guid>
       <description></description>
     </item>
     
