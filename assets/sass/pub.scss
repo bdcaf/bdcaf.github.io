@@ -1,4 +1,5 @@
 @import "base";
+
 .pub {
   max-width: $typicalwidth;
   margin-left: auto;
@@ -32,6 +33,7 @@
 
 .pub-authors-short-wrap {
   font-style: italic;
+  max-width: 100%;
 }
 
 .pub-authors-short {
@@ -39,11 +41,10 @@
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
-  max-width: $typicalwidth;
+  max-width: 30em;
   transition: 0.5s ease;
 
   &:hover {
-    position: absolute;
     background-color: rgba(255, 255, 204, 0.6);
     overflow: visible;
     white-space: normal;

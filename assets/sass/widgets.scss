@@ -1,4 +1,5 @@
 @import "base";
+
 .home-section {
   padding: 0 auto;
   background-color: white;
@@ -33,7 +34,9 @@
     grid-column-gap: 2em;
   }
 
+  padding: 0 auto;
   margin: 0 auto;
+  max-width: $typicalwidth;
 
   #bio {
     p {

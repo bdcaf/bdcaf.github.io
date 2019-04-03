@@ -211,7 +211,6 @@ blockquote {
   z-index: 3;
 }
 
-
 .site-footer,
 footer a#back_to_top i {
   color: $highlight1;
@@ -247,6 +246,7 @@ header {
 }
 
 .standardbody,
+.content,
 .pubcontainer {
   max-width: $typicalwidth;
   margin-left: auto;
