@@ -217,27 +217,14 @@ footer a#back_to_top i {
 }
 
 header {
+  position: sticky;
+  top: 0;
   display: flex;
   padding-bottom: 2rem;
 }
 
 .continue {
   font-size: 80%;
-}
-
-.main-leftcol {
-  grid-column: 1;
-  padding-bottom: 2rem;
-}
-
-.main-rightcol {
-  grid-column: 2;
-  padding-bottom: 2rem;
-  max-width: $typicalwidth;
-
-  h3 {
-    margin-top: 0;
-  }
 }
 
 .embed-responsive {
@@ -255,11 +242,6 @@ header {
 
 .apost {
   margin-bottom: 3rem;
-}
-
-.main-allcol {
-  grid-column: 1 / span 2;
-  padding-bottom: 2rem;
 }
 
 @import "menutoggle.scss";

@@ -3,8 +3,10 @@
 {{- $autolink := default true $page.Params.autolink -}}
 <!-- Contact widget -->
 <div class="main-leftcol section-heading">
+  <div class="description">
   <h1 id = "contact">{{- with $page.Title -}}{{- . | markdownify -}}{{- end -}}</h1>
   {{- with $page.Params.subtitle -}}<p>{{- . | markdownify -}}</p>{{- end -}}
+</div>
 </div>
 <div class="main-rightcol">
   {{- with $page.Content -}}<p>{{- . | markdownify -}}</p>{{- end -}}
