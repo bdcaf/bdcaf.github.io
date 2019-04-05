@@ -2,33 +2,8 @@
 
 @media (min-width: $smallwidth) {
   .menu-toggle,
-  .main-menu .menu-close {
+  .menu-close {
     display: none;
-  }
-
-  .main-menu {
-    position: relative;
-    left: 0;
-    height: auto;
-
-    ul {
-      display: flex;
-      box-shadow: none;
-      height: auto;
-      width: auto;
-      background: none;
-      padding: 0;
-    }
-
-    a {
-      color: #011627;
-      border: 0 !important;
-
-      &:hover,
-      &:focus {
-        background: none;
-      }
-    }
   }
 
   .standardbody {

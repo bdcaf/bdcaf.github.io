@@ -220,7 +220,10 @@ header {
   position: sticky;
   top: 0;
   display: flex;
-  padding-bottom: 2rem;
+  text-shadow: -1px 0 1px white, 0 1px 1px white, 1px 0 1px white,
+    0 -1px 1px white;
+  background: rgba(255, 255, 255, 0.4);
+  z-index: 2;
 }
 
 .continue {
@@ -238,6 +241,10 @@ header {
   max-width: $typicalwidth;
   margin-left: auto;
   margin-right: auto;
+
+  @media (min-width: $smallwidth) {
+    margin-left: minmax(3em, auto);
+  }
 }
 
 .apost {
@@ -245,7 +252,6 @@ header {
 }
 
 @import "menutoggle.scss";
-@import "menuhidden.scss";
 @import "article.scss";
 @import "pub.scss";
 @import "card.scss";

@@ -2,6 +2,16 @@
 $menuwidth: 8em;
 
 .main-menu {
+  @media (min-width: $smallwidth) {
+    position: relative;
+    left: 0;
+    height: auto;
+  }
+
+  @media (max-width: $smallwidth) {
+    text-shadow: none;
+  }
+
   position: fixed;
   right: -$menuwidth;
   margin-left: auto;
@@ -27,6 +37,16 @@ $menuwidth: 8em;
       background: #333;
       text-decoration: underline;
     }
+
+    @media (min-width: $smallwidth) {
+      color: #011627;
+      border: 0 !important;
+
+      &:hover,
+      &:focus {
+        background: none;
+      }
+    }
   }
 
   ul {
@@ -41,6 +61,15 @@ $menuwidth: 8em;
 
     li:first-child a {
       border-top: 1px solid #383838;
+    }
+
+    @media (min-width: $smallwidth) {
+      display: flex;
+      box-shadow: none;
+      height: auto;
+      width: auto;
+      background: none;
+      padding: 0;
     }
   }
 
@@ -57,6 +86,10 @@ $menuwidth: 8em;
     position: absolute;
     right: 0;
     top: 0;
+
+    @media (min-width: $smallwidth) {
+      display: none;
+    }
   }
 
   &:target,
@@ -89,4 +122,8 @@ $menuwidth: 8em;
   line-height: 1em;
   font-size: 1.2em;
   color: #333;
+
+  @media (min-width: $smallwidth) {
+    display: none;
+  }
 }
