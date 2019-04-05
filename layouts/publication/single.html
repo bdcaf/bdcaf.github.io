@@ -1,5 +1,4 @@
-{{- partial "header.html" . -}}
-{{- partial "navbar.html" . -}}
+{{- define "main" -}}
 
 <div class="pub" itemscope itemtype="http://schema.org/CreativeWork">
   {{- partial "header_image.html" . -}}
@@ -60,6 +59,4 @@
   </div>
   </div>
 </div>
-{{- partial "section_pager.html" . -}}
-{{- partial "footer_container.html" . -}}
-{{- partial "footer.html" . -}}
+{{- end -}}

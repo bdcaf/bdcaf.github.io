@@ -1,6 +1,4 @@
-{{- partial "header.html" . -}}
-{{- partial "navbar.html" . -}}
-<div class="content">
+{{- define "main" -}}
 <article class="article" itemscope itemtype="http://schema.org/Article">
   {{- partial "header_image.html" . -}}
   <div class="article-container">
@@ -13,16 +11,12 @@
 </article>
 
 {{- $related := .Site.RegularPages.Related . | first 5 -}}
-{{- with $related -}}
-<h3>See Also</h3>
-<ul>
-	{{- range . -}}
-	<li><a href="{{ .RelPermalink }}">{{- .Title -}}</a></li>
-	{{- end -}}
-</ul>
+  {{- with $related -}}
+  <h3>See Also</h3>
+  <ul>
+	  {{- range . -}}
+	  <li><a href="{{ .RelPermalink }}">{{- .Title -}}</a></li>
+	  {{- end -}}
+  </ul>
+  {{- end -}}
 {{- end -}}
-</div>
-
-{{- partial "section_pager.html" . -}}
-{{- partial "footer_container.html" . -}}
-{{- partial "footer.html" . -}}

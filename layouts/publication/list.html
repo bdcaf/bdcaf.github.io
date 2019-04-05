@@ -1,8 +1,4 @@
-{{- partial "header.html" . -}}
-{{- partial "navbar.html" . -}}
-{{- partial "header_image.html" . -}}
-
-<div class="standardbody">
+{{- define "main" -}}
 <h1>{{- .Title | default (i18n "publications") -}}</h1>
 
 {{- with .Content -}}
@@ -17,7 +13,4 @@
     {{- end -}}
   {{- end -}}
 </div>
-</div>
-
-{{- partial "footer_container.html" . -}}
-{{- partial "footer.html" . -}}
+{{- end -}}

@@ -1,6 +1,4 @@
-{{- partial "header.html" . -}}
-{{- partial "navbar.html" . -}}
-{{- partial "header_image.html" . -}}
+{{ define "main" }}
 <div class="text-wrapper">
   {{- with .Title -}}<h1>{{- . -}}</h1>{{- end -}}
   {{- with .Content -}}
@@ -22,7 +20,5 @@
   {{- end -}}
 
   {{- partial "pagination" . -}}
-
 </div>
-{{- partial "footer_container.html" . -}}
-{{- partial "footer.html" . -}}
+{{ end }}

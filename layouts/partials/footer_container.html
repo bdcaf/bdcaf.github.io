@@ -1,8 +1,6 @@
-<footer class="site-footer">
-    <p class="powered-by">
-    {{- with .Site.Copyright -}}{{- . | markdownify}} &middot; {{- end -}}
-    Powered by <a href="http://gohugo.io" target="_blank">Hugo</a>.
-    &middot;
-    <a href="{{- .RSSLink | default .Site.RSSLink -}}">RSS <i class="fas fa-rss-square"></i></a>
-    </p>
-</footer>
+<p class="powered-by">
+  {{- with .Site.Copyright -}}{{- . | markdownify}} &middot; {{- end -}}
+  Powered by <a href="http://gohugo.io" target="_blank">Hugo</a>.
+  &middot;
+  <a href="{{- .RSSLink | default .Site.RSSLink -}}">RSS <i class="fas fa-rss-square"></i></a>
+</p>

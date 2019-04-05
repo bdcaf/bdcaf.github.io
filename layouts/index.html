@@ -1,11 +1,9 @@
-{{- partial "header.html" . -}}
-{{- partial "navbar.html" . -}}
+{{- define "main" -}}
 <div class="widget-container">
   {{- range $index, $page := where .Data.Pages "Type" "home" -}}
-  {{- $params := dict "root" $ "page" $page -}}
-  {{- $widget := printf "widgets/%s.html" ( or $page.Params.widget "custom" ) -}}
+    {{- $params := dict "root" $ "page" $page -}}
+    {{- $widget := printf "widgets/%s.html" ( or $page.Params.widget "custom" ) -}}
     {{- partial $widget $params -}}
   {{- end -}}
 </div>
-{{- partial "footer_container.html" . -}}
-{{- partial "footer.html" . -}}
+{{- end -}}
