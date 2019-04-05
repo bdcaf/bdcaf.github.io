@@ -70,6 +70,18 @@ Current research interests include:
     </item>
     
     <item>
+      <title>Mosquitoes</title>
+      <link>https://bdcaf.github.io/2019/04/05/mosquitoes/</link>
+      <pubDate>Fri, 05 Apr 2019 11:32:33 +0200</pubDate>
+      
+      <guid>https://bdcaf.github.io/2019/04/05/mosquitoes/</guid>
+      <description>&lt;p&gt;There is an interesting paper on Mosquitoes from Raji et. al. (&amp;ldquo;Aedes aegypti Mosquitoes Detect Acidic Volatiles Found in Human Odor Using the IR8a Pathway&amp;rdquo;, doi: &lt;a href=&#34;https://doi.org/10.1016/j.cub.2019.02.045&#34; target=&#34;_blank&#34;&gt;10.1016/j.cub.2019.02.045&lt;/a&gt;).
+It deals with how mosquitoes track their human targets.  They identify three ranges -  at furthest they track by CO&lt;sub&gt;2&lt;/sub&gt;,  in mid-range by IR and at closest they zoom in on particular VOCs.&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;m working on project &lt;a href=&#34;https://www.uibk.ac.at/breath-research/projects/kiras/kiras-2016.html&#34; target=&#34;_blank&#34;&gt;KIRAS&lt;/a&gt; now for some time,  and we essentially also need to track humans. It seems our machine learning algorithm has a similar approach (although we do not use IR).  But CO&lt;sub&gt;2&lt;/sub&gt; is more dominant in large containers,  while in smaller other compounds play greater role.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>Pheromone</title>
       <link>https://bdcaf.github.io/2019/03/24/pheromone/</link>
       <pubDate>Sun, 24 Mar 2019 08:48:56 +0100</pubDate>

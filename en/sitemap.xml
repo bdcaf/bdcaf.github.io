@@ -93,6 +93,11 @@
   </url>
   
   <url>
+    <loc>https://bdcaf.github.io/2019/04/05/mosquitoes/</loc>
+    <lastmod>2019-04-05T11:32:33+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://bdcaf.github.io/2019/03/24/pheromone/</loc>
     <lastmod>2019-03-24T08:48:56+01:00</lastmod>
   </url>
@@ -1901,6 +1906,12 @@
   </url>
   
   <url>
+    <loc>https://bdcaf.github.io/categories/paper/</loc>
+    <lastmod>2019-04-05T11:32:33+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://bdcaf.github.io/categories/podcast/</loc>
     <lastmod>2019-03-24T08:48:56+01:00</lastmod>
     <priority>0</priority>
@@ -1908,7 +1919,7 @@
   
   <url>
     <loc>https://bdcaf.github.io/post/</loc>
-    <lastmod>2019-03-24T08:48:56+01:00</lastmod>
+    <lastmod>2019-04-05T11:32:33+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1968,7 +1979,7 @@
   
   <url>
     <loc>https://bdcaf.github.io/tags/sci/</loc>
-    <lastmod>2017-02-21T11:08:13+01:00</lastmod>
+    <lastmod>2019-04-05T11:32:33+02:00</lastmod>
     <priority>0</priority>
   </url>
   
