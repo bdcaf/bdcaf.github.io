@@ -1,6 +1,6 @@
 ---
 date: 2015-03-03
-selected: true
+selected: false
 lang: en
 id: Filipiak2015
 pubtype: article-journal
