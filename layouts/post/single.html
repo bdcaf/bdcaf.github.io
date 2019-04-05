@@ -10,13 +10,17 @@
   </div>
 </article>
 
-{{- $related := .Site.RegularPages.Related . | first 5 -}}
+<div class="continue">
+  {{- $related := .Site.RegularPages.Related . | first 5 -}}
   {{- with $related -}}
   <h3>See Also</h3>
   <ul>
-	  {{- range . -}}
-	  <li><a href="{{ .RelPermalink }}">{{- .Title -}}</a></li>
-	  {{- end -}}
+    {{- range . -}}
+    <li><a href="{{ .RelPermalink }}">{{- .Title -}}</a></li>
+    {{- end -}}
   </ul>
   {{- end -}}
+  <a href="{{ ref . "/post" }}">all posts</a>
+</div>
+
 {{- end -}}
