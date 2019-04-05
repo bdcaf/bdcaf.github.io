@@ -203,14 +203,6 @@ blockquote {
   margin-bottom: 1.5rem;
 }
 
-.isotope-item {
-  z-index: 2;
-}
-
-.isotope-item:hover {
-  z-index: 3;
-}
-
 .site-footer,
 footer a#back_to_top i {
   color: $highlight1;
@@ -235,9 +227,7 @@ header {
   display: block;
 }
 
-.standardbody,
-.content,
-.pubcontainer {
+.content {
   max-width: $typicalwidth;
   margin-left: auto;
   margin-right: auto;

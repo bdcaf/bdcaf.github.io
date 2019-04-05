@@ -1,17 +1,7 @@
 @import "base";
-$menuwidth: 8em;
+$menuwidth: 12em;
 
 .main-menu {
-  @media (min-width: $smallwidth) {
-    position: relative;
-    left: 0;
-    height: auto;
-  }
-
-  @media (max-width: $smallwidth) {
-    text-shadow: none;
-  }
-
   position: fixed;
   right: -$menuwidth;
   margin-left: auto;
@@ -99,6 +89,16 @@ $menuwidth: 8em;
     .menu-close {
       z-index: 1001;
     }
+  }
+
+  @media (min-width: $smallwidth) {
+    position: relative;
+    left: 0;
+    height: auto;
+  }
+
+  @media (max-width: $smallwidth) {
+    text-shadow: none;
   }
 }
 
