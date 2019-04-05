@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Clemens Ager, Brixlegg</copyright>
-    <lastBuildDate>Tue, 06 Feb 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 06 Jul 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://bdcaf.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Ex vivo emission of volatile organic compounds from gastric cancer and non-cancerous tissue</title>
+      <link>https://bdcaf.github.io/publication/mochalski18a/</link>
+      <pubDate>Fri, 06 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://bdcaf.github.io/publication/mochalski18a/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Modeling-based determination of physiological parameters of systemic VOCs by breath gas analysis, part 2</title>
