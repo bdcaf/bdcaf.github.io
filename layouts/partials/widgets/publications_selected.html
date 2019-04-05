@@ -11,12 +11,12 @@
   {{- with $page.Content -}}<p>{{- . | markdownify -}}</p>{{- end -}}
   {{- if $page.Params.detailed_list -}}
   {{- range (where (where $.Data.Pages "Type" "publication") ".Params.selected" true) -}}
-  {{- partial "publication_li_detailed" . -}}
+    {{- partial "publication/short_list" . -}}
   {{- end -}}
   {{- else -}}
   <ul class="fa-ul">
     {{- range (where (where $.Data.Pages "Type" "publication") ".Params.selected" true) -}}
-    {{- partial "publication_li_simple" . -}}
+    {{- partial "publication/li_simple" . -}}
     {{- end -}}
   </ul>
   {{- end -}}

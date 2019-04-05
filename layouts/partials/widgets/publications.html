@@ -21,12 +21,12 @@
   {{- end -}}
   {{- if $page.Params.detailed_list -}}
     {{- range first $page.Params.count (where $.Data.Pages "Type" "publication") -}}
-    {{- partial "publication_li_detailed" . -}}
+    {{- partial "publication/li_detailed" . -}}
     {{- end -}}
   {{- else -}}
   <ul class="fa-ul">
     {{- range first $page.Params.count (where $.Data.Pages "Type" "publication") -}}
-    {{- partial "publication_li_simple" . -}}
+    {{- partial "publication/li_simple" . -}}
     {{- end -}}
   </ul>
   {{- end -}}

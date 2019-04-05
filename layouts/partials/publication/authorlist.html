@@ -1,0 +1,7 @@
+{{- $numAuth := len .}}
+{{- range $k, $v := . -}}
+{{- markdownify $v.given }} {{ markdownify $v.family -}}
+{{- if lt $k (sub $numAuth 2) }}, 
+{{ else if lt $k (sub $numAuth 1) }} and
+{{ end -}}
+{{- end -}}

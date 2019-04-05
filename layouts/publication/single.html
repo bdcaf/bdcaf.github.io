@@ -1,5 +1,6 @@
 {{- partial "header.html" . -}}
 {{- partial "navbar.html" . -}}
+
 <div class="pub" itemscope itemtype="http://schema.org/CreativeWork">
   {{- partial "header_image.html" . -}}
   <div class="pub-title">
@@ -8,7 +9,10 @@
       {{- with .Params.author -}}
       {{- $numAuth := len .}}
       {{- range $k, $v := . -}}
-      {{- markdownify $v.given -}}&nbsp;{{- markdownify $v.family -}}{{- if lt $k (sub $numAuth 1) -}}, {{- end -}}
+      {{- markdownify $v.given }} {{ markdownify $v.family -}}
+      {{- if lt $k (sub $numAuth 2) }}, 
+      {{ else if lt $k (sub $numAuth 1) }} and 
+      {{ end -}}
       {{- end -}}
       {{- end -}}
     </span>
@@ -51,7 +55,7 @@
     </div>
 
     <h4>{{- i18n "links" -}}</h4>
-    <div class=""> {{- partial "publication_links" (dict "content" . "is_list" 0) -}} </div>
+    <div class=""> {{- partial "publication/links" (dict "content" . "is_list" 0) -}} </div>
     <div class="article-style">{{- .Content -}}</div>
   </div>
   </div>
