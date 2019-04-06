@@ -31,25 +31,28 @@
   margin-right: auto;
 }
 
-.pub-authors-short-wrap {
+.pub-author-short-wrap {
   font-style: italic;
-  max-width: 100%;
-}
+  display: block;
+  position: relative;
 
-.pub-authors-short {
-  position: absolute;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  max-width: 30em;
-  transition: 0.5s ease;
+  .pub-authors-short {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    transition: 0.5s ease;
 
-  &:hover {
-    background-color: rgba(255, 255, 204, 0.6);
-    overflow: visible;
-    white-space: normal;
-    height: auto;
-    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
+    &:hover {
+      background-color: rgba(255, 255, 234, 0.6);
+      overflow: visible;
+      white-space: normal;
+      height: auto;
+      box-shadow: 1px 3px 3px rgba(0, 0, 0, 0.3);
+    }
   }
 }
 
