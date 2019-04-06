@@ -96,7 +96,18 @@
 - id: identification
   translation: Identifier
 
+- id: and
+  translation: and
 - id: no_title
   translation: untitled
 - id: no_content
   translation: no content
+- id: no_earlier
+  translation: no earlier entry
+- id: no_later
+  translation: no later entry
+- id: previous
+  translation: previous
+- id: next
+  translation: next
+

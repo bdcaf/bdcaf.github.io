@@ -3,8 +3,6 @@
 <h1>{{- .Title | default (i18n "posts") -}}</h1>
 {{- with .Content -}}
 <div class="article-style" itemprop="articleBody">{{- . -}}</div>
-{{- else -}}
-{{- i18n  "no_content" -}}
 {{- end -}}
 
 {{- $paginator := .Paginate .Data.Pages -}}
