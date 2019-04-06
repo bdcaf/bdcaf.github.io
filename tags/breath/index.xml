@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Breath on C. Ager</title>
+    <link>https://bdcaf.github.io/tags/breath/</link>
+    <description>Recent content in Breath on C. Ager</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Clemens Ager, Brixlegg</copyright>
+    <lastBuildDate>Wed, 11 Jan 2017 13:53:20 +0100</lastBuildDate>
+    
+	<atom:link href="https://bdcaf.github.io/tags/breath/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>WTF - LOQ</title>
+      <link>https://bdcaf.github.io/2017/01/11/wtf-loq/</link>
+      <pubDate>Wed, 11 Jan 2017 13:53:20 +0100</pubDate>
+      
+      <guid>https://bdcaf.github.io/2017/01/11/wtf-loq/</guid>
+      <description>Just got Imputing defensible values for left-censored ‘below level of quantitation’ (LoQ) biomarker measurements forwarded. It starts as interesting read stating the problem but IMHO ultimatively fails to address the problem. I am especially disappointed that neither the IUPAC definition and guidelines are mentioned, nor the current ISO 11843. Especially the works of Lloyd A. Currie offer great insight in this topic.
+The whole idea of censoring values below LOQ was already debunked by Currie.</description>
+    </item>
+    
+    <item>
+      <title>Erster Tag auf der IABR Konferenz</title>
+      <link>https://bdcaf.github.io/2016/09/13/erster-tag-auf-der-iabr-konferenz/</link>
+      <pubDate>Tue, 13 Sep 2016 14:05:19 +0200</pubDate>
+      
+      <guid>https://bdcaf.github.io/2016/09/13/erster-tag-auf-der-iabr-konferenz/</guid>
+      <description>&lt;p&gt;Die Talks bis jetzt sind Wiederholungen vom letzten Jahr.  Aber es ja
+um mein Poster und Networken.&lt;/p&gt;
+
+&lt;p&gt;Statistik ist hier immer noch ein heißes Thema.  Die wenigsten machen
+robuste Statistik und korrigieren für wiederholte Vergleiche.  Das
+scheint noch nicht angekommen sein.  Allerdings kann ich dann sicher
+Punkten wenn ich sie als erster erkläre :)&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Endlich das Poster fertig</title>
+      <link>https://bdcaf.github.io/2016/09/11/endlich-das-poster-fertig/</link>
+      <pubDate>Sun, 11 Sep 2016 21:05:19 +0200</pubDate>
+      
+      <guid>https://bdcaf.github.io/2016/09/11/endlich-das-poster-fertig/</guid>
+      <description>&lt;p&gt;Hatte noch einige wichtige Resultate die ich einbinden wollte.
+Ansehen kann man das Poster &lt;a href=&#34;https://bdcaf.github.io/post/academic/iabr2016_poster.pdf&#34;&gt;hier&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Ich hoffe auf einige interessante Kontakte.  Gerade auf der
+statistischen Seite wäre es spannend die Sache zu erweitern.&lt;/p&gt;
+
+&lt;div class=&#34;embed-responsive&#34;&gt;
+  &lt;object data=&#34;/post/academic/iabr2016_poster.pdf&#34; type=&#39;application/pdf&#39; width=&#39;100%&#39; height=&#39;400px&#39; &gt;
+    &lt;p&gt;This browser does not support inline PDFs. Please download the PDF to view it: 
+  &lt;/object&gt; &lt;a href=&#34;https://bdcaf.github.io/post/academic/iabr2016_poster.pdf&#34;&gt;Download PDF&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title>Exhaled acetone dependency on inhalation</title>
+      <link>https://bdcaf.github.io/project/acetone-project/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://bdcaf.github.io/project/acetone-project/</guid>
+      <description>Exhaled concentration of inert gases simply depends on the inhaled concentration. Especially in steady state it is obvious that exhaled concentration needs to be equal to the inhaled concentration. In the case of volatile organic compounds (VOCs) that take part in the metabolism the relationship becomes more complicated. The exhaled concentration then also depends on metabolic production and metabolization rates.
+We consider the concentration in steady state. We already know that exhaled concentration is a linear function of inhaled concentration, fully described by two numbers - slope and intercept.</description>
+    </item>
+    
+    <item>
+      <title>Metabolization of deuterated ethanol</title>
+      <link>https://bdcaf.github.io/project/d6ethanol/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://bdcaf.github.io/project/d6ethanol/</guid>
+      <description>Although deuterated molecules appear in nature the full deuteration appear only at practically non-detectable level. These molecules are therefore not of endogenous origin. Considering safety deuterium is not radioactive and behaves chemically like regular hydrogene.
+Despite the metabolic pathway for ethanol degradation being well understood its parameter are not easy to measure. The main reason is that these pathways are also permanently active in other metabolic contexts. Therefore observing deuterated molecules not appearing in nature and their metabolites is a promising method for observation.</description>
+    </item>
+    
+    <item>
+      <title>Ende der Konferenz</title>
+      <link>https://bdcaf.github.io/2015/09/17/ende-der-konferenz/</link>
+      <pubDate>Thu, 17 Sep 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://bdcaf.github.io/2015/09/17/ende-der-konferenz/</guid>
+      <description>&lt;p&gt;Jetzt ist alles vorbei.  Der dritte Tag war nicht so
+spannend für mich nicht so spannend. Viel dieser
+Meta-diskussion wenig spezifisches.&lt;/p&gt;
+
+&lt;p&gt;Martin hat den 2. Preis für sein Poster bekommen und kriegt
+für die nächste Konferenz die Kosten.  Also fährt er sicher
+nächstes Jahr.  Selbst bin ich mir noch nicht so sicher.&lt;/p&gt;
+
+&lt;p&gt;Jetzt sitz&amp;rsquo; ich im Zug und versuch heim fahren. Wegen der
+deutschen Grenzen muss ich gewaltigen Umweg machen.  Hoffe
+ich komm aber noch in vernünftiger Zeit daheim an.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Interessanter Trend bei BreathVienna</title>
+      <link>https://bdcaf.github.io/2015/09/15/interessanter-trend-bei-breathvienna/</link>
+      <pubDate>Tue, 15 Sep 2015 16:50:16 +0200</pubDate>
+      
+      <guid>https://bdcaf.github.io/2015/09/15/interessanter-trend-bei-breathvienna/</guid>
+      <description>Guter Trend bei BreathVienna jeder der was auf sich hält benutzt R. Dann gehören die unansehnlichen Matlab Plots bald der Vergangenheit an. Besonders interessant war, dass der Micheal Phillips seine Resultate mit xcms erarbeitet hat. Das hatten wir auch schon ausgetestet.
+Ist sehr interessant &amp;ndash; aber das automatische Auswerten ist bei uns eine Endlosgeschichte, weil man die Chemiker nie komplett zufriedenstellen kann.</description>
+    </item>
+    
+    <item>
+      <title>Das Programm für den Atemgas Kongress ist heraußen</title>
+      <link>https://bdcaf.github.io/2015/08/17/das-programm-f%C3%BCr-den-atemgas-kongress-ist-herau%C3%9Fen/</link>
+      <pubDate>Mon, 17 Aug 2015 18:49:07 +0200</pubDate>
+      
+      <guid>https://bdcaf.github.io/2015/08/17/das-programm-f%C3%BCr-den-atemgas-kongress-ist-herau%C3%9Fen/</guid>
+      <description>Auf der Seite Breathvienna gibt es das Programm nun zum ansehen.
+Für mich ist einiges interessant. Selber werde ich wohl nur bei der Postersession präsentieren.
+Gerade die emerging topics und die biomarker sind spannend für mich - leider beide gleichzeitig. Danach ist wohl das medical monitoring spannend. Tag 2 werd&amp;rsquo; ich hin und her wechseln. Aber den Michael Phillips sollte man schon gesehen haben. Danach die Session mit Datenanalyse ist ein Muss für mich.</description>
+    </item>
+    
+  </channel>
+</rss>

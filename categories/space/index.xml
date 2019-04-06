@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Space on C. Ager</title>
+    <link>https://bdcaf.github.io/categories/space/</link>
+    <description>Recent content in Space on C. Ager</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Clemens Ager, Brixlegg</copyright>
+    <lastBuildDate>Thu, 29 Aug 2013 14:12:28 +0000</lastBuildDate>
+    
+	<atom:link href="https://bdcaf.github.io/categories/space/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Meine kleine Raumstation</title>
+      <link>https://bdcaf.github.io/2013/08/29/meine-kleine-raumstation/</link>
+      <pubDate>Thu, 29 Aug 2013 14:12:28 +0000</pubDate>
+      
+      <guid>https://bdcaf.github.io/2013/08/29/meine-kleine-raumstation/</guid>
+      <description>Bin ja momentan Krankenstand. Damit&amp;rsquo;s nicht zu fad wird hab&amp;rsquo; ich da gebastelt.
+War ganz schön anstrengend das erste mal. Das ganze hab&amp;rsquo; ich erst im Orbit zusammengedockt. Das ist schwierig weil da dann einiges seitenverkehrt liegt. Und natürlich ist&amp;rsquo;s nicht trivial die Geschwindigkeiten auf Null zu kriegen. Ein Zusammenstoß und alles ist kaputt.
+Soweit sieht&amp;rsquo;s schon gut aus. Plane das als Notfalltankstelle sollte mir beim Start der Saft knapp werden.</description>
+    </item>
+    
+    <item>
+      <title>Sehr gute Erklärung wie man in den Orbit kommt</title>
+      <link>https://bdcaf.github.io/2013/08/14/sehr-gute-erkl%C3%A4rung-wie-man-in-den-orbit-kommt/</link>
+      <pubDate>Wed, 14 Aug 2013 09:16:11 +0000</pubDate>
+      
+      <guid>https://bdcaf.github.io/2013/08/14/sehr-gute-erkl%C3%A4rung-wie-man-in-den-orbit-kommt/</guid>
+      <description>Spiele ja gerade viel das ausgezeichnete Kerbal Space Program.
+Bei XKCD What-if gibt es eine schöne Erklärung was es mit dem Erdorbit auf sich hat: Erklärung</description>
+    </item>
+    
+  </channel>
+</rss>

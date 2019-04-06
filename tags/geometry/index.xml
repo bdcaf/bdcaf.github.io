@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Geometry on C. Ager</title>
+    <link>https://bdcaf.github.io/tags/geometry/</link>
+    <description>Recent content in Geometry on C. Ager</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Clemens Ager, Brixlegg</copyright>
+    <lastBuildDate>Sat, 03 Feb 2018 09:01:13 +0100</lastBuildDate>
+    
+	<atom:link href="https://bdcaf.github.io/tags/geometry/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Euclidea</title>
+      <link>https://bdcaf.github.io/2018/02/03/euclidea/</link>
+      <pubDate>Sat, 03 Feb 2018 09:01:13 +0100</pubDate>
+      
+      <guid>https://bdcaf.github.io/2018/02/03/euclidea/</guid>
+      <description>Having some extra time? Euclidea teaches euclidean geometry using puzzles. Only working with compass and straightedge. Too long time I practiced these. </description>
+    </item>
+    
+  </channel>
+</rss>

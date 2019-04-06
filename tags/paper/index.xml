@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Paper on C. Ager</title>
+    <link>https://bdcaf.github.io/tags/paper/</link>
+    <description>Recent content in Paper on C. Ager</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Clemens Ager, Brixlegg</copyright>
+    <lastBuildDate>Sat, 06 Jan 2018 10:16:59 +0100</lastBuildDate>
+    
+	<atom:link href="https://bdcaf.github.io/tags/paper/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Pizzini paper</title>
+      <link>https://bdcaf.github.io/2018/01/06/pizzini-paper/</link>
+      <pubDate>Sat, 06 Jan 2018 10:16:59 +0100</pubDate>
+      
+      <guid>https://bdcaf.github.io/2018/01/06/pizzini-paper/</guid>
+      <description>Alex Pizzini got a paper with us published. It is a continuation of his thesis. Nice that there is still so much interest on cooperation. On my end the statistics was rather simple. Not much to do on the mathematical side.
+ Analysis of volatile organic compounds in the breath of patients with stable or acute exacerbation of chronic obstructive pulmonary disease Details PDF    </description>
+    </item>
+    
+  </channel>
+</rss>

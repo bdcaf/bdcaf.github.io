@@ -1,0 +1,191 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en">
+  <head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="generator" content="Hugo 0.54.0" /><meta name="author" content="Clemens Ager"><meta name="description" content="Number Cruncher // PhD Candidate // Physicist"><script defer src="https://use.fontawesome.com/releases/v5.0.13/js/all.js" integrity="sha384-xymdQtn1n3lH2wcu0qhcdaOpQwyoarkgLVxC/wZ5q7h9gHtxICrpcaSUfygqZGOe" crossorigin="anonymous"></script>
+<link href="https://fonts.googleapis.com/css?family=Montserrat|Raleway:100,400" rel="stylesheet"><link rel="stylesheet" href="https://bdcaf.github.io/style.min.f55e2bec4a26016f7b2eb2fb0e3c6116a40ad267b2993cefe0d4bb0c1a6e145c3c1e2b653c7da7704a629522ad714e4e2aa0659d096a22f0d61a58ebd8971707.css" 
+		       integrity="sha512-9V4r7EomAW97LrL7DjxhFqQK0meymTzv4NS7DBpuFFw8HitlPH2ncEpilSKtcU5OKqBlnQlqIvDWGljr2JcXBw==">
+<link rel="alternate" href="https://bdcaf.github.io/index.xml" type="application/rss+xml" title="C. Ager">
+<link rel="feed" href="https://bdcaf.github.io/index.xml" type="application/rss+xml" title="C. Ager">
+<link rel="canonical" href="https://bdcaf.github.io/2017/03/30/configuring-offlineimap/">
+    <title>Configuring offlineimap|C. Ager</title>
+  </head>
+  <body id="top"><header>
+    <h1 class="logo"> <a href="https://bdcaf.github.io/">clemens<b>ager</b></a></h1>
+  <div class="container">
+    <a href="#main-menu" role="button" id="main-menu-toggle" class="menu-toggle" aria-expanded="false" aria-controls="main-menu" aria-label="Open main menu">
+      <span class="sr-only">Open main menu</span>
+      <span aria-hidden="true"> <i class="fas fa-bars"></i> </span>
+    </a>
+    <nav id="main-menu" role="navigation" class="main-menu" aria-expanded="false" aria-label="Main menu">
+      <a href="#main-menu-toggle" role="button" id="main-menu-close" class="menu-close" aria-expanded="false" aria-controls="main-menu" aria-label="Close main menu"> 
+	<span class="sr-only">Close main menu</span>
+	<span aria-hidden="true">
+	  <i class="fas fa-window-close"></i>
+	</span> </a> 
+	<ul><li>
+          <a href="https://bdcaf.github.io/#about"><span>About</span> </a>
+        </li><li>
+          <a href="https://bdcaf.github.io/#posts"><span>Posts</span> </a>
+        </li><li>
+          <a href="https://bdcaf.github.io/#publications_selected"><span>Publications</span> </a>
+        </li><li>
+          <a href="https://bdcaf.github.io/#projects"><span>Projects</span> </a>
+        </li><li>
+          <a href="https://bdcaf.github.io/#contact"><span>Contact</span> </a>
+        </li></ul>
+    </nav>
+    <a href="#main-menu-toggle"
+       class="backdrop"
+       tabindex="-1"
+       aria-hidden="true" hidden></a>
+  </div>
+</header>
+<div class="content"><article class="article" itemscope itemtype="http://schema.org/Article">
+<div class="article-container">
+    <h1 itemprop="name">Configuring offlineimap</h1><div class="article-metadata">
+  <span class="article-date">
+    <time datetime="2017-03-30 10:48:59 &#43;0200 CEST" itemprop="datePublished">2017-03-30</time>
+  </span><span class="article-tags">
+    <i class="fa fa-tags"> </i>
+    <a href="https://bdcaf.github.io/tags/unix">unix</a
+    >, <a href="https://bdcaf.github.io/tags/config">config</a
+    >, <a href="https://bdcaf.github.io/tags/offlineimap">offlineimap</a
+    >, <a href="https://bdcaf.github.io/tags/uibk">uibk</a
+    ></span></div>
+<div class="article-style" itemprop="articleBody">
+
+<p>Having most of my workflow on the commandline mailing my results using
+Tunderbird or Mail.app is sometimes quite a chore.  I would rather do
+it from inside my workflow.  <a href="http://www.mutt.org/" target="_blank">mutt</a> seems like a
+natural option.  I also quite quickly considered alternatives like
+<a href="https://www.washington.edu/alpine/" target="_blank">alpine</a> - though since I prefer
+vim for my text editing I quickly decided against it.</p>
+
+<h2 id="offlineimap">offlineimap</h2>
+
+<p>For mutt it quickly became aparent that I would need some external
+tool to fetch my mail.  Many sites describe
+<a href="http://www.offlineimap.org/" target="_blank">offlineimap</a> though as the maintainer
+put a message that he moved on to
+<a href="https://github.com/OfflineIMAP/imapfw" target="_blank">imapfw</a> I was worried.  Also
+my first attempt didn&rsquo;t work out so I quickly decided I wanted to go
+with a &ldquo;maintained&rdquo; project.</p>
+
+<p>So ultimately I ended at <a href="http://isync.sourceforge.net/" target="_blank">isync</a>.</p>
+
+<p>Initial configurations that I frankensteined together didn&rsquo;t work
+either so I had to go on debugging.</p>
+
+<h3 id="certificate-woes">certificate woes</h3>
+
+<p>I immediately got certificate errors.  Even for google.  In the
+configuration the have a commented line for certificates in the home
+directory.  So I decided to get them for myself.  Since I am behind
+the universities firewall in the same subnet as the mail servers I was
+not to worried that someone might MITM me bad certs.</p>
+
+<p>In short I used</p>
+
+<pre><code>[~]$ openssl s_client -connect mailserver.uni.ac.at:993 -showcerts &gt; crt
+</code></pre>
+
+<p>to download them. Basically I replace mailserver.uni.ac.at with my
+servers.  Then I used trusty old vim to cut the blocks from
+<code>-----BEGIN CERTIFICATE-----</code> down to <code>-----END CERTIFICATE-----</code>
+(including those lines) into individual files which I named based on
+the identification before the blocks.</p>
+
+<h3 id="passwords">passwords</h3>
+
+<p>Along with this certificate issues I noticed that passwords often are
+put in plain text in the config files.  An absolute no-go for me.  I
+quickly discovered <a href="https://www.passwordstore.org/" target="_blank">pass</a> which uses
+gpg to encrypt them.</p>
+
+<p>Sure still worried as these are then passed around in plain text - but
+at least I will not have them in my repositories on github.</p>
+
+<h3 id="oh-gmail">oh gmail</h3>
+
+<p>since most tutorials explicitely explain how to set up gmail I was
+confused why it just wouldn&rsquo;t work for me!
+It just wouldn&rsquo;t accept the password.  After long and useless research
+I recalled something was changed by google.  You can now <a href="https://support.google.com/accounts/answer/185833" target="_blank">create
+passwords for less secure
+apps</a> - and that
+was it.  All I had to do was create an app password on the linked
+site. Nice - so now even in the encrypted store is my google password
+and I can easily delete the one for the app.</p>
+
+<h3 id="final-config">final config</h3>
+
+<p>so this is what is in my <code>.mbsyncrc</code>.  I don&rsquo;t want to post it as big
+text block as one needs to fill in the values that fit ones setup.</p>
+
+<h5 id="accounts">accounts</h5>
+
+<pre><code>IMAPAccount uibk
+Host exchange.uibk.ac.at
+User c....
+AuthMechs LOGIN
+PassCmd &quot;pass Mail/uibk&quot;
+SSLType IMAPS
+SSLVersions TLSv1.2
+CertificateFile ~/.cert/uibk.crt
+
+IMAPAccount gmail
+Host imap.gmail.com
+User ....@gmail.com
+AuthMechs LOGIN
+PassCmd &quot;pass Mail/gmail&quot;
+SSLType IMAPS
+SSLVersions TLSv1.2
+CertificateFile ~/.cert/gmail.crt
+</code></pre>
+
+<h3 id="stores">stores</h3>
+
+<p>nothing fancy here</p>
+
+<pre><code>IMAPStore uibk-remote
+Account uibk
+MaildirStore uibk-local
+Path ~/Archive/Mail/Uibk/
+Inbox ~/Archive/Mail/Uibk/Inbox
+
+IMAPStore gmail-remote
+Account gmail
+MaildirStore gmail-local
+Path ~/Archive/Mail/Gmail/
+Inbox ~/Archive/Mail/Gmail/Inbox
+</code></pre>
+
+<p>though it was essential to create the folders using
+<code>mkdir -p ~/Archive/Mail/Gmail</code>.</p>
+
+<p>and finally <code>mbsync uibk gmail</code> will work without error.</p>
+
+<h3 id="check-automatically">check automatically</h3>
+
+<p>Gotta leave this for now.  I see there is an issue with cron on Mac.</p>
+
+<h2 id="mutt-later">Mutt later</h2>
+
+<p>Wow this got quite some post. I will describe how to set up mutt next
+time.</p>
+</div>
+  </div>
+</article>
+
+<div class="continue"><h3>See Also</h3>
+  <ul><li><a href="https://bdcaf.github.io/2017/04/22/nice-stuff-from-uibk/">Nice stuff from uibk</a></li><li><a href="https://bdcaf.github.io/2018/01/29/github-pages/">Github pages</a></li><li><a href="https://bdcaf.github.io/2017/12/04/advent-of-code/">Advent of Code</a></li><li><a href="https://bdcaf.github.io/2017/11/05/makey-makey/">Makey Makey</a></li><li><a href="https://bdcaf.github.io/2017/08/05/package-rawtof/">Package rawTof</a></li></ul><a href="https://bdcaf.github.io/post/">all posts</a>
+</div></div>
+
+    <footer><p class="powered-by">Clemens Ager, Brixlegg &middot;Powered by <a href="http://gohugo.io" target="_blank">Hugo</a>.
+  &middot;
+  <a href="https://bdcaf.github.io/index.xml">RSS <i class="fas fa-rss-square"></i></a>
+</p>
+</footer>
+  </body>
+</html>

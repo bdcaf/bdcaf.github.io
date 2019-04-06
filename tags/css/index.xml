@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Css on C. Ager</title>
+    <link>https://bdcaf.github.io/tags/css/</link>
+    <description>Recent content in Css on C. Ager</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Clemens Ager, Brixlegg</copyright>
+    <lastBuildDate>Sun, 24 Feb 2019 21:07:24 +0100</lastBuildDate>
+    
+	<atom:link href="https://bdcaf.github.io/tags/css/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Grid Layout for Site</title>
+      <link>https://bdcaf.github.io/2019/02/24/grid-layout-for-site/</link>
+      <pubDate>Sun, 24 Feb 2019 21:07:24 +0100</pubDate>
+      
+      <guid>https://bdcaf.github.io/2019/02/24/grid-layout-for-site/</guid>
+      <description>&lt;p&gt;Recently some html and css videos caught my attention.
+I started reworking the layout using the new practices I learnt.
+Hope they will still work fine.&lt;/p&gt;
+
+&lt;p&gt;In particular I found the videos by Jen Simmons inspiring.&lt;/p&gt;
+
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;//www.youtube-nocookie.com/embed/tFKrK4eAiUQ&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

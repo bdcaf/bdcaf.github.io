@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Homes on C. Ager</title>
+    <link>https://bdcaf.github.io/de/home/</link>
+    <description>Recent content in Homes on C. Ager</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>de</language>
+    <copyright>Clemens Ager, Brixlegg</copyright>
+    <lastBuildDate>Sun, 08 Jan 2017 10:12:34 +0000</lastBuildDate>
+    
+	<atom:link href="https://bdcaf.github.io/de/home/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>https://bdcaf.github.io/de/home/about/</link>
+      <pubDate>Sun, 08 Jan 2017 10:12:34 +0000</pubDate>
+      
+      <guid>https://bdcaf.github.io/de/home/about/</guid>
+      <description>1977 in Österreich geboren.
+Bin seit 2005 Mitarbeiter des Instituts für Atemgasanalyse.
+Aktuelle Forschungsinteressen sind
+ R Programmierung Functionales Programmieren in Haskell Datenvisualisierung Modellierung von Prozessen in Echtzeit  </description>
+    </item>
+    
+    <item>
+      <title>Aktuelle Posts</title>
+      <link>https://bdcaf.github.io/de/home/posts/</link>
+      <pubDate>Sun, 08 Jan 2017 10:12:34 +0000</pubDate>
+      
+      <guid>https://bdcaf.github.io/de/home/posts/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ausgewählte Publikationen</title>
+      <link>https://bdcaf.github.io/de/home/publications_selected/</link>
+      <pubDate>Sun, 08 Jan 2017 10:12:34 +0000</pubDate>
+      
+      <guid>https://bdcaf.github.io/de/home/publications_selected/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Aktuelle Publikationen</title>
+      <link>https://bdcaf.github.io/de/home/publications/</link>
+      <pubDate>Thu, 05 Jan 2017 10:00:00 +0000</pubDate>
+      
+      <guid>https://bdcaf.github.io/de/home/publications/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Projekte</title>
+      <link>https://bdcaf.github.io/de/home/projects/</link>
+      <pubDate>Sun, 08 Jan 2017 10:12:34 +0000</pubDate>
+      
+      <guid>https://bdcaf.github.io/de/home/projects/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Kontakt</title>
+      <link>https://bdcaf.github.io/de/home/contact/</link>
+      <pubDate>Sun, 08 Jan 2017 10:12:34 +0000</pubDate>
+      
+      <guid>https://bdcaf.github.io/de/home/contact/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

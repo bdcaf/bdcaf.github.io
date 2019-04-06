@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Software on C. Ager</title>
+    <link>https://bdcaf.github.io/tags/software/</link>
+    <description>Recent content in Software on C. Ager</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Clemens Ager, Brixlegg</copyright>
+    <lastBuildDate>Fri, 19 Aug 2016 13:33:46 +0200</lastBuildDate>
+    
+	<atom:link href="https://bdcaf.github.io/tags/software/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Wieder Humble</title>
+      <link>https://bdcaf.github.io/2016/08/19/wieder-humble/</link>
+      <pubDate>Fri, 19 Aug 2016 13:33:46 +0200</pubDate>
+      
+      <guid>https://bdcaf.github.io/2016/08/19/wieder-humble/</guid>
+      <description>&lt;p&gt;Ich bin ein großer Fan der &lt;a href=&#34;https://www.humblebundle.com/&#34; target=&#34;_blank&#34;&gt;Humble
+Bundles&lt;/a&gt;.  Dort kann man kleine Spenden
+für wohltätige Zwecke tätigen und wird mit Software Downloads oder
+Bücherdownloads belohnt.  Ist eine tolle Sache weil gerade
+interessante Autoren mitmachen - oft aus der Indieszene.  Für eine
+Kleinstspende von 1€ gibts schon die ersten interessanten Belohnungen.&lt;/p&gt;
+
+&lt;p&gt;Die nächsten 12 Tage ists wieder besonders interessant - so haben sie
+gute Programmierbücher wie das &amp;ldquo;&lt;a href=&#34;http://learnyouahaskell.com/&#34; target=&#34;_blank&#34;&gt;Learn you a Haskell for great
+good&lt;/a&gt;&amp;rdquo;.  Und an Programme gibts des
+berühmte &amp;ldquo;&lt;a href=&#34;http://www.thebeginnersgui.de/&#34; target=&#34;_blank&#34;&gt;Beginners Guide&lt;/a&gt;&amp;rdquo;.&lt;/p&gt;
+
+&lt;p&gt;Probierts mal aus. Ist cool!&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

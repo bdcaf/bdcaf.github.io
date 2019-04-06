@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hobby on C. Ager</title>
+    <link>https://bdcaf.github.io/categories/hobby/</link>
+    <description>Recent content in Hobby on C. Ager</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Clemens Ager, Brixlegg</copyright>
+    <lastBuildDate>Sat, 18 Oct 2014 05:47:06 +0000</lastBuildDate>
+    
+	<atom:link href="https://bdcaf.github.io/categories/hobby/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>National Geographic</title>
+      <link>https://bdcaf.github.io/2014/10/18/national-geographic/</link>
+      <pubDate>Sat, 18 Oct 2014 05:47:06 +0000</pubDate>
+      
+      <guid>https://bdcaf.github.io/2014/10/18/national-geographic/</guid>
+      <description>Die haben wieder tolle Photos auf der Seite.</description>
+    </item>
+    
+  </channel>
+</rss>

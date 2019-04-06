@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dev on C. Ager</title>
+    <link>https://bdcaf.github.io/categories/dev/</link>
+    <description>Recent content in Dev on C. Ager</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Clemens Ager, Brixlegg</copyright>
+    <lastBuildDate>Tue, 05 Feb 2019 10:58:41 +0100</lastBuildDate>
+    
+	<atom:link href="https://bdcaf.github.io/categories/dev/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Configuring Syncthing on Mac Server</title>
+      <link>https://bdcaf.github.io/2019/02/05/configuring-syncthing-on-mac-server/</link>
+      <pubDate>Tue, 05 Feb 2019 10:58:41 +0100</pubDate>
+      
+      <guid>https://bdcaf.github.io/2019/02/05/configuring-syncthing-on-mac-server/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://syncthing.net&#34; target=&#34;_blank&#34;&gt;Syncthing&lt;/a&gt; is currently my preferred tool to
+keep folders in sync.  Previously I had affairs with &lt;a href=&#34;https://git-annex.branchable.com&#34; target=&#34;_blank&#34;&gt;git
+annex&lt;/a&gt;, and
+&lt;a href=&#34;https://rsync.samba.org&#34; target=&#34;_blank&#34;&gt;rsync&lt;/a&gt; scripts.&lt;/p&gt;
+
+&lt;p&gt;Recently I reactivated a 2009 Mac Mini as headless server under El
+Capitan.  &lt;a href=&#34;https://brew.sh&#34; target=&#34;_blank&#34;&gt;Homebrew&lt;/a&gt; is the tool of choice - it
+complains a little about the old OS but things work out nicely.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Crossover</title>
+      <link>https://bdcaf.github.io/2018/11/19/crossover/</link>
+      <pubDate>Mon, 19 Nov 2018 13:42:33 +0100</pubDate>
+      
+      <guid>https://bdcaf.github.io/2018/11/19/crossover/</guid>
+      <description>&lt;p&gt;Just recently got my hand on
+&lt;a href=&#34;https://www.codeweavers.com/products/crossover-mac&#34; target=&#34;_blank&#34;&gt;Crossover&lt;/a&gt;.  It&amp;rsquo;s
+essentially the commercially supported &lt;a href=&#34;https://www.winehq.org&#34; target=&#34;_blank&#34;&gt;wine&lt;/a&gt;.
+I am impressed how polished things feel nowadays.  I
+gave it usually &lt;em&gt;problematic&lt;/em&gt; scientific programs like the TofDaqViewer from
+Ionicon and the Nist library and it produced nicely running libraries.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Mass editing tags</title>
+      <link>https://bdcaf.github.io/2018/06/14/mass-editing-tags/</link>
+      <pubDate>Thu, 14 Jun 2018 08:42:28 +0200</pubDate>
+      
+      <guid>https://bdcaf.github.io/2018/06/14/mass-editing-tags/</guid>
+      <description>&lt;p&gt;Having read some about the
+&lt;a href=&#34;https://github.com/rstudio/blogdown&#34; target=&#34;_blank&#34;&gt;blogdown&lt;/a&gt; package I thought I
+could cleanup my site some more.&lt;/p&gt;
+
+&lt;p&gt;I came up with some scripts to clean up tags.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Rescuing my PDF presentation on mac</title>
+      <link>https://bdcaf.github.io/2018/05/29/rescuing-my-pdf-presentation-on-mac/</link>
+      <pubDate>Tue, 29 May 2018 10:44:19 +0200</pubDate>
+      
+      <guid>https://bdcaf.github.io/2018/05/29/rescuing-my-pdf-presentation-on-mac/</guid>
+      <description>&lt;p&gt;(tldr;) use &lt;a href=&#34;https://www.cs.hmc.edu/~oneill/freesoftware/pdftokeynote.html&#34; target=&#34;_blank&#34;&gt;PDF to
+Keynote&lt;/a&gt; to convert a tex presentation for convenient presenting.&lt;/p&gt;
+
+&lt;p&gt;I did have a presentation on my PhDs topic last week.  Took me some
+collecting data from recent paper drafts and old slides to create
+something polished.&lt;/p&gt;
+
+&lt;p&gt;As you would expect I prepared the presentation in &lt;a href=&#34;https://github.com/josephwright/beamer&#34; target=&#34;_blank&#34;&gt;beamer latex&lt;/a&gt;.  I found the &lt;a href=&#34;https://github.com/matze/mtheme&#34; target=&#34;_blank&#34;&gt;metropolis template&lt;/a&gt; to my liking.&lt;/p&gt;
+
+&lt;p&gt;Great was my shock as the slides would show up blurry in full screen -
+well for the first second - and then &amp;ldquo;jump&amp;rdquo; to nicely rendered.  I
+tried in Preview as well as Skim. They would render nicely but still
+slow in Acrobat Reader - however I don&amp;rsquo;t like that one.&lt;/p&gt;
+
+&lt;p&gt;On the last day I found my lifesaver: &lt;a href=&#34;https://www.cs.hmc.edu/~oneill/freesoftware/pdftokeynote.html&#34; target=&#34;_blank&#34;&gt;PDF to
+Keynote&lt;/a&gt;.
+Not only would it transfer my slides into sharp images,  I then could
+also use the fancy Keynote controls and the moderator screen for
+notes.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Vim for Hugo</title>
+      <link>https://bdcaf.github.io/2015/09/27/vim-for-hugo/</link>
+      <pubDate>Sun, 27 Sep 2015 10:47:54 +0200</pubDate>
+      
+      <guid>https://bdcaf.github.io/2015/09/27/vim-for-hugo/</guid>
+      <description>&lt;p&gt;Ich verwende ja den Sitegenerator &lt;a href=&#34;https://gohugo.io&#34; target=&#34;_blank&#34;&gt;hugo&lt;/a&gt; für diese Seite.  Das herumgewurschtel auf der Kommandozeile ist aber etwas nervig.  Daher hab ich ein paar Befehle für Vim geschrieben um es etwas schmerzfreier zu machen.  Soweit ist es aber noch etwas schmerzhaft.&lt;/p&gt;
+
+&lt;p&gt;Auf der Anleitung &lt;a href=&#34;http://www.thegeekstuff.com/2008/12/vi-and-vim-autocommand-3-steps-to-add-custom-header-to-your-file/&#34; target=&#34;_blank&#34;&gt;vi and vim autocommand&lt;/a&gt; hab ich ein paar Ideen gefunden.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Aller Anfang ist schwer</title>
+      <link>https://bdcaf.github.io/2015/07/11/aller-anfang-ist-schwer/</link>
+      <pubDate>Sat, 11 Jul 2015 13:27:52 +0200</pubDate>
+      
+      <guid>https://bdcaf.github.io/2015/07/11/aller-anfang-ist-schwer/</guid>
+      <description>Die erste Konfiguration ist noch ganz mühsam!</description>
+    </item>
+    
+    <item>
+      <title>Episode 2</title>
+      <link>https://bdcaf.github.io/2013/06/29/episode-2/</link>
+      <pubDate>Sat, 29 Jun 2013 18:21:19 +0000</pubDate>
+      
+      <guid>https://bdcaf.github.io/2013/06/29/episode-2/</guid>
+      <description>Bin mittlerweile bei der Farb-LED. Nix besonders hab&amp;rsquo; dann aber gleichmal nen Kalman Filter fürs messen angehängt. So Statistik halt und weils so langweilig war gleich noch ne chaotische Zeitentwicklung obendrauf. Nutzen natürlich null. Ausser Moodlampe ;)</description>
+    </item>
+    
+    <item>
+      <title>Erste Bastelei</title>
+      <link>https://bdcaf.github.io/2013/06/22/erste-bastelei/</link>
+      <pubDate>Sat, 22 Jun 2013 09:36:08 +0000</pubDate>
+      
+      <guid>https://bdcaf.github.io/2013/06/22/erste-bastelei/</guid>
+      <description>Erste Bastelei&amp;hellip; Es klickst und blinkt alles so wies soll&amp;hellip;</description>
+    </item>
+    
+    <item>
+      <title>Arduino</title>
+      <link>https://bdcaf.github.io/2013/06/17/arduino/</link>
+      <pubDate>Mon, 17 Jun 2013 08:57:26 +0000</pubDate>
+      
+      <guid>https://bdcaf.github.io/2013/06/17/arduino/</guid>
+      <description>Das Bier gärt jetzt schon und auf der Suche nach neuen Projekten bin ich zum Arduino abgebogen.
+Bei mir gibts jetzt bald dasStarterKit. Kommt hoffentlich bald. War nämlich eine Sucherei noch eins aufzutreiben (Und strange, dass die ganzen Stores keine Mehrwertsteuer anzeigen&amp;hellip;)
+Hab&amp;rsquo; dann bald ein paar coole Basteleien zum herzeigen (hoff ich halt:)</description>
+    </item>
+    
+  </channel>
+</rss>

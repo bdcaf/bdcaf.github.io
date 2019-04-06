@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Data on C. Ager</title>
+    <link>https://bdcaf.github.io/tags/data/</link>
+    <description>Recent content in Data on C. Ager</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Clemens Ager, Brixlegg</copyright>
+    <lastBuildDate>Thu, 29 Dec 2016 10:09:56 +0100</lastBuildDate>
+    
+	<atom:link href="https://bdcaf.github.io/tags/data/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>A Datapoint walks into a bar</title>
+      <link>https://bdcaf.github.io/2016/12/29/a-datapoint-walks-into-a-bar/</link>
+      <pubDate>Thu, 29 Dec 2016 10:09:56 +0100</pubDate>
+      
+      <guid>https://bdcaf.github.io/2016/12/29/a-datapoint-walks-into-a-bar/</guid>
+      <description>Excellent talk at this years 33C3.
+Story telling with data is so important and helps clarify lots of things.
+ </description>
+    </item>
+    
+  </channel>
+</rss>
