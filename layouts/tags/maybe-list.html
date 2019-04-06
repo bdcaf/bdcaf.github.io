@@ -1,7 +1,4 @@
-{{- partial "header.html" . -}}
-{{- partial "navbar.html" . -}}
-
-{{- partial "header_image.html" . -}}
+{{- define "main" -}}
 
 {{- if not (eq (len $.Site.Taxonomies.tags) 0) -}}
     {{- $fontUnit := "rem" -}}
@@ -26,8 +23,5 @@
         {{- end -}}
     </div>
     {{- end -}}
-
-
 </div>
-{{- partial "footer_container.html" . -}}
-{{- partial "footer.html" . -}}
+{{- end -}}

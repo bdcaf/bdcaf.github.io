@@ -94,3 +94,18 @@
 
 - id: talks
   translation: Talks
+
+- id: and
+  translation: und
+- id: no_title
+  translation: ohne Titel
+- id: no_content
+  translation: kein Inhalt
+- id: no_earlier
+  translation: keine Weiteren
+- id: no_later
+  translation: keine Weiteren
+- id: previous
+  translation: früher
+- id: next
+  translation: nächste
