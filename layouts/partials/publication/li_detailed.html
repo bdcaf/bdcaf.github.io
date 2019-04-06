@@ -26,12 +26,7 @@
     </div>
     <div class="pub-author-short-wrap">
       <div class="pub-authors-short" itemprop="author">
-	{{- with .Params.author -}}
-	{{- $numAuth := len .}}
-	{{- range $k, $v := . -}}
-	{{- markdownify $v.given -}}&nbsp;{{- markdownify $v.family -}}{{- if lt $k (sub $numAuth 1) -}}, {{ end -}}
-	{{- end -}}
-	{{- end -}}
+	{{- partial "publication/authorlist" .Params.author -}}
       </div>
       <br/>
     </div>

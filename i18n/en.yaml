@@ -95,3 +95,8 @@
   translation: Talks
 - id: identification
   translation: Identifier
+
+- id: no_title
+  translation: untitled
+- id: no_content
+  translation: no content

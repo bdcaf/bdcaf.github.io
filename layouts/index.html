@@ -1,4 +1,5 @@
 {{- define "main" -}}
+
 <div class="widget-container">
   {{- range $index, $page := where .Data.Pages "Type" "home" -}}
     {{- $params := dict "root" $ "page" $page -}}
@@ -6,4 +7,5 @@
     {{- partial $widget $params -}}
   {{- end -}}
 </div>
+
 {{- end -}}

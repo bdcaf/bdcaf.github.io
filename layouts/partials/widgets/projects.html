@@ -9,7 +9,9 @@
 </div>
 </div>
 <div class=" main-rightcol">
-  {{- with $page.Content -}}<p>{{- . | markdownify -}}</p>{{- end -}}
+  {{- with $page.Content -}}<p>
+    {{- . | markdownify -}}</p>
+  {{- end -}}
 
   {{- if eq $page.Params.view 0 -}}
 
@@ -26,7 +28,11 @@
 	      {{- end -}}
 	      <i class="fa-li fa fa-files-o pub-icon" aria-hidden="true"></i>
 	      {{- .Title -}}
-	      {{- if .Content -}}</a>{{- else -}}{{- with .Params.external_link -}}</a>{{- end -}}{{- end -}}
+	      {{- if .Content -}}</a>
+	      {{- else -}}
+		{{- with .Params.external_link -}}</a>
+	    {{- end -}}
+	  {{- end -}}
 	</span>
 	{{- with .Params.summary -}}<p class="project-summary">{{- . | markdownify -}}</p>{{- end -}}
       </li>

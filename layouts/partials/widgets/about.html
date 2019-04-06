@@ -11,7 +11,9 @@
     <div class="portrait-title">
       <h2 itemprop="name">{{- $.Site.Params.name -}}</h2>
       <h3 itemprop="jobTitle">{{- $.Site.Params.role -}}</h3>
-      {{- with $.Site.Params.organization -}}<h3 itemprop="worksFor">{{- . -}}</h3>{{- end -}}
+      {{- with $.Site.Params.organization -}}
+      <h3 itemprop="worksFor">{{- . -}}</h3>
+      {{- end -}}
     </div>
     <ul class="social-icon-2" aria-hidden="true">
       {{- range $.Site.Params.social -}}

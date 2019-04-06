@@ -5,15 +5,7 @@
   <div class="pub-title">
     <h1 itemprop="name">{{- .Title -}}</h1>
     <span class="pub-authors" itemprop="author">
-      {{- with .Params.author -}}
-      {{- $numAuth := len .}}
-      {{- range $k, $v := . -}}
-      {{- markdownify $v.given }} {{ markdownify $v.family -}}
-      {{- if lt $k (sub $numAuth 2) }}, 
-      {{ else if lt $k (sub $numAuth 1) }} and 
-      {{ end -}}
-      {{- end -}}
-      {{- end -}}
+      {{- partial "publication/authorlist" .Params.author -}}
     </span>
     <span class="pull-right">
       {{- partial "share.html" . -}}
