@@ -1,6 +1,3 @@
 [submodule "themes/hugo-academic"]
 	path = themes/hugo-academic
 	url = https://github.com/gcushen/hugo-academic.git
-[submodule "delimitMate"]
-	path = delimitMate
-	url = https://github.com/Raimondi/delimitMate.git
