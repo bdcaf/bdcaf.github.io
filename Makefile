@@ -1,8 +1,10 @@
+BUILD_DIR:=public
+
 publish: build
-	cd public && git add . && git commit -am pub && git push
+	cd $(BUILD_DIR) && git add . && git commit -am pub && git push
 
 build:
-	rm -rf build/*
+	rm -rf $(BUILD_DIR)/*
 	hugo
 
 update: 
