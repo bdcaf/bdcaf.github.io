@@ -1,26 +1,2 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Unix on C. Ager</title>
-    <link>https://bdcaf.github.io/tags/unix/</link>
-    <description>Recent content in Unix on C. Ager</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <copyright>Clemens Ager, Brixlegg</copyright>
-    <lastBuildDate>Thu, 30 Mar 2017 10:48:59 +0200</lastBuildDate>
-    
-	<atom:link href="https://bdcaf.github.io/tags/unix/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Configuring offlineimap</title>
-      <link>https://bdcaf.github.io/2017/03/30/configuring-offlineimap/</link>
-      <pubDate>Thu, 30 Mar 2017 10:48:59 +0200</pubDate>
-      
-      <guid>https://bdcaf.github.io/2017/03/30/configuring-offlineimap/</guid>
-      <description>Having most of my workflow on the commandline mailing my results using Tunderbird or Mail.app is sometimes quite a chore. I would rather do it from inside my workflow. mutt seems like a natural option. I also quite quickly considered alternatives like alpine - though since I prefer vim for my text editing I quickly decided against it.
-offlineimap For mutt it quickly became aparent that I would need some external tool to fetch my mail.</description>
-    </item>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>unix on C. Ager</title><link>https://bdcaf.github.io/tags/unix/</link><description>Recent content in unix on C. Ager</description><generator>Hugo -- gohugo.io</generator><language>en</language><copyright>Clemens Ager, Brixlegg</copyright><lastBuildDate>Thu, 30 Mar 2017 10:48:59 +0200</lastBuildDate><atom:link href="https://bdcaf.github.io/tags/unix/index.xml" rel="self" type="application/rss+xml"/><item><title>Configuring offlineimap</title><link>https://bdcaf.github.io/2017/03/30/configuring-offlineimap/</link><pubDate>Thu, 30 Mar 2017 10:48:59 +0200</pubDate><guid>https://bdcaf.github.io/2017/03/30/configuring-offlineimap/</guid><description>Having most of my workflow on the commandline mailing my results using Tunderbird or Mail.app is sometimes quite a chore. I would rather do it from inside my workflow. mutt seems like a natural option. I also quite quickly considered alternatives like alpine - though since I prefer vim for my text editing I quickly decided against it.
+offlineimap For mutt it quickly became aparent that I would need some external tool to fetch my mail.</description></item></channel></rss>

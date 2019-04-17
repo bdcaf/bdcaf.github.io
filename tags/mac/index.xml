@@ -1,82 +1,26 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Mac on C. Ager</title>
-    <link>https://bdcaf.github.io/tags/mac/</link>
-    <description>Recent content in Mac on C. Ager</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <copyright>Clemens Ager, Brixlegg</copyright>
-    <lastBuildDate>Tue, 05 Feb 2019 10:58:41 +0100</lastBuildDate>
-    
-	<atom:link href="https://bdcaf.github.io/tags/mac/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Configuring Syncthing on Mac Server</title>
-      <link>https://bdcaf.github.io/2019/02/05/configuring-syncthing-on-mac-server/</link>
-      <pubDate>Tue, 05 Feb 2019 10:58:41 +0100</pubDate>
-      
-      <guid>https://bdcaf.github.io/2019/02/05/configuring-syncthing-on-mac-server/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://syncthing.net&#34; target=&#34;_blank&#34;&gt;Syncthing&lt;/a&gt; is currently my preferred tool to
-keep folders in sync.  Previously I had affairs with &lt;a href=&#34;https://git-annex.branchable.com&#34; target=&#34;_blank&#34;&gt;git
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>mac on C. Ager</title><link>https://bdcaf.github.io/tags/mac/</link><description>Recent content in mac on C. Ager</description><generator>Hugo -- gohugo.io</generator><language>en</language><copyright>Clemens Ager, Brixlegg</copyright><lastBuildDate>Tue, 05 Feb 2019 10:58:41 +0100</lastBuildDate><atom:link href="https://bdcaf.github.io/tags/mac/index.xml" rel="self" type="application/rss+xml"/><item><title>Configuring Syncthing on Mac Server</title><link>https://bdcaf.github.io/2019/02/05/configuring-syncthing-on-mac-server/</link><pubDate>Tue, 05 Feb 2019 10:58:41 +0100</pubDate><guid>https://bdcaf.github.io/2019/02/05/configuring-syncthing-on-mac-server/</guid><description>&lt;p&gt;&lt;a href=&#34;https://syncthing.net&#34; target=&#34;_blank&#34;&gt;Syncthing&lt;/a&gt; is currently my preferred tool to
+keep folders in sync. Previously I had affairs with &lt;a href=&#34;https://git-annex.branchable.com&#34; target=&#34;_blank&#34;&gt;git
 annex&lt;/a&gt;, and
 &lt;a href=&#34;https://rsync.samba.org&#34; target=&#34;_blank&#34;&gt;rsync&lt;/a&gt; scripts.&lt;/p&gt;
-
 &lt;p&gt;Recently I reactivated a 2009 Mac Mini as headless server under El
-Capitan.  &lt;a href=&#34;https://brew.sh&#34; target=&#34;_blank&#34;&gt;Homebrew&lt;/a&gt; is the tool of choice - it
-complains a little about the old OS but things work out nicely.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Crossover</title>
-      <link>https://bdcaf.github.io/2018/11/19/crossover/</link>
-      <pubDate>Mon, 19 Nov 2018 13:42:33 +0100</pubDate>
-      
-      <guid>https://bdcaf.github.io/2018/11/19/crossover/</guid>
-      <description>&lt;p&gt;Just recently got my hand on
-&lt;a href=&#34;https://www.codeweavers.com/products/crossover-mac&#34; target=&#34;_blank&#34;&gt;Crossover&lt;/a&gt;.  It&amp;rsquo;s
+Capitan. &lt;a href=&#34;https://brew.sh&#34; target=&#34;_blank&#34;&gt;Homebrew&lt;/a&gt; is the tool of choice - it
+complains a little about the old OS but things work out nicely.&lt;/p&gt;</description></item><item><title>Crossover</title><link>https://bdcaf.github.io/2018/11/19/crossover/</link><pubDate>Mon, 19 Nov 2018 13:42:33 +0100</pubDate><guid>https://bdcaf.github.io/2018/11/19/crossover/</guid><description>&lt;p&gt;Just recently got my hand on
+&lt;a href=&#34;https://www.codeweavers.com/products/crossover-mac&#34; target=&#34;_blank&#34;&gt;Crossover&lt;/a&gt;. It&amp;rsquo;s
 essentially the commercially supported &lt;a href=&#34;https://www.winehq.org&#34; target=&#34;_blank&#34;&gt;wine&lt;/a&gt;.
-I am impressed how polished things feel nowadays.  I
+I am impressed how polished things feel nowadays. I
 gave it usually &lt;em&gt;problematic&lt;/em&gt; scientific programs like the TofDaqViewer from
-Ionicon and the Nist library and it produced nicely running libraries.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Rescuing my PDF presentation on mac</title>
-      <link>https://bdcaf.github.io/2018/05/29/rescuing-my-pdf-presentation-on-mac/</link>
-      <pubDate>Tue, 29 May 2018 10:44:19 +0200</pubDate>
-      
-      <guid>https://bdcaf.github.io/2018/05/29/rescuing-my-pdf-presentation-on-mac/</guid>
-      <description>&lt;p&gt;(tldr;) use &lt;a href=&#34;https://www.cs.hmc.edu/~oneill/freesoftware/pdftokeynote.html&#34; target=&#34;_blank&#34;&gt;PDF to
+Ionicon and the Nist library and it produced nicely running libraries.&lt;/p&gt;</description></item><item><title>Rescuing my PDF presentation on mac</title><link>https://bdcaf.github.io/2018/05/29/rescuing-my-pdf-presentation-on-mac/</link><pubDate>Tue, 29 May 2018 10:44:19 +0200</pubDate><guid>https://bdcaf.github.io/2018/05/29/rescuing-my-pdf-presentation-on-mac/</guid><description>&lt;p&gt;(tldr;) use &lt;a href=&#34;https://www.cs.hmc.edu/~oneill/freesoftware/pdftokeynote.html&#34; target=&#34;_blank&#34;&gt;PDF to
 Keynote&lt;/a&gt; to convert a tex presentation for convenient presenting.&lt;/p&gt;
-
-&lt;p&gt;I did have a presentation on my PhDs topic last week.  Took me some
+&lt;p&gt;I did have a presentation on my PhDs topic last week. Took me some
 collecting data from recent paper drafts and old slides to create
 something polished.&lt;/p&gt;
-
-&lt;p&gt;As you would expect I prepared the presentation in &lt;a href=&#34;https://github.com/josephwright/beamer&#34; target=&#34;_blank&#34;&gt;beamer latex&lt;/a&gt;.  I found the &lt;a href=&#34;https://github.com/matze/mtheme&#34; target=&#34;_blank&#34;&gt;metropolis template&lt;/a&gt; to my liking.&lt;/p&gt;
-
+&lt;p&gt;As you would expect I prepared the presentation in &lt;a href=&#34;https://github.com/josephwright/beamer&#34; target=&#34;_blank&#34;&gt;beamer latex&lt;/a&gt;. I found the &lt;a href=&#34;https://github.com/matze/mtheme&#34; target=&#34;_blank&#34;&gt;metropolis template&lt;/a&gt; to my liking.&lt;/p&gt;
 &lt;p&gt;Great was my shock as the slides would show up blurry in full screen -
-well for the first second - and then &amp;ldquo;jump&amp;rdquo; to nicely rendered.  I
+well for the first second - and then &amp;ldquo;jump&amp;rdquo; to nicely rendered. I
 tried in Preview as well as Skim. They would render nicely but still
 slow in Acrobat Reader - however I don&amp;rsquo;t like that one.&lt;/p&gt;
-
 &lt;p&gt;On the last day I found my lifesaver: &lt;a href=&#34;https://www.cs.hmc.edu/~oneill/freesoftware/pdftokeynote.html&#34; target=&#34;_blank&#34;&gt;PDF to
 Keynote&lt;/a&gt;.
-Not only would it transfer my slides into sharp images,  I then could
+Not only would it transfer my slides into sharp images, I then could
 also use the fancy Keynote controls and the moderator screen for
-notes.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Pausenfüller</title>
-      <link>https://bdcaf.github.io/2013/11/04/pausenf%C3%BCller/</link>
-      <pubDate>Mon, 04 Nov 2013 19:23:20 +0000</pubDate>
-      
-      <guid>https://bdcaf.github.io/2013/11/04/pausenf%C3%BCller/</guid>
-      <description></description>
-    </item>
-    
-  </channel>
-</rss>
+notes.&lt;/p&gt;</description></item><item><title>Pausenfüller</title><link>https://bdcaf.github.io/2013/11/04/pausenf%C3%BCller/</link><pubDate>Mon, 04 Nov 2013 19:23:20 +0000</pubDate><guid>https://bdcaf.github.io/2013/11/04/pausenf%C3%BCller/</guid><description/></item></channel></rss>

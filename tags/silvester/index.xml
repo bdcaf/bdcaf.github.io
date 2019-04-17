@@ -1,36 +1,3 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Silvester on C. Ager</title>
-    <link>https://bdcaf.github.io/tags/silvester/</link>
-    <description>Recent content in Silvester on C. Ager</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <copyright>Clemens Ager, Brixlegg</copyright>
-    <lastBuildDate>Wed, 01 Jan 2014 07:33:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://bdcaf.github.io/tags/silvester/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Beim Feuerwerk</title>
-      <link>https://bdcaf.github.io/2014/01/01/beim-feuerwerk/</link>
-      <pubDate>Wed, 01 Jan 2014 07:33:00 +0000</pubDate>
-      
-      <guid>https://bdcaf.github.io/2014/01/01/beim-feuerwerk/</guid>
-      <description>Beim Atlantis auf der Palme.
-[caption id=&amp;ldquo;&amp;rdquo; width=&amp;ldquo;500&amp;rdquo; align=&amp;ldquo;aligncenter&amp;rdquo; caption=&amp;ldquo;Sandance&amp;rdquo;][/caption][caption id=&amp;ldquo;&amp;rdquo; width=&amp;ldquo;500&amp;rdquo; align=&amp;ldquo;aligncenter&amp;rdquo; caption=&amp;ldquo;Kurz vor Mitternacht&amp;rdquo;][/caption]</description>
-    </item>
-    
-    <item>
-      <title>Neujahrszirkus</title>
-      <link>https://bdcaf.github.io/2012/12/31/neujahrszirkus/</link>
-      <pubDate>Mon, 31 Dec 2012 23:35:14 +0000</pubDate>
-      
-      <guid>https://bdcaf.github.io/2012/12/31/neujahrszirkus/</guid>
-      <description>[gallery ids=&amp;ldquo;747,746,745,744,740,741,742,743&amp;rdquo;]
-Hams gut organisiert.</description>
-    </item>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>silvester on C. Ager</title><link>https://bdcaf.github.io/tags/silvester/</link><description>Recent content in silvester on C. Ager</description><generator>Hugo -- gohugo.io</generator><language>en</language><copyright>Clemens Ager, Brixlegg</copyright><lastBuildDate>Wed, 01 Jan 2014 07:33:00 +0000</lastBuildDate><atom:link href="https://bdcaf.github.io/tags/silvester/index.xml" rel="self" type="application/rss+xml"/><item><title>Beim Feuerwerk</title><link>https://bdcaf.github.io/2014/01/01/beim-feuerwerk/</link><pubDate>Wed, 01 Jan 2014 07:33:00 +0000</pubDate><guid>https://bdcaf.github.io/2014/01/01/beim-feuerwerk/</guid><description>Beim Atlantis auf der Palme.
+[caption id=&amp;ldquo;&amp;rdquo; width=&amp;ldquo;500&amp;rdquo; align=&amp;ldquo;aligncenter&amp;rdquo; caption=&amp;ldquo;Sandance&amp;rdquo;][/caption][caption id=&amp;ldquo;&amp;rdquo; width=&amp;ldquo;500&amp;rdquo; align=&amp;ldquo;aligncenter&amp;rdquo; caption=&amp;ldquo;Kurz vor Mitternacht&amp;rdquo;][/caption]</description></item><item><title>Neujahrszirkus</title><link>https://bdcaf.github.io/2012/12/31/neujahrszirkus/</link><pubDate>Mon, 31 Dec 2012 23:35:14 +0000</pubDate><guid>https://bdcaf.github.io/2012/12/31/neujahrszirkus/</guid><description>[gallery ids=&amp;ldquo;747,746,745,744,740,741,742,743&amp;rdquo;]
+Hams gut organisiert.</description></item></channel></rss>

@@ -1,26 +1,2 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Astro on C. Ager</title>
-    <link>https://bdcaf.github.io/tags/astro/</link>
-    <description>Recent content in Astro on C. Ager</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <copyright>Clemens Ager, Brixlegg</copyright>
-    <lastBuildDate>Fri, 14 Mar 2014 16:08:37 +0000</lastBuildDate>
-    
-	<atom:link href="https://bdcaf.github.io/tags/astro/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Iridium Flares</title>
-      <link>https://bdcaf.github.io/2014/03/14/iridium-flares/</link>
-      <pubDate>Fri, 14 Mar 2014 16:08:37 +0000</pubDate>
-      
-      <guid>https://bdcaf.github.io/2014/03/14/iridium-flares/</guid>
-      <description>(siehe) Interessant, dass die immer so genau über Brixlegg fliegen. Innsbruck erwisch ich sie seltener.
- Suche auf Heavens Above danach.</description>
-    </item>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>astro on C. Ager</title><link>https://bdcaf.github.io/tags/astro/</link><description>Recent content in astro on C. Ager</description><generator>Hugo -- gohugo.io</generator><language>en</language><copyright>Clemens Ager, Brixlegg</copyright><lastBuildDate>Fri, 14 Mar 2014 16:08:37 +0000</lastBuildDate><atom:link href="https://bdcaf.github.io/tags/astro/index.xml" rel="self" type="application/rss+xml"/><item><title>Iridium Flares</title><link>https://bdcaf.github.io/2014/03/14/iridium-flares/</link><pubDate>Fri, 14 Mar 2014 16:08:37 +0000</pubDate><guid>https://bdcaf.github.io/2014/03/14/iridium-flares/</guid><description>(siehe) Interessant, dass die immer so genau über Brixlegg fliegen. Innsbruck erwisch ich sie seltener.
+Suche auf Heavens Above danach.</description></item></channel></rss>

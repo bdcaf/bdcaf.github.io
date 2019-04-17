@@ -1,54 +1,11 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Game on C. Ager</title>
-    <link>https://bdcaf.github.io/tags/game/</link>
-    <description>Recent content in Game on C. Ager</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <copyright>Clemens Ager, Brixlegg</copyright>
-    <lastBuildDate>Fri, 30 Mar 2018 12:58:23 +0200</lastBuildDate>
-    
-	<atom:link href="https://bdcaf.github.io/tags/game/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Keep talking and nobody explodes</title>
-      <link>https://bdcaf.github.io/2018/03/30/keep-talking-and-nobody-explodes/</link>
-      <pubDate>Fri, 30 Mar 2018 12:58:23 +0200</pubDate>
-      
-      <guid>https://bdcaf.github.io/2018/03/30/keep-talking-and-nobody-explodes/</guid>
-      <description>&lt;p&gt;At the current &lt;a href=&#34;https://www.humblebundle.com/games/humble-indie-bundle-19&#34; target=&#34;_blank&#34;&gt;HUMBLE INDIE BUNDLE 19&lt;/a&gt; they
-include the party game &lt;a href=&#34;http://www.keeptalkinggame.com&#34; target=&#34;_blank&#34;&gt;Keep talking and nobody explodes&lt;/a&gt;.  One can get it the next 10
-days for about 5€.  Basically one sits in front of the computer which
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>game on C. Ager</title><link>https://bdcaf.github.io/tags/game/</link><description>Recent content in game on C. Ager</description><generator>Hugo -- gohugo.io</generator><language>en</language><copyright>Clemens Ager, Brixlegg</copyright><lastBuildDate>Fri, 30 Mar 2018 12:58:23 +0200</lastBuildDate><atom:link href="https://bdcaf.github.io/tags/game/index.xml" rel="self" type="application/rss+xml"/><item><title>Keep talking and nobody explodes</title><link>https://bdcaf.github.io/2018/03/30/keep-talking-and-nobody-explodes/</link><pubDate>Fri, 30 Mar 2018 12:58:23 +0200</pubDate><guid>https://bdcaf.github.io/2018/03/30/keep-talking-and-nobody-explodes/</guid><description>&lt;p&gt;At the current &lt;a href=&#34;https://www.humblebundle.com/games/humble-indie-bundle-19&#34; target=&#34;_blank&#34;&gt;HUMBLE INDIE BUNDLE 19&lt;/a&gt; they
+include the party game &lt;a href=&#34;http://www.keeptalkinggame.com&#34; target=&#34;_blank&#34;&gt;Keep talking and nobody explodes&lt;/a&gt;. One can get it the next 10
+days for about 5€. Basically one sits in front of the computer which
 simulates a bomb, the rest of the group has the bomb manual and is not
-allowed to see the bomb.  They need to talk the one on the bomb trough
+allowed to see the bomb. They need to talk the one on the bomb trough
 defusal.&lt;/p&gt;
-
-&lt;p&gt;I couldn&amp;rsquo;t resist.  Looking forward to try it at the next party.
-Before I was watching some Youtube videos and it looks great fun.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Kerbal Space Program</title>
-      <link>https://bdcaf.github.io/2018/01/27/kerbal-space-program/</link>
-      <pubDate>Sat, 27 Jan 2018 14:50:00 +0100</pubDate>
-      
-      <guid>https://bdcaf.github.io/2018/01/27/kerbal-space-program/</guid>
-      <description>These days I started up Kerbal Space Program. It is a space game where you construct your own vehicles and explore the solar system. As physics games go it is amazing.
+&lt;p&gt;I couldn&amp;rsquo;t resist. Looking forward to try it at the next party.
+Before I was watching some Youtube videos and it looks great fun.&lt;/p&gt;</description></item><item><title>Kerbal Space Program</title><link>https://bdcaf.github.io/2018/01/27/kerbal-space-program/</link><pubDate>Sat, 27 Jan 2018 14:50:00 +0100</pubDate><guid>https://bdcaf.github.io/2018/01/27/kerbal-space-program/</guid><description>These days I started up Kerbal Space Program. It is a space game where you construct your own vehicles and explore the solar system. As physics games go it is amazing.
 Unless you carefully plan out maneuvers they will lead to disaster - which is often also hilarious to watch play out. Even getting into orbit is a challenge in the beginning.
-  My first Mun landing without breaking stuff.</description>
-    </item>
-    
-    <item>
-      <title>Wieder mal spielen...</title>
-      <link>https://bdcaf.github.io/2014/01/14/wieder-mal-spielen.../</link>
-      <pubDate>Tue, 14 Jan 2014 07:17:16 +0000</pubDate>
-      
-      <guid>https://bdcaf.github.io/2014/01/14/wieder-mal-spielen.../</guid>
-      <description>Hab jetzt den Surgeon Simulator am laufen. Ist im Humble Indie Bundle X (pay what you want and help charity) grad zu kaufen.
-Macht viel Spaß. Schaut euch nur die YouTube lets plays an&amp;hellip;</description>
-    </item>
-    
-  </channel>
-</rss>
+My first Mun landing without breaking stuff.</description></item><item><title>Wieder mal spielen...</title><link>https://bdcaf.github.io/2014/01/14/wieder-mal-spielen.../</link><pubDate>Tue, 14 Jan 2014 07:17:16 +0000</pubDate><guid>https://bdcaf.github.io/2014/01/14/wieder-mal-spielen.../</guid><description>Hab jetzt den Surgeon Simulator am laufen. Ist im Humble Indie Bundle X (pay what you want and help charity) grad zu kaufen.
+Macht viel Spaß. Schaut euch nur die YouTube lets plays an&amp;hellip;</description></item></channel></rss>

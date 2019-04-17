@@ -1,36 +1,3 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Today I Learnt on C. Ager</title>
-    <link>https://bdcaf.github.io/tags/today-i-learnt/</link>
-    <description>Recent content in Today I Learnt on C. Ager</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <copyright>Clemens Ager, Brixlegg</copyright>
-    <lastBuildDate>Fri, 26 Jan 2018 09:33:42 +0100</lastBuildDate>
-    
-	<atom:link href="https://bdcaf.github.io/tags/today-i-learnt/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Vim builtin package manger</title>
-      <link>https://bdcaf.github.io/2018/01/26/vim-builtin-package-manger/</link>
-      <pubDate>Fri, 26 Jan 2018 09:33:42 +0100</pubDate>
-      
-      <guid>https://bdcaf.github.io/2018/01/26/vim-builtin-package-manger/</guid>
-      <description>I was using dein package manager for some time happily. Till yesterday it started acting up during update and even messed up already installed plugins. After some messing around I admitted I will not be able to solve it easily so I tried to give the new builtin package manager a try. I followed this post. And it seems to work like a charm, also within nvim.
-I added all my packages using git submodule add in directories like pack/git/start and pack/helper/opt.</description>
-    </item>
-    
-    <item>
-      <title>Readline</title>
-      <link>https://bdcaf.github.io/2018/01/23/readline/</link>
-      <pubDate>Tue, 23 Jan 2018 17:55:06 +0100</pubDate>
-      
-      <guid>https://bdcaf.github.io/2018/01/23/readline/</guid>
-      <description>In many terminal programs readline is doing the editing of input. It is possible with M-v to quickly switch to vi mode and with M-e to the default emacs mode. In emacs mode one has a few commands like ^A to jump to the begin of line. Usually I prefer vi - but in command line it&amp;rsquo;s not that useful to switch modes.
-R in tmux got stuck in vi mode and was pasting ^A^K.</description>
-    </item>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>today-i-learnt on C. Ager</title><link>https://bdcaf.github.io/tags/today-i-learnt/</link><description>Recent content in today-i-learnt on C. Ager</description><generator>Hugo -- gohugo.io</generator><language>en</language><copyright>Clemens Ager, Brixlegg</copyright><lastBuildDate>Fri, 26 Jan 2018 09:33:42 +0100</lastBuildDate><atom:link href="https://bdcaf.github.io/tags/today-i-learnt/index.xml" rel="self" type="application/rss+xml"/><item><title>Vim builtin package manger</title><link>https://bdcaf.github.io/2018/01/26/vim-builtin-package-manger/</link><pubDate>Fri, 26 Jan 2018 09:33:42 +0100</pubDate><guid>https://bdcaf.github.io/2018/01/26/vim-builtin-package-manger/</guid><description>I was using dein package manager for some time happily. Till yesterday it started acting up during update and even messed up already installed plugins. After some messing around I admitted I will not be able to solve it easily so I tried to give the new builtin package manager a try. I followed this post. And it seems to work like a charm, also within nvim.
+I added all my packages using git submodule add in directories like pack/git/start and pack/helper/opt.</description></item><item><title>Readline</title><link>https://bdcaf.github.io/2018/01/23/readline/</link><pubDate>Tue, 23 Jan 2018 17:55:06 +0100</pubDate><guid>https://bdcaf.github.io/2018/01/23/readline/</guid><description>In many terminal programs readline is doing the editing of input. It is possible with M-v to quickly switch to vi mode and with M-e to the default emacs mode. In emacs mode one has a few commands like ^A to jump to the begin of line. Usually I prefer vi - but in command line it&amp;rsquo;s not that useful to switch modes.
+R in tmux got stuck in vi mode and was pasting ^A^K.</description></item></channel></rss>
