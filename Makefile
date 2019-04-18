@@ -5,7 +5,7 @@ publish: build
 
 build:
 	rm -rf $(BUILD_DIR)/*
-	hugo
+	hugo --minify
 
 update: 
 	git fetch --all
