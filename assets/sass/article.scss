@@ -55,6 +55,24 @@ article {
     margin-top: 0;
     grid-column: 1;
   }
+
+  ul.resources {
+    margin: 0;
+    list-style-type: none;
+    display: inline-flex;
+    margin-block-start: 0;
+
+    li {
+      margin: 1em;
+
+      video,
+      img {
+        margin: 0 auto;
+        max-height: 15em;
+        max-width: 30em;
+      }
+    }
+  }
 }
 
 .article-metadata {
@@ -81,20 +99,23 @@ article {
 }
 
 .article-style {
-  img,
-  video {
-    box-shadow: 1px 1px 0 #edefed, -1px -1px 0 #edefed, 1px -1px 0 #edefed,
-      -1px 1px 0 #edefed;
-    padding-left: 0;
-    padding-right: 0;
-    margin: 60px auto;
-  }
-
   figure {
     margin-bottom: 60px;
+  }
 
-    img {
-      margin-bottom: 0;
+  ul.resources {
+    list-style-type: none;
+    display: flex;
+
+    li {
+      margin: 0.1em;
+
+      video,
+      img {
+        max-height: 10em;
+        max-width: 20em;
+        margin: 0 auto;
+      }
     }
   }
 }

@@ -6,6 +6,21 @@
     <div class="article-style" itemprop="articleBody">
       {{- .Content -}}
     </div>
+
+    <ul class = 'resources'>
+      {{- range .Resources -}}
+      <li>
+	{{ if eq .ResourceType "mp4" }}
+	<video controls src="{{- .RelPermalink -}}"></video>
+	{{ else if eq .ResourceType "image" }}
+	<img src="{{- .RelPermalink -}}" alt="{{ .ResourceType | title }}" >
+	{{ else }}
+	<a href="{{ .RelPermalink }}">{{ .ResourceType | title }}</a>
+	{{ end }}
+      </li>
+      {{- end -}}
+    </ul>
+
   </div>
 </article>
 
