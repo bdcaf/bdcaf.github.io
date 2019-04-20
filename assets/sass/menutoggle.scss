@@ -63,15 +63,6 @@ $menuwidth: 12em;
     }
   }
 
-  .dropdown-menu {
-    & > .active > a {
-      color: white;
-      text-decoration: none;
-      background-color: #0095eb;
-      outline: 0;
-    }
-  }
-
   .menu-close {
     position: absolute;
     right: 0;

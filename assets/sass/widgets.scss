@@ -1,24 +1,5 @@
 @import "base";
 
-.home-section {
-  padding: 0 auto;
-  background-color: white;
-
-  &::after {
-    content: ".";
-    display: block;
-    clear: both;
-    visibility: hidden;
-    line-height: 0;
-    height: 0;
-  }
-
-  &:nth-of-type(even) {
-    background-color: #fcfcfc;
-    border-radius: 12px;
-  }
-}
-
 .widget-container {
   .main-allcol {
     grid-template-columns: 1fr 1fr;

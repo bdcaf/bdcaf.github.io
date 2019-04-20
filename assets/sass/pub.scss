@@ -13,22 +13,12 @@
     font-style: italic;
     line-height: 30px;
   }
-
-  .pub-row-heading {
-    font-weight: 700;
-  }
 }
 
 .pub-icon {
   color: #03396c;
   font-size: 0.81em;
   padding-top: 6px;
-}
-
-.pub-banner {
-  height: auto;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .pub-author-short-wrap {
@@ -59,12 +49,6 @@
 .pub-list-item {
   margin-bottom: 2rem;
 
-  .pub-abstract {
-    font-size: 1rem;
-    line-height: 1.2;
-    margin-bottom: 12px;
-  }
-
   .pub-authors {
     line-height: normal;
     font-style: normal;
@@ -77,27 +61,7 @@
     font-size: 1rem;
   }
 
-  .pub-links {
-    padding-top: 10px;
-  }
-
   h3 {
     hyphens: auto;
-  }
-}
-
-.pub-attrib {
-  display: grid;
-  grid-template-columns: min-content 1fr;
-  grid-column-gap: 1em;
-  align-items: center;
-
-  h4 {
-    grid-column: 1;
-    margin: 0;
-  }
-
-  & > div {
-    grid-column: 2;
   }
 }
