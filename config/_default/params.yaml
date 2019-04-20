@@ -1,0 +1,33 @@
+address: Innrain 66, 6020 Innsbruck
+author: Clemens Ager
+authorlocation: Tirol
+avatar: my_portrait.png
+bio_twitter: c_decaf
+cachebuster: true
+contact: mailto:clemens.ager@uibk.ac.at
+custom_css: []
+custom_js: []
+date_format: '2006-01-02'
+dateformfull: Mon  2. Jan 2006 15:04:05 MST
+description: Rechenknecht, Student
+email: clemens.ager@uibk.ac.at
+github: bdcaf
+highlightjs: false
+lang: en
+linkedin: clemens-ager-1228a295
+math: false
+name: Clemens Ager
+sharing: false
+social:
+  - fa_class: far fa-envelope
+    link: mailto:clemens.ager@uibk.ac.at
+  - fa_class: fab fa-twitter
+    link: //twitter.com/c_decaf
+  - fa_class: fas fa-graduation-cap
+    link: https://scholar.google.co.uk/citations?user=Agq35HgAAAAJ
+  - fa_class: fab fa-github-square
+    link: https://github.com/bdcaf
+  - fa_class: fab fa-linkedin
+    link: https://at.linkedin.com/in/clemens-ager-1228a295
+    subtitle: Sammlung von Nützlichem und Kuriosem
+    twitter: c_decaf

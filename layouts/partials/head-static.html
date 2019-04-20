@@ -10,5 +10,3 @@
 {{- $style := resources.Get "sass/main.scss" | resources.ToCSS $options |  resources.PostCSS (dict "config" "postcss.config.js") | resources.Minify | resources.Fingerprint "sha512" -}}
 <link rel="stylesheet" href="{{- $style.Permalink -}}" 
 		       integrity="{{- $style.Data.Integrity -}}">
-<link rel="alternate" href="{{- .RSSLink | default .Site.RSSLink -}}" type="application/rss+xml" title="{{- .Site.Title -}}">
-<link rel="feed" href="{{- .RSSLink | default .Site.RSSLink -}}" type="application/rss+xml" title="{{- .Site.Title -}}">

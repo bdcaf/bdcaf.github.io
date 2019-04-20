@@ -1,0 +1,16 @@
+main:
+- name: About
+  url: '#about'
+  weight: 1
+- name: Posts
+  url: '#posts'
+  weight: 2
+- name: Publications
+  url: '#publications_selected'
+  weight: 3
+- name: Projects
+  url: '#projects'
+  weight: 4
+- name: Contact
+  url: '#contact'
+  weight: 6

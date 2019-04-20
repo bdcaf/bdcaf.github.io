@@ -6,6 +6,10 @@
     <title>{{- if not .IsHome -}}{{- .Title -}} | {{- end -}}{{- .Site.Title -}}</title>
     {{- block "head" . -}}
     {{- end -}}
+
+    {{- range .AlternativeOutputFormats -}}
+    {{- printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
+    {{- end -}}
   </head>
   <body id="top">
     {{- partial "navbar.html" . -}}

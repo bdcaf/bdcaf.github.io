@@ -1,0 +1,46 @@
+title: C. Ager
+
+MetaDataFormat: yaml
+Paginate: 30
+PaginatePath: ''
+author: Clemens Ager
+baseurl: https://bdcaf.github.io/
+blackfriday:
+  hrefTargetBlank: true
+builddrafts: false
+canonifyurls: true
+contentdir: content
+copyright: Clemens Ager, Brixlegg
+defaultContentLanguage: en
+defaultContentLanguageInSubdir: false
+disqusshortname: ''
+editor: nvim
+footnotereturnlinkcontents: <sup>^</sup>
+ignoreFiles:
+- \.sh$
+- \.tmp$
+- \.txt
+- \.old
+- \.DS_Store
+layoutdir: layouts
+newContentEditor: nvim
+
+permalinks:
+  post: /:year/:month/:day/:slug
+pluralizelisttitles: true
+publishdir: public
+pygmentsuseclasses: true
+
+related:
+  includeNewer: true
+  indices:
+  - name: keywords
+    weight: 100
+  - name: tags
+    weight: 90
+  - name: sections
+    weight: 80
+  - name: date
+    weight: 10
+  toLower: true
+

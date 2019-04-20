@@ -1,0 +1,13 @@
+disqus:
+  disable: true
+googleAnalytics:
+  disable: true
+instagram:
+  disable: true
+twitter:
+  disable: true
+vimeo:
+  disable: true
+youtube:
+  disable: false
+  privacyEnhanced: true

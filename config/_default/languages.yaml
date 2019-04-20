@@ -1,0 +1,28 @@
+en:
+  languageCode: en
+  organization: University Innsbruck
+  role: Number Cruncher // PhD Candidate // Physicist
+  weight: 1
+
+de:
+  languageCode: de
+  menu:
+    main:
+      - name: Über
+        url: '#about.de'
+        weight: 1
+      - name: Posts
+        url: '#posts.de'
+        weight: 2
+      - name: Publikationen
+        url: '#publications_selected.de'
+        weight: 3
+      - name: Projects
+        url: '#projects.de'
+        weight: 4
+      - name: Kontakt
+        url: '#contact.de'
+        weight: 6
+        organization: Universität Innsbruck
+        role: Rechenknecht // Doktoranwärter // Physiker
+        weight: 2
