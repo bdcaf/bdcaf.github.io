@@ -1,0 +1,19 @@
+{{- /*
+    { { partial "bundled_res.html" .Resources } }
+*/ -}}
+<div class = 'resources'>
+<h4>{{- i18n "bundled_resources" -}}</h4>
+  {{- range . -}}
+<div class='resource__item'>
+    {{- if eq .ResourceType "mp4" -}}
+    <video controls src="{{- .RelPermalink -}}"></video>
+    {{- else if eq .ResourceType "image" -}}
+    <img src="{{- .RelPermalink -}}" alt="{{- .ResourceType | title -}}" >
+    {{- end -}}
+    <a href="{{ .RelPermalink }}" 
+       download="{{ .RelPermalink }}" 
+      title="{{ .ResourceType | title }}"
+      target="_self">Download {{ .ResourceType | title }}</a>
+</div>
+  {{ end }}
+</ul>

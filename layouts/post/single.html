@@ -8,20 +8,7 @@
     </div>
 
     {{- if .Resources -}}
-    <h4>{{- i18n "bundled_resources" -}}</h4>
-    <ul class = 'resources'>
-      {{- range .Resources -}}
-      <li>
-	{{ if eq .ResourceType "mp4" }}
-	<video controls src="{{- .RelPermalink -}}"></video>
-	{{ else if eq .ResourceType "image" }}
-	<img src="{{- .RelPermalink -}}" alt="{{ .ResourceType | title }}" >
-	{{ else }}
-	<a href="{{ .RelPermalink }}">{{ .ResourceType | title }}</a>
-	{{ end }}
-      </li>
-      {{- end -}}
-    </ul>
+    {{ partial "bundled_res.html" .Resources }}
     {{- end -}}
 
   </div>
