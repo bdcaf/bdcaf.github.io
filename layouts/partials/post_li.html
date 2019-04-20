@@ -22,18 +22,5 @@
     {{- else -}}
     {{- $post.Content -}}
     {{- end -}}
-    <ul class = 'resources'>
-      {{- range $post.Resources -}}
-      <li>
-	{{ if eq .ResourceType "mp4" }}
-	<video controls src="{{- .RelPermalink -}}"></video>
-	{{ else if eq .ResourceType "image" }}
-	<img src="{{- .RelPermalink -}}" alt="{{ .ResourceType | title }}" >
-	{{ else }}
-	<a href="{{ .RelPermalink }}">{{ .ResourceType | title }}</a>
-	{{ end }}
-      </li>
-      {{- end -}}
-    </ul>
   </div>
 </div>

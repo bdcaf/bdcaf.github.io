@@ -15,4 +15,6 @@ As test I followed the this [tutorial](https://youtu.be/YFmN7eTNfNw).  Really si
 
 Anyway enjoy some nice wood chipping.
 
+{{< bundle_video name="rener.mp4" alt="Description for screen readers." caption="Chipping wood simulation." >}}
+
 <!--more-->

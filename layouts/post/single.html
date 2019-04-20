@@ -7,6 +7,8 @@
       {{- .Content -}}
     </div>
 
+    {{- if .Resources -}}
+    <h4>{{- i18n "bundled_resources" -}}</h4>
     <ul class = 'resources'>
       {{- range .Resources -}}
       <li>
@@ -20,6 +22,7 @@
       </li>
       {{- end -}}
     </ul>
+    {{- end -}}
 
   </div>
 </article>

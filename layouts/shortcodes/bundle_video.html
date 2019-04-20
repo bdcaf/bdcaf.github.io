@@ -1,0 +1,15 @@
+{{/* 
+from suggestion at https://nilsnh.no/2018/06/10/hugo-how-to-add-support-for-responsive-images-trough-image-processing-and-page-bundles-3/ 
+{{< bundle-image name="picture.jpg" alt="Description for screen readers." caption="Some caption" >}}
+
+*/}}
+{{- $altText := .Get "alt" -}}
+{{- $caption := .Get "caption" -}}
+{{- with $.Page.Resources.GetMatch (.Get "name") -}}
+<figure>
+	<video controls src="{{- .RelPermalink -}}"></video>
+  <figcaption><p>{{- $caption -}}</p></figcaption>
+</figure>
+{{- else -}}
+  could not find image
+{{- end -}}

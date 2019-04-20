@@ -109,3 +109,6 @@
   translation: früher
 - id: next
   translation: nächste
+
+- id: bundled_resources
+  translation: zugehörige Dateien
