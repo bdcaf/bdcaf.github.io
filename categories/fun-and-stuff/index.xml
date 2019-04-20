@@ -1,4 +1,64 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Fun and Stuff on C. Ager</title><link>https://bdcaf.github.io/categories/fun-and-stuff/</link><description>Recent content in Fun and Stuff on C. Ager</description><generator>Hugo -- gohugo.io</generator><language>en</language><copyright>Clemens Ager, Brixlegg</copyright><lastBuildDate>Mon, 04 Nov 2013 19:23:20 +0000</lastBuildDate><atom:link href="https://bdcaf.github.io/categories/fun-and-stuff/index.xml" rel="self" type="application/rss+xml"/><item><title>Pausenfüller</title><link>https://bdcaf.github.io/2013/11/04/pausenf%C3%BCller/</link><pubDate>Mon, 04 Nov 2013 19:23:20 +0000</pubDate><guid>https://bdcaf.github.io/2013/11/04/pausenf%C3%BCller/</guid><description/></item><item><title>Kickass 2</title><link>https://bdcaf.github.io/2013/08/15/kickass-2/</link><pubDate>Thu, 15 Aug 2013 07:57:16 +0000</pubDate><guid>https://bdcaf.github.io/2013/08/15/kickass-2/</guid><description>Whoa - der läuft grade an. Sollt ich mir vielleicht anschaun.
-Und damit mein ich auf jeden Fall!</description></item><item><title>Catherine</title><link>https://bdcaf.github.io/2013/06/03/catherine/</link><pubDate>Mon, 03 Jun 2013 14:48:20 +0000</pubDate><guid>https://bdcaf.github.io/2013/06/03/catherine/</guid><description>Bin zuhause im Endspurt im Spiel Catherine. Das ist ein schön gemachtes Knobelspiel. Schön abgedreht japanisch auch noch.
-Nur irgendwie lange Zwischensequenzen - oder umgekehrt lange Knobeleien unter der Handlung. Jedenfalls hoffentlich bald fertig. Die letzte Sequenz zieht sich nämlich.</description></item><item><title>Neusprech</title><link>https://bdcaf.github.io/2013/01/22/neusprech/</link><pubDate>Tue, 22 Jan 2013 09:05:26 +0000</pubDate><guid>https://bdcaf.github.io/2013/01/22/neusprech/</guid><description>Ich will wieder mal eine Web-Empfehlung abgeben: das Neusprech Blog.
-Alle paar Tage analysieren die eine Floskel. Heute zum Beispiel Verantwortung. Es ist sehr unterhaltsam zu lesen. Alternativ kann man sich auch noch des Teufels Wörterbuch zuführen.</description></item><item><title>Und die neueste Disney Prinzessin ist...</title><link>https://bdcaf.github.io/2012/10/31/und-die-neueste-disney-prinzessin-ist.../</link><pubDate>Wed, 31 Oct 2012 08:07:22 +0000</pubDate><guid>https://bdcaf.github.io/2012/10/31/und-die-neueste-disney-prinzessin-ist.../</guid><description>via</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Fun and Stuff on C. Ager</title>
+    <link>https://bdcaf.github.io/categories/fun-and-stuff/</link>
+    <description>Recent content in Fun and Stuff on C. Ager</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Clemens Ager, Brixlegg</copyright>
+    <lastBuildDate>Mon, 04 Nov 2013 19:23:20 +0000</lastBuildDate>
+    
+	<atom:link href="https://bdcaf.github.io/categories/fun-and-stuff/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Pausenfüller</title>
+      <link>https://bdcaf.github.io/2013/11/04/pausenf%C3%BCller/</link>
+      <pubDate>Mon, 04 Nov 2013 19:23:20 +0000</pubDate>
+      
+      <guid>https://bdcaf.github.io/2013/11/04/pausenf%C3%BCller/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Kickass 2</title>
+      <link>https://bdcaf.github.io/2013/08/15/kickass-2/</link>
+      <pubDate>Thu, 15 Aug 2013 07:57:16 +0000</pubDate>
+      
+      <guid>https://bdcaf.github.io/2013/08/15/kickass-2/</guid>
+      <description>Whoa - der läuft grade an. Sollt ich mir vielleicht anschaun.
+Und damit mein ich auf jeden Fall!</description>
+    </item>
+    
+    <item>
+      <title>Catherine</title>
+      <link>https://bdcaf.github.io/2013/06/03/catherine/</link>
+      <pubDate>Mon, 03 Jun 2013 14:48:20 +0000</pubDate>
+      
+      <guid>https://bdcaf.github.io/2013/06/03/catherine/</guid>
+      <description>Bin zuhause im Endspurt im Spiel Catherine. Das ist ein schön gemachtes Knobelspiel. Schön abgedreht japanisch auch noch.
+Nur irgendwie lange Zwischensequenzen - oder umgekehrt lange Knobeleien unter der Handlung. Jedenfalls hoffentlich bald fertig. Die letzte Sequenz zieht sich nämlich.</description>
+    </item>
+    
+    <item>
+      <title>Neusprech</title>
+      <link>https://bdcaf.github.io/2013/01/22/neusprech/</link>
+      <pubDate>Tue, 22 Jan 2013 09:05:26 +0000</pubDate>
+      
+      <guid>https://bdcaf.github.io/2013/01/22/neusprech/</guid>
+      <description>Ich will wieder mal eine Web-Empfehlung abgeben: das Neusprech Blog.
+Alle paar Tage analysieren die eine Floskel. Heute zum Beispiel Verantwortung. Es ist sehr unterhaltsam zu lesen. Alternativ kann man sich auch noch des Teufels Wörterbuch zuführen.</description>
+    </item>
+    
+    <item>
+      <title>Und die neueste Disney Prinzessin ist...</title>
+      <link>https://bdcaf.github.io/2012/10/31/und-die-neueste-disney-prinzessin-ist.../</link>
+      <pubDate>Wed, 31 Oct 2012 08:07:22 +0000</pubDate>
+      
+      <guid>https://bdcaf.github.io/2012/10/31/und-die-neueste-disney-prinzessin-ist.../</guid>
+      <description>via</description>
+    </item>
+    
+  </channel>
+</rss>

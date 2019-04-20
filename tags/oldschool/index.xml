@@ -1,2 +1,26 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>oldschool on C. Ager</title><link>https://bdcaf.github.io/tags/oldschool/</link><description>Recent content in oldschool on C. Ager</description><generator>Hugo -- gohugo.io</generator><language>en</language><copyright>Clemens Ager, Brixlegg</copyright><lastBuildDate>Thu, 18 Jan 2018 10:55:02 +0100</lastBuildDate><atom:link href="https://bdcaf.github.io/tags/oldschool/index.xml" rel="self" type="application/rss+xml"/><item><title>Paint</title><link>https://bdcaf.github.io/2018/01/18/paint/</link><pubDate>Thu, 18 Jan 2018 10:55:02 +0100</pubDate><guid>https://bdcaf.github.io/2018/01/18/paint/</guid><description>There now is a Javascript recreation of Windows Paint: Paint.js.
-While Paint is easily the worst graphics program I used to work it is familiar to almost anyone. I still see way too many graphics in papers that were touched up by paint. This will make sure another generation of researchers can learn this dreaded tool.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>oldschool on C. Ager</title>
+    <link>https://bdcaf.github.io/tags/oldschool/</link>
+    <description>Recent content in oldschool on C. Ager</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Clemens Ager, Brixlegg</copyright>
+    <lastBuildDate>Thu, 18 Jan 2018 10:55:02 +0100</lastBuildDate>
+    
+	<atom:link href="https://bdcaf.github.io/tags/oldschool/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Paint</title>
+      <link>https://bdcaf.github.io/2018/01/18/paint/</link>
+      <pubDate>Thu, 18 Jan 2018 10:55:02 +0100</pubDate>
+      
+      <guid>https://bdcaf.github.io/2018/01/18/paint/</guid>
+      <description>There now is a Javascript recreation of Windows Paint: Paint.js.
+While Paint is easily the worst graphics program I used to work it is familiar to almost anyone. I still see way too many graphics in papers that were touched up by paint. This will make sure another generation of researchers can learn this dreaded tool.</description>
+    </item>
+    
+  </channel>
+</rss>

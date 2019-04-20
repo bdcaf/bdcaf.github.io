@@ -1,12 +1,67 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>site on C. Ager</title><link>https://bdcaf.github.io/categories/site/</link><description>Recent content in site on C. Ager</description><generator>Hugo -- gohugo.io</generator><language>en</language><copyright>Clemens Ager, Brixlegg</copyright><lastBuildDate>Sun, 24 Feb 2019 21:07:24 +0100</lastBuildDate><atom:link href="https://bdcaf.github.io/categories/site/index.xml" rel="self" type="application/rss+xml"/><item><title>Grid Layout for Site</title><link>https://bdcaf.github.io/2019/02/24/grid-layout-for-site/</link><pubDate>Sun, 24 Feb 2019 21:07:24 +0100</pubDate><guid>https://bdcaf.github.io/2019/02/24/grid-layout-for-site/</guid><description>&lt;p&gt;Recently some html and css videos caught my attention.
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>site on C. Ager</title>
+    <link>https://bdcaf.github.io/categories/site/</link>
+    <description>Recent content in site on C. Ager</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Clemens Ager, Brixlegg</copyright>
+    <lastBuildDate>Sun, 24 Feb 2019 21:07:24 +0100</lastBuildDate>
+    
+	<atom:link href="https://bdcaf.github.io/categories/site/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Grid Layout for Site</title>
+      <link>https://bdcaf.github.io/2019/02/24/grid-layout-for-site/</link>
+      <pubDate>Sun, 24 Feb 2019 21:07:24 +0100</pubDate>
+      
+      <guid>https://bdcaf.github.io/2019/02/24/grid-layout-for-site/</guid>
+      <description>&lt;p&gt;Recently some html and css videos caught my attention.
 I started reworking the layout using the new practices I learnt.
 Hope they will still work fine.&lt;/p&gt;
+
 &lt;p&gt;In particular I found the videos by Jen Simmons inspiring.&lt;/p&gt;
+
+
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-&lt;iframe src=&#34;//www.youtube-nocookie.com/embed/tFKrK4eAiUQ&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
-&lt;/div&gt;</description></item><item><title>Mass editing tags</title><link>https://bdcaf.github.io/2018/06/14/mass-editing-tags/</link><pubDate>Thu, 14 Jun 2018 08:42:28 +0200</pubDate><guid>https://bdcaf.github.io/2018/06/14/mass-editing-tags/</guid><description>&lt;p&gt;Having read some about the
+  &lt;iframe src=&#34;//www.youtube-nocookie.com/embed/tFKrK4eAiUQ&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title>Mass editing tags</title>
+      <link>https://bdcaf.github.io/2018/06/14/mass-editing-tags/</link>
+      <pubDate>Thu, 14 Jun 2018 08:42:28 +0200</pubDate>
+      
+      <guid>https://bdcaf.github.io/2018/06/14/mass-editing-tags/</guid>
+      <description>&lt;p&gt;Having read some about the
 &lt;a href=&#34;https://github.com/rstudio/blogdown&#34; target=&#34;_blank&#34;&gt;blogdown&lt;/a&gt; package I thought I
 could cleanup my site some more.&lt;/p&gt;
-&lt;p&gt;I came up with some scripts to clean up tags.&lt;/p&gt;</description></item><item><title>Github pages</title><link>https://bdcaf.github.io/2018/01/29/github-pages/</link><pubDate>Mon, 29 Jan 2018 10:49:51 +0100</pubDate><guid>https://bdcaf.github.io/2018/01/29/github-pages/</guid><description>Now this site is on github pages.
-I had already repos on github for some time and trusted it - only private repos I keep on other places. But mostly I was missing some features a bplaced so now the move. Mostly I like that I can now post new content via git so I just need to transfer new posts and not the whole site. That now the site is https secured is a nice boon.</description></item><item><title>Move from uibk home pages</title><link>https://bdcaf.github.io/2017/06/13/move-from-uibk-home-pages/</link><pubDate>Tue, 13 Jun 2017 18:00:00 +0100</pubDate><guid>https://bdcaf.github.io/2017/06/13/move-from-uibk-home-pages/</guid><description>So the university is shutting down the personal home pages. Well it&amp;rsquo;s no big deal, though it was helpful that there was a server that would accept ssh connections.
-Now I&amp;rsquo;m experimenting with the free tier of bplaced. Which is basic but should suffice for my plain text pages.</description></item></channel></rss>
+
+&lt;p&gt;I came up with some scripts to clean up tags.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Github pages</title>
+      <link>https://bdcaf.github.io/2018/01/29/github-pages/</link>
+      <pubDate>Mon, 29 Jan 2018 10:49:51 +0100</pubDate>
+      
+      <guid>https://bdcaf.github.io/2018/01/29/github-pages/</guid>
+      <description>Now this site is on github pages.
+I had already repos on github for some time and trusted it - only private repos I keep on other places. But mostly I was missing some features a bplaced so now the move. Mostly I like that I can now post new content via git so I just need to transfer new posts and not the whole site. That now the site is https secured is a nice boon.</description>
+    </item>
+    
+    <item>
+      <title>Move from uibk home pages</title>
+      <link>https://bdcaf.github.io/2017/06/13/move-from-uibk-home-pages/</link>
+      <pubDate>Tue, 13 Jun 2017 18:00:00 +0100</pubDate>
+      
+      <guid>https://bdcaf.github.io/2017/06/13/move-from-uibk-home-pages/</guid>
+      <description>So the university is shutting down the personal home pages. Well it&amp;rsquo;s no big deal, though it was helpful that there was a server that would accept ssh connections.
+Now I&amp;rsquo;m experimenting with the free tier of bplaced. Which is basic but should suffice for my plain text pages.</description>
+    </item>
+    
+  </channel>
+</rss>

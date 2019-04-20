@@ -1,3 +1,36 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>config on C. Ager</title><link>https://bdcaf.github.io/tags/config/</link><description>Recent content in config on C. Ager</description><generator>Hugo -- gohugo.io</generator><language>en</language><copyright>Clemens Ager, Brixlegg</copyright><lastBuildDate>Mon, 29 Jan 2018 10:49:51 +0100</lastBuildDate><atom:link href="https://bdcaf.github.io/tags/config/index.xml" rel="self" type="application/rss+xml"/><item><title>Github pages</title><link>https://bdcaf.github.io/2018/01/29/github-pages/</link><pubDate>Mon, 29 Jan 2018 10:49:51 +0100</pubDate><guid>https://bdcaf.github.io/2018/01/29/github-pages/</guid><description>Now this site is on github pages.
-I had already repos on github for some time and trusted it - only private repos I keep on other places. But mostly I was missing some features a bplaced so now the move. Mostly I like that I can now post new content via git so I just need to transfer new posts and not the whole site. That now the site is https secured is a nice boon.</description></item><item><title>Configuring offlineimap</title><link>https://bdcaf.github.io/2017/03/30/configuring-offlineimap/</link><pubDate>Thu, 30 Mar 2017 10:48:59 +0200</pubDate><guid>https://bdcaf.github.io/2017/03/30/configuring-offlineimap/</guid><description>Having most of my workflow on the commandline mailing my results using Tunderbird or Mail.app is sometimes quite a chore. I would rather do it from inside my workflow. mutt seems like a natural option. I also quite quickly considered alternatives like alpine - though since I prefer vim for my text editing I quickly decided against it.
-offlineimap For mutt it quickly became aparent that I would need some external tool to fetch my mail.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>config on C. Ager</title>
+    <link>https://bdcaf.github.io/tags/config/</link>
+    <description>Recent content in config on C. Ager</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Clemens Ager, Brixlegg</copyright>
+    <lastBuildDate>Mon, 29 Jan 2018 10:49:51 +0100</lastBuildDate>
+    
+	<atom:link href="https://bdcaf.github.io/tags/config/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Github pages</title>
+      <link>https://bdcaf.github.io/2018/01/29/github-pages/</link>
+      <pubDate>Mon, 29 Jan 2018 10:49:51 +0100</pubDate>
+      
+      <guid>https://bdcaf.github.io/2018/01/29/github-pages/</guid>
+      <description>Now this site is on github pages.
+I had already repos on github for some time and trusted it - only private repos I keep on other places. But mostly I was missing some features a bplaced so now the move. Mostly I like that I can now post new content via git so I just need to transfer new posts and not the whole site. That now the site is https secured is a nice boon.</description>
+    </item>
+    
+    <item>
+      <title>Configuring offlineimap</title>
+      <link>https://bdcaf.github.io/2017/03/30/configuring-offlineimap/</link>
+      <pubDate>Thu, 30 Mar 2017 10:48:59 +0200</pubDate>
+      
+      <guid>https://bdcaf.github.io/2017/03/30/configuring-offlineimap/</guid>
+      <description>Having most of my workflow on the commandline mailing my results using Tunderbird or Mail.app is sometimes quite a chore. I would rather do it from inside my workflow. mutt seems like a natural option. I also quite quickly considered alternatives like alpine - though since I prefer vim for my text editing I quickly decided against it.
+offlineimap For mutt it quickly became aparent that I would need some external tool to fetch my mail.</description>
+    </item>
+    
+  </channel>
+</rss>

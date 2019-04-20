@@ -1,2 +1,26 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>haskell on C. Ager</title><link>https://bdcaf.github.io/tags/haskell/</link><description>Recent content in haskell on C. Ager</description><generator>Hugo -- gohugo.io</generator><language>en</language><copyright>Clemens Ager, Brixlegg</copyright><lastBuildDate>Sat, 05 Nov 2016 12:12:16 +0100</lastBuildDate><atom:link href="https://bdcaf.github.io/tags/haskell/index.xml" rel="self" type="application/rss+xml"/><item><title>Category Theory Course</title><link>https://bdcaf.github.io/2016/11/05/category-theory-course/</link><pubDate>Sat, 05 Nov 2016 12:12:16 +0100</pubDate><guid>https://bdcaf.github.io/2016/11/05/category-theory-course/</guid><description>Bartosz Milewski has put his category theory course on youtube.
-An amazing introduction for newcomers. But wrapping my head around monads and comonads still feels like I haven&amp;rsquo;t fully groked the magic.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>haskell on C. Ager</title>
+    <link>https://bdcaf.github.io/tags/haskell/</link>
+    <description>Recent content in haskell on C. Ager</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Clemens Ager, Brixlegg</copyright>
+    <lastBuildDate>Sat, 05 Nov 2016 12:12:16 +0100</lastBuildDate>
+    
+	<atom:link href="https://bdcaf.github.io/tags/haskell/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Category Theory Course</title>
+      <link>https://bdcaf.github.io/2016/11/05/category-theory-course/</link>
+      <pubDate>Sat, 05 Nov 2016 12:12:16 +0100</pubDate>
+      
+      <guid>https://bdcaf.github.io/2016/11/05/category-theory-course/</guid>
+      <description>Bartosz Milewski has put his category theory course on youtube.
+  An amazing introduction for newcomers. But wrapping my head around monads and comonads still feels like I haven&amp;rsquo;t fully groked the magic.</description>
+    </item>
+    
+  </channel>
+</rss>

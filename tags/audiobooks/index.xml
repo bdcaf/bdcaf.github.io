@@ -1,7 +1,31 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>audiobooks on C. Ager</title><link>https://bdcaf.github.io/tags/audiobooks/</link><description>Recent content in audiobooks on C. Ager</description><generator>Hugo -- gohugo.io</generator><language>en</language><copyright>Clemens Ager, Brixlegg</copyright><lastBuildDate>Tue, 21 Aug 2018 12:06:14 +0200</lastBuildDate><atom:link href="https://bdcaf.github.io/tags/audiobooks/index.xml" rel="self" type="application/rss+xml"/><item><title>Köhlmeier at br</title><link>https://bdcaf.github.io/2018/08/21/k%C3%B6hlmeier-at-br/</link><pubDate>Tue, 21 Aug 2018 12:06:14 +0200</pubDate><guid>https://bdcaf.github.io/2018/08/21/k%C3%B6hlmeier-at-br/</guid><description>&lt;p&gt;Something for the German speakers. The famous Austrian author
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>audiobooks on C. Ager</title>
+    <link>https://bdcaf.github.io/tags/audiobooks/</link>
+    <description>Recent content in audiobooks on C. Ager</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Clemens Ager, Brixlegg</copyright>
+    <lastBuildDate>Tue, 21 Aug 2018 12:06:14 +0200</lastBuildDate>
+    
+	<atom:link href="https://bdcaf.github.io/tags/audiobooks/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Köhlmeier at br</title>
+      <link>https://bdcaf.github.io/2018/08/21/k%C3%B6hlmeier-at-br/</link>
+      <pubDate>Tue, 21 Aug 2018 12:06:14 +0200</pubDate>
+      
+      <guid>https://bdcaf.github.io/2018/08/21/k%C3%B6hlmeier-at-br/</guid>
+      <description>&lt;p&gt;Something for the German speakers.  The famous Austrian author
 &lt;a href=&#34;https://de.wikipedia.org/wiki/Michael_K%C3%B6hlmeier&#34; target=&#34;_blank&#34;&gt;Michael
 Köhlmeier&lt;/a&gt; has
 made several lectures where he retells classical literature.&lt;br /&gt;
 BR has made two podcasts available &lt;a href=&#34;https://www.br.de/mediathek/podcast/mythen-michael-koehlmeier-erzaehlt-sagen-des-klassischen-altertums/529&#34; target=&#34;_blank&#34;&gt;Mythen&lt;/a&gt; and &lt;a href=&#34;https://www.br.de/mediathek/podcast/koehlmeiers-maerchen/513&#34; target=&#34;_blank&#34;&gt;Märchen&lt;/a&gt;.
 Both feature an number of 15 minute episodes which can be downloaded
-directly or subscribed in your podcatcher.&lt;/p&gt;</description></item></channel></rss>
+directly or subscribed in your podcatcher.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

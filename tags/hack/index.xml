@@ -1,2 +1,26 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>hack on C. Ager</title><link>https://bdcaf.github.io/tags/hack/</link><description>Recent content in hack on C. Ager</description><generator>Hugo -- gohugo.io</generator><language>en</language><copyright>Clemens Ager, Brixlegg</copyright><lastBuildDate>Mon, 22 Sep 2014 06:27:17 +0000</lastBuildDate><atom:link href="https://bdcaf.github.io/tags/hack/index.xml" rel="self" type="application/rss+xml"/><item><title>Empfehlung: Why Do Dead Alkaline Batteries Bounce?</title><link>https://bdcaf.github.io/2014/09/22/empfehlung-why-do-dead-alkaline-batteries-bounce/</link><pubDate>Mon, 22 Sep 2014 06:27:17 +0000</pubDate><guid>https://bdcaf.github.io/2014/09/22/empfehlung-why-do-dead-alkaline-batteries-bounce/</guid><description>There is an interesting approach testing batteries by dropping them. Apparently bad ones bounce. It wouldn&amp;rsquo;t work as well for my batteries - still interesting.
-weiter via IFTTT</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>hack on C. Ager</title>
+    <link>https://bdcaf.github.io/tags/hack/</link>
+    <description>Recent content in hack on C. Ager</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Clemens Ager, Brixlegg</copyright>
+    <lastBuildDate>Mon, 22 Sep 2014 06:27:17 +0000</lastBuildDate>
+    
+	<atom:link href="https://bdcaf.github.io/tags/hack/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Empfehlung: Why Do Dead Alkaline Batteries Bounce?</title>
+      <link>https://bdcaf.github.io/2014/09/22/empfehlung-why-do-dead-alkaline-batteries-bounce/</link>
+      <pubDate>Mon, 22 Sep 2014 06:27:17 +0000</pubDate>
+      
+      <guid>https://bdcaf.github.io/2014/09/22/empfehlung-why-do-dead-alkaline-batteries-bounce/</guid>
+      <description>There is an interesting approach testing batteries by dropping them. Apparently bad ones bounce. It wouldn&amp;rsquo;t work as well for my batteries - still interesting.
+weiter via IFTTT</description>
+    </item>
+    
+  </channel>
+</rss>

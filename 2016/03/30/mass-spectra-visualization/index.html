@@ -1,25 +1,169 @@
-<!doctype html><html lang=en><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><meta http-equiv=x-ua-compatible content="IE=edge"><meta name=author content="Clemens Ager"><meta name=description content="Number Cruncher // PhD Candidate // Physicist"><script defer src=https://use.fontawesome.com/releases/v5.0.13/js/all.js integrity=sha384-xymdQtn1n3lH2wcu0qhcdaOpQwyoarkgLVxC/wZ5q7h9gHtxICrpcaSUfygqZGOe crossorigin=anonymous></script><link href="https://fonts.googleapis.com/css?family=Montserrat|Raleway:100,400" rel=stylesheet><link rel=stylesheet href=https://bdcaf.github.io/style.min.8126a721a30840e05489b9af74fb42f270b2752fece221a4e8479995228824755babf016e78ecb16f4aa61053c2e2decae6bec6e2742cdce8298f7fbd690b0cc.css integrity="sha512-gSanIaMIQOBUibmvdPtC8nCydS/s4iGk6EeZlSKIJHVbq/AW547LFvSqYQU8Li3srmvsbidCzc6CmPf71pCwzA=="><link rel=canonical href=https://bdcaf.github.io/2016/03/30/mass-spectra-visualization/><title>Mass spectra visualization|C. Ager</title></head><body id=top><header><h1 class=logo><a href=https://bdcaf.github.io/>clemens<b>ager</b></a></h1><div class=container><a href=#main-menu role=button id=main-menu-toggle class=menu-toggle aria-expanded=false aria-controls=main-menu aria-label="Open main menu"><span class=sr-only>Open main menu</span>
-<span aria-hidden=true><i class="fas fa-bars"></i></span></a><nav id=main-menu role=navigation class=main-menu aria-expanded=false aria-label="Main menu"><a href=#main-menu-toggle role=button id=main-menu-close class=menu-close aria-expanded=false aria-controls=main-menu aria-label="Close main menu"><span class=sr-only>Close main menu</span>
-<span aria-hidden=true><i class="fas fa-window-close"></i></span></a><ul><li><a href=https://bdcaf.github.io/#about><span>About</span></a></li><li><a href=https://bdcaf.github.io/#posts><span>Posts</span></a></li><li><a href=https://bdcaf.github.io/#publications_selected><span>Publications</span></a></li><li><a href=https://bdcaf.github.io/#projects><span>Projects</span></a></li><li><a href=https://bdcaf.github.io/#contact><span>Contact</span></a></li></ul></nav><a href=#main-menu-toggle class=backdrop tabindex=-1 aria-hidden=true hidden></a></div></header><div class=content><article class=article itemscope itemtype=http://schema.org/Article><div class=article-container><h1 itemprop=name>Mass spectra visualization</h1><div class=article-metadata><span class=article-date><time datetime="2016-03-30 00:00:00 &#43;0000 UTC" itemprop=datePublished>2016-03-30</time>
-</span><span class=article-tags><i class="fa fa-tags"></i><a href=https://bdcaf.github.io/tags/science>science</a>, <a href=https://bdcaf.github.io/tags/visualisation>visualisation</a></span></div><div class=article-style itemprop=articleBody><p>I saw some <a href=http://datadrivensecurity.info/blog/posts/2015/Jan/mapping-ipv4-address-in-hilbert-space/ target=_blank>nice visualiztion for IP
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en">
+  <head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="author" content="Clemens Ager"><meta name="description" content="Number Cruncher // PhD Candidate // Physicist"><script defer src="https://use.fontawesome.com/releases/v5.0.13/js/all.js" integrity="sha384-xymdQtn1n3lH2wcu0qhcdaOpQwyoarkgLVxC/wZ5q7h9gHtxICrpcaSUfygqZGOe" crossorigin="anonymous"></script>
+<link href="https://fonts.googleapis.com/css?family=Montserrat|Raleway:100,400" rel="stylesheet"><link rel="stylesheet" href="https://bdcaf.github.io/style.min.27a1aed147aaec7e34a1f703f87293442bfe97edfa8d7d912cf7acefabd2ac1fd0121e990b1fde938c17aeb594f66d05a15e7344760bffc2c50fbadcbbfb6faa.css" 
+		       integrity="sha512-J6Gu0Ueq7H40ofcD&#43;HKTRCv&#43;l&#43;36jX2RLPes76vSrB/QEh6ZCx/ek4wXrrWU9m0FoV5zRHYL/8LFD7rcu/tvqg==">
+<link rel="canonical" href="https://bdcaf.github.io/2016/03/30/mass-spectra-visualization/">
+    <title>Mass spectra visualization|C. Ager</title></head>
+  <body id="top"><header>
+  <h1 class="logo"> <a href="https://bdcaf.github.io/">clemens<b>ager</b></a></h1>
+  <div class="container">
+    <a href="#main-menu" role="button" id="main-menu-toggle" class="menu-toggle" aria-expanded="false" aria-controls="main-menu" aria-label="Open main menu">
+      <span class="sr-only">Open main menu</span>
+      <span aria-hidden="true"> <i class="fas fa-bars"></i> </span>
+    </a>
+    <nav id="main-menu" role="navigation" class="main-menu" aria-expanded="false" aria-label="Main menu">
+      <a href="#main-menu-toggle" role="button" id="main-menu-close" class="menu-close" aria-expanded="false" aria-controls="main-menu" aria-label="Close main menu"> 
+	<span class="sr-only">Close main menu</span>
+	<span aria-hidden="true">
+	  <i class="fas fa-window-close"> </i>
+	</span> </a> 
+	<ul><li>
+	    <a href="https://bdcaf.github.io/#about"><span>About</span> </a>
+	  </li><li>
+	    <a href="https://bdcaf.github.io/#posts"><span>Posts</span> </a>
+	  </li><li>
+	    <a href="https://bdcaf.github.io/#publications_selected"><span>Publications</span> </a>
+	  </li><li>
+	    <a href="https://bdcaf.github.io/#projects"><span>Projects</span> </a>
+	  </li><li>
+	    <a href="https://bdcaf.github.io/#contact"><span>Contact</span> </a>
+	  </li></ul>
+    </nav>
+    <a href="#main-menu-toggle"
+       class="backdrop"
+       tabindex="-1"
+       aria-hidden="true" hidden></a>
+  </div>
+</header>
+<div class="content"><article class="article" itemscope itemtype="http://schema.org/Article">
+  <div class="article-container">
+    <h1 itemprop="name">Mass spectra visualization</h1><div class="article-metadata">
+  <span class="article-date">
+    <time datetime="2016-03-30 00:00:00 &#43;0000 UTC" itemprop="datePublished">2016-03-30</time>
+  </span><span class="article-tags">
+    <i class="fa fa-tags"> </i>
+    <a href="https://bdcaf.github.io/tags/science">science</a
+    >, <a href="https://bdcaf.github.io/tags/visualisation">visualisation</a
+    ></span></div>
+<div class="article-style" itemprop="articleBody"><p>I saw some <a href="http://datadrivensecurity.info/blog/posts/2015/Jan/mapping-ipv4-address-in-hilbert-space/" target="_blank">nice visualiztion for IP
 adresses</a>
 which made use of the hilbert curve for mapping sequatial data into an
 area. This has the nice benefit of assuring numbers that are close to
-each other stay close in two dimensions as well. Unfortunately the
-opposite does not hold. Conveniently a function to produce a hilbert
+each other stay close in two dimensions as well.  Unfortunately the
+opposite does not hold.  Conveniently a function to produce a hilbert
 curve is provided via
-<a href=https://bioconductor.org/packages/release/bioc/html/HilbertVis.html target=_blank>HilbertVis</a>
-on bioconductor.</p><h3 id=ptr-ms-spectra>PTR-MS spectra</h3><p>I have been playing with PTR-MS data for some while. It&rsquo;s always hard to
+<a href="https://bioconductor.org/packages/release/bioc/html/HilbertVis.html" target="_blank">HilbertVis</a>
+on bioconductor.</p>
+
+<h3 id="ptr-ms-spectra">PTR-MS spectra</h3>
+
+<p>I have been playing with PTR-MS data for some while.  It&rsquo;s always hard to
 visualize this datasets. There are some nice patterns showing up - isotopic and
-due to hydratization.</p><h3 id=data>data</h3><p>I will not show out reading out the data - it was collected using a Ionicon PTR-TOF MS
+due to hydratization.</p>
+
+<h3 id="data">data</h3>
+
+<p>I will not show out reading out the data - it was collected using a Ionicon PTR-TOF MS
 which requires tedious preprocessing - most of which I can finally do in R but
-the code is poorly documented so far. The measurment is actually from a proband
-who took a sip of ethanol a few minutes before measurement.</p><p>Just a glimpse of it looks like this:</p><table><thead><tr><th>mass</th><th>counts</th></tr></thead><tbody><tr><td>21</td><td>142720</td></tr><tr><td>22</td><td>18708</td></tr><tr><td>23</td><td>8148</td></tr><tr><td>24</td><td>7137</td></tr><tr><td>25</td><td>6711</td></tr><tr><td>26</td><td>6468</td></tr></tbody></table><h2 id=experiments>Experiments</h2><p>Since over m/z 100 there is only sparse signal I created the relevant Hilbert
-curve doing</p><h3 id=curves>Curves</h3><p>The first plot uses scales the area of the dots at the masses to the observed counts.</p><p><img src=https://bdcaf.github.io/~c1891011/photo/2016-01-hilbertPTR_fig/2016-01-hilbertPTR_firsttry-1.png alt="plot of chunk first try"></p><p>This plot shows a little structure - the main blocks are of 16 numbers.</p><ul><li>The numbers 1 to 16 are basically zero as there are no protonated ions at such masses.<br></li><li>The next block contains the major precursors - the hydronium ion
+the code is poorly documented so far.  The measurment is actually from a proband
+who took a sip of ethanol a few minutes before measurement.</p>
+
+<p>Just a glimpse of it looks like this:</p>
+
+<table>
+<thead>
+<tr>
+<th>mass</th>
+<th>counts</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>21</td>
+<td>142720</td>
+</tr>
+
+<tr>
+<td>22</td>
+<td>18708</td>
+</tr>
+
+<tr>
+<td>23</td>
+<td>8148</td>
+</tr>
+
+<tr>
+<td>24</td>
+<td>7137</td>
+</tr>
+
+<tr>
+<td>25</td>
+<td>6711</td>
+</tr>
+
+<tr>
+<td>26</td>
+<td>6468</td>
+</tr>
+</tbody>
+</table>
+
+<h2 id="experiments">Experiments</h2>
+
+<p>Since over m/z 100 there is only sparse signal I created the relevant Hilbert
+curve doing</p>
+
+<h3 id="curves">Curves</h3>
+
+<p>The first plot uses scales the area of the dots at the masses to the observed counts.</p>
+
+<p><img src="https://bdcaf.github.io/~c1891011/photo/2016-01-hilbertPTR_fig/2016-01-hilbertPTR_firsttry-1.png" alt="plot of chunk first try" /></p>
+
+<p>This plot shows a little structure - the main blocks are of 16 numbers.</p>
+
+<ul>
+<li>The numbers 1 to 16 are basically zero as there are no protonated ions at such masses.<br /></li>
+<li>The next block contains the major precursors - the hydronium ion
 \(H_3O^+\) with its isotopes at m/z 19 to 21, \(NO^+\) at 30 and
-\(O_2^+\) at 32. A little visible is ammonia at m/z 18.</li><li>The block from 33 to 48 contains the Zundel ion (\(H_2O \cdot
+\(O_2^+\) at 32. A little visible is ammonia at m/z 18.</li>
+<li>The block from 33 to 48 contains the Zundel ion (\(H_2O \cdot
 H_3O^+\) ) as well as ethanol at 47 (with some isotops at 48) and its
-metabolite acetaldehyde at 45.</li><li>Following block contains the important compound acetone at 59 and
-not visible the next metabolite of ethanol acetic acid at 61.</li><li>Next block contains isoprene at 69 as well as hydrated ethanol ion at 65.</li><li>The following blocks show no visible ions although at aromatics like toluene (m/z 93) should show up there.</li></ul><p>Unfortunately when observed on the PTR-TOF it can be seen that the signal is
-saturated at m/z 19, 37 and 47. So lets scale down the max signal.<br>The concentration of the observed compounds is in the ppm&rsquo;s.
-<img src=https://bdcaf.github.io/~c1891011/photo/2016-01-hilbertPTR_fig/2016-01-hilbertPTR_scaledin-1.png alt="plot of chunk scaled in"></p><p>Finally we see a little more. But still only compounds that occur in<br>concentrations of several ppbs.</p><p>Lets try to use logarithmic scale instead.</p><p><img src=https://bdcaf.github.io/~c1891011/photo/2016-01-hilbertPTR_fig/2016-01-hilbertPTR_logscale-1.png alt="plot of chunk log scale"></p><p>Now the plot shows many more compounds. All the main ions are tailed by some ions of their isotopes. Though it is still hard to see where some traces occur. I experimentd with some zooming but overall there was little benefit to it. My next try will be to see if I can create an animated version of this to follow a volunteers breath pattern.</p><p>The code for this page was written in <code>R</code>. I will keep investigating and probably put a link to the git repo online once it reaches a more mature state.</p></div></div></article><div class=continue><h3>See Also</h3><ul><li><a href=https://bdcaf.github.io/2016/09/13/erster-tag-auf-der-iabr-konferenz/>Erster Tag auf der IABR Konferenz</a></li><li><a href=https://bdcaf.github.io/2016/09/11/endlich-das-poster-fertig/>Endlich das Poster fertig</a></li><li><a href=https://bdcaf.github.io/2019/03/24/pheromone/>Pheromone</a></li><li><a href=https://bdcaf.github.io/2018/12/28/seeing-statistics/>Seeing statistics</a></li><li><a href=https://bdcaf.github.io/2018/04/04/2018-life-science-meeting/>2018 Life Science Meeting</a></li></ul><a href=https://bdcaf.github.io/post/>all posts</a></div></div><footer><p class=powered-by>Clemens Ager, Brixlegg &middot;Powered by <a href=http://gohugo.io target=_blank>Hugo</a>.</p></footer></body></html>
+metabolite acetaldehyde at 45.</li>
+<li>Following block contains the important compound acetone at 59 and
+not visible the next metabolite of ethanol acetic acid at 61.</li>
+<li>Next block contains isoprene at 69 as well as hydrated ethanol ion at 65.</li>
+<li>The following blocks show no visible ions although at aromatics like toluene (m/z 93) should show up there.</li>
+</ul>
+
+<p>Unfortunately when observed on the PTR-TOF it can be seen that the signal is
+saturated at m/z 19, 37 and 47. So lets scale down the max signal.<br />
+The concentration of the observed compounds is in the ppm&rsquo;s.
+<img src="https://bdcaf.github.io/~c1891011/photo/2016-01-hilbertPTR_fig/2016-01-hilbertPTR_scaledin-1.png" alt="plot of chunk scaled in" /></p>
+
+<p>Finally we see a little more.  But still only compounds that occur in<br />
+concentrations of several ppbs.</p>
+
+<p>Lets try to use logarithmic scale instead.</p>
+
+<p><img src="https://bdcaf.github.io/~c1891011/photo/2016-01-hilbertPTR_fig/2016-01-hilbertPTR_logscale-1.png" alt="plot of chunk log scale" /></p>
+
+<p>Now the plot shows many more compounds.  All the main ions are tailed by some ions of their isotopes. Though it is still hard to see where some traces occur. I experimentd with some zooming but overall there was little benefit to it.  My next try will be to see if I can create an animated version of this to follow a volunteers breath pattern.</p>
+
+<p>The code for this page was written in <code>R</code>.  I will keep investigating and probably put a link to the git repo online once it reaches a more mature state.</p></div></div>
+</article>
+
+<div class="continue"><h3>See Also</h3>
+  <ul><li><a href="https://bdcaf.github.io/2016/09/13/erster-tag-auf-der-iabr-konferenz/">Erster Tag auf der IABR Konferenz</a></li><li><a href="https://bdcaf.github.io/2016/09/11/endlich-das-poster-fertig/">Endlich das Poster fertig</a></li><li><a href="https://bdcaf.github.io/2019/03/24/pheromone/">Pheromone</a></li><li><a href="https://bdcaf.github.io/2018/12/28/seeing-statistics/">Seeing statistics</a></li><li><a href="https://bdcaf.github.io/2018/04/04/2018-life-science-meeting/">2018 Life Science Meeting</a></li></ul><a href="https://bdcaf.github.io/post/">all posts</a>
+</div></div>
+
+    <footer><p class="powered-by">Clemens Ager, Brixlegg &middot;Powered by <a href="http://gohugo.io" target="_blank">Hugo</a>.
+  </p>
+</footer>
+  </body>
+</html>

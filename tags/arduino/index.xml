@@ -1,3 +1,45 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>arduino on C. Ager</title><link>https://bdcaf.github.io/tags/arduino/</link><description>Recent content in arduino on C. Ager</description><generator>Hugo -- gohugo.io</generator><language>en</language><copyright>Clemens Ager, Brixlegg</copyright><lastBuildDate>Sat, 29 Jun 2013 18:21:19 +0000</lastBuildDate><atom:link href="https://bdcaf.github.io/tags/arduino/index.xml" rel="self" type="application/rss+xml"/><item><title>Episode 2</title><link>https://bdcaf.github.io/2013/06/29/episode-2/</link><pubDate>Sat, 29 Jun 2013 18:21:19 +0000</pubDate><guid>https://bdcaf.github.io/2013/06/29/episode-2/</guid><description>Bin mittlerweile bei der Farb-LED. Nix besonders hab&amp;rsquo; dann aber gleichmal nen Kalman Filter fürs messen angehängt. So Statistik halt und weils so langweilig war gleich noch ne chaotische Zeitentwicklung obendrauf. Nutzen natürlich null. Ausser Moodlampe ;)</description></item><item><title>Erste Bastelei</title><link>https://bdcaf.github.io/2013/06/22/erste-bastelei/</link><pubDate>Sat, 22 Jun 2013 09:36:08 +0000</pubDate><guid>https://bdcaf.github.io/2013/06/22/erste-bastelei/</guid><description>Erste Bastelei&amp;hellip; Es klickst und blinkt alles so wies soll&amp;hellip;</description></item><item><title>Arduino</title><link>https://bdcaf.github.io/2013/06/17/arduino/</link><pubDate>Mon, 17 Jun 2013 08:57:26 +0000</pubDate><guid>https://bdcaf.github.io/2013/06/17/arduino/</guid><description>Das Bier gärt jetzt schon und auf der Suche nach neuen Projekten bin ich zum Arduino abgebogen.
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>arduino on C. Ager</title>
+    <link>https://bdcaf.github.io/tags/arduino/</link>
+    <description>Recent content in arduino on C. Ager</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Clemens Ager, Brixlegg</copyright>
+    <lastBuildDate>Sat, 29 Jun 2013 18:21:19 +0000</lastBuildDate>
+    
+	<atom:link href="https://bdcaf.github.io/tags/arduino/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Episode 2</title>
+      <link>https://bdcaf.github.io/2013/06/29/episode-2/</link>
+      <pubDate>Sat, 29 Jun 2013 18:21:19 +0000</pubDate>
+      
+      <guid>https://bdcaf.github.io/2013/06/29/episode-2/</guid>
+      <description>Bin mittlerweile bei der Farb-LED. Nix besonders hab&amp;rsquo; dann aber gleichmal nen Kalman Filter fürs messen angehängt. So Statistik halt und weils so langweilig war gleich noch ne chaotische Zeitentwicklung obendrauf. Nutzen natürlich null. Ausser Moodlampe ;)</description>
+    </item>
+    
+    <item>
+      <title>Erste Bastelei</title>
+      <link>https://bdcaf.github.io/2013/06/22/erste-bastelei/</link>
+      <pubDate>Sat, 22 Jun 2013 09:36:08 +0000</pubDate>
+      
+      <guid>https://bdcaf.github.io/2013/06/22/erste-bastelei/</guid>
+      <description>Erste Bastelei&amp;hellip; Es klickst und blinkt alles so wies soll&amp;hellip;</description>
+    </item>
+    
+    <item>
+      <title>Arduino</title>
+      <link>https://bdcaf.github.io/2013/06/17/arduino/</link>
+      <pubDate>Mon, 17 Jun 2013 08:57:26 +0000</pubDate>
+      
+      <guid>https://bdcaf.github.io/2013/06/17/arduino/</guid>
+      <description>Das Bier gärt jetzt schon und auf der Suche nach neuen Projekten bin ich zum Arduino abgebogen.
 Bei mir gibts jetzt bald dasStarterKit. Kommt hoffentlich bald. War nämlich eine Sucherei noch eins aufzutreiben (Und strange, dass die ganzen Stores keine Mehrwertsteuer anzeigen&amp;hellip;)
-Hab&amp;rsquo; dann bald ein paar coole Basteleien zum herzeigen (hoff ich halt:)</description></item></channel></rss>
+Hab&amp;rsquo; dann bald ein paar coole Basteleien zum herzeigen (hoff ich halt:)</description>
+    </item>
+    
+  </channel>
+</rss>
