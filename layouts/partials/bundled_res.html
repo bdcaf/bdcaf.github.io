@@ -8,12 +8,18 @@
     {{- if eq .ResourceType "mp4" -}}
     <video controls src="{{- .RelPermalink -}}"></video>
     {{- else if eq .ResourceType "image" -}}
+    <a href="#_" class="hidden" id="{{ .Name }}">
     <img src="{{- .RelPermalink -}}" alt="{{- .ResourceType | title -}}" >
-    {{- end -}}
+      </a>
+    <a href="#{{ .Name }}">
+    <img src="{{- .RelPermalink -}}" alt="{{- .ResourceType | title -}}" >
+    </a>
+    {{- else -}}
     <a href="{{ .RelPermalink }}" 
        download="{{ .RelPermalink }}" 
       title="{{ .ResourceType | title }}"
-      target="_self">Download {{ .ResourceType | title }}</a>
+      target="_self"> {{ .ResourceType | title }} {{ .Name }} </a>
+    {{- end -}}
 </div>
   {{ end }}
 </ul>
