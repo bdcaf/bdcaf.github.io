@@ -93,12 +93,6 @@
   </url>
   
   <url>
-    <loc>https://bdcaf.github.io/categories/</loc>
-    <lastmod>2019-04-20T16:44:36+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://bdcaf.github.io/tags/</loc>
     <lastmod>2019-04-20T16:44:36+02:00</lastmod>
     <priority>0</priority>
@@ -171,6 +165,12 @@
   
   <url>
     <loc>https://bdcaf.github.io/tags/garden/</loc>
+    <lastmod>2019-04-20T16:44:36+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://bdcaf.github.io/categories/personal/</loc>
     <lastmod>2019-04-20T16:44:36+02:00</lastmod>
     <priority>0</priority>
   </url>
