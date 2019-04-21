@@ -6,7 +6,11 @@ tags:
   - animal
   - pictures
 categories:
-  -
+  - personal
+resources:
+  - src: 'IMG*.jpg'
+    title: 'Picture #:counter'
+    name: image-:counter
 ---
 
 Some animal pictures from my garden to test content images.

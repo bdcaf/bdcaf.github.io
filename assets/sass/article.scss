@@ -66,9 +66,11 @@ article {
   .resources {
     display: grid;
     grid: auto / repeat(auto-fit, minmax(10em, 1fr));
+    grid-gap: 1em;
     border: 2px dashed #ddd;
     border-radius: 1em;
     margin: 1em auto;
+    padding: 1em;
 
     h4 {
       grid-column: 1/-1;
@@ -76,9 +78,6 @@ article {
     }
 
     .resource__item {
-      margin: 1em;
-      transition: 0.2s;
-
       video,
       img {
         margin: 0;
@@ -106,6 +105,33 @@ article {
           max-width: 90%;
           max-height: 80%;
           margin-top: 2%;
+        }
+      }
+
+      .thumb {
+        position: relative;
+        display: block;
+        max-width: unset;
+        max-height: unset;
+        padding-bottom: 100%;
+
+        .thumb__content {
+          position: absolute;
+          height: 100%;
+          width: 100%;
+
+          img {
+            object-fit: cover;
+            transition: 0.5s;
+            height: 100%;
+            width: 100%;
+
+            &:hover {
+              object-fit: contain;
+              transform: scale(2);
+              z-index: 5;
+            }
+          }
         }
       }
     }
