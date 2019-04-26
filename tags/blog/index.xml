@@ -7,10 +7,25 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Clemens Ager, Brixlegg</copyright>
-    <lastBuildDate>Tue, 24 Nov 2015 10:40:57 +0100</lastBuildDate>
+    <lastBuildDate>Fri, 26 Apr 2019 13:40:24 +0200</lastBuildDate>
     
 	<atom:link href="https://bdcaf.github.io/tags/blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>New Project R Hugo Paperss</title>
+      <link>https://bdcaf.github.io/2019/04/26/new-project-r-hugo-paperss/</link>
+      <pubDate>Fri, 26 Apr 2019 13:40:24 +0200</pubDate>
+      
+      <guid>https://bdcaf.github.io/2019/04/26/new-project-r-hugo-paperss/</guid>
+      <description>&lt;p&gt;I started the project &lt;a href=&#34;https://bdcaf.github.io/r-hugo-papercss-template/&#34; target=&#34;_blank&#34;&gt;R-Hugo-Papercss&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;This is a template for the hugo static site engine.  The purpose is to use its page bundle feature with generated content from R.  There were small issues to make hugo write the relative URLs.&lt;/p&gt;
+
+&lt;p&gt;I also uses the &lt;a href=&#34;https://www.getpapercss.com&#34; target=&#34;_blank&#34;&gt;papercss&lt;/a&gt; layout.  It seems suitable for a private science blog as it reminds me on the &lt;a href=&#34;https://en.wikipedia.org/wiki/Randall_Munroe&#34; target=&#34;_blank&#34;&gt;Randal Munroe&lt;/a&gt;s XKCD style.&lt;/p&gt;
+
+&lt;p&gt;By now feels complete enough to try out blogging.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Zero Axis Video</title>

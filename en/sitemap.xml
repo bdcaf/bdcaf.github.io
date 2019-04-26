@@ -94,13 +94,13 @@
   
   <url>
     <loc>https://bdcaf.github.io/tags/</loc>
-    <lastmod>2019-04-20T16:44:36+02:00</lastmod>
+    <lastmod>2019-04-26T13:40:24+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://bdcaf.github.io/</loc>
-    <lastmod>2019-04-20T16:44:36+02:00</lastmod>
+    <lastmod>2019-04-26T13:40:24+02:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -116,7 +116,7 @@
   
   <url>
     <loc>https://bdcaf.github.io/categories/</loc>
-    <lastmod>2019-04-20T16:44:36+02:00</lastmod>
+    <lastmod>2019-04-26T13:40:24+02:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -131,19 +131,19 @@
   </url>
   
   <url>
+    <loc>https://bdcaf.github.io/2019/04/26/new-project-r-hugo-paperss/</loc>
+    <lastmod>2019-04-26T13:40:24+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://bdcaf.github.io/post/</loc>
-    <lastmod>2019-04-20T16:44:36+02:00</lastmod>
+    <lastmod>2019-04-26T13:40:24+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://bdcaf.github.io/2019/04/20/spring-2019/</loc>
-    <lastmod>2019-04-20T16:44:36+02:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://bdcaf.github.io/tags/</loc>
-    <lastmod>2019-04-20T16:44:36+02:00</lastmod>
+    <lastmod>2019-04-26T13:40:24+02:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -155,6 +155,29 @@
                 hreflang="en"
                 href="https://bdcaf.github.io/tags/"
                 />
+  </url>
+  
+  <url>
+    <loc>https://bdcaf.github.io/tags/blog/</loc>
+    <lastmod>2019-04-26T13:40:24+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://bdcaf.github.io/categories/dev/</loc>
+    <lastmod>2019-04-26T13:40:24+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://bdcaf.github.io/tags/hugo/</loc>
+    <lastmod>2019-04-26T13:40:24+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://bdcaf.github.io/2019/04/20/spring-2019/</loc>
+    <lastmod>2019-04-20T16:44:36+02:00</lastmod>
   </url>
   
   <url>
@@ -188,12 +211,6 @@
   
   <url>
     <loc>https://bdcaf.github.io/tags/blender/</loc>
-    <lastmod>2019-04-19T18:33:04+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://bdcaf.github.io/categories/dev/</loc>
     <lastmod>2019-04-19T18:33:04+02:00</lastmod>
     <priority>0</priority>
   </url>
@@ -540,12 +557,6 @@
   
   <url>
     <loc>https://bdcaf.github.io/tags/github/</loc>
-    <lastmod>2018-01-29T10:49:51+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://bdcaf.github.io/tags/hugo/</loc>
     <lastmod>2018-01-29T10:49:51+01:00</lastmod>
     <priority>0</priority>
   </url>
@@ -948,12 +959,6 @@
   <url>
     <loc>https://bdcaf.github.io/2015/11/24/zero-axis-video/</loc>
     <lastmod>2015-11-24T10:40:57+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://bdcaf.github.io/tags/blog/</loc>
-    <lastmod>2015-11-24T10:40:57+01:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
