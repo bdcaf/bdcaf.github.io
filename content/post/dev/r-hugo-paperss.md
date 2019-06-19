@@ -1,5 +1,5 @@
 ---
-title: "New Project R Hugo Paperss"
+title: "New Project R Hugo Papers"
 date: 2019-04-26T13:40:24+02:00
 tags:
   - hugo
