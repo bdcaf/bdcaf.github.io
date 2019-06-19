@@ -94,13 +94,13 @@
   
   <url>
     <loc>https://bdcaf.github.io/tags/</loc>
-    <lastmod>2019-04-26T13:40:24+02:00</lastmod>
+    <lastmod>2019-06-19T17:06:19+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://bdcaf.github.io/</loc>
-    <lastmod>2019-04-26T13:40:24+02:00</lastmod>
+    <lastmod>2019-06-19T17:06:19+02:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -116,7 +116,7 @@
   
   <url>
     <loc>https://bdcaf.github.io/categories/</loc>
-    <lastmod>2019-04-26T13:40:24+02:00</lastmod>
+    <lastmod>2019-06-19T17:06:19+02:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -131,19 +131,14 @@
   </url>
   
   <url>
-    <loc>https://bdcaf.github.io/2019/04/26/new-project-r-hugo-paperss/</loc>
-    <lastmod>2019-04-26T13:40:24+02:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://bdcaf.github.io/post/</loc>
-    <lastmod>2019-04-26T13:40:24+02:00</lastmod>
+    <lastmod>2019-06-19T17:06:19+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://bdcaf.github.io/tags/</loc>
-    <lastmod>2019-04-26T13:40:24+02:00</lastmod>
+    <lastmod>2019-06-19T17:06:19+02:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -158,13 +153,29 @@
   </url>
   
   <url>
-    <loc>https://bdcaf.github.io/tags/blog/</loc>
-    <lastmod>2019-04-26T13:40:24+02:00</lastmod>
+    <loc>https://bdcaf.github.io/2019/06/19/trying-atom/</loc>
+    <lastmod>2019-06-19T17:06:19+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bdcaf.github.io/tags/atom/</loc>
+    <lastmod>2019-06-19T17:06:19+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://bdcaf.github.io/categories/dev/</loc>
+    <lastmod>2019-06-19T17:06:19+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://bdcaf.github.io/2019/04/26/new-project-r-hugo-papers/</loc>
+    <lastmod>2019-04-26T13:40:24+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bdcaf.github.io/tags/blog/</loc>
     <lastmod>2019-04-26T13:40:24+02:00</lastmod>
     <priority>0</priority>
   </url>
@@ -1126,11 +1137,6 @@
   <url>
     <loc>https://bdcaf.github.io/2015/07/11/aller-anfang-ist-schwer/</loc>
     <lastmod>2015-07-11T13:27:52+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://bdcaf.github.io/2015/07/10/first/</loc>
-    <lastmod>2015-07-10T11:15:43+02:00</lastmod>
   </url>
   
   <url>

@@ -7,17 +7,28 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Clemens Ager, Brixlegg</copyright>
-    <lastBuildDate>Fri, 26 Apr 2019 13:40:24 +0200</lastBuildDate>
+    <lastBuildDate>Wed, 19 Jun 2019 17:06:19 +0200</lastBuildDate>
     
 	<atom:link href="https://bdcaf.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>New Project R Hugo Paperss</title>
-      <link>https://bdcaf.github.io/2019/04/26/new-project-r-hugo-paperss/</link>
+      <title>Trying Atom</title>
+      <link>https://bdcaf.github.io/2019/06/19/trying-atom/</link>
+      <pubDate>Wed, 19 Jun 2019 17:06:19 +0200</pubDate>
+      
+      <guid>https://bdcaf.github.io/2019/06/19/trying-atom/</guid>
+      <description>&lt;p&gt;Just got back from Dornbirn and the paper is sent off for review.
+So I got some time at hand and can checkout &lt;a href=&#34;https://atom.io&#34; target=&#34;_blank&#34;&gt;atom&lt;/a&gt; again.
+My workhorse was vim - and although I generally feel empowered using it in larger projects I would prefer a more user-friendly organization.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>New Project R Hugo Papers</title>
+      <link>https://bdcaf.github.io/2019/04/26/new-project-r-hugo-papers/</link>
       <pubDate>Fri, 26 Apr 2019 13:40:24 +0200</pubDate>
       
-      <guid>https://bdcaf.github.io/2019/04/26/new-project-r-hugo-paperss/</guid>
+      <guid>https://bdcaf.github.io/2019/04/26/new-project-r-hugo-papers/</guid>
       <description>&lt;p&gt;I started the project &lt;a href=&#34;https://bdcaf.github.io/r-hugo-papercss-template/&#34; target=&#34;_blank&#34;&gt;R-Hugo-Papercss&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;This is a template for the hugo static site engine.  The purpose is to use its page bundle feature with generated content from R.  There were small issues to make hugo write the relative URLs.&lt;/p&gt;
@@ -1028,16 +1039,6 @@ Man kriegt dort so einen Badge mit dem man angeben kann: Hat wer lust sich zu me
       
       <guid>https://bdcaf.github.io/2015/07/11/aller-anfang-ist-schwer/</guid>
       <description>Die erste Konfiguration ist noch ganz mühsam!</description>
-    </item>
-    
-    <item>
-      <title>first</title>
-      <link>https://bdcaf.github.io/2015/07/10/first/</link>
-      <pubDate>Fri, 10 Jul 2015 11:15:43 +0200</pubDate>
-      
-      <guid>https://bdcaf.github.io/2015/07/10/first/</guid>
-      <description>Erster Eintrag!
-Auf einen guten Start.</description>
     </item>
     
     <item>
