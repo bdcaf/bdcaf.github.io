@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Clemens Ager, Brixlegg</copyright>
-    <lastBuildDate>Wed, 19 Jun 2019 17:06:19 +0200</lastBuildDate>
+    <lastBuildDate>Sun, 23 Jun 2019 11:54:51 +0200</lastBuildDate>
     
 	<atom:link href="https://bdcaf.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,9 +15,18 @@
     <item>
       <title></title>
       <link>https://bdcaf.github.io/tags/</link>
-      <pubDate>Wed, 19 Jun 2019 17:06:19 +0200</pubDate>
+      <pubDate>Sun, 23 Jun 2019 11:54:51 +0200</pubDate>
       
       <guid>https://bdcaf.github.io/tags/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>stat</title>
+      <link>https://bdcaf.github.io/tags/stat/</link>
+      <pubDate>Sun, 23 Jun 2019 11:54:51 +0200</pubDate>
+      
+      <guid>https://bdcaf.github.io/tags/stat/</guid>
       <description></description>
     </item>
     
@@ -495,15 +504,6 @@
       <pubDate>Wed, 11 Jan 2017 13:53:20 +0100</pubDate>
       
       <guid>https://bdcaf.github.io/tags/breath/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>stat</title>
-      <link>https://bdcaf.github.io/tags/stat/</link>
-      <pubDate>Wed, 11 Jan 2017 13:53:20 +0100</pubDate>
-      
-      <guid>https://bdcaf.github.io/tags/stat/</guid>
       <description></description>
     </item>
     
