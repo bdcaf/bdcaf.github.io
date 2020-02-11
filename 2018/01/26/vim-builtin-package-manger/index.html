@@ -3,8 +3,8 @@
   <head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="author" content="Clemens Ager"><meta name="description" content="Number Cruncher // PhD Candidate // Physicist"><script defer src="https://use.fontawesome.com/releases/v5.0.13/js/all.js" integrity="sha384-xymdQtn1n3lH2wcu0qhcdaOpQwyoarkgLVxC/wZ5q7h9gHtxICrpcaSUfygqZGOe" crossorigin="anonymous"></script>
-<link href="https://fonts.googleapis.com/css?family=Montserrat|Raleway:100,400" rel="stylesheet"><link rel="stylesheet" href="https://bdcaf.github.io/style.min.c158c3ec229d304a0bc80bb63ae03b7eda2f3f200748edc03743279e972d55b81db317d6c1a828b7f48cd94df54cc85ab5a84e99a4dee9e1d8d74d3a7c35d7b1.css" 
-		       integrity="sha512-wVjD7CKdMEoLyAu2OuA7ftovPyAHSO3AN0MnnpctVbgdsxfWwagot/SM2U31TMhatahOmaTe6eHY1006fDXXsQ==">
+<link href="https://fonts.googleapis.com/css?family=Montserrat|Raleway:100,400" rel="stylesheet"><link rel="stylesheet" href="https://bdcaf.github.io/style.min.3e5b91d8ba3df6ce753b537d698197cd7483d05dac7af3d25f51d44d00288fddda3ce77df34ee38fde5f4093e7130224d50a291426d38ced5cf8d8ead844da1f.css" 
+		       integrity="sha512-PluR2Lo99s51O1N9aYGXzXSD0F2sevPSX1HUTQAoj93aPOd9807jj95fQJPnEwIk1QopFCbTjO1c&#43;Njq2ETaHw==">
 <link rel="canonical" href="https://bdcaf.github.io/2018/01/26/vim-builtin-package-manger/">
     <title>Vim builtin package manger|C. Ager</title></head>
   <body id="top"><header>
@@ -48,20 +48,17 @@
     <a href="https://bdcaf.github.io/tags/vim">vim</a
     >, <a href="https://bdcaf.github.io/tags/today-i-learnt">today-i-learnt</a
     ></span></div>
-<div class="article-style" itemprop="articleBody"><p>I was using <a href="https://github.com/Shougo/dein.vim" target="_blank">dein package manager</a>
+<div class="article-style" itemprop="articleBody"><p>I was using <a href="https://github.com/Shougo/dein.vim">dein package manager</a>
 for some time happily.  Till yesterday it started acting up during
 update and even messed up already installed plugins.  After some
 messing around I admitted I will not be able to solve it easily so I
 tried to give the new builtin package manager a try.  I followed this
-<a href="https://shapeshed.com/vim-packages/" target="_blank">post</a>.  And it seems to work
+<a href="https://shapeshed.com/vim-packages/">post</a>.  And it seems to work
 like a charm, also within nvim.</p>
-
 <p>I added all my packages using <code>git submodule add</code> in directories like
 <code>pack/git/start</code> and <code>pack/helper/opt</code>.  The nice thing is I can now
-update them easily using <code>git submodule update --init --recursive
---merge</code>.  So I won&rsquo;t need the features for asynchronous updates any
+update them easily using <code>git submodule update --init --recursive --merge</code>.  So I won&rsquo;t need the features for asynchronous updates any
 more.</p>
-
 <p>The only difference I noted to the post guiding me was I had the
 impression that I could put plugins directly in the <code>pack</code> directory.
 For some reason they only load for me when placed in sub directories.

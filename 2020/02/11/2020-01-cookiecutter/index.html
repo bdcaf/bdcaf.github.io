@@ -1,0 +1,107 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en">
+  <head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="author" content="Clemens Ager"><meta name="description" content="Number Cruncher // PhD Candidate // Physicist"><script defer src="https://use.fontawesome.com/releases/v5.0.13/js/all.js" integrity="sha384-xymdQtn1n3lH2wcu0qhcdaOpQwyoarkgLVxC/wZ5q7h9gHtxICrpcaSUfygqZGOe" crossorigin="anonymous"></script>
+<link href="https://fonts.googleapis.com/css?family=Montserrat|Raleway:100,400" rel="stylesheet"><link rel="stylesheet" href="https://bdcaf.github.io/style.min.3e5b91d8ba3df6ce753b537d698197cd7483d05dac7af3d25f51d44d00288fddda3ce77df34ee38fde5f4093e7130224d50a291426d38ced5cf8d8ead844da1f.css" 
+		       integrity="sha512-PluR2Lo99s51O1N9aYGXzXSD0F2sevPSX1HUTQAoj93aPOd9807jj95fQJPnEwIk1QopFCbTjO1c&#43;Njq2ETaHw==">
+<link rel="canonical" href="https://bdcaf.github.io/2020/02/11/2020-01-cookiecutter/">
+    <title>2020 01 Cookiecutter|C. Ager</title></head>
+  <body id="top"><header>
+  <h1 class="logo"> <a href="https://bdcaf.github.io/">clemens<b>ager</b></a></h1>
+  <div class="container">
+    <a href="#main-menu" role="button" id="main-menu-toggle" class="menu-toggle" aria-expanded="false" aria-controls="main-menu" aria-label="Open main menu">
+      <span class="sr-only">Open main menu</span>
+      <span aria-hidden="true"> <i class="fas fa-bars"></i> </span>
+    </a>
+    <nav id="main-menu" role="navigation" class="main-menu" aria-expanded="false" aria-label="Main menu">
+      <a href="#main-menu-toggle" role="button" id="main-menu-close" class="menu-close" aria-expanded="false" aria-controls="main-menu" aria-label="Close main menu"> 
+	<span class="sr-only">Close main menu</span>
+	<span aria-hidden="true">
+	  <i class="fas fa-window-close"> </i>
+	</span> </a> 
+	<ul><li>
+	    <a href="https://bdcaf.github.io/#about"><span>About</span> </a>
+	  </li><li>
+	    <a href="https://bdcaf.github.io/#posts"><span>Posts</span> </a>
+	  </li><li>
+	    <a href="https://bdcaf.github.io/#publications_selected"><span>Publications</span> </a>
+	  </li><li>
+	    <a href="https://bdcaf.github.io/#projects"><span>Projects</span> </a>
+	  </li><li>
+	    <a href="https://bdcaf.github.io/#contact"><span>Contact</span> </a>
+	  </li></ul>
+    </nav>
+    <a href="#main-menu-toggle"
+       class="backdrop"
+       tabindex="-1"
+       aria-hidden="true" hidden></a>
+  </div>
+</header>
+<div class="content"><article class="article" itemscope itemtype="http://schema.org/Article">
+  <div class="article-container">
+    <h1 itemprop="name">2020 01 Cookiecutter</h1><div class="article-metadata">
+  <span class="article-date">
+    <time datetime="2020-02-11 10:00:40 &#43;0100 CET" itemprop="datePublished">2020-02-11</time>
+  </span><span class="article-tags">
+    <i class="fa fa-tags"> </i>
+    <a href="https://bdcaf.github.io/tags/cookiecutter">cookiecutter</a
+    ></span></div>
+<div class="article-style" itemprop="articleBody"><p>Having some more time at hand I was able to add long overdue alterations to <a href="https://github.com/bdcaf/cookiecutter-r-data-analysis">cookiecutter-r-data-analysis</a>.
+I left my template alone for about a year and during this time I have developed some new practices and given up on some others.</p>
+<p>In case you just got here: <a href="https://github.com/audreyr/cookiecutter">Cookiecutter</a> is a templating system for programming projects.
+You find a template for your project and by calling <code>cookiecutter templatename</code> a project folder filled with filled templates is generated.</p>
+<h2 id="r-package-structure">R package structure</h2>
+<p>I now try to stick closer to the R package folder structure.
+Although I am not working on packages this brings a few benefits.
+I can now use the functions provided by <a href="https://usethis.r-lib.org/">usethis</a> and the <code>devtools::load_all()</code>.
+Mostly I use the <code>load_all()</code>.
+Before I had to source all my functions. Often this got in a tedious recursive task, or even worse I had to build a package just for the functions.
+The downside being I now need to manually create make rules to depend on the function definitions.</p>
+<p>A nice side effect of the package structure is that it now is easier to turn a project into a package.
+The greatest problem was to generate project slugs and folder names that will confirm Rs naming rules.
+This issue arises for more often for such projects. Often a dataset from a user comes in and it is not clear what to do with it.
+Too often I end up with a title something like &ldquo;Usernames measurement of xy beginning of 2019&rdquo;.</p>
+<p>For now I sattle on a camel case format for the slug.
+The only snake case R would accept was with dots instead of the usual <code>_</code>.
+Using <code>-</code> was out of the question.
+Leaving it to the user to suggest naming if special characters need to be in the project name.
+Anyway it&rsquo;s just about the slug - I don&rsquo;t want to invest more time into it.</p>
+<h2 id="file-organization">File organization</h2>
+<p>I found it beneficial to work with lots of subfolders.
+My typical project I have lots of almost identical subreports - think about reports for each sub campaign within a study.
+The campaigns are similar, but often with a few adjustments - say adding a new sensor, extending the protocol, etc.
+The changes are simple enough so that they can be later aggregated, although almost every campaign has a spin that deserves a little subreport.
+A chore to come up with unique names for the produced files.
+Having it separated in one folder per subreport achieves the same.</p>
+<p>As a side effect of using R package functions I now need to split my R code now into <em>functions</em> in the <code>r</code> directory that will get repeatedly sourced and <code>scripts</code> that will operate on input files.</p>
+<p>I still have not settled on the name of the folder for <code>Rnw</code> and <code>Rmd</code> files that generate the subreports.
+Using <code>vignettes</code> as for R packages does cause problems with the R functions for building vignettes.</p>
+<h2 id="automatic-dependencies">Automatic dependencies</h2>
+<p>I like to split my reports into multiple files.
+This makes my live easier as I need to worry less about leftover temporary variables and import of conflicting packages.
+In the Makefile this makes writing all dependencies down annoying.
+I&rsquo;m working on ways to automate this.
+My aim is not to find a perfect solution.
+I doubt that is even possible with reasonable effort.
+Rather I want to automate away some of the most boring patterns.</p>
+<h2 id="example-project">Example project</h2>
+<p>I include a trivial example project so I can generate a little minimal working project as example.
+There were leftover mentions of the previous example project in the generated files.
+Don&rsquo;t know how they stayed - but I hope now all of those are gone.</p>
+<p>This used to be the tutorial of Kaggle working on a dataset of Titanic passengers. Turns out is locked away behind a login page that I didn&rsquo;t see, and most annoyingly the data may only be downloaded by kaggle members.
+Since the tutorial didn&rsquo;t matter I replaced it with something available under an open license and downloadable without registration.
+I chose a tutorial hosted by CERN.</p>
+<h2 id="conclusion">Conclusion</h2>
+<p>Well hope this template is also useful for you.
+I have some more strategies that I would like to have templated in there, but I am not sure yet how to tackle these.</p></div></div>
+</article>
+
+<div class="continue"><a href="https://bdcaf.github.io/post/">all posts</a>
+</div></div>
+
+    <footer><p class="powered-by">Clemens Ager, Brixlegg &middot;Powered by <a href="http://gohugo.io" target="_blank">Hugo</a>.
+  </p>
+</footer>
+  </body>
+</html>

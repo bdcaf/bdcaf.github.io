@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>ccc on C. Ager</title>
@@ -19,8 +19,7 @@
       
       <guid>https://bdcaf.github.io/2016/12/29/a-datapoint-walks-into-a-bar/</guid>
       <description>Excellent talk at this years 33C3.
-Story telling with data is so important and helps clarify lots of things.
- </description>
+Story telling with data is so important and helps clarify lots of things.</description>
     </item>
     
   </channel>

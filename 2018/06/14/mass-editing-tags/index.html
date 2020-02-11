@@ -3,8 +3,8 @@
   <head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="author" content="Clemens Ager"><meta name="description" content="Number Cruncher // PhD Candidate // Physicist"><script defer src="https://use.fontawesome.com/releases/v5.0.13/js/all.js" integrity="sha384-xymdQtn1n3lH2wcu0qhcdaOpQwyoarkgLVxC/wZ5q7h9gHtxICrpcaSUfygqZGOe" crossorigin="anonymous"></script>
-<link href="https://fonts.googleapis.com/css?family=Montserrat|Raleway:100,400" rel="stylesheet"><link rel="stylesheet" href="https://bdcaf.github.io/style.min.c158c3ec229d304a0bc80bb63ae03b7eda2f3f200748edc03743279e972d55b81db317d6c1a828b7f48cd94df54cc85ab5a84e99a4dee9e1d8d74d3a7c35d7b1.css" 
-		       integrity="sha512-wVjD7CKdMEoLyAu2OuA7ftovPyAHSO3AN0MnnpctVbgdsxfWwagot/SM2U31TMhatahOmaTe6eHY1006fDXXsQ==">
+<link href="https://fonts.googleapis.com/css?family=Montserrat|Raleway:100,400" rel="stylesheet"><link rel="stylesheet" href="https://bdcaf.github.io/style.min.3e5b91d8ba3df6ce753b537d698197cd7483d05dac7af3d25f51d44d00288fddda3ce77df34ee38fde5f4093e7130224d50a291426d38ced5cf8d8ead844da1f.css" 
+		       integrity="sha512-PluR2Lo99s51O1N9aYGXzXSD0F2sevPSX1HUTQAoj93aPOd9807jj95fQJPnEwIk1QopFCbTjO1c&#43;Njq2ETaHw==">
 <link rel="canonical" href="https://bdcaf.github.io/2018/06/14/mass-editing-tags/">
     <title>Mass editing tags|C. Ager</title></head>
   <body id="top"><header>
@@ -50,65 +50,39 @@
     <a href="https://bdcaf.github.io/tags/script">script</a
     ></span></div>
 <div class="article-style" itemprop="articleBody"><p>Having read some about the
-<a href="https://github.com/rstudio/blogdown" target="_blank">blogdown</a> package I thought I
+<a href="https://github.com/rstudio/blogdown">blogdown</a> package I thought I
 could cleanup my site some more.</p>
-
 <p>I came up with some scripts to clean up tags.</p>
-
 <p>Within R I could use some of the new functionality.</p>
-
 <pre><code>a &lt;- blogdown:::collect_yaml()
-</code></pre>
-
-<p>would give me a nice list of my categories and tags.</p>
-
+</code></pre><p>would give me a nice list of my categories and tags.</p>
 <p>First I would check how many files would use the offending
-tags.  I use <a href="https://github.com/BurntSushi/ripgrep" target="_blank">ripgrep</a> for my
+tags.  I use <a href="https://github.com/BurntSushi/ripgrep">ripgrep</a> for my
 searches.  To avoid replacements inside text I chose to use a regexp
 as search expression.  In my case that avoided all collisions.</p>
-
 <pre><code>rg '^- offending'
-</code></pre>
-
-<p>Then if it&rsquo;s just one or two I can edit them. Just a warning I use
+</code></pre><p>Then if it&rsquo;s just one or two I can edit them. Just a warning I use
 fish and neovim - so adjust accordingly.</p>
-
 <pre><code>nvim (rg '^- offending')
-</code></pre>
-
-<p>To correct spelling I did replacements like this:</p>
-
+</code></pre><p>To correct spelling I did replacements like this:</p>
 <pre><code>rg '^\W*- maths$' --files-with-matches | xargs sed -i '' 's/^\( *- *\) maths$/\1math/g'
-</code></pre>
-
-<p>annoyingly macs <code>sed</code> did not support the <code>\s</code> pattern.</p>
-
+</code></pre><p>annoyingly macs <code>sed</code> did not support the <code>\s</code> pattern.</p>
 <p>Fully removing a tag was done so:</p>
-
 <pre><code>rg '^- Allgemein' --files-with-matches | xargs sed -i '' '/^- Allgemein/d'
-</code></pre>
-
-<p>I think soon I will move stuff in subfolders.  For now this shouldn&rsquo;t
+</code></pre><p>I think soon I will move stuff in subfolders.  For now this shouldn&rsquo;t
 be problematic as there are almost no files in the data folder.  Also
 I still have unresolved links to images in the old imports.  But
 that&rsquo;s for another day.</p>
-
 <h3 id="trouble-shooting">trouble shooting</h3>
-
 <p>I soon ended up having errors about empty section lists.
 Unfortunately it turned out too many.  And ripgrep wouldn&rsquo;t match
-multiline patterns.  So time to also use the (slower) <a href="https://github.com/ggreer/the_silver_searcher" target="_blank">silver searcher</a>.</p>
-
+multiline patterns.  So time to also use the (slower) <a href="https://github.com/ggreer/the_silver_searcher">silver searcher</a>.</p>
 <pre><code>ag -l &quot;^categories:\n--&quot; | xargs sed -i -e '/^categories:/d'
 ag -l &quot;^categories:\n[^ -]&quot; | xargs sed -i -e '/^categories:/d'
-</code></pre>
-
-<p>would delete the empty categories.</p>
-
+</code></pre><p>would delete the empty categories.</p>
 <h4 id="cases">cases&hellip;</h4>
-
 <p>It was a bit tricky as the page of tags showed them all in lower case - and I could locate them nicely using <code>rg -i</code> - however mac os <code>sed</code>
-  was not able to ignore cases in patterns.</p></div></div>
+was not able to ignore cases in patterns.</p></div></div>
 </article>
 
 <div class="continue"><h3>See Also</h3>

@@ -3,8 +3,8 @@
   <head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="author" content="Clemens Ager"><meta name="description" content="Number Cruncher // PhD Candidate // Physicist"><script defer src="https://use.fontawesome.com/releases/v5.0.13/js/all.js" integrity="sha384-xymdQtn1n3lH2wcu0qhcdaOpQwyoarkgLVxC/wZ5q7h9gHtxICrpcaSUfygqZGOe" crossorigin="anonymous"></script>
-<link href="https://fonts.googleapis.com/css?family=Montserrat|Raleway:100,400" rel="stylesheet"><link rel="stylesheet" href="https://bdcaf.github.io/style.min.c158c3ec229d304a0bc80bb63ae03b7eda2f3f200748edc03743279e972d55b81db317d6c1a828b7f48cd94df54cc85ab5a84e99a4dee9e1d8d74d3a7c35d7b1.css" 
-		       integrity="sha512-wVjD7CKdMEoLyAu2OuA7ftovPyAHSO3AN0MnnpctVbgdsxfWwagot/SM2U31TMhatahOmaTe6eHY1006fDXXsQ==">
+<link href="https://fonts.googleapis.com/css?family=Montserrat|Raleway:100,400" rel="stylesheet"><link rel="stylesheet" href="https://bdcaf.github.io/style.min.3e5b91d8ba3df6ce753b537d698197cd7483d05dac7af3d25f51d44d00288fddda3ce77df34ee38fde5f4093e7130224d50a291426d38ced5cf8d8ead844da1f.css" 
+		       integrity="sha512-PluR2Lo99s51O1N9aYGXzXSD0F2sevPSX1HUTQAoj93aPOd9807jj95fQJPnEwIk1QopFCbTjO1c&#43;Njq2ETaHw==">
 <link rel="canonical" href="https://bdcaf.github.io/2019/02/05/configuring-syncthing-on-mac-server/">
     <title>Configuring Syncthing on Mac Server|C. Ager</title></head>
   <body id="top"><header>
@@ -50,47 +50,35 @@
     <a href="https://bdcaf.github.io/tags/syncthing">syncthing</a
     >, <a href="https://bdcaf.github.io/tags/mac">mac</a
     ></span></div>
-<div class="article-style" itemprop="articleBody"><p><a href="https://syncthing.net" target="_blank">Syncthing</a> is currently my preferred tool to
-keep folders in sync.  Previously I had affairs with <a href="https://git-annex.branchable.com" target="_blank">git
+<div class="article-style" itemprop="articleBody"><p><a href="https://syncthing.net">Syncthing</a> is currently my preferred tool to
+keep folders in sync.  Previously I had affairs with <a href="https://git-annex.branchable.com">git
 annex</a>, and
-<a href="https://rsync.samba.org" target="_blank">rsync</a> scripts.</p>
-
+<a href="https://rsync.samba.org">rsync</a> scripts.</p>
 <p>Recently I reactivated a 2009 Mac Mini as headless server under El
-Capitan.  <a href="https://brew.sh" target="_blank">Homebrew</a> is the tool of choice - it
+Capitan.  <a href="https://brew.sh">Homebrew</a> is the tool of choice - it
 complains a little about the old OS but things work out nicely.</p>
-
 <h2 id="hard-drives-not-being-mounted">hard drives not being mounted</h2>
-
 <p>However the first issue was that the drives would not be mounted
 without a user logging in.  I was able to find following
-<a href="https://gist.github.com/jabenninghoff/f13f81c286e914c48942f973f5d15819" target="_blank">snippet</a>:</p>
-
+<a href="https://gist.github.com/jabenninghoff/f13f81c286e914c48942f973f5d15819">snippet</a>:</p>
 <pre><code>sudo defaults write /Library/Preferences/SystemConfiguration/autodiskmount AutomountDisksWithoutUserLogin -bool true
 </code></pre>
-
 <h2 id="syncthing-not-starting">syncthing not starting</h2>
-
 <p>Homebrew documents how the get syncthing started for a user.  However
 again this would mean someone would need to login before things get
 going.   I was able to resolve this by moving the installed plist from
 <code>~/Library/LaunchAgents/</code> to <code>/Library/LaunchDaemons/</code> and adding the
 entry:</p>
-
 <pre><code>  &lt;key&gt;UserName&lt;/key&gt;
   &lt;string&gt;myuser&lt;/string&gt;
 </code></pre>
-
 <p>So it would finally launch.</p>
-
 <h2 id="syncthing-launching-before-harddrive">syncthing launching before harddrive</h2>
-
 <p>However it turned out it would launch syncthing <em>before</em> the external
 drive was ready so syncthing would spew errors and not sync without
 interaction.</p>
-
 <p>I was not able to solve this within the plist so I created a quick
 shellscript that would sleep until the drive was ready:</p>
-
 <pre><code>#!/bin/sh
 SYNCDRIVE='/Volumes/Media/'
 while [ ! -d &quot;$SYNCDRIVE&quot; ]; do
@@ -98,24 +86,18 @@ sleep 10
 done
 /usr/local/opt/syncthing/bin/syncthing -no-browser -no-restart
 </code></pre>
-
 <h2 id="firewall">firewall</h2>
-
 <p>After all this it was still not syncing.  Being on a headless machine
 I haven&rsquo;t gotten the firewall warning.  So the final step was easy to
 allow <code>syncthing</code> getting connections.</p>
-
 <h2 id="ssh">ssh</h2>
-
 <p>Last thing was getting things to work was to get to sync through an
-ssh tunnel.  There is a <a href="https://docs.syncthing.net/users/tunneling.html" target="_blank">good
+ssh tunnel.  There is a <a href="https://docs.syncthing.net/users/tunneling.html">good
 description</a> however
 I made the mistake to skim the last port number.  Turns out in the
 last command they leave one digit away so search all the ports.  Once
 fixing to <code>22000</code> all syncing starts/</p>
-
 <h3 id="on-my-current-decisions">on my current decisions</h3>
-
 <p>With annex I continuously had problems that my repos wouldn&rsquo;t merge
 nicely.  Also although it is under active development the
 documentation is difficult to read - many examples on the site are 5
@@ -125,7 +107,6 @@ Rsync always had to be run to check for changes.  Since it has to
 rescan the remote files it always takes some extra toll.  This is
 great for some tasks.  But for my application where I control all
 endpoints it was unnecessary.</p>
-
 <p>My machine wouldn&rsquo;t run the latest Mac OS so I had to choose El Capitan.
 Instead of Mac OS I also experimented with Ubuntu linux.
 Linux would offer me all the latest versions and installed nicely.

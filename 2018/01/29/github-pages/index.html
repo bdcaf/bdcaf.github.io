@@ -3,8 +3,8 @@
   <head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="author" content="Clemens Ager"><meta name="description" content="Number Cruncher // PhD Candidate // Physicist"><script defer src="https://use.fontawesome.com/releases/v5.0.13/js/all.js" integrity="sha384-xymdQtn1n3lH2wcu0qhcdaOpQwyoarkgLVxC/wZ5q7h9gHtxICrpcaSUfygqZGOe" crossorigin="anonymous"></script>
-<link href="https://fonts.googleapis.com/css?family=Montserrat|Raleway:100,400" rel="stylesheet"><link rel="stylesheet" href="https://bdcaf.github.io/style.min.c158c3ec229d304a0bc80bb63ae03b7eda2f3f200748edc03743279e972d55b81db317d6c1a828b7f48cd94df54cc85ab5a84e99a4dee9e1d8d74d3a7c35d7b1.css" 
-		       integrity="sha512-wVjD7CKdMEoLyAu2OuA7ftovPyAHSO3AN0MnnpctVbgdsxfWwagot/SM2U31TMhatahOmaTe6eHY1006fDXXsQ==">
+<link href="https://fonts.googleapis.com/css?family=Montserrat|Raleway:100,400" rel="stylesheet"><link rel="stylesheet" href="https://bdcaf.github.io/style.min.3e5b91d8ba3df6ce753b537d698197cd7483d05dac7af3d25f51d44d00288fddda3ce77df34ee38fde5f4093e7130224d50a291426d38ced5cf8d8ead844da1f.css" 
+		       integrity="sha512-PluR2Lo99s51O1N9aYGXzXSD0F2sevPSX1HUTQAoj93aPOd9807jj95fQJPnEwIk1QopFCbTjO1c&#43;Njq2ETaHw==">
 <link rel="canonical" href="https://bdcaf.github.io/2018/01/29/github-pages/">
     <title>Github pages|C. Ager</title></head>
   <body id="top"><header>
@@ -51,23 +51,20 @@
     >, <a href="https://bdcaf.github.io/tags/config">config</a
     >, <a href="https://bdcaf.github.io/tags/hugo">hugo</a
     ></span></div>
-<div class="article-style" itemprop="articleBody"><p>Now this site is on <a href="https://pages.github.com" target="_blank">github pages</a>.<br />
+<div class="article-style" itemprop="articleBody"><p>Now this site is on <a href="https://pages.github.com">github pages</a>.<br>
 I had already repos on github for some time and trusted it - only
 private repos I keep on other places. But mostly I was
 missing some features a bplaced so now the move.  Mostly I like that I
 can now post new content via git so I just need to transfer new posts
 and not the whole site.  That now the site is <code>https</code> secured is a
 nice boon.</p>
-
-<p>It took me some time to reconfigure my <a href="https://gohugo.io" target="_blank">hugo</a> blog for the pages here&rsquo;s what I learnt:</p>
-
+<p>It took me some time to reconfigure my <a href="https://gohugo.io">hugo</a> blog for the pages here&rsquo;s what I learnt:</p>
 <ul>
 <li>the name of the repo must be <code>username.github.io</code> - at first I had
 the impression <code>username</code> was enough, and also some guides would
 describe how to use gitlab instead.</li>
 <li>for me github insists publishing the <code>master</code> branch - so I had to
-juggle around,  the previous master got renamed to hugo doing: <code>git
-branch -m master hugo</code>.  I had already ignored the <code>public</code>
+juggle around,  the previous master got renamed to hugo doing: <code>git branch -m master hugo</code>.  I had already ignored the <code>public</code>
 directory, and had to delete the original master from online and
 recreate it empty - but I think one can streamline that.
 Then added the master using worktree in public: <code>git worktree add -B master public origin/master</code></li>
@@ -75,13 +72,12 @@ Then added the master using worktree in public: <code>git worktree add -B master
 notice the trailing slash.</li>
 <li>I can then use the <code>hugo</code> command to build my site.  And publish
 using <code>cd public; git add . ; git commit -am pub; git push; cd ..</code>  - I&rsquo;m in
-<a href="https://fishshell.com" target="_blank">fish</a> -  many others use <code>&amp;&amp;</code> instead.</li>
+<a href="https://fishshell.com">fish</a> -  many others use <code>&amp;&amp;</code> instead.</li>
 <li>I tried putting my binaries under <code>git lfs</code> - so far it seems to
 work.  I will write back in case anything shows up.</li>
 <li>It takes a minute till the change shows up. So I need to be
 patient.</li>
 </ul>
-
 <p>So there we are on github now&hellip;</p>
 </div></div>
 </article>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>uibk on C. Ager</title>
@@ -20,7 +20,8 @@
       <guid>https://bdcaf.github.io/2017/04/22/nice-stuff-from-uibk/</guid>
       <description>As I was checking whether the uibk would offer us some storage for git projects I was positively surprised they run a full gitlab instance.
 Unfortunately we will be limited to 50 projects - so I will not be able to abandon my bitbucket account. Anyway nice to be able to host potentially sensitive stuff internal.
-Also they run mattermost - now that looks very interesting. Chatting without going through american services&amp;hellip; Need to get my friends in there.</description>
+Also they run mattermost
+ now that looks very interesting. Chatting without going through american services&amp;hellip; Need to get my friends in there.</description>
     </item>
     
     <item>

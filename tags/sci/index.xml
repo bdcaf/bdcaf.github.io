@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>sci on C. Ager</title>
@@ -18,10 +18,9 @@
       <pubDate>Fri, 05 Apr 2019 11:32:33 +0200</pubDate>
       
       <guid>https://bdcaf.github.io/2019/04/05/mosquitoes/</guid>
-      <description>&lt;p&gt;There is an interesting paper on Mosquitoes from Raji et. al. (&amp;ldquo;Aedes aegypti Mosquitoes Detect Acidic Volatiles Found in Human Odor Using the IR8a Pathway&amp;rdquo;, doi: &lt;a href=&#34;https://doi.org/10.1016/j.cub.2019.02.045&#34; target=&#34;_blank&#34;&gt;10.1016/j.cub.2019.02.045&lt;/a&gt;).
-It deals with how mosquitoes track their human targets.  They identify three ranges -  at furthest they track by CO&lt;sub&gt;2&lt;/sub&gt;,  in mid-range by IR and at closest they zoom in on particular VOCs.&lt;/p&gt;
-
-&lt;p&gt;I&amp;rsquo;m working on project &lt;a href=&#34;https://www.uibk.ac.at/breath-research/projects/kiras/kiras-2016.html&#34; target=&#34;_blank&#34;&gt;KIRAS&lt;/a&gt; now for some time,  and we essentially also need to track humans. It seems our machine learning algorithm has a similar approach (although we do not use IR).  But CO&lt;sub&gt;2&lt;/sub&gt; is more dominant in large containers,  while in smaller other compounds play greater role.&lt;/p&gt;</description>
+      <description>&lt;p&gt;There is an interesting paper on Mosquitoes from Raji et. al. (&amp;ldquo;Aedes aegypti Mosquitoes Detect Acidic Volatiles Found in Human Odor Using the IR8a Pathway&amp;rdquo;, doi: &lt;a href=&#34;https://doi.org/10.1016/j.cub.2019.02.045&#34;&gt;10.1016/j.cub.2019.02.045&lt;/a&gt;).
+It deals with how mosquitoes track their human targets.  They identify three ranges -  at furthest they track by CO&lt;!-- raw HTML omitted --&gt;2&lt;!-- raw HTML omitted --&gt;,  in mid-range by IR and at closest they zoom in on particular VOCs.&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;m working on project &lt;a href=&#34;https://www.uibk.ac.at/breath-research/projects/kiras/kiras-2016.html&#34;&gt;KIRAS&lt;/a&gt; now for some time,  and we essentially also need to track humans. It seems our machine learning algorithm has a similar approach (although we do not use IR).  But CO&lt;!-- raw HTML omitted --&gt;2&lt;!-- raw HTML omitted --&gt; is more dominant in large containers,  while in smaller other compounds play greater role.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -41,7 +40,7 @@ Unfortunately I had extremely limited room to address the statistical issues. An
       
       <guid>https://bdcaf.github.io/2017/01/14/after-three-months-finally-an-euler-result-again/</guid>
       <description>Having spent three months on and off a problem I finally managed to sufficiently solve Problem 110. Strange how problems change once you work on huge numbers.
-But now I can again proudly present my score . Nicely this puts me in the statistics of active ones on place 19 in Austria.</description>
+But now I can again proudly present my score &amp;lt;img src=&amp;quot;https://projecteuler.net/profile/cager.png&amp;rdquo;, alt=&amp;quot;Project Euler Score&amp;rdquo;/&amp;gt;. Nicely this puts me in the statistics of active ones on place 19 in Austria.</description>
     </item>
     
     <item>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on C. Ager</title>
@@ -7,10 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Clemens Ager, Brixlegg</copyright>
-    <lastBuildDate>Sun, 23 Jun 2019 11:54:51 +0200</lastBuildDate>
+    <lastBuildDate>Tue, 11 Feb 2020 10:00:40 +0100</lastBuildDate>
     
 	<atom:link href="https://bdcaf.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>2020 01 Cookiecutter</title>
+      <link>https://bdcaf.github.io/2020/02/11/2020-01-cookiecutter/</link>
+      <pubDate>Tue, 11 Feb 2020 10:00:40 +0100</pubDate>
+      
+      <guid>https://bdcaf.github.io/2020/02/11/2020-01-cookiecutter/</guid>
+      <description>&lt;p&gt;Having some more time at hand I was able to add long overdue alterations to &lt;a href=&#34;https://github.com/bdcaf/cookiecutter-r-data-analysis&#34;&gt;cookiecutter-r-data-analysis&lt;/a&gt;.
+I left my template alone for about a year and during this time I have developed some new practices and given up on some others.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Survival of fittest</title>
@@ -18,7 +28,7 @@
       <pubDate>Sun, 23 Jun 2019 11:54:51 +0200</pubDate>
       
       <guid>https://bdcaf.github.io/2019/06/23/survival-of-fittest/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://www.survivalofthebestfit.com&#34; target=&#34;_blank&#34;&gt;Survival of the fittest&lt;/a&gt; is a pretty demonstration how algorithmic bias comes to be.&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;a href=&#34;https://www.survivalofthebestfit.com&#34;&gt;Survival of the fittest&lt;/a&gt; is a pretty demonstration how algorithmic bias comes to be.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -28,7 +38,7 @@
       
       <guid>https://bdcaf.github.io/2019/06/19/trying-atom/</guid>
       <description>&lt;p&gt;Just got back from Dornbirn and the paper is sent off for review.
-So I got some time at hand and can checkout &lt;a href=&#34;https://atom.io&#34; target=&#34;_blank&#34;&gt;atom&lt;/a&gt; again.
+So I got some time at hand and can checkout &lt;a href=&#34;https://atom.io&#34;&gt;atom&lt;/a&gt; again.
 My workhorse was vim - and although I generally feel empowered using it in larger projects I would prefer a more user-friendly organization.&lt;/p&gt;</description>
     </item>
     
@@ -38,12 +48,9 @@ My workhorse was vim - and although I generally feel empowered using it in large
       <pubDate>Fri, 26 Apr 2019 13:40:24 +0200</pubDate>
       
       <guid>https://bdcaf.github.io/2019/04/26/new-project-r-hugo-papers/</guid>
-      <description>&lt;p&gt;I started the project &lt;a href=&#34;https://bdcaf.github.io/r-hugo-papercss-template/&#34; target=&#34;_blank&#34;&gt;R-Hugo-Papercss&lt;/a&gt;.&lt;/p&gt;
-
+      <description>&lt;p&gt;I started the project &lt;a href=&#34;https://bdcaf.github.io/r-hugo-papercss-template/&#34;&gt;R-Hugo-Papercss&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;This is a template for the hugo static site engine.  The purpose is to use its page bundle feature with generated content from R.  There were small issues to make hugo write the relative URLs.&lt;/p&gt;
-
-&lt;p&gt;I also uses the &lt;a href=&#34;https://www.getpapercss.com&#34; target=&#34;_blank&#34;&gt;papercss&lt;/a&gt; layout.  It seems suitable for a private science blog as it reminds me on the &lt;a href=&#34;https://en.wikipedia.org/wiki/Randall_Munroe&#34; target=&#34;_blank&#34;&gt;Randal Munroe&lt;/a&gt;s XKCD style.&lt;/p&gt;
-
+&lt;p&gt;I also uses the &lt;a href=&#34;https://www.getpapercss.com&#34;&gt;papercss&lt;/a&gt; layout.  It seems suitable for a private science blog as it reminds me on the &lt;a href=&#34;https://en.wikipedia.org/wiki/Randall_Munroe&#34;&gt;Randal Munroe&lt;/a&gt;s XKCD style.&lt;/p&gt;
 &lt;p&gt;By now feels complete enough to try out blogging.&lt;/p&gt;</description>
     </item>
     
@@ -62,14 +69,11 @@ My workhorse was vim - and although I generally feel empowered using it in large
       <pubDate>Fri, 19 Apr 2019 18:33:04 +0200</pubDate>
       
       <guid>https://bdcaf.github.io/2019/04/19/learning-blender/</guid>
-      <description>&lt;p&gt;Having some downtime I watched some tutorials for &lt;a href=&#34;https://www.blender.org&#34; target=&#34;_blank&#34;&gt;blender&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;It feels like a  powerful tool.  However the long wait for rendering is annoying.&lt;br /&gt;
+      <description>&lt;p&gt;Having some downtime I watched some tutorials for &lt;a href=&#34;https://www.blender.org&#34;&gt;blender&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;It feels like a  powerful tool.  However the long wait for rendering is annoying.&lt;br&gt;
 I particularly like the physics simulations.
-As test I followed the this &lt;a href=&#34;https://youtu.be/YFmN7eTNfNw&#34; target=&#34;_blank&#34;&gt;tutorial&lt;/a&gt;.  Really simple - just the render took over an hour.&lt;/p&gt;
-
+As test I followed the this &lt;a href=&#34;https://youtu.be/YFmN7eTNfNw&#34;&gt;tutorial&lt;/a&gt;.  Really simple - just the render took over an hour.&lt;/p&gt;
 &lt;p&gt;Anyway enjoy some nice wood chipping.&lt;/p&gt;
-
 &lt;figure&gt;
 	&lt;video controls src=&#34;https://bdcaf.github.io/2019/04/19/learning-blender/rener.mp4&#34;&gt;&lt;/video&gt;
   &lt;figcaption&gt;&lt;p&gt;Chipping wood simulation.&lt;/p&gt;&lt;/figcaption&gt;
@@ -82,10 +86,9 @@ As test I followed the this &lt;a href=&#34;https://youtu.be/YFmN7eTNfNw&#34; ta
       <pubDate>Fri, 05 Apr 2019 11:32:33 +0200</pubDate>
       
       <guid>https://bdcaf.github.io/2019/04/05/mosquitoes/</guid>
-      <description>&lt;p&gt;There is an interesting paper on Mosquitoes from Raji et. al. (&amp;ldquo;Aedes aegypti Mosquitoes Detect Acidic Volatiles Found in Human Odor Using the IR8a Pathway&amp;rdquo;, doi: &lt;a href=&#34;https://doi.org/10.1016/j.cub.2019.02.045&#34; target=&#34;_blank&#34;&gt;10.1016/j.cub.2019.02.045&lt;/a&gt;).
-It deals with how mosquitoes track their human targets.  They identify three ranges -  at furthest they track by CO&lt;sub&gt;2&lt;/sub&gt;,  in mid-range by IR and at closest they zoom in on particular VOCs.&lt;/p&gt;
-
-&lt;p&gt;I&amp;rsquo;m working on project &lt;a href=&#34;https://www.uibk.ac.at/breath-research/projects/kiras/kiras-2016.html&#34; target=&#34;_blank&#34;&gt;KIRAS&lt;/a&gt; now for some time,  and we essentially also need to track humans. It seems our machine learning algorithm has a similar approach (although we do not use IR).  But CO&lt;sub&gt;2&lt;/sub&gt; is more dominant in large containers,  while in smaller other compounds play greater role.&lt;/p&gt;</description>
+      <description>&lt;p&gt;There is an interesting paper on Mosquitoes from Raji et. al. (&amp;ldquo;Aedes aegypti Mosquitoes Detect Acidic Volatiles Found in Human Odor Using the IR8a Pathway&amp;rdquo;, doi: &lt;a href=&#34;https://doi.org/10.1016/j.cub.2019.02.045&#34;&gt;10.1016/j.cub.2019.02.045&lt;/a&gt;).
+It deals with how mosquitoes track their human targets.  They identify three ranges -  at furthest they track by CO&lt;!-- raw HTML omitted --&gt;2&lt;!-- raw HTML omitted --&gt;,  in mid-range by IR and at closest they zoom in on particular VOCs.&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;m working on project &lt;a href=&#34;https://www.uibk.ac.at/breath-research/projects/kiras/kiras-2016.html&#34;&gt;KIRAS&lt;/a&gt; now for some time,  and we essentially also need to track humans. It seems our machine learning algorithm has a similar approach (although we do not use IR).  But CO&lt;!-- raw HTML omitted --&gt;2&lt;!-- raw HTML omitted --&gt; is more dominant in large containers,  while in smaller other compounds play greater role.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -94,12 +97,10 @@ It deals with how mosquitoes track their human targets.  They identify three ran
       <pubDate>Sun, 24 Mar 2019 08:48:56 +0100</pubDate>
       
       <guid>https://bdcaf.github.io/2019/03/24/pheromone/</guid>
-      <description>&lt;p&gt;&amp;ldquo;BBC in our time&amp;rdquo; had a good &lt;a href=&#34;https://www.bbc.co.uk/programmes/m0002mdl&#34; target=&#34;_blank&#34;&gt;podcast about pheromones&lt;/a&gt;.  Too bad they don&amp;rsquo;t offer transcripts.&lt;/p&gt;
-
-&lt;p&gt;Pheromones in breath would be most interesting however it is still in debate whether human pheromones exist at all.&lt;br /&gt;
-But there was the discovery of rabbit mammary pheromone  by &lt;a href=&#34;https://www.nature.com/articles/nature01739&#34; target=&#34;_blank&#34;&gt;Schaal et al&lt;/a&gt;.  And the &lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2890510/&#34; target=&#34;_blank&#34;&gt;darcin pheromone in mice&lt;/a&gt;.
-I did learn that some animals also have another organ related to smell - the &lt;a href=&#34;https://en.wikipedia.org/wiki/Vomeronasal_organ&#34; target=&#34;_blank&#34;&gt;vomeronasal organ (Jacobson&amp;rsquo;s organ)&lt;/a&gt;.  It seems to be also present in humans.&lt;/p&gt;
-
+      <description>&lt;p&gt;&amp;ldquo;BBC in our time&amp;rdquo; had a good &lt;a href=&#34;https://www.bbc.co.uk/programmes/m0002mdl&#34;&gt;podcast about pheromones&lt;/a&gt;.  Too bad they don&amp;rsquo;t offer transcripts.&lt;/p&gt;
+&lt;p&gt;Pheromones in breath would be most interesting however it is still in debate whether human pheromones exist at all.&lt;br&gt;
+But there was the discovery of rabbit mammary pheromone  by &lt;a href=&#34;https://www.nature.com/articles/nature01739&#34;&gt;Schaal et al&lt;/a&gt;.  And the &lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2890510/&#34;&gt;darcin pheromone in mice&lt;/a&gt;.
+I did learn that some animals also have another organ related to smell - the &lt;a href=&#34;https://en.wikipedia.org/wiki/Vomeronasal_organ&#34;&gt;vomeronasal organ (Jacobson&amp;rsquo;s organ)&lt;/a&gt;.  It seems to be also present in humans.&lt;/p&gt;
 &lt;p&gt;Unfortunately our tech still doesn&amp;rsquo;t perform to well at the relevant masses, though that is an most interesting research area.&lt;/p&gt;</description>
     </item>
     
@@ -112,12 +113,10 @@ I did learn that some animals also have another organ related to smell - the &lt
       <description>&lt;p&gt;Recently some html and css videos caught my attention.
 I started reworking the layout using the new practices I learnt.
 Hope they will still work fine.&lt;/p&gt;
-
 &lt;p&gt;In particular I found the videos by Jen Simmons inspiring.&lt;/p&gt;
 
-
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;//www.youtube-nocookie.com/embed/tFKrK4eAiUQ&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+  &lt;iframe src=&#34;https://www.youtube-nocookie.com/embed/tFKrK4eAiUQ&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;</description>
     </item>
     
@@ -127,13 +126,12 @@ Hope they will still work fine.&lt;/p&gt;
       <pubDate>Tue, 05 Feb 2019 10:58:41 +0100</pubDate>
       
       <guid>https://bdcaf.github.io/2019/02/05/configuring-syncthing-on-mac-server/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://syncthing.net&#34; target=&#34;_blank&#34;&gt;Syncthing&lt;/a&gt; is currently my preferred tool to
-keep folders in sync.  Previously I had affairs with &lt;a href=&#34;https://git-annex.branchable.com&#34; target=&#34;_blank&#34;&gt;git
+      <description>&lt;p&gt;&lt;a href=&#34;https://syncthing.net&#34;&gt;Syncthing&lt;/a&gt; is currently my preferred tool to
+keep folders in sync.  Previously I had affairs with &lt;a href=&#34;https://git-annex.branchable.com&#34;&gt;git
 annex&lt;/a&gt;, and
-&lt;a href=&#34;https://rsync.samba.org&#34; target=&#34;_blank&#34;&gt;rsync&lt;/a&gt; scripts.&lt;/p&gt;
-
+&lt;a href=&#34;https://rsync.samba.org&#34;&gt;rsync&lt;/a&gt; scripts.&lt;/p&gt;
 &lt;p&gt;Recently I reactivated a 2009 Mac Mini as headless server under El
-Capitan.  &lt;a href=&#34;https://brew.sh&#34; target=&#34;_blank&#34;&gt;Homebrew&lt;/a&gt; is the tool of choice - it
+Capitan.  &lt;a href=&#34;https://brew.sh&#34;&gt;Homebrew&lt;/a&gt; is the tool of choice - it
 complains a little about the old OS but things work out nicely.&lt;/p&gt;</description>
     </item>
     
@@ -143,15 +141,14 @@ complains a little about the old OS but things work out nicely.&lt;/p&gt;</descr
       <pubDate>Tue, 15 Jan 2019 17:15:52 +0100</pubDate>
       
       <guid>https://bdcaf.github.io/2019/01/15/colliding-blocks/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/channel/UCYO_jab_esuFRV4b17AJtAw&#34; target=&#34;_blank&#34;&gt;Three blue one
+      <description>&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/channel/UCYO_jab_esuFRV4b17AJtAw&#34;&gt;Three blue one
 brown&lt;/a&gt; who
 makes amazing videos about maths found another amazing fact linking
 how masses collide with an amazing mathematical property.  Since I
 don&amp;rsquo;t want to spoil anything watch it!&lt;/p&gt;
 
-
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;//www.youtube-nocookie.com/embed/HEfHFsfGXjs&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+  &lt;iframe src=&#34;https://www.youtube-nocookie.com/embed/HEfHFsfGXjs&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;</description>
     </item>
     
@@ -162,8 +159,7 @@ don&amp;rsquo;t want to spoil anything watch it!&lt;/p&gt;
       
       <guid>https://bdcaf.github.io/2018/12/28/seeing-statistics/</guid>
       <description>&lt;p&gt;There is a nice introducition to statistics with visualisation of the
-concepts at &lt;a href=&#34;https://seeing-theory.brown.edu/index.html&#34; target=&#34;_blank&#34;&gt;seeing theory&lt;/a&gt;&lt;/p&gt;
-
+concepts at &lt;a href=&#34;https://seeing-theory.brown.edu/index.html&#34;&gt;seeing theory&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Takes about 20 minutes to click through.&lt;/p&gt;</description>
     </item>
     
@@ -173,12 +169,11 @@ concepts at &lt;a href=&#34;https://seeing-theory.brown.edu/index.html&#34; targ
       <pubDate>Mon, 19 Nov 2018 15:22:52 +0100</pubDate>
       
       <guid>https://bdcaf.github.io/2018/11/19/rubegoldberg/</guid>
-      <description>&lt;p&gt;There&amp;rsquo;s a fun video about a real-live &lt;a href=&#34;https://en.wikipedia.org/wiki/Rube_Goldberg_machine&#34; target=&#34;_blank&#34;&gt;Rube-Goldberg
+      <description>&lt;p&gt;There&amp;rsquo;s a fun video about a real-live &lt;a href=&#34;https://en.wikipedia.org/wiki/Rube_Goldberg_machine&#34;&gt;Rube-Goldberg
 machine&lt;/a&gt;&lt;/p&gt;
 
-
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;//www.youtube-nocookie.com/embed/auIlGqEyTm8&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+  &lt;iframe src=&#34;https://www.youtube-nocookie.com/embed/auIlGqEyTm8&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;</description>
     </item>
     
@@ -189,8 +184,8 @@ machine&lt;/a&gt;&lt;/p&gt;
       
       <guid>https://bdcaf.github.io/2018/11/19/crossover/</guid>
       <description>&lt;p&gt;Just recently got my hand on
-&lt;a href=&#34;https://www.codeweavers.com/products/crossover-mac&#34; target=&#34;_blank&#34;&gt;Crossover&lt;/a&gt;.  It&amp;rsquo;s
-essentially the commercially supported &lt;a href=&#34;https://www.winehq.org&#34; target=&#34;_blank&#34;&gt;wine&lt;/a&gt;.
+&lt;a href=&#34;https://www.codeweavers.com/products/crossover-mac&#34;&gt;Crossover&lt;/a&gt;.  It&amp;rsquo;s
+essentially the commercially supported &lt;a href=&#34;https://www.winehq.org&#34;&gt;wine&lt;/a&gt;.
 I am impressed how polished things feel nowadays.  I
 gave it usually &lt;em&gt;problematic&lt;/em&gt; scientific programs like the TofDaqViewer from
 Ionicon and the Nist library and it produced nicely running libraries.&lt;/p&gt;</description>
@@ -203,10 +198,10 @@ Ionicon and the Nist library and it produced nicely running libraries.&lt;/p&gt;
       
       <guid>https://bdcaf.github.io/2018/08/21/k%C3%B6hlmeier-at-br/</guid>
       <description>&lt;p&gt;Something for the German speakers.  The famous Austrian author
-&lt;a href=&#34;https://de.wikipedia.org/wiki/Michael_K%C3%B6hlmeier&#34; target=&#34;_blank&#34;&gt;Michael
+&lt;a href=&#34;https://de.wikipedia.org/wiki/Michael_K%C3%B6hlmeier&#34;&gt;Michael
 Köhlmeier&lt;/a&gt; has
-made several lectures where he retells classical literature.&lt;br /&gt;
-BR has made two podcasts available &lt;a href=&#34;https://www.br.de/mediathek/podcast/mythen-michael-koehlmeier-erzaehlt-sagen-des-klassischen-altertums/529&#34; target=&#34;_blank&#34;&gt;Mythen&lt;/a&gt; and &lt;a href=&#34;https://www.br.de/mediathek/podcast/koehlmeiers-maerchen/513&#34; target=&#34;_blank&#34;&gt;Märchen&lt;/a&gt;.
+made several lectures where he retells classical literature.&lt;br&gt;
+BR has made two podcasts available &lt;a href=&#34;https://www.br.de/mediathek/podcast/mythen-michael-koehlmeier-erzaehlt-sagen-des-klassischen-altertums/529&#34;&gt;Mythen&lt;/a&gt; and &lt;a href=&#34;https://www.br.de/mediathek/podcast/koehlmeiers-maerchen/513&#34;&gt;Märchen&lt;/a&gt;.
 Both feature an number of 15 minute episodes which can be downloaded
 directly or subscribed in your podcatcher.&lt;/p&gt;</description>
     </item>
@@ -218,20 +213,17 @@ directly or subscribed in your podcatcher.&lt;/p&gt;</description>
       
       <guid>https://bdcaf.github.io/2018/08/03/publii/</guid>
       <description>&lt;p&gt;I was quite happy to find the graphical tool
-&lt;a href=&#34;https://getpublii.com/&#34; target=&#34;_blank&#34;&gt;publii&lt;/a&gt; for building statical sites.&lt;/p&gt;
-
+&lt;a href=&#34;https://getpublii.com/&#34;&gt;publii&lt;/a&gt; for building statical sites.&lt;/p&gt;
 &lt;p&gt;Many people still use Wordpress and the like to publish their blog.  I
 don&amp;rsquo;t like Wordpress as it requires to run PHP on the server meaning
 it offers a quite large attack surface.&lt;/p&gt;
-
 &lt;p&gt;I prefer the static site approach.   This also allows to radically cut
 down on JavaScript and other external resources and gives me
 the peace of mind that I don&amp;rsquo;t need to worry about updating a
 Wordpress installation.&lt;/p&gt;
-
 &lt;p&gt;However the tool of
-my choice, &lt;a href=&#34;https://gohugo.io&#34; target=&#34;_blank&#34;&gt;Hugo&lt;/a&gt; is a bit technical.   Now with
-&lt;a href=&#34;https://getpublii.com/&#34; target=&#34;_blank&#34;&gt;publii&lt;/a&gt; there is something that I might
+my choice, &lt;a href=&#34;https://gohugo.io&#34;&gt;Hugo&lt;/a&gt; is a bit technical.   Now with
+&lt;a href=&#34;https://getpublii.com/&#34;&gt;publii&lt;/a&gt; there is something that I might
 suggest command line muggles.&lt;/p&gt;</description>
     </item>
     
@@ -243,8 +235,8 @@ suggest command line muggles.&lt;/p&gt;</description>
       <guid>https://bdcaf.github.io/2018/06/29/abandonware/</guid>
       <description>&lt;p&gt;Every now and then I look up the games from my past.  It is amazing
 that there are now archives of these ancient games online.  Today I
-discovered &lt;a href=&#34;https://www.myabandonware.com&#34; target=&#34;_blank&#34;&gt;myabandoneware&lt;/a&gt; like the
-&lt;a href=&#34;https://arvchive.org&#34; target=&#34;_blank&#34;&gt;internet archive&lt;/a&gt; they not only have the
+discovered &lt;a href=&#34;https://www.myabandonware.com&#34;&gt;myabandoneware&lt;/a&gt; like the
+&lt;a href=&#34;https://arvchive.org&#34;&gt;internet archive&lt;/a&gt; they not only have the
 downloads - but also a player where you can play in the browser
 window.  Not so nice for new games but for the ancient ones I did
 remember amazing.&lt;/p&gt;</description>
@@ -257,9 +249,8 @@ remember amazing.&lt;/p&gt;</description>
       
       <guid>https://bdcaf.github.io/2018/06/14/mass-editing-tags/</guid>
       <description>&lt;p&gt;Having read some about the
-&lt;a href=&#34;https://github.com/rstudio/blogdown&#34; target=&#34;_blank&#34;&gt;blogdown&lt;/a&gt; package I thought I
+&lt;a href=&#34;https://github.com/rstudio/blogdown&#34;&gt;blogdown&lt;/a&gt; package I thought I
 could cleanup my site some more.&lt;/p&gt;
-
 &lt;p&gt;I came up with some scripts to clean up tags.&lt;/p&gt;</description>
     </item>
     
@@ -269,10 +260,8 @@ could cleanup my site some more.&lt;/p&gt;
       <pubDate>Mon, 04 Jun 2018 09:33:04 +0200</pubDate>
       
       <guid>https://bdcaf.github.io/2018/06/04/math-acrobatics/</guid>
-      <description>&lt;p&gt;The youtuber &lt;a href=&#34;https://www.youtube.com/channel/UCYO_jab_esuFRV4b17AJtAw&#34; target=&#34;_blank&#34;&gt;3blue1brown&lt;/a&gt; has a number of interesting posts.  however often he is a bit fast for me and it seems handwaving.&lt;/p&gt;
-
-&lt;p&gt;Recently he made a fantastic video about solving the &lt;a href=&#34;https://youtu.be/2SUvWfNJSsM&#34; target=&#34;_blank&#34;&gt;towers of hanoi&lt;/a&gt;.  I did already know it is easy to spell out the solution in terms of recursion.  However he showed some connection to binary and ternary numbers - which alone is funny.  And finally that the solution also traverses the Sierpinsky triangle in &lt;a href=&#34;https://youtu.be/bdMfjfT0lKk&#34; target=&#34;_blank&#34;&gt;part 2&lt;/a&gt; which is surprising.&lt;/p&gt;
-
+      <description>&lt;p&gt;The youtuber &lt;a href=&#34;https://www.youtube.com/channel/UCYO_jab_esuFRV4b17AJtAw&#34;&gt;3blue1brown&lt;/a&gt; has a number of interesting posts.  however often he is a bit fast for me and it seems handwaving.&lt;/p&gt;
+&lt;p&gt;Recently he made a fantastic video about solving the &lt;a href=&#34;https://youtu.be/2SUvWfNJSsM&#34;&gt;towers of hanoi&lt;/a&gt;.  I did already know it is easy to spell out the solution in terms of recursion.  However he showed some connection to binary and ternary numbers - which alone is funny.  And finally that the solution also traverses the Sierpinsky triangle in &lt;a href=&#34;https://youtu.be/bdMfjfT0lKk&#34;&gt;part 2&lt;/a&gt; which is surprising.&lt;/p&gt;
 &lt;p&gt;I embeded the videos after the &amp;ldquo;post&amp;rdquo; fold for convenient watching.&lt;/p&gt;</description>
     </item>
     
@@ -284,14 +273,11 @@ could cleanup my site some more.&lt;/p&gt;
       <guid>https://bdcaf.github.io/2018/06/01/presentation-of-phd-topic/</guid>
       <description>&lt;p&gt;I finally had a presentation on my PhD topic.  This was one of the
 more strenous tasks.  Last time I prepared for such a seminar
-coincided with &lt;a href=&#34;https://en.wikipedia.org/wiki/Anton_Amann&#34; target=&#34;_blank&#34;&gt;Prof. Amanns death&lt;/a&gt;.  I then put it off for some time.&lt;/p&gt;
-
+coincided with &lt;a href=&#34;https://en.wikipedia.org/wiki/Anton_Amann&#34;&gt;Prof. Amanns death&lt;/a&gt;.  I then put it off for some time.&lt;/p&gt;
 &lt;p&gt;So this time I had plenty of new data.  But also some new insights I
 wanted like to present.&lt;/p&gt;
-
 &lt;p&gt;Here&amp;rsquo;s a cleaned up version based on comments I got after the
 presentation.&lt;/p&gt;
-
 &lt;div class=&#34;embed-responsive&#34;&gt;
   &lt;object data=&#34;/post/academic/phd_pres.pdf&#34; type=&#39;application/pdf&#39; width=&#39;100%&#39; height=&#39;400px&#39; &gt;
     &lt;p&gt;This browser does not support inline PDFs. Please download the PDF to view it: 
@@ -305,21 +291,17 @@ presentation.&lt;/p&gt;
       <pubDate>Tue, 29 May 2018 10:44:19 +0200</pubDate>
       
       <guid>https://bdcaf.github.io/2018/05/29/rescuing-my-pdf-presentation-on-mac/</guid>
-      <description>&lt;p&gt;(tldr;) use &lt;a href=&#34;https://www.cs.hmc.edu/~oneill/freesoftware/pdftokeynote.html&#34; target=&#34;_blank&#34;&gt;PDF to
+      <description>&lt;p&gt;(tldr;) use &lt;a href=&#34;https://www.cs.hmc.edu/~oneill/freesoftware/pdftokeynote.html&#34;&gt;PDF to
 Keynote&lt;/a&gt; to convert a tex presentation for convenient presenting.&lt;/p&gt;
-
 &lt;p&gt;I did have a presentation on my PhDs topic last week.  Took me some
 collecting data from recent paper drafts and old slides to create
 something polished.&lt;/p&gt;
-
-&lt;p&gt;As you would expect I prepared the presentation in &lt;a href=&#34;https://github.com/josephwright/beamer&#34; target=&#34;_blank&#34;&gt;beamer latex&lt;/a&gt;.  I found the &lt;a href=&#34;https://github.com/matze/mtheme&#34; target=&#34;_blank&#34;&gt;metropolis template&lt;/a&gt; to my liking.&lt;/p&gt;
-
+&lt;p&gt;As you would expect I prepared the presentation in &lt;a href=&#34;https://github.com/josephwright/beamer&#34;&gt;beamer latex&lt;/a&gt;.  I found the &lt;a href=&#34;https://github.com/matze/mtheme&#34;&gt;metropolis template&lt;/a&gt; to my liking.&lt;/p&gt;
 &lt;p&gt;Great was my shock as the slides would show up blurry in full screen -
 well for the first second - and then &amp;ldquo;jump&amp;rdquo; to nicely rendered.  I
 tried in Preview as well as Skim. They would render nicely but still
 slow in Acrobat Reader - however I don&amp;rsquo;t like that one.&lt;/p&gt;
-
-&lt;p&gt;On the last day I found my lifesaver: &lt;a href=&#34;https://www.cs.hmc.edu/~oneill/freesoftware/pdftokeynote.html&#34; target=&#34;_blank&#34;&gt;PDF to
+&lt;p&gt;On the last day I found my lifesaver: &lt;a href=&#34;https://www.cs.hmc.edu/~oneill/freesoftware/pdftokeynote.html&#34;&gt;PDF to
 Keynote&lt;/a&gt;.
 Not only would it transfer my slides into sharp images,  I then could
 also use the fancy Keynote controls and the moderator screen for
@@ -332,13 +314,12 @@ notes.&lt;/p&gt;</description>
       <pubDate>Wed, 23 May 2018 12:38:11 +0200</pubDate>
       
       <guid>https://bdcaf.github.io/2018/05/23/merchant-of-venice/</guid>
-      <description>&lt;p&gt;These days I saw the &lt;a href=&#34;https://www.shit-facedshakespeare.com&#34; target=&#34;_blank&#34;&gt;shitfaced shakespeares&lt;/a&gt; merchant of
+      <description>&lt;p&gt;These days I saw the &lt;a href=&#34;https://www.shit-facedshakespeare.com&#34;&gt;shitfaced shakespeares&lt;/a&gt; merchant of
 venice.   The shit faced spin seemed like a good idea.  It means one of
 the main actors had to drink before and during the show and was given
 some leeway in their role.  There is a mistress of ceremony that
 provides the actor some drinks during the show and takes care things
 don&amp;rsquo;t go out of hand.&lt;/p&gt;
-
 &lt;p&gt;It didn&amp;rsquo;t play out that well.  A little slapstick was fun. Humour is
 more than cursing on stage - it just is not that outstanding - maybe
 for Americans.  Anyway the fooling around and raunchy got boring
@@ -355,9 +336,7 @@ though.  I just was hoping on a more modern interpretation.&lt;/p&gt;</descripti
       <guid>https://bdcaf.github.io/2018/04/04/2018-life-science-meeting/</guid>
       <description>&lt;p&gt;I will present a poster there.  My poster session is on Thursday, at
 3pm.&lt;/p&gt;
-
 &lt;p&gt;Here&amp;rsquo;s the poster:&lt;/p&gt;
-
 &lt;div class=&#34;embed-responsive&#34;&gt;
   &lt;object data=&#34;/post/academic/2018-life-science.pdf&#34; type=&#39;application/pdf&#39; width=&#39;100%&#39; height=&#39;400px&#39; &gt;
     &lt;p&gt;This browser does not support inline PDFs. Please download the PDF to view it: 
@@ -371,13 +350,12 @@ though.  I just was hoping on a more modern interpretation.&lt;/p&gt;</descripti
       <pubDate>Fri, 30 Mar 2018 12:58:23 +0200</pubDate>
       
       <guid>https://bdcaf.github.io/2018/03/30/keep-talking-and-nobody-explodes/</guid>
-      <description>&lt;p&gt;At the current &lt;a href=&#34;https://www.humblebundle.com/games/humble-indie-bundle-19&#34; target=&#34;_blank&#34;&gt;HUMBLE INDIE BUNDLE 19&lt;/a&gt; they
-include the party game &lt;a href=&#34;http://www.keeptalkinggame.com&#34; target=&#34;_blank&#34;&gt;Keep talking and nobody explodes&lt;/a&gt;.  One can get it the next 10
+      <description>&lt;p&gt;At the current &lt;a href=&#34;https://www.humblebundle.com/games/humble-indie-bundle-19&#34;&gt;HUMBLE INDIE BUNDLE 19&lt;/a&gt; they
+include the party game &lt;a href=&#34;http://www.keeptalkinggame.com&#34;&gt;Keep talking and nobody explodes&lt;/a&gt;.  One can get it the next 10
 days for about 5€.  Basically one sits in front of the computer which
 simulates a bomb, the rest of the group has the bomb manual and is not
 allowed to see the bomb.  They need to talk the one on the bomb trough
 defusal.&lt;/p&gt;
-
 &lt;p&gt;I couldn&amp;rsquo;t resist.  Looking forward to try it at the next party.
 Before I was watching some Youtube videos and it looks great fun.&lt;/p&gt;</description>
     </item>
@@ -426,7 +404,7 @@ I got pointed to learngitbranching. It looks polished and the exercises are shor
       <pubDate>Sat, 03 Feb 2018 09:01:13 +0100</pubDate>
       
       <guid>https://bdcaf.github.io/2018/02/03/euclidea/</guid>
-      <description>Having some extra time? Euclidea teaches euclidean geometry using puzzles. Only working with compass and straightedge. Too long time I practiced these. </description>
+      <description>Having some extra time? Euclidea teaches euclidean geometry using puzzles. Only working with compass and straightedge. Too long time I practiced these.</description>
     </item>
     
     <item>
@@ -466,7 +444,7 @@ I added all my packages using git submodule add in directories like pack/git/sta
       <pubDate>Thu, 25 Jan 2018 16:11:15 +0100</pubDate>
       
       <guid>https://bdcaf.github.io/2018/01/25/rand/</guid>
-      <description>RAND corporation has released some of their classics freely at RAND Classics. I did already know The Compleat Strategyst which is a classic. There are some more game theory books that I don&amp;rsquo;t know yet. And lots of cold war strategy - all worth a look. </description>
+      <description>RAND corporation has released some of their classics freely at RAND Classics. I did already know The Compleat Strategyst which is a classic. There are some more game theory books that I don&amp;rsquo;t know yet. And lots of cold war strategy - all worth a look.</description>
     </item>
     
     <item>
@@ -577,7 +555,8 @@ For me this is a daily issue. My colleagues usually are happy to just get a quic
       <guid>https://bdcaf.github.io/2017/04/22/nice-stuff-from-uibk/</guid>
       <description>As I was checking whether the uibk would offer us some storage for git projects I was positively surprised they run a full gitlab instance.
 Unfortunately we will be limited to 50 projects - so I will not be able to abandon my bitbucket account. Anyway nice to be able to host potentially sensitive stuff internal.
-Also they run mattermost - now that looks very interesting. Chatting without going through american services&amp;hellip; Need to get my friends in there.</description>
+Also they run mattermost
+ now that looks very interesting. Chatting without going through american services&amp;hellip; Need to get my friends in there.</description>
     </item>
     
     <item>
@@ -635,9 +614,7 @@ Unfortunately I had extremely limited room to address the statistical issues. An
       <pubDate>Wed, 08 Feb 2017 09:53:31 +0100</pubDate>
       
       <guid>https://bdcaf.github.io/2017/02/08/ever-wondered-about-statistical-mechanics/</guid>
-      <description>This is a very ominous first paragraph of a textbook (States of Matter, by David Goodstein): pic.twitter.com/POlhOdQNaV
-&amp;mdash; Julia Galef (@juliagalef) February 8, 2017 
-At least the book got it right :smiley_cat:</description>
+      <description>At least the book got it right :smiley_cat:</description>
     </item>
     
     <item>
@@ -657,7 +634,7 @@ The initial cloud looks not good enough - I did not like how plurals are counted
       
       <guid>https://bdcaf.github.io/2017/01/14/after-three-months-finally-an-euler-result-again/</guid>
       <description>Having spent three months on and off a problem I finally managed to sufficiently solve Problem 110. Strange how problems change once you work on huge numbers.
-But now I can again proudly present my score . Nicely this puts me in the statistics of active ones on place 19 in Austria.</description>
+But now I can again proudly present my score &amp;lt;img src=&amp;quot;https://projecteuler.net/profile/cager.png&amp;rdquo;, alt=&amp;quot;Project Euler Score&amp;rdquo;/&amp;gt;. Nicely this puts me in the statistics of active ones on place 19 in Austria.</description>
     </item>
     
     <item>
@@ -676,8 +653,7 @@ The whole idea of censoring values below LOQ was already debunked by Currie.</de
       <pubDate>Wed, 11 Jan 2017 08:45:31 +0100</pubDate>
       
       <guid>https://bdcaf.github.io/2017/01/11/ooooh-shiny/</guid>
-      <description>Science experiments you can recreate&amp;hellip; pic.twitter.com/mpiwmo6pAO
-&amp;mdash; kengarex (@kengarex) January 9, 2017</description>
+      <description></description>
     </item>
     
     <item>
@@ -696,8 +672,7 @@ The whole idea of censoring values below LOQ was already debunked by Currie.</de
       
       <guid>https://bdcaf.github.io/2016/12/29/a-datapoint-walks-into-a-bar/</guid>
       <description>Excellent talk at this years 33C3.
-Story telling with data is so important and helps clarify lots of things.
- </description>
+Story telling with data is so important and helps clarify lots of things.</description>
     </item>
     
     <item>
@@ -706,8 +681,7 @@ Story telling with data is so important and helps clarify lots of things.
       <pubDate>Fri, 23 Dec 2016 15:56:59 +0100</pubDate>
       
       <guid>https://bdcaf.github.io/2016/12/23/xmas-bingo/</guid>
-      <description>Phd Comics did it again: The academic Christmas bingo. Who&amp;#39;s going to win this year? #RealTimeChem #phdchat #ECRchat pic.twitter.com/wjVpYLCMTV
-&amp;mdash; Sylvain Deville ❄️ (@DevilleSy) December 14, 2016 
+      <description>Phd Comics did it again:
 Merry Xmas everyone!</description>
     </item>
     
@@ -717,9 +691,7 @@ Merry Xmas everyone!</description>
       <pubDate>Mon, 19 Dec 2016 16:00:45 +0100</pubDate>
       
       <guid>https://bdcaf.github.io/2016/12/19/citation/</guid>
-      <description>Good one from SAS
-pic.twitter.com/XuwfDPsmHM
-&amp;mdash; Shit Academics Say (@AcademicsSay) December 19, 2016</description>
+      <description>Good one from SAS</description>
     </item>
     
     <item>
@@ -754,7 +726,6 @@ Steckenpferde von mir.&lt;/p&gt;</description>
       <guid>https://bdcaf.github.io/2016/09/13/erster-tag-auf-der-iabr-konferenz/</guid>
       <description>&lt;p&gt;Die Talks bis jetzt sind Wiederholungen vom letzten Jahr.  Aber es ja
 um mein Poster und Networken.&lt;/p&gt;
-
 &lt;p&gt;Statistik ist hier immer noch ein heißes Thema.  Die wenigsten machen
 robuste Statistik und korrigieren für wiederholte Vergleiche.  Das
 scheint noch nicht angekommen sein.  Allerdings kann ich dann sicher
@@ -769,10 +740,8 @@ Punkten wenn ich sie als erster erkläre :)&lt;/p&gt;</description>
       <guid>https://bdcaf.github.io/2016/09/11/endlich-das-poster-fertig/</guid>
       <description>&lt;p&gt;Hatte noch einige wichtige Resultate die ich einbinden wollte.
 Ansehen kann man das Poster &lt;a href=&#34;https://bdcaf.github.io/post/academic/iabr2016_poster.pdf&#34;&gt;hier&lt;/a&gt;.&lt;/p&gt;
-
 &lt;p&gt;Ich hoffe auf einige interessante Kontakte.  Gerade auf der
 statistischen Seite wäre es spannend die Sache zu erweitern.&lt;/p&gt;
-
 &lt;div class=&#34;embed-responsive&#34;&gt;
   &lt;object data=&#34;/post/academic/iabr2016_poster.pdf&#34; type=&#39;application/pdf&#39; width=&#39;100%&#39; height=&#39;400px&#39; &gt;
     &lt;p&gt;This browser does not support inline PDFs. Please download the PDF to view it: 
@@ -786,18 +755,16 @@ statistischen Seite wäre es spannend die Sache zu erweitern.&lt;/p&gt;
       <pubDate>Fri, 19 Aug 2016 13:33:46 +0200</pubDate>
       
       <guid>https://bdcaf.github.io/2016/08/19/wieder-humble/</guid>
-      <description>&lt;p&gt;Ich bin ein großer Fan der &lt;a href=&#34;https://www.humblebundle.com/&#34; target=&#34;_blank&#34;&gt;Humble
+      <description>&lt;p&gt;Ich bin ein großer Fan der &lt;a href=&#34;https://www.humblebundle.com/&#34;&gt;Humble
 Bundles&lt;/a&gt;.  Dort kann man kleine Spenden
 für wohltätige Zwecke tätigen und wird mit Software Downloads oder
 Bücherdownloads belohnt.  Ist eine tolle Sache weil gerade
 interessante Autoren mitmachen - oft aus der Indieszene.  Für eine
 Kleinstspende von 1€ gibts schon die ersten interessanten Belohnungen.&lt;/p&gt;
-
 &lt;p&gt;Die nächsten 12 Tage ists wieder besonders interessant - so haben sie
-gute Programmierbücher wie das &amp;ldquo;&lt;a href=&#34;http://learnyouahaskell.com/&#34; target=&#34;_blank&#34;&gt;Learn you a Haskell for great
-good&lt;/a&gt;&amp;rdquo;.  Und an Programme gibts des
-berühmte &amp;ldquo;&lt;a href=&#34;http://www.thebeginnersgui.de/&#34; target=&#34;_blank&#34;&gt;Beginners Guide&lt;/a&gt;&amp;rdquo;.&lt;/p&gt;
-
+gute Programmierbücher wie das &amp;ldquo;&lt;a href=&#34;http://learnyouahaskell.com/&#34;&gt;Learn you a Haskell for great
+good&lt;/a&gt;&amp;quot;.  Und an Programme gibts des
+berühmte &amp;ldquo;&lt;a href=&#34;http://www.thebeginnersgui.de/&#34;&gt;Beginners Guide&lt;/a&gt;&amp;quot;.&lt;/p&gt;
 &lt;p&gt;Probierts mal aus. Ist cool!&lt;/p&gt;</description>
     </item>
     
@@ -821,7 +788,6 @@ nicht so schön wie ich sie gerne hätte.&lt;/p&gt;</description>
       <description>&lt;p&gt;Ich hatte das gar  nicht verfolgt.  Der Kalman-Filter war ja Hauptteil
 meiner Dipl. Arbeit.  Prof. Amann war ein riesen Fan - wollte alles
 mit Kalman Filtern lösen.&lt;/p&gt;
-
 &lt;p&gt;Nun hab ich schon lange nicht mehr nachgesehen.  Ich habe aber immer
 noch im Hinterkopf Partikel Filter für die Echtzeitgeschichten
 einzubauen - wenn mal wieder Zeit is&amp;hellip;&lt;/p&gt;</description>
@@ -833,14 +799,14 @@ einzubauen - wenn mal wieder Zeit is&amp;hellip;&lt;/p&gt;</description>
       <pubDate>Wed, 30 Mar 2016 00:00:00 +0000</pubDate>
       
       <guid>https://bdcaf.github.io/2016/03/30/mass-spectra-visualization/</guid>
-      <description>&lt;p&gt;I saw some &lt;a href=&#34;http://datadrivensecurity.info/blog/posts/2015/Jan/mapping-ipv4-address-in-hilbert-space/&#34; target=&#34;_blank&#34;&gt;nice visualiztion for IP
+      <description>&lt;p&gt;I saw some &lt;a href=&#34;http://datadrivensecurity.info/blog/posts/2015/Jan/mapping-ipv4-address-in-hilbert-space/&#34;&gt;nice visualiztion for IP
 adresses&lt;/a&gt;
 which made use of the hilbert curve for mapping sequatial data into an
 area. This has the nice benefit of assuring numbers that are close to
 each other stay close in two dimensions as well.  Unfortunately the
 opposite does not hold.  Conveniently a function to produce a hilbert
 curve is provided via
-&lt;a href=&#34;https://bioconductor.org/packages/release/bioc/html/HilbertVis.html&#34; target=&#34;_blank&#34;&gt;HilbertVis&lt;/a&gt;
+&lt;a href=&#34;https://bioconductor.org/packages/release/bioc/html/HilbertVis.html&#34;&gt;HilbertVis&lt;/a&gt;
 on bioconductor.&lt;/p&gt;</description>
     </item>
     
@@ -853,14 +819,11 @@ on bioconductor.&lt;/p&gt;</description>
       <description>&lt;p&gt;Es hat ja jeder die schwierige Diskussion um Axen die bei 0 oder nicht
 0 los gehen.  Ich verwende ja meist logarithmische - da spart man sich
 die Diskussion.&lt;/p&gt;
-
 &lt;p&gt;Da gibt es jetzt auch ein Video von Vox:&lt;/p&gt;
 
-
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;//www.youtube-nocookie.com/embed/14VYnFhBKcY&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+  &lt;iframe src=&#34;https://www.youtube-nocookie.com/embed/14VYnFhBKcY&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
-
 
 &lt;p&gt;Die rücken da die Story in den Vordergrund - das ist ein interessanter
 Gesichtspunkt.  Allerdings finde ich fast immer den Kontext ebenso
@@ -873,11 +836,9 @@ wichtig.&lt;/p&gt;</description>
       <pubDate>Sun, 08 Nov 2015 08:13:14 +0100</pubDate>
       
       <guid>https://bdcaf.github.io/2015/11/08/humble-peanuts/</guid>
-      <description>&lt;p&gt;Die &lt;a href=&#34;https://www.humblebundle.com&#34; target=&#34;_blank&#34;&gt;Humble Bundles&lt;/a&gt; sind ein interessantes Konzept - es geht darum einer Charity zu spenden und wird dadurch versüßt, dass man mit der Spende gleichzeitig einen Download kauft.
+      <description>&lt;p&gt;Die &lt;a href=&#34;https://www.humblebundle.com&#34;&gt;Humble Bundles&lt;/a&gt; sind ein interessantes Konzept - es geht darum einer Charity zu spenden und wird dadurch versüßt, dass man mit der Spende gleichzeitig einen Download kauft.
 Man kann den Preis für Downloads selbst bestimmen und die angebotenen Downloads sind oft interessante Indie Games oder ebooks.&lt;/p&gt;
-
-&lt;p&gt;Diese Woche sind zum Beispiel die &lt;a href=&#34;https://de.wikipedia.org/wiki/Die_Peanuts&#34; target=&#34;_blank&#34;&gt;Peanuts&lt;/a&gt; comics im &lt;a href=&#34;https://www.humblebundle.com/books&#34; target=&#34;_blank&#34;&gt;books bundle&lt;/a&gt;.  Ich kann sie nur empfehlen.  Das letzte Mal hab ich die als Kind gelesen - sie werden aber nur besser.&lt;/p&gt;
-
+&lt;p&gt;Diese Woche sind zum Beispiel die &lt;a href=&#34;https://de.wikipedia.org/wiki/Die_Peanuts&#34;&gt;Peanuts&lt;/a&gt; comics im &lt;a href=&#34;https://www.humblebundle.com/books&#34;&gt;books bundle&lt;/a&gt;.  Ich kann sie nur empfehlen.  Das letzte Mal hab ich die als Kind gelesen - sie werden aber nur besser.&lt;/p&gt;
 &lt;p&gt;Aus Begeisterung hab ich gleich den Avatar angepasst.&lt;/p&gt;</description>
     </item>
     
@@ -887,7 +848,7 @@ Man kann den Preis für Downloads selbst bestimmen und die angebotenen Downloads
       <pubDate>Thu, 05 Nov 2015 08:07:30 +0100</pubDate>
       
       <guid>https://bdcaf.github.io/2015/11/05/suchger%C3%A4t/</guid>
-      <description>&lt;p&gt;Bin gerade dabei Software zur Validierung eines Suchgeräts zu schreiben.  Normalerweise mach&amp;rsquo; ich ja Interpretation, also ist das eine gute Chance mal die neuen Techniken des Maschine-learning auszuprobieren.  Besonders vielversprechend find ich die &lt;a href=&#34;https://de.wikipedia.org/wiki/Random_Forest&#34; target=&#34;_blank&#34;&gt;Random forest methode&lt;/a&gt; - hab gelesen, dass sie oft ähnlich gut abschneidet wie neuronale Netze.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Bin gerade dabei Software zur Validierung eines Suchgeräts zu schreiben.  Normalerweise mach&amp;rsquo; ich ja Interpretation, also ist das eine gute Chance mal die neuen Techniken des Maschine-learning auszuprobieren.  Besonders vielversprechend find ich die &lt;a href=&#34;https://de.wikipedia.org/wiki/Random_Forest&#34;&gt;Random forest methode&lt;/a&gt; - hab gelesen, dass sie oft ähnlich gut abschneidet wie neuronale Netze.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -897,10 +858,8 @@ Man kann den Preis für Downloads selbst bestimmen und die angebotenen Downloads
       
       <guid>https://bdcaf.github.io/2015/10/23/test-subjects-xkcd/</guid>
       <description>&lt;p&gt;Wow - xkcd hat einen wundervollen Strip zu Testsubjects.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://imgs.xkcd.com/comics/human_subjects.png&#34; alt=&#34;xkcd strip&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://xkcd.com/1594/&#34; target=&#34;_blank&#34;&gt;link out&lt;/a&gt;&lt;/p&gt;</description>
+&lt;p&gt;&lt;img src=&#34;http://imgs.xkcd.com/comics/human_subjects.png&#34; alt=&#34;xkcd strip&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://xkcd.com/1594/&#34;&gt;link out&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -910,7 +869,6 @@ Man kann den Preis für Downloads selbst bestimmen und die angebotenen Downloads
       
       <guid>https://bdcaf.github.io/2015/10/23/bye-bye-stackoverflow/</guid>
       <description>&lt;p&gt;Ich war früher großer Fan von StackOverflow.  Auch jetzt wann immer ich ein &lt;em&gt;einfaches&lt;/em&gt; Programmierproblem habe taucht die Seite mit möglichen Lösungen auf.&lt;/p&gt;
-
 &lt;p&gt;In letzter Zeit hat sich leider die Policy geändert so, dass ich es nicht mehr interessant finde.  Vor allem die strengen Relevanzkriterien machen eigentlich alle Fragestellungen die mich ursprünglich interessiert haben Offtopic.  Und lassen meiner Meinung nach nur noch Fragen zu die sich mit dem Manual problemlos lösen liesen.&lt;/p&gt;</description>
     </item>
     
@@ -920,7 +878,7 @@ Man kann den Preis für Downloads selbst bestimmen und die angebotenen Downloads
       <pubDate>Mon, 19 Oct 2015 10:17:23 +0200</pubDate>
       
       <guid>https://bdcaf.github.io/2015/10/19/spannendes-paper/</guid>
-      <description>&lt;p&gt;Das Paper &lt;a href=&#34;http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2627354&#34; target=&#34;_blank&#34;&gt;Surprised by the Gambler&amp;rsquo;s and Hot Hand Fallacies? A Truth in the Law of Small Numbers&lt;/a&gt;
+      <description>&lt;p&gt;Das Paper &lt;a href=&#34;http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2627354&#34;&gt;Surprised by the Gambler&amp;rsquo;s and Hot Hand Fallacies? A Truth in the Law of Small Numbers&lt;/a&gt;
 ist spannend für mich.  Am Ende bedeutet es, dass unsere Studien von der Statistik künstlich gehandicapt wurden.  Versuche das aufzuklären.  Leider braucht es wohl massig Simulationen und dann wird das nicht sonderlich klar.&lt;/p&gt;</description>
     </item>
     
@@ -930,8 +888,7 @@ ist spannend für mich.  Am Ende bedeutet es, dass unsere Studien von der Statis
       <pubDate>Fri, 09 Oct 2015 08:12:56 +0200</pubDate>
       
       <guid>https://bdcaf.github.io/2015/10/09/launiger-artikel-bei-nature/</guid>
-      <description>&lt;p&gt;Nature hat wieder einen ausgezeichneten Artikel: &lt;a href=&#34;http://www.nature.com/news/how-scientists-fool-themselves-and-how-they-can-stop-1.18517&#34; target=&#34;_blank&#34;&gt;How scientists fool themselves – and how they can stop&lt;/a&gt;.&lt;/p&gt;
-
+      <description>&lt;p&gt;Nature hat wieder einen ausgezeichneten Artikel: &lt;a href=&#34;http://www.nature.com/news/how-scientists-fool-themselves-and-how-they-can-stop-1.18517&#34;&gt;How scientists fool themselves – and how they can stop&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Es ist immer wieder die alte Diskussion.  Leider ohne Lösung bis jetzt.  Aber die Auflistung der typischen Fallacies hilft die eigenen Schlüsse zu hinterfragen.  Es ist jedenfalls beruhigend zu sehen, dass auch andere Felder unter den selben Problemen leiden.&lt;/p&gt;</description>
     </item>
     
@@ -941,9 +898,8 @@ ist spannend für mich.  Am Ende bedeutet es, dass unsere Studien von der Statis
       <pubDate>Sun, 27 Sep 2015 10:47:54 +0200</pubDate>
       
       <guid>https://bdcaf.github.io/2015/09/27/vim-for-hugo/</guid>
-      <description>&lt;p&gt;Ich verwende ja den Sitegenerator &lt;a href=&#34;https://gohugo.io&#34; target=&#34;_blank&#34;&gt;hugo&lt;/a&gt; für diese Seite.  Das herumgewurschtel auf der Kommandozeile ist aber etwas nervig.  Daher hab ich ein paar Befehle für Vim geschrieben um es etwas schmerzfreier zu machen.  Soweit ist es aber noch etwas schmerzhaft.&lt;/p&gt;
-
-&lt;p&gt;Auf der Anleitung &lt;a href=&#34;http://www.thegeekstuff.com/2008/12/vi-and-vim-autocommand-3-steps-to-add-custom-header-to-your-file/&#34; target=&#34;_blank&#34;&gt;vi and vim autocommand&lt;/a&gt; hab ich ein paar Ideen gefunden.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Ich verwende ja den Sitegenerator &lt;a href=&#34;https://gohugo.io&#34;&gt;hugo&lt;/a&gt; für diese Seite.  Das herumgewurschtel auf der Kommandozeile ist aber etwas nervig.  Daher hab ich ein paar Befehle für Vim geschrieben um es etwas schmerzfreier zu machen.  Soweit ist es aber noch etwas schmerzhaft.&lt;/p&gt;
+&lt;p&gt;Auf der Anleitung &lt;a href=&#34;http://www.thegeekstuff.com/2008/12/vi-and-vim-autocommand-3-steps-to-add-custom-header-to-your-file/&#34;&gt;vi and vim autocommand&lt;/a&gt; hab ich ein paar Ideen gefunden.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -961,7 +917,7 @@ ist spannend für mich.  Am Ende bedeutet es, dass unsere Studien von der Statis
       <pubDate>Thu, 17 Sep 2015 11:32:05 +0200</pubDate>
       
       <guid>https://bdcaf.github.io/2015/09/17/bilder-von-der-breath-vienna/</guid>
-      <description>&lt;p&gt;Einige Impressionen von der &lt;a href=&#34;http://breathvienna.at&#34; target=&#34;_blank&#34;&gt; BreathVienna &lt;/a&gt; Konferenz.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Einige Impressionen von der &lt;a href=&#34;http://breathvienna.at&#34;&gt; BreathVienna &lt;/a&gt; Konferenz.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -973,11 +929,9 @@ ist spannend für mich.  Am Ende bedeutet es, dass unsere Studien von der Statis
       <description>&lt;p&gt;Jetzt ist alles vorbei.  Der dritte Tag war nicht so
 spannend für mich nicht so spannend. Viel dieser
 Meta-diskussion wenig spezifisches.&lt;/p&gt;
-
 &lt;p&gt;Martin hat den 2. Preis für sein Poster bekommen und kriegt
 für die nächste Konferenz die Kosten.  Also fährt er sicher
 nächstes Jahr.  Selbst bin ich mir noch nicht so sicher.&lt;/p&gt;
-
 &lt;p&gt;Jetzt sitz&amp;rsquo; ich im Zug und versuch heim fahren. Wegen der
 deutschen Grenzen muss ich gewaltigen Umweg machen.  Hoffe
 ich komm aber noch in vernünftiger Zeit daheim an.&lt;/p&gt;</description>
@@ -1057,10 +1011,10 @@ Man kriegt dort so einen Badge mit dem man angeben kann: Hat wer lust sich zu me
       
       <guid>https://bdcaf.github.io/2015/03/15/dschunke-nach-oman/</guid>
       <description>Ausflug ins Ausland. Dubai is ja für Touris eher fad.
-[caption id=&amp;ldquo;attachment_1366&amp;rdquo; align=&amp;ldquo;alignleft&amp;rdquo; width=&amp;ldquo;300&amp;rdquo;]Delphine![/caption]
-[caption id=&amp;ldquo;attachment_1367&amp;rdquo; align=&amp;ldquo;alignleft&amp;rdquo; width=&amp;ldquo;300&amp;rdquo;]Faul in der Sonne[/caption]
-[caption id=&amp;ldquo;attachment_1368&amp;rdquo; align=&amp;ldquo;alignleft&amp;rdquo; width=&amp;ldquo;300&amp;rdquo;]Entdeckerpose[/caption]
-[caption id=&amp;ldquo;attachment_1370&amp;rdquo; align=&amp;ldquo;alignleft&amp;rdquo; width=&amp;ldquo;300&amp;rdquo;]Küste Oman[/caption]</description>
+[caption id=&amp;quot;attachment_1366&amp;rdquo; align=&amp;quot;alignleft&amp;rdquo; width=&amp;quot;300&amp;rdquo;]Delphine![/caption]
+[caption id=&amp;quot;attachment_1367&amp;rdquo; align=&amp;quot;alignleft&amp;rdquo; width=&amp;quot;300&amp;rdquo;]Faul in der Sonne[/caption]
+[caption id=&amp;quot;attachment_1368&amp;rdquo; align=&amp;quot;alignleft&amp;rdquo; width=&amp;quot;300&amp;rdquo;]Entdeckerpose[/caption]
+[caption id=&amp;quot;attachment_1370&amp;rdquo; align=&amp;quot;alignleft&amp;rdquo; width=&amp;quot;300&amp;rdquo;]Küste Oman[/caption]</description>
     </item>
     
     <item>
@@ -1070,9 +1024,9 @@ Man kriegt dort so einen Badge mit dem man angeben kann: Hat wer lust sich zu me
       
       <guid>https://bdcaf.github.io/2015/03/13/blue-marlin-club-in-dubai/</guid>
       <description>Hat der Roli als erstes Ziel organisiert. Ganz nobel - fast a bisserl viel für mich.
-[caption id=&amp;ldquo;attachment_1360&amp;rdquo; align=&amp;ldquo;alignnone&amp;rdquo; width=&amp;ldquo;300&amp;rdquo;]faul am Strand[/caption]
-[caption id=&amp;ldquo;attachment_1361&amp;rdquo; align=&amp;ldquo;alignnone&amp;rdquo; width=&amp;ldquo;300&amp;rdquo;]Georg wird verziehrt[/caption]
-[caption id=&amp;ldquo;attachment_1362&amp;rdquo; align=&amp;ldquo;alignnone&amp;rdquo; width=&amp;ldquo;300&amp;rdquo;]Hoverboard Show[/caption]</description>
+[caption id=&amp;quot;attachment_1360&amp;rdquo; align=&amp;quot;alignnone&amp;rdquo; width=&amp;quot;300&amp;rdquo;]faul am Strand[/caption]
+[caption id=&amp;quot;attachment_1361&amp;rdquo; align=&amp;quot;alignnone&amp;rdquo; width=&amp;quot;300&amp;rdquo;]Georg wird verziehrt[/caption]
+[caption id=&amp;quot;attachment_1362&amp;rdquo; align=&amp;quot;alignnone&amp;rdquo; width=&amp;quot;300&amp;rdquo;]Hoverboard Show[/caption]</description>
     </item>
     
     <item>
@@ -1081,13 +1035,13 @@ Man kriegt dort so einen Badge mit dem man angeben kann: Hat wer lust sich zu me
       <pubDate>Fri, 26 Dec 2014 10:35:35 +0000</pubDate>
       
       <guid>https://bdcaf.github.io/2014/12/26/wohl-letzter-sch%C3%B6ne-tag-in-edb/</guid>
-      <description>[caption id=&amp;ldquo;&amp;rdquo; align=&amp;ldquo;aligncenter&amp;rdquo; width=&amp;ldquo;500&amp;rdquo;] Das Castle[/caption]
-[caption id=&amp;ldquo;&amp;rdquo; align=&amp;ldquo;aligncenter&amp;rdquo; width=&amp;ldquo;500&amp;rdquo;] Zentrum[/caption]
-[caption id=&amp;ldquo;&amp;rdquo; align=&amp;ldquo;aligncenter&amp;rdquo; width=&amp;ldquo;500&amp;rdquo;] Arthurs Seat[/caption]
-[caption id=&amp;ldquo;&amp;rdquo; align=&amp;ldquo;aligncenter&amp;rdquo; width=&amp;ldquo;500&amp;rdquo;] Oben am Seat[/caption]
-[caption id=&amp;ldquo;&amp;rdquo; align=&amp;ldquo;aligncenter&amp;rdquo; width=&amp;ldquo;500&amp;rdquo;] Schöne Aussicht zum Sonnenuntergang[/caption]
-[caption id=&amp;ldquo;&amp;rdquo; align=&amp;ldquo;aligncenter&amp;rdquo; width=&amp;ldquo;500&amp;rdquo;] Viel los da oben[/caption]
-[caption id=&amp;ldquo;&amp;rdquo; align=&amp;ldquo;aligncenter&amp;rdquo; width=&amp;ldquo;500&amp;rdquo;] Verschlafenes Nachtleben.[/caption]</description>
+      <description>[caption id=&amp;rdquo;&amp;rdquo; align=&amp;quot;aligncenter&amp;rdquo; width=&amp;quot;500&amp;rdquo;] Das Castle[/caption]
+[caption id=&amp;rdquo;&amp;rdquo; align=&amp;quot;aligncenter&amp;rdquo; width=&amp;quot;500&amp;rdquo;] Zentrum[/caption]
+[caption id=&amp;rdquo;&amp;rdquo; align=&amp;quot;aligncenter&amp;rdquo; width=&amp;quot;500&amp;rdquo;] Arthurs Seat[/caption]
+[caption id=&amp;rdquo;&amp;rdquo; align=&amp;quot;aligncenter&amp;rdquo; width=&amp;quot;500&amp;rdquo;] Oben am Seat[/caption]
+[caption id=&amp;rdquo;&amp;rdquo; align=&amp;quot;aligncenter&amp;rdquo; width=&amp;quot;500&amp;rdquo;] Schöne Aussicht zum Sonnenuntergang[/caption]
+[caption id=&amp;rdquo;&amp;rdquo; align=&amp;quot;aligncenter&amp;rdquo; width=&amp;quot;500&amp;rdquo;] Viel los da oben[/caption]
+[caption id=&amp;rdquo;&amp;rdquo; align=&amp;quot;aligncenter&amp;rdquo; width=&amp;quot;500&amp;rdquo;] Verschlafenes Nachtleben.[/caption]</description>
     </item>
     
     <item>
@@ -1096,7 +1050,7 @@ Man kriegt dort so einen Badge mit dem man angeben kann: Hat wer lust sich zu me
       <pubDate>Tue, 23 Dec 2014 08:49:53 +0000</pubDate>
       
       <guid>https://bdcaf.github.io/2014/12/23/ein-paar-nette-pics/</guid>
-      <description>[caption id=&amp;ldquo;&amp;rdquo; width=&amp;ldquo;500&amp;rdquo; align=&amp;ldquo;aligncenter&amp;rdquo; caption=&amp;ldquo;Wie immer im Stable Market&amp;rdquo;][/caption][caption id=&amp;ldquo;&amp;rdquo; width=&amp;ldquo;500&amp;rdquo; align=&amp;ldquo;aligncenter&amp;rdquo; caption=&amp;ldquo;Erstes Bier im Worlds End&amp;rdquo;][/caption][caption id=&amp;ldquo;&amp;rdquo; width=&amp;ldquo;500&amp;rdquo; align=&amp;ldquo;aligncenter&amp;rdquo; caption=&amp;ldquo;Street Art&amp;rdquo;][/caption][caption id=&amp;ldquo;&amp;rdquo; width=&amp;ldquo;500&amp;rdquo; align=&amp;ldquo;aligncenter&amp;rdquo; caption=&amp;ldquo;Mehr Grafittis&amp;rdquo;][/caption]</description>
+      <description>[caption id=&amp;rdquo;&amp;rdquo; width=&amp;quot;500&amp;rdquo; align=&amp;quot;aligncenter&amp;rdquo; caption=&amp;quot;Wie immer im Stable Market&amp;rdquo;][/caption][caption id=&amp;rdquo;&amp;rdquo; width=&amp;quot;500&amp;rdquo; align=&amp;quot;aligncenter&amp;rdquo; caption=&amp;quot;Erstes Bier im Worlds End&amp;rdquo;][/caption][caption id=&amp;rdquo;&amp;rdquo; width=&amp;quot;500&amp;rdquo; align=&amp;quot;aligncenter&amp;rdquo; caption=&amp;quot;Street Art&amp;rdquo;][/caption][caption id=&amp;rdquo;&amp;rdquo; width=&amp;quot;500&amp;rdquo; align=&amp;quot;aligncenter&amp;rdquo; caption=&amp;quot;Mehr Grafittis&amp;rdquo;][/caption]</description>
     </item>
     
     <item>
@@ -1198,8 +1152,8 @@ Hier eine schöne Darstellung wie die Säugetiere dann die Dinos ausgerottet hab
       <pubDate>Mon, 22 Sep 2014 06:27:17 +0000</pubDate>
       
       <guid>https://bdcaf.github.io/2014/09/22/empfehlung-why-do-dead-alkaline-batteries-bounce/</guid>
-      <description>There is an interesting approach testing batteries by dropping them. Apparently bad ones bounce. It wouldn&amp;rsquo;t work as well for my batteries - still interesting.
-weiter via IFTTT</description>
+      <description>There is an interesting approach testing batteries by dropping them. Apparently bad ones bounce. It wouldn&amp;rsquo;t work as well for my batteries
+ still interesting.  weiter via IFTTT</description>
     </item>
     
     <item>
@@ -1208,7 +1162,7 @@ weiter via IFTTT</description>
       <pubDate>Sat, 20 Sep 2014 00:24:12 +0000</pubDate>
       
       <guid>https://bdcaf.github.io/2014/09/20/voynich-a-provisional-partial-decoding-of-the-voynich-script/</guid>
-      <description>By: Stephen Bax
+      <description>By: [Stephen Bax](http://ift.tt/1ecxgfP Bax)
 Source: http://ift.tt/1lkeLKl</description>
     </item>
     
@@ -1324,7 +1278,7 @@ Auf twitter und Facebook ist schon ein ziemlicher shitstorm auf sandance.</descr
       
       <guid>https://bdcaf.github.io/2014/01/01/beim-feuerwerk/</guid>
       <description>Beim Atlantis auf der Palme.
-[caption id=&amp;ldquo;&amp;rdquo; width=&amp;ldquo;500&amp;rdquo; align=&amp;ldquo;aligncenter&amp;rdquo; caption=&amp;ldquo;Sandance&amp;rdquo;][/caption][caption id=&amp;ldquo;&amp;rdquo; width=&amp;ldquo;500&amp;rdquo; align=&amp;ldquo;aligncenter&amp;rdquo; caption=&amp;ldquo;Kurz vor Mitternacht&amp;rdquo;][/caption]</description>
+[caption id=&amp;rdquo;&amp;rdquo; width=&amp;quot;500&amp;rdquo; align=&amp;quot;aligncenter&amp;rdquo; caption=&amp;quot;Sandance&amp;rdquo;][/caption][caption id=&amp;rdquo;&amp;rdquo; width=&amp;quot;500&amp;rdquo; align=&amp;quot;aligncenter&amp;rdquo; caption=&amp;quot;Kurz vor Mitternacht&amp;rdquo;][/caption]</description>
     </item>
     
     <item>
@@ -1343,8 +1297,8 @@ Auf twitter und Facebook ist schon ein ziemlicher shitstorm auf sandance.</descr
       
       <guid>https://bdcaf.github.io/2013/12/30/am-burj/</guid>
       <description>Khalifa
-[caption id=&amp;ldquo;&amp;rdquo; align=&amp;ldquo;aligncenter&amp;rdquo; width=&amp;ldquo;386&amp;rdquo;] Passt ned so recht auf ein Bild n[/caption]
-[caption id=&amp;ldquo;&amp;rdquo; align=&amp;ldquo;aligncenter&amp;rdquo; width=&amp;ldquo;500&amp;rdquo;] Auch in der Umgebung ist&amp;rsquo;s nett.[/caption]</description>
+[caption id=&amp;rdquo;&amp;rdquo; align=&amp;quot;aligncenter&amp;rdquo; width=&amp;quot;386&amp;rdquo;] Passt ned so recht auf ein Bild n[/caption]
+[caption id=&amp;rdquo;&amp;rdquo; align=&amp;quot;aligncenter&amp;rdquo; width=&amp;quot;500&amp;rdquo;] Auch in der Umgebung ist&amp;rsquo;s nett.[/caption]</description>
     </item>
     
     <item>
@@ -1353,8 +1307,8 @@ Auf twitter und Facebook ist schon ein ziemlicher shitstorm auf sandance.</descr
       <pubDate>Sat, 28 Dec 2013 15:56:23 +0000</pubDate>
       
       <guid>https://bdcaf.github.io/2013/12/28/daytrip/</guid>
-      <description>[caption id=&amp;ldquo;&amp;rdquo; width=&amp;ldquo;500&amp;rdquo; align=&amp;ldquo;aligncenter&amp;rdquo; caption=&amp;ldquo;Unterwegs&amp;rdquo;][/caption][caption id=&amp;ldquo;&amp;rdquo; width=&amp;ldquo;500&amp;rdquo; align=&amp;ldquo;aligncenter&amp;rdquo; caption=&amp;ldquo;Der ist viel zu hoch&amp;hellip;&amp;rdquo;][/caption][caption id=&amp;ldquo;&amp;rdquo; width=&amp;ldquo;500&amp;rdquo; align=&amp;ldquo;aligncenter&amp;rdquo; caption=&amp;ldquo;Schiffal fahren&amp;rdquo;][/caption]
-[caption id=&amp;ldquo;&amp;rdquo; width=&amp;ldquo;500&amp;rdquo; align=&amp;ldquo;aligncenter&amp;rdquo; caption=&amp;ldquo;Skyline am Abend. &amp;ldquo;][/caption]</description>
+      <description>[caption id=&amp;rdquo;&amp;rdquo; width=&amp;quot;500&amp;rdquo; align=&amp;quot;aligncenter&amp;rdquo; caption=&amp;quot;Unterwegs&amp;rdquo;][/caption][caption id=&amp;rdquo;&amp;rdquo; width=&amp;quot;500&amp;rdquo; align=&amp;quot;aligncenter&amp;rdquo; caption=&amp;quot;Der ist viel zu hoch&amp;hellip;&amp;quot;][/caption][caption id=&amp;rdquo;&amp;rdquo; width=&amp;quot;500&amp;rdquo; align=&amp;quot;aligncenter&amp;rdquo; caption=&amp;quot;Schiffal fahren&amp;rdquo;][/caption]
+[caption id=&amp;rdquo;&amp;rdquo; width=&amp;quot;500&amp;rdquo; align=&amp;quot;aligncenter&amp;rdquo; caption=&amp;quot;Skyline am Abend. &amp;ldquo;][/caption]</description>
     </item>
     
     <item>
@@ -1363,9 +1317,9 @@ Auf twitter und Facebook ist schon ein ziemlicher shitstorm auf sandance.</descr
       <pubDate>Sat, 28 Dec 2013 15:51:11 +0000</pubDate>
       
       <guid>https://bdcaf.github.io/2013/12/28/rolis-turm/</guid>
-      <description>[caption id=&amp;ldquo;&amp;rdquo; width=&amp;ldquo;500&amp;rdquo; align=&amp;ldquo;aligncenter&amp;rdquo; caption=&amp;ldquo;Rechts ist er daheim. &amp;ldquo;]
+      <description>[caption id=&amp;rdquo;&amp;rdquo; width=&amp;quot;500&amp;rdquo; align=&amp;quot;aligncenter&amp;rdquo; caption=&amp;quot;Rechts ist er daheim. &amp;ldquo;]
 
-[/caption][caption id=&amp;ldquo;&amp;rdquo; width=&amp;ldquo;333&amp;rdquo; align=&amp;ldquo;aligncenter&amp;rdquo; caption=&amp;ldquo;Von der andren Seite&amp;rdquo;][/caption]</description>
+[/caption][caption id=&amp;rdquo;&amp;rdquo; width=&amp;quot;333&amp;rdquo; align=&amp;quot;aligncenter&amp;rdquo; caption=&amp;quot;Von der andren Seite&amp;rdquo;][/caption]</description>
     </item>
     
     <item>
@@ -1383,11 +1337,11 @@ Auf twitter und Facebook ist schon ein ziemlicher shitstorm auf sandance.</descr
       <pubDate>Fri, 27 Dec 2013 07:56:12 +0000</pubDate>
       
       <guid>https://bdcaf.github.io/2013/12/27/brunch-im-burj-al-arab/</guid>
-      <description>[caption id=&amp;ldquo;&amp;rdquo; width=&amp;ldquo;500&amp;rdquo; align=&amp;ldquo;alignright&amp;rdquo; caption=&amp;ldquo;Wikifoto&amp;rdquo;][/caption]
+      <description>[caption id=&amp;rdquo;&amp;rdquo; width=&amp;quot;500&amp;rdquo; align=&amp;quot;alignright&amp;rdquo; caption=&amp;quot;Wikifoto&amp;rdquo;][/caption]
 [](http://de.wikipedia.org/wiki/Burj_al_Arab)
 Genau da warn ma - im burj al arab
 All-you-can-eat mit lobster und andere feine Sachen. die Rechnung hat halt viel zu viele Nullen hinten dran.
-[caption id=&amp;ldquo;&amp;rdquo; width=&amp;ldquo;500&amp;rdquo; align=&amp;ldquo;aligncenter&amp;rdquo; caption=&amp;ldquo;Vorm happern&amp;rdquo;][/caption]</description>
+[caption id=&amp;rdquo;&amp;rdquo; width=&amp;quot;500&amp;rdquo; align=&amp;quot;aligncenter&amp;rdquo; caption=&amp;quot;Vorm happern&amp;rdquo;][/caption]</description>
     </item>
     
     <item>
@@ -1585,7 +1539,7 @@ Soweit sieht&amp;rsquo;s schon gut aus. Plane das als Notfalltankstelle sollte m
       <guid>https://bdcaf.github.io/2013/08/15/kurze-kerbal-geschichte/</guid>
       <description>Im Kerbal Space Program kann man ja tolle Sachen basteln. Macht einfach Spass weils so schön aussieht und bringt die Entdeckeratmosphäre gut rüber.
 Ich hab&amp;rsquo; mich diesmal mit einem Flug nach Minimus versucht. Der ist problematisch weil&amp;rsquo;s nur ein &amp;ldquo;Asteroid&amp;rdquo; ist. Meine erste Mannschaft hatte nicht genug Treibstoff fürs Bremsmanöver und ist verschollen. Treibt ohne Treibstoff durchs All. Nur gut dass man am Mac wieder laden kann ;)
-[caption id=&amp;ldquo;attachment_881&amp;rdquo; align=&amp;ldquo;alignnone&amp;rdquo; width=&amp;ldquo;300&amp;rdquo;] Orbit um Minimus[/caption]</description>
+[caption id=&amp;quot;attachment_881&amp;rdquo; align=&amp;quot;alignnone&amp;rdquo; width=&amp;quot;300&amp;rdquo;] Orbit um Minimus[/caption]</description>
     </item>
     
     <item>
@@ -1731,7 +1685,7 @@ Alle paar Tage analysieren die eine Floskel. Heute zum Beispiel Verantwortung. E
       <pubDate>Mon, 31 Dec 2012 23:35:14 +0000</pubDate>
       
       <guid>https://bdcaf.github.io/2012/12/31/neujahrszirkus/</guid>
-      <description>[gallery ids=&amp;ldquo;747,746,745,744,740,741,742,743&amp;rdquo;]
+      <description>[gallery ids=&amp;quot;747,746,745,744,740,741,742,743&amp;rdquo;]
 Hams gut organisiert.</description>
     </item>
     
@@ -1886,9 +1840,8 @@ And 50.000 for booze ;)</description>
       <pubDate>Tue, 18 Dec 2012 04:19:34 +0000</pubDate>
       
       <guid>https://bdcaf.github.io/2012/12/18/gamedrive-chobe/</guid>
-      <description>[caption id=&amp;ldquo;&amp;rdquo; width=&amp;ldquo;500&amp;rdquo; align=&amp;ldquo;aligncenter&amp;rdquo; caption=&amp;ldquo;Vor Sonnenaufgang aufstehen&amp;hellip;&amp;rdquo;][/caption]
-
-[caption id=&amp;ldquo;&amp;rdquo; width=&amp;ldquo;500&amp;rdquo; align=&amp;ldquo;aligncenter&amp;rdquo; caption=&amp;ldquo;Auch die Viecher schlafen&amp;rdquo;][/caption]</description>
+      <description>[caption id=&amp;rdquo;&amp;rdquo; width=&amp;quot;500&amp;rdquo; align=&amp;quot;aligncenter&amp;rdquo; caption=&amp;quot;Vor Sonnenaufgang aufstehen&amp;hellip;&amp;quot;][/caption]
+[caption id=&amp;rdquo;&amp;rdquo; width=&amp;quot;500&amp;rdquo; align=&amp;quot;aligncenter&amp;rdquo; caption=&amp;quot;Auch die Viecher schlafen&amp;rdquo;][/caption]</description>
     </item>
     
     <item>
@@ -1924,7 +1877,7 @@ And 50.000 for booze ;)</description>
       <pubDate>Fri, 14 Dec 2012 08:25:13 +0000</pubDate>
       
       <guid>https://bdcaf.github.io/2012/12/14/ins-okavango-delta/</guid>
-      <description>[caption id=&amp;ldquo;&amp;rdquo; width=&amp;ldquo;500&amp;rdquo; align=&amp;ldquo;aligncenter&amp;rdquo; caption=&amp;ldquo;Abends Safari zu Fuß&amp;rdquo;][/caption]</description>
+      <description>[caption id=&amp;rdquo;&amp;rdquo; width=&amp;quot;500&amp;rdquo; align=&amp;quot;aligncenter&amp;rdquo; caption=&amp;quot;Abends Safari zu Fuß&amp;rdquo;][/caption]</description>
     </item>
     
     <item>
@@ -1936,7 +1889,7 @@ And 50.000 for booze ;)</description>
       <description>Wir sind jetzt in Maun. Die nächsten Tage geht&amp;rsquo;s ganz ins Okavangodelta - nur mit Boten und keine Absperrung zu den Tieren. Vorher wollte ich das aber aus der Luft sehen.
 Wir sind in einem kleinen 5-Sitzer geflogen. Ich durfte Copilot spielen. Aussicht war toll - nur, dass er den Flieger oft senkrecht stellte - damit wir gut sehen - ging ganz schön auf den Magen
 
-[caption id=&amp;ldquo;&amp;rdquo; width=&amp;ldquo;500&amp;rdquo; align=&amp;ldquo;aligncenter&amp;rdquo; caption=&amp;ldquo;Wandernde Elefanten&amp;rdquo;][/caption]</description>
+[caption id=&amp;rdquo;&amp;rdquo; width=&amp;quot;500&amp;rdquo; align=&amp;quot;aligncenter&amp;rdquo; caption=&amp;quot;Wandernde Elefanten&amp;rdquo;][/caption]</description>
     </item>
     
     <item>
@@ -1981,7 +1934,7 @@ Wir sind in einem kleinen 5-Sitzer geflogen. Ich durfte Copilot spielen. Aussich
       <pubDate>Mon, 10 Dec 2012 17:49:16 +0000</pubDate>
       
       <guid>https://bdcaf.github.io/2012/12/10/dinner/</guid>
-      <description>[caption id=&amp;ldquo;&amp;rdquo; width=&amp;ldquo;500&amp;rdquo; align=&amp;ldquo;aligncenter&amp;rdquo; caption=&amp;ldquo;Geschirrspülkolonne&amp;rdquo;][/caption][caption id=&amp;ldquo;&amp;rdquo; width=&amp;ldquo;500&amp;rdquo; align=&amp;ldquo;aligncenter&amp;rdquo; caption=&amp;ldquo;Jamie beim Salat&amp;rdquo;][/caption]</description>
+      <description>[caption id=&amp;rdquo;&amp;rdquo; width=&amp;quot;500&amp;rdquo; align=&amp;quot;aligncenter&amp;rdquo; caption=&amp;quot;Geschirrspülkolonne&amp;rdquo;][/caption][caption id=&amp;rdquo;&amp;rdquo; width=&amp;quot;500&amp;rdquo; align=&amp;quot;aligncenter&amp;rdquo; caption=&amp;quot;Jamie beim Salat&amp;rdquo;][/caption]</description>
     </item>
     
     <item>
@@ -2017,9 +1970,9 @@ De hatten angenehmerweise nix gegen Fotos.</description>
 Gab unendlich viele Herden. vor allem Antilopen und Zebras. Zeige mal ein paar der näheren Bilder[/caption]
 
 
-[caption id=&amp;ldquo;&amp;rdquo; width=&amp;ldquo;500&amp;rdquo; align=&amp;ldquo;aligncenter&amp;rdquo; caption=&amp;ldquo;Elefanten in drei Größen&amp;rdquo;][/caption]
+[caption id=&amp;rdquo;&amp;rdquo; width=&amp;quot;500&amp;rdquo; align=&amp;quot;aligncenter&amp;rdquo; caption=&amp;quot;Elefanten in drei Größen&amp;rdquo;][/caption]
 
-[caption id=&amp;ldquo;&amp;rdquo; width=&amp;ldquo;500&amp;rdquo; align=&amp;ldquo;aligncenter&amp;rdquo; caption=&amp;ldquo;In die Salzpfanne&amp;rdquo;][/caption]</description>
+[caption id=&amp;rdquo;&amp;rdquo; width=&amp;quot;500&amp;rdquo; align=&amp;quot;aligncenter&amp;rdquo; caption=&amp;quot;In die Salzpfanne&amp;rdquo;][/caption]</description>
     </item>
     
     <item>
@@ -2065,7 +2018,8 @@ Gab unendlich viele Herden. vor allem Antilopen und Zebras. Zeige mal ein paar d
       
       <guid>https://bdcaf.github.io/2012/12/05/wendekreis-des-steinbock/</guid>
       <description>Kitschstopp
-[caption id=&amp;ldquo;&amp;rdquo; width=&amp;ldquo;500&amp;rdquo; align=&amp;ldquo;aligncenter&amp;rdquo; caption=&amp;ldquo;Truppe&amp;rdquo;][/caption] [caption id=&amp;ldquo;&amp;rdquo; width=&amp;ldquo;500&amp;rdquo; align=&amp;ldquo;aligncenter&amp;rdquo; caption=&amp;ldquo;Und wer Sternzeichen Steinbock ist&amp;rdquo;][/caption]</description>
+[caption id=&amp;rdquo;&amp;rdquo; width=&amp;quot;500&amp;rdquo; align=&amp;quot;aligncenter&amp;rdquo; caption=&amp;quot;Truppe&amp;rdquo;][/caption]
+[caption id=&amp;rdquo;&amp;rdquo; width=&amp;quot;500&amp;rdquo; align=&amp;quot;aligncenter&amp;rdquo; caption=&amp;quot;Und wer Sternzeichen Steinbock ist&amp;rdquo;][/caption]</description>
     </item>
     
     <item>
@@ -2078,9 +2032,9 @@ Gab unendlich viele Herden. vor allem Antilopen und Zebras. Zeige mal ein paar d
 
 
 
-[caption id=&amp;ldquo;&amp;rdquo; width=&amp;ldquo;500&amp;rdquo; align=&amp;ldquo;aligncenter&amp;rdquo; caption=&amp;ldquo;Die Oryx habn sich gut versteckt&amp;rdquo;][/caption]
+[caption id=&amp;rdquo;&amp;rdquo; width=&amp;quot;500&amp;rdquo; align=&amp;quot;aligncenter&amp;rdquo; caption=&amp;quot;Die Oryx habn sich gut versteckt&amp;rdquo;][/caption]
 
-[caption id=&amp;ldquo;&amp;rdquo; width=&amp;ldquo;500&amp;rdquo; align=&amp;ldquo;aligncenter&amp;rdquo; caption=&amp;ldquo;Obligatorisch. &amp;ldquo;][/caption]</description>
+[caption id=&amp;rdquo;&amp;rdquo; width=&amp;quot;500&amp;rdquo; align=&amp;quot;aligncenter&amp;rdquo; caption=&amp;quot;Obligatorisch. &amp;ldquo;][/caption]</description>
     </item>
     
     <item>
@@ -2091,7 +2045,7 @@ Gab unendlich viele Herden. vor allem Antilopen und Zebras. Zeige mal ein paar d
       <guid>https://bdcaf.github.io/2012/12/04/bushcamp/</guid>
       <description>Wild heiß an dem Tag. Soll so 40 Grad gewesen sein.
 
-[caption id=&amp;ldquo;&amp;rdquo; width=&amp;ldquo;500&amp;rdquo; align=&amp;ldquo;aligncenter&amp;rdquo; caption=&amp;ldquo;Schatten ist&amp;rsquo;s 10 Grad kühler&amp;rdquo;][/caption]</description>
+[caption id=&amp;rdquo;&amp;rdquo; width=&amp;quot;500&amp;rdquo; align=&amp;quot;aligncenter&amp;rdquo; caption=&amp;quot;Schatten ist&amp;rsquo;s 10 Grad kühler&amp;rdquo;][/caption]</description>
     </item>
     
     <item>
@@ -2110,12 +2064,13 @@ Gab unendlich viele Herden. vor allem Antilopen und Zebras. Zeige mal ein paar d
       
       <guid>https://bdcaf.github.io/2012/12/04/deadvleis/</guid>
       <description>Ebene die durch Dünen vom Wasser abgeschnitten wurde.
-[caption id=&amp;ldquo;&amp;rdquo; width=&amp;ldquo;500&amp;rdquo; align=&amp;ldquo;aligncenter&amp;rdquo; caption=&amp;ldquo;Der Sand hat übrigens Eisenspäne die man mit Magenten rausziehen kann.&amp;rdquo;][/caption] 
-[caption id=&amp;ldquo;&amp;rdquo; width=&amp;ldquo;500&amp;rdquo; align=&amp;ldquo;aligncenter&amp;rdquo; caption=&amp;ldquo;Coole Farben&amp;rdquo;][/caption]
+[caption id=&amp;rdquo;&amp;rdquo; width=&amp;quot;500&amp;rdquo; align=&amp;quot;aligncenter&amp;rdquo; caption=&amp;quot;Der Sand hat übrigens Eisenspäne die man mit Magenten rausziehen kann.&amp;quot;][/caption]
 
-[caption id=&amp;ldquo;&amp;rdquo; width=&amp;ldquo;500&amp;rdquo; align=&amp;ldquo;aligncenter&amp;rdquo; caption=&amp;ldquo;Toter Kessel, der Boden zu Sandstein gebrannt&amp;rdquo;][/caption][caption id=&amp;ldquo;&amp;rdquo; width=&amp;ldquo;500&amp;rdquo; align=&amp;ldquo;aligncenter&amp;rdquo; caption=&amp;ldquo;Im Schatten ist&amp;rsquo;s ganz angenehm&amp;rdquo;][/caption]
+[caption id=&amp;rdquo;&amp;rdquo; width=&amp;quot;500&amp;rdquo; align=&amp;quot;aligncenter&amp;rdquo; caption=&amp;quot;Coole Farben&amp;rdquo;][/caption]
 
-[caption id=&amp;ldquo;&amp;rdquo; width=&amp;ldquo;500&amp;rdquo; align=&amp;ldquo;aligncenter&amp;rdquo; caption=&amp;ldquo;Ein paar Pflanzen schaffens zum Grundwasser&amp;rdquo;][/caption]</description>
+[caption id=&amp;rdquo;&amp;rdquo; width=&amp;quot;500&amp;rdquo; align=&amp;quot;aligncenter&amp;rdquo; caption=&amp;quot;Toter Kessel, der Boden zu Sandstein gebrannt&amp;rdquo;][/caption][caption id=&amp;rdquo;&amp;rdquo; width=&amp;quot;500&amp;rdquo; align=&amp;quot;aligncenter&amp;rdquo; caption=&amp;quot;Im Schatten ist&amp;rsquo;s ganz angenehm&amp;rdquo;][/caption]
+
+[caption id=&amp;rdquo;&amp;rdquo; width=&amp;quot;500&amp;rdquo; align=&amp;quot;aligncenter&amp;rdquo; caption=&amp;quot;Ein paar Pflanzen schaffens zum Grundwasser&amp;rdquo;][/caption]</description>
     </item>
     
     <item>
@@ -2126,7 +2081,7 @@ Gab unendlich viele Herden. vor allem Antilopen und Zebras. Zeige mal ein paar d
       <guid>https://bdcaf.github.io/2012/12/04/dune-45/</guid>
       <description>Ist größte Düne die in die Steppe steht. Ca 80m hoch, bewegt sich so 1-2 m im Jahr.
 
-[caption id=&amp;ldquo;&amp;rdquo; width=&amp;ldquo;500&amp;rdquo; align=&amp;ldquo;aligncenter&amp;rdquo; caption=&amp;ldquo;Dünengehn is mühsam&amp;rdquo;][/caption][caption id=&amp;ldquo;&amp;rdquo; width=&amp;ldquo;500&amp;rdquo; align=&amp;ldquo;aligncenter&amp;rdquo; caption=&amp;ldquo;Erst spät Frühstück&amp;rdquo;][/caption]</description>
+[caption id=&amp;rdquo;&amp;rdquo; width=&amp;quot;500&amp;rdquo; align=&amp;quot;aligncenter&amp;rdquo; caption=&amp;quot;Dünengehn is mühsam&amp;rdquo;][/caption][caption id=&amp;rdquo;&amp;rdquo; width=&amp;quot;500&amp;rdquo; align=&amp;quot;aligncenter&amp;rdquo; caption=&amp;quot;Erst spät Frühstück&amp;rdquo;][/caption]</description>
     </item>
     
     <item>
@@ -2135,7 +2090,7 @@ Gab unendlich viele Herden. vor allem Antilopen und Zebras. Zeige mal ein paar d
       <pubDate>Mon, 03 Dec 2012 17:52:16 +0000</pubDate>
       
       <guid>https://bdcaf.github.io/2012/12/03/3.-camp/</guid>
-      <description>[caption id=&amp;ldquo;&amp;rdquo; width=&amp;ldquo;500&amp;rdquo; align=&amp;ldquo;aligncenter&amp;rdquo; caption=&amp;ldquo;Heut gib&amp;rsquo;s BBQ&amp;rdquo;][/caption]</description>
+      <description>[caption id=&amp;rdquo;&amp;rdquo; width=&amp;quot;500&amp;rdquo; align=&amp;quot;aligncenter&amp;rdquo; caption=&amp;quot;Heut gib&amp;rsquo;s BBQ&amp;rdquo;][/caption]</description>
     </item>
     
     <item>
@@ -2144,7 +2099,7 @@ Gab unendlich viele Herden. vor allem Antilopen und Zebras. Zeige mal ein paar d
       <pubDate>Mon, 03 Dec 2012 09:32:34 +0000</pubDate>
       
       <guid>https://bdcaf.github.io/2012/12/03/v%C3%B6gel/</guid>
-      <description>[caption id=&amp;ldquo;&amp;rdquo; width=&amp;ldquo;500&amp;rdquo; align=&amp;ldquo;aligncenter&amp;rdquo; caption=&amp;ldquo;Vögel lieben die Batterie &amp;ldquo;][/caption]</description>
+      <description>[caption id=&amp;rdquo;&amp;rdquo; width=&amp;quot;500&amp;rdquo; align=&amp;quot;aligncenter&amp;rdquo; caption=&amp;quot;Vögel lieben die Batterie &amp;ldquo;][/caption]</description>
     </item>
     
     <item>
@@ -2153,7 +2108,7 @@ Gab unendlich viele Herden. vor allem Antilopen und Zebras. Zeige mal ein paar d
       <pubDate>Mon, 03 Dec 2012 05:13:53 +0000</pubDate>
       
       <guid>https://bdcaf.github.io/2012/12/03/fresh-water-canyon/</guid>
-      <description>[caption id=&amp;ldquo;&amp;rdquo; width=&amp;ldquo;500&amp;rdquo; align=&amp;ldquo;aligncenter&amp;rdquo; caption=&amp;ldquo;Nicht ganz so groß wie der vorherige&amp;rdquo;][/caption][caption id=&amp;ldquo;&amp;rdquo; width=&amp;ldquo;500&amp;rdquo; align=&amp;ldquo;aligncenter&amp;rdquo; caption=&amp;ldquo;Trotz des Namen unten hat&amp;rsquo;s nicht viel Wasser&amp;rdquo;][/caption]</description>
+      <description>[caption id=&amp;rdquo;&amp;rdquo; width=&amp;quot;500&amp;rdquo; align=&amp;quot;aligncenter&amp;rdquo; caption=&amp;quot;Nicht ganz so groß wie der vorherige&amp;rdquo;][/caption][caption id=&amp;rdquo;&amp;rdquo; width=&amp;quot;500&amp;rdquo; align=&amp;quot;aligncenter&amp;rdquo; caption=&amp;quot;Trotz des Namen unten hat&amp;rsquo;s nicht viel Wasser&amp;rdquo;][/caption]</description>
     </item>
     
     <item>
@@ -2162,8 +2117,9 @@ Gab unendlich viele Herden. vor allem Antilopen und Zebras. Zeige mal ein paar d
       <pubDate>Mon, 03 Dec 2012 05:11:53 +0000</pubDate>
       
       <guid>https://bdcaf.github.io/2012/12/03/fahrt/</guid>
-      <description>[caption id=&amp;ldquo;&amp;rdquo; width=&amp;ldquo;500&amp;rdquo; align=&amp;ldquo;aligncenter&amp;rdquo; caption=&amp;ldquo;Gemeinschaftsnest, so ein dutzend Vögel wohnen da drin&amp;rdquo;][/caption] 
-[caption id=&amp;ldquo;&amp;rdquo; width=&amp;ldquo;500&amp;rdquo; align=&amp;ldquo;aligncenter&amp;rdquo; caption=&amp;ldquo;Die Dinger gehn durch die ganze Sohle&amp;rdquo;][/caption]</description>
+      <description>[caption id=&amp;rdquo;&amp;rdquo; width=&amp;quot;500&amp;rdquo; align=&amp;quot;aligncenter&amp;rdquo; caption=&amp;quot;Gemeinschaftsnest, so ein dutzend Vögel wohnen da drin&amp;rdquo;][/caption]
+
+[caption id=&amp;rdquo;&amp;rdquo; width=&amp;quot;500&amp;rdquo; align=&amp;quot;aligncenter&amp;rdquo; caption=&amp;quot;Die Dinger gehn durch die ganze Sohle&amp;rdquo;][/caption]</description>
     </item>
     
     <item>
@@ -2195,9 +2151,9 @@ Gab unendlich viele Herden. vor allem Antilopen und Zebras. Zeige mal ein paar d
 
 
 
-[caption id=&amp;ldquo;&amp;rdquo; width=&amp;ldquo;500&amp;rdquo; align=&amp;ldquo;aligncenter&amp;rdquo; caption=&amp;ldquo;Steil&amp;rdquo;][/caption]
+[caption id=&amp;rdquo;&amp;rdquo; width=&amp;quot;500&amp;rdquo; align=&amp;quot;aligncenter&amp;rdquo; caption=&amp;quot;Steil&amp;rdquo;][/caption]
 
-[caption id=&amp;ldquo;&amp;rdquo; width=&amp;ldquo;500&amp;rdquo; align=&amp;ldquo;aligncenter&amp;rdquo; caption=&amp;ldquo;Alle warten auf Sonnenuntergang &amp;ldquo;][/caption]</description>
+[caption id=&amp;rdquo;&amp;rdquo; width=&amp;quot;500&amp;rdquo; align=&amp;quot;aligncenter&amp;rdquo; caption=&amp;quot;Alle warten auf Sonnenuntergang &amp;ldquo;][/caption]</description>
     </item>
     
     <item>
@@ -2207,7 +2163,7 @@ Gab unendlich viele Herden. vor allem Antilopen und Zebras. Zeige mal ein paar d
       
       <guid>https://bdcaf.github.io/2012/12/01/8-stunden-fahrt/</guid>
       <description>Die erste Fahrt war noch sehr ungewohnt. Mussten uns ja erst im Bus einrichten.
-[caption id=&amp;ldquo;&amp;rdquo; width=&amp;ldquo;500&amp;rdquo; align=&amp;ldquo;aligncenter&amp;rdquo; caption=&amp;ldquo;Die Reisegelsellschaft&amp;rdquo;][/caption][caption id=&amp;ldquo;&amp;rdquo; width=&amp;ldquo;500&amp;rdquo; align=&amp;ldquo;aligncenter&amp;rdquo; caption=&amp;ldquo;Bald nur noch Sandpisten&amp;rdquo;][/caption][caption id=&amp;ldquo;&amp;rdquo; width=&amp;ldquo;500&amp;rdquo; align=&amp;ldquo;aligncenter&amp;rdquo; caption=&amp;ldquo;Erstes Lager am Orange River&amp;rdquo;][/caption][caption id=&amp;ldquo;&amp;rdquo; width=&amp;ldquo;500&amp;rdquo; align=&amp;ldquo;aligncenter&amp;rdquo; caption=&amp;ldquo;Fertig&amp;rdquo;][/caption]</description>
+[caption id=&amp;rdquo;&amp;rdquo; width=&amp;quot;500&amp;rdquo; align=&amp;quot;aligncenter&amp;rdquo; caption=&amp;quot;Die Reisegelsellschaft&amp;rdquo;][/caption][caption id=&amp;rdquo;&amp;rdquo; width=&amp;quot;500&amp;rdquo; align=&amp;quot;aligncenter&amp;rdquo; caption=&amp;quot;Bald nur noch Sandpisten&amp;rdquo;][/caption][caption id=&amp;rdquo;&amp;rdquo; width=&amp;quot;500&amp;rdquo; align=&amp;quot;aligncenter&amp;rdquo; caption=&amp;quot;Erstes Lager am Orange River&amp;rdquo;][/caption][caption id=&amp;rdquo;&amp;rdquo; width=&amp;quot;500&amp;rdquo; align=&amp;quot;aligncenter&amp;rdquo; caption=&amp;quot;Fertig&amp;rdquo;][/caption]</description>
     </item>
     
     <item>
@@ -2216,7 +2172,7 @@ Gab unendlich viele Herden. vor allem Antilopen und Zebras. Zeige mal ein paar d
       <pubDate>Fri, 30 Nov 2012 15:14:19 +0000</pubDate>
       
       <guid>https://bdcaf.github.io/2012/11/30/orientierung/</guid>
-      <description>[caption id=&amp;ldquo;&amp;rdquo; width=&amp;ldquo;500&amp;rdquo; align=&amp;ldquo;aligncenter&amp;rdquo; caption=&amp;ldquo;Sydney wär nach rechts.&amp;rdquo;][/caption]</description>
+      <description>[caption id=&amp;rdquo;&amp;rdquo; width=&amp;quot;500&amp;rdquo; align=&amp;quot;aligncenter&amp;rdquo; caption=&amp;quot;Sydney wär nach rechts.&amp;quot;][/caption]</description>
     </item>
     
     <item>
@@ -2226,7 +2182,7 @@ Gab unendlich viele Herden. vor allem Antilopen und Zebras. Zeige mal ein paar d
       
       <guid>https://bdcaf.github.io/2012/11/30/bier/</guid>
       <description>Nachmittags a Bier im Hafen. Des hat er jetzt davon.
-[caption id=&amp;ldquo;&amp;rdquo; width=&amp;ldquo;500&amp;rdquo; align=&amp;ldquo;aligncenter&amp;rdquo; caption=&amp;ldquo;Nein der zeigt ned an Mittelfinger&amp;hellip;&amp;rdquo;][/caption]</description>
+[caption id=&amp;rdquo;&amp;rdquo; width=&amp;quot;500&amp;rdquo; align=&amp;quot;aligncenter&amp;rdquo; caption=&amp;quot;Nein der zeigt ned an Mittelfinger&amp;hellip;&amp;quot;][/caption]</description>
     </item>
     
     <item>
@@ -2235,7 +2191,7 @@ Gab unendlich viele Herden. vor allem Antilopen und Zebras. Zeige mal ein paar d
       <pubDate>Fri, 30 Nov 2012 13:22:51 +0000</pubDate>
       
       <guid>https://bdcaf.github.io/2012/11/30/waterfront/</guid>
-      <description>[caption id=&amp;ldquo;&amp;rdquo; width=&amp;ldquo;500&amp;rdquo; align=&amp;ldquo;aligncenter&amp;rdquo; caption=&amp;ldquo;Wie die bei dem Sturm aufrecht stehen.&amp;rdquo;][/caption]</description>
+      <description>[caption id=&amp;rdquo;&amp;rdquo; width=&amp;quot;500&amp;rdquo; align=&amp;quot;aligncenter&amp;rdquo; caption=&amp;quot;Wie die bei dem Sturm aufrecht stehen.&amp;quot;][/caption]</description>
     </item>
     
     <item>
@@ -2246,7 +2202,7 @@ Gab unendlich viele Herden. vor allem Antilopen und Zebras. Zeige mal ein paar d
       <guid>https://bdcaf.github.io/2012/11/30/kirstenbosch/</guid>
       <description>Heut früh wollten&amp;rsquo;s mich nicht auf&amp;rsquo;n Berg lassen. Scheint der is länger gesperrt. Und allein war mir der Aufstieg zu riskant. I fahr ja abends weiter.
 Alternativ gabs den Kirstenbosch Garten. Des is a riesige Parkanlage. Beim Eingang ist&amp;rsquo;s eher englisch, aber glei mal so a Wandergebiet.
-[caption id=&amp;ldquo;&amp;rdquo; width=&amp;ldquo;500&amp;rdquo; align=&amp;ldquo;aligncenter&amp;rdquo; caption=&amp;ldquo;Die Wolken hängen auch von der andren Seite des Tafelberg runter&amp;rdquo;][/caption][caption id=&amp;ldquo;&amp;rdquo; width=&amp;ldquo;500&amp;rdquo; align=&amp;ldquo;aligncenter&amp;rdquo; caption=&amp;ldquo;Und da geht Kapstadt im Süden weiter&amp;rdquo;][/caption]</description>
+[caption id=&amp;rdquo;&amp;rdquo; width=&amp;quot;500&amp;rdquo; align=&amp;quot;aligncenter&amp;rdquo; caption=&amp;quot;Die Wolken hängen auch von der andren Seite des Tafelberg runter&amp;rdquo;][/caption][caption id=&amp;rdquo;&amp;rdquo; width=&amp;quot;500&amp;rdquo; align=&amp;quot;aligncenter&amp;rdquo; caption=&amp;quot;Und da geht Kapstadt im Süden weiter&amp;rdquo;][/caption]</description>
     </item>
     
     <item>
@@ -2265,13 +2221,13 @@ Alternativ gabs den Kirstenbosch Garten. Des is a riesige Parkanlage. Beim Einga
       
       <guid>https://bdcaf.github.io/2012/11/29/pinguine/</guid>
       <description>Rückwegs war doch glatt die Chance in eine Pinguinkolonie zu gehen. Genaugenommen Jackass Pinguine.
-[caption id=&amp;ldquo;&amp;rdquo; width=&amp;ldquo;500&amp;rdquo; align=&amp;ldquo;aligncenter&amp;rdquo; caption=&amp;ldquo;Der erste Begrüßer im Busch&amp;rdquo;][/caption][caption id=&amp;ldquo;&amp;rdquo; width=&amp;ldquo;500&amp;rdquo; align=&amp;ldquo;aligncenter&amp;rdquo; caption=&amp;ldquo;Da sin seine Freunde&amp;rdquo;][/caption]
+[caption id=&amp;rdquo;&amp;rdquo; width=&amp;quot;500&amp;rdquo; align=&amp;quot;aligncenter&amp;rdquo; caption=&amp;quot;Der erste Begrüßer im Busch&amp;rdquo;][/caption][caption id=&amp;rdquo;&amp;rdquo; width=&amp;quot;500&amp;rdquo; align=&amp;quot;aligncenter&amp;rdquo; caption=&amp;quot;Da sin seine Freunde&amp;rdquo;][/caption]
 
 
-[caption id=&amp;ldquo;&amp;rdquo; width=&amp;ldquo;500&amp;rdquo; align=&amp;ldquo;aligncenter&amp;rdquo; caption=&amp;ldquo;Ham da lustige Nistplätze&amp;rdquo;][/caption]
+[caption id=&amp;rdquo;&amp;rdquo; width=&amp;quot;500&amp;rdquo; align=&amp;quot;aligncenter&amp;rdquo; caption=&amp;quot;Ham da lustige Nistplätze&amp;rdquo;][/caption]
 
 
-[caption id=&amp;ldquo;&amp;rdquo; width=&amp;ldquo;500&amp;rdquo; align=&amp;ldquo;aligncenter&amp;rdquo; caption=&amp;ldquo;Sind schon lustig wie sie rumwatscheln&amp;rdquo;][/caption]</description>
+[caption id=&amp;rdquo;&amp;rdquo; width=&amp;quot;500&amp;rdquo; align=&amp;quot;aligncenter&amp;rdquo; caption=&amp;quot;Sind schon lustig wie sie rumwatscheln&amp;rdquo;][/caption]</description>
     </item>
     
     <item>
@@ -2290,7 +2246,7 @@ Alternativ gabs den Kirstenbosch Garten. Des is a riesige Parkanlage. Beim Einga
       
       <guid>https://bdcaf.github.io/2012/11/29/festung-der-guten-hoffnung/</guid>
       <description>Ein schneller Morgenspaziergang führte mich erst durch den Distrikt 6 wo ich nicht fotografieren wollte, und dann in die Festung. Heut ist&amp;rsquo;s ganz stürmisch deshalb flattern die Fahnen so schön.
-[caption id=&amp;ldquo;&amp;rdquo; width=&amp;ldquo;500&amp;rdquo; align=&amp;ldquo;aligncenter&amp;rdquo; caption=&amp;ldquo;Mal die Fahne theatralisch&amp;rdquo;][/caption][caption id=&amp;ldquo;&amp;rdquo; width=&amp;ldquo;500&amp;rdquo; align=&amp;ldquo;aligncenter&amp;rdquo; caption=&amp;ldquo;Prunkbauten im inneren vor moderner City&amp;rdquo;][/caption][caption id=&amp;ldquo;&amp;rdquo; width=&amp;ldquo;500&amp;rdquo; align=&amp;ldquo;aligncenter&amp;rdquo; caption=&amp;ldquo;Heut hängt die Decke tief vom Berg&amp;rdquo;][/caption][caption id=&amp;ldquo;&amp;rdquo; width=&amp;ldquo;500&amp;rdquo; align=&amp;ldquo;aligncenter&amp;rdquo; caption=&amp;ldquo;Blick auf Tafelberg und Lowenkopf&amp;rdquo;][/caption][caption id=&amp;ldquo;&amp;rdquo; width=&amp;ldquo;500&amp;rdquo; align=&amp;ldquo;aligncenter&amp;rdquo; caption=&amp;ldquo;Da warn mal schweres Geschütz&amp;rdquo;][/caption][caption id=&amp;ldquo;&amp;rdquo; width=&amp;ldquo;500&amp;rdquo; align=&amp;ldquo;aligncenter&amp;rdquo; caption=&amp;ldquo;S Zentrum&amp;rdquo;][/caption][caption id=&amp;ldquo;&amp;rdquo; width=&amp;ldquo;500&amp;rdquo; align=&amp;ldquo;aligncenter&amp;rdquo; caption=&amp;ldquo;Dahinter war der District 6&amp;rdquo;][/caption]</description>
+[caption id=&amp;rdquo;&amp;rdquo; width=&amp;quot;500&amp;rdquo; align=&amp;quot;aligncenter&amp;rdquo; caption=&amp;quot;Mal die Fahne theatralisch&amp;rdquo;][/caption][caption id=&amp;rdquo;&amp;rdquo; width=&amp;quot;500&amp;rdquo; align=&amp;quot;aligncenter&amp;rdquo; caption=&amp;quot;Prunkbauten im inneren vor moderner City&amp;rdquo;][/caption][caption id=&amp;rdquo;&amp;rdquo; width=&amp;quot;500&amp;rdquo; align=&amp;quot;aligncenter&amp;rdquo; caption=&amp;quot;Heut hängt die Decke tief vom Berg&amp;rdquo;][/caption][caption id=&amp;rdquo;&amp;rdquo; width=&amp;quot;500&amp;rdquo; align=&amp;quot;aligncenter&amp;rdquo; caption=&amp;quot;Blick auf Tafelberg und Lowenkopf&amp;rdquo;][/caption][caption id=&amp;rdquo;&amp;rdquo; width=&amp;quot;500&amp;rdquo; align=&amp;quot;aligncenter&amp;rdquo; caption=&amp;quot;Da warn mal schweres Geschütz&amp;rdquo;][/caption][caption id=&amp;rdquo;&amp;rdquo; width=&amp;quot;500&amp;rdquo; align=&amp;quot;aligncenter&amp;rdquo; caption=&amp;quot;S Zentrum&amp;rdquo;][/caption][caption id=&amp;rdquo;&amp;rdquo; width=&amp;quot;500&amp;rdquo; align=&amp;quot;aligncenter&amp;rdquo; caption=&amp;quot;Dahinter war der District 6&amp;rdquo;][/caption]</description>
     </item>
     
     <item>
@@ -2301,11 +2257,11 @@ Alternativ gabs den Kirstenbosch Garten. Des is a riesige Parkanlage. Beim Einga
       <guid>https://bdcaf.github.io/2012/11/28/aquarium-der-2-ozeane/</guid>
       <description>Damit I ned nur in der prallen Sonne bin auch glei ins Aquarium. Die ham da tolle Dinger.
 
-[caption id=&amp;ldquo;&amp;rdquo; width=&amp;ldquo;500&amp;rdquo; align=&amp;ldquo;aligncenter&amp;rdquo; caption=&amp;ldquo;Da Cody is a da&amp;rdquo;][/caption][caption id=&amp;ldquo;&amp;rdquo; width=&amp;ldquo;500&amp;rdquo; align=&amp;ldquo;aligncenter&amp;rdquo; caption=&amp;ldquo;Fuck war des Ding groß&amp;rdquo;][/caption]
+[caption id=&amp;rdquo;&amp;rdquo; width=&amp;quot;500&amp;rdquo; align=&amp;quot;aligncenter&amp;rdquo; caption=&amp;quot;Da Cody is a da&amp;rdquo;][/caption][caption id=&amp;rdquo;&amp;rdquo; width=&amp;quot;500&amp;rdquo; align=&amp;quot;aligncenter&amp;rdquo; caption=&amp;quot;Fuck war des Ding groß&amp;rdquo;][/caption]
 
-[caption id=&amp;ldquo;&amp;rdquo; width=&amp;ldquo;500&amp;rdquo; align=&amp;ldquo;aligncenter&amp;rdquo; caption=&amp;ldquo;De sind auch immer beim ausbrechen&amp;rdquo;][/caption]
+[caption id=&amp;rdquo;&amp;rdquo; width=&amp;quot;500&amp;rdquo; align=&amp;quot;aligncenter&amp;rdquo; caption=&amp;quot;De sind auch immer beim ausbrechen&amp;rdquo;][/caption]
 
-[caption id=&amp;ldquo;&amp;rdquo; width=&amp;ldquo;500&amp;rdquo; align=&amp;ldquo;aligncenter&amp;rdquo; caption=&amp;ldquo;Kind findet an Nemo&amp;rdquo;][/caption]</description>
+[caption id=&amp;rdquo;&amp;rdquo; width=&amp;quot;500&amp;rdquo; align=&amp;quot;aligncenter&amp;rdquo; caption=&amp;quot;Kind findet an Nemo&amp;rdquo;][/caption]</description>
     </item>
     
     <item>
@@ -2314,10 +2270,10 @@ Alternativ gabs den Kirstenbosch Garten. Des is a riesige Parkanlage. Beim Einga
       <pubDate>Wed, 28 Nov 2012 12:24:39 +0000</pubDate>
       
       <guid>https://bdcaf.github.io/2012/11/28/gut-angekommen./</guid>
-      <description>[caption id=&amp;ldquo;&amp;rdquo; width=&amp;ldquo;500&amp;rdquo; align=&amp;ldquo;aligncenter&amp;rdquo; caption=&amp;ldquo;Tafelberg mit Decke&amp;rdquo;][/caption]
+      <description>[caption id=&amp;rdquo;&amp;rdquo; width=&amp;quot;500&amp;rdquo; align=&amp;quot;aligncenter&amp;rdquo; caption=&amp;quot;Tafelberg mit Decke&amp;rdquo;][/caption]
 Bin als ersts zum Hafen. Man sieht wie die Tischdecke vom Tafelberg hängt.
 Und Christkindlmarkt gibts a scho:
-[caption id=&amp;ldquo;&amp;rdquo; width=&amp;ldquo;500&amp;rdquo; align=&amp;ldquo;aligncenter&amp;rdquo; caption=&amp;ldquo;Weihnachtsbaum&amp;rdquo;][/caption]</description>
+[caption id=&amp;rdquo;&amp;rdquo; width=&amp;quot;500&amp;rdquo; align=&amp;quot;aligncenter&amp;rdquo; caption=&amp;quot;Weihnachtsbaum&amp;rdquo;][/caption]</description>
     </item>
     
     <item>
@@ -2356,7 +2312,7 @@ Wann gemma denn hin? (^_^)</description>
       <pubDate>Fri, 09 Nov 2012 17:51:27 +0000</pubDate>
       
       <guid>https://bdcaf.github.io/2012/11/09/noch-a-poa-probefotos/</guid>
-      <description>Heut war schöns Wetter. Hab mal die Kamera in&amp;rsquo;n Alpenzoo ausgeführt. Mal schaun wie die Qualität is.[gallery orderby=&amp;ldquo;post_date&amp;rdquo;]</description>
+      <description>Heut war schöns Wetter. Hab mal die Kamera in&amp;rsquo;n Alpenzoo ausgeführt. Mal schaun wie die Qualität is.[gallery orderby=&amp;quot;post_date&amp;rdquo;]</description>
     </item>
     
     <item>
@@ -2375,7 +2331,7 @@ Wann gemma denn hin? (^_^)</description>
       
       <guid>https://bdcaf.github.io/2012/11/06/karte-in-google/</guid>
       <description>Mal die etwaige Route in Mapform. Hoffe die Posts werden dann schön eingefügt.
-[geo_mashup_map zoom=&amp;lsquo;auto&amp;rsquo;]</description>
+[geo_mashup_map zoom=&#39;auto&amp;rsquo;]</description>
     </item>
     
     <item>

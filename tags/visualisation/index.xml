@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>visualisation on C. Ager</title>
@@ -19,8 +19,7 @@
       
       <guid>https://bdcaf.github.io/2018/12/28/seeing-statistics/</guid>
       <description>&lt;p&gt;There is a nice introducition to statistics with visualisation of the
-concepts at &lt;a href=&#34;https://seeing-theory.brown.edu/index.html&#34; target=&#34;_blank&#34;&gt;seeing theory&lt;/a&gt;&lt;/p&gt;
-
+concepts at &lt;a href=&#34;https://seeing-theory.brown.edu/index.html&#34;&gt;seeing theory&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Takes about 20 minutes to click through.&lt;/p&gt;</description>
     </item>
     
@@ -30,14 +29,14 @@ concepts at &lt;a href=&#34;https://seeing-theory.brown.edu/index.html&#34; targ
       <pubDate>Wed, 30 Mar 2016 00:00:00 +0000</pubDate>
       
       <guid>https://bdcaf.github.io/2016/03/30/mass-spectra-visualization/</guid>
-      <description>&lt;p&gt;I saw some &lt;a href=&#34;http://datadrivensecurity.info/blog/posts/2015/Jan/mapping-ipv4-address-in-hilbert-space/&#34; target=&#34;_blank&#34;&gt;nice visualiztion for IP
+      <description>&lt;p&gt;I saw some &lt;a href=&#34;http://datadrivensecurity.info/blog/posts/2015/Jan/mapping-ipv4-address-in-hilbert-space/&#34;&gt;nice visualiztion for IP
 adresses&lt;/a&gt;
 which made use of the hilbert curve for mapping sequatial data into an
 area. This has the nice benefit of assuring numbers that are close to
 each other stay close in two dimensions as well.  Unfortunately the
 opposite does not hold.  Conveniently a function to produce a hilbert
 curve is provided via
-&lt;a href=&#34;https://bioconductor.org/packages/release/bioc/html/HilbertVis.html&#34; target=&#34;_blank&#34;&gt;HilbertVis&lt;/a&gt;
+&lt;a href=&#34;https://bioconductor.org/packages/release/bioc/html/HilbertVis.html&#34;&gt;HilbertVis&lt;/a&gt;
 on bioconductor.&lt;/p&gt;</description>
     </item>
     

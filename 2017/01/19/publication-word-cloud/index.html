@@ -3,8 +3,8 @@
   <head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="author" content="Clemens Ager"><meta name="description" content="Number Cruncher // PhD Candidate // Physicist"><script defer src="https://use.fontawesome.com/releases/v5.0.13/js/all.js" integrity="sha384-xymdQtn1n3lH2wcu0qhcdaOpQwyoarkgLVxC/wZ5q7h9gHtxICrpcaSUfygqZGOe" crossorigin="anonymous"></script>
-<link href="https://fonts.googleapis.com/css?family=Montserrat|Raleway:100,400" rel="stylesheet"><link rel="stylesheet" href="https://bdcaf.github.io/style.min.c158c3ec229d304a0bc80bb63ae03b7eda2f3f200748edc03743279e972d55b81db317d6c1a828b7f48cd94df54cc85ab5a84e99a4dee9e1d8d74d3a7c35d7b1.css" 
-		       integrity="sha512-wVjD7CKdMEoLyAu2OuA7ftovPyAHSO3AN0MnnpctVbgdsxfWwagot/SM2U31TMhatahOmaTe6eHY1006fDXXsQ==">
+<link href="https://fonts.googleapis.com/css?family=Montserrat|Raleway:100,400" rel="stylesheet"><link rel="stylesheet" href="https://bdcaf.github.io/style.min.3e5b91d8ba3df6ce753b537d698197cd7483d05dac7af3d25f51d44d00288fddda3ce77df34ee38fde5f4093e7130224d50a291426d38ced5cf8d8ead844da1f.css" 
+		       integrity="sha512-PluR2Lo99s51O1N9aYGXzXSD0F2sevPSX1HUTQAoj93aPOd9807jj95fQJPnEwIk1QopFCbTjO1c&#43;Njq2ETaHw==">
 <link rel="canonical" href="https://bdcaf.github.io/2017/01/19/publication-word-cloud/">
     <title>Publication word cloud|C. Ager</title></head>
   <body id="top"><header>
@@ -50,48 +50,42 @@
     ></span></div>
 <div class="article-style" itemprop="articleBody"><p>I wanted to play with word clouds for some time. Usually the problem
 is to obtain a nice corpus.  Luckily
-<a href="https://felixfan.github.io/PubMedWordcloud/" target="_blank">PubMedWordCloud</a> was
+<a href="https://felixfan.github.io/PubMedWordcloud/">PubMedWordCloud</a> was
 recently updated and I had something to play with.</p>
-
 <p>The initial cloud looks not good enough - I did not like how plurals
 are counted separately.
 Since I couldn&rsquo;t clean it up easy enough I ended up going back to the
-<a href="https://cran.r-project.org/web/packages/tm/index.html" target="_blank">tm</a> package
+<a href="https://cran.r-project.org/web/packages/tm/index.html">tm</a> package
 and roll my own script.  Unfortunately it&rsquo;s far from publishable.</p>
-
 <p>Anyway the result is way more to my liking.
-<img src="https://bdcaf.github.io/img/wc_clean.png" alt="clean word cloud" /></p>
-
+<img src="https://bdcaf.github.io/img/wc_clean.png" alt="clean word cloud"></p>
 <p>My final script looks like this - I still use <code>getAbstracts</code> from
 <code>PubMedWordCloud</code>.</p>
+<div class="highlight"><pre class="chroma"><code class="language-r" data-lang="r"><span class="nf">library</span><span class="p">(</span><span class="n">PubMedWordcloud</span><span class="p">)</span>  
+<span class="nf">library</span><span class="p">(</span><span class="n">tm</span><span class="p">)</span>
+<span class="nf">library</span><span class="p">(</span><span class="n">wordcloud</span><span class="p">)</span>
+<span class="nf">library</span><span class="p">(</span><span class="n">magrittr</span><span class="p">)</span>
 
-<pre><code class="language-r">library(PubMedWordcloud)  
-library(tm)
-library(wordcloud)
-library(magrittr)
+<span class="n">pmids</span> <span class="o">&lt;-</span> <span class="nf">getPMIDs</span><span class="p">(</span><span class="n">author</span><span class="o">=</span><span class="s">&#34;</span><span class="s">Clemens Ager&#34;</span><span class="p">,</span><span class="n">dFrom</span><span class="o">=</span><span class="m">2002</span><span class="p">,</span><span class="n">dTo</span><span class="o">=</span><span class="m">2016</span><span class="p">,</span><span class="n">n</span><span class="o">=</span><span class="m">30</span><span class="p">)</span>
 
-pmids &lt;- getPMIDs(author=&quot;Clemens Ager&quot;,dFrom=2002,dTo=2016,n=30)
+<span class="n">abstracts</span> <span class="o">&lt;-</span> <span class="nf">getAbstracts</span><span class="p">(</span><span class="n">pmids</span><span class="p">)</span>
+<span class="n">corp</span> <span class="o">&lt;-</span> <span class="nf">VCorpus</span><span class="p">(</span><span class="nf">VectorSource</span><span class="p">(</span><span class="n">abstracts</span><span class="p">)</span><span class="p">)</span>
 
-abstracts &lt;- getAbstracts(pmids)
-corp &lt;- VCorpus(VectorSource(abstracts))
-
-f &lt;- content_transformer(function(x, pattern) gsub(pattern, &quot;&quot;, x))
-c1 &lt;- tm_map(corp, removePunctuation) %&gt;% 
-  tm_map(removeNumbers) %&gt;% 
-  tm_map(content_transformer(tolower)) %&gt;% 
-  tm_map(content_transformer(function(x) gsub(&quot;([^si])s\\&gt;&quot;, &quot;\\1&quot;, x))) %&gt;% 
-  tm_map(removeWords, stopwords(&quot;english&quot;)) %&gt;%
-  tm_map(removeWords, c(&quot;also&quot;, &quot;thus&quot;, &quot;three&quot;, &quot;calu&quot;, &quot;hbepc&quot;, &quot;gcm&quot;, &quot;ptrm&quot;)) %&gt;%
-  tm_map(stripWhitespace) %&gt;%
-  tm_map(f, &quot;\\&lt;[[:alpha:]]{,2}\\&gt;\\W+&quot;)
+<span class="n">f</span> <span class="o">&lt;-</span> <span class="nf">content_transformer</span><span class="p">(</span><span class="nf">function</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">pattern</span><span class="p">)</span> <span class="nf">gsub</span><span class="p">(</span><span class="n">pattern</span><span class="p">,</span> <span class="s">&#34;</span><span class="s">&#34;</span><span class="p">,</span> <span class="n">x</span><span class="p">)</span><span class="p">)</span>
+<span class="n">c1</span> <span class="o">&lt;-</span> <span class="nf">tm_map</span><span class="p">(</span><span class="n">corp</span><span class="p">,</span> <span class="n">removePunctuation</span><span class="p">)</span> <span class="o">%&gt;%</span> 
+  <span class="nf">tm_map</span><span class="p">(</span><span class="n">removeNumbers</span><span class="p">)</span> <span class="o">%&gt;%</span> 
+  <span class="nf">tm_map</span><span class="p">(</span><span class="nf">content_transformer</span><span class="p">(</span><span class="n">tolower</span><span class="p">)</span><span class="p">)</span> <span class="o">%&gt;%</span> 
+  <span class="nf">tm_map</span><span class="p">(</span><span class="nf">content_transformer</span><span class="p">(</span><span class="nf">function</span><span class="p">(</span><span class="n">x</span><span class="p">)</span> <span class="nf">gsub</span><span class="p">(</span><span class="s">&#34;</span><span class="s">([^si])s\\&gt;&#34;</span><span class="p">,</span> <span class="s">&#34;</span><span class="s">\\1&#34;</span><span class="p">,</span> <span class="n">x</span><span class="p">)</span><span class="p">)</span><span class="p">)</span> <span class="o">%&gt;%</span> 
+  <span class="nf">tm_map</span><span class="p">(</span><span class="n">removeWords</span><span class="p">,</span> <span class="nf">stopwords</span><span class="p">(</span><span class="s">&#34;</span><span class="s">english&#34;</span><span class="p">)</span><span class="p">)</span> <span class="o">%&gt;%</span>
+  <span class="nf">tm_map</span><span class="p">(</span><span class="n">removeWords</span><span class="p">,</span> <span class="nf">c</span><span class="p">(</span><span class="s">&#34;</span><span class="s">also&#34;</span><span class="p">,</span> <span class="s">&#34;</span><span class="s">thus&#34;</span><span class="p">,</span> <span class="s">&#34;</span><span class="s">three&#34;</span><span class="p">,</span> <span class="s">&#34;</span><span class="s">calu&#34;</span><span class="p">,</span> <span class="s">&#34;</span><span class="s">hbepc&#34;</span><span class="p">,</span> <span class="s">&#34;</span><span class="s">gcm&#34;</span><span class="p">,</span> <span class="s">&#34;</span><span class="s">ptrm&#34;</span><span class="p">)</span><span class="p">)</span> <span class="o">%&gt;%</span>
+  <span class="nf">tm_map</span><span class="p">(</span><span class="n">stripWhitespace</span><span class="p">)</span> <span class="o">%&gt;%</span>
+  <span class="nf">tm_map</span><span class="p">(</span><span class="n">f</span><span class="p">,</span> <span class="s">&#34;</span><span class="s">\\&lt;[[:alpha:]]{,2}\\&gt;\\W+&#34;</span><span class="p">)</span>
 
 
-wordcloud(c1, random.order=F, min.freq = 6, 
-		  colors = brewer.pal(9,&quot;Set1&quot;),
-		  rot.per= 0.3)
-</code></pre>
-
-<p>I already have some ideas on where to improve - basically I could
+<span class="nf">wordcloud</span><span class="p">(</span><span class="n">c1</span><span class="p">,</span> <span class="n">random.order</span><span class="o">=</span><span class="bp">F</span><span class="p">,</span> <span class="n">min.freq</span> <span class="o">=</span> <span class="m">6</span><span class="p">,</span> 
+		  <span class="n">colors</span> <span class="o">=</span> <span class="nf">brewer.pal</span><span class="p">(</span><span class="m">9</span><span class="p">,</span><span class="s">&#34;</span><span class="s">Set1&#34;</span><span class="p">)</span><span class="p">,</span>
+		  <span class="n">rot.per</span><span class="o">=</span> <span class="m">0.3</span><span class="p">)</span>
+</code></pre></div><p>I already have some ideas on where to improve - basically I could
 crawl our pdfs as well.  But for today I&rsquo;m done.</p>
 </div></div>
 </article>
