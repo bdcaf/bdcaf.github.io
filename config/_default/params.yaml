@@ -1,16 +1,20 @@
-address: Innrain 66, 6020 Innsbruck
+address: 
+  city: Brixlegg
+  region: Tirol
+  country: Austria
+  counry_code: AT
 author: Clemens Ager
 authorlocation: Tirol
 avatar: my_portrait.png
 bio_twitter: c_decaf
 cachebuster: true
-contact: mailto:clemens.ager@uibk.ac.at
+contact: mailto:clemens.ager@gmail.com
 custom_css: []
 custom_js: []
 date_format: '2006-01-02'
 dateformfull: Mon  2. Jan 2006 15:04:05 MST
 description: Rechenknecht, Student
-email: clemens.ager@uibk.ac.at
+email: clemens.ager@gmail.com
 github: bdcaf
 highlightjs: false
 lang: en

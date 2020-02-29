@@ -19,9 +19,10 @@ footnotereturnlinkcontents: <sup>^</sup>
 ignoreFiles:
 - \.sh$
 - \.tmp$
-- \.txt
-- \.old
+- \.txt$
+- \.old$
 - \.DS_Store
+- \.bak$
 layoutdir: layouts
 newContentEditor: nvim
 
