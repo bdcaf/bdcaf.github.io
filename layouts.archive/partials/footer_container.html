@@ -1,0 +1,9 @@
+<p class="powered-by">
+  {{- with .Site.Copyright -}}{{- . | markdownify}} &middot; {{- end -}}
+  Powered by <a href="http://gohugo.io" target="_blank">Hugo</a>.
+  {{ with .OutputFormats.Get "RSS" }}
+  &middot;
+  <a href=" {{ .RelPermalink }}">RSS 
+    <i class="fas fa-rss-square"> </i></a>
+  {{- end -}}
+</p>

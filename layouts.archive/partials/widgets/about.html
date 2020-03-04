@@ -1,0 +1,67 @@
+{{- $ := .root -}}
+{{- $page := .page -}}
+
+<!-- About widget -->
+<div class="main-allcol" id = "about">
+  <div id="profile">
+    {{- with $.Site.Params.avatar -}}
+    <div class="portrait" itemprop="image" style="background-image: url('{{- "img/" | absURL -}}{{- . -}}');">
+    </div>
+    {{- end -}}
+    <div class="portrait-title">
+      <h2 itemprop="name">{{- $.Site.Params.name -}}</h2>
+      <h3 itemprop="jobTitle">{{- $.Site.Params.role -}}</h3>
+      {{- with $.Site.Params.organization -}}
+      <h3 itemprop="worksFor">{{- . -}}</h3>
+      {{- end -}}
+    </div>
+    <ul class="social-icon-2" aria-hidden="true">
+      {{- range $.Site.Params.social -}}
+      <li> 
+	<a href="{{- .link | safeURL -}}" target="_blank">
+	  <i class="{{- .fa_class -}}"></i>
+	</a>
+      </li>
+      {{- end -}}
+    </ul>
+    <p>
+    <a href="https://projecteuler.net">
+      <img src="https://projecteuler.net/profile/cager.png", alt="Project Euler Score" style="min-width: 100px;"/>
+    </a> 
+    </p>
+  </div>
+
+  <div id="bio" itemprop="description">
+    {{- $page.Content -}}
+    <div class="twotable">
+      {{- with $page.Params.interests -}}
+      <div class="half-content">
+	<h3>{{- i18n "interests" | markdownify -}}</h3>
+	<ul class="ul-interests">
+	  {{- range .interests -}}
+	  <li>{{- . -}}</li>
+	  {{- end -}}
+	</ul>
+      </div>
+      {{- end -}}
+
+      {{- with $page.Params.education -}}
+      <div class="half-content">
+	<h3>{{- i18n "education" | markdownify -}}</h3>
+	<ul class="ul-edu fa-ul">
+	  {{- range .courses -}}
+	  <li>
+	    <i class="fa-li fa fa-graduation-cap"></i>
+	    <div class="description">
+	      <p class="course">{{- .course -}}{{- with .year -}}, {{- . -}}{{- end -}}</p>
+	      <p class="institution">{{- .institution -}}</p>
+	    </div>
+	  </li>
+	  {{- end -}}
+	</ul>
+      </div>
+      {{- end -}}
+
+    </div>
+  </div>
+</div>

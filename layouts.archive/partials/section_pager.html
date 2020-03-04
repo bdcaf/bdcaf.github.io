@@ -1,0 +1,20 @@
+<nav>
+  <ul class="pager">
+    <li class="previous">
+    {{- if .PrevInSection -}}
+      <a href="{{.PrevInSection.Permalink}}"><span
+      aria-hidden="true">&larr;</span> {{.PrevInSection.Title}}</a>
+    {{- else -}}
+      {{- i18n "no_earlier" -}}
+    {{- end -}}
+    </li>
+    <li class="next">
+    {{if .NextInSection}}
+      <a href="{{.NextInSection.Permalink}}">{{.NextInSection.Title}} <span
+      aria-hidden="true">&rarr;</span></a>
+    {{- else -}}
+      {{- i18n "no_later" -}}
+    {{end}}
+    </li>
+  </ul>
+</nav>

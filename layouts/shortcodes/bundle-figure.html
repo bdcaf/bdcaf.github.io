@@ -1,0 +1,21 @@
+{{- /* 
+from suggestion at https://nilsnh.no/2018/06/10/hugo-how-to-add-support-for-responsive-images-trough-image-processing-and-page-bundles-3/ 
+only works in the index.md file of a post-bundle
+example use:
+{{< bundle-image name="picture.jpg" alt="Description for screen readers." caption="Some caption" class="float-left" >}}
+*/ -}}
+
+{{- $caption := .Get "caption" -}}
+{{- $altText := .Get "alt" -}}
+{{- $class := .Get "class" -}}
+
+{{- with $.Page.Resources.GetMatch (.Get "name") }}
+<figure {{- if $class }} class = "{{$class}}" {{ end -}} >
+    <img src="{{- .RelPermalink }}" alt="{{- $altText -}}"/>
+  {{- if $caption -}}
+  <figcaption>{{- $caption -}}</figcaption>
+  {{- end -}}
+</figure>
+{{- else -}}
+<!-- could not find figure {{ .Get "name" }} -->  
+{{- end -}}

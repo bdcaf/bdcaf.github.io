@@ -1,0 +1,25 @@
+# Theme metadata
+name = "MyRose"
+
+# Is theme light or dark?
+light = true
+
+# theme
+#$color1: rgba(214, 195, 201, 1);
+#$color2: rgba(180, 144, 130, 1);
+#$color3: rgba(152, 71, 62, 1);
+#$color4: rgba(163, 124, 64, 1);
+#$color5: rgba(7, 9, 15, 1);
+
+# Primary
+primary = "#A30000"
+
+# Menu
+menu_primary = "rgb(247, 247, 247)"
+menu_text = "#4E8098"
+menu_text_active = "#90C2E7"
+menu_title = "#000"
+
+# Home sections
+home_section_odd = "#FFF"
+home_section_even = "#FCF7F8"

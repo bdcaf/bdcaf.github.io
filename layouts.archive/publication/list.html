@@ -1,0 +1,16 @@
+{{- define "main" -}}
+<h1>{{- .Title | default (i18n "publications") -}}</h1>
+
+{{- with .Content -}}
+<div class="article-style" itemprop="articleBody">{{- . -}}</div>
+{{- end -}}
+
+<div id="container-publications">
+  {{ range .Data.Pages.GroupByDate "2006" }}
+  <h2> {{- .Key -}} </h2>
+    {{- range .Pages.ByDate.Reverse -}}
+    {{- partial "publication/short_list" . -}}
+    {{- end -}}
+  {{- end -}}
+</div>
+{{- end -}}

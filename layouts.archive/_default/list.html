@@ -1,0 +1,39 @@
+{{ define "main" }}
+<div class="text-wrapper">
+  <h1>
+    {{- with .Title -}}
+    {{- . -}}
+    {{- else -}}
+    {{- i18n "no_title" -}}
+    {{- end -}}
+  </h1>
+
+  {{- with .Content -}}
+  <div class="article-style" itemprop="articleBody">{{- . -}}</div>
+  {{- else -}}
+  {{- i18n "no_content" -}}
+  {{- end -}}
+
+  {{- $paginator := .Paginate .Data.Pages -}}
+  {{- range $paginator.Pages -}}
+  <div>
+    <h2><a href="{{- .Permalink -}}">
+	{{- with .Title -}}
+	{{- . -}}
+	{{- else -}}
+	{{- i18n "no_title" -}}
+	{{- end -}}
+      </a></h2>
+    <div class="article-style">
+      {{- if .Params.summary -}}
+      {{- printf "%s" .Params.summary | markdownify -}}
+      {{- else if .Truncated -}}
+      {{- printf "%s" .Summary | markdownify -}}
+      {{- end -}}
+    </div>
+  </div>
+  {{- end -}}
+
+  {{- partial "pagination" . -}}
+</div>
+{{ end }}

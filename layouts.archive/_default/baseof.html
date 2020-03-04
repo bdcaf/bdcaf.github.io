@@ -1,0 +1,28 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="{{- .Site.LanguageCode | default "en-gb" -}}">
+  <head>
+    {{- partialCached "head-static" . -}}
+    <link rel="canonical" href="{{- .Permalink -}}">
+    <title>{{- if not .IsHome -}}{{- .Title -}} | {{- end -}}{{- .Site.Title -}}</title>
+    {{- block "head" . -}}
+    {{- end -}}
+
+    {{- range .AlternativeOutputFormats -}}
+    {{- printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
+    {{- end -}}
+  </head>
+  <body id="top">
+    {{- partial "navbar.html" . -}}
+
+    <div class="content">
+      {{- block "main" . -}}
+      {{- end -}}
+    </div>
+
+    <footer>
+      {{- block "footer" . -}}
+      {{- partial "footer_container.html" . -}}
+      {{- end -}}
+    </footer>
+  </body>
+</html>

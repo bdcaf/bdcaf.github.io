@@ -1,0 +1,16 @@
+{{- if .Params.publication_types -}}
+{{- $.Scratch.Set "pubtype" (index .Params.publication_types 0) -}}
+{{- else -}}
+{{- $.Scratch.Set "pubtype" 0 -}}
+{{- end -}}
+
+<div class="pubtype-{{- $.Scratch.Get "pubtype" -}}">
+  <h2> <a href="{{- .Permalink -}}">{{- .Title -}}</a></h2>
+  <div class="pub-author-short-wrap">
+    <div class="pub-authors-short" itemprop="author">
+      {{ partial "publication/authorlist.html" .Params.author }}
+    </div>
+    <br/>
+    <p>{{- partial "publication/links" (dict "content" . "is_list" 1) -}}</p> 
+  </div>
+</div>

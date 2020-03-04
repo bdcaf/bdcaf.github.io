@@ -1,0 +1,11 @@
+# Font style metadata
+name = "MyRose"
+
+# Optional Google font URL
+google_fonts = "Source+Code+Pro:400|Oswald:400|Raleway|Montserrat:600"
+
+# Font families
+heading_font = "Montserrat"
+body_font = "Raleway"
+nav_font = "Oswald"
+mono_font = "Source Code Pro"
