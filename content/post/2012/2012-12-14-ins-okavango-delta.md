@@ -1,5 +1,7 @@
 ---
+draft: true
 date: 2012-12-14 08:25:13+00:00
+draft: true
 layout: post
 title: Ins Okavango Delta
 categories:

@@ -1,4 +1,5 @@
 ---
+draft: true
 date: 2015-03-15 10:28:21+00:00
 layout: post
 title: Dschunke nach Oman

@@ -1,4 +1,5 @@
 ---
+draft: true
 date: 2013-11-14 19:23:44+00:00
 layout: post
 title: Halle der Aufklärung

@@ -1,4 +1,5 @@
 ---
+draft: true
 date: 2012-11-29 08:05:53+00:00
 layout: post
 title: Festung der guten Hoffnung

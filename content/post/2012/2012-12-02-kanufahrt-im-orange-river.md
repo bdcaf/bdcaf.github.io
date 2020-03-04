@@ -1,4 +1,5 @@
 ---
+draft: true
 date: 2012-12-02 09:57:12+00:00
 layout: post
 title: Kanufahrt im Orange River

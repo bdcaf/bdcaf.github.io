@@ -1,4 +1,5 @@
 ---
+draft: true
 date: 2012-12-05 04:32:56+00:00
 layout: post
 title: Wendekreis des Steinbock

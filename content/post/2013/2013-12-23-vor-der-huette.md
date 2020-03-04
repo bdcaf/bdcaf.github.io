@@ -1,4 +1,5 @@
 ---
+draft: true
 date: 2013-12-23 05:51:18+00:00
 layout: post
 title: Vor der Hütte

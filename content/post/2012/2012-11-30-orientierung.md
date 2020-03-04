@@ -1,4 +1,5 @@
 ---
+draft: true
 date: 2012-11-30 15:14:19+00:00
 layout: post
 title: Orientierung

@@ -1,4 +1,5 @@
 ---
+draft: true
 date: 2012-12-08 12:02:21+00:00
 layout: post
 title: Noch so a Stamm

@@ -1,5 +1,7 @@
 ---
+draft: true
 date: 2014-03-05 18:47:34+00:00
+draft: true
 layout: post
 title: Fez war gut
 categories:

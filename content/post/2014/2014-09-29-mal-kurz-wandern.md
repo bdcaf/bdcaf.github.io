@@ -1,5 +1,7 @@
 ---
+draft: true
 date: 2014-09-29 06:56:08+00:00
+draft: true
 layout: post
 title: Mal kurz wandern..
 ---

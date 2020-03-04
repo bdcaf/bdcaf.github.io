@@ -1,4 +1,5 @@
 ---
+draft: true
 date: 2014-03-24 07:47:47+00:00
 layout: post
 title: Schnee auf der Bahnhofruine

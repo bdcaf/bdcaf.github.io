@@ -1,5 +1,7 @@
 ---
+draft: true
 date: 2012-12-26 14:02:44+00:00
+draft: true
 layout: post
 title: Nach Joburg
 categories:

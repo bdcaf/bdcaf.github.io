@@ -1,0 +1,12 @@
+---
+title: "A Compendium of Volatile Organic Compounds (VOCs) Released By Human Cell Lines"
+date: 2016-01-01
+publishDate: 2020-03-03T15:10:43.973249Z
+authors: ["Wojciech Filipiak", "Paweł Mochalski", "Anna Filipiak", "Clemens Ager", "Raquel Cumeras", "Cristina E. Davis", "Agapios Agapiou", "Karl Unterkofler", "Jakob Troppmair"]
+publication_types: ["2"]
+abstract: ""
+featured: false
+publication: ""
+doi: "10.2174/0929867323666160510122913"
+---
+

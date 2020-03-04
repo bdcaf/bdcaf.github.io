@@ -1,4 +1,5 @@
 ---
+draft: true
 date: 2013-12-20 10:42:59+00:00
 layout: post
 title: Schön klar heute

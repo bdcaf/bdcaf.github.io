@@ -1,4 +1,5 @@
 ---
+draft: true
 date: 2012-12-16 09:16:50+00:00
 layout: post
 title: Neulich in Botswana

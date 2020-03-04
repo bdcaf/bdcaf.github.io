@@ -1,4 +1,5 @@
 ---
+draft: true
 date: 2013-12-24 18:42:57+00:00
 layout: post
 title: Weihnachtsfeuer

@@ -1,6 +1,9 @@
 ---
 date: 2014-01-01 07:33:00+00:00
+draft: true
+draft: true
 layout: post
+draft: true
 title: Beim Feuerwerk
 categories:
 - trips

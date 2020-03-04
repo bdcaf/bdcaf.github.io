@@ -1,11 +1,16 @@
 ---
-title: "measles"
-subtitle: "A vignette."
+title: "TidyTuesday Measles Vaccination Data"
 author: "Clemens Ager"
-date: "2020-02-29"
-output: rmarkdown::html_vignette
+date: "2020-02-25"
 link-citations: yes
 ---
+
+This is my first `#tidytuesday` project.
+I had to spend more time than expected on data cleaning. 
+
+{{< bundle-figure name="big_tern-1.png" class=""  caption="Vacciantion ratio medial and other exclusions." >}}
+
+<!--more-->
 
 Note - I don't know the US American system. So I speculate on some correlations. 
 Mostly I suppose they don't do vaccination against the parents will, but rather I'm seeing honest typos in the data.
@@ -38,6 +43,12 @@ library(dplyr)
 ```r
 library(tidyr)
 library(pander)
+knitr::opts_chunk$set(warning = FALSE, message=FALSE)
+# library(svglite)
+# knitr::opts_chunk$set(
+#   dev = "svglite",
+#   fig.ext = ".svg"
+# )
 ```
 
 
@@ -64,10 +75,6 @@ ggplot(measles, mapping=aes(x=mmr, y=replace_na(xmed,0))) +
   geom_point(alpha = 0.2) 
 ```
 
-```
-## Warning: Removed 21956 rows containing missing values (geom_point).
-```
-
 {{< bundle-figure name="mmr_vs_xmed-1.png" class=""  caption="correspondance mmr with xmed" >}}
 
 ```r
@@ -76,16 +83,12 @@ proc.time()-ptm
 
 ```
 ##    user  system elapsed 
-##   0.841   0.056   0.930
+##   0.841   0.055   1.243
 ```
 
 ```r
 ggplot(measles, mapping=aes(x=mmr, y=replace_na(xper,0))) + 
   geom_point(alpha = 0.2) 
-```
-
-```
-## Warning: Removed 21956 rows containing missing values (geom_point).
 ```
 
 {{< bundle-figure name="mmr_vs_xper-1.png" class=""  caption="correspondance mmr with xper" >}}
@@ -121,82 +124,54 @@ School type seemets interesting, but has lots of `NA`s.
 Seems the reason is most states don't report these. 
 Not much I can do there.
 
+
 ```r
-pander(measles %>% group_by(type, state) %>% summarise(n=n()) %>%
-       spread(type,n), caption = "types of school vs. states",
+pandoc.table(measles %>% group_by(type, state) %>% summarise(n=n()) %>%
+       spread(type,n), 
+     caption = "types of school vs. states",
+     style="rmarkdown",
      split.tables = Inf)
 ```
 
 
----------------------------------------------------------------------------------------
-     state        BOCES   Charter   Kindergarten   Nonpublic   Private   Public   <NA> 
----------------- ------- --------- -------------- ----------- --------- -------- ------
-    Arizona        NA       276          NA           NA         224      951      NA  
 
-    Arkansas       NA       NA           NA           NA         NA        NA     567  
-
-   California      NA       NA           NA           NA        2745     13353     NA  
-
-    Colorado       NA       NA          1488          NA         21        NA      NA  
-
-  Connecticut      NA       NA           NA           173        NA       622      NA  
-
-    Florida        NA       NA           NA           NA         NA        NA     2678 
-
-     Idaho         NA       NA           NA           NA         NA        NA     475  
-
-    Illinois       NA       NA           NA           NA         NA        NA     7686 
-
-      Iowa         NA       NA           NA           NA         NA        NA     1370 
-
-     Maine         NA       NA           NA           NA         NA        NA     357  
-
- Massachusetts     NA       NA           NA           NA         486      1108     NA  
-
-    Michigan       NA       NA           NA           NA         NA        NA     2351 
-
-   Minnesota       NA       NA           NA           NA         NA        NA     1813 
-
-    Missouri       NA       NA           NA           NA         NA        NA     748  
-
-    Montana        NA       NA           NA           NA         NA        NA     645  
-
-   New Jersey      NA       NA           NA           NA         NA        NA     2211 
-
-    New York       47       NA           NA           NA        2294      1934     NA  
-
- North Carolina    NA       NA           NA           NA         NA        NA     2085 
-
-  North Dakota     NA       NA           NA           NA         NA        NA     387  
-
-      Ohio         NA       NA           NA           NA        1012      2153     NA  
-
-    Oklahoma       NA       NA           NA           NA         NA        NA     1249 
-
-     Oregon        NA       NA           NA           NA         NA        NA     817  
-
-  Pennsylvania     NA       NA           NA           NA         NA        NA     1939 
-
-  Rhode Island     NA       NA           NA           NA         NA        NA     230  
-
-  South Dakota     NA       NA           NA           NA         NA        NA     390  
-
-   Tennessee       NA       NA           NA           NA         NA        NA     1152 
-
-     Texas         NA       NA           NA           NA         NA        NA     811  
-
-      Utah         NA       NA           NA           NA         33       571      NA  
-
-    Vermont        NA       NA           NA           NA         NA        NA     349  
-
-    Virginia       NA       NA           NA           NA         NA        NA     1468 
-
-   Washington      NA       NA           NA           NA         NA        NA     2221 
-
-   Wisconsin       NA       NA           NA           NA         NA        NA     2623 
----------------------------------------------------------------------------------------
+|     state      | BOCES | Charter | Kindergarten | Nonpublic | Private | Public | <NA> |
+|:--------------:|:-----:|:-------:|:------------:|:---------:|:-------:|:------:|:----:|
+|    Arizona     |  NA   |   276   |      NA      |    NA     |   224   |  951   |  NA  |
+|    Arkansas    |  NA   |   NA    |      NA      |    NA     |   NA    |   NA   | 567  |
+|   California   |  NA   |   NA    |      NA      |    NA     |  2745   | 13353  |  NA  |
+|    Colorado    |  NA   |   NA    |     1488     |    NA     |   21    |   NA   |  NA  |
+|  Connecticut   |  NA   |   NA    |      NA      |    173    |   NA    |  622   |  NA  |
+|    Florida     |  NA   |   NA    |      NA      |    NA     |   NA    |   NA   | 2678 |
+|     Idaho      |  NA   |   NA    |      NA      |    NA     |   NA    |   NA   | 475  |
+|    Illinois    |  NA   |   NA    |      NA      |    NA     |   NA    |   NA   | 7686 |
+|      Iowa      |  NA   |   NA    |      NA      |    NA     |   NA    |   NA   | 1370 |
+|     Maine      |  NA   |   NA    |      NA      |    NA     |   NA    |   NA   | 357  |
+| Massachusetts  |  NA   |   NA    |      NA      |    NA     |   486   |  1108  |  NA  |
+|    Michigan    |  NA   |   NA    |      NA      |    NA     |   NA    |   NA   | 2351 |
+|   Minnesota    |  NA   |   NA    |      NA      |    NA     |   NA    |   NA   | 1813 |
+|    Missouri    |  NA   |   NA    |      NA      |    NA     |   NA    |   NA   | 748  |
+|    Montana     |  NA   |   NA    |      NA      |    NA     |   NA    |   NA   | 645  |
+|   New Jersey   |  NA   |   NA    |      NA      |    NA     |   NA    |   NA   | 2211 |
+|    New York    |  47   |   NA    |      NA      |    NA     |  2294   |  1934  |  NA  |
+| North Carolina |  NA   |   NA    |      NA      |    NA     |   NA    |   NA   | 2085 |
+|  North Dakota  |  NA   |   NA    |      NA      |    NA     |   NA    |   NA   | 387  |
+|      Ohio      |  NA   |   NA    |      NA      |    NA     |  1012   |  2153  |  NA  |
+|    Oklahoma    |  NA   |   NA    |      NA      |    NA     |   NA    |   NA   | 1249 |
+|     Oregon     |  NA   |   NA    |      NA      |    NA     |   NA    |   NA   | 817  |
+|  Pennsylvania  |  NA   |   NA    |      NA      |    NA     |   NA    |   NA   | 1939 |
+|  Rhode Island  |  NA   |   NA    |      NA      |    NA     |   NA    |   NA   | 230  |
+|  South Dakota  |  NA   |   NA    |      NA      |    NA     |   NA    |   NA   | 390  |
+|   Tennessee    |  NA   |   NA    |      NA      |    NA     |   NA    |   NA   | 1152 |
+|     Texas      |  NA   |   NA    |      NA      |    NA     |   NA    |   NA   | 811  |
+|      Utah      |  NA   |   NA    |      NA      |    NA     |   33    |  571   |  NA  |
+|    Vermont     |  NA   |   NA    |      NA      |    NA     |   NA    |   NA   | 349  |
+|    Virginia    |  NA   |   NA    |      NA      |    NA     |   NA    |   NA   | 1468 |
+|   Washington   |  NA   |   NA    |      NA      |    NA     |   NA    |   NA   | 2221 |
+|   Wisconsin    |  NA   |   NA    |      NA      |    NA     |   NA    |   NA   | 2623 |
 
 Table: types of school vs. states
+
 
 #### Enroll
 
@@ -207,78 +182,47 @@ Number of students would be useful for a weighted average.
 pander(measles %>% group_by( state) %>% 
        summarise(median=median(enroll, na.rm = T),
 		 mad = mad(enroll, na.rm = T)),
-     caption = "types of school vs. states",
-     split.tables = Inf)
+       caption = "types of school vs. states",
+       split.tables = Inf, 
+       style="rmarkdown")
 ```
 
 
----------------------------------
-     state        median    mad  
----------------- -------- -------
-    Arizona         71     29.65 
 
-    Arkansas       505     192.7 
-
-   California       77      43   
-
-    Colorado        52     34.1  
-
-  Connecticut       NA      NA   
-
-    Florida         89     35.58 
-
-     Idaho          NA      NA   
-
-    Illinois       333     206.1 
-
-      Iowa         270     179.4 
-
-     Maine          30     28.17 
-
- Massachusetts      NA      NA   
-
-    Michigan        58     35.58 
-
-   Minnesota        56     48.93 
-
-    Missouri        NA      NA   
-
-    Montana        196     180.9 
-
-   New Jersey       45     40.03 
-
-    New York        NA      NA   
-
- North Carolina     63     44.48 
-
-  North Dakota     32.5    28.91 
-
-      Ohio          51     34.1  
-
-    Oklahoma        NA      NA   
-
-     Oregon         58     29.65 
-
-  Pennsylvania      63     31.13 
-
-  Rhode Island      46     31.13 
-
-  South Dakota      19     23.72 
-
-   Tennessee        71     37.06 
-
-     Texas          NA      NA   
-
-      Utah         498     201.6 
-
-    Vermont        107     106.7 
-
-    Virginia        72     41.51 
-
-   Washington       NA      NA   
-
-   Wisconsin        NA      NA   
----------------------------------
+|     state      | median |  mad  |
+|:--------------:|:------:|:-----:|
+|    Arizona     |   71   | 29.65 |
+|    Arkansas    |  505   | 192.7 |
+|   California   |   77   |  43   |
+|    Colorado    |   52   | 34.1  |
+|  Connecticut   |   NA   |  NA   |
+|    Florida     |   89   | 35.58 |
+|     Idaho      |   NA   |  NA   |
+|    Illinois    |  333   | 206.1 |
+|      Iowa      |  270   | 179.4 |
+|     Maine      |   30   | 28.17 |
+| Massachusetts  |   NA   |  NA   |
+|    Michigan    |   58   | 35.58 |
+|   Minnesota    |   56   | 48.93 |
+|    Missouri    |   NA   |  NA   |
+|    Montana     |  196   | 180.9 |
+|   New Jersey   |   45   | 40.03 |
+|    New York    |   NA   |  NA   |
+| North Carolina |   63   | 44.48 |
+|  North Dakota  |  32.5  | 28.91 |
+|      Ohio      |   51   | 34.1  |
+|    Oklahoma    |   NA   |  NA   |
+|     Oregon     |   58   | 29.65 |
+|  Pennsylvania  |   63   | 31.13 |
+|  Rhode Island  |   46   | 31.13 |
+|  South Dakota  |   19   | 23.72 |
+|   Tennessee    |   71   | 37.06 |
+|     Texas      |   NA   |  NA   |
+|      Utah      |  498   | 201.6 |
+|    Vermont     |  107   | 106.7 |
+|    Virginia    |   72   | 41.51 |
+|   Washington   |   NA   |  NA   |
+|   Wisconsin    |   NA   |  NA   |
 
 Table: types of school vs. states
 
@@ -304,20 +248,12 @@ ggplot(cmeasles, mapping=aes(x=overall)) +
   scale_y_log10() + annotation_logticks(sides=c("l"))
 ```
 
-```
-## Warning: Removed 21478 rows containing non-finite values (stat_bin).
-```
-
 {{< bundle-figure name="overall_dist-1.png" class=""  caption="distribution of overall vac" >}}
 
 
 ```r
 ggplot(measles, mapping=aes(x=overall, y=mmr)) + 
   geom_point(alpha = 0.2) 
-```
-
-```
-## Warning: Removed 44345 rows containing missing values (geom_point).
 ```
 
 {{< bundle-figure name="mmr_vs_overall-1.png" class=""  caption="correspondance mmr with overall vac" >}}
@@ -341,10 +277,6 @@ ggplot(cmeasles, mapping=aes(y=mmr, x=xmed)) +
   geom_point()
 ```
 
-```
-## Warning: Removed 25992 rows containing missing values (geom_point).
-```
-
 {{< bundle-figure name="unnamed-chunk-2-1.png" class=""  caption="distribution of mmr in schools with xmed" >}}
 
 ```r
@@ -364,10 +296,6 @@ cmeasles %>% filter(xmed > 50)
 ```r
 ggplot(cmeasles, mapping=aes(y=mmr, x=xper)) + 
   geom_point()
-```
-
-```
-## Warning: Removed 37391 rows containing missing values (geom_point).
 ```
 
 {{< bundle-figure name="unnamed-chunk-3-1.png" class=""  caption="distribution of mmr in schools with xper" >}}
@@ -394,18 +322,6 @@ ggplot(cmeasles, mapping=aes(x=xper)) +
   scale_y_log10() + annotation_logticks(sides=c("l"))
 ```
 
-```
-## Warning: Removed 37391 rows containing non-finite values (stat_bin).
-```
-
-```
-## Warning: Transformation introduced infinite values in continuous y-axis
-```
-
-```
-## Warning: Removed 2 rows containing missing values (geom_bar).
-```
-
 {{< bundle-figure name="unnamed-chunk-4-1.png" class=""  caption="distribution of mmr in schools with either exemption" >}}
 
 ```r
@@ -413,29 +329,11 @@ ggplot(cmeasles, mapping=aes(x=xper,y=mmr)) +
   geom_point()
 ```
 
-```
-## Warning: Removed 37391 rows containing missing values (geom_point).
-```
-
 {{< bundle-figure name="unnamed-chunk-4-2.png" class=""  caption="distribution of mmr in schools with either exemption" >}}
 
 Note: 
   - has only one sample per school.
   - only 15 states
-
-
-```r
-msum <- measles %>% 
-  filter(!is.na(enroll), mmr>=0) %>%
-  group_by(state, year) %>%
-  summarize(allpup=sum(enroll), nummmr=(sum(enroll*mmr/100))) %>%
-  ungroup() %>%
-  mutate(ratio = nummmr/allpup)
-
-ggplot(msum, mapping = aes(x=state, y=ratio)) + geom_point()
-```
-
-{{< bundle-figure name="unnamed-chunk-5-1.png" class=""  caption="plot of chunk unnamed-chunk-5" >}}
 
 
 ```r
@@ -487,38 +385,6 @@ Everything is dwarfed by California and Illinois.
 
 ```r
 library(ggtern)
-```
-
-```
-## Registered S3 methods overwritten by 'ggtern':
-##   method           from   
-##   +.gg             ggplot2
-##   grid.draw.ggplot ggplot2
-##   plot.ggplot      ggplot2
-##   print.ggplot     ggplot2
-```
-
-```
-## --
-## Remember to cite, run citation(package = 'ggtern') for further info.
-## --
-```
-
-```
-## 
-## Attaching package: 'ggtern'
-```
-
-```
-## The following objects are masked from 'package:ggplot2':
-## 
-##     %+%, aes, annotate, calc_element, ggplot, ggplot_build,
-##     ggplot_gtable, ggplotGrob, ggsave, layer_data, theme, theme_bw,
-##     theme_classic, theme_dark, theme_gray, theme_light, theme_linedraw,
-##     theme_minimal, theme_void
-```
-
-```r
 cm2 <- cmeasles %>% 
   mutate(xmed = replace_na(xmed,0),
 	 xother = 100 - mmr - xmed,
@@ -542,16 +408,11 @@ ggtern(cm2, aes(mmr,xmed,xother)) +
   Rlab("other refusal") + 
   scale_T_continuous("medical") + 
   Tlab("medical refusal") +
-  scale_fill_gradient(name = "count", trans = "log",
+  scale_fill_gradient(name = "students", trans = "log10",
 		      breaks = my_breaks, labels = my_breaks,
 		      na.value = "gray10") + 
   theme_matrix() +
   theme(legend.background = element_rect(fill = "gray10")) 
-```
-
-```
-## Warning in acomp(data[, raes]): Negative values in composition are used as
-## detection limits
 ```
 
 {{< bundle-figure name="big_tern-1.png" class=""  caption="Vacciantion ratio medial and other exclusions." >}}
@@ -567,7 +428,7 @@ proc.time()-ptm
 
 ```
 ##    user  system elapsed 
-##   1.256   0.162   1.436
+##   1.227   0.144   1.391
 ```
 
 

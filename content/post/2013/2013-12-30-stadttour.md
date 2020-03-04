@@ -1,5 +1,7 @@
 ---
+draft: true
 date: 2013-12-30 17:10:27+00:00
+draft: true
 layout: post
 title: Stadttour
 categories:

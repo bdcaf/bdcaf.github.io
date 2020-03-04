@@ -1,4 +1,5 @@
 ---
+draft: true
 date: 2012-12-13 14:49:32+00:00
 layout: post
 title: Okavango Flug

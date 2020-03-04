@@ -1,4 +1,5 @@
 ---
+draft: true
 date: 2013-08-29 14:12:28+00:00
 layout: post
 title: Meine kleine Raumstation

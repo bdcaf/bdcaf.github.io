@@ -1,4 +1,5 @@
 ---
+draft: true
 date: 2014-12-26 10:35:35+00:00
 layout: post
 title: Wohl letzter schöne Tag in EDB
