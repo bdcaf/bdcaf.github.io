@@ -1,82 +1,85 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>links on C. Ager</title>
-    <link>https://bdcaf.github.io/categories/links/</link>
-    <description>Recent content in links on C. Ager</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <copyright>Clemens Ager, Brixlegg</copyright>
-    <lastBuildDate>Tue, 15 Jan 2019 17:15:52 +0100</lastBuildDate>
-    
-	<atom:link href="https://bdcaf.github.io/categories/links/index.xml" rel="self" type="application/rss+xml" />
-    
+    <title>links | bdcaf</title>
+    <link>/categories/links/</link>
+      <atom:link href="/categories/links/index.xml" rel="self" type="application/rss+xml" />
+    <description>links</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Clemens Ager 2020</copyright><lastBuildDate>Tue, 15 Jan 2019 17:15:52 +0100</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>links</title>
+      <link>/categories/links/</link>
+    </image>
     
     <item>
       <title>Colliding Blocks</title>
-      <link>https://bdcaf.github.io/2019/01/15/colliding-blocks/</link>
+      <link>/post/links/colliding_blocks/</link>
       <pubDate>Tue, 15 Jan 2019 17:15:52 +0100</pubDate>
-      
-      <guid>https://bdcaf.github.io/2019/01/15/colliding-blocks/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/channel/UCYO_jab_esuFRV4b17AJtAw&#34;&gt;Three blue one
+      <guid>/post/links/colliding_blocks/</guid>
+      <description>&lt;p&gt;
+&lt;a href=&#34;https://www.youtube.com/channel/UCYO_jab_esuFRV4b17AJtAw&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Three blue one
 brown&lt;/a&gt; who
 makes amazing videos about maths found another amazing fact linking
 how masses collide with an amazing mathematical property.  Since I
 don&amp;rsquo;t want to spoil anything watch it!&lt;/p&gt;
 
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;https://www.youtube-nocookie.com/embed/HEfHFsfGXjs&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/HEfHFsfGXjs&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;</description>
     </item>
     
     <item>
       <title>Seeing statistics</title>
-      <link>https://bdcaf.github.io/2018/12/28/seeing-statistics/</link>
+      <link>/post/links/seeing_statistics/</link>
       <pubDate>Fri, 28 Dec 2018 09:31:46 +0100</pubDate>
-      
-      <guid>https://bdcaf.github.io/2018/12/28/seeing-statistics/</guid>
+      <guid>/post/links/seeing_statistics/</guid>
       <description>&lt;p&gt;There is a nice introducition to statistics with visualisation of the
-concepts at &lt;a href=&#34;https://seeing-theory.brown.edu/index.html&#34;&gt;seeing theory&lt;/a&gt;&lt;/p&gt;
+concepts at 
+&lt;a href=&#34;https://seeing-theory.brown.edu/index.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;seeing theory&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Takes about 20 minutes to click through.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Rubegoldberg</title>
-      <link>https://bdcaf.github.io/2018/11/19/rubegoldberg/</link>
+      <link>/post/links/rubegoldberg/</link>
       <pubDate>Mon, 19 Nov 2018 15:22:52 +0100</pubDate>
-      
-      <guid>https://bdcaf.github.io/2018/11/19/rubegoldberg/</guid>
-      <description>&lt;p&gt;There&amp;rsquo;s a fun video about a real-live &lt;a href=&#34;https://en.wikipedia.org/wiki/Rube_Goldberg_machine&#34;&gt;Rube-Goldberg
+      <guid>/post/links/rubegoldberg/</guid>
+      <description>&lt;p&gt;There&amp;rsquo;s a fun video about a real-live 
+&lt;a href=&#34;https://en.wikipedia.org/wiki/Rube_Goldberg_machine&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Rube-Goldberg
 machine&lt;/a&gt;&lt;/p&gt;
 
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;https://www.youtube-nocookie.com/embed/auIlGqEyTm8&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/auIlGqEyTm8&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;</description>
     </item>
     
     <item>
       <title>Köhlmeier at br</title>
-      <link>https://bdcaf.github.io/2018/08/21/k%C3%B6hlmeier-at-br/</link>
+      <link>/post/links/kohlmeier/</link>
       <pubDate>Tue, 21 Aug 2018 12:06:14 +0200</pubDate>
-      
-      <guid>https://bdcaf.github.io/2018/08/21/k%C3%B6hlmeier-at-br/</guid>
+      <guid>/post/links/kohlmeier/</guid>
       <description>&lt;p&gt;Something for the German speakers.  The famous Austrian author
-&lt;a href=&#34;https://de.wikipedia.org/wiki/Michael_K%C3%B6hlmeier&#34;&gt;Michael
+
+&lt;a href=&#34;https://de.wikipedia.org/wiki/Michael_K%C3%B6hlmeier&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Michael
 Köhlmeier&lt;/a&gt; has
 made several lectures where he retells classical literature.&lt;br&gt;
-BR has made two podcasts available &lt;a href=&#34;https://www.br.de/mediathek/podcast/mythen-michael-koehlmeier-erzaehlt-sagen-des-klassischen-altertums/529&#34;&gt;Mythen&lt;/a&gt; and &lt;a href=&#34;https://www.br.de/mediathek/podcast/koehlmeiers-maerchen/513&#34;&gt;Märchen&lt;/a&gt;.
+BR has made two podcasts available 
+&lt;a href=&#34;https://www.br.de/mediathek/podcast/mythen-michael-koehlmeier-erzaehlt-sagen-des-klassischen-altertums/529&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Mythen&lt;/a&gt; and 
+&lt;a href=&#34;https://www.br.de/mediathek/podcast/koehlmeiers-maerchen/513&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Märchen&lt;/a&gt;.
 Both feature an number of 15 minute episodes which can be downloaded
-directly or subscribed in your podcatcher.&lt;/p&gt;</description>
+directly or subscribed in your podcatcher.&lt;/p&gt;
+&lt;p&gt;and more&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Publii</title>
-      <link>https://bdcaf.github.io/2018/08/03/publii/</link>
+      <link>/post/links/publii/</link>
       <pubDate>Fri, 03 Aug 2018 12:13:16 +0200</pubDate>
-      
-      <guid>https://bdcaf.github.io/2018/08/03/publii/</guid>
+      <guid>/post/links/publii/</guid>
       <description>&lt;p&gt;I was quite happy to find the graphical tool
-&lt;a href=&#34;https://getpublii.com/&#34;&gt;publii&lt;/a&gt; for building statical sites.&lt;/p&gt;
+
+&lt;a href=&#34;https://getpublii.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;publii&lt;/a&gt; for building statical sites.&lt;/p&gt;
 &lt;p&gt;Many people still use Wordpress and the like to publish their blog.  I
 don&amp;rsquo;t like Wordpress as it requires to run PHP on the server meaning
 it offers a quite large attack surface.&lt;/p&gt;
@@ -85,21 +88,24 @@ down on JavaScript and other external resources and gives me
 the peace of mind that I don&amp;rsquo;t need to worry about updating a
 Wordpress installation.&lt;/p&gt;
 &lt;p&gt;However the tool of
-my choice, &lt;a href=&#34;https://gohugo.io&#34;&gt;Hugo&lt;/a&gt; is a bit technical.   Now with
-&lt;a href=&#34;https://getpublii.com/&#34;&gt;publii&lt;/a&gt; there is something that I might
+my choice, 
+&lt;a href=&#34;https://gohugo.io&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Hugo&lt;/a&gt; is a bit technical.   Now with
+
+&lt;a href=&#34;https://getpublii.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;publii&lt;/a&gt; there is something that I might
 suggest command line muggles.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Abandonware</title>
-      <link>https://bdcaf.github.io/2018/06/29/abandonware/</link>
+      <link>/post/links/abandonware/</link>
       <pubDate>Fri, 29 Jun 2018 12:12:04 +0200</pubDate>
-      
-      <guid>https://bdcaf.github.io/2018/06/29/abandonware/</guid>
+      <guid>/post/links/abandonware/</guid>
       <description>&lt;p&gt;Every now and then I look up the games from my past.  It is amazing
 that there are now archives of these ancient games online.  Today I
-discovered &lt;a href=&#34;https://www.myabandonware.com&#34;&gt;myabandoneware&lt;/a&gt; like the
-&lt;a href=&#34;https://arvchive.org&#34;&gt;internet archive&lt;/a&gt; they not only have the
+discovered 
+&lt;a href=&#34;https://www.myabandonware.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;myabandoneware&lt;/a&gt; like the
+
+&lt;a href=&#34;https://arvchive.org&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;internet archive&lt;/a&gt; they not only have the
 downloads - but also a player where you can play in the browser
 window.  Not so nice for new games but for the ancient ones I did
 remember amazing.&lt;/p&gt;</description>
@@ -107,23 +113,34 @@ remember amazing.&lt;/p&gt;</description>
     
     <item>
       <title>Math Acrobatics</title>
-      <link>https://bdcaf.github.io/2018/06/04/math-acrobatics/</link>
+      <link>/post/links/hanoi/</link>
       <pubDate>Mon, 04 Jun 2018 09:33:04 +0200</pubDate>
-      
-      <guid>https://bdcaf.github.io/2018/06/04/math-acrobatics/</guid>
-      <description>&lt;p&gt;The youtuber &lt;a href=&#34;https://www.youtube.com/channel/UCYO_jab_esuFRV4b17AJtAw&#34;&gt;3blue1brown&lt;/a&gt; has a number of interesting posts.  however often he is a bit fast for me and it seems handwaving.&lt;/p&gt;
-&lt;p&gt;Recently he made a fantastic video about solving the &lt;a href=&#34;https://youtu.be/2SUvWfNJSsM&#34;&gt;towers of hanoi&lt;/a&gt;.  I did already know it is easy to spell out the solution in terms of recursion.  However he showed some connection to binary and ternary numbers - which alone is funny.  And finally that the solution also traverses the Sierpinsky triangle in &lt;a href=&#34;https://youtu.be/bdMfjfT0lKk&#34;&gt;part 2&lt;/a&gt; which is surprising.&lt;/p&gt;
-&lt;p&gt;I embeded the videos after the &amp;ldquo;post&amp;rdquo; fold for convenient watching.&lt;/p&gt;</description>
+      <guid>/post/links/hanoi/</guid>
+      <description>&lt;p&gt;The youtuber 
+&lt;a href=&#34;https://www.youtube.com/channel/UCYO_jab_esuFRV4b17AJtAw&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;3blue1brown&lt;/a&gt; has a number of interesting posts.  however often he is a bit fast for me and it seems handwaving.&lt;/p&gt;
+&lt;p&gt;Recently he made a fantastic video about solving the 
+&lt;a href=&#34;https://youtu.be/2SUvWfNJSsM&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;towers of hanoi&lt;/a&gt;.  I did already know it is easy to spell out the solution in terms of recursion.  However he showed some connection to binary and ternary numbers - which alone is funny.  And finally that the solution also traverses the Sierpinsky triangle in 
+&lt;a href=&#34;https://youtu.be/bdMfjfT0lKk&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;part 2&lt;/a&gt; which is surprising.&lt;/p&gt;
+&lt;p&gt;I embeded the videos after the &amp;ldquo;post&amp;rdquo; fold for convenient watching.&lt;/p&gt;
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/2SUvWfNJSsM&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/bdMfjfT0lKk&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;</description>
     </item>
     
     <item>
       <title>Keep talking and nobody explodes</title>
-      <link>https://bdcaf.github.io/2018/03/30/keep-talking-and-nobody-explodes/</link>
+      <link>/post/links/keep_talking/</link>
       <pubDate>Fri, 30 Mar 2018 12:58:23 +0200</pubDate>
-      
-      <guid>https://bdcaf.github.io/2018/03/30/keep-talking-and-nobody-explodes/</guid>
-      <description>&lt;p&gt;At the current &lt;a href=&#34;https://www.humblebundle.com/games/humble-indie-bundle-19&#34;&gt;HUMBLE INDIE BUNDLE 19&lt;/a&gt; they
-include the party game &lt;a href=&#34;http://www.keeptalkinggame.com&#34;&gt;Keep talking and nobody explodes&lt;/a&gt;.  One can get it the next 10
+      <guid>/post/links/keep_talking/</guid>
+      <description>&lt;p&gt;At the current 
+&lt;a href=&#34;https://www.humblebundle.com/games/humble-indie-bundle-19&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;HUMBLE INDIE BUNDLE 19&lt;/a&gt; they
+include the party game 
+&lt;a href=&#34;http://www.keeptalkinggame.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Keep talking and nobody explodes&lt;/a&gt;.  One can get it the next 10
 days for about 5€.  Basically one sits in front of the computer which
 simulates a bomb, the rest of the group has the bomb manual and is not
 allowed to see the bomb.  They need to talk the one on the bomb trough
@@ -134,166 +151,278 @@ Before I was watching some Youtube videos and it looks great fun.&lt;/p&gt;</des
     
     <item>
       <title>More Hitchhikers Guide</title>
-      <link>https://bdcaf.github.io/2018/03/30/more-hitchhikers-guide/</link>
+      <link>/post/links/h2g2/</link>
       <pubDate>Fri, 30 Mar 2018 12:33:17 +0200</pubDate>
-      
-      <guid>https://bdcaf.github.io/2018/03/30/more-hitchhikers-guide/</guid>
-      <description>The BBC aired a Hitchhikers Guide to the Galaxy: Hexagonal Phase. One can listen to it even out of country for a month. Stephen Hawkings voicebox did speak the part of the guide.</description>
+      <guid>/post/links/h2g2/</guid>
+      <description>&lt;p&gt;The BBC aired a 
+&lt;a href=&#34;https://www.bbc.co.uk/programmes/b09th4hf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Hitchhikers Guide to the Galaxy: Hexagonal
+Phase&lt;/a&gt;.  One can listen to
+it even out of country for a month.  Stephen Hawkings voicebox did
+speak the part of the guide.&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>Der kleine Hey</title>
-      <link>https://bdcaf.github.io/2018/03/06/der-kleine-hey/</link>
+      <link>/post/links/derkleinehey/</link>
       <pubDate>Tue, 06 Mar 2018 10:28:51 +0100</pubDate>
-      
-      <guid>https://bdcaf.github.io/2018/03/06/der-kleine-hey/</guid>
-      <description>I had a dental operation and have problems articulating. I recalled learning with &amp;ldquo;Der kleine Hey&amp;rdquo;. I couldn&amp;rsquo;t locate it in my library. I was positively surprised it&amp;rsquo;s in the public domain by now. The 1884 edition is on archive.org: Hey It&amp;rsquo;s well worth checking out if you want to work on your (German) pronunciation. Now - let&amp;rsquo;s see how soon I can talk again.</description>
+      <guid>/post/links/derkleinehey/</guid>
+      <description>&lt;p&gt;I had a dental operation and have problems articulating.  I recalled
+learning with &amp;ldquo;Der kleine Hey&amp;rdquo;. I  couldn&amp;rsquo;t locate it in my library.
+I was positively surprised it&amp;rsquo;s in the public domain by now.  The 1884
+edition is on archive.org: 
+&lt;a href=&#34;https://archive.org/details/deutschergesangs01heyj&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Hey&lt;/a&gt;  It&amp;rsquo;s
+well worth checking out if you want to work on your (German)
+pronunciation.  Now - let&amp;rsquo;s see how soon I can talk again.&lt;/p&gt;
+&lt;!-- more --&gt;
+</description>
     </item>
     
     <item>
       <title>pretty git exercises</title>
-      <link>https://bdcaf.github.io/2018/02/14/pretty-git-exercises/</link>
+      <link>/post/links/gitexercises/</link>
       <pubDate>Wed, 14 Feb 2018 11:24:39 +0100</pubDate>
-      
-      <guid>https://bdcaf.github.io/2018/02/14/pretty-git-exercises/</guid>
-      <description>I probably mentioned I use git for managing my code. Even in the simplistic way I know - already helpful. Like in this xkcd  It is not easy finding good exercises to improve.
-I got pointed to learngitbranching. It looks polished and the exercises are short enough to do between. Just somehow I overlooked the commandos reset and undo to restart the exercised.</description>
+      <guid>/post/links/gitexercises/</guid>
+      <description>&lt;p&gt;I probably mentioned I use git for managing my code.  Even in the
+simplistic way I know - already helpful.   Like in this 
+&lt;a href=&#34;https://xkcd.com/1597/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;xkcd&lt;/a&gt;
+
+&lt;a href=&#34;https://xkcd.com/1597/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;img src=&#34;https://imgs.xkcd.com/comics/git.png&#34; alt=&#34;xkcd comic&#34;&gt;&lt;/a&gt;   It
+is not easy finding good exercises to improve.&lt;/p&gt;
+&lt;p&gt;I got pointed to
+
+&lt;a href=&#34;https://learngitbranching.js.org&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;learngitbranching&lt;/a&gt;.  It looks
+polished and the exercises are short enough to do between.  Just
+somehow I overlooked the commandos &lt;code&gt;reset&lt;/code&gt; and &lt;code&gt;undo&lt;/code&gt; to restart the
+exercised.&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>Euclidea</title>
-      <link>https://bdcaf.github.io/2018/02/03/euclidea/</link>
+      <link>/post/links/euclidea/</link>
       <pubDate>Sat, 03 Feb 2018 09:01:13 +0100</pubDate>
-      
-      <guid>https://bdcaf.github.io/2018/02/03/euclidea/</guid>
-      <description>Having some extra time? Euclidea teaches euclidean geometry using puzzles. Only working with compass and straightedge. Too long time I practiced these.</description>
+      <guid>/post/links/euclidea/</guid>
+      <description>&lt;p&gt;Having some extra time?  
+&lt;a href=&#34;https://euclidea.xyz&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Euclidea&lt;/a&gt; teaches
+euclidean geometry using puzzles.  Only working with compass and
+straightedge.  Too long time I practiced these.&lt;/p&gt;
+&lt;!-- more --&gt;
+</description>
     </item>
     
     <item>
       <title>Kerbal Space Program</title>
-      <link>https://bdcaf.github.io/2018/01/27/kerbal-space-program/</link>
+      <link>/post/links/kerbal/</link>
       <pubDate>Sat, 27 Jan 2018 14:50:00 +0100</pubDate>
-      
-      <guid>https://bdcaf.github.io/2018/01/27/kerbal-space-program/</guid>
-      <description>These days I started up Kerbal Space Program. It is a space game where you construct your own vehicles and explore the solar system. As physics games go it is amazing.
-Unless you carefully plan out maneuvers they will lead to disaster - which is often also hilarious to watch play out. Even getting into orbit is a challenge in the beginning.
-  My first Mun landing without breaking stuff.</description>
+      <guid>/post/links/kerbal/</guid>
+      <description>&lt;p&gt;These days I started up 
+&lt;a href=&#34;https://kerbalspaceprogram.com/en/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Kerbal Space
+Program&lt;/a&gt;.  It is a space game
+where you construct your own vehicles and explore the solar system.
+As physics games go it is amazing.&lt;/p&gt;
+&lt;p&gt;Unless you carefully plan out maneuvers they will lead to disaster -
+which is often also hilarious to watch play out.  Even getting into
+orbit is a challenge in the beginning.&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;/post/links/2018-01-kerbal.jpg&#34; data-caption=&#34;My first Mun landing without breaking stuff.&#34;&gt;
+
+
+  &lt;img src=&#34;/post/links/2018-01-kerbal.jpg&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    My first Mun landing without breaking stuff.
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;!-- more --&gt;
+&lt;p&gt;The only critic point would be that one needs to learn about most
+concepts outside the game.  These may be small things like how the
+solid fuel boosters are different from rocket engines - the boosters
+can not be throttled, while the rocket engines can be.  To the more
+advanced topics of how to do orbit transfers and gravity assists.
+Though once the concepts are understood it is immensely gratifying to
+be able to these maneuvers.&lt;/p&gt;
+&lt;p&gt;And there are fun concepts that came up from this game like
+&lt;em&gt;lithobraking&lt;/em&gt; - which in analogy to aero and hydrobraking is reducing
+speed by hitting rocks.  And URD the abbreviation for unscheduled
+rapid disassembly - basically the craft explodes.&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>RAND</title>
-      <link>https://bdcaf.github.io/2018/01/25/rand/</link>
+      <link>/post/links/rand/</link>
       <pubDate>Thu, 25 Jan 2018 16:11:15 +0100</pubDate>
-      
-      <guid>https://bdcaf.github.io/2018/01/25/rand/</guid>
-      <description>RAND corporation has released some of their classics freely at RAND Classics. I did already know The Compleat Strategyst which is a classic. There are some more game theory books that I don&amp;rsquo;t know yet. And lots of cold war strategy - all worth a look.</description>
+      <guid>/post/links/rand/</guid>
+      <description>&lt;p&gt;
+&lt;a href=&#34;https://www.rand.org&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;RAND corporation&lt;/a&gt; has released some of their
+classics freely at 
+&lt;a href=&#34;https://www.rand.org/pubs/classics.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;RAND
+Classics&lt;/a&gt;.  I did already
+know 
+&lt;a href=&#34;https://www.rand.org/pubs/commercial_books/CB113-1.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;The Compleat
+Strategyst&lt;/a&gt;
+which is a classic.  There are some more game theory books that I
+don&amp;rsquo;t know yet.  And lots of cold war strategy - all worth a look.&lt;/p&gt;
+&lt;!-- more --&gt;
+</description>
     </item>
     
     <item>
       <title>Paint</title>
-      <link>https://bdcaf.github.io/2018/01/18/paint/</link>
+      <link>/post/links/paint/</link>
       <pubDate>Thu, 18 Jan 2018 10:55:02 +0100</pubDate>
-      
-      <guid>https://bdcaf.github.io/2018/01/18/paint/</guid>
-      <description>There now is a Javascript recreation of Windows Paint: Paint.js.
-While Paint is easily the worst graphics program I used to work it is familiar to almost anyone. I still see way too many graphics in papers that were touched up by paint. This will make sure another generation of researchers can learn this dreaded tool.</description>
+      <guid>/post/links/paint/</guid>
+      <description>&lt;p&gt;There now is a Javascript recreation of Windows Paint:
+
+&lt;a href=&#34;http://jspaint.ml/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Paint.js&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;While Paint is easily the worst graphics program I used to work it is
+familiar to almost anyone.  I still see way too many graphics in
+papers that were touched up by paint.  This will make sure another
+generation of researchers can learn this dreaded tool.&lt;/p&gt;
+&lt;!-- more --&gt;
+</description>
     </item>
     
     <item>
       <title>Voynich - a provisional, partial decoding of the Voynich script</title>
-      <link>https://bdcaf.github.io/2014/09/20/voynich-a-provisional-partial-decoding-of-the-voynich-script/</link>
+      <link>/post/2014/2014-09-20-voynich-a-provisional-partial-decoding-of-the-voynich-script/</link>
       <pubDate>Sat, 20 Sep 2014 00:24:12 +0000</pubDate>
-      
-      <guid>https://bdcaf.github.io/2014/09/20/voynich-a-provisional-partial-decoding-of-the-voynich-script/</guid>
-      <description>By: [Stephen Bax](http://ift.tt/1ecxgfP Bax)
-Source: http://ift.tt/1lkeLKl</description>
+      <guid>/post/2014/2014-09-20-voynich-a-provisional-partial-decoding-of-the-voynich-script/</guid>
+      <description>&lt;p&gt;By: [Stephen Bax](&lt;a href=&#34;http://ift.tt/1ecxgfP&#34;&gt;http://ift.tt/1ecxgfP&lt;/a&gt; Bax)&lt;/p&gt;
+&lt;p&gt;Source: 
+&lt;a href=&#34;http://ift.tt/1lkeLKl&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://ift.tt/1lkeLKl&lt;/a&gt;&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>Cool die Videos vom Weihnachtlichen Kongress sind online</title>
-      <link>https://bdcaf.github.io/2014/02/18/cool-die-videos-vom-weihnachtlichen-kongress-sind-online/</link>
+      <link>/post/2014/2014-02-18-cool-die-videos-vom-weihnachtlichen-kongress-sind-online/</link>
       <pubDate>Tue, 18 Feb 2014 18:55:47 +0000</pubDate>
-      
-      <guid>https://bdcaf.github.io/2014/02/18/cool-die-videos-vom-weihnachtlichen-kongress-sind-online/</guid>
-      <description>Die Medien vom 30C3 sind online. Schon einige Zeit aber ich hab&amp;rsquo;s erst jetzt gesehen. Auch die von den letzten Jahren sind da - die sind aber nicht so spannend.</description>
+      <guid>/post/2014/2014-02-18-cool-die-videos-vom-weihnachtlichen-kongress-sind-online/</guid>
+      <description>&lt;p&gt;Die Medien vom 30C3 sind 
+&lt;a href=&#34;http://media.ccc.de/browse/congress/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;online&lt;/a&gt;. Schon einige Zeit aber ich hab&amp;rsquo;s erst jetzt gesehen. Auch die von den letzten Jahren sind da - die sind aber nicht so spannend.&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>Kickass 2</title>
-      <link>https://bdcaf.github.io/2013/08/15/kickass-2/</link>
+      <link>/post/2013/2013-08-15-kickass-2/</link>
       <pubDate>Thu, 15 Aug 2013 07:57:16 +0000</pubDate>
-      
-      <guid>https://bdcaf.github.io/2013/08/15/kickass-2/</guid>
-      <description>Whoa - der läuft grade an. Sollt ich mir vielleicht anschaun.
-Und damit mein ich auf jeden Fall!</description>
+      <guid>/post/2013/2013-08-15-kickass-2/</guid>
+      <description>&lt;p&gt;
+&lt;a href=&#34;http://en.wikipedia.org/wiki/Kick-Ass_2_%28film%29&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;img src=&#34;http://upload.wikimedia.org/wikipedia/en/d/d1/KA2-International-Poster.jpg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Whoa - der läuft grade an. Sollt ich mir vielleicht anschaun.&lt;/p&gt;
+&lt;p&gt;Und damit mein ich auf jeden Fall!&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>Neusprech</title>
-      <link>https://bdcaf.github.io/2013/01/22/neusprech/</link>
+      <link>/post/2013/2013-01-22-neusprech/</link>
       <pubDate>Tue, 22 Jan 2013 09:05:26 +0000</pubDate>
-      
-      <guid>https://bdcaf.github.io/2013/01/22/neusprech/</guid>
-      <description>Ich will wieder mal eine Web-Empfehlung abgeben: das Neusprech Blog.
-Alle paar Tage analysieren die eine Floskel. Heute zum Beispiel Verantwortung. Es ist sehr unterhaltsam zu lesen. Alternativ kann man sich auch noch des Teufels Wörterbuch zuführen.</description>
+      <guid>/post/2013/2013-01-22-neusprech/</guid>
+      <description>&lt;p&gt;Ich will wieder mal eine Web-Empfehlung abgeben: das 
+&lt;a href=&#34;http://neusprech.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Neusprech Blog&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Alle paar Tage analysieren die eine Floskel. Heute zum Beispiel 
+&lt;a href=&#34;http://neusprech.org/verantwortung-uebernehmen/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Verantwortung&lt;/a&gt;. Es ist sehr unterhaltsam zu lesen. Alternativ kann man sich auch noch 
+&lt;a href=&#34;https://de.wikipedia.org/wiki/Des_Teufels_W%C3%B6rterbuch&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;des Teufels Wörterbuch &lt;/a&gt;zuführen.&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>Wenn i mal selber ned spielen kann...</title>
-      <link>https://bdcaf.github.io/2012/11/04/wenn-i-mal-selber-ned-spielen-kann.../</link>
+      <link>/post/2012/2012-11-04-wenn-i-mal-selber-ned-spielen-kann/</link>
       <pubDate>Sun, 04 Nov 2012 21:37:06 +0000</pubDate>
-      
-      <guid>https://bdcaf.github.io/2012/11/04/wenn-i-mal-selber-ned-spielen-kann.../</guid>
-      <description>Will Wheaton hat da a coole Serie begonnen. Zeigen da immer a neues Spiel.</description>
+      <guid>/post/2012/2012-11-04-wenn-i-mal-selber-ned-spielen-kann/</guid>
+      <description>&lt;p&gt;Will Wheaton hat da a coole Serie begonnen. Zeigen da immer a neues Spiel.&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>Walking Dead</title>
-      <link>https://bdcaf.github.io/2012/11/04/walking-dead/</link>
+      <link>/post/2012/2012-11-04-walking-dead/</link>
       <pubDate>Sun, 04 Nov 2012 21:33:40 +0000</pubDate>
-      
-      <guid>https://bdcaf.github.io/2012/11/04/walking-dead/</guid>
-      <description>Cool die Walking Dead laufen jetzt auf Rtl2. Einzig die Übersetzung wirkt manchmal holprig &amp;ldquo;Walker&amp;rdquo; -&amp;gt; &amp;ldquo;Beißer&amp;rdquo; ?!?
-
-[](http://www.rtl2.de/93479.html)</description>
+      <guid>/post/2012/2012-11-04-walking-dead/</guid>
+      <description>&lt;p&gt;Cool die Walking Dead laufen jetzt auf 
+&lt;a href=&#34;http://www.rtl2.de/93479.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Rtl2&lt;/a&gt;. Einzig die Übersetzung wirkt manchmal holprig &amp;ldquo;Walker&amp;rdquo; -&amp;gt; &amp;ldquo;Beißer&amp;rdquo; ?!?&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&#34;http://www.rtl2.de/93479.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;img src=&#34;http://www.rtl2.de/images/trailer/1-the-walking-dead-detail3.png&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;[](&lt;a href=&#34;http://www.rtl2.de/93479.html&#34;&gt;http://www.rtl2.de/93479.html&lt;/a&gt;)&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>Abendprogramm</title>
-      <link>https://bdcaf.github.io/2012/11/03/abendprogramm/</link>
+      <link>/post/2012/2012-11-03-abendprogramm/</link>
       <pubDate>Sat, 03 Nov 2012 15:45:34 +0000</pubDate>
-      
-      <guid>https://bdcaf.github.io/2012/11/03/abendprogramm/</guid>
-      <description>Heut ist&amp;rsquo;s endlich soweit. Bester Horror Trash abends.</description>
+      <guid>/post/2012/2012-11-03-abendprogramm/</guid>
+      <description>&lt;p&gt;Heut ist&amp;rsquo;s endlich soweit. Bester Horror Trash abends.&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&#34;http://www.imdb.com/media/rm3606757120/tt1465522&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;img src=&#34;http://ia.media-imdb.com/images/M/MV5BODQ5NDQ0MjkwMF5BMl5BanBnXkFtZTcwNDg1OTU4NQ@@._V1._SY317_.jpg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>Hexaflexagon Safety</title>
-      <link>https://bdcaf.github.io/2012/10/30/hexaflexagon-safety/</link>
+      <link>/post/2012/2012-10-30-hexaflexagon-safety/</link>
       <pubDate>Tue, 30 Oct 2012 21:48:56 +0000</pubDate>
-      
-      <guid>https://bdcaf.github.io/2012/10/30/hexaflexagon-safety/</guid>
-      <description>Nette mathematische Spielerei. Von der Vihart gibt&amp;rsquo;s übrigens noch viele andere gute Videos.</description>
+      <guid>/post/2012/2012-10-30-hexaflexagon-safety/</guid>
+      <description>&lt;p&gt;Nette mathematische Spielerei.  Von der Vihart gibt&amp;rsquo;s übrigens noch viele andere gute 
+&lt;a href=&#34;http://youtube.com/user/Vihart&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Videos&lt;/a&gt;.&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>Spieltipp</title>
-      <link>https://bdcaf.github.io/2012/10/30/spieltipp/</link>
+      <link>/post/2012/2012-10-30-spieltipp/</link>
       <pubDate>Tue, 30 Oct 2012 21:41:50 +0000</pubDate>
-      
-      <guid>https://bdcaf.github.io/2012/10/30/spieltipp/</guid>
-      <description>War die letzten Tage während der Zugfahrt gut unterhalten von Episode 1 der Walking Dead.
-
-Is auch cool im Zug die Schultergucker zu schockieren. Ich hätte gern die Szene von &amp;ldquo;benutze Axt mit Zombie&amp;rdquo; als Screenshot hier gehabt. Leider war die etwas zu stressig zum aufnehmen.</description>
+      <guid>/post/2012/2012-10-30-spieltipp/</guid>
+      <description>&lt;p&gt;War die letzten Tage während der Zugfahrt gut unterhalten
+von Episode 1 der 
+&lt;a href=&#34;http://kotaku.com/5929322/the-walking-dead-game-comes-to-ios-in-fine-form&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Walking
+Dead&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&#34;http://www.flickr.com/photos/49239218@N00/8139697399/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;img src=&#34;http://farm9.staticflickr.com/8195/8139697399_d166de85db.jpg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Is auch cool im Zug die Schultergucker zu schockieren. Ich
+hätte gern die Szene von &amp;ldquo;benutze Axt mit Zombie&amp;rdquo; als
+Screenshot hier gehabt. Leider war die etwas zu stressig zum
+aufnehmen.&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>Humble</title>
-      <link>https://bdcaf.github.io/2012/10/15/humble/</link>
+      <link>/post/2012/2012-10-15-humble/</link>
       <pubDate>Mon, 15 Oct 2012 22:59:59 +0000</pubDate>
-      
-      <guid>https://bdcaf.github.io/2012/10/15/humble/</guid>
-      <description>Hab mal wieder dem Humble Bundle a Chance gegeben. Diesmal sinds ebooks. Bin ja gespannt - bisher hab ich nur Klassiker am Bildschirm gelesen.</description>
+      <guid>/post/2012/2012-10-15-humble/</guid>
+      <description>&lt;p&gt;Hab mal wieder dem 
+&lt;a href=&#34;http://www.humblebundle.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Humble Bundle&lt;/a&gt; a Chance gegeben. Diesmal sinds ebooks. Bin ja gespannt - bisher hab ich nur Klassiker am Bildschirm gelesen.&lt;/p&gt;
+</description>
     </item>
     
   </channel>

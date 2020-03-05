@@ -1,24 +1,24 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>experiments on C. Ager</title>
-    <link>https://bdcaf.github.io/tags/experiments/</link>
-    <description>Recent content in experiments on C. Ager</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <copyright>Clemens Ager, Brixlegg</copyright>
-    <lastBuildDate>Mon, 20 Jul 2015 15:06:18 +0200</lastBuildDate>
-    
-	<atom:link href="https://bdcaf.github.io/tags/experiments/index.xml" rel="self" type="application/rss+xml" />
-    
+    <title>experiments | bdcaf</title>
+    <link>/tags/experiments/</link>
+      <atom:link href="/tags/experiments/index.xml" rel="self" type="application/rss+xml" />
+    <description>experiments</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Clemens Ager 2020</copyright><lastBuildDate>Mon, 20 Jul 2015 15:06:18 +0200</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>experiments</title>
+      <link>/tags/experiments/</link>
+    </image>
     
     <item>
       <title>Wieder in Dornbirn</title>
-      <link>https://bdcaf.github.io/2015/07/20/wieder-in-dornbirn/</link>
+      <link>/post/dornbirn/</link>
       <pubDate>Mon, 20 Jul 2015 15:06:18 +0200</pubDate>
-      
-      <guid>https://bdcaf.github.io/2015/07/20/wieder-in-dornbirn/</guid>
-      <description>Letzte Woche lange in Dornbirn. Es gibt wieder interessante Messungen in der Kammer. </description>
+      <guid>/post/dornbirn/</guid>
+      <description>&lt;p&gt;Letzte Woche lange in Dornbirn. Es gibt wieder interessante Messungen in der Kammer.  &lt;img src=&#34;/~c1891011/photo/IMG_1292.JPG&#34; alt=&#34;Kammermessung&#34;&gt;&lt;/p&gt;
+</description>
     </item>
     
   </channel>

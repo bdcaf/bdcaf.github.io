@@ -1,25 +1,122 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>unix on C. Ager</title>
-    <link>https://bdcaf.github.io/tags/unix/</link>
-    <description>Recent content in unix on C. Ager</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <copyright>Clemens Ager, Brixlegg</copyright>
-    <lastBuildDate>Thu, 30 Mar 2017 10:48:59 +0200</lastBuildDate>
-    
-	<atom:link href="https://bdcaf.github.io/tags/unix/index.xml" rel="self" type="application/rss+xml" />
-    
+    <title>unix | bdcaf</title>
+    <link>/tags/unix/</link>
+      <atom:link href="/tags/unix/index.xml" rel="self" type="application/rss+xml" />
+    <description>unix</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Clemens Ager 2020</copyright><lastBuildDate>Thu, 30 Mar 2017 10:48:59 +0200</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>unix</title>
+      <link>/tags/unix/</link>
+    </image>
     
     <item>
       <title>Configuring offlineimap</title>
-      <link>https://bdcaf.github.io/2017/03/30/configuring-offlineimap/</link>
+      <link>/post/2017/2017-03-30_offlineimap/</link>
       <pubDate>Thu, 30 Mar 2017 10:48:59 +0200</pubDate>
-      
-      <guid>https://bdcaf.github.io/2017/03/30/configuring-offlineimap/</guid>
-      <description>Having most of my workflow on the commandline mailing my results using Tunderbird or Mail.app is sometimes quite a chore. I would rather do it from inside my workflow. mutt seems like a natural option. I also quite quickly considered alternatives like alpine - though since I prefer vim for my text editing I quickly decided against it.
-offlineimap For mutt it quickly became aparent that I would need some external tool to fetch my mail.</description>
+      <guid>/post/2017/2017-03-30_offlineimap/</guid>
+      <description>&lt;p&gt;Having most of my workflow on the commandline mailing my results using
+Tunderbird or Mail.app is sometimes quite a chore.  I would rather do
+it from inside my workflow.  
+&lt;a href=&#34;http://www.mutt.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;mutt&lt;/a&gt; seems like a
+natural option.  I also quite quickly considered alternatives like
+
+&lt;a href=&#34;https://www.washington.edu/alpine/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;alpine&lt;/a&gt; - though since I prefer
+vim for my text editing I quickly decided against it.&lt;/p&gt;
+&lt;h2 id=&#34;offlineimap&#34;&gt;offlineimap&lt;/h2&gt;
+&lt;p&gt;For mutt it quickly became aparent that I would need some external
+tool to fetch my mail.  Many sites describe
+
+&lt;a href=&#34;http://www.offlineimap.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;offlineimap&lt;/a&gt; though as the maintainer
+put a message that he moved on to
+
+&lt;a href=&#34;https://github.com/OfflineIMAP/imapfw&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;imapfw&lt;/a&gt; I was worried.  Also
+my first attempt didn&amp;rsquo;t work out so I quickly decided I wanted to go
+with a &amp;ldquo;maintained&amp;rdquo; project.&lt;/p&gt;
+&lt;p&gt;So ultimately I ended at 
+&lt;a href=&#34;http://isync.sourceforge.net/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;isync&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Initial configurations that I frankensteined together didn&amp;rsquo;t work
+either so I had to go on debugging.&lt;/p&gt;
+&lt;h3 id=&#34;certificate-woes&#34;&gt;certificate woes&lt;/h3&gt;
+&lt;p&gt;I immediately got certificate errors.  Even for google.  In the
+configuration the have a commented line for certificates in the home
+directory.  So I decided to get them for myself.  Since I am behind
+the universities firewall in the same subnet as the mail servers I was
+not to worried that someone might MITM me bad certs.&lt;/p&gt;
+&lt;p&gt;In short I used&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;[~]$ openssl s_client -connect mailserver.uni.ac.at:993 -showcerts &amp;gt; crt
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;to download them. Basically I replace mailserver.uni.ac.at with my
+servers.  Then I used trusty old vim to cut the blocks from
+&lt;code&gt; -----BEGIN CERTIFICATE-----&lt;/code&gt; down to &lt;code&gt;-----END CERTIFICATE-----&lt;/code&gt;
+(including those lines) into individual files which I named based on
+the identification before the blocks.&lt;/p&gt;
+&lt;h3 id=&#34;passwords&#34;&gt;passwords&lt;/h3&gt;
+&lt;p&gt;Along with this certificate issues I noticed that passwords often are
+put in plain text in the config files.  An absolute no-go for me.  I
+quickly discovered 
+&lt;a href=&#34;https://www.passwordstore.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;pass&lt;/a&gt; which uses
+gpg to encrypt them.&lt;/p&gt;
+&lt;p&gt;Sure still worried as these are then passed around in plain text - but
+at least I will not have them in my repositories on github.&lt;/p&gt;
+&lt;h3 id=&#34;oh-gmail&#34;&gt;oh gmail&lt;/h3&gt;
+&lt;p&gt;since most tutorials explicitely explain how to set up gmail I was
+confused why it just wouldn&amp;rsquo;t work for me!
+It just wouldn&amp;rsquo;t accept the password.  After long and useless research
+I recalled something was changed by google.  You can now 
+&lt;a href=&#34;https://support.google.com/accounts/answer/185833&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;create
+passwords for less secure
+apps&lt;/a&gt; - and that
+was it.  All I had to do was create an app password on the linked
+site. Nice - so now even in the encrypted store is my google password
+and I can easily delete the one for the app.&lt;/p&gt;
+&lt;h3 id=&#34;final-config&#34;&gt;final config&lt;/h3&gt;
+&lt;p&gt;so this is what is in my &lt;code&gt;.mbsyncrc&lt;/code&gt;.  I don&amp;rsquo;t want to post it as big
+text block as one needs to fill in the values that fit ones setup.&lt;/p&gt;
+&lt;h5 id=&#34;accounts&#34;&gt;accounts&lt;/h5&gt;
+&lt;pre&gt;&lt;code&gt;IMAPAccount uibk
+Host exchange.uibk.ac.at
+User c....
+AuthMechs LOGIN
+PassCmd &amp;quot;pass Mail/uibk&amp;quot;
+SSLType IMAPS
+SSLVersions TLSv1.2
+CertificateFile ~/.cert/uibk.crt
+
+IMAPAccount gmail
+Host imap.gmail.com
+User ....@gmail.com
+AuthMechs LOGIN
+PassCmd &amp;quot;pass Mail/gmail&amp;quot;
+SSLType IMAPS
+SSLVersions TLSv1.2
+CertificateFile ~/.cert/gmail.crt
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;stores&#34;&gt;stores&lt;/h3&gt;
+&lt;p&gt;nothing fancy here&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;IMAPStore uibk-remote
+Account uibk
+MaildirStore uibk-local
+Path ~/Archive/Mail/Uibk/
+Inbox ~/Archive/Mail/Uibk/Inbox
+
+IMAPStore gmail-remote
+Account gmail
+MaildirStore gmail-local
+Path ~/Archive/Mail/Gmail/
+Inbox ~/Archive/Mail/Gmail/Inbox
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;though it was essential to create the folders using
+&lt;code&gt;mkdir -p ~/Archive/Mail/Gmail&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;and finally &lt;code&gt;mbsync uibk gmail&lt;/code&gt; will work without error.&lt;/p&gt;
+&lt;h3 id=&#34;check-automatically&#34;&gt;check automatically&lt;/h3&gt;
+&lt;p&gt;Gotta leave this for now.  I see there is an issue with cron on Mac.&lt;/p&gt;
+&lt;h2 id=&#34;mutt-later&#34;&gt;Mutt later&lt;/h2&gt;
+&lt;p&gt;Wow this got quite some post. I will describe how to set up mutt next
+time.&lt;/p&gt;
+</description>
     </item>
     
   </channel>

@@ -1,25 +1,65 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>publication on C. Ager</title>
-    <link>https://bdcaf.github.io/tags/publication/</link>
-    <description>Recent content in publication on C. Ager</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <copyright>Clemens Ager, Brixlegg</copyright>
-    <lastBuildDate>Thu, 19 Jan 2017 12:56:26 +0100</lastBuildDate>
-    
-	<atom:link href="https://bdcaf.github.io/tags/publication/index.xml" rel="self" type="application/rss+xml" />
-    
+    <title>publication | bdcaf</title>
+    <link>/tags/publication/</link>
+      <atom:link href="/tags/publication/index.xml" rel="self" type="application/rss+xml" />
+    <description>publication</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Clemens Ager 2020</copyright><lastBuildDate>Tue, 21 Feb 2017 11:08:13 +0100</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>publication</title>
+      <link>/tags/publication/</link>
+    </image>
     
     <item>
       <title>Publication word cloud</title>
-      <link>https://bdcaf.github.io/2017/01/19/publication-word-cloud/</link>
+      <link>/post/2017/2017-01-19-wc/</link>
       <pubDate>Thu, 19 Jan 2017 12:56:26 +0100</pubDate>
-      
-      <guid>https://bdcaf.github.io/2017/01/19/publication-word-cloud/</guid>
-      <description>I wanted to play with word clouds for some time. Usually the problem is to obtain a nice corpus. Luckily PubMedWordCloud was recently updated and I had something to play with.
-The initial cloud looks not good enough - I did not like how plurals are counted separately. Since I couldn&amp;rsquo;t clean it up easy enough I ended up going back to the tm package and roll my own script. Unfortunately it&amp;rsquo;s far from publishable.</description>
+      <guid>/post/2017/2017-01-19-wc/</guid>
+      <description>&lt;p&gt;I wanted to play with word clouds for some time. Usually the problem
+is to obtain a nice corpus.  Luckily
+
+&lt;a href=&#34;https://felixfan.github.io/PubMedWordcloud/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PubMedWordCloud&lt;/a&gt; was
+recently updated and I had something to play with.&lt;/p&gt;
+&lt;p&gt;The initial cloud looks not good enough - I did not like how plurals
+are counted separately.
+Since I couldn&amp;rsquo;t clean it up easy enough I ended up going back to the
+
+&lt;a href=&#34;https://cran.r-project.org/web/packages/tm/index.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;tm&lt;/a&gt; package
+and roll my own script.  Unfortunately it&amp;rsquo;s far from publishable.&lt;/p&gt;
+&lt;p&gt;Anyway the result is way more to my liking.
+&lt;img src=&#34;/img/wc_clean.png&#34; alt=&#34;clean word cloud&#34;&gt;&lt;/p&gt;
+&lt;p&gt;My final script looks like this - I still use &lt;code&gt;getAbstracts&lt;/code&gt; from
+&lt;code&gt;PubMedWordCloud&lt;/code&gt;.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;library(PubMedWordcloud)  
+library(tm)
+library(wordcloud)
+library(magrittr)
+
+pmids &amp;lt;- getPMIDs(author=&amp;quot;Clemens Ager&amp;quot;,dFrom=2002,dTo=2016,n=30)
+
+abstracts &amp;lt;- getAbstracts(pmids)
+corp &amp;lt;- VCorpus(VectorSource(abstracts))
+
+f &amp;lt;- content_transformer(function(x, pattern) gsub(pattern, &amp;quot;&amp;quot;, x))
+c1 &amp;lt;- tm_map(corp, removePunctuation) %&amp;gt;% 
+  tm_map(removeNumbers) %&amp;gt;% 
+  tm_map(content_transformer(tolower)) %&amp;gt;% 
+  tm_map(content_transformer(function(x) gsub(&amp;quot;([^si])s\\&amp;gt;&amp;quot;, &amp;quot;\\1&amp;quot;, x))) %&amp;gt;% 
+  tm_map(removeWords, stopwords(&amp;quot;english&amp;quot;)) %&amp;gt;%
+  tm_map(removeWords, c(&amp;quot;also&amp;quot;, &amp;quot;thus&amp;quot;, &amp;quot;three&amp;quot;, &amp;quot;calu&amp;quot;, &amp;quot;hbepc&amp;quot;, &amp;quot;gcm&amp;quot;, &amp;quot;ptrm&amp;quot;)) %&amp;gt;%
+  tm_map(stripWhitespace) %&amp;gt;%
+  tm_map(f, &amp;quot;\\&amp;lt;[[:alpha:]]{,2}\\&amp;gt;\\W+&amp;quot;)
+
+
+wordcloud(c1, random.order=F, min.freq = 6, 
+		  colors = brewer.pal(9,&amp;quot;Set1&amp;quot;),
+		  rot.per= 0.3)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;I already have some ideas on where to improve - basically I could
+crawl our pdfs as well.  But for today I&amp;rsquo;m done.&lt;/p&gt;
+</description>
     </item>
     
   </channel>

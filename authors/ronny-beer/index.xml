@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ronny Beer | bdcaf</title>
+    <link>/authors/ronny-beer/</link>
+      <atom:link href="/authors/ronny-beer/index.xml" rel="self" type="application/rss+xml" />
+    <description>Ronny Beer</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Clemens Ager 2020</copyright><lastBuildDate>Thu, 01 Jan 2015 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>Ronny Beer</title>
+      <link>/authors/ronny-beer/</link>
+    </image>
+    
+    <item>
+      <title>Breath analysis for in vivo detection of pathogens related to ventilator-associated pneumonia in intensive care patients: a prospective pilot study.</title>
+      <link>/publication/filipiak-2015/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>/publication/filipiak-2015/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

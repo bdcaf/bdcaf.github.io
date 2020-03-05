@@ -1,524 +1,1491 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-<html lang="en">
-  <head><meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="author" content="Clemens Ager"><meta name="description" content="Number Cruncher // PhD Candidate // Physicist"><script defer src="https://use.fontawesome.com/releases/v5.0.13/js/all.js" integrity="sha384-xymdQtn1n3lH2wcu0qhcdaOpQwyoarkgLVxC/wZ5q7h9gHtxICrpcaSUfygqZGOe" crossorigin="anonymous"></script>
-<link href="https://fonts.googleapis.com/css?family=Montserrat|Raleway:100,400" rel="stylesheet"><link rel="stylesheet" href="https://bdcaf.github.io/style.min.3e5b91d8ba3df6ce753b537d698197cd7483d05dac7af3d25f51d44d00288fddda3ce77df34ee38fde5f4093e7130224d50a291426d38ced5cf8d8ead844da1f.css" 
-		       integrity="sha512-PluR2Lo99s51O1N9aYGXzXSD0F2sevPSX1HUTQAoj93aPOd9807jj95fQJPnEwIk1QopFCbTjO1c&#43;Njq2ETaHw==">
-<link rel="canonical" href="https://bdcaf.github.io/post/">
-    <title>Posts|C. Ager</title><link rel="alternate" type="application/rss+xml" href="https://bdcaf.github.io/post/index.xml" title="C. Ager" /></head>
-  <body id="top"><header>
-  <h1 class="logo"> <a href="https://bdcaf.github.io/">clemens<b>ager</b></a></h1>
+<!DOCTYPE html>
+<html lang="en-us"><head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academic 4.7.0">
+
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Clemens Ager">
+
+  
+  
+  
+    
+  
+  <meta name="description" content="Number Cruncher">
+
+  
+  <link rel="alternate" hreflang="en-us" href="/post/">
+
+  
+
+
+  
+  
+  
+  <meta name="theme-color" content="#A30000">
+  
+
+  
+  
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-1/css/all.min.css" integrity="sha256-4w9DunooKSr3MFXHXWyFER38WmPdm361bQS/2KUWZbU=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+        
+      
+    
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.5.1/leaflet.css" integrity="sha256-SHMGCYmST46SoyGgo4YR/9AlK1vf3ff84Aq9yK4hdqM=" crossorigin="anonymous">
+    
+
+    
+
+    
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.1.2/lazysizes.min.js" integrity="sha256-Md1qLToewPeKjfAHU1zyPwOutccPAm5tahnaw7Osw0A=" crossorigin="anonymous" async></script>
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+        
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+
+  
+
+  
+  
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400%7COswald:400%7CRaleway%7CMontserrat:600&display=swap">
+  
+
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/academic.css">
+
+  
+
+
+
+
+  
+
+
+  
+  <link rel="alternate" href="/post/index.xml" type="application/rss+xml" title="bdcaf">
+  
+
+  <link rel="manifest" href="/index.webmanifest">
+  <link rel="icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_2.png">
+  <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png">
+
+  <link rel="canonical" href="/post/">
+
+  
+  
+  
+  
+  
+    
+    
+  
+  
+  <meta property="twitter:card" content="summary">
+  
+  <meta property="twitter:site" content="@c_decaf">
+  <meta property="twitter:creator" content="@c_decaf">
+  
+  <meta property="og:site_name" content="bdcaf">
+  <meta property="og:url" content="/post/">
+  <meta property="og:title" content="Posts | bdcaf">
+  <meta property="og:description" content="Number Cruncher"><meta property="og:image" content="img/map[gravatar:%!s(bool=false) shape:circle]">
+  <meta property="twitter:image" content="img/map[gravatar:%!s(bool=false) shape:circle]"><meta property="og:locale" content="en-us">
+  
+    
+  
+
+  
+
+
+
+
+  
+
+
+  
+
+
+
+
+
+  <title>Posts | bdcaf</title>
+
+</head>
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents">
+
+  
+
+
+
+
+
+
+
+<nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
   <div class="container">
-    <a href="#main-menu" role="button" id="main-menu-toggle" class="menu-toggle" aria-expanded="false" aria-controls="main-menu" aria-label="Open main menu">
-      <span class="sr-only">Open main menu</span>
-      <span aria-hidden="true"> <i class="fas fa-bars"></i> </span>
-    </a>
-    <nav id="main-menu" role="navigation" class="main-menu" aria-expanded="false" aria-label="Main menu">
-      <a href="#main-menu-toggle" role="button" id="main-menu-close" class="menu-close" aria-expanded="false" aria-controls="main-menu" aria-label="Close main menu"> 
-	<span class="sr-only">Close main menu</span>
-	<span aria-hidden="true">
-	  <i class="fas fa-window-close"> </i>
-	</span> </a> 
-	<ul><li>
-	    <a href="https://bdcaf.github.io/#about"><span>About</span> </a>
-	  </li><li>
-	    <a href="https://bdcaf.github.io/#posts"><span>Posts</span> </a>
-	  </li><li>
-	    <a href="https://bdcaf.github.io/#publications_selected"><span>Publications</span> </a>
-	  </li><li>
-	    <a href="https://bdcaf.github.io/#projects"><span>Projects</span> </a>
-	  </li><li>
-	    <a href="https://bdcaf.github.io/#contact"><span>Contact</span> </a>
-	  </li></ul>
-    </nav>
-    <a href="#main-menu-toggle"
-       class="backdrop"
-       tabindex="-1"
-       aria-hidden="true" hidden></a>
+
+    
+    <div class="d-none d-lg-inline-flex">
+      <a class="navbar-brand" href="/">bdcaf</a>
+    </div>
+    
+
+    
+    <button type="button" class="navbar-toggler" data-toggle="collapse"
+            data-target="#navbar-content" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+    <span><i class="fas fa-bars"></i></span>
+    </button>
+    
+
+    
+    <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+      <a class="navbar-brand" href="/">bdcaf</a>
+    </div>
+    
+
+    
+    
+    <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+
+      
+      <ul class="navbar-nav d-md-inline-flex">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#about"><span>Home</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#posts"><span>Posts</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#featured"><span>Publications</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#contact"><span>Contact</span></a>
+        </li>
+
+        
+        
+
+      
+
+        
+      </ul>
+    </div>
+
+    <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+      
+
+      
+
+      
+
+    </ul>
+
   </div>
-</header>
-<div class="content"><h1>Posts</h1><div class="apost">
-  <h2><a href="https://bdcaf.github.io/2020/02/11/2020-01-cookiecutter/">2020 01 Cookiecutter</a></h2><div class="article-metadata">
+</nav>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+    
+  
+<div class="universal-wrapper pt-3">
+  <h1>Posts</h1>
+
+  
+
+  
+</div>
+
+
+
+<div class="universal-wrapper">
+
+  
+
+  
+  
+    
+      
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="/post/dev/tidytuesday/td20200225/" >TidyTuesday Measles Vaccination Data</a>
+    </h3>
+
+    <div class="article-style"><p>This is my first <code>#tidytuesday</code> project.
+I had to spend more time than expected on data cleaning.</p>
+
+<figure>
+    <img src="/post/dev/tidytuesday/td20200225/big_tern-1.png" alt=""/><figcaption>Vacciantion ratio medial and other exclusions.</figcaption></figure><div>
+      <a href="/post/dev/tidytuesday/td20200225/">Read full…</a>
+    </div></div>
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+        
+
+
+<div class="article-metadata">
+
+  
+  
+
+  
   <span class="article-date">
-    <time datetime="2020-02-11 10:00:40 &#43;0100 CET" itemprop="datePublished">2020-02-11</time>
-  </span><span class="article-tags">
-    <i class="fa fa-tags"> </i>
-    <a href="https://bdcaf.github.io/tags/cookiecutter">cookiecutter</a
-    ></span></div>
-<div class="article-style"><p><!-- raw HTML omitted --></p></div>
-</div><div class="apost">
-  <h2><a href="https://bdcaf.github.io/2019/06/23/survival-of-fittest/">Survival of fittest</a></h2><div class="article-metadata">
+    
+    
+      
+          Last updated on
+      
+    
+    2020-03-04
+  </span>
+  
+
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    7 min read
+  </span>
+  
+
+  
+  
+  
+
+  
+  
+
+</div>
+
+      
+    </div>
+
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+    
+  
+    
+      
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="/post/dev/2020-01-cookiecutter/" >2020 01 Cookiecutter</a>
+    </h3>
+
+    <div class="article-style"><p>Having some more time at hand I was able to add long overdue alterations to 
+<a href="https://github.com/bdcaf/cookiecutter-r-data-analysis" target="_blank" rel="noopener">cookiecutter-r-data-analysis</a>.
+I left my template alone for about a year and during this time I have developed some new practices and given up on some others.</p><div>
+      <a href="/post/dev/2020-01-cookiecutter/">Read full…</a>
+    </div></div>
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+        
+
+
+<div class="article-metadata">
+
+  
+  
+
+  
   <span class="article-date">
-    <time datetime="2019-06-23 11:54:51 &#43;0200 CEST" itemprop="datePublished">2019-06-23</time>
-  </span><span class="article-categories">
-    <i class="fa fa-folder"> </i>
-    <a href="https://bdcaf.github.io/categories/link">link</a></span><span class="article-tags">
-    <i class="fa fa-tags"> </i>
-    <a href="https://bdcaf.github.io/tags/stat">stat</a
-    ></span></div>
-<div class="article-style"><p><p><a href="https://www.survivalofthebestfit.com">Survival of the fittest</a> is a pretty demonstration how algorithmic bias comes to be.</p></p></div>
-</div><div class="apost">
-  <h2><a href="https://bdcaf.github.io/2019/06/19/trying-atom/">Trying Atom</a></h2><div class="article-metadata">
+    
+    
+      
+          Last updated on
+      
+    
+    2020-02-29
+  </span>
+  
+
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    4 min read
+  </span>
+  
+
+  
+  
+  
+
+  
+  
+
+</div>
+
+      
+    </div>
+
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+    
+  
+    
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="/post/links/survivalfittest/" >Survival of fittest</a>
+    </h3>
+
+    <div class="article-style"><p>
+<a href="https://www.survivalofthebestfit.com" target="_blank" rel="noopener">Survival of the fittest</a> is a pretty demonstration how algorithmic bias comes to be.</p></div>
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+        
+
+
+<div class="article-metadata">
+
+  
+  
+
+  
   <span class="article-date">
-    <time datetime="2019-06-19 17:06:19 &#43;0200 CEST" itemprop="datePublished">2019-06-19</time>
-  </span><span class="article-categories">
-    <i class="fa fa-folder"> </i>
-    <a href="https://bdcaf.github.io/categories/dev">dev</a></span><span class="article-tags">
-    <i class="fa fa-tags"> </i>
-    <a href="https://bdcaf.github.io/tags/atom">atom</a
-    ></span></div>
-<div class="article-style"><p><!-- raw HTML omitted --></p></div>
-</div><div class="apost">
-  <h2><a href="https://bdcaf.github.io/2019/04/26/new-project-r-hugo-papers/">New Project R Hugo Papers</a></h2><div class="article-metadata">
+    
+    
+      
+          Last updated on
+      
+    
+    2019-06-23
+  </span>
+  
+
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    1 min read
+  </span>
+  
+
+  
+  
+  
+
+  
+  
+  <span class="middot-divider"></span>
+  <span class="article-categories">
+    <i class="fas fa-folder mr-1"></i><a href="/categories/link/">link</a></span>
+  
+
+</div>
+
+      
+    </div>
+
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+    
+  
+    
+      
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="/post/dev/trying_atom/" >Trying Atom</a>
+    </h3>
+
+    <div class="article-style"><p>Just got back from Dornbirn and the paper is sent off for review.
+So I got some time at hand and can checkout 
+<a href="https://atom.io" target="_blank" rel="noopener">atom</a> again.
+My workhorse was vim - and although I generally feel empowered using it in larger projects I would prefer a more user-friendly organization.</p><div>
+      <a href="/post/dev/trying_atom/">Read full…</a>
+    </div></div>
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+        
+
+
+<div class="article-metadata">
+
+  
+  
+
+  
   <span class="article-date">
-    <time datetime="2019-04-26 13:40:24 &#43;0200 CEST" itemprop="datePublished">2019-04-26</time>
-  </span><span class="article-categories">
-    <i class="fa fa-folder"> </i>
-    <a href="https://bdcaf.github.io/categories/dev">dev</a></span><span class="article-tags">
-    <i class="fa fa-tags"> </i>
-    <a href="https://bdcaf.github.io/tags/hugo">hugo</a
-    >, <a href="https://bdcaf.github.io/tags/blog">blog</a
-    ></span></div>
-<div class="article-style"><p><p>I started the project <a href="https://bdcaf.github.io/r-hugo-papercss-template/">R-Hugo-Papercss</a>.</p>
+    
+    
+      
+          Last updated on
+      
+    
+    2019-06-19
+  </span>
+  
+
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    1 min read
+  </span>
+  
+
+  
+  
+  
+
+  
+  
+  <span class="middot-divider"></span>
+  <span class="article-categories">
+    <i class="fas fa-folder mr-1"></i><a href="/categories/dev/">dev</a></span>
+  
+
+</div>
+
+      
+    </div>
+
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+    
+  
+    
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="/post/dev/r-hugo-paperss/" >New Project R Hugo Papers</a>
+    </h3>
+
+    <div class="article-style"><p>I started the project 
+<a href="https://bdcaf.github.io/r-hugo-papercss-template/" target="_blank" rel="noopener">R-Hugo-Papercss</a>.</p>
 <p>This is a template for the hugo static site engine.  The purpose is to use its page bundle feature with generated content from R.  There were small issues to make hugo write the relative URLs.</p>
-<p>I also uses the <a href="https://www.getpapercss.com">papercss</a> layout.  It seems suitable for a private science blog as it reminds me on the <a href="https://en.wikipedia.org/wiki/Randall_Munroe">Randal Munroe</a>s XKCD style.</p>
-<p>By now feels complete enough to try out blogging.</p></p></div>
-</div><div class="apost">
-  <h2><a href="https://bdcaf.github.io/2019/04/20/spring-2019/">Spring 2019</a></h2><div class="article-metadata">
+<p>I also uses the 
+<a href="https://www.getpapercss.com" target="_blank" rel="noopener">papercss</a> layout.  It seems suitable for a private science blog as it reminds me on the 
+<a href="https://en.wikipedia.org/wiki/Randall_Munroe" target="_blank" rel="noopener">Randal Munroe</a>s XKCD style.</p>
+<p>By now feels complete enough to try out blogging.</p></div>
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+        
+
+
+<div class="article-metadata">
+
+  
+  
+
+  
   <span class="article-date">
-    <time datetime="2019-04-20 16:44:36 &#43;0200 CEST" itemprop="datePublished">2019-04-20</time>
-  </span><span class="article-categories">
-    <i class="fa fa-folder"> </i>
-    <a href="https://bdcaf.github.io/categories/personal">personal</a></span><span class="article-tags">
-    <i class="fa fa-tags"> </i>
-    <a href="https://bdcaf.github.io/tags/garden">garden</a
-    >, <a href="https://bdcaf.github.io/tags/animal">animal</a
-    >, <a href="https://bdcaf.github.io/tags/pictures">pictures</a
-    ></span></div>
-<div class="article-style"><p><p>Some animal pictures from my garden to test content images.</p></p></div>
-</div><div class="apost">
-  <h2><a href="https://bdcaf.github.io/2019/04/19/learning-blender/">Learning Blender</a></h2><div class="article-metadata">
+    
+    
+      
+          Last updated on
+      
+    
+    2019-06-19
+  </span>
+  
+
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    1 min read
+  </span>
+  
+
+  
+  
+  
+
+  
+  
+  <span class="middot-divider"></span>
+  <span class="article-categories">
+    <i class="fas fa-folder mr-1"></i><a href="/categories/dev/">dev</a></span>
+  
+
+</div>
+
+      
+    </div>
+
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+    
+  
+    
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="/post/personal/2019_spring/" >Spring 2019</a>
+    </h3>
+
+    <div class="article-style"><p>Some animal pictures from my garden to test content images.</p></div>
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+        
+
+
+<div class="article-metadata">
+
+  
+  
+
+  
   <span class="article-date">
-    <time datetime="2019-04-19 18:33:04 &#43;0200 CEST" itemprop="datePublished">2019-04-19</time>
-  </span><span class="article-categories">
-    <i class="fa fa-folder"> </i>
-    <a href="https://bdcaf.github.io/categories/dev">dev</a></span><span class="article-tags">
-    <i class="fa fa-tags"> </i>
-    <a href="https://bdcaf.github.io/tags/blender">blender</a
-    ></span></div>
-<div class="article-style"><p><p>Having some downtime I watched some tutorials for <a href="https://www.blender.org">blender</a>.</p>
+    
+    
+      
+          Last updated on
+      
+    
+    2019-04-21
+  </span>
+  
+
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    1 min read
+  </span>
+  
+
+  
+  
+  
+
+  
+  
+  <span class="middot-divider"></span>
+  <span class="article-categories">
+    <i class="fas fa-folder mr-1"></i><a href="/categories/personal/">personal</a></span>
+  
+
+</div>
+
+      
+    </div>
+
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+    
+  
+    
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="/post/dev/blender0/" >Learning Blender</a>
+    </h3>
+
+    <div class="article-style"><p>Having some downtime I watched some tutorials for 
+<a href="https://www.blender.org" target="_blank" rel="noopener">blender</a>.</p>
 <p>It feels like a  powerful tool.  However the long wait for rendering is annoying.<br>
 I particularly like the physics simulations.
-As test I followed the this <a href="https://youtu.be/YFmN7eTNfNw">tutorial</a>.  Really simple - just the render took over an hour.</p>
+As test I followed the this 
+<a href="https://youtu.be/YFmN7eTNfNw" target="_blank" rel="noopener">tutorial</a>.  Really simple - just the render took over an hour.</p>
 <p>Anyway enjoy some nice wood chipping.</p>
 <figure>
-	<video controls src="https://bdcaf.github.io/2019/04/19/learning-blender/rener.mp4"></video>
+	<video controls src="/post/dev/blender0/rener.mp4"></video>
   <figcaption><p>Chipping wood simulation.</p></figcaption>
-</figure></p></div>
-</div><div class="apost">
-  <h2><a href="https://bdcaf.github.io/2019/04/05/mosquitoes/">Mosquitoes</a></h2><div class="article-metadata">
+</figure></div>
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+        
+
+
+<div class="article-metadata">
+
+  
+  
+
+  
   <span class="article-date">
-    <time datetime="2019-04-05 11:32:33 &#43;0200 CEST" itemprop="datePublished">2019-04-05</time>
-  </span><span class="article-categories">
-    <i class="fa fa-folder"> </i>
-    <a href="https://bdcaf.github.io/categories/paper">paper</a></span><span class="article-tags">
-    <i class="fa fa-tags"> </i>
-    <a href="https://bdcaf.github.io/tags/sci">sci</a
-    ></span></div>
-<div class="article-style"><p><p>There is an interesting paper on Mosquitoes from Raji et. al. (&ldquo;Aedes aegypti Mosquitoes Detect Acidic Volatiles Found in Human Odor Using the IR8a Pathway&rdquo;, doi: <a href="https://doi.org/10.1016/j.cub.2019.02.045">10.1016/j.cub.2019.02.045</a>).
-It deals with how mosquitoes track their human targets.  They identify three ranges -  at furthest they track by CO<!-- raw HTML omitted -->2<!-- raw HTML omitted -->,  in mid-range by IR and at closest they zoom in on particular VOCs.</p>
-<p>I&rsquo;m working on project <a href="https://www.uibk.ac.at/breath-research/projects/kiras/kiras-2016.html">KIRAS</a> now for some time,  and we essentially also need to track humans. It seems our machine learning algorithm has a similar approach (although we do not use IR).  But CO<!-- raw HTML omitted -->2<!-- raw HTML omitted --> is more dominant in large containers,  while in smaller other compounds play greater role.</p></p></div>
-</div><div class="apost">
-  <h2><a href="https://bdcaf.github.io/2019/03/24/pheromone/">Pheromone</a></h2><div class="article-metadata">
+    
+    
+      
+          Last updated on
+      
+    
+    2019-04-20
+  </span>
+  
+
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    1 min read
+  </span>
+  
+
+  
+  
+  
+
+  
+  
+  <span class="middot-divider"></span>
+  <span class="article-categories">
+    <i class="fas fa-folder mr-1"></i><a href="/categories/dev/">dev</a></span>
+  
+
+</div>
+
+      
+    </div>
+
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+    
+  
+    
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="/post/sci/mosquitoes/" >Mosquitoes</a>
+    </h3>
+
+    <div class="article-style"><div>
+      <a href="/post/sci/mosquitoes/">Read full…</a>
+    </div></div>
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+        
+
+
+<div class="article-metadata">
+
+  
+  
+
+  
   <span class="article-date">
-    <time datetime="2019-03-24 08:48:56 &#43;0100 CET" itemprop="datePublished">2019-03-24</time>
-  </span><span class="article-categories">
-    <i class="fa fa-folder"> </i>
-    <a href="https://bdcaf.github.io/categories/podcast">podcast</a></span><span class="article-tags">
-    <i class="fa fa-tags"> </i>
-    <a href="https://bdcaf.github.io/tags/science">science</a
-    ></span></div>
-<div class="article-style"><p><p>&ldquo;BBC in our time&rdquo; had a good <a href="https://www.bbc.co.uk/programmes/m0002mdl">podcast about pheromones</a>.  Too bad they don&rsquo;t offer transcripts.</p>
-<p>Pheromones in breath would be most interesting however it is still in debate whether human pheromones exist at all.<br>
-But there was the discovery of rabbit mammary pheromone  by <a href="https://www.nature.com/articles/nature01739">Schaal et al</a>.  And the <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2890510/">darcin pheromone in mice</a>.
-I did learn that some animals also have another organ related to smell - the <a href="https://en.wikipedia.org/wiki/Vomeronasal_organ">vomeronasal organ (Jacobson&rsquo;s organ)</a>.  It seems to be also present in humans.</p>
-<p>Unfortunately our tech still doesn&rsquo;t perform to well at the relevant masses, though that is an most interesting research area.</p></p></div>
-</div><div class="apost">
-  <h2><a href="https://bdcaf.github.io/2019/02/24/grid-layout-for-site/">Grid Layout for Site</a></h2><div class="article-metadata">
+    
+    
+      
+          Last updated on
+      
+    
+    2019-04-05
+  </span>
+  
+
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    1 min read
+  </span>
+  
+
+  
+  
+  
+
+  
+  
+  <span class="middot-divider"></span>
+  <span class="article-categories">
+    <i class="fas fa-folder mr-1"></i><a href="/categories/paper/">paper</a></span>
+  
+
+</div>
+
+      
+    </div>
+
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+    
+  
+    
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="/post/links/pheromone/" >Pheromone</a>
+    </h3>
+
+    <div class="article-style"><div>
+      <a href="/post/links/pheromone/">Read full…</a>
+    </div></div>
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+        
+
+
+<div class="article-metadata">
+
+  
+  
+
+  
   <span class="article-date">
-    <time datetime="2019-02-24 21:07:24 &#43;0100 CET" itemprop="datePublished">2019-02-24</time>
-  </span><span class="article-categories">
-    <i class="fa fa-folder"> </i>
-    <a href="https://bdcaf.github.io/categories/site">site</a></span><span class="article-tags">
-    <i class="fa fa-tags"> </i>
-    <a href="https://bdcaf.github.io/tags/css">css</a
-    ></span></div>
-<div class="article-style"><p><p>Recently some html and css videos caught my attention.
+    
+    
+      
+          Last updated on
+      
+    
+    2019-03-24
+  </span>
+  
+
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    1 min read
+  </span>
+  
+
+  
+  
+  
+
+  
+  
+  <span class="middot-divider"></span>
+  <span class="article-categories">
+    <i class="fas fa-folder mr-1"></i><a href="/categories/podcast/">podcast</a></span>
+  
+
+</div>
+
+      
+    </div>
+
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+    
+  
+    
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="/post/site/2019_layout/" >Grid Layout for Site</a>
+    </h3>
+
+    <div class="article-style"><p>Recently some html and css videos caught my attention.
 I started reworking the layout using the new practices I learnt.
 Hope they will still work fine.</p>
 <p>In particular I found the videos by Jen Simmons inspiring.</p>
 
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-  <iframe src="https://www.youtube-nocookie.com/embed/tFKrK4eAiUQ" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
-</div></p></div>
-</div><div class="apost">
-  <h2><a href="https://bdcaf.github.io/2019/02/05/configuring-syncthing-on-mac-server/">Configuring Syncthing on Mac Server</a></h2><div class="article-metadata">
-  <span class="article-date">
-    <time datetime="2019-02-05 10:58:41 &#43;0100 CET" itemprop="datePublished">2019-02-05</time>
-  </span><span class="article-categories">
-    <i class="fa fa-folder"> </i>
-    <a href="https://bdcaf.github.io/categories/dev">dev</a></span><span class="article-tags">
-    <i class="fa fa-tags"> </i>
-    <a href="https://bdcaf.github.io/tags/syncthing">syncthing</a
-    >, <a href="https://bdcaf.github.io/tags/mac">mac</a
-    ></span></div>
-<div class="article-style"><p><!-- raw HTML omitted --></p></div>
-</div><div class="apost">
-  <h2><a href="https://bdcaf.github.io/2019/01/15/colliding-blocks/">Colliding Blocks</a></h2><div class="article-metadata">
-  <span class="article-date">
-    <time datetime="2019-01-15 17:15:52 &#43;0100 CET" itemprop="datePublished">2019-01-15</time>
-  </span><span class="article-categories">
-    <i class="fa fa-folder"> </i>
-    <a href="https://bdcaf.github.io/categories/links">links</a></span><span class="article-tags">
-    <i class="fa fa-tags"> </i>
-    <a href="https://bdcaf.github.io/tags/math">math</a
-    >, <a href="https://bdcaf.github.io/tags/video">video</a
-    ></span></div>
-<div class="article-style"><p><p><a href="https://www.youtube.com/channel/UCYO_jab_esuFRV4b17AJtAw">Three blue one
-brown</a> who
-makes amazing videos about maths found another amazing fact linking
-how masses collide with an amazing mathematical property.  Since I
-don&rsquo;t want to spoil anything watch it!</p>
+  <iframe src="https://www.youtube.com/embed/tFKrK4eAiUQ" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div></div>
 
-<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-  <iframe src="https://www.youtube-nocookie.com/embed/HEfHFsfGXjs" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
-</div></p></div>
-</div><div class="apost">
-  <h2><a href="https://bdcaf.github.io/2018/12/28/seeing-statistics/">Seeing statistics</a></h2><div class="article-metadata">
-  <span class="article-date">
-    <time datetime="2018-12-28 09:31:46 &#43;0100 CET" itemprop="datePublished">2018-12-28</time>
-  </span><span class="article-categories">
-    <i class="fa fa-folder"> </i>
-    <a href="https://bdcaf.github.io/categories/links">links</a></span><span class="article-tags">
-    <i class="fa fa-tags"> </i>
-    <a href="https://bdcaf.github.io/tags/statistics">statistics</a
-    >, <a href="https://bdcaf.github.io/tags/visualisation">visualisation</a
-    ></span></div>
-<div class="article-style"><p><p>There is a nice introducition to statistics with visualisation of the
-concepts at <a href="https://seeing-theory.brown.edu/index.html">seeing theory</a></p>
-<p>Takes about 20 minutes to click through.</p></p></div>
-</div><div class="apost">
-  <h2><a href="https://bdcaf.github.io/2018/11/19/rubegoldberg/">Rubegoldberg</a></h2><div class="article-metadata">
-  <span class="article-date">
-    <time datetime="2018-11-19 15:22:52 &#43;0100 CET" itemprop="datePublished">2018-11-19</time>
-  </span><span class="article-categories">
-    <i class="fa fa-folder"> </i>
-    <a href="https://bdcaf.github.io/categories/links">links</a></span><span class="article-tags">
-    <i class="fa fa-tags"> </i>
-    <a href="https://bdcaf.github.io/tags/fun">fun</a
-    ></span></div>
-<div class="article-style"><p><p>There&rsquo;s a fun video about a real-live <a href="https://en.wikipedia.org/wiki/Rube_Goldberg_machine">Rube-Goldberg
-machine</a></p>
+    <div class="stream-meta article-metadata">
 
-<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-  <iframe src="https://www.youtube-nocookie.com/embed/auIlGqEyTm8" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
-</div></p></div>
-</div><div class="apost">
-  <h2><a href="https://bdcaf.github.io/2018/11/19/crossover/">Crossover</a></h2><div class="article-metadata">
-  <span class="article-date">
-    <time datetime="2018-11-19 13:42:33 &#43;0100 CET" itemprop="datePublished">2018-11-19</time>
-  </span><span class="article-categories">
-    <i class="fa fa-folder"> </i>
-    <a href="https://bdcaf.github.io/categories/dev">dev</a></span><span class="article-tags">
-    <i class="fa fa-tags"> </i>
-    <a href="https://bdcaf.github.io/tags/mac">mac</a
-    ></span></div>
-<div class="article-style"><p><!-- raw HTML omitted --></p></div>
-</div><div class="apost">
-  <h2><a href="https://bdcaf.github.io/2018/08/21/k%C3%B6hlmeier-at-br/">Köhlmeier at br</a></h2><div class="article-metadata">
-  <span class="article-date">
-    <time datetime="2018-08-21 12:06:14 &#43;0200 CEST" itemprop="datePublished">2018-08-21</time>
-  </span><span class="article-categories">
-    <i class="fa fa-folder"> </i>
-    <a href="https://bdcaf.github.io/categories/links">links</a></span><span class="article-tags">
-    <i class="fa fa-tags"> </i>
-    <a href="https://bdcaf.github.io/tags/audiobooks">audiobooks</a
-    ></span></div>
-<div class="article-style"><p><!-- raw HTML omitted --></p></div>
-</div><div class="apost">
-  <h2><a href="https://bdcaf.github.io/2018/08/03/publii/">Publii</a></h2><div class="article-metadata">
-  <span class="article-date">
-    <time datetime="2018-08-03 12:13:16 &#43;0200 CEST" itemprop="datePublished">2018-08-03</time>
-  </span><span class="article-categories">
-    <i class="fa fa-folder"> </i>
-    <a href="https://bdcaf.github.io/categories/links">links</a></span><span class="article-tags">
-    <i class="fa fa-tags"> </i>
-    <a href="https://bdcaf.github.io/tags/web">web</a
-    >, <a href="https://bdcaf.github.io/tags/dev">dev</a
-    ></span></div>
-<div class="article-style"><p><p>I was quite happy to find the graphical tool
-<a href="https://getpublii.com/">publii</a> for building statical sites.</p>
-<p>Many people still use Wordpress and the like to publish their blog.  I
-don&rsquo;t like Wordpress as it requires to run PHP on the server meaning
-it offers a quite large attack surface.</p>
-<p>I prefer the static site approach.   This also allows to radically cut
-down on JavaScript and other external resources and gives me
-the peace of mind that I don&rsquo;t need to worry about updating a
-Wordpress installation.</p>
-<p>However the tool of
-my choice, <a href="https://gohugo.io">Hugo</a> is a bit technical.   Now with
-<a href="https://getpublii.com/">publii</a> there is something that I might
-suggest command line muggles.</p></p></div>
-</div><div class="apost">
-  <h2><a href="https://bdcaf.github.io/2018/06/29/abandonware/">Abandonware</a></h2><div class="article-metadata">
-  <span class="article-date">
-    <time datetime="2018-06-29 12:12:04 &#43;0200 CEST" itemprop="datePublished">2018-06-29</time>
-  </span><span class="article-categories">
-    <i class="fa fa-folder"> </i>
-    <a href="https://bdcaf.github.io/categories/links">links</a></span><span class="article-tags">
-    <i class="fa fa-tags"> </i>
-    <a href="https://bdcaf.github.io/tags/games">games</a
-    ></span></div>
-<div class="article-style"><p><p>Every now and then I look up the games from my past.  It is amazing
-that there are now archives of these ancient games online.  Today I
-discovered <a href="https://www.myabandonware.com">myabandoneware</a> like the
-<a href="https://arvchive.org">internet archive</a> they not only have the
-downloads - but also a player where you can play in the browser
-window.  Not so nice for new games but for the ancient ones I did
-remember amazing.</p></p></div>
-</div><div class="apost">
-  <h2><a href="https://bdcaf.github.io/2018/06/14/mass-editing-tags/">Mass editing tags</a></h2><div class="article-metadata">
-  <span class="article-date">
-    <time datetime="2018-06-14 08:42:28 &#43;0200 CEST" itemprop="datePublished">2018-06-14</time>
-  </span><span class="article-categories">
-    <i class="fa fa-folder"> </i>
-    <a href="https://bdcaf.github.io/categories/site">site</a>, <a href="https://bdcaf.github.io/categories/dev">dev</a></span><span class="article-tags">
-    <i class="fa fa-tags"> </i>
-    <a href="https://bdcaf.github.io/tags/script">script</a
-    ></span></div>
-<div class="article-style"><p><!-- raw HTML omitted --></p></div>
-</div><div class="apost">
-  <h2><a href="https://bdcaf.github.io/2018/06/04/math-acrobatics/">Math Acrobatics</a></h2><div class="article-metadata">
-  <span class="article-date">
-    <time datetime="2018-06-04 09:33:04 &#43;0200 CEST" itemprop="datePublished">2018-06-04</time>
-  </span><span class="article-categories">
-    <i class="fa fa-folder"> </i>
-    <a href="https://bdcaf.github.io/categories/links">links</a></span><span class="article-tags">
-    <i class="fa fa-tags"> </i>
-    <a href="https://bdcaf.github.io/tags/math">math</a
-    >, <a href="https://bdcaf.github.io/tags/video">video</a
-    ></span></div>
-<div class="article-style"><p><!-- raw HTML omitted --></p></div>
-</div><div class="apost">
-  <h2><a href="https://bdcaf.github.io/2018/06/01/presentation-of-phd-topic/">Presentation of PhD topic</a></h2><div class="article-metadata">
-  <span class="article-date">
-    <time datetime="2018-06-01 11:03:15 &#43;0200 CEST" itemprop="datePublished">2018-06-01</time>
-  </span><span class="article-tags">
-    <i class="fa fa-tags"> </i>
-    <a href="https://bdcaf.github.io/tags/study">study</a
-    ></span></div>
-<div class="article-style"><p><p>I finally had a presentation on my PhD topic.  This was one of the
-more strenous tasks.  Last time I prepared for such a seminar
-coincided with <a href="https://en.wikipedia.org/wiki/Anton_Amann">Prof. Amanns death</a>.  I then put it off for some time.</p>
-<p>So this time I had plenty of new data.  But also some new insights I
-wanted like to present.</p>
-<p>Here&rsquo;s a cleaned up version based on comments I got after the
-presentation.</p>
-<div class="embed-responsive">
-  <object data="/post/academic/phd_pres.pdf" type='application/pdf' width='100%' height='400px' >
-    <p>This browser does not support inline PDFs. Please download the PDF to view it: 
-  </object> <a href="https://bdcaf.github.io/post/academic/phd_pres.pdf">Download PDF</a></p>
-</div></p></div>
-</div><div class="apost">
-  <h2><a href="https://bdcaf.github.io/2018/05/29/rescuing-my-pdf-presentation-on-mac/">Rescuing my PDF presentation on mac</a></h2><div class="article-metadata">
-  <span class="article-date">
-    <time datetime="2018-05-29 10:44:19 &#43;0200 CEST" itemprop="datePublished">2018-05-29</time>
-  </span><span class="article-categories">
-    <i class="fa fa-folder"> </i>
-    <a href="https://bdcaf.github.io/categories/dev">dev</a></span><span class="article-tags">
-    <i class="fa fa-tags"> </i>
-    <a href="https://bdcaf.github.io/tags/presentation">presentation</a
-    >, <a href="https://bdcaf.github.io/tags/latex">latex</a
-    >, <a href="https://bdcaf.github.io/tags/mac">mac</a
-    ></span></div>
-<div class="article-style"><p><p>(tldr;) use <a href="https://www.cs.hmc.edu/~oneill/freesoftware/pdftokeynote.html">PDF to
-Keynote</a> to convert a tex presentation for convenient presenting.</p>
-<p>I did have a presentation on my PhDs topic last week.  Took me some
-collecting data from recent paper drafts and old slides to create
-something polished.</p>
-<p>As you would expect I prepared the presentation in <a href="https://github.com/josephwright/beamer">beamer latex</a>.  I found the <a href="https://github.com/matze/mtheme">metropolis template</a> to my liking.</p>
-<p>Great was my shock as the slides would show up blurry in full screen -
-well for the first second - and then &ldquo;jump&rdquo; to nicely rendered.  I
-tried in Preview as well as Skim. They would render nicely but still
-slow in Acrobat Reader - however I don&rsquo;t like that one.</p>
-<p>On the last day I found my lifesaver: <a href="https://www.cs.hmc.edu/~oneill/freesoftware/pdftokeynote.html">PDF to
-Keynote</a>.
-Not only would it transfer my slides into sharp images,  I then could
-also use the fancy Keynote controls and the moderator screen for
-notes.</p></p></div>
-</div><div class="apost">
-  <h2><a href="https://bdcaf.github.io/2018/05/23/merchant-of-venice/">Merchant of Venice</a></h2><div class="article-metadata">
-  <span class="article-date">
-    <time datetime="2018-05-23 12:38:11 &#43;0200 CEST" itemprop="datePublished">2018-05-23</time>
-  </span><span class="article-categories">
-    <i class="fa fa-folder"> </i>
-    <a href="https://bdcaf.github.io/categories/theatre">theatre</a></span><span class="article-tags">
-    <i class="fa fa-tags"> </i>
-    <a href="https://bdcaf.github.io/tags/theatre">theatre</a
-    >, <a href="https://bdcaf.github.io/tags/shakespeare">shakespeare</a
-    ></span></div>
-<div class="article-style"><p><p>These days I saw the <a href="https://www.shit-facedshakespeare.com">shitfaced shakespeares</a> merchant of
-venice.   The shit faced spin seemed like a good idea.  It means one of
-the main actors had to drink before and during the show and was given
-some leeway in their role.  There is a mistress of ceremony that
-provides the actor some drinks during the show and takes care things
-don&rsquo;t go out of hand.</p>
-<p>It didn&rsquo;t play out that well.  A little slapstick was fun. Humour is
-more than cursing on stage - it just is not that outstanding - maybe
-for Americans.  Anyway the fooling around and raunchy got boring
-quickly.  The play itself is a bit of a complicated choice - being so
-anti-Semitic.  They always stayed on the political correct side
-though.  I just was hoping on a more modern interpretation.</p></p></div>
-</div><div class="apost">
-  <h2><a href="https://bdcaf.github.io/2018/04/04/2018-life-science-meeting/">2018 Life Science Meeting</a></h2><div class="article-metadata">
-  <span class="article-date">
-    <time datetime="2018-04-04 12:45:05 &#43;0200 CEST" itemprop="datePublished">2018-04-04</time>
-  </span><span class="article-categories">
-    <i class="fa fa-folder"> </i>
-    <a href="https://bdcaf.github.io/categories/study">study</a></span><span class="article-tags">
-    <i class="fa fa-tags"> </i>
-    <a href="https://bdcaf.github.io/tags/science">science</a
-    ></span></div>
-<div class="article-style"><p><p>I will present a poster there.  My poster session is on Thursday, at
-3pm.</p>
-<p>Here&rsquo;s the poster:</p>
-<div class="embed-responsive">
-  <object data="/post/academic/2018-life-science.pdf" type='application/pdf' width='100%' height='400px' >
-    <p>This browser does not support inline PDFs. Please download the PDF to view it: 
-  </object> <a href="https://bdcaf.github.io/post/academic/2018-life-science.pdf">Download PDF</a></p>
-</div></p></div>
-</div><div class="apost">
-  <h2><a href="https://bdcaf.github.io/2018/03/30/keep-talking-and-nobody-explodes/">Keep talking and nobody explodes</a></h2><div class="article-metadata">
-  <span class="article-date">
-    <time datetime="2018-03-30 12:58:23 &#43;0200 CEST" itemprop="datePublished">2018-03-30</time>
-  </span><span class="article-categories">
-    <i class="fa fa-folder"> </i>
-    <a href="https://bdcaf.github.io/categories/links">links</a></span><span class="article-tags">
-    <i class="fa fa-tags"> </i>
-    <a href="https://bdcaf.github.io/tags/game">game</a
-    ></span></div>
-<div class="article-style"><p><!-- raw HTML omitted --></p></div>
-</div><div class="apost">
-  <h2><a href="https://bdcaf.github.io/2018/03/30/layout-changes/">Layout changes</a></h2><div class="article-metadata">
-  <span class="article-date">
-    <time datetime="2018-03-30 12:40:33 &#43;0200 CEST" itemprop="datePublished">2018-03-30</time>
-  </span><span class="article-tags">
-    <i class="fa fa-tags"> </i>
-    <a href="https://bdcaf.github.io/tags/site">site</a
-    >, <a href="https://bdcaf.github.io/tags/dev">dev</a
-    ></span></div>
-<div class="article-style"><p><p>I played around removing all the JavaScript dependencies of the
-hugo-academic template.  I feel bootstrap and jQuery have little
-reason to be on such a simple site.  By now I think I deviated from
-the original theme to no longer need it in the powered by section.</p>
-<p>Anyway should you note something amiss - let me know.</p>
-</p></div>
-</div><div class="apost">
-  <h2><a href="https://bdcaf.github.io/2018/03/30/more-hitchhikers-guide/">More Hitchhikers Guide</a></h2><div class="article-metadata">
-  <span class="article-date">
-    <time datetime="2018-03-30 12:33:17 &#43;0200 CEST" itemprop="datePublished">2018-03-30</time>
-  </span><span class="article-categories">
-    <i class="fa fa-folder"> </i>
-    <a href="https://bdcaf.github.io/categories/links">links</a></span><span class="article-tags">
-    <i class="fa fa-tags"> </i>
-    <a href="https://bdcaf.github.io/tags/sci-fi">sci-fi</a
-    ></span></div>
-<div class="article-style"><p><p>The BBC aired a <a href="https://www.bbc.co.uk/programmes/b09th4hf">Hitchhikers Guide to the Galaxy: Hexagonal
-Phase</a>.  One can listen to
-it even out of country for a month.  Stephen Hawkings voicebox did
-speak the part of the guide.</p>
-</p></div>
-</div><div class="apost">
-  <h2><a href="https://bdcaf.github.io/2018/03/06/der-kleine-hey/">Der kleine Hey</a></h2><div class="article-metadata">
-  <span class="article-date">
-    <time datetime="2018-03-06 10:28:51 &#43;0100 CET" itemprop="datePublished">2018-03-06</time>
-  </span><span class="article-categories">
-    <i class="fa fa-folder"> </i>
-    <a href="https://bdcaf.github.io/categories/links">links</a></span><span class="article-tags">
-    <i class="fa fa-tags"> </i>
-    <a href="https://bdcaf.github.io/tags/rhetoric">rhetoric</a
-    ></span></div>
-<div class="article-style"><p><p>I had a dental operation and have problems articulating.  I recalled
-learning with &ldquo;Der kleine Hey&rdquo;. I  couldn&rsquo;t locate it in my library.
-I was positively surprised it&rsquo;s in the public domain by now.  The 1884
-edition is on archive.org: <a href="https://archive.org/details/deutschergesangs01heyj">Hey</a>  It&rsquo;s
-well worth checking out if you want to work on your (German)
-pronunciation.  Now - let&rsquo;s see how soon I can talk again.</p>
-<!-- raw HTML omitted -->
-</p></div>
-</div><div class="apost">
-  <h2><a href="https://bdcaf.github.io/2018/02/14/pretty-git-exercises/">pretty git exercises</a></h2><div class="article-metadata">
-  <span class="article-date">
-    <time datetime="2018-02-14 11:24:39 &#43;0100 CET" itemprop="datePublished">2018-02-14</time>
-  </span><span class="article-categories">
-    <i class="fa fa-folder"> </i>
-    <a href="https://bdcaf.github.io/categories/today-i-learnt">today-i-learnt</a>, <a href="https://bdcaf.github.io/categories/links">links</a></span><span class="article-tags">
-    <i class="fa fa-tags"> </i>
-    <a href="https://bdcaf.github.io/tags/git">git</a
-    ></span></div>
-<div class="article-style"><p><p>I probably mentioned I use git for managing my code.  Even in the
-simplistic way I know - already helpful.   Like in this <a href="https://xkcd.com/1597/">xkcd</a>
-<a href="https://xkcd.com/1597/"><img src="https://imgs.xkcd.com/comics/git.png" alt="xkcd comic"></a>   It
-is not easy finding good exercises to improve.</p>
-<p>I got pointed to
-<a href="https://learngitbranching.js.org">learngitbranching</a>.  It looks
-polished and the exercises are short enough to do between.  Just
-somehow I overlooked the commandos <code>reset</code> and <code>undo</code> to restart the
-exercised.</p>
-</p></div>
-</div><div class="apost">
-  <h2><a href="https://bdcaf.github.io/2018/02/03/euclidea/">Euclidea</a></h2><div class="article-metadata">
-  <span class="article-date">
-    <time datetime="2018-02-03 09:01:13 &#43;0100 CET" itemprop="datePublished">2018-02-03</time>
-  </span><span class="article-categories">
-    <i class="fa fa-folder"> </i>
-    <a href="https://bdcaf.github.io/categories/links">links</a></span><span class="article-tags">
-    <i class="fa fa-tags"> </i>
-    <a href="https://bdcaf.github.io/tags/math">math</a
-    >, <a href="https://bdcaf.github.io/tags/geometry">geometry</a
-    ></span></div>
-<div class="article-style"><p><p>Having some extra time?  <a href="https://euclidea.xyz">Euclidea</a> teaches
-euclidean geometry using puzzles.  Only working with compass and
-straightedge.  Too long time I practiced these.</p>
-<!-- raw HTML omitted -->
-</p></div>
-</div><div class="apost">
-  <h2><a href="https://bdcaf.github.io/2018/01/29/github-pages/">Github pages</a></h2><div class="article-metadata">
-  <span class="article-date">
-    <time datetime="2018-01-29 10:49:51 &#43;0100 CET" itemprop="datePublished">2018-01-29</time>
-  </span><span class="article-categories">
-    <i class="fa fa-folder"> </i>
-    <a href="https://bdcaf.github.io/categories/site">site</a>, <a href="https://bdcaf.github.io/categories/today-i-learnt">today-i-learnt</a></span><span class="article-tags">
-    <i class="fa fa-tags"> </i>
-    <a href="https://bdcaf.github.io/tags/github">github</a
-    >, <a href="https://bdcaf.github.io/tags/config">config</a
-    >, <a href="https://bdcaf.github.io/tags/hugo">hugo</a
-    ></span></div>
-<div class="article-style"><p>Now this site is on github pages.
-I had already repos on github for some time and trusted it - only private repos I keep on other places. But mostly I was missing some features a bplaced so now the move. Mostly I like that I can now post new content via git so I just need to transfer new posts and not the whole site. That now the site is https secured is a nice boon.</p></div>
-</div><nav>
-  <ul class="pager">
-    <li>no earlier entry</li>
-    <li><a href="https://bdcaf.github.io/post/2/">next &raquo;</a></li>
-  </ul>
-</nav></div>
+      
 
-    <footer><p class="powered-by">Clemens Ager, Brixlegg &middot;Powered by <a href="http://gohugo.io" target="_blank">Hugo</a>.
+      
+        
+
+
+<div class="article-metadata">
+
   
-  &middot;
-  <a href=" /post/index.xml">RSS 
-    <i class="fas fa-rss-square"> </i></a></p>
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+          Last updated on
+      
+    
+    2019-03-06
+  </span>
+  
+
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    1 min read
+  </span>
+  
+
+  
+  
+  
+
+  
+  
+  <span class="middot-divider"></span>
+  <span class="article-categories">
+    <i class="fas fa-folder mr-1"></i><a href="/categories/site/">site</a></span>
+  
+
+</div>
+
+      
+    </div>
+
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+    
+  
+
+  
+<nav>
+  <ul class="pagination justify-content-center">
+    
+    
+    <li class="page-item"><a class="page-link" href="/post/page/2/">&raquo;</a></li>
+    
+  </ul>
+</nav>
+
+
+
+</div>    
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha256-yt2kYMy0w8AbtF89WXb2P1rfjcP/HTHLT7097U8Y5b8=" crossorigin="anonymous"></script>
+
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/highlight.min.js" integrity="sha256-1zu+3BnLYV9LdiY85uXMzii3bdrkelyp37e0ZyTAQh0=" crossorigin="anonymous"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/languages/r.min.js"></script>
+        
+      
+
+    
+
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.5.1/leaflet.js" integrity="sha256-EErZamuLefUnbMBQbsEqu1USa+btR2oIlCpBJbyD4/g=" crossorigin="anonymous"></script>
+    
+
+    
+    
+    <script>const code_highlighting = true;</script>
+    
+
+    
+    
+    <script>const isSiteThemeDark = false;</script>
+    
+
+    
+
+    
+    
+
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <script src="/js/academic.min.c97b94000ee75a76d9bc08f5a2e44814.js"></script>
+
+    
+
+
+
+
+<div class="container"><footer class="site-footer">
+  
+
+  <p class="powered-by">
+    Clemens Ager 2020 &middot; 
+
+    Powered by the
+    <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+    <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+    
+    <span class="float-right" aria-hidden="true">
+      <a href="#" class="back-to-top">
+        <span class="button_icon">
+          <i class="fas fa-chevron-up fa-2x"></i>
+        </span>
+      </a>
+    </span>
+    
+  </p>
 </footer>
-  </body>
+</div>
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div></body>
 </html>

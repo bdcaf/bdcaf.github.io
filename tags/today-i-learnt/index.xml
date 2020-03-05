@@ -1,35 +1,57 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>today-i-learnt on C. Ager</title>
-    <link>https://bdcaf.github.io/tags/today-i-learnt/</link>
-    <description>Recent content in today-i-learnt on C. Ager</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <copyright>Clemens Ager, Brixlegg</copyright>
-    <lastBuildDate>Fri, 26 Jan 2018 09:33:42 +0100</lastBuildDate>
-    
-	<atom:link href="https://bdcaf.github.io/tags/today-i-learnt/index.xml" rel="self" type="application/rss+xml" />
-    
+    <title>today-i-learnt | bdcaf</title>
+    <link>/tags/today-i-learnt/</link>
+      <atom:link href="/tags/today-i-learnt/index.xml" rel="self" type="application/rss+xml" />
+    <description>today-i-learnt</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Clemens Ager 2020</copyright><lastBuildDate>Fri, 26 Jan 2018 09:33:42 +0100</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>today-i-learnt</title>
+      <link>/tags/today-i-learnt/</link>
+    </image>
     
     <item>
       <title>Vim builtin package manger</title>
-      <link>https://bdcaf.github.io/2018/01/26/vim-builtin-package-manger/</link>
+      <link>/post/todayilearnt/vimpackage/</link>
       <pubDate>Fri, 26 Jan 2018 09:33:42 +0100</pubDate>
-      
-      <guid>https://bdcaf.github.io/2018/01/26/vim-builtin-package-manger/</guid>
-      <description>I was using dein package manager for some time happily. Till yesterday it started acting up during update and even messed up already installed plugins. After some messing around I admitted I will not be able to solve it easily so I tried to give the new builtin package manager a try. I followed this post. And it seems to work like a charm, also within nvim.
-I added all my packages using git submodule add in directories like pack/git/start and pack/helper/opt.</description>
+      <guid>/post/todayilearnt/vimpackage/</guid>
+      <description>&lt;p&gt;I was using 
+&lt;a href=&#34;https://github.com/Shougo/dein.vim&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;dein package manager&lt;/a&gt;
+for some time happily.  Till yesterday it started acting up during
+update and even messed up already installed plugins.  After some
+messing around I admitted I will not be able to solve it easily so I
+tried to give the new builtin package manager a try.  I followed this
+
+&lt;a href=&#34;https://shapeshed.com/vim-packages/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;post&lt;/a&gt;.  And it seems to work
+like a charm, also within nvim.&lt;/p&gt;
+&lt;p&gt;I added all my packages using &lt;code&gt;git submodule add&lt;/code&gt; in directories like
+&lt;code&gt;pack/git/start&lt;/code&gt; and &lt;code&gt;pack/helper/opt&lt;/code&gt;.  The nice thing is I can now
+update them easily using &lt;code&gt;git submodule update --init --recursive --merge&lt;/code&gt;.  So I won&amp;rsquo;t need the features for asynchronous updates any
+more.&lt;/p&gt;
+&lt;p&gt;The only difference I noted to the post guiding me was I had the
+impression that I could put plugins directly in the &lt;code&gt;pack&lt;/code&gt; directory.
+For some reason they only load for me when placed in sub directories.
+The optional plugins I will need to load using using &lt;code&gt;pacadd&lt;/code&gt; - like
+e.g. &lt;code&gt;packadd Nvim-R&lt;/code&gt;.  I did not put these into &lt;code&gt;ftplugin&lt;/code&gt; - but all
+in all doesn&amp;rsquo;t look like more hassle than what &lt;code&gt;dein&lt;/code&gt; offered.&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>Readline</title>
-      <link>https://bdcaf.github.io/2018/01/23/readline/</link>
+      <link>/post/todayilearnt/readline/</link>
       <pubDate>Tue, 23 Jan 2018 17:55:06 +0100</pubDate>
-      
-      <guid>https://bdcaf.github.io/2018/01/23/readline/</guid>
-      <description>In many terminal programs readline is doing the editing of input. It is possible with M-v to quickly switch to vi mode and with M-e to the default emacs mode. In emacs mode one has a few commands like ^A to jump to the begin of line. Usually I prefer vi - but in command line it&amp;rsquo;s not that useful to switch modes.
-R in tmux got stuck in vi mode and was pasting ^A^K.</description>
+      <guid>/post/todayilearnt/readline/</guid>
+      <description>&lt;p&gt;In many terminal programs readline is doing the editing of input.  It
+is possible with &lt;code&gt;M-v&lt;/code&gt; to quickly switch to vi mode and with &lt;code&gt;M-e&lt;/code&gt; to
+the default emacs mode.  In emacs mode one has a few commands like
+&lt;code&gt;^A&lt;/code&gt; to jump to the begin of line.  Usually I prefer vi - but in
+command line it&amp;rsquo;s not that useful to switch modes.&lt;/p&gt;
+&lt;p&gt;R in tmux got stuck in vi mode and was pasting &lt;code&gt;^A^K...&lt;/code&gt; all over the
+place. &lt;code&gt;M-e&lt;/code&gt; fixed it.&lt;/p&gt;
+</description>
     </item>
     
   </channel>

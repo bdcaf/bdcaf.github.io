@@ -1,26 +1,55 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>machine learning on C. Ager</title>
-    <link>https://bdcaf.github.io/tags/machine-learning/</link>
-    <description>Recent content in machine learning on C. Ager</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <copyright>Clemens Ager, Brixlegg</copyright>
-    <lastBuildDate>Wed, 17 May 2017 10:55:52 +0200</lastBuildDate>
-    
-	<atom:link href="https://bdcaf.github.io/tags/machine-learning/index.xml" rel="self" type="application/rss+xml" />
-    
+    <title>machine learning | bdcaf</title>
+    <link>/tags/machine-learning/</link>
+      <atom:link href="/tags/machine-learning/index.xml" rel="self" type="application/rss+xml" />
+    <description>machine learning</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Clemens Ager 2020</copyright><lastBuildDate>Wed, 17 May 2017 10:55:52 +0200</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>machine learning</title>
+      <link>/tags/machine-learning/</link>
+    </image>
     
     <item>
       <title>Machine Learning</title>
-      <link>https://bdcaf.github.io/2017/05/17/machine-learning/</link>
+      <link>/post/2017/2017-05-17_machine_learning/</link>
       <pubDate>Wed, 17 May 2017 10:55:52 +0200</pubDate>
-      
-      <guid>https://bdcaf.github.io/2017/05/17/machine-learning/</guid>
-      <description>XKCD has a wonderful new comic:
-These days there also was an article in MIT technology review criticising the same issue.
-For me this is a daily issue. My colleagues usually are happy to just get a quick test procedure; usually on smallish data. Chances are it pattern matches some noise. But nobody will find out as reading what a classifier found is near impossible. I mean sure we weed out all the nonsensical predictor variables &amp;ndash; but even on the sensibel there is additional information mixed in.</description>
+      <guid>/post/2017/2017-05-17_machine_learning/</guid>
+      <description>&lt;p&gt;
+&lt;a href=&#34;https://xkcd.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;XKCD&lt;/a&gt; has a wonderful new comic:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://imgs.xkcd.com/comics/machine_learning.png&#34; alt=&#34;the comic&#34;&gt;&lt;/p&gt;
+&lt;p&gt;These days there also was an 
+&lt;a href=&#34;https://www.technologyreview.com/s/604087/the-dark-secret-at-the-heart-of-ai/?set=607864&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;article in MIT technology
+review&lt;/a&gt;
+criticising the same issue.&lt;/p&gt;
+&lt;p&gt;For me this is a daily issue.  My colleagues usually are happy to just
+get a quick test procedure; usually on smallish data.  Chances are it
+pattern matches some noise.  But nobody will find out as reading what a
+classifier found is near impossible.  I mean sure we weed out all the
+nonsensical predictor variables &amp;ndash; but even on the sensibel there is
+additional information mixed in.  And once a machine learning procedure
+is through all is hashed and mixed.&lt;/p&gt;
+&lt;p&gt;Personally I prefer hypothesis tests in research and leave
+the classification to black magicians.  These point out
+effects that can be discussed; using not just stats but also all the
+other scientific knowledge we have at hand.  Then we can make models and
+start predicting on these.  Our models are on the more simplistic
+side, but at least they make hypotheses that are testable.  And
+ultimately can be used as classifier.&lt;/p&gt;
+&lt;p&gt;By the way another common misunderstanding is that the existence of a
+classifier is evidence for a pattern.  It couldn&amp;rsquo;t be more wrong &amp;ndash;
+machine learning will always produce a classifier, no matter whether
+there is sense to it or not.  In scientific sense it means this can not
+be falsified as there only is one outcome.&lt;/p&gt;
+&lt;p&gt;Too bad that too often I am required to quickly present a classifier.
+These classifiers just are so attractive to medics.  I would like to
+finish with 
+&lt;a href=&#34;http://oneweirdkerneltrick.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;one weird kernel trick&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&#34;http://oneweirdkerneltrick.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;img src=&#34;http://oneweirdkerneltrick.com/paperfigs/vapnik.jpg&#34; alt=&#34;weird kernel trick&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+</description>
     </item>
     
   </channel>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Chris A. Mayhew | bdcaf</title>
+    <link>/authors/chris-a.-mayhew/</link>
+      <atom:link href="/authors/chris-a.-mayhew/index.xml" rel="self" type="application/rss+xml" />
+    <description>Chris A. Mayhew</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Clemens Ager 2020</copyright><lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>Chris A. Mayhew</title>
+      <link>/authors/chris-a.-mayhew/</link>
+    </image>
+    
+    <item>
+      <title>Effect of inhaled acetone concentrations on exhaled breath acetone concentrations at rest and during exercise</title>
+      <link>/publication/ager-2019/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/ager-2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Analysis of volatile organic compounds in the breath of patients with stable or acute exacerbation of chronic obstructive pulmonary disease</title>
+      <link>/publication/pizzini-2018/</link>
+      <pubDate>Thu, 01 Mar 2018 00:00:00 +0000</pubDate>
+      <guid>/publication/pizzini-2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Modeling-based determination of physiological parameters of systemic VOCs by breath gas analysis, part 2</title>
+      <link>/publication/ager-2018/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>/publication/ager-2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Detecting people being trafficked or smuggled via the sensing of trace volatiles</title>
+      <link>/publication/ruzsanyi-2017-a/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>/publication/ruzsanyi-2017-a/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,70 +1,34 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>london on C. Ager</title>
-    <link>https://bdcaf.github.io/tags/london/</link>
-    <description>Recent content in london on C. Ager</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <copyright>Clemens Ager, Brixlegg</copyright>
-    <lastBuildDate>Tue, 23 Dec 2014 08:49:53 +0000</lastBuildDate>
-    
-	<atom:link href="https://bdcaf.github.io/tags/london/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Ein paar nette Pics</title>
-      <link>https://bdcaf.github.io/2014/12/23/ein-paar-nette-pics/</link>
-      <pubDate>Tue, 23 Dec 2014 08:49:53 +0000</pubDate>
-      
-      <guid>https://bdcaf.github.io/2014/12/23/ein-paar-nette-pics/</guid>
-      <description>[caption id=&amp;rdquo;&amp;rdquo; width=&amp;quot;500&amp;rdquo; align=&amp;quot;aligncenter&amp;rdquo; caption=&amp;quot;Wie immer im Stable Market&amp;rdquo;][/caption][caption id=&amp;rdquo;&amp;rdquo; width=&amp;quot;500&amp;rdquo; align=&amp;quot;aligncenter&amp;rdquo; caption=&amp;quot;Erstes Bier im Worlds End&amp;rdquo;][/caption][caption id=&amp;rdquo;&amp;rdquo; width=&amp;quot;500&amp;rdquo; align=&amp;quot;aligncenter&amp;rdquo; caption=&amp;quot;Street Art&amp;rdquo;][/caption][caption id=&amp;rdquo;&amp;rdquo; width=&amp;quot;500&amp;rdquo; align=&amp;quot;aligncenter&amp;rdquo; caption=&amp;quot;Mehr Grafittis&amp;rdquo;][/caption]</description>
-    </item>
+    <title>london | bdcaf</title>
+    <link>/tags/london/</link>
+      <atom:link href="/tags/london/index.xml" rel="self" type="application/rss+xml" />
+    <description>london</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Clemens Ager 2020</copyright><lastBuildDate>Tue, 23 Dec 2014 08:06:27 +0000</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>london</title>
+      <link>/tags/london/</link>
+    </image>
     
     <item>
       <title>Im Bus</title>
-      <link>https://bdcaf.github.io/2014/12/23/im-bus/</link>
+      <link>/post/2014/2014-12-23-im-bus/</link>
       <pubDate>Tue, 23 Dec 2014 08:06:27 +0000</pubDate>
-      
-      <guid>https://bdcaf.github.io/2014/12/23/im-bus/</guid>
-      <description>oben vorn sitzen is lustig.</description>
-    </item>
-    
-    <item>
-      <title>Halle der Aufklärung</title>
-      <link>https://bdcaf.github.io/2013/11/14/halle-der-aufkl%C3%A4rung/</link>
-      <pubDate>Thu, 14 Nov 2013 19:23:44 +0000</pubDate>
-      
-      <guid>https://bdcaf.github.io/2013/11/14/halle-der-aufkl%C3%A4rung/</guid>
-      <description>Sowas bräuchts auch mal in AT.</description>
-    </item>
-    
-    <item>
-      <title>Tourishot</title>
-      <link>https://bdcaf.github.io/2013/10/25/tourishot/</link>
-      <pubDate>Fri, 25 Oct 2013 06:57:24 +0000</pubDate>
-      
-      <guid>https://bdcaf.github.io/2013/10/25/tourishot/</guid>
-      <description>Touristenclemi</description>
+      <guid>/post/2014/2014-12-23-im-bus/</guid>
+      <description>&lt;p&gt;oben vorn sitzen is lustig.&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>Neujahrszirkus</title>
-      <link>https://bdcaf.github.io/2012/12/31/neujahrszirkus/</link>
+      <link>/post/2012/2012-12-31-neujahrszirkus/</link>
       <pubDate>Mon, 31 Dec 2012 23:35:14 +0000</pubDate>
-      
-      <guid>https://bdcaf.github.io/2012/12/31/neujahrszirkus/</guid>
-      <description>[gallery ids=&amp;quot;747,746,745,744,740,741,742,743&amp;rdquo;]
-Hams gut organisiert.</description>
-    </item>
-    
-    <item>
-      <title>Lauter Spielsachen!</title>
-      <link>https://bdcaf.github.io/2012/12/28/lauter-spielsachen/</link>
-      <pubDate>Fri, 28 Dec 2012 11:20:45 +0000</pubDate>
-      
-      <guid>https://bdcaf.github.io/2012/12/28/lauter-spielsachen/</guid>
-      <description></description>
+      <guid>/post/2012/2012-12-31-neujahrszirkus/</guid>
+      <description>&lt;p&gt;[gallery ids=&amp;quot;747,746,745,744,740,741,742,743&amp;rdquo;]&lt;/p&gt;
+&lt;p&gt;Hams gut organisiert.&lt;/p&gt;
+</description>
     </item>
     
   </channel>

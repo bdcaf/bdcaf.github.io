@@ -1,25 +1,38 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>konferenz on C. Ager</title>
-    <link>https://bdcaf.github.io/tags/konferenz/</link>
-    <description>Recent content in konferenz on C. Ager</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <copyright>Clemens Ager, Brixlegg</copyright>
-    <lastBuildDate>Tue, 15 Sep 2015 16:50:16 +0200</lastBuildDate>
-    
-	<atom:link href="https://bdcaf.github.io/tags/konferenz/index.xml" rel="self" type="application/rss+xml" />
-    
+    <title>konferenz | bdcaf</title>
+    <link>/tags/konferenz/</link>
+      <atom:link href="/tags/konferenz/index.xml" rel="self" type="application/rss+xml" />
+    <description>konferenz</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Clemens Ager 2020</copyright><lastBuildDate>Tue, 15 Sep 2015 16:50:16 +0200</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>konferenz</title>
+      <link>/tags/konferenz/</link>
+    </image>
     
     <item>
       <title>Interessanter Trend bei BreathVienna</title>
-      <link>https://bdcaf.github.io/2015/09/15/interessanter-trend-bei-breathvienna/</link>
+      <link>/post/2015/20150915_good_news/</link>
       <pubDate>Tue, 15 Sep 2015 16:50:16 +0200</pubDate>
-      
-      <guid>https://bdcaf.github.io/2015/09/15/interessanter-trend-bei-breathvienna/</guid>
-      <description>Guter Trend bei BreathVienna jeder der was auf sich hält benutzt R. Dann gehören die unansehnlichen Matlab Plots bald der Vergangenheit an. Besonders interessant war, dass der Micheal Phillips seine Resultate mit xcms erarbeitet hat. Das hatten wir auch schon ausgetestet.
-Ist sehr interessant &amp;ndash; aber das automatische Auswerten ist bei uns eine Endlosgeschichte, weil man die Chemiker nie komplett zufriedenstellen kann.</description>
+      <guid>/post/2015/20150915_good_news/</guid>
+      <description>&lt;p&gt;Guter Trend bei 
+&lt;a href=&#34;http://breathvienna.at&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;BreathVienna&lt;/a&gt; jeder der was
+auf sich hält benutzt 
+&lt;a href=&#34;https://www.r-project.org&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;R&lt;/a&gt;. Dann gehören die
+unansehnlichen Matlab Plots bald der Vergangenheit an. Besonders
+interessant war, dass der 
+&lt;a href=&#34;http://www.menssanaresearch.com/about_Menssana.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Micheal
+Phillips&lt;/a&gt; seine
+Resultate mit
+
+&lt;a href=&#34;https://bioconductor.org/packages/release/bioc/html/xcms.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;xcms&lt;/a&gt;
+erarbeitet hat.  Das hatten wir auch schon ausgetestet.&lt;/p&gt;
+&lt;p&gt;Ist sehr interessant &amp;ndash; aber das automatische Auswerten ist bei uns
+eine Endlosgeschichte, weil man die Chemiker nie komplett
+zufriedenstellen kann.&lt;/p&gt;
+</description>
     </item>
     
   </channel>

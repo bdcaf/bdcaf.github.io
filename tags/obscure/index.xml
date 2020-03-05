@@ -1,25 +1,26 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>obscure on C. Ager</title>
-    <link>https://bdcaf.github.io/tags/obscure/</link>
-    <description>Recent content in obscure on C. Ager</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <copyright>Clemens Ager, Brixlegg</copyright>
-    <lastBuildDate>Sat, 20 Sep 2014 00:24:12 +0000</lastBuildDate>
-    
-	<atom:link href="https://bdcaf.github.io/tags/obscure/index.xml" rel="self" type="application/rss+xml" />
-    
+    <title>obscure | bdcaf</title>
+    <link>/tags/obscure/</link>
+      <atom:link href="/tags/obscure/index.xml" rel="self" type="application/rss+xml" />
+    <description>obscure</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Clemens Ager 2020</copyright><lastBuildDate>Sat, 20 Sep 2014 00:24:12 +0000</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>obscure</title>
+      <link>/tags/obscure/</link>
+    </image>
     
     <item>
       <title>Voynich - a provisional, partial decoding of the Voynich script</title>
-      <link>https://bdcaf.github.io/2014/09/20/voynich-a-provisional-partial-decoding-of-the-voynich-script/</link>
+      <link>/post/2014/2014-09-20-voynich-a-provisional-partial-decoding-of-the-voynich-script/</link>
       <pubDate>Sat, 20 Sep 2014 00:24:12 +0000</pubDate>
-      
-      <guid>https://bdcaf.github.io/2014/09/20/voynich-a-provisional-partial-decoding-of-the-voynich-script/</guid>
-      <description>By: [Stephen Bax](http://ift.tt/1ecxgfP Bax)
-Source: http://ift.tt/1lkeLKl</description>
+      <guid>/post/2014/2014-09-20-voynich-a-provisional-partial-decoding-of-the-voynich-script/</guid>
+      <description>&lt;p&gt;By: [Stephen Bax](&lt;a href=&#34;http://ift.tt/1ecxgfP&#34;&gt;http://ift.tt/1ecxgfP&lt;/a&gt; Bax)&lt;/p&gt;
+&lt;p&gt;Source: 
+&lt;a href=&#34;http://ift.tt/1lkeLKl&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://ift.tt/1lkeLKl&lt;/a&gt;&lt;/p&gt;
+</description>
     </item>
     
   </channel>

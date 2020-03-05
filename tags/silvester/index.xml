@@ -1,35 +1,25 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>silvester on C. Ager</title>
-    <link>https://bdcaf.github.io/tags/silvester/</link>
-    <description>Recent content in silvester on C. Ager</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <copyright>Clemens Ager, Brixlegg</copyright>
-    <lastBuildDate>Wed, 01 Jan 2014 07:33:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://bdcaf.github.io/tags/silvester/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Beim Feuerwerk</title>
-      <link>https://bdcaf.github.io/2014/01/01/beim-feuerwerk/</link>
-      <pubDate>Wed, 01 Jan 2014 07:33:00 +0000</pubDate>
-      
-      <guid>https://bdcaf.github.io/2014/01/01/beim-feuerwerk/</guid>
-      <description>Beim Atlantis auf der Palme.
-[caption id=&amp;rdquo;&amp;rdquo; width=&amp;quot;500&amp;rdquo; align=&amp;quot;aligncenter&amp;rdquo; caption=&amp;quot;Sandance&amp;rdquo;][/caption][caption id=&amp;rdquo;&amp;rdquo; width=&amp;quot;500&amp;rdquo; align=&amp;quot;aligncenter&amp;rdquo; caption=&amp;quot;Kurz vor Mitternacht&amp;rdquo;][/caption]</description>
-    </item>
+    <title>silvester | bdcaf</title>
+    <link>/tags/silvester/</link>
+      <atom:link href="/tags/silvester/index.xml" rel="self" type="application/rss+xml" />
+    <description>silvester</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Clemens Ager 2020</copyright><lastBuildDate>Mon, 31 Dec 2012 23:35:14 +0000</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>silvester</title>
+      <link>/tags/silvester/</link>
+    </image>
     
     <item>
       <title>Neujahrszirkus</title>
-      <link>https://bdcaf.github.io/2012/12/31/neujahrszirkus/</link>
+      <link>/post/2012/2012-12-31-neujahrszirkus/</link>
       <pubDate>Mon, 31 Dec 2012 23:35:14 +0000</pubDate>
-      
-      <guid>https://bdcaf.github.io/2012/12/31/neujahrszirkus/</guid>
-      <description>[gallery ids=&amp;quot;747,746,745,744,740,741,742,743&amp;rdquo;]
-Hams gut organisiert.</description>
+      <guid>/post/2012/2012-12-31-neujahrszirkus/</guid>
+      <description>&lt;p&gt;[gallery ids=&amp;quot;747,746,745,744,740,741,742,743&amp;rdquo;]&lt;/p&gt;
+&lt;p&gt;Hams gut organisiert.&lt;/p&gt;
+</description>
     </item>
     
   </channel>

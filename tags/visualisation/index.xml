@@ -1,43 +1,118 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>visualisation on C. Ager</title>
-    <link>https://bdcaf.github.io/tags/visualisation/</link>
-    <description>Recent content in visualisation on C. Ager</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <copyright>Clemens Ager, Brixlegg</copyright>
-    <lastBuildDate>Fri, 28 Dec 2018 09:31:46 +0100</lastBuildDate>
-    
-	<atom:link href="https://bdcaf.github.io/tags/visualisation/index.xml" rel="self" type="application/rss+xml" />
-    
+    <title>visualisation | bdcaf</title>
+    <link>/tags/visualisation/</link>
+      <atom:link href="/tags/visualisation/index.xml" rel="self" type="application/rss+xml" />
+    <description>visualisation</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Clemens Ager 2020</copyright><lastBuildDate>Fri, 28 Dec 2018 09:31:46 +0100</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>visualisation</title>
+      <link>/tags/visualisation/</link>
+    </image>
     
     <item>
       <title>Seeing statistics</title>
-      <link>https://bdcaf.github.io/2018/12/28/seeing-statistics/</link>
+      <link>/post/links/seeing_statistics/</link>
       <pubDate>Fri, 28 Dec 2018 09:31:46 +0100</pubDate>
-      
-      <guid>https://bdcaf.github.io/2018/12/28/seeing-statistics/</guid>
+      <guid>/post/links/seeing_statistics/</guid>
       <description>&lt;p&gt;There is a nice introducition to statistics with visualisation of the
-concepts at &lt;a href=&#34;https://seeing-theory.brown.edu/index.html&#34;&gt;seeing theory&lt;/a&gt;&lt;/p&gt;
+concepts at 
+&lt;a href=&#34;https://seeing-theory.brown.edu/index.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;seeing theory&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Takes about 20 minutes to click through.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Mass spectra visualization</title>
-      <link>https://bdcaf.github.io/2016/03/30/mass-spectra-visualization/</link>
+      <link>/post/2016/2016-01-hilbertptr/</link>
       <pubDate>Wed, 30 Mar 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://bdcaf.github.io/2016/03/30/mass-spectra-visualization/</guid>
-      <description>&lt;p&gt;I saw some &lt;a href=&#34;http://datadrivensecurity.info/blog/posts/2015/Jan/mapping-ipv4-address-in-hilbert-space/&#34;&gt;nice visualiztion for IP
+      <guid>/post/2016/2016-01-hilbertptr/</guid>
+      <description>&lt;p&gt;I saw some 
+&lt;a href=&#34;http://datadrivensecurity.info/blog/posts/2015/Jan/mapping-ipv4-address-in-hilbert-space/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;nice visualiztion for IP
 adresses&lt;/a&gt;
 which made use of the hilbert curve for mapping sequatial data into an
 area. This has the nice benefit of assuring numbers that are close to
 each other stay close in two dimensions as well.  Unfortunately the
 opposite does not hold.  Conveniently a function to produce a hilbert
 curve is provided via
-&lt;a href=&#34;https://bioconductor.org/packages/release/bioc/html/HilbertVis.html&#34;&gt;HilbertVis&lt;/a&gt;
-on bioconductor.&lt;/p&gt;</description>
+
+&lt;a href=&#34;https://bioconductor.org/packages/release/bioc/html/HilbertVis.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;HilbertVis&lt;/a&gt;
+on bioconductor.&lt;/p&gt;
+&lt;h3 id=&#34;ptr-ms-spectra&#34;&gt;PTR-MS spectra&lt;/h3&gt;
+&lt;p&gt;I have been playing with PTR-MS data for some while.  It&amp;rsquo;s always hard to
+visualize this datasets. There are some nice patterns showing up - isotopic and
+due to hydratization.&lt;/p&gt;
+&lt;h3 id=&#34;data&#34;&gt;data&lt;/h3&gt;
+&lt;p&gt;I will not show out reading out the data - it was collected using a Ionicon PTR-TOF MS
+which requires tedious preprocessing - most of which I can finally do in R but
+the code is poorly documented so far.  The measurment is actually from a proband
+who took a sip of ethanol a few minutes before measurement.&lt;/p&gt;
+&lt;p&gt;Just a glimpse of it looks like this:&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;mass&lt;/th&gt;
+&lt;th&gt;counts&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;21&lt;/td&gt;
+&lt;td&gt;142720&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;22&lt;/td&gt;
+&lt;td&gt;18708&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;23&lt;/td&gt;
+&lt;td&gt;8148&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;24&lt;/td&gt;
+&lt;td&gt;7137&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;25&lt;/td&gt;
+&lt;td&gt;6711&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;26&lt;/td&gt;
+&lt;td&gt;6468&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;experiments&#34;&gt;Experiments&lt;/h2&gt;
+&lt;p&gt;Since over m/z 100 there is only sparse signal I created the relevant Hilbert
+curve doing&lt;/p&gt;
+&lt;h3 id=&#34;curves&#34;&gt;Curves&lt;/h3&gt;
+&lt;p&gt;The first plot uses scales the area of the dots at the masses to the observed counts.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/~c1891011/photo/2016-01-hilbertPTR_fig/2016-01-hilbertPTR_firsttry-1.png&#34; alt=&#34;plot of chunk first try&#34;&gt;&lt;/p&gt;
+&lt;p&gt;This plot shows a little structure - the main blocks are of 16 numbers.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The numbers 1 to 16 are basically zero as there are no protonated ions at such masses.&lt;/li&gt;
+&lt;li&gt;The next block contains the major precursors - the hydronium ion
+\(H_3O^+\) with its isotopes at m/z 19 to 21, \(NO^+\) at 30 and
+\(O_2^+\) at 32. A little visible is ammonia at m/z 18.&lt;/li&gt;
+&lt;li&gt;The block from 33 to 48 contains the Zundel ion (\(H_2O \cdot
+H_3O^+\) ) as well as ethanol at 47 (with some isotops at 48) and its
+metabolite acetaldehyde at 45.&lt;/li&gt;
+&lt;li&gt;Following block contains the important compound acetone at 59 and
+not visible the next metabolite of ethanol acetic acid at 61.&lt;/li&gt;
+&lt;li&gt;Next block contains isoprene at 69 as well as hydrated ethanol ion at 65.&lt;/li&gt;
+&lt;li&gt;The following blocks show no visible ions although at aromatics like toluene (m/z 93) should show up there.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Unfortunately when observed on the PTR-TOF it can be seen that the signal is
+saturated at m/z 19, 37 and 47. So lets scale down the max signal.&lt;br&gt;
+The concentration of the observed compounds is in the ppm&amp;rsquo;s.
+&lt;img src=&#34;/~c1891011/photo/2016-01-hilbertPTR_fig/2016-01-hilbertPTR_scaledin-1.png&#34; alt=&#34;plot of chunk scaled in&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Finally we see a little more.  But still only compounds that occur in&lt;br&gt;
+concentrations of several ppbs.&lt;/p&gt;
+&lt;p&gt;Lets try to use logarithmic scale instead.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/~c1891011/photo/2016-01-hilbertPTR_fig/2016-01-hilbertPTR_logscale-1.png&#34; alt=&#34;plot of chunk log scale&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Now the plot shows many more compounds.  All the main ions are tailed by some ions of their isotopes. Though it is still hard to see where some traces occur. I experimentd with some zooming but overall there was little benefit to it.  My next try will be to see if I can create an animated version of this to follow a volunteers breath pattern.&lt;/p&gt;
+&lt;p&gt;The code for this page was written in &lt;code&gt;R&lt;/code&gt;.  I will keep investigating and probably put a link to the git repo online once it reaches a more mature state.&lt;/p&gt;</description>
     </item>
     
   </channel>

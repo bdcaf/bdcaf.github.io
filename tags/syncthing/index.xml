@@ -1,30 +1,97 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>syncthing on C. Ager</title>
-    <link>https://bdcaf.github.io/tags/syncthing/</link>
-    <description>Recent content in syncthing on C. Ager</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <copyright>Clemens Ager, Brixlegg</copyright>
-    <lastBuildDate>Tue, 05 Feb 2019 10:58:41 +0100</lastBuildDate>
-    
-	<atom:link href="https://bdcaf.github.io/tags/syncthing/index.xml" rel="self" type="application/rss+xml" />
-    
+    <title>syncthing | bdcaf</title>
+    <link>/tags/syncthing/</link>
+      <atom:link href="/tags/syncthing/index.xml" rel="self" type="application/rss+xml" />
+    <description>syncthing</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Clemens Ager 2020</copyright><lastBuildDate>Tue, 05 Feb 2019 10:58:41 +0100</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>syncthing</title>
+      <link>/tags/syncthing/</link>
+    </image>
     
     <item>
       <title>Configuring Syncthing on Mac Server</title>
-      <link>https://bdcaf.github.io/2019/02/05/configuring-syncthing-on-mac-server/</link>
+      <link>/post/mac/syncthing/</link>
       <pubDate>Tue, 05 Feb 2019 10:58:41 +0100</pubDate>
-      
-      <guid>https://bdcaf.github.io/2019/02/05/configuring-syncthing-on-mac-server/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://syncthing.net&#34;&gt;Syncthing&lt;/a&gt; is currently my preferred tool to
-keep folders in sync.  Previously I had affairs with &lt;a href=&#34;https://git-annex.branchable.com&#34;&gt;git
+      <guid>/post/mac/syncthing/</guid>
+      <description>&lt;p&gt;
+&lt;a href=&#34;https://syncthing.net&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Syncthing&lt;/a&gt; is currently my preferred tool to
+keep folders in sync.  Previously I had affairs with 
+&lt;a href=&#34;https://git-annex.branchable.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;git
 annex&lt;/a&gt;, and
-&lt;a href=&#34;https://rsync.samba.org&#34;&gt;rsync&lt;/a&gt; scripts.&lt;/p&gt;
+
+&lt;a href=&#34;https://rsync.samba.org&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;rsync&lt;/a&gt; scripts.&lt;/p&gt;
 &lt;p&gt;Recently I reactivated a 2009 Mac Mini as headless server under El
-Capitan.  &lt;a href=&#34;https://brew.sh&#34;&gt;Homebrew&lt;/a&gt; is the tool of choice - it
-complains a little about the old OS but things work out nicely.&lt;/p&gt;</description>
+Capitan.  
+&lt;a href=&#34;https://brew.sh&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Homebrew&lt;/a&gt; is the tool of choice - it
+complains a little about the old OS but things work out nicely.&lt;/p&gt;
+&lt;h2 id=&#34;hard-drives-not-being-mounted&#34;&gt;hard drives not being mounted&lt;/h2&gt;
+&lt;p&gt;However the first issue was that the drives would not be mounted
+without a user logging in.  I was able to find following
+
+&lt;a href=&#34;https://gist.github.com/jabenninghoff/f13f81c286e914c48942f973f5d15819&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;snippet&lt;/a&gt;:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;sudo defaults write /Library/Preferences/SystemConfiguration/autodiskmount AutomountDisksWithoutUserLogin -bool true
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;syncthing-not-starting&#34;&gt;syncthing not starting&lt;/h2&gt;
+&lt;p&gt;Homebrew documents how the get syncthing started for a user.  However
+again this would mean someone would need to login before things get
+going.   I was able to resolve this by moving the installed plist from
+&lt;code&gt;~/Library/LaunchAgents/&lt;/code&gt; to &lt;code&gt;/Library/LaunchDaemons/&lt;/code&gt; and adding the
+entry:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;  &amp;lt;key&amp;gt;UserName&amp;lt;/key&amp;gt;
+  &amp;lt;string&amp;gt;myuser&amp;lt;/string&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;So it would finally launch.&lt;/p&gt;
+&lt;h2 id=&#34;syncthing-launching-before-harddrive&#34;&gt;syncthing launching before harddrive&lt;/h2&gt;
+&lt;p&gt;However it turned out it would launch syncthing &lt;em&gt;before&lt;/em&gt; the external
+drive was ready so syncthing would spew errors and not sync without
+interaction.&lt;/p&gt;
+&lt;p&gt;I was not able to solve this within the plist so I created a quick
+shellscript that would sleep until the drive was ready:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;#!/bin/sh
+SYNCDRIVE=&#39;/Volumes/Media/&#39;
+while [ ! -d &amp;quot;$SYNCDRIVE&amp;quot; ]; do
+sleep 10
+done
+/usr/local/opt/syncthing/bin/syncthing -no-browser -no-restart
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;firewall&#34;&gt;firewall&lt;/h2&gt;
+&lt;p&gt;After all this it was still not syncing.  Being on a headless machine
+I haven&amp;rsquo;t gotten the firewall warning.  So the final step was easy to
+allow &lt;code&gt;syncthing&lt;/code&gt; getting connections.&lt;/p&gt;
+&lt;h2 id=&#34;ssh&#34;&gt;ssh&lt;/h2&gt;
+&lt;p&gt;Last thing was getting things to work was to get to sync through an
+ssh tunnel.  There is a 
+&lt;a href=&#34;https://docs.syncthing.net/users/tunneling.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;good
+description&lt;/a&gt; however
+I made the mistake to skim the last port number.  Turns out in the
+last command they leave one digit away so search all the ports.  Once
+fixing to &lt;code&gt;22000&lt;/code&gt; all syncing starts/&lt;/p&gt;
+&lt;h3 id=&#34;on-my-current-decisions&#34;&gt;on my current decisions&lt;/h3&gt;
+&lt;p&gt;With annex I continuously had problems that my repos wouldn&amp;rsquo;t merge
+nicely.  Also although it is under active development the
+documentation is difficult to read - many examples on the site are 5
+years or older, which makes it difficult to realise which apply to the
+current version.  I just never managed to get it sync automatically.
+Rsync always had to be run to check for changes.  Since it has to
+rescan the remote files it always takes some extra toll.  This is
+great for some tasks.  But for my application where I control all
+endpoints it was unnecessary.&lt;/p&gt;
+&lt;p&gt;My machine wouldn&amp;rsquo;t run the latest Mac OS so I had to choose El Capitan.
+Instead of Mac OS I also experimented with Ubuntu linux.
+Linux would offer me all the latest versions and installed nicely.
+Unfortunately I quickly ran into troubles - updating was not as smooth
+as I am used to.  Every other time I had to tweak GRUB as the machine
+would not boot.  Also I noticed I was not able to use all of the
+hardware.   The most problematic was power management as I didn&amp;rsquo;t want
+the machine to burn its cupboard.  But I also was unable to get the
+graphics card and more than one CPU core working.  Searching the
+internet led me to believe this is a common trouble.  But maybe in a
+few years when El Capitan no longer gets security patches I will
+change.&lt;/p&gt;</description>
     </item>
     
   </channel>

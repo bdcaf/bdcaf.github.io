@@ -1,43 +1,53 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>video on C. Ager</title>
-    <link>https://bdcaf.github.io/tags/video/</link>
-    <description>Recent content in video on C. Ager</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <copyright>Clemens Ager, Brixlegg</copyright>
-    <lastBuildDate>Tue, 15 Jan 2019 17:15:52 +0100</lastBuildDate>
-    
-	<atom:link href="https://bdcaf.github.io/tags/video/index.xml" rel="self" type="application/rss+xml" />
-    
+    <title>video | bdcaf</title>
+    <link>/tags/video/</link>
+      <atom:link href="/tags/video/index.xml" rel="self" type="application/rss+xml" />
+    <description>video</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Clemens Ager 2020</copyright><lastBuildDate>Tue, 15 Jan 2019 17:15:52 +0100</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>video</title>
+      <link>/tags/video/</link>
+    </image>
     
     <item>
       <title>Colliding Blocks</title>
-      <link>https://bdcaf.github.io/2019/01/15/colliding-blocks/</link>
+      <link>/post/links/colliding_blocks/</link>
       <pubDate>Tue, 15 Jan 2019 17:15:52 +0100</pubDate>
-      
-      <guid>https://bdcaf.github.io/2019/01/15/colliding-blocks/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/channel/UCYO_jab_esuFRV4b17AJtAw&#34;&gt;Three blue one
+      <guid>/post/links/colliding_blocks/</guid>
+      <description>&lt;p&gt;
+&lt;a href=&#34;https://www.youtube.com/channel/UCYO_jab_esuFRV4b17AJtAw&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Three blue one
 brown&lt;/a&gt; who
 makes amazing videos about maths found another amazing fact linking
 how masses collide with an amazing mathematical property.  Since I
 don&amp;rsquo;t want to spoil anything watch it!&lt;/p&gt;
 
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;https://www.youtube-nocookie.com/embed/HEfHFsfGXjs&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/HEfHFsfGXjs&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;</description>
     </item>
     
     <item>
       <title>Math Acrobatics</title>
-      <link>https://bdcaf.github.io/2018/06/04/math-acrobatics/</link>
+      <link>/post/links/hanoi/</link>
       <pubDate>Mon, 04 Jun 2018 09:33:04 +0200</pubDate>
-      
-      <guid>https://bdcaf.github.io/2018/06/04/math-acrobatics/</guid>
-      <description>&lt;p&gt;The youtuber &lt;a href=&#34;https://www.youtube.com/channel/UCYO_jab_esuFRV4b17AJtAw&#34;&gt;3blue1brown&lt;/a&gt; has a number of interesting posts.  however often he is a bit fast for me and it seems handwaving.&lt;/p&gt;
-&lt;p&gt;Recently he made a fantastic video about solving the &lt;a href=&#34;https://youtu.be/2SUvWfNJSsM&#34;&gt;towers of hanoi&lt;/a&gt;.  I did already know it is easy to spell out the solution in terms of recursion.  However he showed some connection to binary and ternary numbers - which alone is funny.  And finally that the solution also traverses the Sierpinsky triangle in &lt;a href=&#34;https://youtu.be/bdMfjfT0lKk&#34;&gt;part 2&lt;/a&gt; which is surprising.&lt;/p&gt;
-&lt;p&gt;I embeded the videos after the &amp;ldquo;post&amp;rdquo; fold for convenient watching.&lt;/p&gt;</description>
+      <guid>/post/links/hanoi/</guid>
+      <description>&lt;p&gt;The youtuber 
+&lt;a href=&#34;https://www.youtube.com/channel/UCYO_jab_esuFRV4b17AJtAw&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;3blue1brown&lt;/a&gt; has a number of interesting posts.  however often he is a bit fast for me and it seems handwaving.&lt;/p&gt;
+&lt;p&gt;Recently he made a fantastic video about solving the 
+&lt;a href=&#34;https://youtu.be/2SUvWfNJSsM&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;towers of hanoi&lt;/a&gt;.  I did already know it is easy to spell out the solution in terms of recursion.  However he showed some connection to binary and ternary numbers - which alone is funny.  And finally that the solution also traverses the Sierpinsky triangle in 
+&lt;a href=&#34;https://youtu.be/bdMfjfT0lKk&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;part 2&lt;/a&gt; which is surprising.&lt;/p&gt;
+&lt;p&gt;I embeded the videos after the &amp;ldquo;post&amp;rdquo; fold for convenient watching.&lt;/p&gt;
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/2SUvWfNJSsM&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/bdMfjfT0lKk&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;</description>
     </item>
     
   </channel>

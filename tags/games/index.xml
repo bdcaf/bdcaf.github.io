@@ -1,27 +1,28 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>games on C. Ager</title>
-    <link>https://bdcaf.github.io/tags/games/</link>
-    <description>Recent content in games on C. Ager</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <copyright>Clemens Ager, Brixlegg</copyright>
-    <lastBuildDate>Fri, 29 Jun 2018 12:12:04 +0200</lastBuildDate>
-    
-	<atom:link href="https://bdcaf.github.io/tags/games/index.xml" rel="self" type="application/rss+xml" />
-    
+    <title>games | bdcaf</title>
+    <link>/tags/games/</link>
+      <atom:link href="/tags/games/index.xml" rel="self" type="application/rss+xml" />
+    <description>games</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Clemens Ager 2020</copyright><lastBuildDate>Fri, 29 Jun 2018 12:12:04 +0200</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>games</title>
+      <link>/tags/games/</link>
+    </image>
     
     <item>
       <title>Abandonware</title>
-      <link>https://bdcaf.github.io/2018/06/29/abandonware/</link>
+      <link>/post/links/abandonware/</link>
       <pubDate>Fri, 29 Jun 2018 12:12:04 +0200</pubDate>
-      
-      <guid>https://bdcaf.github.io/2018/06/29/abandonware/</guid>
+      <guid>/post/links/abandonware/</guid>
       <description>&lt;p&gt;Every now and then I look up the games from my past.  It is amazing
 that there are now archives of these ancient games online.  Today I
-discovered &lt;a href=&#34;https://www.myabandonware.com&#34;&gt;myabandoneware&lt;/a&gt; like the
-&lt;a href=&#34;https://arvchive.org&#34;&gt;internet archive&lt;/a&gt; they not only have the
+discovered 
+&lt;a href=&#34;https://www.myabandonware.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;myabandoneware&lt;/a&gt; like the
+
+&lt;a href=&#34;https://arvchive.org&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;internet archive&lt;/a&gt; they not only have the
 downloads - but also a player where you can play in the browser
 window.  Not so nice for new games but for the ancient ones I did
 remember amazing.&lt;/p&gt;</description>

@@ -1,24 +1,24 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>theatre on C. Ager</title>
-    <link>https://bdcaf.github.io/categories/theatre/</link>
-    <description>Recent content in theatre on C. Ager</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <copyright>Clemens Ager, Brixlegg</copyright>
-    <lastBuildDate>Wed, 23 May 2018 12:38:11 +0200</lastBuildDate>
-    
-	<atom:link href="https://bdcaf.github.io/categories/theatre/index.xml" rel="self" type="application/rss+xml" />
-    
+    <title>theatre | bdcaf</title>
+    <link>/categories/theatre/</link>
+      <atom:link href="/categories/theatre/index.xml" rel="self" type="application/rss+xml" />
+    <description>theatre</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Clemens Ager 2020</copyright><lastBuildDate>Wed, 23 May 2018 12:38:11 +0200</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>theatre</title>
+      <link>/categories/theatre/</link>
+    </image>
     
     <item>
       <title>Merchant of Venice</title>
-      <link>https://bdcaf.github.io/2018/05/23/merchant-of-venice/</link>
+      <link>/post/theatre/merchant-of-venice/</link>
       <pubDate>Wed, 23 May 2018 12:38:11 +0200</pubDate>
-      
-      <guid>https://bdcaf.github.io/2018/05/23/merchant-of-venice/</guid>
-      <description>&lt;p&gt;These days I saw the &lt;a href=&#34;https://www.shit-facedshakespeare.com&#34;&gt;shitfaced shakespeares&lt;/a&gt; merchant of
+      <guid>/post/theatre/merchant-of-venice/</guid>
+      <description>&lt;p&gt;These days I saw the 
+&lt;a href=&#34;https://www.shit-facedshakespeare.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;shitfaced shakespeares&lt;/a&gt; merchant of
 venice.   The shit faced spin seemed like a good idea.  It means one of
 the main actors had to drink before and during the show and was given
 some leeway in their role.  There is a mistress of ceremony that
@@ -34,11 +34,18 @@ though.  I just was hoping on a more modern interpretation.&lt;/p&gt;</descripti
     
     <item>
       <title>Day of the cursed child</title>
-      <link>https://bdcaf.github.io/2017/07/16/day-of-the-cursed-child/</link>
+      <link>/post/2017/2017-07-17_cursed_child/</link>
       <pubDate>Sun, 16 Jul 2017 10:55:52 +0200</pubDate>
-      
-      <guid>https://bdcaf.github.io/2017/07/16/day-of-the-cursed-child/</guid>
-      <description>Finally got enough time to see Harry Potter and the cursed child. It&amp;rsquo;s quite the investment to have two plays on a day. Anyway finally seeing how it goes on.</description>
+      <guid>/post/2017/2017-07-17_cursed_child/</guid>
+      <description>&lt;p&gt;Finally got enough time to see 
+&lt;a href=&#34;https://www.harrypottertheplay.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Harry Potter and the cursed
+child&lt;/a&gt;.  It&amp;rsquo;s quite the
+investment to have two plays on a day.  Anyway finally
+seeing how it goes on.&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://www.harrypottertheplay.com/uk/ticket-information/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+&lt;img src=&#34;https://www.harrypottertheplay.com/uk/content/themes/full-site/build/images/elements/nest-main-tablet.png&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+</description>
     </item>
     
   </channel>

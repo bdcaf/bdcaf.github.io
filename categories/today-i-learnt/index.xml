@@ -1,35 +1,74 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>today-i-learnt on C. Ager</title>
-    <link>https://bdcaf.github.io/categories/today-i-learnt/</link>
-    <description>Recent content in today-i-learnt on C. Ager</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <copyright>Clemens Ager, Brixlegg</copyright>
-    <lastBuildDate>Wed, 14 Feb 2018 11:24:39 +0100</lastBuildDate>
-    
-	<atom:link href="https://bdcaf.github.io/categories/today-i-learnt/index.xml" rel="self" type="application/rss+xml" />
-    
+    <title>today-i-learnt | bdcaf</title>
+    <link>/categories/today-i-learnt/</link>
+      <atom:link href="/categories/today-i-learnt/index.xml" rel="self" type="application/rss+xml" />
+    <description>today-i-learnt</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Clemens Ager 2020</copyright><lastBuildDate>Wed, 14 Feb 2018 11:24:39 +0100</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>today-i-learnt</title>
+      <link>/categories/today-i-learnt/</link>
+    </image>
     
     <item>
       <title>pretty git exercises</title>
-      <link>https://bdcaf.github.io/2018/02/14/pretty-git-exercises/</link>
+      <link>/post/links/gitexercises/</link>
       <pubDate>Wed, 14 Feb 2018 11:24:39 +0100</pubDate>
-      
-      <guid>https://bdcaf.github.io/2018/02/14/pretty-git-exercises/</guid>
-      <description>I probably mentioned I use git for managing my code. Even in the simplistic way I know - already helpful. Like in this xkcd  It is not easy finding good exercises to improve.
-I got pointed to learngitbranching. It looks polished and the exercises are short enough to do between. Just somehow I overlooked the commandos reset and undo to restart the exercised.</description>
+      <guid>/post/links/gitexercises/</guid>
+      <description>&lt;p&gt;I probably mentioned I use git for managing my code.  Even in the
+simplistic way I know - already helpful.   Like in this 
+&lt;a href=&#34;https://xkcd.com/1597/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;xkcd&lt;/a&gt;
+
+&lt;a href=&#34;https://xkcd.com/1597/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;img src=&#34;https://imgs.xkcd.com/comics/git.png&#34; alt=&#34;xkcd comic&#34;&gt;&lt;/a&gt;   It
+is not easy finding good exercises to improve.&lt;/p&gt;
+&lt;p&gt;I got pointed to
+
+&lt;a href=&#34;https://learngitbranching.js.org&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;learngitbranching&lt;/a&gt;.  It looks
+polished and the exercises are short enough to do between.  Just
+somehow I overlooked the commandos &lt;code&gt;reset&lt;/code&gt; and &lt;code&gt;undo&lt;/code&gt; to restart the
+exercised.&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>Github pages</title>
-      <link>https://bdcaf.github.io/2018/01/29/github-pages/</link>
+      <link>/post/todayilearnt/2018-move/</link>
       <pubDate>Mon, 29 Jan 2018 10:49:51 +0100</pubDate>
-      
-      <guid>https://bdcaf.github.io/2018/01/29/github-pages/</guid>
-      <description>Now this site is on github pages.
-I had already repos on github for some time and trusted it - only private repos I keep on other places. But mostly I was missing some features a bplaced so now the move. Mostly I like that I can now post new content via git so I just need to transfer new posts and not the whole site. That now the site is https secured is a nice boon.</description>
+      <guid>/post/todayilearnt/2018-move/</guid>
+      <description>&lt;p&gt;Now this site is on 
+&lt;a href=&#34;https://pages.github.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;github pages&lt;/a&gt;.&lt;br&gt;
+I had already repos on github for some time and trusted it - only
+private repos I keep on other places. But mostly I was
+missing some features a bplaced so now the move.  Mostly I like that I
+can now post new content via git so I just need to transfer new posts
+and not the whole site.  That now the site is &lt;code&gt;https&lt;/code&gt; secured is a
+nice boon.&lt;/p&gt;
+&lt;p&gt;It took me some time to reconfigure my 
+&lt;a href=&#34;https://gohugo.io&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;hugo&lt;/a&gt; blog for the pages here&amp;rsquo;s what I learnt:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;the name of the repo must be &lt;code&gt;username.github.io&lt;/code&gt; - at first I had
+the impression &lt;code&gt;username&lt;/code&gt; was enough, and also some guides would
+describe how to use gitlab instead.&lt;/li&gt;
+&lt;li&gt;for me github insists publishing the &lt;code&gt;master&lt;/code&gt; branch - so I had to
+juggle around,  the previous master got renamed to hugo doing: &lt;code&gt;git branch -m master hugo&lt;/code&gt;.  I had already ignored the &lt;code&gt;public&lt;/code&gt;
+directory, and had to delete the original master from online and
+recreate it empty - but I think one can streamline that.
+Then added the master using worktree in public: &lt;code&gt;git worktree add -B master public origin/master&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;the url in &lt;code&gt;config.toml&lt;/code&gt; should be &lt;code&gt;https://username.github.io/&lt;/code&gt; -
+notice the trailing slash.&lt;/li&gt;
+&lt;li&gt;I can then use the &lt;code&gt;hugo&lt;/code&gt; command to build my site.  And publish
+using &lt;code&gt;cd public; git add . ; git commit -am pub; git push; cd ..&lt;/code&gt;  - I&amp;rsquo;m in
+
+&lt;a href=&#34;https://fishshell.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;fish&lt;/a&gt; -  many others use &lt;code&gt;&amp;amp;&amp;amp;&lt;/code&gt; instead.&lt;/li&gt;
+&lt;li&gt;I tried putting my binaries under &lt;code&gt;git lfs&lt;/code&gt; - so far it seems to
+work.  I will write back in case anything shows up.&lt;/li&gt;
+&lt;li&gt;It takes a minute till the change shows up. So I need to be
+patient.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;So there we are on github now&amp;hellip;&lt;/p&gt;
+</description>
     </item>
     
   </channel>

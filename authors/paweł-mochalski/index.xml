@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Paweł Mochalski | bdcaf</title>
+    <link>/authors/pawe%C5%82-mochalski/</link>
+      <atom:link href="/authors/pawe%C5%82-mochalski/index.xml" rel="self" type="application/rss+xml" />
+    <description>Paweł Mochalski</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Clemens Ager 2020</copyright><lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>Paweł Mochalski</title>
+      <link>/authors/pawe%C5%82-mochalski/</link>
+    </image>
+    
+    <item>
+      <title>Effect of inhaled acetone concentrations on exhaled breath acetone concentrations at rest and during exercise</title>
+      <link>/publication/ager-2019/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/ager-2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Modeling-based determination of physiological parameters of systemic VOCs by breath gas analysis, part 2</title>
+      <link>/publication/ager-2018/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>/publication/ager-2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Compendium of Volatile Organic Compounds (VOCs) Released By Human Cell Lines</title>
+      <link>/publication/filipiak-2016/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>/publication/filipiak-2016/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dependence of exhaled breath composition on exogenous factors, smoking habits and exposure to air pollutants</title>
+      <link>/publication/filipiak-2012-a/</link>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
+      <guid>/publication/filipiak-2012-a/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

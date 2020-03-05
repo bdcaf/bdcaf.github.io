@@ -1,27 +1,65 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>script on C. Ager</title>
-    <link>https://bdcaf.github.io/tags/script/</link>
-    <description>Recent content in script on C. Ager</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <copyright>Clemens Ager, Brixlegg</copyright>
-    <lastBuildDate>Thu, 14 Jun 2018 08:42:28 +0200</lastBuildDate>
-    
-	<atom:link href="https://bdcaf.github.io/tags/script/index.xml" rel="self" type="application/rss+xml" />
-    
+    <title>script | bdcaf</title>
+    <link>/tags/script/</link>
+      <atom:link href="/tags/script/index.xml" rel="self" type="application/rss+xml" />
+    <description>script</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Clemens Ager 2020</copyright><lastBuildDate>Thu, 14 Jun 2018 08:42:28 +0200</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>script</title>
+      <link>/tags/script/</link>
+    </image>
     
     <item>
       <title>Mass editing tags</title>
-      <link>https://bdcaf.github.io/2018/06/14/mass-editing-tags/</link>
+      <link>/post/site/mass_editing_tags/</link>
       <pubDate>Thu, 14 Jun 2018 08:42:28 +0200</pubDate>
-      
-      <guid>https://bdcaf.github.io/2018/06/14/mass-editing-tags/</guid>
+      <guid>/post/site/mass_editing_tags/</guid>
       <description>&lt;p&gt;Having read some about the
-&lt;a href=&#34;https://github.com/rstudio/blogdown&#34;&gt;blogdown&lt;/a&gt; package I thought I
+
+&lt;a href=&#34;https://github.com/rstudio/blogdown&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;blogdown&lt;/a&gt; package I thought I
 could cleanup my site some more.&lt;/p&gt;
-&lt;p&gt;I came up with some scripts to clean up tags.&lt;/p&gt;</description>
+&lt;p&gt;I came up with some scripts to clean up tags.&lt;/p&gt;
+&lt;p&gt;Within R I could use some of the new functionality.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;a &amp;lt;- blogdown:::collect_yaml()
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;would give me a nice list of my categories and tags.&lt;/p&gt;
+&lt;p&gt;First I would check how many files would use the offending
+tags.  I use 
+&lt;a href=&#34;https://github.com/BurntSushi/ripgrep&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ripgrep&lt;/a&gt; for my
+searches.  To avoid replacements inside text I chose to use a regexp
+as search expression.  In my case that avoided all collisions.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;rg &#39;^- offending&#39;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Then if it&amp;rsquo;s just one or two I can edit them. Just a warning I use
+fish and neovim - so adjust accordingly.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;nvim (rg &#39;^- offending&#39;)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;To correct spelling I did replacements like this:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;rg &#39;^\W*- maths$&#39; --files-with-matches | xargs sed -i &#39;&#39; &#39;s/^\( *- *\) maths$/\1math/g&#39;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;annoyingly macs &lt;code&gt;sed&lt;/code&gt; did not support the &lt;code&gt;\s&lt;/code&gt; pattern.&lt;/p&gt;
+&lt;p&gt;Fully removing a tag was done so:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;rg &#39;^- Allgemein&#39; --files-with-matches | xargs sed -i &#39;&#39; &#39;/^- Allgemein/d&#39;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;I think soon I will move stuff in subfolders.  For now this shouldn&amp;rsquo;t
+be problematic as there are almost no files in the data folder.  Also
+I still have unresolved links to images in the old imports.  But
+that&amp;rsquo;s for another day.&lt;/p&gt;
+&lt;h3 id=&#34;trouble-shooting&#34;&gt;trouble shooting&lt;/h3&gt;
+&lt;p&gt;I soon ended up having errors about empty section lists.
+Unfortunately it turned out too many.  And ripgrep wouldn&amp;rsquo;t match
+multiline patterns.  So time to also use the (slower) 
+&lt;a href=&#34;https://github.com/ggreer/the_silver_searcher&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;silver searcher&lt;/a&gt;.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;ag -l &amp;quot;^categories:\n--&amp;quot; | xargs sed -i -e &#39;/^categories:/d&#39;
+ag -l &amp;quot;^categories:\n[^ -]&amp;quot; | xargs sed -i -e &#39;/^categories:/d&#39;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;would delete the empty categories.&lt;/p&gt;
+&lt;h4 id=&#34;cases&#34;&gt;cases&amp;hellip;&lt;/h4&gt;
+&lt;p&gt;It was a bit tricky as the page of tags showed them all in lower case - and I could locate them nicely using &lt;code&gt;rg -i&lt;/code&gt; - however mac os &lt;code&gt;sed&lt;/code&gt;
+was not able to ignore cases in patterns.&lt;/p&gt;</description>
     </item>
     
   </channel>

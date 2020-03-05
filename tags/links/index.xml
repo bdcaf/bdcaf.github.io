@@ -1,26 +1,28 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>links on C. Ager</title>
-    <link>https://bdcaf.github.io/tags/links/</link>
-    <description>Recent content in links on C. Ager</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <copyright>Clemens Ager, Brixlegg</copyright>
-    <lastBuildDate>Sun, 08 Nov 2015 08:13:14 +0100</lastBuildDate>
-    
-	<atom:link href="https://bdcaf.github.io/tags/links/index.xml" rel="self" type="application/rss+xml" />
-    
+    <title>links | bdcaf</title>
+    <link>/tags/links/</link>
+      <atom:link href="/tags/links/index.xml" rel="self" type="application/rss+xml" />
+    <description>links</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Clemens Ager 2020</copyright><lastBuildDate>Sun, 08 Nov 2015 08:13:14 +0100</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>links</title>
+      <link>/tags/links/</link>
+    </image>
     
     <item>
       <title>Humble Peanuts</title>
-      <link>https://bdcaf.github.io/2015/11/08/humble-peanuts/</link>
+      <link>/post/2015/2015-11-08_humble/</link>
       <pubDate>Sun, 08 Nov 2015 08:13:14 +0100</pubDate>
-      
-      <guid>https://bdcaf.github.io/2015/11/08/humble-peanuts/</guid>
-      <description>&lt;p&gt;Die &lt;a href=&#34;https://www.humblebundle.com&#34;&gt;Humble Bundles&lt;/a&gt; sind ein interessantes Konzept - es geht darum einer Charity zu spenden und wird dadurch versüßt, dass man mit der Spende gleichzeitig einen Download kauft.
+      <guid>/post/2015/2015-11-08_humble/</guid>
+      <description>&lt;p&gt;Die 
+&lt;a href=&#34;https://www.humblebundle.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Humble Bundles&lt;/a&gt; sind ein interessantes Konzept - es geht darum einer Charity zu spenden und wird dadurch versüßt, dass man mit der Spende gleichzeitig einen Download kauft.
 Man kann den Preis für Downloads selbst bestimmen und die angebotenen Downloads sind oft interessante Indie Games oder ebooks.&lt;/p&gt;
-&lt;p&gt;Diese Woche sind zum Beispiel die &lt;a href=&#34;https://de.wikipedia.org/wiki/Die_Peanuts&#34;&gt;Peanuts&lt;/a&gt; comics im &lt;a href=&#34;https://www.humblebundle.com/books&#34;&gt;books bundle&lt;/a&gt;.  Ich kann sie nur empfehlen.  Das letzte Mal hab ich die als Kind gelesen - sie werden aber nur besser.&lt;/p&gt;
+&lt;p&gt;Diese Woche sind zum Beispiel die 
+&lt;a href=&#34;https://de.wikipedia.org/wiki/Die_Peanuts&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Peanuts&lt;/a&gt; comics im 
+&lt;a href=&#34;https://www.humblebundle.com/books&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;books bundle&lt;/a&gt;.  Ich kann sie nur empfehlen.  Das letzte Mal hab ich die als Kind gelesen - sie werden aber nur besser.&lt;/p&gt;
 &lt;p&gt;Aus Begeisterung hab ich gleich den Avatar angepasst.&lt;/p&gt;</description>
     </item>
     

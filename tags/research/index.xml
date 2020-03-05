@@ -1,26 +1,35 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>research on C. Ager</title>
-    <link>https://bdcaf.github.io/tags/research/</link>
-    <description>Recent content in research on C. Ager</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <copyright>Clemens Ager, Brixlegg</copyright>
-    <lastBuildDate>Mon, 17 Aug 2015 18:49:07 +0200</lastBuildDate>
-    
-	<atom:link href="https://bdcaf.github.io/tags/research/index.xml" rel="self" type="application/rss+xml" />
-    
+    <title>research | bdcaf</title>
+    <link>/tags/research/</link>
+      <atom:link href="/tags/research/index.xml" rel="self" type="application/rss+xml" />
+    <description>research</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Clemens Ager 2020</copyright><lastBuildDate>Mon, 17 Aug 2015 18:49:07 +0200</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>research</title>
+      <link>/tags/research/</link>
+    </image>
     
     <item>
       <title>Das Programm für den Atemgas Kongress ist heraußen</title>
-      <link>https://bdcaf.github.io/2015/08/17/das-programm-f%C3%BCr-den-atemgas-kongress-ist-herau%C3%9Fen/</link>
+      <link>/post/academic/programm_breath_summit2015/</link>
       <pubDate>Mon, 17 Aug 2015 18:49:07 +0200</pubDate>
-      
-      <guid>https://bdcaf.github.io/2015/08/17/das-programm-f%C3%BCr-den-atemgas-kongress-ist-herau%C3%9Fen/</guid>
-      <description>Auf der Seite Breathvienna gibt es das Programm nun zum ansehen.
-Für mich ist einiges interessant. Selber werde ich wohl nur bei der Postersession präsentieren.
-Gerade die emerging topics und die biomarker sind spannend für mich - leider beide gleichzeitig. Danach ist wohl das medical monitoring spannend. Tag 2 werd&amp;rsquo; ich hin und her wechseln. Aber den Michael Phillips sollte man schon gesehen haben. Danach die Session mit Datenanalyse ist ein Muss für mich.</description>
+      <guid>/post/academic/programm_breath_summit2015/</guid>
+      <description>&lt;p&gt;Auf der Seite 
+&lt;a href=&#34;http://breathvienna.at&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Breathvienna&lt;/a&gt; gibt es das 
+&lt;a href=&#34;http://breathvienna.at/wp-content/uploads/2015/08/CLICK-HERE-to-download-IABR-summit-2015-PROGRAM.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Programm&lt;/a&gt; nun zum ansehen.&lt;/p&gt;
+&lt;p&gt;Für mich ist einiges interessant.  Selber werde ich wohl nur bei der
+Postersession präsentieren.&lt;/p&gt;
+&lt;p&gt;Gerade die &lt;em&gt;emerging topics&lt;/em&gt; und die &lt;em&gt;biomarker&lt;/em&gt; sind spannend für
+mich - leider beide gleichzeitig.  Danach ist wohl das &lt;em&gt;medical
+monitoring&lt;/em&gt; spannend.  Tag 2 werd&amp;rsquo; ich hin und her wechseln.  Aber den
+
+&lt;a href=&#34;http://www.menssanaresearch.com/about_staff_Menssana.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Michael Phillips&lt;/a&gt;
+sollte man schon gesehen haben.  Danach die Session mit Datenanalyse
+ist ein Muss für mich.&lt;/p&gt;
+</description>
     </item>
     
   </channel>

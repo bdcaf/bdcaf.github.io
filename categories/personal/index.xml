@@ -1,23 +1,22 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>personal on C. Ager</title>
-    <link>https://bdcaf.github.io/categories/personal/</link>
-    <description>Recent content in personal on C. Ager</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <copyright>Clemens Ager, Brixlegg</copyright>
-    <lastBuildDate>Sat, 20 Apr 2019 16:44:36 +0200</lastBuildDate>
-    
-	<atom:link href="https://bdcaf.github.io/categories/personal/index.xml" rel="self" type="application/rss+xml" />
-    
+    <title>personal | bdcaf</title>
+    <link>/categories/personal/</link>
+      <atom:link href="/categories/personal/index.xml" rel="self" type="application/rss+xml" />
+    <description>personal</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Clemens Ager 2020</copyright><lastBuildDate>Sat, 20 Apr 2019 16:44:36 +0200</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>personal</title>
+      <link>/categories/personal/</link>
+    </image>
     
     <item>
       <title>Spring 2019</title>
-      <link>https://bdcaf.github.io/2019/04/20/spring-2019/</link>
+      <link>/post/personal/2019_spring/</link>
       <pubDate>Sat, 20 Apr 2019 16:44:36 +0200</pubDate>
-      
-      <guid>https://bdcaf.github.io/2019/04/20/spring-2019/</guid>
+      <guid>/post/personal/2019_spring/</guid>
       <description>&lt;p&gt;Some animal pictures from my garden to test content images.&lt;/p&gt;</description>
     </item>
     

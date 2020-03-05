@@ -1,36 +1,28 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>space on C. Ager</title>
-    <link>https://bdcaf.github.io/categories/space/</link>
-    <description>Recent content in space on C. Ager</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <copyright>Clemens Ager, Brixlegg</copyright>
-    <lastBuildDate>Thu, 29 Aug 2013 14:12:28 +0000</lastBuildDate>
-    
-	<atom:link href="https://bdcaf.github.io/categories/space/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Meine kleine Raumstation</title>
-      <link>https://bdcaf.github.io/2013/08/29/meine-kleine-raumstation/</link>
-      <pubDate>Thu, 29 Aug 2013 14:12:28 +0000</pubDate>
-      
-      <guid>https://bdcaf.github.io/2013/08/29/meine-kleine-raumstation/</guid>
-      <description>Bin ja momentan Krankenstand. Damit&amp;rsquo;s nicht zu fad wird hab&amp;rsquo; ich da gebastelt.
-War ganz schön anstrengend das erste mal. Das ganze hab&amp;rsquo; ich erst im Orbit zusammengedockt. Das ist schwierig weil da dann einiges seitenverkehrt liegt. Und natürlich ist&amp;rsquo;s nicht trivial die Geschwindigkeiten auf Null zu kriegen. Ein Zusammenstoß und alles ist kaputt.
-Soweit sieht&amp;rsquo;s schon gut aus. Plane das als Notfalltankstelle sollte mir beim Start der Saft knapp werden.</description>
-    </item>
+    <title>space | bdcaf</title>
+    <link>/categories/space/</link>
+      <atom:link href="/categories/space/index.xml" rel="self" type="application/rss+xml" />
+    <description>space</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Clemens Ager 2020</copyright><lastBuildDate>Wed, 14 Aug 2013 09:16:11 +0000</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>space</title>
+      <link>/categories/space/</link>
+    </image>
     
     <item>
       <title>Sehr gute Erklärung wie man in den Orbit kommt</title>
-      <link>https://bdcaf.github.io/2013/08/14/sehr-gute-erkl%C3%A4rung-wie-man-in-den-orbit-kommt/</link>
+      <link>/post/2013/2013-08-14-sehr-gute-erklaerung-wie-man-in-den-orbit-kommt/</link>
       <pubDate>Wed, 14 Aug 2013 09:16:11 +0000</pubDate>
-      
-      <guid>https://bdcaf.github.io/2013/08/14/sehr-gute-erkl%C3%A4rung-wie-man-in-den-orbit-kommt/</guid>
-      <description>Spiele ja gerade viel das ausgezeichnete Kerbal Space Program.
-Bei XKCD What-if gibt es eine schöne Erklärung was es mit dem Erdorbit auf sich hat: Erklärung</description>
+      <guid>/post/2013/2013-08-14-sehr-gute-erklaerung-wie-man-in-den-orbit-kommt/</guid>
+      <description>&lt;p&gt;Spiele ja gerade viel das ausgezeichnete 
+&lt;a href=&#34;https://kerbalspaceprogram.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Kerbal Space Program&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Bei 
+&lt;a href=&#34;http://what-if.xkcd.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;XKCD What-if &lt;/a&gt;gibt es eine schöne Erklärung was es mit dem Erdorbit auf sich hat: &lt;strong&gt;
+&lt;a href=&#34;http://what-if.xkcd.com/58/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Erklärung&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+</description>
     </item>
     
   </channel>

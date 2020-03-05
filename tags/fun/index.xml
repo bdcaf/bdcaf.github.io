@@ -1,103 +1,116 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>fun on C. Ager</title>
-    <link>https://bdcaf.github.io/tags/fun/</link>
-    <description>Recent content in fun on C. Ager</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <copyright>Clemens Ager, Brixlegg</copyright>
-    <lastBuildDate>Mon, 19 Nov 2018 15:22:52 +0100</lastBuildDate>
-    
-	<atom:link href="https://bdcaf.github.io/tags/fun/index.xml" rel="self" type="application/rss+xml" />
-    
+    <title>fun | bdcaf</title>
+    <link>/tags/fun/</link>
+      <atom:link href="/tags/fun/index.xml" rel="self" type="application/rss+xml" />
+    <description>fun</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Clemens Ager 2020</copyright><lastBuildDate>Mon, 19 Nov 2018 15:22:52 +0100</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>fun</title>
+      <link>/tags/fun/</link>
+    </image>
     
     <item>
       <title>Rubegoldberg</title>
-      <link>https://bdcaf.github.io/2018/11/19/rubegoldberg/</link>
+      <link>/post/links/rubegoldberg/</link>
       <pubDate>Mon, 19 Nov 2018 15:22:52 +0100</pubDate>
-      
-      <guid>https://bdcaf.github.io/2018/11/19/rubegoldberg/</guid>
-      <description>&lt;p&gt;There&amp;rsquo;s a fun video about a real-live &lt;a href=&#34;https://en.wikipedia.org/wiki/Rube_Goldberg_machine&#34;&gt;Rube-Goldberg
+      <guid>/post/links/rubegoldberg/</guid>
+      <description>&lt;p&gt;There&amp;rsquo;s a fun video about a real-live 
+&lt;a href=&#34;https://en.wikipedia.org/wiki/Rube_Goldberg_machine&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Rube-Goldberg
 machine&lt;/a&gt;&lt;/p&gt;
 
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;https://www.youtube-nocookie.com/embed/auIlGqEyTm8&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/auIlGqEyTm8&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;</description>
     </item>
     
     <item>
       <title>Story on Moebius</title>
-      <link>https://bdcaf.github.io/2017/03/16/story-on-moebius/</link>
+      <link>/post/2017/2017-03-14_story/</link>
       <pubDate>Thu, 16 Mar 2017 10:54:35 +0100</pubDate>
-      
-      <guid>https://bdcaf.github.io/2017/03/16/story-on-moebius/</guid>
-      <description>Vi Hart tells this lovely mathematical story.
-  </description>
+      <guid>/post/2017/2017-03-14_story/</guid>
+      <description>&lt;p&gt;
+&lt;a href=&#34;https://www.youtube.com/channel/UCOGeU-1Fig3rrDjhm9Zs_wg&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Vi Hart&lt;/a&gt;
+tells this lovely mathematical story.&lt;/p&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/4mdEsouIXGM&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+</description>
     </item>
     
     <item>
       <title>Daten...</title>
-      <link>https://bdcaf.github.io/2014/11/19/daten.../</link>
+      <link>/post/2014/2014-11-19-daten/</link>
       <pubDate>Wed, 19 Nov 2014 15:58:43 +0000</pubDate>
-      
-      <guid>https://bdcaf.github.io/2014/11/19/daten.../</guid>
-      <description>Phd Comics hat wieder einen passenden Strip.</description>
+      <guid>/post/2014/2014-11-19-daten/</guid>
+      <description>&lt;p&gt;
+&lt;a href=&#34;http://phdcomics.com/comics.php?f=1762&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Phd Comics&lt;/a&gt; hat wieder einen passenden Strip.&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>Interstellar</title>
-      <link>https://bdcaf.github.io/2014/11/16/interstellar/</link>
+      <link>/post/2014/2014-11-16-interstellar/</link>
       <pubDate>Sun, 16 Nov 2014 07:35:20 +0000</pubDate>
-      
-      <guid>https://bdcaf.github.io/2014/11/16/interstellar/</guid>
-      <description>War gestern im Film Interstellar. Der war sehr gute Science Fiction. Endlich mal wieder.</description>
+      <guid>/post/2014/2014-11-16-interstellar/</guid>
+      <description>&lt;p&gt;War gestern im Film 
+&lt;a href=&#34;http://www.behindwoods.com/english-movies/interstellar/images/interstellar-photos-pictures-stills.jpg&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Interstellar&lt;/a&gt;. Der war sehr gute Science Fiction. Endlich mal wieder.&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>another smbc</title>
-      <link>https://bdcaf.github.io/2014/09/26/another-smbc/</link>
+      <link>/post/2014/2014-09-26-recommended-read-september-26-2014/</link>
       <pubDate>Fri, 26 Sep 2014 22:27:51 +0000</pubDate>
-      
-      <guid>https://bdcaf.github.io/2014/09/26/another-smbc/</guid>
-      <description>POW!via Saturday Morning Breakfast Cereal (updated daily) http://ift.tt/1Cteivg</description>
+      <guid>/post/2014/2014-09-26-recommended-read-september-26-2014/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://ift.tt/1qCqaCy&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;POW!&lt;img src=&#34;http://ift.tt/1qCq9yx&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;via Saturday Morning Breakfast Cereal (updated daily) &lt;a href=&#34;http://ift.tt/1Cteivg&#34;&gt;http://ift.tt/1Cteivg&lt;/a&gt;&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>Voynich - a provisional, partial decoding of the Voynich script</title>
-      <link>https://bdcaf.github.io/2014/09/20/voynich-a-provisional-partial-decoding-of-the-voynich-script/</link>
+      <link>/post/2014/2014-09-20-voynich-a-provisional-partial-decoding-of-the-voynich-script/</link>
       <pubDate>Sat, 20 Sep 2014 00:24:12 +0000</pubDate>
-      
-      <guid>https://bdcaf.github.io/2014/09/20/voynich-a-provisional-partial-decoding-of-the-voynich-script/</guid>
-      <description>By: [Stephen Bax](http://ift.tt/1ecxgfP Bax)
-Source: http://ift.tt/1lkeLKl</description>
+      <guid>/post/2014/2014-09-20-voynich-a-provisional-partial-decoding-of-the-voynich-script/</guid>
+      <description>&lt;p&gt;By: [Stephen Bax](&lt;a href=&#34;http://ift.tt/1ecxgfP&#34;&gt;http://ift.tt/1ecxgfP&lt;/a&gt; Bax)&lt;/p&gt;
+&lt;p&gt;Source: 
+&lt;a href=&#34;http://ift.tt/1lkeLKl&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://ift.tt/1lkeLKl&lt;/a&gt;&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>Statistical nightmare</title>
-      <link>https://bdcaf.github.io/2014/09/18/statistical-nightmare/</link>
+      <link>/post/2014/2014-09-18-recommended-read-september-17-2014/</link>
       <pubDate>Thu, 18 Sep 2014 07:42:13 +0000</pubDate>
-      
-      <guid>https://bdcaf.github.io/2014/09/18/statistical-nightmare/</guid>
-      <description>via Saturday Morning Breakfast Cereal (updated daily) http://ift.tt/1r9Mjxl</description>
+      <guid>/post/2014/2014-09-18-recommended-read-september-17-2014/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://ift.tt/1r9MkRS&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;via Saturday Morning Breakfast Cereal (updated daily) &lt;a href=&#34;http://ift.tt/1r9Mjxl&#34;&gt;http://ift.tt/1r9Mjxl&lt;/a&gt;&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>Wieder mal spielen...</title>
-      <link>https://bdcaf.github.io/2014/01/14/wieder-mal-spielen.../</link>
+      <link>/post/2014/2014-01-14-wieder-mal-spielen/</link>
       <pubDate>Tue, 14 Jan 2014 07:17:16 +0000</pubDate>
-      
-      <guid>https://bdcaf.github.io/2014/01/14/wieder-mal-spielen.../</guid>
-      <description>Hab jetzt den Surgeon Simulator am laufen. Ist im Humble Indie Bundle X (pay what you want and help charity) grad zu kaufen.
-Macht viel Spaß. Schaut euch nur die YouTube lets plays an&amp;hellip;</description>
+      <guid>/post/2014/2014-01-14-wieder-mal-spielen/</guid>
+      <description>&lt;p&gt;Hab jetzt den 
+&lt;a href=&#34;http://www.surgeonsimulator2013.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Surgeon Simulator&lt;/a&gt; am laufen. Ist im 
+&lt;a href=&#34;https://www.humblebundle.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Humble Indie Bundle X (pay what you want and help charity)&lt;/a&gt; grad zu kaufen.&lt;/p&gt;
+&lt;p&gt;Macht viel Spaß. Schaut euch nur die YouTube lets plays an&amp;hellip;&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>Pausenfüller</title>
-      <link>https://bdcaf.github.io/2013/11/04/pausenf%C3%BCller/</link>
+      <link>/post/2013/2013-11-04-pausenfueller/</link>
       <pubDate>Mon, 04 Nov 2013 19:23:20 +0000</pubDate>
-      
-      <guid>https://bdcaf.github.io/2013/11/04/pausenf%C3%BCller/</guid>
+      <guid>/post/2013/2013-11-04-pausenfueller/</guid>
       <description></description>
     </item>
     

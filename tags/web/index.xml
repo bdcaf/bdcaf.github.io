@@ -1,25 +1,25 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>web on C. Ager</title>
-    <link>https://bdcaf.github.io/tags/web/</link>
-    <description>Recent content in web on C. Ager</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <copyright>Clemens Ager, Brixlegg</copyright>
-    <lastBuildDate>Fri, 03 Aug 2018 12:13:16 +0200</lastBuildDate>
-    
-	<atom:link href="https://bdcaf.github.io/tags/web/index.xml" rel="self" type="application/rss+xml" />
-    
+    <title>web | bdcaf</title>
+    <link>/tags/web/</link>
+      <atom:link href="/tags/web/index.xml" rel="self" type="application/rss+xml" />
+    <description>web</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Clemens Ager 2020</copyright><lastBuildDate>Fri, 03 Aug 2018 12:13:16 +0200</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>web</title>
+      <link>/tags/web/</link>
+    </image>
     
     <item>
       <title>Publii</title>
-      <link>https://bdcaf.github.io/2018/08/03/publii/</link>
+      <link>/post/links/publii/</link>
       <pubDate>Fri, 03 Aug 2018 12:13:16 +0200</pubDate>
-      
-      <guid>https://bdcaf.github.io/2018/08/03/publii/</guid>
+      <guid>/post/links/publii/</guid>
       <description>&lt;p&gt;I was quite happy to find the graphical tool
-&lt;a href=&#34;https://getpublii.com/&#34;&gt;publii&lt;/a&gt; for building statical sites.&lt;/p&gt;
+
+&lt;a href=&#34;https://getpublii.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;publii&lt;/a&gt; for building statical sites.&lt;/p&gt;
 &lt;p&gt;Many people still use Wordpress and the like to publish their blog.  I
 don&amp;rsquo;t like Wordpress as it requires to run PHP on the server meaning
 it offers a quite large attack surface.&lt;/p&gt;
@@ -28,8 +28,10 @@ down on JavaScript and other external resources and gives me
 the peace of mind that I don&amp;rsquo;t need to worry about updating a
 Wordpress installation.&lt;/p&gt;
 &lt;p&gt;However the tool of
-my choice, &lt;a href=&#34;https://gohugo.io&#34;&gt;Hugo&lt;/a&gt; is a bit technical.   Now with
-&lt;a href=&#34;https://getpublii.com/&#34;&gt;publii&lt;/a&gt; there is something that I might
+my choice, 
+&lt;a href=&#34;https://gohugo.io&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Hugo&lt;/a&gt; is a bit technical.   Now with
+
+&lt;a href=&#34;https://getpublii.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;publii&lt;/a&gt; there is something that I might
 suggest command line muggles.&lt;/p&gt;</description>
     </item>
     

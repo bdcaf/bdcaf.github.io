@@ -1,25 +1,29 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>ccc on C. Ager</title>
-    <link>https://bdcaf.github.io/tags/ccc/</link>
-    <description>Recent content in ccc on C. Ager</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <copyright>Clemens Ager, Brixlegg</copyright>
-    <lastBuildDate>Thu, 29 Dec 2016 10:09:56 +0100</lastBuildDate>
-    
-	<atom:link href="https://bdcaf.github.io/tags/ccc/index.xml" rel="self" type="application/rss+xml" />
-    
+    <title>ccc | bdcaf</title>
+    <link>/tags/ccc/</link>
+      <atom:link href="/tags/ccc/index.xml" rel="self" type="application/rss+xml" />
+    <description>ccc</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Clemens Ager 2020</copyright><lastBuildDate>Thu, 29 Dec 2016 10:09:56 +0100</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>ccc</title>
+      <link>/tags/ccc/</link>
+    </image>
     
     <item>
       <title>A Datapoint walks into a bar</title>
-      <link>https://bdcaf.github.io/2016/12/29/a-datapoint-walks-into-a-bar/</link>
+      <link>/post/2016/2016-12-29_datapoint/</link>
       <pubDate>Thu, 29 Dec 2016 10:09:56 +0100</pubDate>
-      
-      <guid>https://bdcaf.github.io/2016/12/29/a-datapoint-walks-into-a-bar/</guid>
-      <description>Excellent talk at this years 33C3.
-Story telling with data is so important and helps clarify lots of things.</description>
+      <guid>/post/2016/2016-12-29_datapoint/</guid>
+      <description>&lt;p&gt;Excellent talk at this years 
+&lt;a href=&#34;https://events.ccc.de/congress/2016/wiki/Main_Pag://events.ccc.de/congress/2016/wiki/Main_Page&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;33C3&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Story telling with data is so important and helps clarify lots of things.&lt;/p&gt;
+&lt;iframe width=&#34;1024&#34; height=&#34;576&#34;
+src=&#34;https://media.ccc.de/v/33c3-7999-a_data_point_walks_into_a_bar/oembed&#34;
+frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
+</description>
     </item>
     
   </channel>

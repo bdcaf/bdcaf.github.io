@@ -1,32 +1,319 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>conference on C. Ager</title>
-    <link>https://bdcaf.github.io/tags/conference/</link>
-    <description>Recent content in conference on C. Ager</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <copyright>Clemens Ager, Brixlegg</copyright>
-    <lastBuildDate>Thu, 17 Sep 2015 11:32:05 +0200</lastBuildDate>
-    
-	<atom:link href="https://bdcaf.github.io/tags/conference/index.xml" rel="self" type="application/rss+xml" />
-    
+    <title>conference | bdcaf</title>
+    <link>/tags/conference/</link>
+      <atom:link href="/tags/conference/index.xml" rel="self" type="application/rss+xml" />
+    <description>conference</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Clemens Ager 2020</copyright><lastBuildDate>Thu, 17 Sep 2015 11:32:05 +0200</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>conference</title>
+      <link>/tags/conference/</link>
+    </image>
     
     <item>
       <title>Bilder von der Breath Vienna</title>
-      <link>https://bdcaf.github.io/2015/09/17/bilder-von-der-breath-vienna/</link>
+      <link>/post/2015/20150920_bilder_breathvienna/</link>
       <pubDate>Thu, 17 Sep 2015 11:32:05 +0200</pubDate>
-      
-      <guid>https://bdcaf.github.io/2015/09/17/bilder-von-der-breath-vienna/</guid>
-      <description>&lt;p&gt;Einige Impressionen von der &lt;a href=&#34;http://breathvienna.at&#34;&gt; BreathVienna &lt;/a&gt; Konferenz.&lt;/p&gt;</description>
+      <guid>/post/2015/20150920_bilder_breathvienna/</guid>
+      <description>&lt;p&gt;Einige Impressionen von der 
+&lt;a href=&#34;http://breathvienna.at&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt; BreathVienna &lt;/a&gt; Konferenz.&lt;/p&gt;
+&lt;figure&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;/~c1891011/photo/2015_breathvienna/DSC_0101.jpg&#34; data-caption=&#34;Prof. Buszewski and Pawel&#34;&gt;
+
+
+  &lt;img src=&#34;/~c1891011/photo/2015_breathvienna/DSC_0101.jpg&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    Prof. Buszewski and Pawel
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;/~c1891011/photo/2015_breathvienna/DSC_0104.jpg&#34; data-caption=&#34;Prof. Buszewski and Wojtek&#34;&gt;
+
+
+  &lt;img src=&#34;/~c1891011/photo/2015_breathvienna/DSC_0104.jpg&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    Prof. Buszewski and Wojtek
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;/~c1891011/photo/2015_breathvienna/DSC_0106.jpg&#34; data-caption=&#34;Karl und Julian&#34;&gt;
+
+
+  &lt;img src=&#34;/~c1891011/photo/2015_breathvienna/DSC_0106.jpg&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    Karl und Julian
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;/~c1891011/photo/2015_breathvienna/DSC_0112.jpg&#34; &gt;
+
+
+  &lt;img src=&#34;/~c1891011/photo/2015_breathvienna/DSC_0112.jpg&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+
+&lt;/figure&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;/~c1891011/photo/2015_breathvienna/DSC_0117.jpg&#34; &gt;
+
+
+  &lt;img src=&#34;/~c1891011/photo/2015_breathvienna/DSC_0117.jpg&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+
+&lt;/figure&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;/~c1891011/photo/2015_breathvienna/DSC_0124.jpg&#34; &gt;
+
+
+  &lt;img src=&#34;/~c1891011/photo/2015_breathvienna/DSC_0124.jpg&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+
+&lt;/figure&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;/~c1891011/photo/2015_breathvienna/DSC_0135.jpg&#34; data-caption=&#34;Nach der Tour&#34;&gt;
+
+
+  &lt;img src=&#34;/~c1891011/photo/2015_breathvienna/DSC_0135.jpg&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    Nach der Tour
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;/~c1891011/photo/2015_breathvienna/DSC_0138.jpg&#34; &gt;
+
+
+  &lt;img src=&#34;/~c1891011/photo/2015_breathvienna/DSC_0138.jpg&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+
+&lt;/figure&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;/~c1891011/photo/2015_breathvienna/DSC_0145.jpg&#34; &gt;
+
+
+  &lt;img src=&#34;/~c1891011/photo/2015_breathvienna/DSC_0145.jpg&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+
+&lt;/figure&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;/~c1891011/photo/2015_breathvienna/DSC_0146.jpg&#34; &gt;
+
+
+  &lt;img src=&#34;/~c1891011/photo/2015_breathvienna/DSC_0146.jpg&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+
+&lt;/figure&gt;</description>
     </item>
     
     <item>
       <title>Ende der Konferenz</title>
-      <link>https://bdcaf.github.io/2015/09/17/ende-der-konferenz/</link>
+      <link>/post/2015/20150917_vorbei/</link>
       <pubDate>Thu, 17 Sep 2015 00:00:00 +0000</pubDate>
-      
-      <guid>https://bdcaf.github.io/2015/09/17/ende-der-konferenz/</guid>
+      <guid>/post/2015/20150917_vorbei/</guid>
       <description>&lt;p&gt;Jetzt ist alles vorbei.  Der dritte Tag war nicht so
 spannend für mich nicht so spannend. Viel dieser
 Meta-diskussion wenig spezifisches.&lt;/p&gt;

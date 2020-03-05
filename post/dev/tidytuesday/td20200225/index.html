@@ -1,0 +1,1696 @@
+<!DOCTYPE html>
+<html lang="en-us"><head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academic 4.7.0">
+
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Clemens Ager">
+
+  
+  
+  
+    
+  
+  <meta name="description" content="This is my first #tidytuesday project.
+I had to spend more time than expected on data cleaning.
+
+
+    Vacciantion ratio medial and other exclusions.">
+
+  
+  <link rel="alternate" hreflang="en-us" href="/post/dev/tidytuesday/td20200225/">
+
+  
+
+
+  
+  
+  
+  <meta name="theme-color" content="#A30000">
+  
+
+  
+  
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-1/css/all.min.css" integrity="sha256-4w9DunooKSr3MFXHXWyFER38WmPdm361bQS/2KUWZbU=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+        
+      
+    
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.5.1/leaflet.css" integrity="sha256-SHMGCYmST46SoyGgo4YR/9AlK1vf3ff84Aq9yK4hdqM=" crossorigin="anonymous">
+    
+
+    
+
+    
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.1.2/lazysizes.min.js" integrity="sha256-Md1qLToewPeKjfAHU1zyPwOutccPAm5tahnaw7Osw0A=" crossorigin="anonymous" async></script>
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+        
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+
+  
+
+  
+  
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400%7COswald:400%7CRaleway%7CMontserrat:600&display=swap">
+  
+
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/academic.css">
+
+  
+
+
+
+
+  
+
+
+  
+
+  <link rel="manifest" href="/index.webmanifest">
+  <link rel="icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_2.png">
+  <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png">
+
+  <link rel="canonical" href="/post/dev/tidytuesday/td20200225/">
+
+  
+  
+  
+  
+  
+    
+    
+  
+  
+  <meta property="twitter:card" content="summary">
+  
+  <meta property="twitter:site" content="@c_decaf">
+  <meta property="twitter:creator" content="@c_decaf">
+  
+  <meta property="og:site_name" content="bdcaf">
+  <meta property="og:url" content="/post/dev/tidytuesday/td20200225/">
+  <meta property="og:title" content="TidyTuesday Measles Vaccination Data | bdcaf">
+  <meta property="og:description" content="This is my first #tidytuesday project.
+I had to spend more time than expected on data cleaning.
+
+
+    Vacciantion ratio medial and other exclusions."><meta property="og:image" content="img/map[gravatar:%!s(bool=false) shape:circle]">
+  <meta property="twitter:image" content="img/map[gravatar:%!s(bool=false) shape:circle]"><meta property="og:locale" content="en-us">
+  
+    
+      <meta property="article:published_time" content="2020-02-25T00:00:00&#43;00:00">
+    
+    <meta property="article:modified_time" content="2020-03-04T12:16:56&#43;01:00">
+  
+
+  
+
+
+    
+
+
+
+
+
+
+  
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "/post/dev/tidytuesday/td20200225/"
+  },
+  "headline": "TidyTuesday Measles Vaccination Data",
+  
+  "datePublished": "2020-02-25T00:00:00Z",
+  "dateModified": "2020-03-04T12:16:56+01:00",
+  
+  "author": {
+    "@type": "Person",
+    "name": "Clemens Ager"
+  },
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "bdcaf",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png"
+    }
+  },
+  "description": "\u003cp\u003eThis is my first \u003ccode\u003e#tidytuesday\u003c/code\u003e project.\nI had to spend more time than expected on data cleaning.\u003c/p\u003e\n\n\u003cfigure\u003e\n    \u003cimg src=\"/post/dev/tidytuesday/td20200225/big_tern-1.png\" alt=\"\"/\u003e\u003cfigcaption\u003eVacciantion ratio medial and other exclusions.\u003c/figcaption\u003e\u003c/figure\u003e"
+}
+</script>
+
+  
+
+  
+
+
+  
+
+
+  
+
+
+
+
+
+  <title>TidyTuesday Measles Vaccination Data | bdcaf</title>
+
+</head>
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents">
+
+  
+
+
+
+
+
+
+
+<nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+  <div class="container">
+
+    
+    <div class="d-none d-lg-inline-flex">
+      <a class="navbar-brand" href="/">bdcaf</a>
+    </div>
+    
+
+    
+    <button type="button" class="navbar-toggler" data-toggle="collapse"
+            data-target="#navbar-content" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+    <span><i class="fas fa-bars"></i></span>
+    </button>
+    
+
+    
+    <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+      <a class="navbar-brand" href="/">bdcaf</a>
+    </div>
+    
+
+    
+    
+    <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+
+      
+      <ul class="navbar-nav d-md-inline-flex">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#about"><span>Home</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#posts"><span>Posts</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#featured"><span>Publications</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#contact"><span>Contact</span></a>
+        </li>
+
+        
+        
+
+      
+
+        
+      </ul>
+    </div>
+
+    <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+      
+
+      
+
+      
+
+    </ul>
+
+  </div>
+</nav>
+<article class="article">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+<div class="article-container pt-3">
+  <h1>TidyTuesday Measles Vaccination Data</h1>
+
+  
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+          Last updated on
+      
+    
+    2020-03-04
+  </span>
+  
+
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    7 min read
+  </span>
+  
+
+  
+  
+  
+
+  
+  
+
+</div>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+</div>
+
+
+
+  <div class="article-container">
+
+    <div class="article-style">
+      <p>This is my first <code>#tidytuesday</code> project.
+I had to spend more time than expected on data cleaning.</p>
+
+<figure>
+    <img src="/post/dev/tidytuesday/td20200225/big_tern-1.png" alt=""/><figcaption>Vacciantion ratio medial and other exclusions.</figcaption></figure>
+<p>Note - I don&rsquo;t know the US American system. So I speculate on some correlations.
+Mostly I suppose they don&rsquo;t do vaccination against the parents will, but rather I&rsquo;m seeing honest typos in the data.
+Not too motivated to organized secondary sources.</p>
+<h2 id="setup">Setup</h2>
+<pre><code class="language-r">library(ggplot2)
+library(dplyr)
+</code></pre>
+<pre><code>## 
+## Attaching package: 'dplyr'
+</code></pre>
+<pre><code>## The following objects are masked from 'package:stats':
+## 
+##     filter, lag
+</code></pre>
+<pre><code>## The following objects are masked from 'package:base':
+## 
+##     intersect, setdiff, setequal, union
+</code></pre>
+<pre><code class="language-r">library(tidyr)
+library(pander)
+knitr::opts_chunk$set(warning = FALSE, message=FALSE)
+# library(svglite)
+# knitr::opts_chunk$set(
+#   dev = &quot;svglite&quot;,
+#   fig.ext = &quot;.svg&quot;
+# )
+</code></pre>
+<pre><code class="language-r">measles &lt;- readRDS(&quot;data/measles.RDS&quot;)
+cmeasles  &lt;- measles %&gt;% filter(!suspicious)
+</code></pre>
+<h2 id="checking-data">checking data</h2>
+<p>I notice some annoyances:</p>
+<ol>
+<li>In some columns <code>-1</code> is used instead of <code>NA</code></li>
+<li>Religious refusal is boolean ?!?</li>
+<li>Lots of missing values.</li>
+<li>The ratios of vaccinations and students refusing don&rsquo;t add up.</li>
+<li>In one school <code>160%</code> (Montessori At Samish Woods) refused for personal reasons - also has year <code>null</code>.</li>
+</ol>
+<h3 id="data-structure">Data structure</h3>
+<pre><code class="language-r">ptm &lt;- proc.time()
+ggplot(measles, mapping=aes(x=mmr, y=replace_na(xmed,0))) + 
+  geom_point(alpha = 0.2) 
+</code></pre>
+
+<figure>
+    <img src="/post/dev/tidytuesday/td20200225/mmr_vs_xmed-1.png" alt=""/><figcaption>correspondance mmr with xmed</figcaption></figure>
+<pre><code class="language-r">proc.time()-ptm
+</code></pre>
+<pre><code>##    user  system elapsed 
+##   0.841   0.055   1.243
+</code></pre>
+<pre><code class="language-r">ggplot(measles, mapping=aes(x=mmr, y=replace_na(xper,0))) + 
+  geom_point(alpha = 0.2) 
+</code></pre>
+
+<figure>
+    <img src="/post/dev/tidytuesday/td20200225/mmr_vs_xper-1.png" alt=""/><figcaption>correspondance mmr with xper</figcaption></figure>
+<p>These are suspicious. There is a clearly a diagonal line visible.
+There should not be points above - either they withdrew the consent, or were wrongly reported vaccinated.
+It seems many just report 100%.
+And the magic school where 169% rejected - on the figure this looks like a reasonable typo - 16.9% may fit. But still the <code>mmr</code> is 92.3% - way too high.</p>
+<pre><code class="language-r">susps &lt;- measles %&gt;% filter(suspicious) %&gt;% select(-lng,-lat)
+</code></pre>
+<p>In total there are 1844 suspicious entries - that&rsquo;s not much compared out of 66113.</p>
+<h3 id="imputation">Imputation</h3>
+<p>I didn&rsquo;t want to exclude all the <code>NA</code>s.</p>
+<h4 id="xmed-and-xper">xmed and xper</h4>
+<p>These seem simple.  They are <code>NA</code> for <code>100%</code> schools.
+So in most cases the <code>NA</code> just may be <code>0</code>.</p>
+<h4 id="xrel">xrel</h4>
+<p>This is harder as it is not numerically reported.
+But mmr and xmed seem to be reliable - so I decided to have all <em>unexplained</em> non-vaccinating together.  Of course this will group religious with all where no explanation was required.</p>
+<h4 id="school-type">School type</h4>
+<p>School type seemets interesting, but has lots of <code>NA</code>s.<br>
+Seems the reason is most states don&rsquo;t report these.
+Not much I can do there.</p>
+<pre><code class="language-r">pandoc.table(measles %&gt;% group_by(type, state) %&gt;% summarise(n=n()) %&gt;%
+       spread(type,n), 
+     caption = &quot;types of school vs. states&quot;,
+     style=&quot;rmarkdown&quot;,
+     split.tables = Inf)
+</code></pre>
+<table>
+<thead>
+<tr>
+<th align="center">state</th>
+<th align="center">BOCES</th>
+<th align="center">Charter</th>
+<th align="center">Kindergarten</th>
+<th align="center">Nonpublic</th>
+<th align="center">Private</th>
+<th align="center">Public</th>
+<th align="center"><NA></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">Arizona</td>
+<td align="center">NA</td>
+<td align="center">276</td>
+<td align="center">NA</td>
+<td align="center">NA</td>
+<td align="center">224</td>
+<td align="center">951</td>
+<td align="center">NA</td>
+</tr>
+<tr>
+<td align="center">Arkansas</td>
+<td align="center">NA</td>
+<td align="center">NA</td>
+<td align="center">NA</td>
+<td align="center">NA</td>
+<td align="center">NA</td>
+<td align="center">NA</td>
+<td align="center">567</td>
+</tr>
+<tr>
+<td align="center">California</td>
+<td align="center">NA</td>
+<td align="center">NA</td>
+<td align="center">NA</td>
+<td align="center">NA</td>
+<td align="center">2745</td>
+<td align="center">13353</td>
+<td align="center">NA</td>
+</tr>
+<tr>
+<td align="center">Colorado</td>
+<td align="center">NA</td>
+<td align="center">NA</td>
+<td align="center">1488</td>
+<td align="center">NA</td>
+<td align="center">21</td>
+<td align="center">NA</td>
+<td align="center">NA</td>
+</tr>
+<tr>
+<td align="center">Connecticut</td>
+<td align="center">NA</td>
+<td align="center">NA</td>
+<td align="center">NA</td>
+<td align="center">173</td>
+<td align="center">NA</td>
+<td align="center">622</td>
+<td align="center">NA</td>
+</tr>
+<tr>
+<td align="center">Florida</td>
+<td align="center">NA</td>
+<td align="center">NA</td>
+<td align="center">NA</td>
+<td align="center">NA</td>
+<td align="center">NA</td>
+<td align="center">NA</td>
+<td align="center">2678</td>
+</tr>
+<tr>
+<td align="center">Idaho</td>
+<td align="center">NA</td>
+<td align="center">NA</td>
+<td align="center">NA</td>
+<td align="center">NA</td>
+<td align="center">NA</td>
+<td align="center">NA</td>
+<td align="center">475</td>
+</tr>
+<tr>
+<td align="center">Illinois</td>
+<td align="center">NA</td>
+<td align="center">NA</td>
+<td align="center">NA</td>
+<td align="center">NA</td>
+<td align="center">NA</td>
+<td align="center">NA</td>
+<td align="center">7686</td>
+</tr>
+<tr>
+<td align="center">Iowa</td>
+<td align="center">NA</td>
+<td align="center">NA</td>
+<td align="center">NA</td>
+<td align="center">NA</td>
+<td align="center">NA</td>
+<td align="center">NA</td>
+<td align="center">1370</td>
+</tr>
+<tr>
+<td align="center">Maine</td>
+<td align="center">NA</td>
+<td align="center">NA</td>
+<td align="center">NA</td>
+<td align="center">NA</td>
+<td align="center">NA</td>
+<td align="center">NA</td>
+<td align="center">357</td>
+</tr>
+<tr>
+<td align="center">Massachusetts</td>
+<td align="center">NA</td>
+<td align="center">NA</td>
+<td align="center">NA</td>
+<td align="center">NA</td>
+<td align="center">486</td>
+<td align="center">1108</td>
+<td align="center">NA</td>
+</tr>
+<tr>
+<td align="center">Michigan</td>
+<td align="center">NA</td>
+<td align="center">NA</td>
+<td align="center">NA</td>
+<td align="center">NA</td>
+<td align="center">NA</td>
+<td align="center">NA</td>
+<td align="center">2351</td>
+</tr>
+<tr>
+<td align="center">Minnesota</td>
+<td align="center">NA</td>
+<td align="center">NA</td>
+<td align="center">NA</td>
+<td align="center">NA</td>
+<td align="center">NA</td>
+<td align="center">NA</td>
+<td align="center">1813</td>
+</tr>
+<tr>
+<td align="center">Missouri</td>
+<td align="center">NA</td>
+<td align="center">NA</td>
+<td align="center">NA</td>
+<td align="center">NA</td>
+<td align="center">NA</td>
+<td align="center">NA</td>
+<td align="center">748</td>
+</tr>
+<tr>
+<td align="center">Montana</td>
+<td align="center">NA</td>
+<td align="center">NA</td>
+<td align="center">NA</td>
+<td align="center">NA</td>
+<td align="center">NA</td>
+<td align="center">NA</td>
+<td align="center">645</td>
+</tr>
+<tr>
+<td align="center">New Jersey</td>
+<td align="center">NA</td>
+<td align="center">NA</td>
+<td align="center">NA</td>
+<td align="center">NA</td>
+<td align="center">NA</td>
+<td align="center">NA</td>
+<td align="center">2211</td>
+</tr>
+<tr>
+<td align="center">New York</td>
+<td align="center">47</td>
+<td align="center">NA</td>
+<td align="center">NA</td>
+<td align="center">NA</td>
+<td align="center">2294</td>
+<td align="center">1934</td>
+<td align="center">NA</td>
+</tr>
+<tr>
+<td align="center">North Carolina</td>
+<td align="center">NA</td>
+<td align="center">NA</td>
+<td align="center">NA</td>
+<td align="center">NA</td>
+<td align="center">NA</td>
+<td align="center">NA</td>
+<td align="center">2085</td>
+</tr>
+<tr>
+<td align="center">North Dakota</td>
+<td align="center">NA</td>
+<td align="center">NA</td>
+<td align="center">NA</td>
+<td align="center">NA</td>
+<td align="center">NA</td>
+<td align="center">NA</td>
+<td align="center">387</td>
+</tr>
+<tr>
+<td align="center">Ohio</td>
+<td align="center">NA</td>
+<td align="center">NA</td>
+<td align="center">NA</td>
+<td align="center">NA</td>
+<td align="center">1012</td>
+<td align="center">2153</td>
+<td align="center">NA</td>
+</tr>
+<tr>
+<td align="center">Oklahoma</td>
+<td align="center">NA</td>
+<td align="center">NA</td>
+<td align="center">NA</td>
+<td align="center">NA</td>
+<td align="center">NA</td>
+<td align="center">NA</td>
+<td align="center">1249</td>
+</tr>
+<tr>
+<td align="center">Oregon</td>
+<td align="center">NA</td>
+<td align="center">NA</td>
+<td align="center">NA</td>
+<td align="center">NA</td>
+<td align="center">NA</td>
+<td align="center">NA</td>
+<td align="center">817</td>
+</tr>
+<tr>
+<td align="center">Pennsylvania</td>
+<td align="center">NA</td>
+<td align="center">NA</td>
+<td align="center">NA</td>
+<td align="center">NA</td>
+<td align="center">NA</td>
+<td align="center">NA</td>
+<td align="center">1939</td>
+</tr>
+<tr>
+<td align="center">Rhode Island</td>
+<td align="center">NA</td>
+<td align="center">NA</td>
+<td align="center">NA</td>
+<td align="center">NA</td>
+<td align="center">NA</td>
+<td align="center">NA</td>
+<td align="center">230</td>
+</tr>
+<tr>
+<td align="center">South Dakota</td>
+<td align="center">NA</td>
+<td align="center">NA</td>
+<td align="center">NA</td>
+<td align="center">NA</td>
+<td align="center">NA</td>
+<td align="center">NA</td>
+<td align="center">390</td>
+</tr>
+<tr>
+<td align="center">Tennessee</td>
+<td align="center">NA</td>
+<td align="center">NA</td>
+<td align="center">NA</td>
+<td align="center">NA</td>
+<td align="center">NA</td>
+<td align="center">NA</td>
+<td align="center">1152</td>
+</tr>
+<tr>
+<td align="center">Texas</td>
+<td align="center">NA</td>
+<td align="center">NA</td>
+<td align="center">NA</td>
+<td align="center">NA</td>
+<td align="center">NA</td>
+<td align="center">NA</td>
+<td align="center">811</td>
+</tr>
+<tr>
+<td align="center">Utah</td>
+<td align="center">NA</td>
+<td align="center">NA</td>
+<td align="center">NA</td>
+<td align="center">NA</td>
+<td align="center">33</td>
+<td align="center">571</td>
+<td align="center">NA</td>
+</tr>
+<tr>
+<td align="center">Vermont</td>
+<td align="center">NA</td>
+<td align="center">NA</td>
+<td align="center">NA</td>
+<td align="center">NA</td>
+<td align="center">NA</td>
+<td align="center">NA</td>
+<td align="center">349</td>
+</tr>
+<tr>
+<td align="center">Virginia</td>
+<td align="center">NA</td>
+<td align="center">NA</td>
+<td align="center">NA</td>
+<td align="center">NA</td>
+<td align="center">NA</td>
+<td align="center">NA</td>
+<td align="center">1468</td>
+</tr>
+<tr>
+<td align="center">Washington</td>
+<td align="center">NA</td>
+<td align="center">NA</td>
+<td align="center">NA</td>
+<td align="center">NA</td>
+<td align="center">NA</td>
+<td align="center">NA</td>
+<td align="center">2221</td>
+</tr>
+<tr>
+<td align="center">Wisconsin</td>
+<td align="center">NA</td>
+<td align="center">NA</td>
+<td align="center">NA</td>
+<td align="center">NA</td>
+<td align="center">NA</td>
+<td align="center">NA</td>
+<td align="center">2623</td>
+</tr>
+</tbody>
+</table>
+<p>Table: types of school vs. states</p>
+<h4 id="enroll">Enroll</h4>
+<p>Number of students would be useful for a weighted average.</p>
+<pre><code class="language-r">pander(measles %&gt;% group_by( state) %&gt;% 
+       summarise(median=median(enroll, na.rm = T),
+		 mad = mad(enroll, na.rm = T)),
+       caption = &quot;types of school vs. states&quot;,
+       split.tables = Inf, 
+       style=&quot;rmarkdown&quot;)
+</code></pre>
+<table>
+<thead>
+<tr>
+<th align="center">state</th>
+<th align="center">median</th>
+<th align="center">mad</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">Arizona</td>
+<td align="center">71</td>
+<td align="center">29.65</td>
+</tr>
+<tr>
+<td align="center">Arkansas</td>
+<td align="center">505</td>
+<td align="center">192.7</td>
+</tr>
+<tr>
+<td align="center">California</td>
+<td align="center">77</td>
+<td align="center">43</td>
+</tr>
+<tr>
+<td align="center">Colorado</td>
+<td align="center">52</td>
+<td align="center">34.1</td>
+</tr>
+<tr>
+<td align="center">Connecticut</td>
+<td align="center">NA</td>
+<td align="center">NA</td>
+</tr>
+<tr>
+<td align="center">Florida</td>
+<td align="center">89</td>
+<td align="center">35.58</td>
+</tr>
+<tr>
+<td align="center">Idaho</td>
+<td align="center">NA</td>
+<td align="center">NA</td>
+</tr>
+<tr>
+<td align="center">Illinois</td>
+<td align="center">333</td>
+<td align="center">206.1</td>
+</tr>
+<tr>
+<td align="center">Iowa</td>
+<td align="center">270</td>
+<td align="center">179.4</td>
+</tr>
+<tr>
+<td align="center">Maine</td>
+<td align="center">30</td>
+<td align="center">28.17</td>
+</tr>
+<tr>
+<td align="center">Massachusetts</td>
+<td align="center">NA</td>
+<td align="center">NA</td>
+</tr>
+<tr>
+<td align="center">Michigan</td>
+<td align="center">58</td>
+<td align="center">35.58</td>
+</tr>
+<tr>
+<td align="center">Minnesota</td>
+<td align="center">56</td>
+<td align="center">48.93</td>
+</tr>
+<tr>
+<td align="center">Missouri</td>
+<td align="center">NA</td>
+<td align="center">NA</td>
+</tr>
+<tr>
+<td align="center">Montana</td>
+<td align="center">196</td>
+<td align="center">180.9</td>
+</tr>
+<tr>
+<td align="center">New Jersey</td>
+<td align="center">45</td>
+<td align="center">40.03</td>
+</tr>
+<tr>
+<td align="center">New York</td>
+<td align="center">NA</td>
+<td align="center">NA</td>
+</tr>
+<tr>
+<td align="center">North Carolina</td>
+<td align="center">63</td>
+<td align="center">44.48</td>
+</tr>
+<tr>
+<td align="center">North Dakota</td>
+<td align="center">32.5</td>
+<td align="center">28.91</td>
+</tr>
+<tr>
+<td align="center">Ohio</td>
+<td align="center">51</td>
+<td align="center">34.1</td>
+</tr>
+<tr>
+<td align="center">Oklahoma</td>
+<td align="center">NA</td>
+<td align="center">NA</td>
+</tr>
+<tr>
+<td align="center">Oregon</td>
+<td align="center">58</td>
+<td align="center">29.65</td>
+</tr>
+<tr>
+<td align="center">Pennsylvania</td>
+<td align="center">63</td>
+<td align="center">31.13</td>
+</tr>
+<tr>
+<td align="center">Rhode Island</td>
+<td align="center">46</td>
+<td align="center">31.13</td>
+</tr>
+<tr>
+<td align="center">South Dakota</td>
+<td align="center">19</td>
+<td align="center">23.72</td>
+</tr>
+<tr>
+<td align="center">Tennessee</td>
+<td align="center">71</td>
+<td align="center">37.06</td>
+</tr>
+<tr>
+<td align="center">Texas</td>
+<td align="center">NA</td>
+<td align="center">NA</td>
+</tr>
+<tr>
+<td align="center">Utah</td>
+<td align="center">498</td>
+<td align="center">201.6</td>
+</tr>
+<tr>
+<td align="center">Vermont</td>
+<td align="center">107</td>
+<td align="center">106.7</td>
+</tr>
+<tr>
+<td align="center">Virginia</td>
+<td align="center">72</td>
+<td align="center">41.51</td>
+</tr>
+<tr>
+<td align="center">Washington</td>
+<td align="center">NA</td>
+<td align="center">NA</td>
+</tr>
+<tr>
+<td align="center">Wisconsin</td>
+<td align="center">NA</td>
+<td align="center">NA</td>
+</tr>
+</tbody>
+</table>
+<p>Table: types of school vs. states</p>
+<p>The overall median is 80 and
+mad 56.3388.
+I chose 100 as guess for the undocumented ones so that there would be a nice log10.</p>
+<pre><code class="language-r">ggplot(cmeasles, mapping=aes(x=mmr)) + 
+  geom_histogram(binwidth=5) +
+  scale_y_log10() + annotation_logticks(sides=c(&quot;l&quot;)) +
+  theme_light()
+</code></pre>
+
+<figure>
+    <img src="/post/dev/tidytuesday/td20200225/measles_dist-1.png" alt=""/><figcaption>distribution mmr(measles plus vac)</figcaption></figure>
+<pre><code class="language-r">ggplot(cmeasles, mapping=aes(x=overall)) + 
+  geom_histogram(binwidth=5) +
+  scale_y_log10() + annotation_logticks(sides=c(&quot;l&quot;))
+</code></pre>
+
+<figure>
+    <img src="/post/dev/tidytuesday/td20200225/overall_dist-1.png" alt=""/><figcaption>distribution of overall vac</figcaption></figure>
+<pre><code class="language-r">ggplot(measles, mapping=aes(x=overall, y=mmr)) + 
+  geom_point(alpha = 0.2) 
+</code></pre>
+<p>
+<figure>
+    <img src="/post/dev/tidytuesday/td20200225/mmr_vs_overall-1.png" alt=""/><figcaption>correspondance mmr with overall vac</figcaption></figure>
+A few odd ones where overall vaccination is lower than mmr. But since I don&rsquo;t use overall later I will ignore this.</p>
+<p>xrel is boolean!</p>
+<pre><code class="language-r">ggplot(cmeasles, mapping=aes(x=mmr)) + 
+  geom_histogram(binwidth=5) +
+  scale_y_log10() + annotation_logticks(sides=c(&quot;l&quot;))
+</code></pre>
+
+<figure>
+    <img src="/post/dev/tidytuesday/td20200225/unnamed-chunk-1-1.png" alt=""/><figcaption>distribution of mmr in schools with religious exclusions</figcaption></figure>
+<p>It should be mmr + xmed &lt; 100!</p>
+<pre><code class="language-r">ggplot(cmeasles, mapping=aes(y=mmr, x=xmed)) + 
+  geom_point()
+</code></pre>
+
+<figure>
+    <img src="/post/dev/tidytuesday/td20200225/unnamed-chunk-2-1.png" alt=""/><figcaption>distribution of mmr in schools with xmed</figcaption></figure>
+<pre><code class="language-r">cmeasles %&gt;% filter(xmed &gt; 50)
+</code></pre>
+<pre><code>## # A tibble: 2 x 18
+##   index state year  name  type  city  county district enroll   mmr overall xrel 
+##   &lt;dbl&gt; &lt;chr&gt; &lt;chr&gt; &lt;chr&gt; &lt;chr&gt; &lt;chr&gt; &lt;chr&gt;  &lt;lgl&gt;     &lt;dbl&gt; &lt;dbl&gt;   &lt;dbl&gt; &lt;lgl&gt;
+## 1  6500 Cali… 2018… Yuba… Publ… Neva… Nevada NA           64    36      36 NA   
+## 2   827 Mass… 2018… Rudo… Priv… Grea… Berks… NA           NA     3      NA NA   
+## # … with 6 more variables: xmed &lt;dbl&gt;, xper &lt;dbl&gt;, lat &lt;dbl&gt;, lng &lt;dbl&gt;,
+## #   maxknownexcl &lt;dbl&gt;, suspicious &lt;lgl&gt;
+</code></pre>
+<pre><code class="language-r">ggplot(cmeasles, mapping=aes(y=mmr, x=xper)) + 
+  geom_point()
+</code></pre>
+
+<figure>
+    <img src="/post/dev/tidytuesday/td20200225/unnamed-chunk-3-1.png" alt=""/><figcaption>distribution of mmr in schools with xper</figcaption></figure>
+<pre><code class="language-r">cmeasles %&gt;% filter(xmed &gt; 50)
+</code></pre>
+<pre><code>## # A tibble: 2 x 18
+##   index state year  name  type  city  county district enroll   mmr overall xrel 
+##   &lt;dbl&gt; &lt;chr&gt; &lt;chr&gt; &lt;chr&gt; &lt;chr&gt; &lt;chr&gt; &lt;chr&gt;  &lt;lgl&gt;     &lt;dbl&gt; &lt;dbl&gt;   &lt;dbl&gt; &lt;lgl&gt;
+## 1  6500 Cali… 2018… Yuba… Publ… Neva… Nevada NA           64    36      36 NA   
+## 2   827 Mass… 2018… Rudo… Priv… Grea… Berks… NA           NA     3      NA NA   
+## # … with 6 more variables: xmed &lt;dbl&gt;, xper &lt;dbl&gt;, lat &lt;dbl&gt;, lng &lt;dbl&gt;,
+## #   maxknownexcl &lt;dbl&gt;, suspicious &lt;lgl&gt;
+</code></pre>
+<pre><code class="language-r">ggplot(cmeasles, mapping=aes(x=xper)) + 
+  geom_histogram(binwidth=5) +
+  scale_y_log10() + annotation_logticks(sides=c(&quot;l&quot;))
+</code></pre>
+
+<figure>
+    <img src="/post/dev/tidytuesday/td20200225/unnamed-chunk-4-1.png" alt=""/><figcaption>distribution of mmr in schools with either exemption</figcaption></figure>
+<pre><code class="language-r">ggplot(cmeasles, mapping=aes(x=xper,y=mmr)) + 
+  geom_point()
+</code></pre>
+
+<figure>
+    <img src="/post/dev/tidytuesday/td20200225/unnamed-chunk-4-2.png" alt=""/><figcaption>distribution of mmr in schools with either exemption</figcaption></figure>
+<p>Note:</p>
+<ul>
+<li>has only one sample per school.</li>
+<li>only 15 states</li>
+</ul>
+<pre><code class="language-r">cmeasles %&gt;% group_by(type) %&gt;% summarise(n=n())%&gt;% arrange(-n)
+</code></pre>
+<pre><code>## # A tibble: 7 x 2
+##   type             n
+##   &lt;chr&gt;        &lt;int&gt;
+## 1 Public       19090
+## 2 &lt;NA&gt;         17625
+## 3 Private       4424
+## 4 Kindergarten   959
+## 5 Charter        155
+## 6 BOCES           43
+## 7 Nonpublic       17
+</code></pre>
+<p>Lots of unlabelled. Private don&rsquo;t play much of a role.</p>
+<pre><code class="language-r">cmeasles %&gt;% group_by(state) %&gt;% summarise(n=n(),enrolls = sum(enroll, na.rm=T)) %&gt;% arrange(-n)
+</code></pre>
+<pre><code>## # A tibble: 21 x 3
+##    state            n enrolls
+##    &lt;chr&gt;        &lt;int&gt;   &lt;dbl&gt;
+##  1 California   14033 1216297
+##  2 Illinois      7619 2653668
+##  3 New York      3942       0
+##  4 Ohio          2915  176867
+##  5 Pennsylvania  1939  138722
+##  6 Washington    1793       0
+##  7 Minnesota     1590   93114
+##  8 Colorado       966   51641
+##  9 Arizona        887   61983
+## 10 Texas          811       0
+## # … with 11 more rows
+</code></pre>
+<p>Everything is dwarfed by California and Illinois.</p>
+<h2 id="visualisierung">Visualisierung:</h2>
+<h3 id="idea-ternary-plot">Idea ternary plot:</h3>
+<pre><code class="language-r">library(ggtern)
+cm2 &lt;- cmeasles %&gt;% 
+  mutate(xmed = replace_na(xmed,0),
+	 xother = 100 - mmr - xmed,
+	 enroll = replace_na(enroll,100)) %&gt;%
+  mutate_at(vars(mmr, xmed, xother), ~./100)
+cms &lt;- sample_n(cm2,100)
+
+my_breaks  &lt;-  10^seq(2,6)
+</code></pre>
+<pre><code class="language-r">ptm &lt;- proc.time()
+ggtern(cm2, aes(mmr,xmed,xother)) +
+  geom_tri_tern(bins = 10, aes(fill=..stat.., value=enroll), fun=function(z){(sum(z))}) +
+  scale_L_continuous(&quot;vaccinated&quot;) + 
+  Llab(&quot;measles vaccinated&quot;) +
+  scale_R_continuous(&quot;other&quot;) + 
+  Rlab(&quot;other refusal&quot;) + 
+  scale_T_continuous(&quot;medical&quot;) + 
+  Tlab(&quot;medical refusal&quot;) +
+  scale_fill_gradient(name = &quot;students&quot;, trans = &quot;log10&quot;,
+		      breaks = my_breaks, labels = my_breaks,
+		      na.value = &quot;gray10&quot;) + 
+  theme_matrix() +
+  theme(legend.background = element_rect(fill = &quot;gray10&quot;)) 
+</code></pre>
+
+<figure>
+    <img src="/post/dev/tidytuesday/td20200225/big_tern-1.png" alt=""/><figcaption>Vacciantion ratio medial and other exclusions.</figcaption></figure>
+<pre><code class="language-r">  # theme_tropical()
+  #theme_linedraw()
+  #theme_bvbg()
+  # scale_fill_continuous(low=&quot;thistle2&quot;, high=&quot;darkred&quot;, 
+  #                      guide=&quot;colorbar&quot;,na.value=&quot;white&quot;) +
+proc.time()-ptm
+</code></pre>
+<pre><code>##    user  system elapsed 
+##   1.227   0.144   1.391
+</code></pre>
+    </div>
+
+    
+
+
+
+
+
+
+
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=/post/dev/tidytuesday/td20200225/&amp;text=TidyTuesday%20Measles%20Vaccination%20Data" target="_blank" rel="noopener" class="share-btn-twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=/post/dev/tidytuesday/td20200225/&amp;t=TidyTuesday%20Measles%20Vaccination%20Data" target="_blank" rel="noopener" class="share-btn-facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=TidyTuesday%20Measles%20Vaccination%20Data&amp;body=/post/dev/tidytuesday/td20200225/" target="_blank" rel="noopener" class="share-btn-email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=/post/dev/tidytuesday/td20200225/&amp;title=TidyTuesday%20Measles%20Vaccination%20Data" target="_blank" rel="noopener" class="share-btn-linkedin">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://web.whatsapp.com/send?text=TidyTuesday%20Measles%20Vaccination%20Data%20/post/dev/tidytuesday/td20200225/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=/post/dev/tidytuesday/td20200225/&amp;title=TidyTuesday%20Measles%20Vaccination%20Data" target="_blank" rel="noopener" class="share-btn-weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  <div class="media author-card content-widget-hr">
+    
+      
+      <img class="avatar mr-3 avatar-circle" src="/authors/admin/avatar_hu9b04e5b7aa4cd09e8b079a3c235fbdb8_199807_270x270_fill_lanczos_center_2.png" alt="Avatar">
+    
+
+    <div class="media-body">
+      <h5 class="card-title"><a href="/">Clemens Ager</a></h5>
+      <h6 class="card-subtitle">Number Cruncher</h6>
+      
+      <ul class="network-icon" aria-hidden="true">
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="/#contact" >
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://twitter.com/c_decaf" target="_blank" rel="noopener">
+        <i class="fab fa-twitter"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://scholar.google.co.uk/citations?user=Agq35HgAAAAJ" target="_blank" rel="noopener">
+        <i class="ai ai-google-scholar"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://github.com/bdcaf" target="_blank" rel="noopener">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://at.linkedin.com/in/clemens-ager-1228a295" target="_blank" rel="noopener">
+        <i class="fab fa-linkedin"></i>
+      </a>
+    </li>
+  
+</ul>
+
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+  
+  
+  <div class="article-widget content-widget-hr">
+    <h3>Related</h3>
+    <ul>
+      
+      <li><a href="/post/dev/2020-01-cookiecutter/">2020 01 Cookiecutter</a></li>
+      
+    </ul>
+  </div>
+  
+
+
+
+  </div>
+</article>    
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha256-yt2kYMy0w8AbtF89WXb2P1rfjcP/HTHLT7097U8Y5b8=" crossorigin="anonymous"></script>
+
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/highlight.min.js" integrity="sha256-1zu+3BnLYV9LdiY85uXMzii3bdrkelyp37e0ZyTAQh0=" crossorigin="anonymous"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/languages/r.min.js"></script>
+        
+      
+
+    
+
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.5.1/leaflet.js" integrity="sha256-EErZamuLefUnbMBQbsEqu1USa+btR2oIlCpBJbyD4/g=" crossorigin="anonymous"></script>
+    
+
+    
+    
+    <script>const code_highlighting = true;</script>
+    
+
+    
+    
+    <script>const isSiteThemeDark = false;</script>
+    
+
+    
+
+    
+    
+
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <script src="/js/academic.min.c97b94000ee75a76d9bc08f5a2e44814.js"></script>
+
+    
+
+
+
+
+<div class="container"><footer class="site-footer">
+  
+
+  <p class="powered-by">
+    Clemens Ager 2020 &middot; 
+
+    Powered by the
+    <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+    <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+    
+    <span class="float-right" aria-hidden="true">
+      <a href="#" class="back-to-top">
+        <span class="button_icon">
+          <i class="fas fa-chevron-up fa-2x"></i>
+        </span>
+      </a>
+    </span>
+    
+  </p>
+</footer>
+</div>
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div></body>
+</html>

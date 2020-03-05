@@ -1,25 +1,25 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>statistics on C. Ager</title>
-    <link>https://bdcaf.github.io/tags/statistics/</link>
-    <description>Recent content in statistics on C. Ager</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <copyright>Clemens Ager, Brixlegg</copyright>
-    <lastBuildDate>Fri, 28 Dec 2018 09:31:46 +0100</lastBuildDate>
-    
-	<atom:link href="https://bdcaf.github.io/tags/statistics/index.xml" rel="self" type="application/rss+xml" />
-    
+    <title>statistics | bdcaf</title>
+    <link>/tags/statistics/</link>
+      <atom:link href="/tags/statistics/index.xml" rel="self" type="application/rss+xml" />
+    <description>statistics</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Clemens Ager 2020</copyright><lastBuildDate>Fri, 28 Dec 2018 09:31:46 +0100</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>statistics</title>
+      <link>/tags/statistics/</link>
+    </image>
     
     <item>
       <title>Seeing statistics</title>
-      <link>https://bdcaf.github.io/2018/12/28/seeing-statistics/</link>
+      <link>/post/links/seeing_statistics/</link>
       <pubDate>Fri, 28 Dec 2018 09:31:46 +0100</pubDate>
-      
-      <guid>https://bdcaf.github.io/2018/12/28/seeing-statistics/</guid>
+      <guid>/post/links/seeing_statistics/</guid>
       <description>&lt;p&gt;There is a nice introducition to statistics with visualisation of the
-concepts at &lt;a href=&#34;https://seeing-theory.brown.edu/index.html&#34;&gt;seeing theory&lt;/a&gt;&lt;/p&gt;
+concepts at 
+&lt;a href=&#34;https://seeing-theory.brown.edu/index.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;seeing theory&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Takes about 20 minutes to click through.&lt;/p&gt;</description>
     </item>
     

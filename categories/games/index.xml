@@ -1,89 +1,114 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Games on C. Ager</title>
-    <link>https://bdcaf.github.io/categories/games/</link>
-    <description>Recent content in Games on C. Ager</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <copyright>Clemens Ager, Brixlegg</copyright>
-    <lastBuildDate>Sat, 27 Jan 2018 14:50:00 +0100</lastBuildDate>
-    
-	<atom:link href="https://bdcaf.github.io/categories/games/index.xml" rel="self" type="application/rss+xml" />
-    
+    <title>Games | bdcaf</title>
+    <link>/categories/games/</link>
+      <atom:link href="/categories/games/index.xml" rel="self" type="application/rss+xml" />
+    <description>Games</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Clemens Ager 2020</copyright><lastBuildDate>Sat, 27 Jan 2018 14:50:00 +0100</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>Games</title>
+      <link>/categories/games/</link>
+    </image>
     
     <item>
       <title>Kerbal Space Program</title>
-      <link>https://bdcaf.github.io/2018/01/27/kerbal-space-program/</link>
+      <link>/post/links/kerbal/</link>
       <pubDate>Sat, 27 Jan 2018 14:50:00 +0100</pubDate>
-      
-      <guid>https://bdcaf.github.io/2018/01/27/kerbal-space-program/</guid>
-      <description>These days I started up Kerbal Space Program. It is a space game where you construct your own vehicles and explore the solar system. As physics games go it is amazing.
-Unless you carefully plan out maneuvers they will lead to disaster - which is often also hilarious to watch play out. Even getting into orbit is a challenge in the beginning.
-  My first Mun landing without breaking stuff.</description>
-    </item>
-    
-    <item>
-      <title>Fez war gut</title>
-      <link>https://bdcaf.github.io/2014/03/05/fez-war-gut/</link>
-      <pubDate>Wed, 05 Mar 2014 18:47:34 +0000</pubDate>
-      
-      <guid>https://bdcaf.github.io/2014/03/05/fez-war-gut/</guid>
-      <description>Hab Fez auf 2 Sitzungen durchgespielt. Waren 6 sehr unterhaltsame Stunden - und &amp;ldquo;it is good when a game doesn&amp;rsquo;t overstay it&amp;rsquo;s welcome&amp;rdquo;.
-An sich ist es ein 3d Puzzle - das aber in 2d gespielt wird. Ziemlich abstrakte Logik - macht aber Spaß das sich zu überlegen.
-Das Spiel war überraschend im Humble Bundle 11 kurz vorm Ablaufen hinzugefügt worden. Die werd&amp;rsquo; ich jetzt im Auge behalten.</description>
+      <guid>/post/links/kerbal/</guid>
+      <description>&lt;p&gt;These days I started up 
+&lt;a href=&#34;https://kerbalspaceprogram.com/en/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Kerbal Space
+Program&lt;/a&gt;.  It is a space game
+where you construct your own vehicles and explore the solar system.
+As physics games go it is amazing.&lt;/p&gt;
+&lt;p&gt;Unless you carefully plan out maneuvers they will lead to disaster -
+which is often also hilarious to watch play out.  Even getting into
+orbit is a challenge in the beginning.&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;/post/links/2018-01-kerbal.jpg&#34; data-caption=&#34;My first Mun landing without breaking stuff.&#34;&gt;
+
+
+  &lt;img src=&#34;/post/links/2018-01-kerbal.jpg&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    My first Mun landing without breaking stuff.
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;!-- more --&gt;
+&lt;p&gt;The only critic point would be that one needs to learn about most
+concepts outside the game.  These may be small things like how the
+solid fuel boosters are different from rocket engines - the boosters
+can not be throttled, while the rocket engines can be.  To the more
+advanced topics of how to do orbit transfers and gravity assists.
+Though once the concepts are understood it is immensely gratifying to
+be able to these maneuvers.&lt;/p&gt;
+&lt;p&gt;And there are fun concepts that came up from this game like
+&lt;em&gt;lithobraking&lt;/em&gt; - which in analogy to aero and hydrobraking is reducing
+speed by hitting rocks.  And URD the abbreviation for unscheduled
+rapid disassembly - basically the craft explodes.&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>Wieder mal spielen...</title>
-      <link>https://bdcaf.github.io/2014/01/14/wieder-mal-spielen.../</link>
+      <link>/post/2014/2014-01-14-wieder-mal-spielen/</link>
       <pubDate>Tue, 14 Jan 2014 07:17:16 +0000</pubDate>
-      
-      <guid>https://bdcaf.github.io/2014/01/14/wieder-mal-spielen.../</guid>
-      <description>Hab jetzt den Surgeon Simulator am laufen. Ist im Humble Indie Bundle X (pay what you want and help charity) grad zu kaufen.
-Macht viel Spaß. Schaut euch nur die YouTube lets plays an&amp;hellip;</description>
-    </item>
-    
-    <item>
-      <title>Meine kleine Raumstation</title>
-      <link>https://bdcaf.github.io/2013/08/29/meine-kleine-raumstation/</link>
-      <pubDate>Thu, 29 Aug 2013 14:12:28 +0000</pubDate>
-      
-      <guid>https://bdcaf.github.io/2013/08/29/meine-kleine-raumstation/</guid>
-      <description>Bin ja momentan Krankenstand. Damit&amp;rsquo;s nicht zu fad wird hab&amp;rsquo; ich da gebastelt.
-War ganz schön anstrengend das erste mal. Das ganze hab&amp;rsquo; ich erst im Orbit zusammengedockt. Das ist schwierig weil da dann einiges seitenverkehrt liegt. Und natürlich ist&amp;rsquo;s nicht trivial die Geschwindigkeiten auf Null zu kriegen. Ein Zusammenstoß und alles ist kaputt.
-Soweit sieht&amp;rsquo;s schon gut aus. Plane das als Notfalltankstelle sollte mir beim Start der Saft knapp werden.</description>
-    </item>
-    
-    <item>
-      <title>Kurze Kerbal Geschichte</title>
-      <link>https://bdcaf.github.io/2013/08/15/kurze-kerbal-geschichte/</link>
-      <pubDate>Thu, 15 Aug 2013 10:07:49 +0000</pubDate>
-      
-      <guid>https://bdcaf.github.io/2013/08/15/kurze-kerbal-geschichte/</guid>
-      <description>Im Kerbal Space Program kann man ja tolle Sachen basteln. Macht einfach Spass weils so schön aussieht und bringt die Entdeckeratmosphäre gut rüber.
-Ich hab&amp;rsquo; mich diesmal mit einem Flug nach Minimus versucht. Der ist problematisch weil&amp;rsquo;s nur ein &amp;ldquo;Asteroid&amp;rdquo; ist. Meine erste Mannschaft hatte nicht genug Treibstoff fürs Bremsmanöver und ist verschollen. Treibt ohne Treibstoff durchs All. Nur gut dass man am Mac wieder laden kann ;)
-[caption id=&amp;quot;attachment_881&amp;rdquo; align=&amp;quot;alignnone&amp;rdquo; width=&amp;quot;300&amp;rdquo;] Orbit um Minimus[/caption]</description>
+      <guid>/post/2014/2014-01-14-wieder-mal-spielen/</guid>
+      <description>&lt;p&gt;Hab jetzt den 
+&lt;a href=&#34;http://www.surgeonsimulator2013.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Surgeon Simulator&lt;/a&gt; am laufen. Ist im 
+&lt;a href=&#34;https://www.humblebundle.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Humble Indie Bundle X (pay what you want and help charity)&lt;/a&gt; grad zu kaufen.&lt;/p&gt;
+&lt;p&gt;Macht viel Spaß. Schaut euch nur die YouTube lets plays an&amp;hellip;&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>Sehr gute Erklärung wie man in den Orbit kommt</title>
-      <link>https://bdcaf.github.io/2013/08/14/sehr-gute-erkl%C3%A4rung-wie-man-in-den-orbit-kommt/</link>
+      <link>/post/2013/2013-08-14-sehr-gute-erklaerung-wie-man-in-den-orbit-kommt/</link>
       <pubDate>Wed, 14 Aug 2013 09:16:11 +0000</pubDate>
-      
-      <guid>https://bdcaf.github.io/2013/08/14/sehr-gute-erkl%C3%A4rung-wie-man-in-den-orbit-kommt/</guid>
-      <description>Spiele ja gerade viel das ausgezeichnete Kerbal Space Program.
-Bei XKCD What-if gibt es eine schöne Erklärung was es mit dem Erdorbit auf sich hat: Erklärung</description>
+      <guid>/post/2013/2013-08-14-sehr-gute-erklaerung-wie-man-in-den-orbit-kommt/</guid>
+      <description>&lt;p&gt;Spiele ja gerade viel das ausgezeichnete 
+&lt;a href=&#34;https://kerbalspaceprogram.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Kerbal Space Program&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Bei 
+&lt;a href=&#34;http://what-if.xkcd.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;XKCD What-if &lt;/a&gt;gibt es eine schöne Erklärung was es mit dem Erdorbit auf sich hat: &lt;strong&gt;
+&lt;a href=&#34;http://what-if.xkcd.com/58/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Erklärung&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>Catherine</title>
-      <link>https://bdcaf.github.io/2013/06/03/catherine/</link>
+      <link>/post/2013/2013-06-03-catherine/</link>
       <pubDate>Mon, 03 Jun 2013 14:48:20 +0000</pubDate>
-      
-      <guid>https://bdcaf.github.io/2013/06/03/catherine/</guid>
-      <description>Bin zuhause im Endspurt im Spiel Catherine. Das ist ein schön gemachtes Knobelspiel. Schön abgedreht japanisch auch noch.
-Nur irgendwie lange Zwischensequenzen - oder umgekehrt lange Knobeleien unter der Handlung. Jedenfalls hoffentlich bald fertig. Die letzte Sequenz zieht sich nämlich.</description>
+      <guid>/post/2013/2013-06-03-catherine/</guid>
+      <description>&lt;p&gt;
+&lt;a href=&#34;http://www.amazon.de/Deep-Silver-Catherine/dp/B005TQU47Y&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;img src=&#34;http://ecx.images-amazon.com/images/I/61JH-5DAqKL.jpg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;Bin zuhause im Endspurt im Spiel 
+&lt;a href=&#34;http://www.deepsilver.com/de/game/view/game/access16/catherine/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Catherine&lt;/a&gt;. Das ist ein schön gemachtes Knobelspiel. Schön abgedreht japanisch auch noch.&lt;/p&gt;
+&lt;p&gt;Nur irgendwie lange Zwischensequenzen - oder umgekehrt lange Knobeleien unter der Handlung. Jedenfalls hoffentlich bald fertig. Die letzte Sequenz zieht sich nämlich.&lt;/p&gt;
+</description>
     </item>
     
   </channel>

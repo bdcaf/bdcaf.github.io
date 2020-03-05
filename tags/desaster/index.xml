@@ -1,36 +1,40 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>desaster on C. Ager</title>
-    <link>https://bdcaf.github.io/tags/desaster/</link>
-    <description>Recent content in desaster on C. Ager</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <copyright>Clemens Ager, Brixlegg</copyright>
-    <lastBuildDate>Tue, 14 Jan 2014 07:17:16 +0000</lastBuildDate>
-    
-	<atom:link href="https://bdcaf.github.io/tags/desaster/index.xml" rel="self" type="application/rss+xml" />
-    
+    <title>desaster | bdcaf</title>
+    <link>/tags/desaster/</link>
+      <atom:link href="/tags/desaster/index.xml" rel="self" type="application/rss+xml" />
+    <description>desaster</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Clemens Ager 2020</copyright><lastBuildDate>Tue, 14 Jan 2014 07:17:16 +0000</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>desaster</title>
+      <link>/tags/desaster/</link>
+    </image>
     
     <item>
       <title>Wieder mal spielen...</title>
-      <link>https://bdcaf.github.io/2014/01/14/wieder-mal-spielen.../</link>
+      <link>/post/2014/2014-01-14-wieder-mal-spielen/</link>
       <pubDate>Tue, 14 Jan 2014 07:17:16 +0000</pubDate>
-      
-      <guid>https://bdcaf.github.io/2014/01/14/wieder-mal-spielen.../</guid>
-      <description>Hab jetzt den Surgeon Simulator am laufen. Ist im Humble Indie Bundle X (pay what you want and help charity) grad zu kaufen.
-Macht viel Spaß. Schaut euch nur die YouTube lets plays an&amp;hellip;</description>
+      <guid>/post/2014/2014-01-14-wieder-mal-spielen/</guid>
+      <description>&lt;p&gt;Hab jetzt den 
+&lt;a href=&#34;http://www.surgeonsimulator2013.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Surgeon Simulator&lt;/a&gt; am laufen. Ist im 
+&lt;a href=&#34;https://www.humblebundle.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Humble Indie Bundle X (pay what you want and help charity)&lt;/a&gt; grad zu kaufen.&lt;/p&gt;
+&lt;p&gt;Macht viel Spaß. Schaut euch nur die YouTube lets plays an&amp;hellip;&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>Glück gehabt</title>
-      <link>https://bdcaf.github.io/2014/01/01/gl%C3%BCck-gehabt/</link>
+      <link>/post/2014/2014-01-01-glueck-gehabt/</link>
       <pubDate>Wed, 01 Jan 2014 09:48:52 +0000</pubDate>
-      
-      <guid>https://bdcaf.github.io/2014/01/01/gl%C3%BCck-gehabt/</guid>
-      <description>Scheint wir waren unter den wenigen die es überhaupt hin geschafft haben: link
-Wir mussten nur aufs Nachmittag/Abendprogramm verzichten. Die Polizei hat &amp;ldquo;willkürlich&amp;rdquo; komplett den Verkehr abgedreht. Wir brauchten zwar auch 4h heim - aber die meisten hat&amp;rsquo;s übler erwischt.
-Auf twitter und Facebook ist schon ein ziemlicher shitstorm auf sandance.</description>
+      <guid>/post/2014/2014-01-01-glueck-gehabt/</guid>
+      <description>&lt;p&gt;Scheint wir waren unter den wenigen die es überhaupt hin geschafft haben: 
+&lt;a href=&#34;http://alexofarabia.com/2014/01/01/sandance-and-the-virality-of-events-going-wrong/?utm_content=buffer9463c&amp;amp;utm_source=buffer&amp;amp;utm_medium=twitter&amp;amp;utm_campaign=Buffer&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;link&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Wir mussten nur aufs Nachmittag/Abendprogramm verzichten. Die Polizei hat &amp;ldquo;willkürlich&amp;rdquo; komplett den Verkehr abgedreht. Wir brauchten zwar auch 
+&lt;a href=&#34;x-apple-data-detectors://0&#34;&gt;4h&lt;/a&gt; heim - aber die meisten hat&amp;rsquo;s übler erwischt.&lt;/p&gt;
+&lt;p&gt;Auf twitter und Facebook ist schon ein ziemlicher shitstorm auf sandance.&lt;/p&gt;
+</description>
     </item>
     
   </channel>

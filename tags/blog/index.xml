@@ -1,42 +1,43 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>blog on C. Ager</title>
-    <link>https://bdcaf.github.io/tags/blog/</link>
-    <description>Recent content in blog on C. Ager</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <copyright>Clemens Ager, Brixlegg</copyright>
-    <lastBuildDate>Fri, 26 Apr 2019 13:40:24 +0200</lastBuildDate>
-    
-	<atom:link href="https://bdcaf.github.io/tags/blog/index.xml" rel="self" type="application/rss+xml" />
-    
+    <title>blog | bdcaf</title>
+    <link>/tags/blog/</link>
+      <atom:link href="/tags/blog/index.xml" rel="self" type="application/rss+xml" />
+    <description>blog</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Clemens Ager 2020</copyright><lastBuildDate>Fri, 26 Apr 2019 13:40:24 +0200</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>blog</title>
+      <link>/tags/blog/</link>
+    </image>
     
     <item>
       <title>New Project R Hugo Papers</title>
-      <link>https://bdcaf.github.io/2019/04/26/new-project-r-hugo-papers/</link>
+      <link>/post/dev/r-hugo-paperss/</link>
       <pubDate>Fri, 26 Apr 2019 13:40:24 +0200</pubDate>
-      
-      <guid>https://bdcaf.github.io/2019/04/26/new-project-r-hugo-papers/</guid>
-      <description>&lt;p&gt;I started the project &lt;a href=&#34;https://bdcaf.github.io/r-hugo-papercss-template/&#34;&gt;R-Hugo-Papercss&lt;/a&gt;.&lt;/p&gt;
+      <guid>/post/dev/r-hugo-paperss/</guid>
+      <description>&lt;p&gt;I started the project 
+&lt;a href=&#34;https://bdcaf.github.io/r-hugo-papercss-template/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;R-Hugo-Papercss&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;This is a template for the hugo static site engine.  The purpose is to use its page bundle feature with generated content from R.  There were small issues to make hugo write the relative URLs.&lt;/p&gt;
-&lt;p&gt;I also uses the &lt;a href=&#34;https://www.getpapercss.com&#34;&gt;papercss&lt;/a&gt; layout.  It seems suitable for a private science blog as it reminds me on the &lt;a href=&#34;https://en.wikipedia.org/wiki/Randall_Munroe&#34;&gt;Randal Munroe&lt;/a&gt;s XKCD style.&lt;/p&gt;
+&lt;p&gt;I also uses the 
+&lt;a href=&#34;https://www.getpapercss.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;papercss&lt;/a&gt; layout.  It seems suitable for a private science blog as it reminds me on the 
+&lt;a href=&#34;https://en.wikipedia.org/wiki/Randall_Munroe&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Randal Munroe&lt;/a&gt;s XKCD style.&lt;/p&gt;
 &lt;p&gt;By now feels complete enough to try out blogging.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Zero Axis Video</title>
-      <link>https://bdcaf.github.io/2015/11/24/zero-axis-video/</link>
+      <link>/post/2015/2015-11-15_zero/</link>
       <pubDate>Tue, 24 Nov 2015 10:40:57 +0100</pubDate>
-      
-      <guid>https://bdcaf.github.io/2015/11/24/zero-axis-video/</guid>
+      <guid>/post/2015/2015-11-15_zero/</guid>
       <description>&lt;p&gt;Es hat ja jeder die schwierige Diskussion um Axen die bei 0 oder nicht
 0 los gehen.  Ich verwende ja meist logarithmische - da spart man sich
 die Diskussion.&lt;/p&gt;
 &lt;p&gt;Da gibt es jetzt auch ein Video von Vox:&lt;/p&gt;
 
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;https://www.youtube-nocookie.com/embed/14VYnFhBKcY&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/14VYnFhBKcY&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
 
 &lt;p&gt;Die rücken da die Story in den Vordergrund - das ist ein interessanter
@@ -46,72 +47,393 @@ wichtig.&lt;/p&gt;</description>
     
     <item>
       <title>Humble Peanuts</title>
-      <link>https://bdcaf.github.io/2015/11/08/humble-peanuts/</link>
+      <link>/post/2015/2015-11-08_humble/</link>
       <pubDate>Sun, 08 Nov 2015 08:13:14 +0100</pubDate>
-      
-      <guid>https://bdcaf.github.io/2015/11/08/humble-peanuts/</guid>
-      <description>&lt;p&gt;Die &lt;a href=&#34;https://www.humblebundle.com&#34;&gt;Humble Bundles&lt;/a&gt; sind ein interessantes Konzept - es geht darum einer Charity zu spenden und wird dadurch versüßt, dass man mit der Spende gleichzeitig einen Download kauft.
+      <guid>/post/2015/2015-11-08_humble/</guid>
+      <description>&lt;p&gt;Die 
+&lt;a href=&#34;https://www.humblebundle.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Humble Bundles&lt;/a&gt; sind ein interessantes Konzept - es geht darum einer Charity zu spenden und wird dadurch versüßt, dass man mit der Spende gleichzeitig einen Download kauft.
 Man kann den Preis für Downloads selbst bestimmen und die angebotenen Downloads sind oft interessante Indie Games oder ebooks.&lt;/p&gt;
-&lt;p&gt;Diese Woche sind zum Beispiel die &lt;a href=&#34;https://de.wikipedia.org/wiki/Die_Peanuts&#34;&gt;Peanuts&lt;/a&gt; comics im &lt;a href=&#34;https://www.humblebundle.com/books&#34;&gt;books bundle&lt;/a&gt;.  Ich kann sie nur empfehlen.  Das letzte Mal hab ich die als Kind gelesen - sie werden aber nur besser.&lt;/p&gt;
+&lt;p&gt;Diese Woche sind zum Beispiel die 
+&lt;a href=&#34;https://de.wikipedia.org/wiki/Die_Peanuts&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Peanuts&lt;/a&gt; comics im 
+&lt;a href=&#34;https://www.humblebundle.com/books&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;books bundle&lt;/a&gt;.  Ich kann sie nur empfehlen.  Das letzte Mal hab ich die als Kind gelesen - sie werden aber nur besser.&lt;/p&gt;
 &lt;p&gt;Aus Begeisterung hab ich gleich den Avatar angepasst.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Test subjects (xkcd)</title>
-      <link>https://bdcaf.github.io/2015/10/23/test-subjects-xkcd/</link>
+      <link>/post/2015/2015-10-23_xkcd/</link>
       <pubDate>Fri, 23 Oct 2015 09:26:13 +0200</pubDate>
-      
-      <guid>https://bdcaf.github.io/2015/10/23/test-subjects-xkcd/</guid>
+      <guid>/post/2015/2015-10-23_xkcd/</guid>
       <description>&lt;p&gt;Wow - xkcd hat einen wundervollen Strip zu Testsubjects.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;http://imgs.xkcd.com/comics/human_subjects.png&#34; alt=&#34;xkcd strip&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://xkcd.com/1594/&#34;&gt;link out&lt;/a&gt;&lt;/p&gt;</description>
+&lt;p&gt;
+&lt;a href=&#34;http://xkcd.com/1594/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;link out&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Bye bye StackOverflow</title>
-      <link>https://bdcaf.github.io/2015/10/23/bye-bye-stackoverflow/</link>
+      <link>/post/2015/2015-10-23_so/</link>
       <pubDate>Fri, 23 Oct 2015 09:08:07 +0200</pubDate>
-      
-      <guid>https://bdcaf.github.io/2015/10/23/bye-bye-stackoverflow/</guid>
+      <guid>/post/2015/2015-10-23_so/</guid>
       <description>&lt;p&gt;Ich war früher großer Fan von StackOverflow.  Auch jetzt wann immer ich ein &lt;em&gt;einfaches&lt;/em&gt; Programmierproblem habe taucht die Seite mit möglichen Lösungen auf.&lt;/p&gt;
 &lt;p&gt;In letzter Zeit hat sich leider die Policy geändert so, dass ich es nicht mehr interessant finde.  Vor allem die strengen Relevanzkriterien machen eigentlich alle Fragestellungen die mich ursprünglich interessiert haben Offtopic.  Und lassen meiner Meinung nach nur noch Fragen zu die sich mit dem Manual problemlos lösen liesen.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Vim for Hugo</title>
-      <link>https://bdcaf.github.io/2015/09/27/vim-for-hugo/</link>
+      <link>/post/2015/20150927_vim_hugo/</link>
       <pubDate>Sun, 27 Sep 2015 10:47:54 +0200</pubDate>
-      
-      <guid>https://bdcaf.github.io/2015/09/27/vim-for-hugo/</guid>
-      <description>&lt;p&gt;Ich verwende ja den Sitegenerator &lt;a href=&#34;https://gohugo.io&#34;&gt;hugo&lt;/a&gt; für diese Seite.  Das herumgewurschtel auf der Kommandozeile ist aber etwas nervig.  Daher hab ich ein paar Befehle für Vim geschrieben um es etwas schmerzfreier zu machen.  Soweit ist es aber noch etwas schmerzhaft.&lt;/p&gt;
-&lt;p&gt;Auf der Anleitung &lt;a href=&#34;http://www.thegeekstuff.com/2008/12/vi-and-vim-autocommand-3-steps-to-add-custom-header-to-your-file/&#34;&gt;vi and vim autocommand&lt;/a&gt; hab ich ein paar Ideen gefunden.&lt;/p&gt;</description>
+      <guid>/post/2015/20150927_vim_hugo/</guid>
+      <description>&lt;p&gt;Ich verwende ja den Sitegenerator 
+&lt;a href=&#34;https://gohugo.io&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;hugo&lt;/a&gt; für diese Seite.  Das herumgewurschtel auf der Kommandozeile ist aber etwas nervig.  Daher hab ich ein paar Befehle für Vim geschrieben um es etwas schmerzfreier zu machen.  Soweit ist es aber noch etwas schmerzhaft.&lt;/p&gt;
+&lt;p&gt;Auf der Anleitung 
+&lt;a href=&#34;http://www.thegeekstuff.com/2008/12/vi-and-vim-autocommand-3-steps-to-add-custom-header-to-your-file/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;vi and vim autocommand&lt;/a&gt; hab ich ein paar Ideen gefunden.&lt;/p&gt;
+&lt;p&gt;Für die &lt;code&gt;vimrc&lt;/code&gt; hab ich nun folgendes autocmd entwickelt:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;augroup hugo
+  autocmd!
+  autocmd bufnewfile ~/Documents/Sites/c1891011/content/**/*.md so ~/Documents/Sites/c1891011/private/post_temp.md
+	\ | exe &amp;quot;2,7&amp;quot; . &#39;g/^title = .*$/s//title = &amp;quot;&#39; . expand(&amp;quot;%:t:r&amp;quot;) . &#39;&amp;quot;&#39; 
+	\ | exe &amp;quot;2,7&amp;quot; . &#39;g/^date =.*$/s//date = &amp;quot;&#39; .strftime(&amp;quot;%FT%T%z&amp;quot;) .&#39;&amp;quot;&#39;
+	\ | exe &amp;quot;2,7&amp;quot; . &#39;g/^date =/s/\(+\d\{2\}\):\?\(\d\{2\}\)/\1:\2/&#39;
+augroup END
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Wobei das Template &lt;code&gt;private/post_temp.md&lt;/code&gt; wie folgt aussieht:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;:insert
++++
+Categories = []
+Description = &amp;quot;&amp;quot;
+Tags = [&amp;quot;blog&amp;quot;]
+date = &amp;quot;insert Date here&amp;quot;
+title = &amp;quot;MyTitle&amp;quot;
++++
+
+.
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Wenn ich nun &lt;code&gt;:e content/post/hello.md&lt;/code&gt; ein Post erstelle wird eine
+Datei erstellt wie ich vorher mit &lt;code&gt;!hugo new post/hello.md&lt;/code&gt; erhalten
+habe.&lt;/p&gt;
+&lt;p&gt;Ganz glücklich bin ich noch nicht - ich hätte gerne eine Funktion die
+den Dateinamen so verändert, dass er mit dem jeweiligen Datum beginnt.
+Auch sollte ich so Sachen wie das
+Blogverzeichnis (&lt;code&gt;~/Documents/Sites/c1891011&lt;/code&gt;)  und den Bereich (&lt;code&gt;2,7&lt;/code&gt;) nicht fest eincoden.&lt;/p&gt;
+&lt;p&gt;Aber eins nach dem anderen.  In ferner Zukunft wird vielleicht mal ein
+Packet daraus.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Bilder von der Breath Vienna</title>
-      <link>https://bdcaf.github.io/2015/09/17/bilder-von-der-breath-vienna/</link>
+      <link>/post/2015/20150920_bilder_breathvienna/</link>
       <pubDate>Thu, 17 Sep 2015 11:32:05 +0200</pubDate>
-      
-      <guid>https://bdcaf.github.io/2015/09/17/bilder-von-der-breath-vienna/</guid>
-      <description>&lt;p&gt;Einige Impressionen von der &lt;a href=&#34;http://breathvienna.at&#34;&gt; BreathVienna &lt;/a&gt; Konferenz.&lt;/p&gt;</description>
+      <guid>/post/2015/20150920_bilder_breathvienna/</guid>
+      <description>&lt;p&gt;Einige Impressionen von der 
+&lt;a href=&#34;http://breathvienna.at&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt; BreathVienna &lt;/a&gt; Konferenz.&lt;/p&gt;
+&lt;figure&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;/~c1891011/photo/2015_breathvienna/DSC_0101.jpg&#34; data-caption=&#34;Prof. Buszewski and Pawel&#34;&gt;
+
+
+  &lt;img src=&#34;/~c1891011/photo/2015_breathvienna/DSC_0101.jpg&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    Prof. Buszewski and Pawel
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;/~c1891011/photo/2015_breathvienna/DSC_0104.jpg&#34; data-caption=&#34;Prof. Buszewski and Wojtek&#34;&gt;
+
+
+  &lt;img src=&#34;/~c1891011/photo/2015_breathvienna/DSC_0104.jpg&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    Prof. Buszewski and Wojtek
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;/~c1891011/photo/2015_breathvienna/DSC_0106.jpg&#34; data-caption=&#34;Karl und Julian&#34;&gt;
+
+
+  &lt;img src=&#34;/~c1891011/photo/2015_breathvienna/DSC_0106.jpg&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    Karl und Julian
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;/~c1891011/photo/2015_breathvienna/DSC_0112.jpg&#34; &gt;
+
+
+  &lt;img src=&#34;/~c1891011/photo/2015_breathvienna/DSC_0112.jpg&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+
+&lt;/figure&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;/~c1891011/photo/2015_breathvienna/DSC_0117.jpg&#34; &gt;
+
+
+  &lt;img src=&#34;/~c1891011/photo/2015_breathvienna/DSC_0117.jpg&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+
+&lt;/figure&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;/~c1891011/photo/2015_breathvienna/DSC_0124.jpg&#34; &gt;
+
+
+  &lt;img src=&#34;/~c1891011/photo/2015_breathvienna/DSC_0124.jpg&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+
+&lt;/figure&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;/~c1891011/photo/2015_breathvienna/DSC_0135.jpg&#34; data-caption=&#34;Nach der Tour&#34;&gt;
+
+
+  &lt;img src=&#34;/~c1891011/photo/2015_breathvienna/DSC_0135.jpg&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    Nach der Tour
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;/~c1891011/photo/2015_breathvienna/DSC_0138.jpg&#34; &gt;
+
+
+  &lt;img src=&#34;/~c1891011/photo/2015_breathvienna/DSC_0138.jpg&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+
+&lt;/figure&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;/~c1891011/photo/2015_breathvienna/DSC_0145.jpg&#34; &gt;
+
+
+  &lt;img src=&#34;/~c1891011/photo/2015_breathvienna/DSC_0145.jpg&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+
+&lt;/figure&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;/~c1891011/photo/2015_breathvienna/DSC_0146.jpg&#34; &gt;
+
+
+  &lt;img src=&#34;/~c1891011/photo/2015_breathvienna/DSC_0146.jpg&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+
+&lt;/figure&gt;</description>
     </item>
     
     <item>
       <title>nicht mehr ganz peinlich</title>
-      <link>https://bdcaf.github.io/2015/07/12/nicht-mehr-ganz-peinlich/</link>
+      <link>/post/2015/2015-07-12_not_too_bad/</link>
       <pubDate>Sun, 12 Jul 2015 11:33:34 +0200</pubDate>
-      
-      <guid>https://bdcaf.github.io/2015/07/12/nicht-mehr-ganz-peinlich/</guid>
-      <description>Die Seite nimmt langsam gestalt an. Ist nicht mehr ganz peinlich hoffe ich kann sie bald hochladen.</description>
+      <guid>/post/2015/2015-07-12_not_too_bad/</guid>
+      <description>&lt;p&gt;Die Seite nimmt langsam gestalt an. Ist nicht mehr ganz peinlich hoffe
+ich kann sie bald hochladen.&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>Aller Anfang ist schwer</title>
-      <link>https://bdcaf.github.io/2015/07/11/aller-anfang-ist-schwer/</link>
+      <link>/post/configuring_is_hard/</link>
       <pubDate>Sat, 11 Jul 2015 13:27:52 +0200</pubDate>
-      
-      <guid>https://bdcaf.github.io/2015/07/11/aller-anfang-ist-schwer/</guid>
-      <description>Die erste Konfiguration ist noch ganz mühsam!</description>
+      <guid>/post/configuring_is_hard/</guid>
+      <description>&lt;p&gt;Die erste Konfiguration ist noch ganz mühsam!&lt;/p&gt;
+</description>
     </item>
     
   </channel>
