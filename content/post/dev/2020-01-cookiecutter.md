@@ -7,6 +7,7 @@ tags:
 
 Having some more time at hand I was able to add long overdue alterations to [cookiecutter-r-data-analysis](https://github.com/bdcaf/cookiecutter-r-data-analysis).
 I left my template alone for about a year and during this time I have developed some new practices and given up on some others.
+
 <!--more-->
 
 In case you just got here: [Cookiecutter](https://github.com/audreyr/cookiecutter) is a templating system for programming projects. 
