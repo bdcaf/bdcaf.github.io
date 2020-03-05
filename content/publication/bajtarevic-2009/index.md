@@ -1,7 +1,7 @@
 ---
 title: "Noninvasive detection of lung cancer by analysis of exhaled breath."
 date: 2009-01-01
-publishDate: 2020-03-03T15:10:43.967610Z
+publishDate: 2020-03-05T16:22:27.820120Z
 authors: ["Amel Bajtarevic", "Clemens Ager", "Martin Pienz", "Martin Klieber", "Konrad Eugen Schwarz", "Magdalena Ligor", "Tomasz Ligor", "Wojciech Filipiak", "Hubert Denz", "Michael Fiegl", "Wolfgang Hilbe", "Wolfgang Weiss", "Peter Lukas", "Herbert Jamnig", "Martin Hackl", "Alfred Haidenberger", "Bogusław Buszewski", "Wolfram Miekisch", "Jochen K. Schubert", "Anton Amann"]
 publication_types: ["2"]
 abstract: ""

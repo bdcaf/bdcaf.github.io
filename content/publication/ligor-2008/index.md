@@ -1,7 +1,7 @@
 ---
 title: "The analysis of healthy volunteers exhaled breath by the use of solid-phase microextraction and GC-MS"
 date: 2008-01-01
-publishDate: 2020-03-03T15:10:43.974955Z
+publishDate: 2020-03-05T16:22:27.827906Z
 authors: ["Tomasz Ligor", "Magdalena Ligor", "Anton Amann", "Clemens Ager", "Miriam Bachler", "Alexander Dzien", "Bogusław Buszewski"]
 publication_types: ["2"]
 abstract: ""

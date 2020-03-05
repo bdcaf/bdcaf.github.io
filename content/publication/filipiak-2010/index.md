@@ -1,7 +1,7 @@
 ---
 title: "TD-GC-MS Analysis of Volatile Metabolites of Human Lung Cancer and Normal Cells In vitro"
 date: 2010-01-01
-publishDate: 2020-03-03T15:10:43.969190Z
+publishDate: 2020-03-05T16:22:27.822641Z
 authors: ["Wojciech Filipiak", "Andreas Sponring", "Anna Filipiak", "Clemens Ager", "Jochen K. Schubert", "Wolfram Miekisch", "Anton Amann", "Jakob Troppmair"]
 publication_types: ["2"]
 abstract: ""

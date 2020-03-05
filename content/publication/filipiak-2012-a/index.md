@@ -1,7 +1,7 @@
 ---
 title: "Dependence of exhaled breath composition on exogenous factors, smoking habits and exposure to air pollutants"
 date: 2012-01-01
-publishDate: 2020-03-03T15:10:43.970112Z
+publishDate: 2020-03-05T16:22:27.824078Z
 authors: ["Wojciech Filipiak", "Veronika Ruzsanyi", "Paweł Mochalski", "Anna Filipiak", "Amel Bajtarevic", "Clemens Ager", "Hubert Denz", "Wolfgang Hilbe", "Herbert Jamnig", "Martin Hackl", "Alexander Dzien", "Anton Amann"]
 publication_types: ["2"]
 abstract: ""
