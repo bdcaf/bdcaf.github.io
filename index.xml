@@ -17,11 +17,19 @@
       <link>/post/dev/tidytuesday/td20200225/</link>
       <pubDate>Tue, 25 Feb 2020 00:00:00 +0000</pubDate>
       <guid>/post/dev/tidytuesday/td20200225/</guid>
-      <description>&lt;p&gt;This is my first &lt;code&gt;#tidytuesday&lt;/code&gt; project.
-I had to spend more time than expected on data cleaning.&lt;/p&gt;
+      <description>&lt;p&gt;There is a Github repo 
+&lt;a href=&#34;https://github.com/bdcaf/td20200225&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;td20200225&lt;/a&gt;.
+I had to spend more time than expected on data cleaning.&lt;br&gt;
+The analysis is done in 
+  &lt;i class=&#34;fab fa-r-project  pr-1 fa-fw&#34;&gt;&lt;/i&gt; R with a &lt;code&gt;tidy&lt;/code&gt; work flow.&lt;/p&gt;
 
 &lt;figure&gt;
-    &lt;img src=&#34;/post/dev/tidytuesday/td20200225/big_tern-1.png&#34; alt=&#34;&#34;/&gt;&lt;figcaption&gt;Vacciantion ratio medial and other exclusions.&lt;/figcaption&gt;&lt;/figure&gt;
+    &lt;img src=&#34;/post/dev/tidytuesday/td20200225/big_tern-1.png&#34; alt=&#34;&#34;/&gt;&lt;figcaption&gt;Vaccination ratio medial and other exclusions.&lt;/figcaption&gt;&lt;/figure&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    This is my first &lt;code&gt;#tidytuesday&lt;/code&gt; project. My work flow isn&amp;rsquo;t settled.
+  &lt;/div&gt;
+&lt;/div&gt;
 &lt;p&gt;Note - I don&amp;rsquo;t know the US American system. So I speculate on some correlations.
 Mostly I suppose they don&amp;rsquo;t do vaccination against the parents will, but rather I&amp;rsquo;m seeing honest typos in the data.
 Not too motivated to organized secondary sources.&lt;/p&gt;
@@ -72,7 +80,7 @@ ggplot(measles, mapping=aes(x=mmr, y=replace_na(xmed,0))) +
 &lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;proc.time()-ptm
 &lt;/code&gt;&lt;/pre&gt;
 &lt;pre&gt;&lt;code&gt;##    user  system elapsed 
-##   0.841   0.055   1.243
+##   0.811   0.050   1.144
 &lt;/code&gt;&lt;/pre&gt;
 &lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;ggplot(measles, mapping=aes(x=mmr, y=replace_na(xper,0))) + 
   geom_point(alpha = 0.2) 
@@ -777,7 +785,7 @@ ggtern(cm2, aes(mmr,xmed,xother)) +
 proc.time()-ptm
 &lt;/code&gt;&lt;/pre&gt;
 &lt;pre&gt;&lt;code&gt;##    user  system elapsed 
-##   1.227   0.144   1.391
+##   1.254   0.131   1.399
 &lt;/code&gt;&lt;/pre&gt;</description>
     </item>
     
