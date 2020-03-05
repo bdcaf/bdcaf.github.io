@@ -5,12 +5,17 @@ date: "2020-02-25"
 link-citations: yes
 ---
 
-This is my first `#tidytuesday` project.
-I had to spend more time than expected on data cleaning. 
+There is a Github repo [td20200225](https://github.com/bdcaf/td20200225).
+I had to spend more time than expected on data cleaning.  
+The analysis is done in {{< icon name="r-project" pack="fab" >}} R with a `tidy` work flow.
 
-{{< bundle-figure name="big_tern-1.png" class=""  caption="Vacciantion ratio medial and other exclusions." >}}
+{{< bundle-figure name="big_tern-1.png" class=""  caption="Vaccination ratio medial and other exclusions." >}}
+
 
 <!--more-->
+{{% alert note %}}
+This is my first `#tidytuesday` project. My work flow isn't settled. 
+{{% /alert %}}
 
 Note - I don't know the US American system. So I speculate on some correlations. 
 Mostly I suppose they don't do vaccination against the parents will, but rather I'm seeing honest typos in the data.
@@ -83,7 +88,7 @@ proc.time()-ptm
 
 ```
 ##    user  system elapsed 
-##   0.841   0.055   1.243
+##   0.811   0.050   1.144
 ```
 
 ```r
@@ -428,7 +433,7 @@ proc.time()-ptm
 
 ```
 ##    user  system elapsed 
-##   1.227   0.144   1.391
+##   1.254   0.131   1.399
 ```
 
 
