@@ -13,6 +13,647 @@
     </image>
     
     <item>
+      <title>Ternary plots for development of COVID19</title>
+      <link>/post/dev/datascience/corona/</link>
+      <pubDate>Wed, 18 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>/post/dev/datascience/corona/</guid>
+      <description>&lt;p&gt;I found the inspiring post 
+&lt;a href=&#34;https://towardsdatascience.com/chasing-the-data-coronavirus-802d8a1c4e9a&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;corona virus data&lt;/a&gt;.
+Since I&amp;rsquo;m not too interested in the current [tidytuesday] data I decided to have my go at it.
+I&amp;rsquo;m currently studying 
+&lt;a href=&#34;https://en.wikipedia.org/wiki/Ternary_plot&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ternary plots&lt;/a&gt;.
+These are great to investigate &lt;em&gt;mixtures&lt;/em&gt; of three compounds.
+The combination of &lt;em&gt;active&lt;/em&gt;, &lt;em&gt;recovered&lt;/em&gt; and &lt;em&gt;letal&lt;/em&gt; cases seem to be a good fit.
+I created a Github repo 
+&lt;a href=&#34;https://github.com/bdcaf/Corona&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Corona&lt;/a&gt;.&lt;/p&gt;
+
+&lt;figure&gt;
+    &lt;img src=&#34;/post/dev/datascience/corona/top5plot-1.png&#34; alt=&#34;&#34;/&gt;&lt;figcaption&gt;Ternary plot 5 most infected countries&lt;/figcaption&gt;&lt;/figure&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    The data was imported from &lt;a href=&#34;https://github.com/CSSEGISandData/COVID-19&#34;&gt;CSSEGISandData/COVID-19&lt;/a&gt; which aggregates data from several sources.
+Data seems to be added daily, but not sure how reliable new sources are integrated.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;library(dplyr)
+library(tidyr)
+library(ggplot2)
+library(scales)
+library(ggtern)
+
+library(pander)
+panderOptions(&amp;quot;table.style&amp;quot;, &amp;quot;rmarkdown&amp;quot;)
+panderOptions(&amp;quot;table.split.table&amp;quot;, Inf)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;It has the confusing American date format and &lt;code&gt;/&lt;/code&gt; in the column labels.
+Required some cleaning.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;timeSeries &amp;lt;- readRDS(&amp;quot;data/timeSeries.RDS&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;properties&#34;&gt;Properties&lt;/h2&gt;
+&lt;p&gt;I like to get a feeling for the data before visualizing.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;allCountries &amp;lt;- unique(timeSeries$Country)
+pander(
+       filter(timeSeries, Country==&amp;quot;China&amp;quot;) %&amp;gt;% group_by(Province) %&amp;gt;% summarize(total = confirmed[n()]) %&amp;gt;% arrange(-total),
+caption = &amp;quot;Provinces in China sorted by last confirmed count.&amp;quot;
+)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;center&#34;&gt;Province&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;total&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Hubei&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;67799&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Guangdong&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;1364&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Henan&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;1273&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Zhejiang&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;1232&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Hunan&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;1018&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Anhui&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;990&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Jiangxi&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;935&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Shandong&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;761&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Jiangsu&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;631&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Chongqing&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;576&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Sichuan&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;540&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Heilongjiang&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;482&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Beijing&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;456&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Shanghai&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;358&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Hebei&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;318&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Fujian&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;296&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Guangxi&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;253&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Shaanxi&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;246&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Yunnan&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;176&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Hainan&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;168&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Hong Kong&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;162&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Guizhou&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;147&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Tianjin&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;136&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Gansu&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;133&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Shanxi&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;133&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Liaoning&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;125&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Jilin&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;93&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Xinjiang&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;76&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Inner Mongolia&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;75&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Ningxia&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;75&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Qinghai&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;18&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Macau&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;12&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Tibet&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;1&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Table: Provinces in China sorted by last confirmed count.&lt;/p&gt;
+&lt;p&gt;Just need to figure out if recovered/deaths are included in the confirmed.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;pander(
+timeSeries %&amp;gt;% filter(deaths==1) %&amp;gt;% arrange(confirmed) %&amp;gt;% head,
+caption = &amp;quot;Some entries with at least one death. There is still at least one confirmed - never 0.&amp;quot;
+)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;center&#34;&gt;Province&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;Country&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;Lat&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;Long&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;date&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;confirmed&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;recovered&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;deaths&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Hebei&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;China&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;39.55&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;116.1&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;2020-01-23&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;1&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;0&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;1&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Grant County, WA&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;US&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;47.2&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;-119.4&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;2020-03-09&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;1&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;0&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;1&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Santa Rosa County, FL&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;US&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;30.77&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;-86.98&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;2020-03-08&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;1&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;0&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;1&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Santa Rosa County, FL&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;US&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;30.77&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;-86.98&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;2020-03-09&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;1&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;0&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;1&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Guyana&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;5&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;-58.75&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;2020-03-12&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;1&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;0&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;1&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Guyana&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;5&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;-58.75&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;2020-03-13&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;1&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;0&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;1&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Table: Some entries with at least one death. There is still at least one confirmed - never 0.
+It seems so.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;pander(
+timeSeries %&amp;gt;% filter(recovered==1) %&amp;gt;% arrange(confirmed) %&amp;gt;% head,
+caption = &amp;quot;Some entries with at least one recovered. There is still at least one confirmed - never 0.&amp;quot;
+)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;center&#34;&gt;Province&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;Country&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;Lat&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;Long&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;date&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;confirmed&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;recovered&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;deaths&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Nepal&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;28.17&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;84.25&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;2020-02-12&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;1&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;1&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;0&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Nepal&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;28.17&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;84.25&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;2020-02-13&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;1&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;1&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;0&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Nepal&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;28.17&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;84.25&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;2020-02-14&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;1&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;1&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;0&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Nepal&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;28.17&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;84.25&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;2020-02-15&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;1&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;1&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;0&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Nepal&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;28.17&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;84.25&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;2020-02-16&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;1&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;1&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;0&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Nepal&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;28.17&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;84.25&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;2020-02-17&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;1&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;1&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;0&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Table: Some entries with at least one recovered. There is still at least one confirmed - never 0.
+It looks confirmed also includes the recovered and dead.&lt;/p&gt;
+&lt;p&gt;Final test if recovered + deaths &amp;gt; confirmed.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;timeSeries %&amp;gt;% filter(confirmed &amp;lt; recovered + deaths)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## # A tibble: 0 x 8
+## # … with 8 variables: Province &amp;lt;chr&amp;gt;, Country &amp;lt;chr&amp;gt;, Lat &amp;lt;dbl&amp;gt;, Long &amp;lt;dbl&amp;gt;,
+## #   date &amp;lt;date&amp;gt;, confirmed &amp;lt;int&amp;gt;, recovered &amp;lt;int&amp;gt;, deaths &amp;lt;int&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Not a single case otherwise. The assumption seems correct.&lt;/p&gt;
+&lt;h2 id=&#34;hubei-as-reference&#34;&gt;Hubei as reference&lt;/h2&gt;
+&lt;p&gt;I want to use Hubei as reference as it has the longest and best documented development.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;orgOneCountry &amp;lt;- function(df)
+  df %&amp;gt;%
+    mutate(active = confirmed - recovered - deaths) %&amp;gt;%
+    pivot_longer(cols=c(confirmed, recovered, deaths, active), names_to=&amp;quot;kind&amp;quot;, values_to=&amp;quot;count&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;plotCases &amp;lt;- function(country) {
+  ggplot(country, mapping = aes(x=date, y=count, color=kind)) + 
+  geom_line() +
+  coord_trans(y = &amp;quot;log1p&amp;quot;) +
+  theme_light() 
+}
+#  scale_y_continuous(limits = c(1, NA),
+#                   labels = trans_format(&amp;quot;log10&amp;quot;, math_format(10^.x)),
+#                   breaks = trans_breaks(&amp;quot;log10&amp;quot;, function(x) 10^x, n=4)) +
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;filter(timeSeries, Country==&amp;quot;China&amp;quot;, Province==&amp;quot;Hubei&amp;quot;) %&amp;gt;% 
+  orgOneCountry %&amp;gt;%
+  plotCases
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;figure&gt;
+    &lt;img src=&#34;/post/dev/datascience/corona/cases_in_hubei-1.png&#34; alt=&#34;&#34;/&gt;&lt;figcaption&gt;Reported cases in Hubei province.&lt;/figcaption&gt;&lt;/figure&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;filter(timeSeries, Country==&amp;quot;Italy&amp;quot;) %&amp;gt;% orgOneCountry %&amp;gt;%
+  plotCases
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;figure&gt;
+    &lt;img src=&#34;/post/dev/datascience/corona/unnamed-chunk-7-1.png&#34; alt=&#34;&#34;/&gt;&lt;figcaption&gt;Cases in Italy.&lt;/figcaption&gt;&lt;/figure&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;austria &amp;lt;- filter(timeSeries, Country==&amp;quot;Austria&amp;quot;) %&amp;gt;% orgOneCountry 
+  plotCases(austria)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;figure&gt;
+    &lt;img src=&#34;/post/dev/datascience/corona/unnamed-chunk-8-1.png&#34; alt=&#34;&#34;/&gt;&lt;figcaption&gt;Cases in Austria.&lt;/figcaption&gt;&lt;/figure&gt;
+&lt;h1 id=&#34;ternary&#34;&gt;ternary&lt;/h1&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;toRatios &amp;lt;- function(x)
+  mutate(.data=x,
+	 rRec =  recovered/confirmed,
+	 rDeath = deaths/confirmed) %&amp;gt;%
+  replace_na(list(rRec=0, rDeath=0)) %&amp;gt;%
+  mutate(rRem = 1 - rRec -rDeath)
+
+countryData &amp;lt;- timeSeries %&amp;gt;% 
+  group_by(Country, date) %&amp;gt;%
+  summarise_at(vars(confirmed, recovered, deaths), sum ) %&amp;gt;%
+  ungroup %&amp;gt;%
+  toRatios
+
+ternData &amp;lt;- timeSeries %&amp;gt;%
+  mutate(rRec = recovered/confirmed,
+	 rDeath = deaths/confirmed) %&amp;gt;%
+  replace_na(list(rRec=0, rDeath=0)) %&amp;gt;%
+  mutate(rRem = 1 - rRec -rDeath)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;For starters I would focus on Hubei province as it has had the longest development.
+It starts off with lots of active cases in the lower right corner, but now steadily moves to the left having about 4% lethality.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;d0 &amp;lt;- ternData %&amp;gt;% filter(Country == &amp;quot;China&amp;quot;, Province == &amp;quot;Hubei&amp;quot;)
+curPos  &amp;lt;- d0 %&amp;gt;% filter(row_number() == n())
+ggtern(data=d0,
+       aes(rRec,rDeath,rRem, size=confirmed)) + 
+geom_crosshair_tern(data = curPos, size = 0.3) +
+  geom_path(alpha = 0.5) + 
+  Tlab(&amp;quot;Deaths&amp;quot;, labelarrow=&amp;quot;Deaths&amp;quot;) +
+  Llab(&amp;quot;Recovered&amp;quot;, labelarrow=&amp;quot;Recovered&amp;quot;) +
+  Rlab(&amp;quot;Active&amp;quot;, labelarrow=&amp;quot;Active&amp;quot;) +
+  theme_light()
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;
+&lt;figure&gt;
+    &lt;img src=&#34;/post/dev/datascience/corona/unnamed-chunk-9-1.png&#34; alt=&#34;&#34;/&gt;&lt;figcaption&gt;Hubei Province development&lt;/figcaption&gt;&lt;/figure&gt;
+The black line follows the ratios.
+It starts to the lower right in the corner of &lt;em&gt;active&lt;/em&gt; cases, meaning almost all cases are active.
+There is a little moving around but over the course it moves to the left.
+At the end when there are no more active cases it will settle at the axis between &lt;em&gt;recovered&lt;/em&gt; and &lt;em&gt;Deaths&lt;/em&gt;.
+The trajectory seems to aim for 96% recovered, 4% deceased.&lt;/p&gt;
+&lt;p&gt;Zooming into the lower right corner to see the initial development.
+Finding outstanding dates where the ratio of active was a local maximum:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;pander(
+d0 %&amp;gt;% 
+  select(-Lat, -Long) %&amp;gt;%
+  filter(rRem &amp;gt; lag(rRem), rRem &amp;gt; lead(rRem)),
+caption = &amp;quot;Dates with local maxima of active ratio.&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;center&#34;&gt;Province&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;Country&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;date&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;confirmed&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;recovered&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;deaths&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;rRec&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;rDeath&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;rRem&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Hubei&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;China&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;2020-01-28&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;3554&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;80&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;125&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;0.02251&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;0.03517&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;0.9423&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Hubei&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;China&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;2020-01-30&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;4903&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;90&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;162&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;0.01836&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;0.03304&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;0.9486&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Hubei&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;China&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;2020-02-02&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;11177&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;295&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;350&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;0.02639&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;0.03131&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;0.9423&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Hubei&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;China&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;2020-02-13&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;48206&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;3459&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;1310&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;0.07175&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;0.02718&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;0.9011&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Table: Dates with local maxima of active ratio.
+Three dates at end of January and one in mid-February.
+If I recall correctly in mid-February the rules for classification were altered explaining the jump.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;curPos  &amp;lt;- d0 %&amp;gt;% filter(rRem &amp;gt; lag(rRem), rRem &amp;gt; lead(rRem)) %&amp;gt;%
+  mutate(date = as.factor(date))
+ggtern(data=d0,
+       aes(rRec,rDeath,rRem, size=confirmed)) + 
+geom_crosshair_tern(data = curPos, 
+		    mapping = aes(color=date), 
+		    size = 0.3) +
+  geom_path(alpha = 0.5) + 
+  theme_zoom_R(0.15) +
+  Tlab(&amp;quot;Deaths&amp;quot;, labelarrow=&amp;quot;Deaths&amp;quot;) +
+  Llab(&amp;quot;Recovered&amp;quot;, labelarrow=&amp;quot;Recovered&amp;quot;) +
+  Rlab(&amp;quot;Active&amp;quot;, labelarrow=&amp;quot;Active&amp;quot;) +
+  theme_light()
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;
+&lt;figure&gt;
+    &lt;img src=&#34;/post/dev/datascience/corona/unnamed-chunk-11-1.png&#34; alt=&#34;&#34;/&gt;&lt;figcaption&gt;Hubei Province, zoom&lt;/figcaption&gt;&lt;/figure&gt;
+The figure shows a &lt;em&gt;loop&lt;/em&gt; at the onset of disease.&lt;br&gt;
+Many countries show similar development. At the first few individual cases the curve is all over the place as each individual case has huge effect.
+After a sufficient number of cases are present statistics take over.
+Then first the number of active cases increases.
+There is some movement between deceased and recovered depending on the countries situation.&lt;/p&gt;
+&lt;p&gt;Hubeis development should dominate the development over all of China.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;d0 &amp;lt;- ternData %&amp;gt;% filter(Country == &amp;quot;China&amp;quot;, Province == &amp;quot;Hubei&amp;quot;) %&amp;gt;% 
+  select(Province, date, rRec, rDeath, rRem, confirmed)
+d1 &amp;lt;- countryData %&amp;gt;% filter(confirmed &amp;gt; 100, Country %in% c(&amp;quot;China&amp;quot;)) %&amp;gt;%
+  mutate(Province = &amp;quot;all China&amp;quot;) %&amp;gt;%
+  select(Province, date, rRec, rDeath, rRem, confirmed)
+ggtern(data= rbind(d0,d1),
+       aes(rRec,rDeath,rRem, size=confirmed, colour=Province)) + 
+  geom_path(alpha = 0.4) + 
+  theme_zoom_R(0.3) +
+  Tlab(&amp;quot;Deaths&amp;quot;, labelarrow=&amp;quot;Deaths&amp;quot;) +
+  Llab(&amp;quot;Recovered&amp;quot;, labelarrow=&amp;quot;Recovered&amp;quot;) +
+  Rlab(&amp;quot;Active&amp;quot;, labelarrow=&amp;quot;Active&amp;quot;) +
+  theme_light()
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;figure&gt;
+    &lt;img src=&#34;/post/dev/datascience/corona/unnamed-chunk-12-1.png&#34; alt=&#34;&#34;/&gt;&lt;figcaption&gt;Comparing the development of Hubei and all of China&lt;/figcaption&gt;&lt;/figure&gt;
+&lt;h3 id=&#34;countries&#34;&gt;Countries&lt;/h3&gt;
+&lt;p&gt;For clarity I exclude data points below 100 reported cases.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;topCountries &amp;lt;- countryData %&amp;gt;% 
+  group_by(Country) %&amp;gt;%
+  summarize(n_active = sum(confirmed &amp;gt; 0), 
+	    infected = confirmed[n()]) %&amp;gt;%
+  arrange(-infected) %&amp;gt;%
+  top_n(5)
+topData &amp;lt;- countryData %&amp;gt;% 
+  filter(Country %in% topCountries$Country, confirmed &amp;gt; 100)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;In the 5 countries with most infections Iran and Italy move quite around.
+Italy&amp;rsquo;s trajectory currently heads to a much higher death ratio and China.
+Iran started with high death ratio but now seems to get a trajectory close to the Chinese one.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;ggtern(data=topData,
+       aes(rRec,rDeath,rRem, size=confirmed, colour=Country)) + 
+  geom_path(alpha = 0.5) +
+  theme_zoom_R(0.5) +
+  Tlab(&amp;quot;Deaths&amp;quot;, labelarrow=&amp;quot;Deaths&amp;quot;) +
+  Llab(&amp;quot;Recovered&amp;quot;, labelarrow=&amp;quot;Recovered&amp;quot;) +
+  Rlab(&amp;quot;Active&amp;quot;, labelarrow=&amp;quot;Active&amp;quot;) + 
+  theme_light()
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;figure&gt;
+    &lt;img src=&#34;/post/dev/datascience/corona/top5plot-1.png&#34; alt=&#34;&#34;/&gt;&lt;figcaption&gt;Top 5 infectected Countries&lt;/figcaption&gt;&lt;/figure&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;ternPlotA &amp;lt;- function(countryList, zoomR=0.3){
+  myCountries &amp;lt;- countryData %&amp;gt;% 
+    filter(Country %in% countryList )
+
+  curPos &amp;lt;- myCountries %&amp;gt;% 
+    group_by(Country) %&amp;gt;%
+    filter(row_number() == n())
+  ggtern(data=myCountries,
+	 aes(rRec,rDeath,rRem, 
+	     colour=Country)) + 
+geom_path(alpha = 0.6) + 
+geom_crosshair_tern(data = curPos) +
+Tlab(&amp;quot;Deaths&amp;quot;, labelarrow=&amp;quot;Deaths&amp;quot;) +
+Llab(&amp;quot;Recovered&amp;quot;, labelarrow=&amp;quot;Recovered&amp;quot;) +
+Rlab(&amp;quot;Active&amp;quot;, labelarrow=&amp;quot;Active&amp;quot;) +
+theme_zoom_R(zoomR) +
+theme_light()
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;ternPlotA(c(&amp;quot;China&amp;quot;, 
+	    &amp;quot;Korea, South&amp;quot;, 
+	    &amp;quot;Japan&amp;quot;
+	    ),
+ zoomR=0.3)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;figure&gt;
+    &lt;img src=&#34;/post/dev/datascience/corona/unnamed-chunk-14-1.png&#34; alt=&#34;&#34;/&gt;&lt;figcaption&gt;South east asian countries. South Korea has outstanding low mortality.&lt;/figcaption&gt;&lt;/figure&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;ternPlotA(c(&amp;quot;Italy&amp;quot;, 
+	    &amp;quot;United Kingdom&amp;quot;, 
+	    &amp;quot;France&amp;quot;,
+	    &amp;quot;Spain&amp;quot;,
+	    &amp;quot;Germany&amp;quot;
+	    ),
+ zoomR=0.2)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;figure&gt;
+    &lt;img src=&#34;/post/dev/datascience/corona/unnamed-chunk-15-1.png&#34; alt=&#34;&#34;/&gt;&lt;figcaption&gt;European Main, Italy seems to have twice lethality of China. Spain and UK on the level of China. Germany almost not visible.&lt;/figcaption&gt;&lt;/figure&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;ternPlotA(c(
+	    &amp;quot;Germany&amp;quot;,
+	    &amp;quot;Austria&amp;quot;,
+	    &amp;quot;Switzerland&amp;quot;
+	    ),
+ zoomR=0.03)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;figure&gt;
+    &lt;img src=&#34;/post/dev/datascience/corona/unnamed-chunk-16-1.png&#34; alt=&#34;&#34;/&gt;&lt;figcaption&gt;European Central, all close together at low level. Austria and Germany overlap with Austria being a few days ahead. Switzerland having twice the mortality.&lt;/figcaption&gt;&lt;/figure&gt;
+&lt;h2 id=&#34;summary&#34;&gt;Summary&lt;/h2&gt;
+&lt;p&gt;Besides the east Asian countries most of the world seems to just get started on infection.
+Their ternary plots are still very noisy.
+The currently 2nd and 3rd most infected countries Italy and Iran.
+Italy seems to be on an upward trajectory.
+Iran had similar behavior a few days ago but now seems back to a trajectory as China.
+Meanwhile the Chinese trajectory seems to head for its final position.&lt;/p&gt;
+&lt;h3 id=&#34;usefulness&#34;&gt;Usefulness&lt;/h3&gt;
+&lt;p&gt;Considering the usefulness of the ternary plots. In the Hubei where only few more infections come in it is possible to estimate the worst and best case from the figure.
+At the moment all momenta seem to be horizontal to the left. It will be interesting if any country will develop an upward momentum and what could be the reason.
+The current one in Italy might be rooted in some systematic problems.
+I&amp;rsquo;m considering doing another set of ternary plots  comparing the total population, active and deceased ratios.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>TidyTuesday Measles Vaccination Data</title>
       <link>/post/dev/tidytuesday/td20200225/</link>
       <pubDate>Tue, 25 Feb 2020 00:00:00 +0000</pubDate>
