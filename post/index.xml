@@ -15,7 +15,7 @@
     <item>
       <title>Ternary plots for development of COVID19</title>
       <link>/post/dev/datascience/corona/</link>
-      <pubDate>Wed, 18 Mar 2020 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 19 Mar 2020 00:00:00 +0000</pubDate>
       <guid>/post/dev/datascience/corona/</guid>
       <description>&lt;p&gt;I found the inspiring post 
 &lt;a href=&#34;https://towardsdatascience.com/chasing-the-data-coronavirus-802d8a1c4e9a&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;corona virus data&lt;/a&gt;.
@@ -29,17 +29,13 @@ I created a Github repo
 
 &lt;figure&gt;
     &lt;img src=&#34;/post/dev/datascience/corona/top5plot-1.png&#34; alt=&#34;&#34;/&gt;&lt;figcaption&gt;Ternary plot 5 most infected countries&lt;/figcaption&gt;&lt;/figure&gt;
-&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    The data was imported from &lt;a href=&#34;https://github.com/CSSEGISandData/COVID-19&#34;&gt;CSSEGISandData/COVID-19&lt;/a&gt; which aggregates data from several sources.
-Data seems to be added daily, but not sure how reliable new sources are integrated.
-  &lt;/div&gt;
-&lt;/div&gt;
 &lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;library(dplyr)
 library(tidyr)
+
 library(ggplot2)
 library(scales)
 library(ggtern)
+library(emojifont)
 
 library(pander)
 panderOptions(&amp;quot;table.style&amp;quot;, &amp;quot;rmarkdown&amp;quot;)
@@ -49,6 +45,13 @@ panderOptions(&amp;quot;table.split.table&amp;quot;, Inf)
 Required some cleaning.&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;timeSeries &amp;lt;- readRDS(&amp;quot;data/timeSeries.RDS&amp;quot;)
 &lt;/code&gt;&lt;/pre&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    The data was imported from &lt;a href=&#34;https://github.com/CSSEGISandData/COVID-19&#34;&gt;CSSEGISandData/COVID-19&lt;/a&gt; which aggregates data from several sources.
+Data seems to be added daily, but not sure how reliable new sources are integrated.
+The displayed data was retrieved on 2020-03-19, the last recorded data point is from 2020-03-17.
+  &lt;/div&gt;
+&lt;/div&gt;
 &lt;h2 id=&#34;properties&#34;&gt;Properties&lt;/h2&gt;
 &lt;p&gt;I like to get a feeling for the data before visualizing.&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;allCountries &amp;lt;- unique(timeSeries$Country)
@@ -546,7 +549,7 @@ Many countries show similar development. At the first few individual cases the c
 After a sufficient number of cases are present statistics take over.
 Then first the number of active cases increases.
 There is some movement between deceased and recovered depending on the countries situation.&lt;/p&gt;
-&lt;p&gt;Hubeis development should dominate the development over all of China.&lt;/p&gt;
+&lt;p&gt;Hubei provinces development should dominate the development over all of China.&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;d0 &amp;lt;- ternData %&amp;gt;% filter(Country == &amp;quot;China&amp;quot;, Province == &amp;quot;Hubei&amp;quot;) %&amp;gt;% 
   select(Province, date, rRec, rDeath, rRem, confirmed)
 d1 &amp;lt;- countryData %&amp;gt;% filter(confirmed &amp;gt; 100, Country %in% c(&amp;quot;China&amp;quot;)) %&amp;gt;%
@@ -597,16 +600,21 @@ Iran started with high death ratio but now seems to get a trajectory close to th
   curPos &amp;lt;- myCountries %&amp;gt;% 
     group_by(Country) %&amp;gt;%
     filter(row_number() == n())
+
   ggtern(data=myCountries,
 	 aes(rRec,rDeath,rRem, 
 	     colour=Country)) + 
 geom_path(alpha = 0.6) + 
 geom_crosshair_tern(data = curPos) +
-Tlab(&amp;quot;Deaths&amp;quot;, labelarrow=&amp;quot;Deaths&amp;quot;) +
-Llab(&amp;quot;Recovered&amp;quot;, labelarrow=&amp;quot;Recovered&amp;quot;) +
-Rlab(&amp;quot;Active&amp;quot;, labelarrow=&amp;quot;Active&amp;quot;) +
+Tlab(&amp;quot;💀&amp;quot;, labelarrow=&amp;quot;Deaths&amp;quot;) +
+Llab(&amp;quot;😷&amp;quot;, labelarrow=&amp;quot;Recovered&amp;quot;) +
+Rlab(&amp;quot;🤧&amp;quot;, labelarrow=&amp;quot;Active&amp;quot;) +
 theme_zoom_R(zoomR) +
-theme_light()
+theme_light() + 
+theme(axis.title=element_text(size=16,  family=&amp;quot;EmojiOne&amp;quot;),
+      tern.axis.arrow.show = T,
+      tern.panel.grid.minor.show = F)
+
 }
 &lt;/code&gt;&lt;/pre&gt;
 &lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;ternPlotA(c(&amp;quot;China&amp;quot;, 
@@ -640,14 +648,19 @@ theme_light()
 &lt;figure&gt;
     &lt;img src=&#34;/post/dev/datascience/corona/unnamed-chunk-16-1.png&#34; alt=&#34;&#34;/&gt;&lt;figcaption&gt;European Central, all close together at low level. Austria and Germany overlap with Austria being a few days ahead. Switzerland having twice the mortality.&lt;/figcaption&gt;&lt;/figure&gt;
 &lt;h2 id=&#34;summary&#34;&gt;Summary&lt;/h2&gt;
+&lt;h3 id=&#34;usefulness&#34;&gt;Usefulness&lt;/h3&gt;
+&lt;p&gt;One can question the usefulness of such a visualization.
+It is hard to read the total number of cases from ternary plots. Situations with only single sick/deceased persons produce messy graphs.
+On the other hand it may help to see a pattern in the large scale.
+I also miss information about the relation to the total population.&lt;/p&gt;
+&lt;h3 id=&#34;possible-interpretations&#34;&gt;Possible Interpretations&lt;/h3&gt;
 &lt;p&gt;Besides the east Asian countries most of the world seems to just get started on infection.
 Their ternary plots are still very noisy.
 The currently 2nd and 3rd most infected countries Italy and Iran.
 Italy seems to be on an upward trajectory.
 Iran had similar behavior a few days ago but now seems back to a trajectory as China.
-Meanwhile the Chinese trajectory seems to head for its final position.&lt;/p&gt;
-&lt;h3 id=&#34;usefulness&#34;&gt;Usefulness&lt;/h3&gt;
-&lt;p&gt;Considering the usefulness of the ternary plots. In the Hubei where only few more infections come in it is possible to estimate the worst and best case from the figure.
+Meanwhile the Chinese trajectory seems to head for its final position.
+In the Hubei where only few more infections come in it is possible to estimate the worst and best case from the figure.
 At the moment all momenta seem to be horizontal to the left. It will be interesting if any country will develop an upward momentum and what could be the reason.
 The current one in Italy might be rooted in some systematic problems.
 I&amp;rsquo;m considering doing another set of ternary plots  comparing the total population, active and deceased ratios.&lt;/p&gt;</description>
