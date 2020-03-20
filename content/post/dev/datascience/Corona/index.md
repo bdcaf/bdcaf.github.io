@@ -17,6 +17,12 @@ I created a Github repo [Corona](https://github.com/bdcaf/Corona).
 <!--more-->
 
 
+{{% alert danger %}}
+In the process of improving the labeling I had to update ggplot2 to version 3.3. This broke ggtern. As it wasn't updated for several years ([last commit 2015-08-07](https://github.com/nicholasehamilton/ggtern)) I wouldn't expect an early fix. 
+Personally I will investigate for an alternative package or try to achieve the functionality with the newer ggplot2 capabilities.
+As of 2020-03-20 there will be no updates to this post for the near future.
+Also the code will not work with recent ggplot2!
+{{% /alert %}}
 
 ```r
 library(dplyr)
