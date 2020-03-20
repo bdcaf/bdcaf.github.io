@@ -29,6 +29,14 @@ I created a Github repo
 
 &lt;figure&gt;
     &lt;img src=&#34;/post/dev/datascience/corona/top5plot-1..svg&#34; alt=&#34;&#34;/&gt;&lt;figcaption&gt;Ternary plot 5 most infected countries&lt;/figcaption&gt;&lt;/figure&gt;
+&lt;div class=&#34;alert alert-danger&#34;&gt;
+  &lt;div&gt;
+    In the process of improving the labeling I had to update ggplot2 to version 3.3. This broke ggtern. As it wasn&amp;rsquo;t updated for several years (&lt;a href=&#34;https://github.com/nicholasehamilton/ggtern&#34;&gt;last commit 2015-08-07&lt;/a&gt;) I wouldn&amp;rsquo;t expect an early fix.
+Personally I will investigate for an alternative package or try to achieve the functionality with the newer ggplot2 capabilities.
+As of 2020-03-20 there will be no updates to this post for the near future.
+Also the code will not work with recent ggplot2!
+  &lt;/div&gt;
+&lt;/div&gt;
 &lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;library(dplyr)
 library(tidyr)
 

@@ -260,7 +260,7 @@ Corona.
     
       <meta property="article:published_time" content="2020-03-20T00:00:00&#43;00:00">
     
-    <meta property="article:modified_time" content="2020-03-20T11:01:21&#43;01:00">
+    <meta property="article:modified_time" content="2020-03-20T11:55:32&#43;01:00">
   
 
   
@@ -289,7 +289,7 @@ Corona.
   "headline": "Ternary plots for development of COVID19",
   
   "datePublished": "2020-03-20T00:00:00Z",
-  "dateModified": "2020-03-20T11:01:21+01:00",
+  "dateModified": "2020-03-20T11:55:32+01:00",
   
   "author": {
     "@type": "Person",
@@ -597,6 +597,14 @@ I created a Github repo
 
 <figure>
     <img src="/post/dev/datascience/corona/top5plot-1..svg" alt=""/><figcaption>Ternary plot 5 most infected countries</figcaption></figure>
+<div class="alert alert-danger">
+  <div>
+    In the process of improving the labeling I had to update ggplot2 to version 3.3. This broke ggtern. As it wasn&rsquo;t updated for several years (<a href="https://github.com/nicholasehamilton/ggtern">last commit 2015-08-07</a>) I wouldn&rsquo;t expect an early fix.
+Personally I will investigate for an alternative package or try to achieve the functionality with the newer ggplot2 capabilities.
+As of 2020-03-20 there will be no updates to this post for the near future.
+Also the code will not work with recent ggplot2!
+  </div>
+</div>
 <pre><code class="language-r">library(dplyr)
 library(tidyr)
 
