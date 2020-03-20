@@ -1,0 +1,68 @@
+## Properties
+I like to get a feeling for the data before visualizing.
+
+```{r}
+allCountries <- unique(timeSeries$Country)
+pander(
+       filter(timeSeries, Country=="China") %>% group_by(Province) %>% summarize(total = confirmed[n()]) %>% arrange(-total),
+caption = "Provinces in China sorted by last confirmed count."
+)
+```
+
+Just need to figure out if recovered/deaths are included in the confirmed.
+```{r}
+pander(
+timeSeries %>% filter(deaths==1) %>% arrange(confirmed) %>% head,
+caption = "Some entries with at least one death. There is still at least one confirmed - never 0."
+)
+```
+It seems so.
+```{r}
+pander(
+timeSeries %>% filter(recovered==1) %>% arrange(confirmed) %>% head,
+caption = "Some entries with at least one recovered. There is still at least one confirmed - never 0."
+)
+```
+It looks confirmed also includes the recovered and dead.
+
+Final test if recovered + deaths > confirmed.
+```{r}
+timeSeries %>% filter(confirmed < recovered + deaths)
+```
+Not a single case otherwise. The assumption seems correct.
+
+
+## Hubei as reference
+
+I want to use Hubei as reference as it has the longest and best documented development.
+
+```{r hubeiData}
+orgOneCountry <- function(df)
+  df %>%
+    mutate(active = confirmed - recovered - deaths) %>%
+    pivot_longer(cols=c(confirmed, recovered, deaths, active), names_to="kind", values_to="count")
+```
+```{r define_plot_one_country}
+plotCases <- function(country) {
+  ggplot(country, mapping = aes(x=date, y=count, color=kind)) + 
+  geom_line() +
+  coord_trans(y = "log1p") +
+  theme_light() 
+}
+#  scale_y_continuous(limits = c(1, NA),
+#                   labels = trans_format("log10", math_format(10^.x)),
+#                   breaks = trans_breaks("log10", function(x) 10^x, n=4)) +
+```
+```{r cases_in_hubei, fig.cap="Reported cases in Hubei province."}
+filter(timeSeries, Country=="China", Province=="Hubei") %>% 
+  orgOneCountry %>%
+  plotCases
+```
+```{r, fig.cap="Cases in Italy."}
+filter(timeSeries, Country=="Italy") %>% orgOneCountry %>%
+  plotCases
+```
+```{r, fig.cap="Cases in Austria."}
+austria <- filter(timeSeries, Country=="Austria") %>% orgOneCountry 
+  plotCases(austria)
+```

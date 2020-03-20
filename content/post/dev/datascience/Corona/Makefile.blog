@@ -1,0 +1,14 @@
+$(REPORT_DIR)/%/index.md : doc/%/index.Rmd
+	-mkdir -p $(@D)
+	$(knitBase) -e "knit('$<', '$@')"
+	sed -i.bak -E 's:^!\[([^#]*)#?(.*)\]\($(@D)/(.*)\):{{< bundle-figure name="\3" class="\2"  caption="\1" >}}:g' $@ 
+
+BLOGDIR:=~/Code/site/bdcaf/content/post/dev/datascience
+BLOGLOC:=$(BLOGDIR)/$(shell basename `pwd`)
+
+.PHONY: blogclean
+blogclean:
+	rm -r $(BLOGLOC)/*
+toblog: blogclean $(REPORT_DIR)/post/index.md
+	-mkdir -p $(BLOGLOC)
+	cp -r $(<D)/* $(BLOGLOC)

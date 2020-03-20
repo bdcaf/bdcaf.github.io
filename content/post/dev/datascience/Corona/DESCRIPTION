@@ -1,0 +1,13 @@
+Package: Corona
+Title: Wrapper for Corona
+Version: 0.1.0
+Authors@R: 
+    person(given = "Clemens",
+           family = "Ager",
+           role = c("aut", "cre"),
+           email = "clemens.ager@a1.net",
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: This package is a wrapper for Corona.
+License: What license it uses
+Encoding: UTF-8
+LazyData: true

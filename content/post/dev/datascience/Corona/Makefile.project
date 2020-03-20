@@ -1,0 +1,4 @@
+# data dependencies
+data/timeSeries.RDS: data-raw/time_series_19-covid-Confirmed.csv.gz data-raw/time_series_19-covid-Deaths.csv.gz data-raw/time_series_19-covid-Recovered.csv.gz
+
+# script dependencies

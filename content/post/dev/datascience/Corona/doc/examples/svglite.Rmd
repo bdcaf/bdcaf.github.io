@@ -1,0 +1,51 @@
+# Example emoji with svg
+
+```{r load_libraries}
+library(dplyr)
+library(tidyr)
+
+library(ggplot2)
+library(scales)
+library(ggtern)
+
+library(emojifont)
+load.emojifont('EmojiOne.ttf')
+
+library(fontquiver)
+#fonts <- fontquiver::font_families("Liberation")
+#fonts$symbol$symbol <- fontquiver::font_symbol("Symbola")
+
+# fontquiver::font_symbol("EmojiOne")
+
+library(svglite)
+knitr::opts_chunk$set(
+		      dev = "svglite",
+		      dev.args = list(),
+		      fig.ext = ".svg"
+)
+
+
+```
+
+```{r configEmojiFont, include=T, eval=T}
+# see https://mran.microsoft.com/snapshot/2016-07-03/web/packages/emojifont/vignettes/emojifont.html
+list.emojifonts()
+load.emojifont('EmojiOne.ttf')
+
+# test
+set.seed(123)
+x <- rnorm(10)
+set.seed(321)
+y <- rnorm(10)
+plot(x, y, cex=0)
+text(x, y, labels=emoji('cow'), cex=1.5, col='steelblue', family='Apple Color Emoji')
+
+#
+d <- data.frame(x=x, y=y,
+     label = sample(c(emoji('cow'), emoji('camel')), 10, replace=TRUE),
+     type = sample(LETTERS[1:3], 10, replace=TRUE))
+
+ggplot(d, aes(x, y, color=type, label=label)) + 
+    geom_text(family="Apple Color Emoji", size=6)
+```
+
