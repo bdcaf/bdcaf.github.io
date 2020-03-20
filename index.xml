@@ -14,9 +14,9 @@
     
     <item>
       <title>Ternary plots for development of COVID19</title>
-      <link>/post/dev/datascience/corona/</link>
-      <pubDate>Thu, 19 Mar 2020 00:00:00 +0000</pubDate>
-      <guid>/post/dev/datascience/corona/</guid>
+      <link>/post/dev/datascience/corona/render/post/</link>
+      <pubDate>Fri, 20 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>/post/dev/datascience/corona/render/post/</guid>
       <description>&lt;p&gt;I found the inspiring post 
 &lt;a href=&#34;https://towardsdatascience.com/chasing-the-data-coronavirus-802d8a1c4e9a&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;corona virus data&lt;/a&gt;.
 Since I&amp;rsquo;m not too interested in the current [tidytuesday] data I decided to have my go at it.
@@ -28,18 +28,20 @@ I created a Github repo
 &lt;a href=&#34;https://github.com/bdcaf/Corona&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Corona&lt;/a&gt;.&lt;/p&gt;
 
 &lt;figure&gt;
-    &lt;img src=&#34;/post/dev/datascience/corona/top5plot-1.png&#34; alt=&#34;&#34;/&gt;&lt;figcaption&gt;Ternary plot 5 most infected countries&lt;/figcaption&gt;&lt;/figure&gt;
+    &lt;img src=&#34;/post/dev/datascience/corona/render/post/top5plot-1..svg&#34; alt=&#34;&#34;/&gt;&lt;figcaption&gt;Ternary plot 5 most infected countries&lt;/figcaption&gt;&lt;/figure&gt;
 &lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;library(dplyr)
 library(tidyr)
 
 library(ggplot2)
 library(scales)
 library(ggtern)
-library(emojifont)
 
-library(pander)
-panderOptions(&amp;quot;table.style&amp;quot;, &amp;quot;rmarkdown&amp;quot;)
-panderOptions(&amp;quot;table.split.table&amp;quot;, Inf)
+library(svglite)
+knitr::opts_chunk$set(
+		      dev = &amp;quot;svglite&amp;quot;,
+		      dev.args = list(),
+		      fig.ext = &amp;quot;.svg&amp;quot;
+)
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;It has the confusing American date format and &lt;code&gt;/&lt;/code&gt; in the column labels.
 Required some cleaning.&lt;/p&gt;
@@ -49,372 +51,10 @@ Required some cleaning.&lt;/p&gt;
   &lt;div&gt;
     The data was imported from &lt;a href=&#34;https://github.com/CSSEGISandData/COVID-19&#34;&gt;CSSEGISandData/COVID-19&lt;/a&gt; which aggregates data from several sources.
 Data seems to be added daily, but not sure how reliable new sources are integrated.
-The displayed data was retrieved on 2020-03-19, the last recorded data point is from 2020-03-17.
+The displayed data was retrieved on 2020-03-20, the last recorded data point is from 2020-03-19.
   &lt;/div&gt;
 &lt;/div&gt;
-&lt;h2 id=&#34;properties&#34;&gt;Properties&lt;/h2&gt;
-&lt;p&gt;I like to get a feeling for the data before visualizing.&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;allCountries &amp;lt;- unique(timeSeries$Country)
-pander(
-       filter(timeSeries, Country==&amp;quot;China&amp;quot;) %&amp;gt;% group_by(Province) %&amp;gt;% summarize(total = confirmed[n()]) %&amp;gt;% arrange(-total),
-caption = &amp;quot;Provinces in China sorted by last confirmed count.&amp;quot;
-)
-&lt;/code&gt;&lt;/pre&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th align=&#34;center&#34;&gt;Province&lt;/th&gt;
-&lt;th align=&#34;center&#34;&gt;total&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;Hubei&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;67799&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;Guangdong&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;1364&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;Henan&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;1273&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;Zhejiang&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;1232&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;Hunan&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;1018&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;Anhui&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;990&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;Jiangxi&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;935&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;Shandong&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;761&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;Jiangsu&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;631&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;Chongqing&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;576&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;Sichuan&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;540&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;Heilongjiang&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;482&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;Beijing&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;456&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;Shanghai&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;358&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;Hebei&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;318&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;Fujian&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;296&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;Guangxi&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;253&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;Shaanxi&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;246&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;Yunnan&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;176&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;Hainan&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;168&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;Hong Kong&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;162&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;Guizhou&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;147&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;Tianjin&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;136&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;Gansu&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;133&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;Shanxi&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;133&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;Liaoning&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;125&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;Jilin&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;93&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;Xinjiang&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;76&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;Inner Mongolia&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;75&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;Ningxia&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;75&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;Qinghai&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;18&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;Macau&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;12&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;Tibet&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;1&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;p&gt;Table: Provinces in China sorted by last confirmed count.&lt;/p&gt;
-&lt;p&gt;Just need to figure out if recovered/deaths are included in the confirmed.&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;pander(
-timeSeries %&amp;gt;% filter(deaths==1) %&amp;gt;% arrange(confirmed) %&amp;gt;% head,
-caption = &amp;quot;Some entries with at least one death. There is still at least one confirmed - never 0.&amp;quot;
-)
-&lt;/code&gt;&lt;/pre&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th align=&#34;center&#34;&gt;Province&lt;/th&gt;
-&lt;th align=&#34;center&#34;&gt;Country&lt;/th&gt;
-&lt;th align=&#34;center&#34;&gt;Lat&lt;/th&gt;
-&lt;th align=&#34;center&#34;&gt;Long&lt;/th&gt;
-&lt;th align=&#34;center&#34;&gt;date&lt;/th&gt;
-&lt;th align=&#34;center&#34;&gt;confirmed&lt;/th&gt;
-&lt;th align=&#34;center&#34;&gt;recovered&lt;/th&gt;
-&lt;th align=&#34;center&#34;&gt;deaths&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;Hebei&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;China&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;39.55&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;116.1&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;2020-01-23&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;1&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;0&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;1&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;Grant County, WA&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;US&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;47.2&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;-119.4&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;2020-03-09&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;1&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;0&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;1&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;Santa Rosa County, FL&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;US&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;30.77&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;-86.98&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;2020-03-08&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;1&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;0&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;1&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;Santa Rosa County, FL&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;US&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;30.77&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;-86.98&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;2020-03-09&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;1&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;0&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;1&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;Guyana&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;5&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;-58.75&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;2020-03-12&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;1&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;0&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;1&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;Guyana&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;5&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;-58.75&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;2020-03-13&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;1&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;0&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;1&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;p&gt;Table: Some entries with at least one death. There is still at least one confirmed - never 0.
-It seems so.&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;pander(
-timeSeries %&amp;gt;% filter(recovered==1) %&amp;gt;% arrange(confirmed) %&amp;gt;% head,
-caption = &amp;quot;Some entries with at least one recovered. There is still at least one confirmed - never 0.&amp;quot;
-)
-&lt;/code&gt;&lt;/pre&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th align=&#34;center&#34;&gt;Province&lt;/th&gt;
-&lt;th align=&#34;center&#34;&gt;Country&lt;/th&gt;
-&lt;th align=&#34;center&#34;&gt;Lat&lt;/th&gt;
-&lt;th align=&#34;center&#34;&gt;Long&lt;/th&gt;
-&lt;th align=&#34;center&#34;&gt;date&lt;/th&gt;
-&lt;th align=&#34;center&#34;&gt;confirmed&lt;/th&gt;
-&lt;th align=&#34;center&#34;&gt;recovered&lt;/th&gt;
-&lt;th align=&#34;center&#34;&gt;deaths&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;Nepal&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;28.17&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;84.25&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;2020-02-12&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;1&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;1&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;0&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;Nepal&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;28.17&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;84.25&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;2020-02-13&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;1&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;1&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;0&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;Nepal&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;28.17&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;84.25&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;2020-02-14&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;1&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;1&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;0&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;Nepal&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;28.17&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;84.25&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;2020-02-15&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;1&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;1&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;0&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;Nepal&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;28.17&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;84.25&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;2020-02-16&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;1&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;1&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;0&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;Nepal&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;28.17&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;84.25&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;2020-02-17&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;1&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;1&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;0&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;p&gt;Table: Some entries with at least one recovered. There is still at least one confirmed - never 0.
-It looks confirmed also includes the recovered and dead.&lt;/p&gt;
-&lt;p&gt;Final test if recovered + deaths &amp;gt; confirmed.&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;timeSeries %&amp;gt;% filter(confirmed &amp;lt; recovered + deaths)
-&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## # A tibble: 0 x 8
-## # … with 8 variables: Province &amp;lt;chr&amp;gt;, Country &amp;lt;chr&amp;gt;, Lat &amp;lt;dbl&amp;gt;, Long &amp;lt;dbl&amp;gt;,
-## #   date &amp;lt;date&amp;gt;, confirmed &amp;lt;int&amp;gt;, recovered &amp;lt;int&amp;gt;, deaths &amp;lt;int&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Not a single case otherwise. The assumption seems correct.&lt;/p&gt;
-&lt;h2 id=&#34;hubei-as-reference&#34;&gt;Hubei as reference&lt;/h2&gt;
-&lt;p&gt;I want to use Hubei as reference as it has the longest and best documented development.&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;orgOneCountry &amp;lt;- function(df)
-  df %&amp;gt;%
-    mutate(active = confirmed - recovered - deaths) %&amp;gt;%
-    pivot_longer(cols=c(confirmed, recovered, deaths, active), names_to=&amp;quot;kind&amp;quot;, values_to=&amp;quot;count&amp;quot;)
-&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;plotCases &amp;lt;- function(country) {
-  ggplot(country, mapping = aes(x=date, y=count, color=kind)) + 
-  geom_line() +
-  coord_trans(y = &amp;quot;log1p&amp;quot;) +
-  theme_light() 
-}
-#  scale_y_continuous(limits = c(1, NA),
-#                   labels = trans_format(&amp;quot;log10&amp;quot;, math_format(10^.x)),
-#                   breaks = trans_breaks(&amp;quot;log10&amp;quot;, function(x) 10^x, n=4)) +
-&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;filter(timeSeries, Country==&amp;quot;China&amp;quot;, Province==&amp;quot;Hubei&amp;quot;) %&amp;gt;% 
-  orgOneCountry %&amp;gt;%
-  plotCases
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;figure&gt;
-    &lt;img src=&#34;/post/dev/datascience/corona/cases_in_hubei-1.png&#34; alt=&#34;&#34;/&gt;&lt;figcaption&gt;Reported cases in Hubei province.&lt;/figcaption&gt;&lt;/figure&gt;
-&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;filter(timeSeries, Country==&amp;quot;Italy&amp;quot;) %&amp;gt;% orgOneCountry %&amp;gt;%
-  plotCases
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;figure&gt;
-    &lt;img src=&#34;/post/dev/datascience/corona/unnamed-chunk-7-1.png&#34; alt=&#34;&#34;/&gt;&lt;figcaption&gt;Cases in Italy.&lt;/figcaption&gt;&lt;/figure&gt;
-&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;austria &amp;lt;- filter(timeSeries, Country==&amp;quot;Austria&amp;quot;) %&amp;gt;% orgOneCountry 
-  plotCases(austria)
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;figure&gt;
-    &lt;img src=&#34;/post/dev/datascience/corona/unnamed-chunk-8-1.png&#34; alt=&#34;&#34;/&gt;&lt;figcaption&gt;Cases in Austria.&lt;/figcaption&gt;&lt;/figure&gt;
-&lt;h1 id=&#34;ternary&#34;&gt;ternary&lt;/h1&gt;
+&lt;h1 id=&#34;ternary-plots&#34;&gt;Ternary plots&lt;/h1&gt;
 &lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;toRatios &amp;lt;- function(x)
   mutate(.data=x,
 	 rRec =  recovered/confirmed,
@@ -441,15 +81,18 @@ curPos  &amp;lt;- d0 %&amp;gt;% filter(row_number() == n())
 ggtern(data=d0,
        aes(rRec,rDeath,rRem, size=confirmed)) + 
 geom_crosshair_tern(data = curPos, size = 0.3) +
-  geom_path(alpha = 0.5) + 
-  Tlab(&amp;quot;Deaths&amp;quot;, labelarrow=&amp;quot;Deaths&amp;quot;) +
-  Llab(&amp;quot;Recovered&amp;quot;, labelarrow=&amp;quot;Recovered&amp;quot;) +
-  Rlab(&amp;quot;Active&amp;quot;, labelarrow=&amp;quot;Active&amp;quot;) +
-  theme_light()
+geom_path(alpha = 0.5) + 
+Tlab(&amp;quot;💀&amp;quot;, labelarrow=&amp;quot;Deaths&amp;quot;) +
+Llab(&amp;quot;😷&amp;quot;, labelarrow=&amp;quot;Recovered&amp;quot;) +
+Rlab(&amp;quot;🤧&amp;quot;, labelarrow=&amp;quot;Active&amp;quot;) +
+theme_light() +
+theme(axis.title = element_text(size=16, family=&amp;quot;Apple Color Emoji&amp;quot;),
+      tern.axis.arrow.show = T,
+      tern.panel.grid.minor.show = F) 
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;
 &lt;figure&gt;
-    &lt;img src=&#34;/post/dev/datascience/corona/unnamed-chunk-9-1.png&#34; alt=&#34;&#34;/&gt;&lt;figcaption&gt;Hubei Province development&lt;/figcaption&gt;&lt;/figure&gt;
+    &lt;img src=&#34;/post/dev/datascience/corona/render/post/unnamed-chunk-3-1..svg&#34; alt=&#34;&#34;/&gt;&lt;figcaption&gt;Hubei Province development&lt;/figcaption&gt;&lt;/figure&gt;
 The black line follows the ratios.
 It starts to the lower right in the corner of &lt;em&gt;active&lt;/em&gt; cases, meaning almost all cases are active.
 There is a little moving around but over the course it moves to the left.
@@ -536,14 +179,17 @@ geom_crosshair_tern(data = curPos,
 		    size = 0.3) +
   geom_path(alpha = 0.5) + 
   theme_zoom_R(0.15) +
-  Tlab(&amp;quot;Deaths&amp;quot;, labelarrow=&amp;quot;Deaths&amp;quot;) +
-  Llab(&amp;quot;Recovered&amp;quot;, labelarrow=&amp;quot;Recovered&amp;quot;) +
-  Rlab(&amp;quot;Active&amp;quot;, labelarrow=&amp;quot;Active&amp;quot;) +
-  theme_light()
+Tlab(&amp;quot;💀&amp;quot;, labelarrow=&amp;quot;Deaths&amp;quot;) +
+Llab(&amp;quot;😷&amp;quot;, labelarrow=&amp;quot;Recovered&amp;quot;) +
+Rlab(&amp;quot;🤧&amp;quot;, labelarrow=&amp;quot;Active&amp;quot;) +
+theme_light() +
+theme(axis.title=element_text(size=16,  family=&amp;quot;Apple Color Emoji&amp;quot;),
+      tern.axis.arrow.show = T,
+      tern.panel.grid.minor.show = F) 
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;
 &lt;figure&gt;
-    &lt;img src=&#34;/post/dev/datascience/corona/unnamed-chunk-11-1.png&#34; alt=&#34;&#34;/&gt;&lt;figcaption&gt;Hubei Province, zoom&lt;/figcaption&gt;&lt;/figure&gt;
+    &lt;img src=&#34;/post/dev/datascience/corona/render/post/unnamed-chunk-5-1..svg&#34; alt=&#34;&#34;/&gt;&lt;figcaption&gt;Hubei Province, zoom&lt;/figcaption&gt;&lt;/figure&gt;
 The figure shows a &lt;em&gt;loop&lt;/em&gt; at the onset of disease.&lt;br&gt;
 Many countries show similar development. At the first few individual cases the curve is all over the place as each individual case has huge effect.
 After a sufficient number of cases are present statistics take over.
@@ -559,14 +205,17 @@ ggtern(data= rbind(d0,d1),
        aes(rRec,rDeath,rRem, size=confirmed, colour=Province)) + 
   geom_path(alpha = 0.4) + 
   theme_zoom_R(0.3) +
-  Tlab(&amp;quot;Deaths&amp;quot;, labelarrow=&amp;quot;Deaths&amp;quot;) +
-  Llab(&amp;quot;Recovered&amp;quot;, labelarrow=&amp;quot;Recovered&amp;quot;) +
-  Rlab(&amp;quot;Active&amp;quot;, labelarrow=&amp;quot;Active&amp;quot;) +
-  theme_light()
+Tlab(&amp;quot;💀&amp;quot;, labelarrow=&amp;quot;Deaths&amp;quot;) +
+Llab(&amp;quot;😷&amp;quot;, labelarrow=&amp;quot;Recovered&amp;quot;) +
+Rlab(&amp;quot;🤧&amp;quot;, labelarrow=&amp;quot;Active&amp;quot;) +
+theme_light() +
+theme(axis.title=element_text(size=16,  family=&amp;quot;Apple Color Emoji&amp;quot;),
+      tern.axis.arrow.show = T,
+      tern.panel.grid.minor.show = F) 
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;figure&gt;
-    &lt;img src=&#34;/post/dev/datascience/corona/unnamed-chunk-12-1.png&#34; alt=&#34;&#34;/&gt;&lt;figcaption&gt;Comparing the development of Hubei and all of China&lt;/figcaption&gt;&lt;/figure&gt;
+    &lt;img src=&#34;/post/dev/datascience/corona/render/post/unnamed-chunk-6-1..svg&#34; alt=&#34;&#34;/&gt;&lt;figcaption&gt;Comparing the development of Hubei and all of China&lt;/figcaption&gt;&lt;/figure&gt;
 &lt;h3 id=&#34;countries&#34;&gt;Countries&lt;/h3&gt;
 &lt;p&gt;For clarity I exclude data points below 100 reported cases.&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;topCountries &amp;lt;- countryData %&amp;gt;% 
@@ -585,14 +234,17 @@ Iran started with high death ratio but now seems to get a trajectory close to th
        aes(rRec,rDeath,rRem, size=confirmed, colour=Country)) + 
   geom_path(alpha = 0.5) +
   theme_zoom_R(0.5) +
-  Tlab(&amp;quot;Deaths&amp;quot;, labelarrow=&amp;quot;Deaths&amp;quot;) +
-  Llab(&amp;quot;Recovered&amp;quot;, labelarrow=&amp;quot;Recovered&amp;quot;) +
-  Rlab(&amp;quot;Active&amp;quot;, labelarrow=&amp;quot;Active&amp;quot;) + 
-  theme_light()
+Tlab(&amp;quot;💀&amp;quot;, labelarrow=&amp;quot;Deaths&amp;quot;) +
+Llab(&amp;quot;😷&amp;quot;, labelarrow=&amp;quot;Recovered&amp;quot;) +
+Rlab(&amp;quot;🤧&amp;quot;, labelarrow=&amp;quot;Active&amp;quot;) +
+theme_light() +
+theme(axis.title=element_text(size=16,  family=&amp;quot;Apple Color Emoji&amp;quot;),
+      tern.axis.arrow.show = T,
+      tern.panel.grid.minor.show = F) 
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;figure&gt;
-    &lt;img src=&#34;/post/dev/datascience/corona/top5plot-1.png&#34; alt=&#34;&#34;/&gt;&lt;figcaption&gt;Top 5 infectected Countries&lt;/figcaption&gt;&lt;/figure&gt;
+    &lt;img src=&#34;/post/dev/datascience/corona/render/post/top5plot-1..svg&#34; alt=&#34;&#34;/&gt;&lt;figcaption&gt;Top 5 infectected Countries&lt;/figcaption&gt;&lt;/figure&gt;
 &lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;ternPlotA &amp;lt;- function(countryList, zoomR=0.3){
   myCountries &amp;lt;- countryData %&amp;gt;% 
     filter(Country %in% countryList )
@@ -611,7 +263,7 @@ Llab(&amp;quot;😷&amp;quot;, labelarrow=&amp;quot;Recovered&amp;quot;) +
 Rlab(&amp;quot;🤧&amp;quot;, labelarrow=&amp;quot;Active&amp;quot;) +
 theme_zoom_R(zoomR) +
 theme_light() + 
-theme(axis.title=element_text(size=16,  family=&amp;quot;EmojiOne&amp;quot;),
+theme(axis.title=element_text(size=16,  family=&amp;quot;Apple Color Emoji&amp;quot;),
       tern.axis.arrow.show = T,
       tern.panel.grid.minor.show = F)
 
@@ -625,7 +277,7 @@ theme(axis.title=element_text(size=16,  family=&amp;quot;EmojiOne&amp;quot;),
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;figure&gt;
-    &lt;img src=&#34;/post/dev/datascience/corona/unnamed-chunk-14-1.png&#34; alt=&#34;&#34;/&gt;&lt;figcaption&gt;South east asian countries. South Korea has outstanding low mortality.&lt;/figcaption&gt;&lt;/figure&gt;
+    &lt;img src=&#34;/post/dev/datascience/corona/render/post/unnamed-chunk-8-1..svg&#34; alt=&#34;&#34;/&gt;&lt;figcaption&gt;South east asian countries. South Korea has outstanding low mortality.&lt;/figcaption&gt;&lt;/figure&gt;
 &lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;ternPlotA(c(&amp;quot;Italy&amp;quot;, 
 	    &amp;quot;United Kingdom&amp;quot;, 
 	    &amp;quot;France&amp;quot;,
@@ -636,7 +288,7 @@ theme(axis.title=element_text(size=16,  family=&amp;quot;EmojiOne&amp;quot;),
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;figure&gt;
-    &lt;img src=&#34;/post/dev/datascience/corona/unnamed-chunk-15-1.png&#34; alt=&#34;&#34;/&gt;&lt;figcaption&gt;European Main, Italy seems to have twice lethality of China. Spain and UK on the level of China. Germany almost not visible.&lt;/figcaption&gt;&lt;/figure&gt;
+    &lt;img src=&#34;/post/dev/datascience/corona/render/post/unnamed-chunk-9-1..svg&#34; alt=&#34;&#34;/&gt;&lt;figcaption&gt;European Main, Italy seems to have twice lethality of China. Spain and UK on the level of China. Germany almost not visible.&lt;/figcaption&gt;&lt;/figure&gt;
 &lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;ternPlotA(c(
 	    &amp;quot;Germany&amp;quot;,
 	    &amp;quot;Austria&amp;quot;,
@@ -646,7 +298,7 @@ theme(axis.title=element_text(size=16,  family=&amp;quot;EmojiOne&amp;quot;),
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;figure&gt;
-    &lt;img src=&#34;/post/dev/datascience/corona/unnamed-chunk-16-1.png&#34; alt=&#34;&#34;/&gt;&lt;figcaption&gt;European Central, all close together at low level. Austria and Germany overlap with Austria being a few days ahead. Switzerland having twice the mortality.&lt;/figcaption&gt;&lt;/figure&gt;
+    &lt;img src=&#34;/post/dev/datascience/corona/render/post/unnamed-chunk-10-1..svg&#34; alt=&#34;&#34;/&gt;&lt;figcaption&gt;European Central, all close together at low level. Austria and Germany overlap with Austria being a few days ahead. Switzerland having twice the mortality.&lt;/figcaption&gt;&lt;/figure&gt;
 &lt;h2 id=&#34;summary&#34;&gt;Summary&lt;/h2&gt;
 &lt;h3 id=&#34;usefulness&#34;&gt;Usefulness&lt;/h3&gt;
 &lt;p&gt;One can question the usefulness of such a visualization.
@@ -4365,6 +4017,533 @@ aufnehmen.&lt;/p&gt;
       <pubDate>Tue, 01 Jan 2008 00:00:00 +0000</pubDate>
       <guid>/publication/ligor-2008/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/post/dev/datascience/corona/readme/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/post/dev/datascience/corona/readme/</guid>
+      <description>&lt;h1 id=&#34;corona&#34;&gt;Corona&lt;/h1&gt;
+&lt;p&gt;Data analysis for A short description of the project.
+Created by Clemens Ager &lt;a href=&#34;mailto:clemens.ager@a1.net&#34;&gt;clemens.ager@a1.net&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;All results are put in the &lt;code&gt;artifacts&lt;/code&gt; directory.&lt;/p&gt;
+&lt;h2 id=&#34;quick-start&#34;&gt;Quick start&lt;/h2&gt;
+&lt;p&gt;The project can be built typing &lt;code&gt;make&lt;/code&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;example-project&#34;&gt;Example Project&lt;/h2&gt;
+&lt;p&gt;When checked out it contains the working example project.
+This works on 
+&lt;a href=&#34;http://opendata.cern.ch/record/300&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CERN Higgs data&lt;/a&gt;.
+It follows the first steps along the 
+&lt;a href=&#34;http://opendata.cern.ch/record/5102&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Instruction for use of CMS Open Data in R&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;If all is setup &lt;code&gt;make&lt;/code&gt; will build the project.
+It actually executes &lt;code&gt;make all&lt;/code&gt; that has two reports in the &lt;code&gt;artifacts&lt;/code&gt; directory as target.&lt;/p&gt;
+&lt;p&gt;The example project consist of following steps:&lt;/p&gt;
+&lt;ol start=&#34;0&#34;&gt;
+&lt;li&gt;Obtain input data:
+a. 
+&lt;a href=&#34;http://opendata.cern.ch/record/300&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CERN Higgs data&lt;/a&gt; is downloaded to &lt;code&gt;data-raw/&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Create R data: &lt;code&gt;data-raw/Jpsimumu.csv&lt;/code&gt; is read into &lt;code&gt;data/jspi.RDS&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Manipulate R data: &lt;code&gt;data/jspi.RDS&lt;/code&gt; is used to calculate &lt;code&gt;data/mass.RDS&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Create a markdown report which is then converted to &lt;code&gt;.docx&lt;/code&gt; (word)
+&lt;code&gt;artifacts/cern.docx&lt;/code&gt; via 
+&lt;a href=&#34;https://pandoc.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;pandoc&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Create a &lt;code&gt;Rnw&lt;/code&gt; report which is then rendered with other &lt;code&gt;tex&lt;/code&gt; files to
+a &lt;code&gt;pdf&lt;/code&gt;: &lt;code&gt;artifacts/sample_report.pdf&lt;/code&gt; via &lt;code&gt;latexmk&lt;/code&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Individual files are created using e.g. &lt;code&gt;make work/transform.RDS&lt;/code&gt;&lt;/p&gt;
+&lt;h2 id=&#34;idioms&#34;&gt;Idioms&lt;/h2&gt;
+&lt;h3 id=&#34;general&#34;&gt;General&lt;/h3&gt;
+&lt;p&gt;This work flow depends on make.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Filenames
+Make is picky about file names. In particular avoid spaces.
+Input data often comes in annoying characters - I find the command 
+&lt;a href=&#34;https://linux.die.net/man/1/detox&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;detox&lt;/a&gt; handy for this task.
+As this is done to make working with make simpler - this is done outside the makefile.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;folder-structure&#34;&gt;Folder structure&lt;/h3&gt;
+&lt;p&gt;I came up with following structure.
+In particular the folders &lt;code&gt;data&lt;/code&gt;, &lt;code&gt;render&lt;/code&gt;, &lt;code&gt;artifacts&lt;/code&gt; are excluded from git and also may recreate automatically.
+The files in folder &lt;code&gt;data-raw&lt;/code&gt; are not altered by the scripts.&lt;/p&gt;
+&lt;h4 id=&#34;r&#34;&gt;R&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;R&lt;/code&gt; holds R commands, these should be loadable with &lt;code&gt;devtools_load_all()&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;&amp;lsquo;scripts&amp;rsquo; R scripts that create data and binary files such as images.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;doc&lt;/code&gt; holds &lt;code&gt;Rnw&lt;/code&gt; and &lt;code&gt;Rmd&lt;/code&gt; files. It can also hole &lt;code&gt;tex&lt;/code&gt; and &lt;code&gt;md&lt;/code&gt; files which will be just copied over into the render directory.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;data&#34;&gt;data&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;data-raw&lt;/code&gt; for unprocessed data. Files in here must not get altered by scripts.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;data&lt;/code&gt; in processed form - &lt;code&gt;Rdata&lt;/code&gt; or &lt;code&gt;RDS&lt;/code&gt;. Every file in &lt;code&gt;data&lt;/code&gt; is created by commands in &lt;code&gt;scripts/&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;outputs&#34;&gt;outputs&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;render&lt;/code&gt; - output from &lt;code&gt;Rnw&lt;/code&gt; and &lt;code&gt;Rmd&lt;/code&gt; files together with their embedded images.  The content of this directory can get deleted.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;artifacts&lt;/code&gt; - completed products&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;script-patterns&#34;&gt;Script Patterns&lt;/h3&gt;
+&lt;h4 id=&#34;makefileauto&#34;&gt;&lt;code&gt;Makefile.auto&lt;/code&gt;&lt;/h4&gt;
+&lt;p&gt;I use the perl script &lt;code&gt;scripts/recursive.pl&lt;/code&gt; to walk through a number of files to automatically generate dependencies.
+For now I only look for the &lt;code&gt;readRDS&lt;/code&gt; command in R code, more definitely to come.
+Likely it may not catch some dependencies. Easiest is to add them yourself to the Makefile - or as I prefer an imported one here I called it &lt;code&gt;make.project&lt;/code&gt;.
+It&lt;code&gt;s difficult to figure out modifications in functions under &lt;/code&gt;R&lt;code&gt;. If I depend on them I add them to this file. I also want it to catch included &lt;/code&gt;tex` files.&lt;/p&gt;
+&lt;p&gt;Either way filling in this requirements manually in &lt;code&gt;make.project&lt;/code&gt; is no big deal for reasonably sized projects.
+For huge ones it pays to adapt &lt;code&gt;scripts/recursive.pl&lt;/code&gt;, but I doubt this generalizes.&lt;/p&gt;
+&lt;h4 id=&#34;scriptscreate_mynamer&#34;&gt;&lt;code&gt;scripts/create_myname.R&lt;/code&gt;&lt;/h4&gt;
+&lt;p&gt;A script to create &lt;code&gt;data/myname.RDS&lt;/code&gt;.
+By using this pattern the Makefile rule is automatic.&lt;/p&gt;
+&lt;p&gt;I set it so the target file is also first argument.
+That way I don&amp;rsquo;t need to repeat the filename inside the script.
+Also makes moving to a different name automatic.&lt;/p&gt;
+&lt;p&gt;Inside the script end with:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-{r}&#34;&gt;#save results ------------------------------------------------------------
+args &amp;lt;- commandArgs(trailingOnly = TRUE)
+saveRDS(mydata, file=args[[1]])
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h4 id=&#34;pattern-for-filewise-conversion&#34;&gt;pattern for filewise conversion&lt;/h4&gt;
+&lt;p&gt;(not included for now)
+I have also used pattern that perform the conversion filewise.
+E.g. every file in &lt;code&gt;data/signal/&lt;/code&gt; should convert to a file in &lt;code&gt;data/filtered/&lt;/code&gt;.
+I don&amp;rsquo;t think that generalizes well - I write rules just for this task and use wildcards inside the Makefile to setup dependencies.&lt;/p&gt;
+&lt;h4 id=&#34;pattern-for-sub-results&#34;&gt;pattern for sub results&lt;/h4&gt;
+&lt;p&gt;(not included for now)
+It sometimes is useful to use the figures created during the render of a &lt;code&gt;Rmd/Rnw&lt;/code&gt; render.  E.g. magazines may ask for figures as separate files.
+This is not too complicated. E.g. the file &lt;code&gt;doc/sample_calc.Rnw&lt;/code&gt; stores its figures under &lt;code&gt;render/reports/sample_calc/&lt;/code&gt;.
+It is easy to generate individual rules using the pattern. Here it generated &lt;code&gt;my_fig-1.pdf&lt;/code&gt;.
+Not sure how to generalize this.&lt;/p&gt;
+&lt;h2 id=&#34;tricks&#34;&gt;Tricks&lt;/h2&gt;
+&lt;h3 id=&#34;general-1&#34;&gt;general&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;I reference files from the project root. Both in Makefile and also in R. This helps to keep references consistent.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;r-1&#34;&gt;R&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;I (ab)use &lt;code&gt;devtools&lt;/code&gt;.  In particular often &lt;code&gt;devtools::load_all()&lt;/code&gt;.  This requires the folder be named as valid R package and the &lt;code&gt;DESCRIPTION&lt;/code&gt; file being valid.  The most common issue that an R package name may only contain characters, numbers and &lt;code&gt;.&lt;/code&gt;, and must start with a character.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;I prefer the RDS data functions. Using plain &lt;code&gt;load&lt;/code&gt; made it difficult to figure out where the data came from. Also there was always a risk that variables would be overwritten.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;In the scripts it gets easier if only one file per &lt;code&gt;create_....R&lt;/code&gt; is produced.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;In tex projects importing several &lt;code&gt;Rnw&lt;/code&gt; it can happen that several files use the same label. Haven&amp;rsquo;t found a reliable solution yet. At the moment it probably is best to manually set them.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Rnw and Rmd files are rendered into subdirectories. This is necessary as automatic sections will have the same figure names and figures would get overwritten by the next Rmd file.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;git&#34;&gt;git&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;git only stores files - not directories. To keep the structure there are empty files &lt;code&gt;.gitkeep&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;git does not handle binary files well. Use 
+&lt;a href=&#34;https://git-lfs.github.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;git lfs&lt;/a&gt; for binary files like &lt;code&gt;Rdata&lt;/code&gt; or preferable store them externally.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;make&#34;&gt;Make&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;For tasks that are independent on the rest of the project a separate &lt;code&gt;Makefile&lt;/code&gt; may be used in a subdir. I perform the download of external data to &lt;code&gt;data-raw&lt;/code&gt;. The file &lt;code&gt;data-raw/Makefile&lt;/code&gt; contains the code.
+Inside the main &lt;code&gt;Makefile&lt;/code&gt; I use the code:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;data-raw/%: data-raw/Makefile
+	make -C data-raw $(patsubst data-raw/%,%,$@)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;This way even if &lt;code&gt;data-raw/Makefile&lt;/code&gt; defines more data files but those are not used.
+Only the required ones should download to save space and bandwidth.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;sometimes it&amp;rsquo;s handy to have the data available. Having a &lt;code&gt;data&lt;/code&gt; target in the Makefile is useful.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;It makes things easier when the makefile is split into smaller ones.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Projects can be sped up  by using several jobs: e.g. &lt;code&gt;make -j 4&lt;/code&gt; uses 4 jobs in parallel.  This works only when the dependencies allow.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;plans-for-future-development&#34;&gt;Plans for future development&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Reorganize &lt;code&gt;data-raw&lt;/code&gt; into &lt;code&gt;data/raw&lt;/code&gt; and also move the &lt;code&gt;create_&lt;/code&gt; scripts there to allow an isolated &lt;code&gt;make data&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/post/dev/datascience/corona/render/examples/svglite/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/post/dev/datascience/corona/render/examples/svglite/</guid>
+      <description>&lt;h1 id=&#34;example-emoji-with-svg&#34;&gt;Example emoji with svg&lt;/h1&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;library(dplyr)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## 
+## Attaching package: &#39;dplyr&#39;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## The following objects are masked from &#39;package:stats&#39;:
+## 
+##     filter, lag
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## The following objects are masked from &#39;package:base&#39;:
+## 
+##     intersect, setdiff, setequal, union
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;library(tidyr)
+
+library(ggplot2)
+library(scales)
+library(ggtern)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## Registered S3 methods overwritten by &#39;ggtern&#39;:
+##   method           from   
+##   +.gg             ggplot2
+##   grid.draw.ggplot ggplot2
+##   plot.ggplot      ggplot2
+##   print.ggplot     ggplot2
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## --
+## Remember to cite, run citation(package = &#39;ggtern&#39;) for further info.
+## --
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## 
+## Attaching package: &#39;ggtern&#39;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## The following objects are masked from &#39;package:ggplot2&#39;:
+## 
+##     %+%, aes, annotate, calc_element, ggplot, ggplot_build,
+##     ggplot_gtable, ggplotGrob, ggsave, layer_data, theme, theme_bw,
+##     theme_classic, theme_dark, theme_gray, theme_light, theme_linedraw,
+##     theme_minimal, theme_void
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;library(emojifont)
+load.emojifont(&#39;EmojiOne.ttf&#39;)
+
+library(fontquiver)
+#fonts &amp;lt;- fontquiver::font_families(&amp;quot;Liberation&amp;quot;)
+#fonts$symbol$symbol &amp;lt;- fontquiver::font_symbol(&amp;quot;Symbola&amp;quot;)
+
+# fontquiver::font_symbol(&amp;quot;EmojiOne&amp;quot;)
+
+library(svglite)
+knitr::opts_chunk$set(
+		      dev = &amp;quot;svglite&amp;quot;,
+		      dev.args = list(),
+		      fig.ext = &amp;quot;.svg&amp;quot;
+)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;# see https://mran.microsoft.com/snapshot/2016-07-03/web/packages/emojifont/vignettes/emojifont.html
+list.emojifonts()
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1] &amp;quot;EmojiOne.ttf&amp;quot;      &amp;quot;OpenSansEmoji.ttf&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;load.emojifont(&#39;EmojiOne.ttf&#39;)
+
+# test
+set.seed(123)
+x &amp;lt;- rnorm(10)
+set.seed(321)
+y &amp;lt;- rnorm(10)
+plot(x, y, cex=0)
+text(x, y, labels=emoji(&#39;cow&#39;), cex=1.5, col=&#39;steelblue&#39;, family=&#39;Apple Color Emoji&#39;)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## Warning in text.default(x, y, labels = emoji(&amp;quot;cow&amp;quot;), cex = 1.5, col =
+## &amp;quot;steelblue&amp;quot;, : font family &#39;Apple Color Emoji&#39; not found, will use &#39;wqy-
+## microhei&#39; instead
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## Warning in text.default(x, y, labels = emoji(&amp;quot;cow&amp;quot;), cex = 1.5, col =
+## &amp;quot;steelblue&amp;quot;, : font family &#39;Apple Color Emoji&#39; not found, will use &#39;sans&#39;
+## instead
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## Warning in text.default(x, y, labels = emoji(&amp;quot;cow&amp;quot;), cex = 1.5, col =
+## &amp;quot;steelblue&amp;quot;, : font family &#39;Apple Color Emoji&#39; not found, will use &#39;wqy-
+## microhei&#39; instead
+
+## Warning in text.default(x, y, labels = emoji(&amp;quot;cow&amp;quot;), cex = 1.5, col =
+## &amp;quot;steelblue&amp;quot;, : font family &#39;Apple Color Emoji&#39; not found, will use &#39;wqy-
+## microhei&#39; instead
+
+## Warning in text.default(x, y, labels = emoji(&amp;quot;cow&amp;quot;), cex = 1.5, col =
+## &amp;quot;steelblue&amp;quot;, : font family &#39;Apple Color Emoji&#39; not found, will use &#39;wqy-
+## microhei&#39; instead
+
+## Warning in text.default(x, y, labels = emoji(&amp;quot;cow&amp;quot;), cex = 1.5, col =
+## &amp;quot;steelblue&amp;quot;, : font family &#39;Apple Color Emoji&#39; not found, will use &#39;wqy-
+## microhei&#39; instead
+
+## Warning in text.default(x, y, labels = emoji(&amp;quot;cow&amp;quot;), cex = 1.5, col =
+## &amp;quot;steelblue&amp;quot;, : font family &#39;Apple Color Emoji&#39; not found, will use &#39;wqy-
+## microhei&#39; instead
+
+## Warning in text.default(x, y, labels = emoji(&amp;quot;cow&amp;quot;), cex = 1.5, col =
+## &amp;quot;steelblue&amp;quot;, : font family &#39;Apple Color Emoji&#39; not found, will use &#39;wqy-
+## microhei&#39; instead
+
+## Warning in text.default(x, y, labels = emoji(&amp;quot;cow&amp;quot;), cex = 1.5, col =
+## &amp;quot;steelblue&amp;quot;, : font family &#39;Apple Color Emoji&#39; not found, will use &#39;wqy-
+## microhei&#39; instead
+
+## Warning in text.default(x, y, labels = emoji(&amp;quot;cow&amp;quot;), cex = 1.5, col =
+## &amp;quot;steelblue&amp;quot;, : font family &#39;Apple Color Emoji&#39; not found, will use &#39;wqy-
+## microhei&#39; instead
+
+## Warning in text.default(x, y, labels = emoji(&amp;quot;cow&amp;quot;), cex = 1.5, col =
+## &amp;quot;steelblue&amp;quot;, : font family &#39;Apple Color Emoji&#39; not found, will use &#39;wqy-
+## microhei&#39; instead
+
+## Warning in text.default(x, y, labels = emoji(&amp;quot;cow&amp;quot;), cex = 1.5, col =
+## &amp;quot;steelblue&amp;quot;, : font family &#39;Apple Color Emoji&#39; not found, will use &#39;wqy-
+## microhei&#39; instead
+
+## Warning in text.default(x, y, labels = emoji(&amp;quot;cow&amp;quot;), cex = 1.5, col =
+## &amp;quot;steelblue&amp;quot;, : font family &#39;Apple Color Emoji&#39; not found, will use &#39;wqy-
+## microhei&#39; instead
+
+## Warning in text.default(x, y, labels = emoji(&amp;quot;cow&amp;quot;), cex = 1.5, col =
+## &amp;quot;steelblue&amp;quot;, : font family &#39;Apple Color Emoji&#39; not found, will use &#39;wqy-
+## microhei&#39; instead
+
+## Warning in text.default(x, y, labels = emoji(&amp;quot;cow&amp;quot;), cex = 1.5, col =
+## &amp;quot;steelblue&amp;quot;, : font family &#39;Apple Color Emoji&#39; not found, will use &#39;wqy-
+## microhei&#39; instead
+
+## Warning in text.default(x, y, labels = emoji(&amp;quot;cow&amp;quot;), cex = 1.5, col =
+## &amp;quot;steelblue&amp;quot;, : font family &#39;Apple Color Emoji&#39; not found, will use &#39;wqy-
+## microhei&#39; instead
+
+## Warning in text.default(x, y, labels = emoji(&amp;quot;cow&amp;quot;), cex = 1.5, col =
+## &amp;quot;steelblue&amp;quot;, : font family &#39;Apple Color Emoji&#39; not found, will use &#39;wqy-
+## microhei&#39; instead
+
+## Warning in text.default(x, y, labels = emoji(&amp;quot;cow&amp;quot;), cex = 1.5, col =
+## &amp;quot;steelblue&amp;quot;, : font family &#39;Apple Color Emoji&#39; not found, will use &#39;wqy-
+## microhei&#39; instead
+
+## Warning in text.default(x, y, labels = emoji(&amp;quot;cow&amp;quot;), cex = 1.5, col =
+## &amp;quot;steelblue&amp;quot;, : font family &#39;Apple Color Emoji&#39; not found, will use &#39;wqy-
+## microhei&#39; instead
+
+## Warning in text.default(x, y, labels = emoji(&amp;quot;cow&amp;quot;), cex = 1.5, col =
+## &amp;quot;steelblue&amp;quot;, : font family &#39;Apple Color Emoji&#39; not found, will use &#39;wqy-
+## microhei&#39; instead
+
+## Warning in text.default(x, y, labels = emoji(&amp;quot;cow&amp;quot;), cex = 1.5, col =
+## &amp;quot;steelblue&amp;quot;, : font family &#39;Apple Color Emoji&#39; not found, will use &#39;wqy-
+## microhei&#39; instead
+
+## Warning in text.default(x, y, labels = emoji(&amp;quot;cow&amp;quot;), cex = 1.5, col =
+## &amp;quot;steelblue&amp;quot;, : font family &#39;Apple Color Emoji&#39; not found, will use &#39;wqy-
+## microhei&#39; instead
+
+## Warning in text.default(x, y, labels = emoji(&amp;quot;cow&amp;quot;), cex = 1.5, col =
+## &amp;quot;steelblue&amp;quot;, : font family &#39;Apple Color Emoji&#39; not found, will use &#39;wqy-
+## microhei&#39; instead
+
+## Warning in text.default(x, y, labels = emoji(&amp;quot;cow&amp;quot;), cex = 1.5, col =
+## &amp;quot;steelblue&amp;quot;, : font family &#39;Apple Color Emoji&#39; not found, will use &#39;wqy-
+## microhei&#39; instead
+
+## Warning in text.default(x, y, labels = emoji(&amp;quot;cow&amp;quot;), cex = 1.5, col =
+## &amp;quot;steelblue&amp;quot;, : font family &#39;Apple Color Emoji&#39; not found, will use &#39;wqy-
+## microhei&#39; instead
+
+## Warning in text.default(x, y, labels = emoji(&amp;quot;cow&amp;quot;), cex = 1.5, col =
+## &amp;quot;steelblue&amp;quot;, : font family &#39;Apple Color Emoji&#39; not found, will use &#39;wqy-
+## microhei&#39; instead
+
+## Warning in text.default(x, y, labels = emoji(&amp;quot;cow&amp;quot;), cex = 1.5, col =
+## &amp;quot;steelblue&amp;quot;, : font family &#39;Apple Color Emoji&#39; not found, will use &#39;wqy-
+## microhei&#39; instead
+
+## Warning in text.default(x, y, labels = emoji(&amp;quot;cow&amp;quot;), cex = 1.5, col =
+## &amp;quot;steelblue&amp;quot;, : font family &#39;Apple Color Emoji&#39; not found, will use &#39;wqy-
+## microhei&#39; instead
+
+## Warning in text.default(x, y, labels = emoji(&amp;quot;cow&amp;quot;), cex = 1.5, col =
+## &amp;quot;steelblue&amp;quot;, : font family &#39;Apple Color Emoji&#39; not found, will use &#39;wqy-
+## microhei&#39; instead
+
+## Warning in text.default(x, y, labels = emoji(&amp;quot;cow&amp;quot;), cex = 1.5, col =
+## &amp;quot;steelblue&amp;quot;, : font family &#39;Apple Color Emoji&#39; not found, will use &#39;wqy-
+## microhei&#39; instead
+
+## Warning in text.default(x, y, labels = emoji(&amp;quot;cow&amp;quot;), cex = 1.5, col =
+## &amp;quot;steelblue&amp;quot;, : font family &#39;Apple Color Emoji&#39; not found, will use &#39;wqy-
+## microhei&#39; instead
+
+## Warning in text.default(x, y, labels = emoji(&amp;quot;cow&amp;quot;), cex = 1.5, col =
+## &amp;quot;steelblue&amp;quot;, : font family &#39;Apple Color Emoji&#39; not found, will use &#39;wqy-
+## microhei&#39; instead
+
+## Warning in text.default(x, y, labels = emoji(&amp;quot;cow&amp;quot;), cex = 1.5, col =
+## &amp;quot;steelblue&amp;quot;, : font family &#39;Apple Color Emoji&#39; not found, will use &#39;wqy-
+## microhei&#39; instead
+
+## Warning in text.default(x, y, labels = emoji(&amp;quot;cow&amp;quot;), cex = 1.5, col =
+## &amp;quot;steelblue&amp;quot;, : font family &#39;Apple Color Emoji&#39; not found, will use &#39;wqy-
+## microhei&#39; instead
+
+## Warning in text.default(x, y, labels = emoji(&amp;quot;cow&amp;quot;), cex = 1.5, col =
+## &amp;quot;steelblue&amp;quot;, : font family &#39;Apple Color Emoji&#39; not found, will use &#39;wqy-
+## microhei&#39; instead
+
+## Warning in text.default(x, y, labels = emoji(&amp;quot;cow&amp;quot;), cex = 1.5, col =
+## &amp;quot;steelblue&amp;quot;, : font family &#39;Apple Color Emoji&#39; not found, will use &#39;wqy-
+## microhei&#39; instead
+
+## Warning in text.default(x, y, labels = emoji(&amp;quot;cow&amp;quot;), cex = 1.5, col =
+## &amp;quot;steelblue&amp;quot;, : font family &#39;Apple Color Emoji&#39; not found, will use &#39;wqy-
+## microhei&#39; instead
+
+## Warning in text.default(x, y, labels = emoji(&amp;quot;cow&amp;quot;), cex = 1.5, col =
+## &amp;quot;steelblue&amp;quot;, : font family &#39;Apple Color Emoji&#39; not found, will use &#39;wqy-
+## microhei&#39; instead
+
+## Warning in text.default(x, y, labels = emoji(&amp;quot;cow&amp;quot;), cex = 1.5, col =
+## &amp;quot;steelblue&amp;quot;, : font family &#39;Apple Color Emoji&#39; not found, will use &#39;wqy-
+## microhei&#39; instead
+
+## Warning in text.default(x, y, labels = emoji(&amp;quot;cow&amp;quot;), cex = 1.5, col =
+## &amp;quot;steelblue&amp;quot;, : font family &#39;Apple Color Emoji&#39; not found, will use &#39;wqy-
+## microhei&#39; instead
+
+## Warning in text.default(x, y, labels = emoji(&amp;quot;cow&amp;quot;), cex = 1.5, col =
+## &amp;quot;steelblue&amp;quot;, : font family &#39;Apple Color Emoji&#39; not found, will use &#39;wqy-
+## microhei&#39; instead
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;#
+d &amp;lt;- data.frame(x=x, y=y,
+     label = sample(c(emoji(&#39;cow&#39;), emoji(&#39;camel&#39;)), 10, replace=TRUE),
+     type = sample(LETTERS[1:3], 10, replace=TRUE))
+
+ggplot(d, aes(x, y, color=type, label=label)) + 
+    geom_text(family=&amp;quot;Apple Color Emoji&amp;quot;, size=6)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## Warning in grid.Call.graphics(C_text, as.graphicsAnnot(x$label), x$x, x$y, :
+## font family &#39;Apple Color Emoji&#39; not found, will use &#39;wqy-microhei&#39; instead
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## Warning in grid.Call.graphics(C_text, as.graphicsAnnot(x$label), x$x, x$y, :
+## font family &#39;Apple Color Emoji&#39; not found, will use &#39;sans&#39; instead
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## Warning in grid.Call.graphics(C_text, as.graphicsAnnot(x$label), x$x, x$y, :
+## font family &#39;Apple Color Emoji&#39; not found, will use &#39;wqy-microhei&#39; instead
+
+## Warning in grid.Call.graphics(C_text, as.graphicsAnnot(x$label), x$x, x$y, :
+## font family &#39;Apple Color Emoji&#39; not found, will use &#39;wqy-microhei&#39; instead
+
+## Warning in grid.Call.graphics(C_text, as.graphicsAnnot(x$label), x$x, x$y, :
+## font family &#39;Apple Color Emoji&#39; not found, will use &#39;wqy-microhei&#39; instead
+
+## Warning in grid.Call.graphics(C_text, as.graphicsAnnot(x$label), x$x, x$y, :
+## font family &#39;Apple Color Emoji&#39; not found, will use &#39;wqy-microhei&#39; instead
+
+## Warning in grid.Call.graphics(C_text, as.graphicsAnnot(x$label), x$x, x$y, :
+## font family &#39;Apple Color Emoji&#39; not found, will use &#39;wqy-microhei&#39; instead
+
+## Warning in grid.Call.graphics(C_text, as.graphicsAnnot(x$label), x$x, x$y, :
+## font family &#39;Apple Color Emoji&#39; not found, will use &#39;wqy-microhei&#39; instead
+
+## Warning in grid.Call.graphics(C_text, as.graphicsAnnot(x$label), x$x, x$y, :
+## font family &#39;Apple Color Emoji&#39; not found, will use &#39;wqy-microhei&#39; instead
+
+## Warning in grid.Call.graphics(C_text, as.graphicsAnnot(x$label), x$x, x$y, :
+## font family &#39;Apple Color Emoji&#39; not found, will use &#39;wqy-microhei&#39; instead
+
+## Warning in grid.Call.graphics(C_text, as.graphicsAnnot(x$label), x$x, x$y, :
+## font family &#39;Apple Color Emoji&#39; not found, will use &#39;wqy-microhei&#39; instead
+
+## Warning in grid.Call.graphics(C_text, as.graphicsAnnot(x$label), x$x, x$y, :
+## font family &#39;Apple Color Emoji&#39; not found, will use &#39;wqy-microhei&#39; instead
+
+## Warning in grid.Call.graphics(C_text, as.graphicsAnnot(x$label), x$x, x$y, :
+## font family &#39;Apple Color Emoji&#39; not found, will use &#39;wqy-microhei&#39; instead
+
+## Warning in grid.Call.graphics(C_text, as.graphicsAnnot(x$label), x$x, x$y, :
+## font family &#39;Apple Color Emoji&#39; not found, will use &#39;wqy-microhei&#39; instead
+
+## Warning in grid.Call.graphics(C_text, as.graphicsAnnot(x$label), x$x, x$y, :
+## font family &#39;Apple Color Emoji&#39; not found, will use &#39;wqy-microhei&#39; instead
+
+## Warning in grid.Call.graphics(C_text, as.graphicsAnnot(x$label), x$x, x$y, :
+## font family &#39;Apple Color Emoji&#39; not found, will use &#39;wqy-microhei&#39; instead
+
+## Warning in grid.Call.graphics(C_text, as.graphicsAnnot(x$label), x$x, x$y, :
+## font family &#39;Apple Color Emoji&#39; not found, will use &#39;wqy-microhei&#39; instead
+
+## Warning in grid.Call.graphics(C_text, as.graphicsAnnot(x$label), x$x, x$y, :
+## font family &#39;Apple Color Emoji&#39; not found, will use &#39;wqy-microhei&#39; instead
+
+## Warning in grid.Call.graphics(C_text, as.graphicsAnnot(x$label), x$x, x$y, :
+## font family &#39;Apple Color Emoji&#39; not found, will use &#39;wqy-microhei&#39; instead
+
+## Warning in grid.Call.graphics(C_text, as.graphicsAnnot(x$label), x$x, x$y, :
+## font family &#39;Apple Color Emoji&#39; not found, will use &#39;wqy-microhei&#39; instead
+
+## Warning in grid.Call.graphics(C_text, as.graphicsAnnot(x$label), x$x, x$y, :
+## font family &#39;Apple Color Emoji&#39; not found, will use &#39;wqy-microhei&#39; instead
+
+## Warning in grid.Call.graphics(C_text, as.graphicsAnnot(x$label), x$x, x$y, :
+## font family &#39;Apple Color Emoji&#39; not found, will use &#39;wqy-microhei&#39; instead
+
+## Warning in grid.Call.graphics(C_text, as.graphicsAnnot(x$label), x$x, x$y, :
+## font family &#39;Apple Color Emoji&#39; not found, will use &#39;wqy-microhei&#39; instead
+
+## Warning in grid.Call.graphics(C_text, as.graphicsAnnot(x$label), x$x, x$y, :
+## font family &#39;Apple Color Emoji&#39; not found, will use &#39;wqy-microhei&#39; instead
+
+## Warning in grid.Call.graphics(C_text, as.graphicsAnnot(x$label), x$x, x$y, :
+## font family &#39;Apple Color Emoji&#39; not found, will use &#39;wqy-microhei&#39; instead
+
+## Warning in grid.Call.graphics(C_text, as.graphicsAnnot(x$label), x$x, x$y, :
+## font family &#39;Apple Color Emoji&#39; not found, will use &#39;wqy-microhei&#39; instead
+
+## Warning in grid.Call.graphics(C_text, as.graphicsAnnot(x$label), x$x, x$y, :
+## font family &#39;Apple Color Emoji&#39; not found, will use &#39;wqy-microhei&#39; instead
+
+## Warning in grid.Call.graphics(C_text, as.graphicsAnnot(x$label), x$x, x$y, :
+## font family &#39;Apple Color Emoji&#39; not found, will use &#39;wqy-microhei&#39; instead
+
+## Warning in grid.Call.graphics(C_text, as.graphicsAnnot(x$label), x$x, x$y, :
+## font family &#39;Apple Color Emoji&#39; not found, will use &#39;wqy-microhei&#39; instead
+
+## Warning in grid.Call.graphics(C_text, as.graphicsAnnot(x$label), x$x, x$y, :
+## font family &#39;Apple Color Emoji&#39; not found, will use &#39;wqy-microhei&#39; instead
+
+## Warning in grid.Call.graphics(C_text, as.graphicsAnnot(x$label), x$x, x$y, :
+## font family &#39;Apple Color Emoji&#39; not found, will use &#39;wqy-microhei&#39; instead
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## Warning in grid.Call.graphics(C_text, as.graphicsAnnot(x$label), x$x, x$y, :
+## font family &#39;Apple Color Emoji&#39; not found, will use &#39;sans&#39; instead
+
+## Warning in grid.Call.graphics(C_text, as.graphicsAnnot(x$label), x$x, x$y, :
+## font family &#39;Apple Color Emoji&#39; not found, will use &#39;sans&#39; instead
+
+## Warning in grid.Call.graphics(C_text, as.graphicsAnnot(x$label), x$x, x$y, :
+## font family &#39;Apple Color Emoji&#39; not found, will use &#39;sans&#39; instead
+
+## Warning in grid.Call.graphics(C_text, as.graphicsAnnot(x$label), x$x, x$y, :
+## font family &#39;Apple Color Emoji&#39; not found, will use &#39;sans&#39; instead
+
+## Warning in grid.Call.graphics(C_text, as.graphicsAnnot(x$label), x$x, x$y, :
+## font family &#39;Apple Color Emoji&#39; not found, will use &#39;sans&#39; instead
+
+## Warning in grid.Call.graphics(C_text, as.graphicsAnnot(x$label), x$x, x$y, :
+## font family &#39;Apple Color Emoji&#39; not found, will use &#39;sans&#39; instead
+
+## Warning in grid.Call.graphics(C_text, as.graphicsAnnot(x$label), x$x, x$y, :
+## font family &#39;Apple Color Emoji&#39; not found, will use &#39;sans&#39; instead
+
+## Warning in grid.Call.graphics(C_text, as.graphicsAnnot(x$label), x$x, x$y, :
+## font family &#39;Apple Color Emoji&#39; not found, will use &#39;sans&#39; instead
+
+## Warning in grid.Call.graphics(C_text, as.graphicsAnnot(x$label), x$x, x$y, :
+## font family &#39;Apple Color Emoji&#39; not found, will use &#39;sans&#39; instead
+
+## Warning in grid.Call.graphics(C_text, as.graphicsAnnot(x$label), x$x, x$y, :
+## font family &#39;Apple Color Emoji&#39; not found, will use &#39;sans&#39; instead
+&lt;/code&gt;&lt;/pre&gt;
+
+</description>
     </item>
     
   </channel>

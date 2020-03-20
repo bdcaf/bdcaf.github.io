@@ -1,0 +1,2 @@
+render/post/index.md: data/timeSeries.RDS
+
