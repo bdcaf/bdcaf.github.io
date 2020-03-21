@@ -258,7 +258,7 @@ Corona.
   <meta property="twitter:image" content="img/map[gravatar:%!s(bool=false) shape:circle]"><meta property="og:locale" content="en-us">
   
     
-      <meta property="article:published_time" content="2020-03-20T00:00:00&#43;00:00">
+      <meta property="article:published_time" content="2020-03-21T00:00:00&#43;00:00">
     
     <meta property="article:modified_time" content="2020-03-20T11:55:32&#43;01:00">
   
@@ -288,7 +288,7 @@ Corona.
   },
   "headline": "Ternary plots for development of COVID19",
   
-  "datePublished": "2020-03-20T00:00:00Z",
+  "datePublished": "2020-03-21T00:00:00Z",
   "dateModified": "2020-03-20T11:55:32+01:00",
   
   "author": {
@@ -597,52 +597,49 @@ I created a Github repo
 
 <figure>
     <img src="/post/dev/datascience/corona/top5plot-1..svg" alt=""/><figcaption>Ternary plot 5 most infected countries</figcaption></figure>
-<div class="alert alert-danger">
-  <div>
-    In the process of improving the labeling I had to update ggplot2 to version 3.3. This broke ggtern. As it wasn&rsquo;t updated for several years (<a href="https://github.com/nicholasehamilton/ggtern">last commit 2015-08-07</a>) I wouldn&rsquo;t expect an early fix.
-Personally I will investigate for an alternative package or try to achieve the functionality with the newer ggplot2 capabilities.
-As of 2020-03-20 there will be no updates to this post for the near future.
-Also the code will not work with recent ggplot2!
-  </div>
-</div>
 <pre><code class="language-r">library(dplyr)
 library(tidyr)
 
-library(ggplot2)
-library(scales)
-library(ggtern)
+library(Ternary)
+library(emojifont)
+load.emojifont('EmojiOne.ttf')
 
+library(RColorBrewer)
+
+# svg for high quality plots
 library(svglite)
 knitr::opts_chunk$set(
 		      dev = &quot;svglite&quot;,
 		      dev.args = list(),
 		      fig.ext = &quot;.svg&quot;
 )
+
+devtools::load_all()
 </code></pre>
 <p>It has the confusing American date format and <code>/</code> in the column labels.
 Required some cleaning.</p>
 <pre><code class="language-r">timeSeries &lt;- readRDS(&quot;data/timeSeries.RDS&quot;)
 </code></pre>
+<div class="alert alert-warning">
+  <div>
+    <p>It turns out that ggtern is not compatible with the recent ggplot2.  As the <a href="https://github.com/nicholasehamilton/ggtern">github repo</a> was last updated 2015 I don&rsquo;t have much hope for an patch.
+Having a short glance at the issue seems it is something fundamental.</p>
+<p>I moved over to the <a href="https://cran.r-project.org/web/packages/Ternary/index.html">Ternary</a> package. Which is kept up to date. Unfortunately I still have the layout eating up the axis labelling.</p>
+  </div>
+</div>
 <div class="alert alert-note">
   <div>
     The data was imported from <a href="https://github.com/CSSEGISandData/COVID-19">CSSEGISandData/COVID-19</a> which aggregates data from several sources.
 Data seems to be added daily, but not sure how reliable new sources are integrated.
-The displayed data was retrieved on 2020-03-20, the last recorded data point is from 2020-03-19.
+The displayed data was retrieved on 2020-03-21, the last recorded data point is from 2020-03-20.
   </div>
 </div>
 <h1 id="ternary-plots">Ternary plots</h1>
-<pre><code class="language-r">toRatios &lt;- function(x)
-  mutate(.data=x,
-	 rRec =  recovered/confirmed,
-	 rDeath = deaths/confirmed) %&gt;%
-  replace_na(list(rRec=0, rDeath=0)) %&gt;%
-  mutate(rRem = 1 - rRec -rDeath)
-
-countryData &lt;- timeSeries %&gt;% 
+<pre><code class="language-r">countryData &lt;- timeSeries %&gt;% 
   group_by(Country, date) %&gt;%
   summarise_at(vars(confirmed, recovered, deaths), sum ) %&gt;%
   ungroup %&gt;%
-  toRatios
+  convertToRatios
 
 ternData &lt;- timeSeries %&gt;%
   mutate(rRec = recovered/confirmed,
@@ -653,28 +650,22 @@ ternData &lt;- timeSeries %&gt;%
 <p>For starters I would focus on Hubei province as it has had the longest development.
 It starts off with lots of active cases in the lower right corner, but now steadily moves to the left having about 4% lethality.</p>
 <pre><code class="language-r">d0 &lt;- ternData %&gt;% filter(Country == &quot;China&quot;, Province == &quot;Hubei&quot;)
-curPos  &lt;- d0 %&gt;% filter(row_number() == n())
-ggtern(data=d0,
-       aes(rRec,rDeath,rRem, size=confirmed)) + 
-geom_crosshair_tern(data = curPos, size = 0.3) +
-geom_path(alpha = 0.5) + 
-Tlab(&quot;💀&quot;, labelarrow=&quot;Deaths&quot;) +
-Llab(&quot;😷&quot;, labelarrow=&quot;Recovered&quot;) +
-Rlab(&quot;🤧&quot;, labelarrow=&quot;Active&quot;) +
-theme_light() +
-theme(axis.title = element_text(size=16, family=&quot;Apple Color Emoji&quot;),
-      tern.axis.arrow.show = T,
-      tern.panel.grid.minor.show = F) 
+coords  &lt;- d0 %&gt;% toTernCoord
+corTernGrid(grid.lines = 5, grid.minor.lines=0)
+ternOneCountry(data = d0,
+	     col=rgb(255, 0, 0, 128, NULL, 255)
+)
+placeSymbols()
 </code></pre>
-<p>
+
 <figure>
     <img src="/post/dev/datascience/corona/unnamed-chunk-3-1..svg" alt=""/><figcaption>Hubei Province development</figcaption></figure>
-The black line follows the ratios.
-It starts to the lower right in the corner of <em>active</em> cases, meaning almost all cases are active.
+<p>The red line follows the ratios.
+It starts to the lower left in the corner of <em>active</em> cases, meaning almost all cases are active.
 There is a little moving around but over the course it moves to the left.
 At the end when there are no more active cases it will settle at the axis between <em>recovered</em> and <em>Deaths</em>.
 The trajectory seems to aim for 96% recovered, 4% deceased.</p>
-<p>Zooming into the lower right corner to see the initial development.
+<p>Zooming into the lower left corner to see the initial development.
 Finding outstanding dates where the ratio of active was a local maximum:</p>
 <pre><code class="language-r">pander(
 d0 %&gt;% 
@@ -746,27 +737,22 @@ caption = &quot;Dates with local maxima of active ratio.&quot;)
 <p>Table: Dates with local maxima of active ratio.
 Three dates at end of January and one in mid-February.
 If I recall correctly in mid-February the rules for classification were altered explaining the jump.</p>
-<pre><code class="language-r">curPos  &lt;- d0 %&gt;% filter(rRem &gt; lag(rRem), rRem &gt; lead(rRem)) %&gt;%
+<pre><code class="language-r">borders  &lt;-  list(c(0.2, 0, 0.8), c(0,0.2,0.8), c(0,0,1))
+corTernGrid(grid.lines = 5, 
+	    grid.minor.lines=0,
+	    borders = borders)
+ternOneCountry(data = d0, col=rgb(255, 0, 0, 128, NULL, 255)
+)
+placeSymbols(borders=borders)
+
+curPos  &lt;- d0 %&gt;% filter(rRem &gt; lag(rRem), rRem &gt; lead(rRem)) %&gt;%
   mutate(date = as.factor(date))
-ggtern(data=d0,
-       aes(rRec,rDeath,rRem, size=confirmed)) + 
-geom_crosshair_tern(data = curPos, 
-		    mapping = aes(color=date), 
-		    size = 0.3) +
-  geom_path(alpha = 0.5) + 
-  theme_zoom_R(0.15) +
-Tlab(&quot;💀&quot;, labelarrow=&quot;Deaths&quot;) +
-Llab(&quot;😷&quot;, labelarrow=&quot;Recovered&quot;) +
-Rlab(&quot;🤧&quot;, labelarrow=&quot;Active&quot;) +
-theme_light() +
-theme(axis.title=element_text(size=16,  family=&quot;Apple Color Emoji&quot;),
-      tern.axis.arrow.show = T,
-      tern.panel.grid.minor.show = F) 
+markPos(curPos, col=&quot;red&quot;)
 </code></pre>
-<p>
+
 <figure>
     <img src="/post/dev/datascience/corona/unnamed-chunk-5-1..svg" alt=""/><figcaption>Hubei Province, zoom</figcaption></figure>
-The figure shows a <em>loop</em> at the onset of disease.<br>
+<p>The figure shows a <em>loop</em> at the onset of disease.<br>
 Many countries show similar development. At the first few individual cases the curve is all over the place as each individual case has huge effect.
 After a sufficient number of cases are present statistics take over.
 Then first the number of active cases increases.
@@ -777,17 +763,16 @@ There is some movement between deceased and recovered depending on the countries
 d1 &lt;- countryData %&gt;% filter(confirmed &gt; 100, Country %in% c(&quot;China&quot;)) %&gt;%
   mutate(Province = &quot;all China&quot;) %&gt;%
   select(Province, date, rRec, rDeath, rRem, confirmed)
-ggtern(data= rbind(d0,d1),
-       aes(rRec,rDeath,rRem, size=confirmed, colour=Province)) + 
-  geom_path(alpha = 0.4) + 
-  theme_zoom_R(0.3) +
-Tlab(&quot;💀&quot;, labelarrow=&quot;Deaths&quot;) +
-Llab(&quot;😷&quot;, labelarrow=&quot;Recovered&quot;) +
-Rlab(&quot;🤧&quot;, labelarrow=&quot;Active&quot;) +
-theme_light() +
-theme(axis.title=element_text(size=16,  family=&quot;Apple Color Emoji&quot;),
-      tern.axis.arrow.show = T,
-      tern.panel.grid.minor.show = F) 
+
+borders  &lt;-  list(c(0.2, 0, 0.8), c(0,0.2,0.8), c(0,0,1))
+corTernGrid(grid.lines = 5, 
+	    grid.minor.lines=0,
+	    borders = borders)
+datalist &lt;- list(d0,d1)
+cols &lt;- brewer.pal(4, &quot;Set1&quot;)[1:2]
+ternManyCountries(datalist=list(d0,d1),cols )
+placeSymbols(borders=borders)
+countryLegend(c(&quot;Hubei&quot;, &quot;China&quot;), cols)
 </code></pre>
 
 <figure>
@@ -806,71 +791,44 @@ topData &lt;- countryData %&gt;%
 <p>In the 5 countries with most infections Iran and Italy move quite around.
 Italy&rsquo;s trajectory currently heads to a much higher death ratio and China.
 Iran started with high death ratio but now seems to get a trajectory close to the Chinese one.</p>
-<pre><code class="language-r">ggtern(data=topData,
-       aes(rRec,rDeath,rRem, size=confirmed, colour=Country)) + 
-  geom_path(alpha = 0.5) +
-  theme_zoom_R(0.5) +
-Tlab(&quot;💀&quot;, labelarrow=&quot;Deaths&quot;) +
-Llab(&quot;😷&quot;, labelarrow=&quot;Recovered&quot;) +
-Rlab(&quot;🤧&quot;, labelarrow=&quot;Active&quot;) +
-theme_light() +
-theme(axis.title=element_text(size=16,  family=&quot;Apple Color Emoji&quot;),
-      tern.axis.arrow.show = T,
-      tern.panel.grid.minor.show = F) 
+<pre><code class="language-r">splits &lt;- topData %&gt;% group_by(Country) %&gt;% group_split()
+countryListPlot(splits)
 </code></pre>
 
 <figure>
     <img src="/post/dev/datascience/corona/top5plot-1..svg" alt=""/><figcaption>Top 5 infectected Countries</figcaption></figure>
-<pre><code class="language-r">ternPlotA &lt;- function(countryList, zoomR=0.3){
-  myCountries &lt;- countryData %&gt;% 
-    filter(Country %in% countryList )
-
-  curPos &lt;- myCountries %&gt;% 
-    group_by(Country) %&gt;%
-    filter(row_number() == n())
-
-  ggtern(data=myCountries,
-	 aes(rRec,rDeath,rRem, 
-	     colour=Country)) + 
-geom_path(alpha = 0.6) + 
-geom_crosshair_tern(data = curPos) +
-Tlab(&quot;💀&quot;, labelarrow=&quot;Deaths&quot;) +
-Llab(&quot;😷&quot;, labelarrow=&quot;Recovered&quot;) +
-Rlab(&quot;🤧&quot;, labelarrow=&quot;Active&quot;) +
-theme_zoom_R(zoomR) +
-theme_light() + 
-theme(axis.title=element_text(size=16,  family=&quot;Apple Color Emoji&quot;),
-      tern.axis.arrow.show = T,
-      tern.panel.grid.minor.show = F)
-
-}
-</code></pre>
-<pre><code class="language-r">ternPlotA(c(&quot;China&quot;, 
-	    &quot;Korea, South&quot;, 
-	    &quot;Japan&quot;
-	    ),
- zoomR=0.3)
+<pre><code class="language-r">splits &lt;- prepCountries(countryData,
+			c(&quot;China&quot;, 
+			  &quot;Korea, South&quot;, 
+			  &quot;Japan&quot;
+			  ))
+countryListPlot(splits,
+           borders = list(c(0.3, 0, 0.7), c(0,0.3,0.7), c(0,0,1))
+)
 </code></pre>
 
 <figure>
     <img src="/post/dev/datascience/corona/unnamed-chunk-8-1..svg" alt=""/><figcaption>South east asian countries. South Korea has outstanding low mortality.</figcaption></figure>
-<pre><code class="language-r">ternPlotA(c(&quot;Italy&quot;, 
+<pre><code class="language-r">splits &lt;- prepCountries(countryData,
+	  c(&quot;Italy&quot;, 
 	    &quot;United Kingdom&quot;, 
 	    &quot;France&quot;,
 	    &quot;Spain&quot;,
 	    &quot;Germany&quot;
-	    ),
- zoomR=0.2)
+	    ))
+countryListPlot(splits, borders = makeBorders(0.2))
 </code></pre>
 
 <figure>
     <img src="/post/dev/datascience/corona/unnamed-chunk-9-1..svg" alt=""/><figcaption>European Main, Italy seems to have twice lethality of China. Spain and UK on the level of China. Germany almost not visible.</figcaption></figure>
-<pre><code class="language-r">ternPlotA(c(
+<pre><code class="language-r">splits &lt;- prepCountries(countryData,
+	  c(
 	    &quot;Germany&quot;,
 	    &quot;Austria&quot;,
 	    &quot;Switzerland&quot;
-	    ),
- zoomR=0.03)
+	    )
+)
+countryListPlot(splits, borders = makeBorders(0.1))
 </code></pre>
 
 <figure>

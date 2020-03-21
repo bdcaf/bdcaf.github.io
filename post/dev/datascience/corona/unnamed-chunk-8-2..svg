@@ -17,6 +17,16 @@
     <rect x='80.64' y='59.04' width='371.52' height='371.52' />
   </clipPath>
 </defs>
+<defs>
+  <clipPath id='cpMC4wMHw1MDQuMDB8NTA0LjAwfDAuMDA='>
+    <rect x='0.00' y='0.00' width='504.00' height='504.00' />
+  </clipPath>
+</defs>
+<defs>
+  <clipPath id='cpODAuNjR8NDUyLjE2fDQzMC41Nnw1OS4wNA=='>
+    <rect x='80.64' y='59.04' width='371.52' height='371.52' />
+  </clipPath>
+</defs>
 <polyline points='504.00,380.59 130.61,380.59 350.34,0.00 ' style='stroke-width: 0.75; stroke: none;' clip-path='url(#cpODAuNjR8NDUyLjE2fDQzMC41Nnw1OS4wNA==)' />
 <polyline points='504.00,302.19 175.87,302.19 ' style='stroke-width: 0.75; stroke: #A9A9A9;' clip-path='url(#cpODAuNjR8NDUyLjE2fDQzMC41Nnw1OS4wNA==)' />
 <polyline points='221.14,380.59 440.87,0.00 ' style='stroke-width: 0.75; stroke: #A9A9A9;' clip-path='url(#cpODAuNjR8NDUyLjE2fDQzMC41Nnw1OS4wNA==)' />
@@ -61,7 +71,7 @@
 <g clip-path='url(#cpODAuNjR8NDUyLjE2fDQzMC41Nnw1OS4wNA==)'><text x='97.92' y='74.00' style='font-size: 9.60px; font-family: Arial;' textLength='25.08px' lengthAdjust='spacing'>China</text></g>
 <g clip-path='url(#cpODAuNjR8NDUyLjE2fDQzMC41Nnw1OS4wNA==)'><text x='97.92' y='85.52' style='font-size: 9.60px; font-family: Arial;' textLength='26.16px' lengthAdjust='spacing'>Japan</text></g>
 <g clip-path='url(#cpODAuNjR8NDUyLjE2fDQzMC41Nnw1OS4wNA==)'><text x='97.92' y='97.04' style='font-size: 9.60px; font-family: Arial;' textLength='56.04px' lengthAdjust='spacing'>Korea, South</text></g>
-<g clip-path='url(#cpODAuNjR8NDUyLjE2fDQzMC41Nnw1OS4wNA==)'><text x='258.03' y='201.90' style='font-size: 26.40px; font-family: emoji;' textLength='16.73px' lengthAdjust='spacing'>😷</text></g>
-<g clip-path='url(#cpODAuNjR8NDUyLjE2fDQzMC41Nnw1OS4wNA==)'><text x='353.09' y='366.54' style='font-size: 26.40px; font-family: emoji;' textLength='16.73px' lengthAdjust='spacing'>💀</text></g>
-<g clip-path='url(#cpODAuNjR8NDUyLjE2fDQzMC41Nnw1OS4wNA==)'><text x='162.98' y='366.54' style='font-size: 26.40px; font-family: emoji;' textLength='16.73px' lengthAdjust='spacing'>🤧</text></g>
+<g clip-path='url(#cpODAuNjR8NDUyLjE2fDQzMC41Nnw1OS4wNA==)'><text x='258.03' y='201.90' style='font-size: 26.40px; font-family: AppleColorEmoji;' textLength='16.73px' lengthAdjust='spacing'>😷</text></g>
+<g clip-path='url(#cpODAuNjR8NDUyLjE2fDQzMC41Nnw1OS4wNA==)'><text x='353.09' y='366.54' style='font-size: 26.40px; font-family: AppleColorEmoji;' textLength='16.73px' lengthAdjust='spacing'>💀</text></g>
+<g clip-path='url(#cpODAuNjR8NDUyLjE2fDQzMC41Nnw1OS4wNA==)'><text x='162.98' y='366.54' style='font-size: 26.40px; font-family: AppleColorEmoji;' textLength='16.73px' lengthAdjust='spacing'>🤧</text></g>
 </svg>

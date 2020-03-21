@@ -17,6 +17,16 @@
     <rect x='80.64' y='59.04' width='371.52' height='371.52' />
   </clipPath>
 </defs>
+<defs>
+  <clipPath id='cpMC4wMHw1MDQuMDB8NTA0LjAwfDAuMDA='>
+    <rect x='0.00' y='0.00' width='504.00' height='504.00' />
+  </clipPath>
+</defs>
+<defs>
+  <clipPath id='cpODAuNjR8NDUyLjE2fDQzMC41Nnw1OS4wNA=='>
+    <rect x='80.64' y='59.04' width='371.52' height='371.52' />
+  </clipPath>
+</defs>
 <polyline points='504.00,388.13 123.07,388.13 347.16,0.00 ' style='stroke-width: 0.75; stroke: none;' clip-path='url(#cpODAuNjR8NDUyLjE2fDQzMC41Nnw1OS4wNA==)' />
 <polyline points='504.00,326.07 158.90,326.07 ' style='stroke-width: 0.75; stroke: #A9A9A9;' clip-path='url(#cpODAuNjR8NDUyLjE2fDQzMC41Nnw1OS4wNA==)' />
 <polyline points='194.73,388.13 418.82,0.00 ' style='stroke-width: 0.75; stroke: #A9A9A9;' clip-path='url(#cpODAuNjR8NDUyLjE2fDQzMC41Nnw1OS4wNA==)' />
@@ -81,7 +91,7 @@
 <g clip-path='url(#cpODAuNjR8NDUyLjE2fDQzMC41Nnw1OS4wNA==)'><text x='97.92' y='97.04' style='font-size: 9.60px; font-family: Arial;' textLength='16.54px' lengthAdjust='spacing'>Iran</text></g>
 <g clip-path='url(#cpODAuNjR8NDUyLjE2fDQzMC41Nnw1OS4wNA==)'><text x='97.92' y='108.56' style='font-size: 9.60px; font-family: Arial;' textLength='17.61px' lengthAdjust='spacing'>Italy</text></g>
 <g clip-path='url(#cpODAuNjR8NDUyLjE2fDQzMC41Nnw1OS4wNA==)'><text x='97.92' y='120.08' style='font-size: 9.60px; font-family: Arial;' textLength='24.55px' lengthAdjust='spacing'>Spain</text></g>
-<g clip-path='url(#cpODAuNjR8NDUyLjE2fDQzMC41Nnw1OS4wNA==)'><text x='258.03' y='198.99' style='font-size: 26.40px; font-family: emoji;' textLength='16.73px' lengthAdjust='spacing'>😷</text></g>
-<g clip-path='url(#cpODAuNjR8NDUyLjE2fDQzMC41Nnw1OS4wNA==)'><text x='358.37' y='372.78' style='font-size: 26.40px; font-family: emoji;' textLength='16.73px' lengthAdjust='spacing'>💀</text></g>
-<g clip-path='url(#cpODAuNjR8NDUyLjE2fDQzMC41Nnw1OS4wNA==)'><text x='157.70' y='372.78' style='font-size: 26.40px; font-family: emoji;' textLength='16.73px' lengthAdjust='spacing'>🤧</text></g>
+<g clip-path='url(#cpODAuNjR8NDUyLjE2fDQzMC41Nnw1OS4wNA==)'><text x='258.03' y='198.99' style='font-size: 26.40px; font-family: AppleColorEmoji;' textLength='16.73px' lengthAdjust='spacing'>😷</text></g>
+<g clip-path='url(#cpODAuNjR8NDUyLjE2fDQzMC41Nnw1OS4wNA==)'><text x='358.37' y='372.78' style='font-size: 26.40px; font-family: AppleColorEmoji;' textLength='16.73px' lengthAdjust='spacing'>💀</text></g>
+<g clip-path='url(#cpODAuNjR8NDUyLjE2fDQzMC41Nnw1OS4wNA==)'><text x='157.70' y='372.78' style='font-size: 26.40px; font-family: AppleColorEmoji;' textLength='16.73px' lengthAdjust='spacing'>🤧</text></g>
 </svg>
