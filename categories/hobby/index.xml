@@ -1,26 +1,2 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Hobby | bdcaf</title>
-    <link>/categories/hobby/</link>
-      <atom:link href="/categories/hobby/index.xml" rel="self" type="application/rss+xml" />
-    <description>Hobby</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Clemens Ager 2020</copyright><lastBuildDate>Sat, 18 Oct 2014 05:47:06 +0000</lastBuildDate>
-    <image>
-      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
-      <title>Hobby</title>
-      <link>/categories/hobby/</link>
-    </image>
-    
-    <item>
-      <title>National Geographic</title>
-      <link>/post/2014/2014-10-18-national-geographic/</link>
-      <pubDate>Sat, 18 Oct 2014 05:47:06 +0000</pubDate>
-      <guid>/post/2014/2014-10-18-national-geographic/</guid>
-      <description>&lt;p&gt;Die haben wieder tolle Photos auf der 
-&lt;a href=&#34;http://photography.nationalgeographic.com/photography/photo-contest/2014/entries/gallery/nature-week-6/?utm_source=Twitter&amp;amp;utm_medium=Social&amp;amp;utm_content=link_tw20141017photo-ngpcowlintw&amp;amp;utm_campaign=Content/&amp;amp;sf5277375=1#/8&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Seite&lt;/a&gt;.&lt;/p&gt;
-</description>
-    </item>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Hobby | bdcaf</title><link>/categories/hobby/</link><atom:link href="/categories/hobby/index.xml" rel="self" type="application/rss+xml"/><description>Hobby</description><generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Clemens Ager 2020</copyright><lastBuildDate>Sat, 18 Oct 2014 05:47:06 +0000</lastBuildDate><image><url>img/map[gravatar:%!s(bool=false) shape:circle]</url><title>Hobby</title><link>/categories/hobby/</link></image><item><title>National Geographic</title><link>/post/2014/2014-10-18-national-geographic/</link><pubDate>Sat, 18 Oct 2014 05:47:06 +0000</pubDate><guid>/post/2014/2014-10-18-national-geographic/</guid><description>&lt;p>Die haben wieder tolle Photos auf der
+&lt;a href="http://photography.nationalgeographic.com/photography/photo-contest/2014/entries/gallery/nature-week-6/?utm_source=Twitter&amp;amp;utm_medium=Social&amp;amp;utm_content=link_tw20141017photo-ngpcowlintw&amp;amp;utm_campaign=Content/&amp;amp;sf5277375=1#/8" target="_blank" rel="noopener">Seite&lt;/a>.&lt;/p></description></item></channel></rss>

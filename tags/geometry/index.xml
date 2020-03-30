@@ -1,29 +1,5 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>geometry | bdcaf</title>
-    <link>/tags/geometry/</link>
-      <atom:link href="/tags/geometry/index.xml" rel="self" type="application/rss+xml" />
-    <description>geometry</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Clemens Ager 2020</copyright><lastBuildDate>Sat, 03 Feb 2018 09:01:13 +0100</lastBuildDate>
-    <image>
-      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
-      <title>geometry</title>
-      <link>/tags/geometry/</link>
-    </image>
-    
-    <item>
-      <title>Euclidea</title>
-      <link>/post/links/euclidea/</link>
-      <pubDate>Sat, 03 Feb 2018 09:01:13 +0100</pubDate>
-      <guid>/post/links/euclidea/</guid>
-      <description>&lt;p&gt;Having some extra time?  
-&lt;a href=&#34;https://euclidea.xyz&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Euclidea&lt;/a&gt; teaches
-euclidean geometry using puzzles.  Only working with compass and
-straightedge.  Too long time I practiced these.&lt;/p&gt;
-&lt;!-- more --&gt;
-</description>
-    </item>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>geometry | bdcaf</title><link>/tags/geometry/</link><atom:link href="/tags/geometry/index.xml" rel="self" type="application/rss+xml"/><description>geometry</description><generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Clemens Ager 2020</copyright><lastBuildDate>Sat, 03 Feb 2018 09:01:13 +0100</lastBuildDate><image><url>img/map[gravatar:%!s(bool=false) shape:circle]</url><title>geometry</title><link>/tags/geometry/</link></image><item><title>Euclidea</title><link>/post/links/euclidea/</link><pubDate>Sat, 03 Feb 2018 09:01:13 +0100</pubDate><guid>/post/links/euclidea/</guid><description>&lt;p>Having some extra time?
+&lt;a href="https://euclidea.xyz" target="_blank" rel="noopener">Euclidea&lt;/a> teaches
+euclidean geometry using puzzles. Only working with compass and
+straightedge. Too long time I practiced these.&lt;/p>
+&lt;!-- more --></description></item></channel></rss>

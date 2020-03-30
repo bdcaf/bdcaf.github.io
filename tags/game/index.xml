@@ -1,107 +1,40 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>game | bdcaf</title>
-    <link>/tags/game/</link>
-      <atom:link href="/tags/game/index.xml" rel="self" type="application/rss+xml" />
-    <description>game</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Clemens Ager 2020</copyright><lastBuildDate>Fri, 29 Jun 2018 12:12:04 +0200</lastBuildDate>
-    <image>
-      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
-      <title>game</title>
-      <link>/tags/game/</link>
-    </image>
-    
-    <item>
-      <title>Keep talking and nobody explodes</title>
-      <link>/post/links/keep_talking/</link>
-      <pubDate>Fri, 30 Mar 2018 12:58:23 +0200</pubDate>
-      <guid>/post/links/keep_talking/</guid>
-      <description>&lt;p&gt;At the current 
-&lt;a href=&#34;https://www.humblebundle.com/games/humble-indie-bundle-19&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;HUMBLE INDIE BUNDLE 19&lt;/a&gt; they
-include the party game 
-&lt;a href=&#34;http://www.keeptalkinggame.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Keep talking and nobody explodes&lt;/a&gt;.  One can get it the next 10
-days for about 5€.  Basically one sits in front of the computer which
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>game | bdcaf</title><link>/tags/game/</link><atom:link href="/tags/game/index.xml" rel="self" type="application/rss+xml"/><description>game</description><generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Clemens Ager 2020</copyright><lastBuildDate>Fri, 29 Jun 2018 12:12:04 +0200</lastBuildDate><image><url>img/map[gravatar:%!s(bool=false) shape:circle]</url><title>game</title><link>/tags/game/</link></image><item><title>Keep talking and nobody explodes</title><link>/post/links/keep_talking/</link><pubDate>Fri, 30 Mar 2018 12:58:23 +0200</pubDate><guid>/post/links/keep_talking/</guid><description>&lt;p>At the current
+&lt;a href="https://www.humblebundle.com/games/humble-indie-bundle-19" target="_blank" rel="noopener">HUMBLE INDIE BUNDLE 19&lt;/a> they
+include the party game
+&lt;a href="http://www.keeptalkinggame.com" target="_blank" rel="noopener">Keep talking and nobody explodes&lt;/a>. One can get it the next 10
+days for about 5€. Basically one sits in front of the computer which
 simulates a bomb, the rest of the group has the bomb manual and is not
-allowed to see the bomb.  They need to talk the one on the bomb trough
-defusal.&lt;/p&gt;
-&lt;p&gt;I couldn&amp;rsquo;t resist.  Looking forward to try it at the next party.
-Before I was watching some Youtube videos and it looks great fun.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Kerbal Space Program</title>
-      <link>/post/links/kerbal/</link>
-      <pubDate>Sat, 27 Jan 2018 14:50:00 +0100</pubDate>
-      <guid>/post/links/kerbal/</guid>
-      <description>&lt;p&gt;These days I started up 
-&lt;a href=&#34;https://kerbalspaceprogram.com/en/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Kerbal Space
-Program&lt;/a&gt;.  It is a space game
+allowed to see the bomb. They need to talk the one on the bomb trough
+defusal.&lt;/p>
+&lt;p>I couldn&amp;rsquo;t resist. Looking forward to try it at the next party.
+Before I was watching some Youtube videos and it looks great fun.&lt;/p></description></item><item><title>Kerbal Space Program</title><link>/post/links/kerbal/</link><pubDate>Sat, 27 Jan 2018 14:50:00 +0100</pubDate><guid>/post/links/kerbal/</guid><description>&lt;p>These days I started up
+&lt;a href="https://kerbalspaceprogram.com/en/" target="_blank" rel="noopener">Kerbal Space
+Program&lt;/a>. It is a space game
 where you construct your own vehicles and explore the solar system.
-As physics games go it is amazing.&lt;/p&gt;
-&lt;p&gt;Unless you carefully plan out maneuvers they will lead to disaster -
-which is often also hilarious to watch play out.  Even getting into
-orbit is a challenge in the beginning.&lt;/p&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure&gt;
-
-
-  &lt;a data-fancybox=&#34;&#34; href=&#34;/post/links/2018-01-kerbal.jpg&#34; data-caption=&#34;My first Mun landing without breaking stuff.&#34;&gt;
-
-
-  &lt;img src=&#34;/post/links/2018-01-kerbal.jpg&#34; alt=&#34;&#34;  &gt;
-&lt;/a&gt;
-
-
-  
-  
-  &lt;figcaption&gt;
-    My first Mun landing without breaking stuff.
-  &lt;/figcaption&gt;
-
-
-&lt;/figure&gt;
-
-&lt;!-- more --&gt;
-&lt;p&gt;The only critic point would be that one needs to learn about most
-concepts outside the game.  These may be small things like how the
+As physics games go it is amazing.&lt;/p>
+&lt;p>Unless you carefully plan out maneuvers they will lead to disaster -
+which is often also hilarious to watch play out. Even getting into
+orbit is a challenge in the beginning.&lt;/p>
+&lt;figure>
+&lt;a data-fancybox="" href="/post/links/2018-01-kerbal.jpg" data-caption="My first Mun landing without breaking stuff.">
+&lt;img src="/post/links/2018-01-kerbal.jpg" alt="" >
+&lt;/a>
+&lt;figcaption>
+My first Mun landing without breaking stuff.
+&lt;/figcaption>
+&lt;/figure>
+&lt;!-- more -->
+&lt;p>The only critic point would be that one needs to learn about most
+concepts outside the game. These may be small things like how the
 solid fuel boosters are different from rocket engines - the boosters
-can not be throttled, while the rocket engines can be.  To the more
+can not be throttled, while the rocket engines can be. To the more
 advanced topics of how to do orbit transfers and gravity assists.
 Though once the concepts are understood it is immensely gratifying to
-be able to these maneuvers.&lt;/p&gt;
-&lt;p&gt;And there are fun concepts that came up from this game like
-&lt;em&gt;lithobraking&lt;/em&gt; - which in analogy to aero and hydrobraking is reducing
-speed by hitting rocks.  And URD the abbreviation for unscheduled
-rapid disassembly - basically the craft explodes.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Wieder mal spielen...</title>
-      <link>/post/2014/2014-01-14-wieder-mal-spielen/</link>
-      <pubDate>Tue, 14 Jan 2014 07:17:16 +0000</pubDate>
-      <guid>/post/2014/2014-01-14-wieder-mal-spielen/</guid>
-      <description>&lt;p&gt;Hab jetzt den 
-&lt;a href=&#34;http://www.surgeonsimulator2013.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Surgeon Simulator&lt;/a&gt; am laufen. Ist im 
-&lt;a href=&#34;https://www.humblebundle.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Humble Indie Bundle X (pay what you want and help charity)&lt;/a&gt; grad zu kaufen.&lt;/p&gt;
-&lt;p&gt;Macht viel Spaß. Schaut euch nur die YouTube lets plays an&amp;hellip;&lt;/p&gt;
-</description>
-    </item>
-    
-  </channel>
-</rss>
+be able to these maneuvers.&lt;/p>
+&lt;p>And there are fun concepts that came up from this game like
+&lt;em>lithobraking&lt;/em> - which in analogy to aero and hydrobraking is reducing
+speed by hitting rocks. And URD the abbreviation for unscheduled
+rapid disassembly - basically the craft explodes.&lt;/p></description></item><item><title>Wieder mal spielen...</title><link>/post/2014/2014-01-14-wieder-mal-spielen/</link><pubDate>Tue, 14 Jan 2014 07:17:16 +0000</pubDate><guid>/post/2014/2014-01-14-wieder-mal-spielen/</guid><description>&lt;p>Hab jetzt den
+&lt;a href="http://www.surgeonsimulator2013.com" target="_blank" rel="noopener">Surgeon Simulator&lt;/a> am laufen. Ist im
+&lt;a href="https://www.humblebundle.com/" target="_blank" rel="noopener">Humble Indie Bundle X (pay what you want and help charity)&lt;/a> grad zu kaufen.&lt;/p>
+&lt;p>Macht viel Spaß. Schaut euch nur die YouTube lets plays an&amp;hellip;&lt;/p></description></item></channel></rss>

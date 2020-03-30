@@ -1,31 +1,7 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>shell | bdcaf</title>
-    <link>/tags/shell/</link>
-      <atom:link href="/tags/shell/index.xml" rel="self" type="application/rss+xml" />
-    <description>shell</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Clemens Ager 2020</copyright><lastBuildDate>Tue, 23 Jan 2018 17:55:06 +0100</lastBuildDate>
-    <image>
-      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
-      <title>shell</title>
-      <link>/tags/shell/</link>
-    </image>
-    
-    <item>
-      <title>Readline</title>
-      <link>/post/todayilearnt/readline/</link>
-      <pubDate>Tue, 23 Jan 2018 17:55:06 +0100</pubDate>
-      <guid>/post/todayilearnt/readline/</guid>
-      <description>&lt;p&gt;In many terminal programs readline is doing the editing of input.  It
-is possible with &lt;code&gt;M-v&lt;/code&gt; to quickly switch to vi mode and with &lt;code&gt;M-e&lt;/code&gt; to
-the default emacs mode.  In emacs mode one has a few commands like
-&lt;code&gt;^A&lt;/code&gt; to jump to the begin of line.  Usually I prefer vi - but in
-command line it&amp;rsquo;s not that useful to switch modes.&lt;/p&gt;
-&lt;p&gt;R in tmux got stuck in vi mode and was pasting &lt;code&gt;^A^K...&lt;/code&gt; all over the
-place. &lt;code&gt;M-e&lt;/code&gt; fixed it.&lt;/p&gt;
-</description>
-    </item>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>shell | bdcaf</title><link>/tags/shell/</link><atom:link href="/tags/shell/index.xml" rel="self" type="application/rss+xml"/><description>shell</description><generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Clemens Ager 2020</copyright><lastBuildDate>Tue, 23 Jan 2018 17:55:06 +0100</lastBuildDate><image><url>img/map[gravatar:%!s(bool=false) shape:circle]</url><title>shell</title><link>/tags/shell/</link></image><item><title>Readline</title><link>/post/todayilearnt/readline/</link><pubDate>Tue, 23 Jan 2018 17:55:06 +0100</pubDate><guid>/post/todayilearnt/readline/</guid><description>&lt;p>In many terminal programs readline is doing the editing of input. It
+is possible with &lt;code>M-v&lt;/code> to quickly switch to vi mode and with &lt;code>M-e&lt;/code> to
+the default emacs mode. In emacs mode one has a few commands like
+&lt;code>^A&lt;/code> to jump to the begin of line. Usually I prefer vi - but in
+command line it&amp;rsquo;s not that useful to switch modes.&lt;/p>
+&lt;p>R in tmux got stuck in vi mode and was pasting &lt;code>^A^K...&lt;/code> all over the
+place. &lt;code>M-e&lt;/code> fixed it.&lt;/p></description></item></channel></rss>

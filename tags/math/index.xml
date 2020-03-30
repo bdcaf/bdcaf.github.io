@@ -1,102 +1,39 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>math | bdcaf</title>
-    <link>/tags/math/</link>
-      <atom:link href="/tags/math/index.xml" rel="self" type="application/rss+xml" />
-    <description>math</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Clemens Ager 2020</copyright><lastBuildDate>Tue, 15 Jan 2019 17:15:52 +0100</lastBuildDate>
-    <image>
-      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
-      <title>math</title>
-      <link>/tags/math/</link>
-    </image>
-    
-    <item>
-      <title>Colliding Blocks</title>
-      <link>/post/links/colliding_blocks/</link>
-      <pubDate>Tue, 15 Jan 2019 17:15:52 +0100</pubDate>
-      <guid>/post/links/colliding_blocks/</guid>
-      <description>&lt;p&gt;
-&lt;a href=&#34;https://www.youtube.com/channel/UCYO_jab_esuFRV4b17AJtAw&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Three blue one
-brown&lt;/a&gt; who
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>math | bdcaf</title><link>/tags/math/</link><atom:link href="/tags/math/index.xml" rel="self" type="application/rss+xml"/><description>math</description><generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Clemens Ager 2020</copyright><lastBuildDate>Tue, 15 Jan 2019 17:15:52 +0100</lastBuildDate><image><url>img/map[gravatar:%!s(bool=false) shape:circle]</url><title>math</title><link>/tags/math/</link></image><item><title>Colliding Blocks</title><link>/post/links/colliding_blocks/</link><pubDate>Tue, 15 Jan 2019 17:15:52 +0100</pubDate><guid>/post/links/colliding_blocks/</guid><description>&lt;p>
+&lt;a href="https://www.youtube.com/channel/UCYO_jab_esuFRV4b17AJtAw" target="_blank" rel="noopener">Three blue one
+brown&lt;/a> who
 makes amazing videos about maths found another amazing fact linking
-how masses collide with an amazing mathematical property.  Since I
-don&amp;rsquo;t want to spoil anything watch it!&lt;/p&gt;
-
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;https://www.youtube.com/embed/HEfHFsfGXjs&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
-&lt;/div&gt;</description>
-    </item>
-    
-    <item>
-      <title>Math Acrobatics</title>
-      <link>/post/links/hanoi/</link>
-      <pubDate>Mon, 04 Jun 2018 09:33:04 +0200</pubDate>
-      <guid>/post/links/hanoi/</guid>
-      <description>&lt;p&gt;The youtuber 
-&lt;a href=&#34;https://www.youtube.com/channel/UCYO_jab_esuFRV4b17AJtAw&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;3blue1brown&lt;/a&gt; has a number of interesting posts.  however often he is a bit fast for me and it seems handwaving.&lt;/p&gt;
-&lt;p&gt;Recently he made a fantastic video about solving the 
-&lt;a href=&#34;https://youtu.be/2SUvWfNJSsM&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;towers of hanoi&lt;/a&gt;.  I did already know it is easy to spell out the solution in terms of recursion.  However he showed some connection to binary and ternary numbers - which alone is funny.  And finally that the solution also traverses the Sierpinsky triangle in 
-&lt;a href=&#34;https://youtu.be/bdMfjfT0lKk&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;part 2&lt;/a&gt; which is surprising.&lt;/p&gt;
-&lt;p&gt;I embeded the videos after the &amp;ldquo;post&amp;rdquo; fold for convenient watching.&lt;/p&gt;
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;https://www.youtube.com/embed/2SUvWfNJSsM&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
-&lt;/div&gt;
-
-
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;https://www.youtube.com/embed/bdMfjfT0lKk&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
-&lt;/div&gt;</description>
-    </item>
-    
-    <item>
-      <title>Euclidea</title>
-      <link>/post/links/euclidea/</link>
-      <pubDate>Sat, 03 Feb 2018 09:01:13 +0100</pubDate>
-      <guid>/post/links/euclidea/</guid>
-      <description>&lt;p&gt;Having some extra time?  
-&lt;a href=&#34;https://euclidea.xyz&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Euclidea&lt;/a&gt; teaches
-euclidean geometry using puzzles.  Only working with compass and
-straightedge.  Too long time I practiced these.&lt;/p&gt;
-&lt;!-- more --&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>RAND</title>
-      <link>/post/links/rand/</link>
-      <pubDate>Thu, 25 Jan 2018 16:11:15 +0100</pubDate>
-      <guid>/post/links/rand/</guid>
-      <description>&lt;p&gt;
-&lt;a href=&#34;https://www.rand.org&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;RAND corporation&lt;/a&gt; has released some of their
-classics freely at 
-&lt;a href=&#34;https://www.rand.org/pubs/classics.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;RAND
-Classics&lt;/a&gt;.  I did already
-know 
-&lt;a href=&#34;https://www.rand.org/pubs/commercial_books/CB113-1.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;The Compleat
-Strategyst&lt;/a&gt;
-which is a classic.  There are some more game theory books that I
-don&amp;rsquo;t know yet.  And lots of cold war strategy - all worth a look.&lt;/p&gt;
-&lt;!-- more --&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Story on Moebius</title>
-      <link>/post/2017/2017-03-14_story/</link>
-      <pubDate>Thu, 16 Mar 2017 10:54:35 +0100</pubDate>
-      <guid>/post/2017/2017-03-14_story/</guid>
-      <description>&lt;p&gt;
-&lt;a href=&#34;https://www.youtube.com/channel/UCOGeU-1Fig3rrDjhm9Zs_wg&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Vi Hart&lt;/a&gt;
-tells this lovely mathematical story.&lt;/p&gt;
-
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;https://www.youtube.com/embed/4mdEsouIXGM&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
-&lt;/div&gt;
-
-</description>
-    </item>
-    
-  </channel>
-</rss>
+how masses collide with an amazing mathematical property. Since I
+don&amp;rsquo;t want to spoil anything watch it!&lt;/p>
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe src="https://www.youtube.com/embed/HEfHFsfGXjs" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
+&lt;/div></description></item><item><title>Math Acrobatics</title><link>/post/links/hanoi/</link><pubDate>Mon, 04 Jun 2018 09:33:04 +0200</pubDate><guid>/post/links/hanoi/</guid><description>&lt;p>The youtuber
+&lt;a href="https://www.youtube.com/channel/UCYO_jab_esuFRV4b17AJtAw" target="_blank" rel="noopener">3blue1brown&lt;/a> has a number of interesting posts. however often he is a bit fast for me and it seems handwaving.&lt;/p>
+&lt;p>Recently he made a fantastic video about solving the
+&lt;a href="https://youtu.be/2SUvWfNJSsM" target="_blank" rel="noopener">towers of hanoi&lt;/a>. I did already know it is easy to spell out the solution in terms of recursion. However he showed some connection to binary and ternary numbers - which alone is funny. And finally that the solution also traverses the Sierpinsky triangle in
+&lt;a href="https://youtu.be/bdMfjfT0lKk" target="_blank" rel="noopener">part 2&lt;/a> which is surprising.&lt;/p>
+&lt;p>I embeded the videos after the &amp;ldquo;post&amp;rdquo; fold for convenient watching.&lt;/p>
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe src="https://www.youtube.com/embed/2SUvWfNJSsM" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
+&lt;/div>
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe src="https://www.youtube.com/embed/bdMfjfT0lKk" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
+&lt;/div></description></item><item><title>Euclidea</title><link>/post/links/euclidea/</link><pubDate>Sat, 03 Feb 2018 09:01:13 +0100</pubDate><guid>/post/links/euclidea/</guid><description>&lt;p>Having some extra time?
+&lt;a href="https://euclidea.xyz" target="_blank" rel="noopener">Euclidea&lt;/a> teaches
+euclidean geometry using puzzles. Only working with compass and
+straightedge. Too long time I practiced these.&lt;/p>
+&lt;!-- more --></description></item><item><title>RAND</title><link>/post/links/rand/</link><pubDate>Thu, 25 Jan 2018 16:11:15 +0100</pubDate><guid>/post/links/rand/</guid><description>&lt;p>
+&lt;a href="https://www.rand.org" target="_blank" rel="noopener">RAND corporation&lt;/a> has released some of their
+classics freely at
+&lt;a href="https://www.rand.org/pubs/classics.html" target="_blank" rel="noopener">RAND
+Classics&lt;/a>. I did already
+know
+&lt;a href="https://www.rand.org/pubs/commercial_books/CB113-1.html" target="_blank" rel="noopener">The Compleat
+Strategyst&lt;/a>
+which is a classic. There are some more game theory books that I
+don&amp;rsquo;t know yet. And lots of cold war strategy - all worth a look.&lt;/p>
+&lt;!-- more --></description></item><item><title>Story on Moebius</title><link>/post/2017/2017-03-14_story/</link><pubDate>Thu, 16 Mar 2017 10:54:35 +0100</pubDate><guid>/post/2017/2017-03-14_story/</guid><description>&lt;p>
+&lt;a href="https://www.youtube.com/channel/UCOGeU-1Fig3rrDjhm9Zs_wg" target="_blank" rel="noopener">Vi Hart&lt;/a>
+tells this lovely mathematical story.&lt;/p>
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe src="https://www.youtube.com/embed/4mdEsouIXGM" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
+&lt;/div></description></item></channel></rss>

@@ -1,34 +1,10 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>audiobooks | bdcaf</title>
-    <link>/tags/audiobooks/</link>
-      <atom:link href="/tags/audiobooks/index.xml" rel="self" type="application/rss+xml" />
-    <description>audiobooks</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Clemens Ager 2020</copyright><lastBuildDate>Tue, 21 Aug 2018 12:06:14 +0200</lastBuildDate>
-    <image>
-      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
-      <title>audiobooks</title>
-      <link>/tags/audiobooks/</link>
-    </image>
-    
-    <item>
-      <title>Köhlmeier at br</title>
-      <link>/post/links/kohlmeier/</link>
-      <pubDate>Tue, 21 Aug 2018 12:06:14 +0200</pubDate>
-      <guid>/post/links/kohlmeier/</guid>
-      <description>&lt;p&gt;Something for the German speakers.  The famous Austrian author
-
-&lt;a href=&#34;https://de.wikipedia.org/wiki/Michael_K%C3%B6hlmeier&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Michael
-Köhlmeier&lt;/a&gt; has
-made several lectures where he retells classical literature.&lt;br&gt;
-BR has made two podcasts available 
-&lt;a href=&#34;https://www.br.de/mediathek/podcast/mythen-michael-koehlmeier-erzaehlt-sagen-des-klassischen-altertums/529&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Mythen&lt;/a&gt; and 
-&lt;a href=&#34;https://www.br.de/mediathek/podcast/koehlmeiers-maerchen/513&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Märchen&lt;/a&gt;.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>audiobooks | bdcaf</title><link>/tags/audiobooks/</link><atom:link href="/tags/audiobooks/index.xml" rel="self" type="application/rss+xml"/><description>audiobooks</description><generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Clemens Ager 2020</copyright><lastBuildDate>Tue, 21 Aug 2018 12:06:14 +0200</lastBuildDate><image><url>img/map[gravatar:%!s(bool=false) shape:circle]</url><title>audiobooks</title><link>/tags/audiobooks/</link></image><item><title>Köhlmeier at br</title><link>/post/links/kohlmeier/</link><pubDate>Tue, 21 Aug 2018 12:06:14 +0200</pubDate><guid>/post/links/kohlmeier/</guid><description>&lt;p>Something for the German speakers. The famous Austrian author
+&lt;a href="https://de.wikipedia.org/wiki/Michael_K%C3%B6hlmeier" target="_blank" rel="noopener">Michael
+Köhlmeier&lt;/a> has
+made several lectures where he retells classical literature.&lt;br>
+BR has made two podcasts available
+&lt;a href="https://www.br.de/mediathek/podcast/mythen-michael-koehlmeier-erzaehlt-sagen-des-klassischen-altertums/529" target="_blank" rel="noopener">Mythen&lt;/a> and
+&lt;a href="https://www.br.de/mediathek/podcast/koehlmeiers-maerchen/513" target="_blank" rel="noopener">Märchen&lt;/a>.
 Both feature an number of 15 minute episodes which can be downloaded
-directly or subscribed in your podcatcher.&lt;/p&gt;
-&lt;p&gt;and more&lt;/p&gt;</description>
-    </item>
-    
-  </channel>
-</rss>
+directly or subscribed in your podcatcher.&lt;/p>
+&lt;p>and more&lt;/p></description></item></channel></rss>

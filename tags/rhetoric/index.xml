@@ -1,32 +1,8 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>rhetoric | bdcaf</title>
-    <link>/tags/rhetoric/</link>
-      <atom:link href="/tags/rhetoric/index.xml" rel="self" type="application/rss+xml" />
-    <description>rhetoric</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Clemens Ager 2020</copyright><lastBuildDate>Tue, 06 Mar 2018 10:28:51 +0100</lastBuildDate>
-    <image>
-      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
-      <title>rhetoric</title>
-      <link>/tags/rhetoric/</link>
-    </image>
-    
-    <item>
-      <title>Der kleine Hey</title>
-      <link>/post/links/derkleinehey/</link>
-      <pubDate>Tue, 06 Mar 2018 10:28:51 +0100</pubDate>
-      <guid>/post/links/derkleinehey/</guid>
-      <description>&lt;p&gt;I had a dental operation and have problems articulating.  I recalled
-learning with &amp;ldquo;Der kleine Hey&amp;rdquo;. I  couldn&amp;rsquo;t locate it in my library.
-I was positively surprised it&amp;rsquo;s in the public domain by now.  The 1884
-edition is on archive.org: 
-&lt;a href=&#34;https://archive.org/details/deutschergesangs01heyj&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Hey&lt;/a&gt;  It&amp;rsquo;s
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>rhetoric | bdcaf</title><link>/tags/rhetoric/</link><atom:link href="/tags/rhetoric/index.xml" rel="self" type="application/rss+xml"/><description>rhetoric</description><generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Clemens Ager 2020</copyright><lastBuildDate>Tue, 06 Mar 2018 10:28:51 +0100</lastBuildDate><image><url>img/map[gravatar:%!s(bool=false) shape:circle]</url><title>rhetoric</title><link>/tags/rhetoric/</link></image><item><title>Der kleine Hey</title><link>/post/links/derkleinehey/</link><pubDate>Tue, 06 Mar 2018 10:28:51 +0100</pubDate><guid>/post/links/derkleinehey/</guid><description>&lt;p>I had a dental operation and have problems articulating. I recalled
+learning with &amp;ldquo;Der kleine Hey&amp;rdquo;. I couldn&amp;rsquo;t locate it in my library.
+I was positively surprised it&amp;rsquo;s in the public domain by now. The 1884
+edition is on archive.org:
+&lt;a href="https://archive.org/details/deutschergesangs01heyj" target="_blank" rel="noopener">Hey&lt;/a> It&amp;rsquo;s
 well worth checking out if you want to work on your (German)
-pronunciation.  Now - let&amp;rsquo;s see how soon I can talk again.&lt;/p&gt;
-&lt;!-- more --&gt;
-</description>
-    </item>
-    
-  </channel>
-</rss>
+pronunciation. Now - let&amp;rsquo;s see how soon I can talk again.&lt;/p>
+&lt;!-- more --></description></item></channel></rss>

@@ -1,128 +1,60 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>breath | bdcaf</title>
-    <link>/tags/breath/</link>
-      <atom:link href="/tags/breath/index.xml" rel="self" type="application/rss+xml" />
-    <description>breath</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Clemens Ager 2020</copyright><lastBuildDate>Mon, 01 Jan 2018 00:00:00 +0000</lastBuildDate>
-    <image>
-      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
-      <title>breath</title>
-      <link>/tags/breath/</link>
-    </image>
-    
-    <item>
-      <title>WTF - LOQ</title>
-      <link>/post/2017/2017-01-11_log/</link>
-      <pubDate>Wed, 11 Jan 2017 13:53:20 +0100</pubDate>
-      <guid>/post/2017/2017-01-11_log/</guid>
-      <description>&lt;p&gt;Just got 
-&lt;a href=&#34;http://dx.doi.org/10.1088/1752-7155/10/4/045001&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Imputing defensible values for left-censored ‘below level of
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>breath | bdcaf</title><link>/tags/breath/</link><atom:link href="/tags/breath/index.xml" rel="self" type="application/rss+xml"/><description>breath</description><generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Clemens Ager 2020</copyright><lastBuildDate>Mon, 01 Jan 2018 00:00:00 +0000</lastBuildDate><image><url>img/map[gravatar:%!s(bool=false) shape:circle]</url><title>breath</title><link>/tags/breath/</link></image><item><title>WTF - LOQ</title><link>/post/2017/2017-01-11_log/</link><pubDate>Wed, 11 Jan 2017 13:53:20 +0100</pubDate><guid>/post/2017/2017-01-11_log/</guid><description>&lt;p>Just got
+&lt;a href="http://dx.doi.org/10.1088/1752-7155/10/4/045001" target="_blank" rel="noopener">Imputing defensible values for left-censored ‘below level of
 quantitation’ (LoQ) biomarker
-measurements&lt;/a&gt; forwarded.  It
+measurements&lt;/a> forwarded. It
 starts as interesting read stating the problem but IMHO ultimatively fails to
 address the problem.
 I am especially disappointed that neither the IUPAC definition and guidelines
-are mentioned, nor the current ISO 11843.  Especially the works of 
-&lt;a href=&#34;https://scholar.google.at/scholar?q=lloyd&amp;#43;a&amp;#43;currie&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Lloyd A.
-Currie&lt;/a&gt; offer great insight
-in this topic.&lt;/p&gt;
-&lt;p&gt;The whole idea of censoring values below LOQ was already debunked by Currie.
+are mentioned, nor the current ISO 11843. Especially the works of
+&lt;a href="https://scholar.google.at/scholar?q=lloyd&amp;#43;a&amp;#43;currie" target="_blank" rel="noopener">Lloyd A.
+Currie&lt;/a> offer great insight
+in this topic.&lt;/p>
+&lt;p>The whole idea of censoring values below LOQ was already debunked by Currie.
 While I find the whole censored data method is promising I expect it useful for
 cases where the measurement device reaches its limits - not cases of manual
-censorship.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Erster Tag auf der IABR Konferenz</title>
-      <link>/post/academic/2016-09-iabr-tag1/</link>
-      <pubDate>Tue, 13 Sep 2016 14:05:19 +0200</pubDate>
-      <guid>/post/academic/2016-09-iabr-tag1/</guid>
-      <description>&lt;p&gt;Die Talks bis jetzt sind Wiederholungen vom letzten Jahr.  Aber es ja
-um mein Poster und Networken.&lt;/p&gt;
-&lt;p&gt;Statistik ist hier immer noch ein heißes Thema.  Die wenigsten machen
-robuste Statistik und korrigieren für wiederholte Vergleiche.  Das
-scheint noch nicht angekommen sein.  Allerdings kann ich dann sicher
-Punkten wenn ich sie als erster erkläre :)&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Endlich das Poster fertig</title>
-      <link>/post/academic/2016iabr_poster_ready/</link>
-      <pubDate>Sun, 11 Sep 2016 21:05:19 +0200</pubDate>
-      <guid>/post/academic/2016iabr_poster_ready/</guid>
-      <description>&lt;p&gt;Hatte noch einige wichtige Resultate die ich einbinden wollte.
-Ansehen kann man das Poster 
-&lt;a href=&#34;/post/academic/iabr2016_poster.pdf&#34;&gt;hier&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Ich hoffe auf einige interessante Kontakte.  Gerade auf der
-statistischen Seite wäre es spannend die Sache zu erweitern.&lt;/p&gt;
-&lt;div class=&#34;embed-responsive&#34;&gt;
-  &lt;object data=&#34;/post/academic/iabr2016_poster.pdf&#34; type=&#39;application/pdf&#39; width=&#39;100%&#39; height=&#39;400px&#39; &gt;
-    &lt;p&gt;This browser does not support inline PDFs. Please download the PDF to view it: 
-  &lt;/object&gt; &lt;a href=&#34;/post/academic/iabr2016_poster.pdf&#34;&gt;Download PDF&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;</description>
-    </item>
-    
-    <item>
-      <title>Ende der Konferenz</title>
-      <link>/post/2015/20150917_vorbei/</link>
-      <pubDate>Thu, 17 Sep 2015 00:00:00 +0000</pubDate>
-      <guid>/post/2015/20150917_vorbei/</guid>
-      <description>&lt;p&gt;Jetzt ist alles vorbei.  Der dritte Tag war nicht so
+censorship.&lt;/p></description></item><item><title>Erster Tag auf der IABR Konferenz</title><link>/post/academic/2016-09-iabr-tag1/</link><pubDate>Tue, 13 Sep 2016 14:05:19 +0200</pubDate><guid>/post/academic/2016-09-iabr-tag1/</guid><description>&lt;p>Die Talks bis jetzt sind Wiederholungen vom letzten Jahr. Aber es ja
+um mein Poster und Networken.&lt;/p>
+&lt;p>Statistik ist hier immer noch ein heißes Thema. Die wenigsten machen
+robuste Statistik und korrigieren für wiederholte Vergleiche. Das
+scheint noch nicht angekommen sein. Allerdings kann ich dann sicher
+Punkten wenn ich sie als erster erkläre :)&lt;/p></description></item><item><title>Endlich das Poster fertig</title><link>/post/academic/2016iabr_poster_ready/</link><pubDate>Sun, 11 Sep 2016 21:05:19 +0200</pubDate><guid>/post/academic/2016iabr_poster_ready/</guid><description>&lt;p>Hatte noch einige wichtige Resultate die ich einbinden wollte.
+Ansehen kann man das Poster
+&lt;a href="/post/academic/iabr2016_poster.pdf">hier&lt;/a>.&lt;/p>
+&lt;p>Ich hoffe auf einige interessante Kontakte. Gerade auf der
+statistischen Seite wäre es spannend die Sache zu erweitern.&lt;/p>
+&lt;div class="embed-responsive">
+&lt;object data="/post/academic/iabr2016_poster.pdf" type='application/pdf' width='100%' height='400px' >
+&lt;p>This browser does not support inline PDFs. Please download the PDF to view it:
+&lt;/object> &lt;a href="/post/academic/iabr2016_poster.pdf">Download PDF&lt;/a>&lt;/p>
+&lt;/div></description></item><item><title>Ende der Konferenz</title><link>/post/2015/20150917_vorbei/</link><pubDate>Thu, 17 Sep 2015 00:00:00 +0000</pubDate><guid>/post/2015/20150917_vorbei/</guid><description>&lt;p>Jetzt ist alles vorbei. Der dritte Tag war nicht so
 spannend für mich nicht so spannend. Viel dieser
-Meta-diskussion wenig spezifisches.&lt;/p&gt;
-&lt;p&gt;Martin hat den 2. Preis für sein Poster bekommen und kriegt
-für die nächste Konferenz die Kosten.  Also fährt er sicher
-nächstes Jahr.  Selbst bin ich mir noch nicht so sicher.&lt;/p&gt;
-&lt;p&gt;Jetzt sitz&amp;rsquo; ich im Zug und versuch heim fahren. Wegen der
-deutschen Grenzen muss ich gewaltigen Umweg machen.  Hoffe
-ich komm aber noch in vernünftiger Zeit daheim an.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Interessanter Trend bei BreathVienna</title>
-      <link>/post/2015/20150915_good_news/</link>
-      <pubDate>Tue, 15 Sep 2015 16:50:16 +0200</pubDate>
-      <guid>/post/2015/20150915_good_news/</guid>
-      <description>&lt;p&gt;Guter Trend bei 
-&lt;a href=&#34;http://breathvienna.at&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;BreathVienna&lt;/a&gt; jeder der was
-auf sich hält benutzt 
-&lt;a href=&#34;https://www.r-project.org&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;R&lt;/a&gt;. Dann gehören die
+Meta-diskussion wenig spezifisches.&lt;/p>
+&lt;p>Martin hat den 2. Preis für sein Poster bekommen und kriegt
+für die nächste Konferenz die Kosten. Also fährt er sicher
+nächstes Jahr. Selbst bin ich mir noch nicht so sicher.&lt;/p>
+&lt;p>Jetzt sitz&amp;rsquo; ich im Zug und versuch heim fahren. Wegen der
+deutschen Grenzen muss ich gewaltigen Umweg machen. Hoffe
+ich komm aber noch in vernünftiger Zeit daheim an.&lt;/p></description></item><item><title>Interessanter Trend bei BreathVienna</title><link>/post/2015/20150915_good_news/</link><pubDate>Tue, 15 Sep 2015 16:50:16 +0200</pubDate><guid>/post/2015/20150915_good_news/</guid><description>&lt;p>Guter Trend bei
+&lt;a href="http://breathvienna.at" target="_blank" rel="noopener">BreathVienna&lt;/a> jeder der was
+auf sich hält benutzt
+&lt;a href="https://www.r-project.org" target="_blank" rel="noopener">R&lt;/a>. Dann gehören die
 unansehnlichen Matlab Plots bald der Vergangenheit an. Besonders
-interessant war, dass der 
-&lt;a href=&#34;http://www.menssanaresearch.com/about_Menssana.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Micheal
-Phillips&lt;/a&gt; seine
+interessant war, dass der
+&lt;a href="http://www.menssanaresearch.com/about_Menssana.html" target="_blank" rel="noopener">Micheal
+Phillips&lt;/a> seine
 Resultate mit
-
-&lt;a href=&#34;https://bioconductor.org/packages/release/bioc/html/xcms.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;xcms&lt;/a&gt;
-erarbeitet hat.  Das hatten wir auch schon ausgetestet.&lt;/p&gt;
-&lt;p&gt;Ist sehr interessant &amp;ndash; aber das automatische Auswerten ist bei uns
+&lt;a href="https://bioconductor.org/packages/release/bioc/html/xcms.html" target="_blank" rel="noopener">xcms&lt;/a>
+erarbeitet hat. Das hatten wir auch schon ausgetestet.&lt;/p>
+&lt;p>Ist sehr interessant &amp;ndash; aber das automatische Auswerten ist bei uns
 eine Endlosgeschichte, weil man die Chemiker nie komplett
-zufriedenstellen kann.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Das Programm für den Atemgas Kongress ist heraußen</title>
-      <link>/post/academic/programm_breath_summit2015/</link>
-      <pubDate>Mon, 17 Aug 2015 18:49:07 +0200</pubDate>
-      <guid>/post/academic/programm_breath_summit2015/</guid>
-      <description>&lt;p&gt;Auf der Seite 
-&lt;a href=&#34;http://breathvienna.at&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Breathvienna&lt;/a&gt; gibt es das 
-&lt;a href=&#34;http://breathvienna.at/wp-content/uploads/2015/08/CLICK-HERE-to-download-IABR-summit-2015-PROGRAM.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Programm&lt;/a&gt; nun zum ansehen.&lt;/p&gt;
-&lt;p&gt;Für mich ist einiges interessant.  Selber werde ich wohl nur bei der
-Postersession präsentieren.&lt;/p&gt;
-&lt;p&gt;Gerade die &lt;em&gt;emerging topics&lt;/em&gt; und die &lt;em&gt;biomarker&lt;/em&gt; sind spannend für
-mich - leider beide gleichzeitig.  Danach ist wohl das &lt;em&gt;medical
-monitoring&lt;/em&gt; spannend.  Tag 2 werd&amp;rsquo; ich hin und her wechseln.  Aber den
-
-&lt;a href=&#34;http://www.menssanaresearch.com/about_staff_Menssana.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Michael Phillips&lt;/a&gt;
-sollte man schon gesehen haben.  Danach die Session mit Datenanalyse
-ist ein Muss für mich.&lt;/p&gt;
-</description>
-    </item>
-    
-  </channel>
-</rss>
+zufriedenstellen kann.&lt;/p></description></item><item><title>Das Programm für den Atemgas Kongress ist heraußen</title><link>/post/academic/programm_breath_summit2015/</link><pubDate>Mon, 17 Aug 2015 18:49:07 +0200</pubDate><guid>/post/academic/programm_breath_summit2015/</guid><description>&lt;p>Auf der Seite
+&lt;a href="http://breathvienna.at" target="_blank" rel="noopener">Breathvienna&lt;/a> gibt es das
+&lt;a href="http://breathvienna.at/wp-content/uploads/2015/08/CLICK-HERE-to-download-IABR-summit-2015-PROGRAM.pdf" target="_blank" rel="noopener">Programm&lt;/a> nun zum ansehen.&lt;/p>
+&lt;p>Für mich ist einiges interessant. Selber werde ich wohl nur bei der
+Postersession präsentieren.&lt;/p>
+&lt;p>Gerade die &lt;em>emerging topics&lt;/em> und die &lt;em>biomarker&lt;/em> sind spannend für
+mich - leider beide gleichzeitig. Danach ist wohl das &lt;em>medical
+monitoring&lt;/em> spannend. Tag 2 werd&amp;rsquo; ich hin und her wechseln. Aber den
+&lt;a href="http://www.menssanaresearch.com/about_staff_Menssana.html" target="_blank" rel="noopener">Michael Phillips&lt;/a>
+sollte man schon gesehen haben. Danach die Session mit Datenanalyse
+ist ein Muss für mich.&lt;/p></description></item></channel></rss>

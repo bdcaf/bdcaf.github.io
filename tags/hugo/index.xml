@@ -1,90 +1,53 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>hugo | bdcaf</title>
-    <link>/tags/hugo/</link>
-      <atom:link href="/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
-    <description>hugo</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Clemens Ager 2020</copyright><lastBuildDate>Fri, 26 Apr 2019 13:40:24 +0200</lastBuildDate>
-    <image>
-      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
-      <title>hugo</title>
-      <link>/tags/hugo/</link>
-    </image>
-    
-    <item>
-      <title>New Project R Hugo Papers</title>
-      <link>/post/dev/r-hugo-paperss/</link>
-      <pubDate>Fri, 26 Apr 2019 13:40:24 +0200</pubDate>
-      <guid>/post/dev/r-hugo-paperss/</guid>
-      <description>&lt;p&gt;I started the project 
-&lt;a href=&#34;https://bdcaf.github.io/r-hugo-papercss-template/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;R-Hugo-Papercss&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;This is a template for the hugo static site engine.  The purpose is to use its page bundle feature with generated content from R.  There were small issues to make hugo write the relative URLs.&lt;/p&gt;
-&lt;p&gt;I also uses the 
-&lt;a href=&#34;https://www.getpapercss.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;papercss&lt;/a&gt; layout.  It seems suitable for a private science blog as it reminds me on the 
-&lt;a href=&#34;https://en.wikipedia.org/wiki/Randall_Munroe&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Randal Munroe&lt;/a&gt;s XKCD style.&lt;/p&gt;
-&lt;p&gt;By now feels complete enough to try out blogging.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Github pages</title>
-      <link>/post/todayilearnt/2018-move/</link>
-      <pubDate>Mon, 29 Jan 2018 10:49:51 +0100</pubDate>
-      <guid>/post/todayilearnt/2018-move/</guid>
-      <description>&lt;p&gt;Now this site is on 
-&lt;a href=&#34;https://pages.github.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;github pages&lt;/a&gt;.&lt;br&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>hugo | bdcaf</title><link>/tags/hugo/</link><atom:link href="/tags/hugo/index.xml" rel="self" type="application/rss+xml"/><description>hugo</description><generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Clemens Ager 2020</copyright><lastBuildDate>Fri, 26 Apr 2019 13:40:24 +0200</lastBuildDate><image><url>img/map[gravatar:%!s(bool=false) shape:circle]</url><title>hugo</title><link>/tags/hugo/</link></image><item><title>New Project R Hugo Papers</title><link>/post/dev/r-hugo-paperss/</link><pubDate>Fri, 26 Apr 2019 13:40:24 +0200</pubDate><guid>/post/dev/r-hugo-paperss/</guid><description>&lt;p>I started the project
+&lt;a href="https://bdcaf.github.io/r-hugo-papercss-template/" target="_blank" rel="noopener">R-Hugo-Papercss&lt;/a>.&lt;/p>
+&lt;p>This is a template for the hugo static site engine. The purpose is to use its page bundle feature with generated content from R. There were small issues to make hugo write the relative URLs.&lt;/p>
+&lt;p>I also uses the
+&lt;a href="https://www.getpapercss.com" target="_blank" rel="noopener">papercss&lt;/a> layout. It seems suitable for a private science blog as it reminds me on the
+&lt;a href="https://en.wikipedia.org/wiki/Randall_Munroe" target="_blank" rel="noopener">Randal Munroe&lt;/a>s XKCD style.&lt;/p>
+&lt;p>By now feels complete enough to try out blogging.&lt;/p></description></item><item><title>Github pages</title><link>/post/todayilearnt/2018-move/</link><pubDate>Mon, 29 Jan 2018 10:49:51 +0100</pubDate><guid>/post/todayilearnt/2018-move/</guid><description>&lt;p>Now this site is on
+&lt;a href="https://pages.github.com" target="_blank" rel="noopener">github pages&lt;/a>.&lt;br>
 I had already repos on github for some time and trusted it - only
 private repos I keep on other places. But mostly I was
-missing some features a bplaced so now the move.  Mostly I like that I
+missing some features a bplaced so now the move. Mostly I like that I
 can now post new content via git so I just need to transfer new posts
-and not the whole site.  That now the site is &lt;code&gt;https&lt;/code&gt; secured is a
-nice boon.&lt;/p&gt;
-&lt;p&gt;It took me some time to reconfigure my 
-&lt;a href=&#34;https://gohugo.io&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;hugo&lt;/a&gt; blog for the pages here&amp;rsquo;s what I learnt:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;the name of the repo must be &lt;code&gt;username.github.io&lt;/code&gt; - at first I had
-the impression &lt;code&gt;username&lt;/code&gt; was enough, and also some guides would
-describe how to use gitlab instead.&lt;/li&gt;
-&lt;li&gt;for me github insists publishing the &lt;code&gt;master&lt;/code&gt; branch - so I had to
-juggle around,  the previous master got renamed to hugo doing: &lt;code&gt;git branch -m master hugo&lt;/code&gt;.  I had already ignored the &lt;code&gt;public&lt;/code&gt;
+and not the whole site. That now the site is &lt;code>https&lt;/code> secured is a
+nice boon.&lt;/p>
+&lt;p>It took me some time to reconfigure my
+&lt;a href="https://gohugo.io" target="_blank" rel="noopener">hugo&lt;/a> blog for the pages here&amp;rsquo;s what I learnt:&lt;/p>
+&lt;ul>
+&lt;li>the name of the repo must be &lt;code>username.github.io&lt;/code> - at first I had
+the impression &lt;code>username&lt;/code> was enough, and also some guides would
+describe how to use gitlab instead.&lt;/li>
+&lt;li>for me github insists publishing the &lt;code>master&lt;/code> branch - so I had to
+juggle around, the previous master got renamed to hugo doing: &lt;code>git branch -m master hugo&lt;/code>. I had already ignored the &lt;code>public&lt;/code>
 directory, and had to delete the original master from online and
 recreate it empty - but I think one can streamline that.
-Then added the master using worktree in public: &lt;code&gt;git worktree add -B master public origin/master&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;the url in &lt;code&gt;config.toml&lt;/code&gt; should be &lt;code&gt;https://username.github.io/&lt;/code&gt; -
-notice the trailing slash.&lt;/li&gt;
-&lt;li&gt;I can then use the &lt;code&gt;hugo&lt;/code&gt; command to build my site.  And publish
-using &lt;code&gt;cd public; git add . ; git commit -am pub; git push; cd ..&lt;/code&gt;  - I&amp;rsquo;m in
-
-&lt;a href=&#34;https://fishshell.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;fish&lt;/a&gt; -  many others use &lt;code&gt;&amp;amp;&amp;amp;&lt;/code&gt; instead.&lt;/li&gt;
-&lt;li&gt;I tried putting my binaries under &lt;code&gt;git lfs&lt;/code&gt; - so far it seems to
-work.  I will write back in case anything shows up.&lt;/li&gt;
-&lt;li&gt;It takes a minute till the change shows up. So I need to be
-patient.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;So there we are on github now&amp;hellip;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Vim for Hugo</title>
-      <link>/post/2015/20150927_vim_hugo/</link>
-      <pubDate>Sun, 27 Sep 2015 10:47:54 +0200</pubDate>
-      <guid>/post/2015/20150927_vim_hugo/</guid>
-      <description>&lt;p&gt;Ich verwende ja den Sitegenerator 
-&lt;a href=&#34;https://gohugo.io&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;hugo&lt;/a&gt; für diese Seite.  Das herumgewurschtel auf der Kommandozeile ist aber etwas nervig.  Daher hab ich ein paar Befehle für Vim geschrieben um es etwas schmerzfreier zu machen.  Soweit ist es aber noch etwas schmerzhaft.&lt;/p&gt;
-&lt;p&gt;Auf der Anleitung 
-&lt;a href=&#34;http://www.thegeekstuff.com/2008/12/vi-and-vim-autocommand-3-steps-to-add-custom-header-to-your-file/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;vi and vim autocommand&lt;/a&gt; hab ich ein paar Ideen gefunden.&lt;/p&gt;
-&lt;p&gt;Für die &lt;code&gt;vimrc&lt;/code&gt; hab ich nun folgendes autocmd entwickelt:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;augroup hugo
-  autocmd!
-  autocmd bufnewfile ~/Documents/Sites/c1891011/content/**/*.md so ~/Documents/Sites/c1891011/private/post_temp.md
-	\ | exe &amp;quot;2,7&amp;quot; . &#39;g/^title = .*$/s//title = &amp;quot;&#39; . expand(&amp;quot;%:t:r&amp;quot;) . &#39;&amp;quot;&#39; 
-	\ | exe &amp;quot;2,7&amp;quot; . &#39;g/^date =.*$/s//date = &amp;quot;&#39; .strftime(&amp;quot;%FT%T%z&amp;quot;) .&#39;&amp;quot;&#39;
-	\ | exe &amp;quot;2,7&amp;quot; . &#39;g/^date =/s/\(+\d\{2\}\):\?\(\d\{2\}\)/\1:\2/&#39;
+Then added the master using worktree in public: &lt;code>git worktree add -B master public origin/master&lt;/code>&lt;/li>
+&lt;li>the url in &lt;code>config.toml&lt;/code> should be &lt;code>https://username.github.io/&lt;/code> -
+notice the trailing slash.&lt;/li>
+&lt;li>I can then use the &lt;code>hugo&lt;/code> command to build my site. And publish
+using &lt;code>cd public; git add . ; git commit -am pub; git push; cd ..&lt;/code> - I&amp;rsquo;m in
+&lt;a href="https://fishshell.com" target="_blank" rel="noopener">fish&lt;/a> - many others use &lt;code>&amp;amp;&amp;amp;&lt;/code> instead.&lt;/li>
+&lt;li>I tried putting my binaries under &lt;code>git lfs&lt;/code> - so far it seems to
+work. I will write back in case anything shows up.&lt;/li>
+&lt;li>It takes a minute till the change shows up. So I need to be
+patient.&lt;/li>
+&lt;/ul>
+&lt;p>So there we are on github now&amp;hellip;&lt;/p></description></item><item><title>Vim for Hugo</title><link>/post/2015/20150927_vim_hugo/</link><pubDate>Sun, 27 Sep 2015 10:47:54 +0200</pubDate><guid>/post/2015/20150927_vim_hugo/</guid><description>&lt;p>Ich verwende ja den Sitegenerator
+&lt;a href="https://gohugo.io" target="_blank" rel="noopener">hugo&lt;/a> für diese Seite. Das herumgewurschtel auf der Kommandozeile ist aber etwas nervig. Daher hab ich ein paar Befehle für Vim geschrieben um es etwas schmerzfreier zu machen. Soweit ist es aber noch etwas schmerzhaft.&lt;/p>
+&lt;p>Auf der Anleitung
+&lt;a href="http://www.thegeekstuff.com/2008/12/vi-and-vim-autocommand-3-steps-to-add-custom-header-to-your-file/" target="_blank" rel="noopener">vi and vim autocommand&lt;/a> hab ich ein paar Ideen gefunden.&lt;/p>
+&lt;p>Für die &lt;code>vimrc&lt;/code> hab ich nun folgendes autocmd entwickelt:&lt;/p>
+&lt;pre>&lt;code>augroup hugo
+autocmd!
+autocmd bufnewfile ~/Documents/Sites/c1891011/content/**/*.md so ~/Documents/Sites/c1891011/private/post_temp.md
+\ | exe &amp;quot;2,7&amp;quot; . 'g/^title = .*$/s//title = &amp;quot;' . expand(&amp;quot;%:t:r&amp;quot;) . '&amp;quot;'
+\ | exe &amp;quot;2,7&amp;quot; . 'g/^date =.*$/s//date = &amp;quot;' .strftime(&amp;quot;%FT%T%z&amp;quot;) .'&amp;quot;'
+\ | exe &amp;quot;2,7&amp;quot; . 'g/^date =/s/\(+\d\{2\}\):\?\(\d\{2\}\)/\1:\2/'
 augroup END
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Wobei das Template &lt;code&gt;private/post_temp.md&lt;/code&gt; wie folgt aussieht:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;:insert
+&lt;/code>&lt;/pre>
+&lt;p>Wobei das Template &lt;code>private/post_temp.md&lt;/code> wie folgt aussieht:&lt;/p>
+&lt;pre>&lt;code>:insert
 +++
 Categories = []
 Description = &amp;quot;&amp;quot;
@@ -92,19 +55,14 @@ Tags = [&amp;quot;blog&amp;quot;]
 date = &amp;quot;insert Date here&amp;quot;
 title = &amp;quot;MyTitle&amp;quot;
 +++
-
 .
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Wenn ich nun &lt;code&gt;:e content/post/hello.md&lt;/code&gt; ein Post erstelle wird eine
-Datei erstellt wie ich vorher mit &lt;code&gt;!hugo new post/hello.md&lt;/code&gt; erhalten
-habe.&lt;/p&gt;
-&lt;p&gt;Ganz glücklich bin ich noch nicht - ich hätte gerne eine Funktion die
+&lt;/code>&lt;/pre>
+&lt;p>Wenn ich nun &lt;code>:e content/post/hello.md&lt;/code> ein Post erstelle wird eine
+Datei erstellt wie ich vorher mit &lt;code>!hugo new post/hello.md&lt;/code> erhalten
+habe.&lt;/p>
+&lt;p>Ganz glücklich bin ich noch nicht - ich hätte gerne eine Funktion die
 den Dateinamen so verändert, dass er mit dem jeweiligen Datum beginnt.
 Auch sollte ich so Sachen wie das
-Blogverzeichnis (&lt;code&gt;~/Documents/Sites/c1891011&lt;/code&gt;)  und den Bereich (&lt;code&gt;2,7&lt;/code&gt;) nicht fest eincoden.&lt;/p&gt;
-&lt;p&gt;Aber eins nach dem anderen.  In ferner Zukunft wird vielleicht mal ein
-Packet daraus.&lt;/p&gt;</description>
-    </item>
-    
-  </channel>
-</rss>
+Blogverzeichnis (&lt;code>~/Documents/Sites/c1891011&lt;/code>) und den Bereich (&lt;code>2,7&lt;/code>) nicht fest eincoden.&lt;/p>
+&lt;p>Aber eins nach dem anderen. In ferner Zukunft wird vielleicht mal ein
+Packet daraus.&lt;/p></description></item></channel></rss>

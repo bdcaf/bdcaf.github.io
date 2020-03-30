@@ -1,29 +1,5 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>dubai | bdcaf</title>
-    <link>/tags/dubai/</link>
-      <atom:link href="/tags/dubai/index.xml" rel="self" type="application/rss+xml" />
-    <description>dubai</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Clemens Ager 2020</copyright><lastBuildDate>Wed, 01 Jan 2014 09:48:52 +0000</lastBuildDate>
-    <image>
-      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
-      <title>dubai</title>
-      <link>/tags/dubai/</link>
-    </image>
-    
-    <item>
-      <title>Glück gehabt</title>
-      <link>/post/2014/2014-01-01-glueck-gehabt/</link>
-      <pubDate>Wed, 01 Jan 2014 09:48:52 +0000</pubDate>
-      <guid>/post/2014/2014-01-01-glueck-gehabt/</guid>
-      <description>&lt;p&gt;Scheint wir waren unter den wenigen die es überhaupt hin geschafft haben: 
-&lt;a href=&#34;http://alexofarabia.com/2014/01/01/sandance-and-the-virality-of-events-going-wrong/?utm_content=buffer9463c&amp;amp;utm_source=buffer&amp;amp;utm_medium=twitter&amp;amp;utm_campaign=Buffer&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;link&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Wir mussten nur aufs Nachmittag/Abendprogramm verzichten. Die Polizei hat &amp;ldquo;willkürlich&amp;rdquo; komplett den Verkehr abgedreht. Wir brauchten zwar auch 
-&lt;a href=&#34;x-apple-data-detectors://0&#34;&gt;4h&lt;/a&gt; heim - aber die meisten hat&amp;rsquo;s übler erwischt.&lt;/p&gt;
-&lt;p&gt;Auf twitter und Facebook ist schon ein ziemlicher shitstorm auf sandance.&lt;/p&gt;
-</description>
-    </item>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>dubai | bdcaf</title><link>/tags/dubai/</link><atom:link href="/tags/dubai/index.xml" rel="self" type="application/rss+xml"/><description>dubai</description><generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Clemens Ager 2020</copyright><lastBuildDate>Wed, 01 Jan 2014 09:48:52 +0000</lastBuildDate><image><url>img/map[gravatar:%!s(bool=false) shape:circle]</url><title>dubai</title><link>/tags/dubai/</link></image><item><title>Glück gehabt</title><link>/post/2014/2014-01-01-glueck-gehabt/</link><pubDate>Wed, 01 Jan 2014 09:48:52 +0000</pubDate><guid>/post/2014/2014-01-01-glueck-gehabt/</guid><description>&lt;p>Scheint wir waren unter den wenigen die es überhaupt hin geschafft haben:
+&lt;a href="http://alexofarabia.com/2014/01/01/sandance-and-the-virality-of-events-going-wrong/?utm_content=buffer9463c&amp;amp;utm_source=buffer&amp;amp;utm_medium=twitter&amp;amp;utm_campaign=Buffer" target="_blank" rel="noopener">link&lt;/a>&lt;/p>
+&lt;p>Wir mussten nur aufs Nachmittag/Abendprogramm verzichten. Die Polizei hat &amp;ldquo;willkürlich&amp;rdquo; komplett den Verkehr abgedreht. Wir brauchten zwar auch
+&lt;a href="x-apple-data-detectors://0">4h&lt;/a> heim - aber die meisten hat&amp;rsquo;s übler erwischt.&lt;/p>
+&lt;p>Auf twitter und Facebook ist schon ein ziemlicher shitstorm auf sandance.&lt;/p></description></item></channel></rss>

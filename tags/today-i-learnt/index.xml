@@ -1,58 +1,24 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>today-i-learnt | bdcaf</title>
-    <link>/tags/today-i-learnt/</link>
-      <atom:link href="/tags/today-i-learnt/index.xml" rel="self" type="application/rss+xml" />
-    <description>today-i-learnt</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Clemens Ager 2020</copyright><lastBuildDate>Fri, 26 Jan 2018 09:33:42 +0100</lastBuildDate>
-    <image>
-      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
-      <title>today-i-learnt</title>
-      <link>/tags/today-i-learnt/</link>
-    </image>
-    
-    <item>
-      <title>Vim builtin package manger</title>
-      <link>/post/todayilearnt/vimpackage/</link>
-      <pubDate>Fri, 26 Jan 2018 09:33:42 +0100</pubDate>
-      <guid>/post/todayilearnt/vimpackage/</guid>
-      <description>&lt;p&gt;I was using 
-&lt;a href=&#34;https://github.com/Shougo/dein.vim&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;dein package manager&lt;/a&gt;
-for some time happily.  Till yesterday it started acting up during
-update and even messed up already installed plugins.  After some
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>today-i-learnt | bdcaf</title><link>/tags/today-i-learnt/</link><atom:link href="/tags/today-i-learnt/index.xml" rel="self" type="application/rss+xml"/><description>today-i-learnt</description><generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Clemens Ager 2020</copyright><lastBuildDate>Fri, 26 Jan 2018 09:33:42 +0100</lastBuildDate><image><url>img/map[gravatar:%!s(bool=false) shape:circle]</url><title>today-i-learnt</title><link>/tags/today-i-learnt/</link></image><item><title>Vim builtin package manger</title><link>/post/todayilearnt/vimpackage/</link><pubDate>Fri, 26 Jan 2018 09:33:42 +0100</pubDate><guid>/post/todayilearnt/vimpackage/</guid><description>&lt;p>I was using
+&lt;a href="https://github.com/Shougo/dein.vim" target="_blank" rel="noopener">dein package manager&lt;/a>
+for some time happily. Till yesterday it started acting up during
+update and even messed up already installed plugins. After some
 messing around I admitted I will not be able to solve it easily so I
-tried to give the new builtin package manager a try.  I followed this
-
-&lt;a href=&#34;https://shapeshed.com/vim-packages/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;post&lt;/a&gt;.  And it seems to work
-like a charm, also within nvim.&lt;/p&gt;
-&lt;p&gt;I added all my packages using &lt;code&gt;git submodule add&lt;/code&gt; in directories like
-&lt;code&gt;pack/git/start&lt;/code&gt; and &lt;code&gt;pack/helper/opt&lt;/code&gt;.  The nice thing is I can now
-update them easily using &lt;code&gt;git submodule update --init --recursive --merge&lt;/code&gt;.  So I won&amp;rsquo;t need the features for asynchronous updates any
-more.&lt;/p&gt;
-&lt;p&gt;The only difference I noted to the post guiding me was I had the
-impression that I could put plugins directly in the &lt;code&gt;pack&lt;/code&gt; directory.
+tried to give the new builtin package manager a try. I followed this
+&lt;a href="https://shapeshed.com/vim-packages/" target="_blank" rel="noopener">post&lt;/a>. And it seems to work
+like a charm, also within nvim.&lt;/p>
+&lt;p>I added all my packages using &lt;code>git submodule add&lt;/code> in directories like
+&lt;code>pack/git/start&lt;/code> and &lt;code>pack/helper/opt&lt;/code>. The nice thing is I can now
+update them easily using &lt;code>git submodule update --init --recursive --merge&lt;/code>. So I won&amp;rsquo;t need the features for asynchronous updates any
+more.&lt;/p>
+&lt;p>The only difference I noted to the post guiding me was I had the
+impression that I could put plugins directly in the &lt;code>pack&lt;/code> directory.
 For some reason they only load for me when placed in sub directories.
-The optional plugins I will need to load using using &lt;code&gt;pacadd&lt;/code&gt; - like
-e.g. &lt;code&gt;packadd Nvim-R&lt;/code&gt;.  I did not put these into &lt;code&gt;ftplugin&lt;/code&gt; - but all
-in all doesn&amp;rsquo;t look like more hassle than what &lt;code&gt;dein&lt;/code&gt; offered.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Readline</title>
-      <link>/post/todayilearnt/readline/</link>
-      <pubDate>Tue, 23 Jan 2018 17:55:06 +0100</pubDate>
-      <guid>/post/todayilearnt/readline/</guid>
-      <description>&lt;p&gt;In many terminal programs readline is doing the editing of input.  It
-is possible with &lt;code&gt;M-v&lt;/code&gt; to quickly switch to vi mode and with &lt;code&gt;M-e&lt;/code&gt; to
-the default emacs mode.  In emacs mode one has a few commands like
-&lt;code&gt;^A&lt;/code&gt; to jump to the begin of line.  Usually I prefer vi - but in
-command line it&amp;rsquo;s not that useful to switch modes.&lt;/p&gt;
-&lt;p&gt;R in tmux got stuck in vi mode and was pasting &lt;code&gt;^A^K...&lt;/code&gt; all over the
-place. &lt;code&gt;M-e&lt;/code&gt; fixed it.&lt;/p&gt;
-</description>
-    </item>
-    
-  </channel>
-</rss>
+The optional plugins I will need to load using using &lt;code>pacadd&lt;/code> - like
+e.g. &lt;code>packadd Nvim-R&lt;/code>. I did not put these into &lt;code>ftplugin&lt;/code> - but all
+in all doesn&amp;rsquo;t look like more hassle than what &lt;code>dein&lt;/code> offered.&lt;/p></description></item><item><title>Readline</title><link>/post/todayilearnt/readline/</link><pubDate>Tue, 23 Jan 2018 17:55:06 +0100</pubDate><guid>/post/todayilearnt/readline/</guid><description>&lt;p>In many terminal programs readline is doing the editing of input. It
+is possible with &lt;code>M-v&lt;/code> to quickly switch to vi mode and with &lt;code>M-e&lt;/code> to
+the default emacs mode. In emacs mode one has a few commands like
+&lt;code>^A&lt;/code> to jump to the begin of line. Usually I prefer vi - but in
+command line it&amp;rsquo;s not that useful to switch modes.&lt;/p>
+&lt;p>R in tmux got stuck in vi mode and was pasting &lt;code>^A^K...&lt;/code> all over the
+place. &lt;code>M-e&lt;/code> fixed it.&lt;/p></description></item></channel></rss>

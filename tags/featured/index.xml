@@ -1,50 +1,8 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>featured | bdcaf</title>
-    <link>/tags/featured/</link>
-      <atom:link href="/tags/featured/index.xml" rel="self" type="application/rss+xml" />
-    <description>featured</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Clemens Ager 2020</copyright><lastBuildDate>Tue, 14 Jan 2014 07:17:16 +0000</lastBuildDate>
-    <image>
-      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
-      <title>featured</title>
-      <link>/tags/featured/</link>
-    </image>
-    
-    <item>
-      <title>Wieder mal spielen...</title>
-      <link>/post/2014/2014-01-14-wieder-mal-spielen/</link>
-      <pubDate>Tue, 14 Jan 2014 07:17:16 +0000</pubDate>
-      <guid>/post/2014/2014-01-14-wieder-mal-spielen/</guid>
-      <description>&lt;p&gt;Hab jetzt den 
-&lt;a href=&#34;http://www.surgeonsimulator2013.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Surgeon Simulator&lt;/a&gt; am laufen. Ist im 
-&lt;a href=&#34;https://www.humblebundle.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Humble Indie Bundle X (pay what you want and help charity)&lt;/a&gt; grad zu kaufen.&lt;/p&gt;
-&lt;p&gt;Macht viel Spaß. Schaut euch nur die YouTube lets plays an&amp;hellip;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Catherine</title>
-      <link>/post/2013/2013-06-03-catherine/</link>
-      <pubDate>Mon, 03 Jun 2013 14:48:20 +0000</pubDate>
-      <guid>/post/2013/2013-06-03-catherine/</guid>
-      <description>&lt;p&gt;
-&lt;a href=&#34;http://www.amazon.de/Deep-Silver-Catherine/dp/B005TQU47Y&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;img src=&#34;http://ecx.images-amazon.com/images/I/61JH-5DAqKL.jpg&#34; alt=&#34;&#34;&gt;&lt;/a&gt;Bin zuhause im Endspurt im Spiel 
-&lt;a href=&#34;http://www.deepsilver.com/de/game/view/game/access16/catherine/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Catherine&lt;/a&gt;. Das ist ein schön gemachtes Knobelspiel. Schön abgedreht japanisch auch noch.&lt;/p&gt;
-&lt;p&gt;Nur irgendwie lange Zwischensequenzen - oder umgekehrt lange Knobeleien unter der Handlung. Jedenfalls hoffentlich bald fertig. Die letzte Sequenz zieht sich nämlich.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Neujahrszirkus</title>
-      <link>/post/2012/2012-12-31-neujahrszirkus/</link>
-      <pubDate>Mon, 31 Dec 2012 23:35:14 +0000</pubDate>
-      <guid>/post/2012/2012-12-31-neujahrszirkus/</guid>
-      <description>&lt;p&gt;[gallery ids=&amp;quot;747,746,745,744,740,741,742,743&amp;rdquo;]&lt;/p&gt;
-&lt;p&gt;Hams gut organisiert.&lt;/p&gt;
-</description>
-    </item>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>featured | bdcaf</title><link>/tags/featured/</link><atom:link href="/tags/featured/index.xml" rel="self" type="application/rss+xml"/><description>featured</description><generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Clemens Ager 2020</copyright><lastBuildDate>Tue, 14 Jan 2014 07:17:16 +0000</lastBuildDate><image><url>img/map[gravatar:%!s(bool=false) shape:circle]</url><title>featured</title><link>/tags/featured/</link></image><item><title>Wieder mal spielen...</title><link>/post/2014/2014-01-14-wieder-mal-spielen/</link><pubDate>Tue, 14 Jan 2014 07:17:16 +0000</pubDate><guid>/post/2014/2014-01-14-wieder-mal-spielen/</guid><description>&lt;p>Hab jetzt den
+&lt;a href="http://www.surgeonsimulator2013.com" target="_blank" rel="noopener">Surgeon Simulator&lt;/a> am laufen. Ist im
+&lt;a href="https://www.humblebundle.com/" target="_blank" rel="noopener">Humble Indie Bundle X (pay what you want and help charity)&lt;/a> grad zu kaufen.&lt;/p>
+&lt;p>Macht viel Spaß. Schaut euch nur die YouTube lets plays an&amp;hellip;&lt;/p></description></item><item><title>Catherine</title><link>/post/2013/2013-06-03-catherine/</link><pubDate>Mon, 03 Jun 2013 14:48:20 +0000</pubDate><guid>/post/2013/2013-06-03-catherine/</guid><description>&lt;p>
+&lt;a href="http://www.amazon.de/Deep-Silver-Catherine/dp/B005TQU47Y" target="_blank" rel="noopener">&lt;img src="http://ecx.images-amazon.com/images/I/61JH-5DAqKL.jpg" alt="">&lt;/a>Bin zuhause im Endspurt im Spiel
+&lt;a href="http://www.deepsilver.com/de/game/view/game/access16/catherine/" target="_blank" rel="noopener">Catherine&lt;/a>. Das ist ein schön gemachtes Knobelspiel. Schön abgedreht japanisch auch noch.&lt;/p>
+&lt;p>Nur irgendwie lange Zwischensequenzen - oder umgekehrt lange Knobeleien unter der Handlung. Jedenfalls hoffentlich bald fertig. Die letzte Sequenz zieht sich nämlich.&lt;/p></description></item><item><title>Neujahrszirkus</title><link>/post/2012/2012-12-31-neujahrszirkus/</link><pubDate>Mon, 31 Dec 2012 23:35:14 +0000</pubDate><guid>/post/2012/2012-12-31-neujahrszirkus/</guid><description>&lt;p>[gallery ids=&amp;quot;747,746,745,744,740,741,742,743&amp;rdquo;]&lt;/p>
+&lt;p>Hams gut organisiert.&lt;/p></description></item></channel></rss>

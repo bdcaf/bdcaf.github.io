@@ -1,149 +1,99 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>mac | bdcaf</title>
-    <link>/tags/mac/</link>
-      <atom:link href="/tags/mac/index.xml" rel="self" type="application/rss+xml" />
-    <description>mac</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Clemens Ager 2020</copyright><lastBuildDate>Tue, 05 Feb 2019 10:58:41 +0100</lastBuildDate>
-    <image>
-      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
-      <title>mac</title>
-      <link>/tags/mac/</link>
-    </image>
-    
-    <item>
-      <title>Configuring Syncthing on Mac Server</title>
-      <link>/post/mac/syncthing/</link>
-      <pubDate>Tue, 05 Feb 2019 10:58:41 +0100</pubDate>
-      <guid>/post/mac/syncthing/</guid>
-      <description>&lt;p&gt;
-&lt;a href=&#34;https://syncthing.net&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Syncthing&lt;/a&gt; is currently my preferred tool to
-keep folders in sync.  Previously I had affairs with 
-&lt;a href=&#34;https://git-annex.branchable.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;git
-annex&lt;/a&gt;, and
-
-&lt;a href=&#34;https://rsync.samba.org&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;rsync&lt;/a&gt; scripts.&lt;/p&gt;
-&lt;p&gt;Recently I reactivated a 2009 Mac Mini as headless server under El
-Capitan.  
-&lt;a href=&#34;https://brew.sh&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Homebrew&lt;/a&gt; is the tool of choice - it
-complains a little about the old OS but things work out nicely.&lt;/p&gt;
-&lt;h2 id=&#34;hard-drives-not-being-mounted&#34;&gt;hard drives not being mounted&lt;/h2&gt;
-&lt;p&gt;However the first issue was that the drives would not be mounted
-without a user logging in.  I was able to find following
-
-&lt;a href=&#34;https://gist.github.com/jabenninghoff/f13f81c286e914c48942f973f5d15819&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;snippet&lt;/a&gt;:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;sudo defaults write /Library/Preferences/SystemConfiguration/autodiskmount AutomountDisksWithoutUserLogin -bool true
-&lt;/code&gt;&lt;/pre&gt;
-&lt;h2 id=&#34;syncthing-not-starting&#34;&gt;syncthing not starting&lt;/h2&gt;
-&lt;p&gt;Homebrew documents how the get syncthing started for a user.  However
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>mac | bdcaf</title><link>/tags/mac/</link><atom:link href="/tags/mac/index.xml" rel="self" type="application/rss+xml"/><description>mac</description><generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Clemens Ager 2020</copyright><lastBuildDate>Tue, 05 Feb 2019 10:58:41 +0100</lastBuildDate><image><url>img/map[gravatar:%!s(bool=false) shape:circle]</url><title>mac</title><link>/tags/mac/</link></image><item><title>Configuring Syncthing on Mac Server</title><link>/post/mac/syncthing/</link><pubDate>Tue, 05 Feb 2019 10:58:41 +0100</pubDate><guid>/post/mac/syncthing/</guid><description>&lt;p>
+&lt;a href="https://syncthing.net" target="_blank" rel="noopener">Syncthing&lt;/a> is currently my preferred tool to
+keep folders in sync. Previously I had affairs with
+&lt;a href="https://git-annex.branchable.com" target="_blank" rel="noopener">git
+annex&lt;/a>, and
+&lt;a href="https://rsync.samba.org" target="_blank" rel="noopener">rsync&lt;/a> scripts.&lt;/p>
+&lt;p>Recently I reactivated a 2009 Mac Mini as headless server under El
+Capitan.
+&lt;a href="https://brew.sh" target="_blank" rel="noopener">Homebrew&lt;/a> is the tool of choice - it
+complains a little about the old OS but things work out nicely.&lt;/p>
+&lt;h2 id="hard-drives-not-being-mounted">hard drives not being mounted&lt;/h2>
+&lt;p>However the first issue was that the drives would not be mounted
+without a user logging in. I was able to find following
+&lt;a href="https://gist.github.com/jabenninghoff/f13f81c286e914c48942f973f5d15819" target="_blank" rel="noopener">snippet&lt;/a>:&lt;/p>
+&lt;pre>&lt;code>sudo defaults write /Library/Preferences/SystemConfiguration/autodiskmount AutomountDisksWithoutUserLogin -bool true
+&lt;/code>&lt;/pre>
+&lt;h2 id="syncthing-not-starting">syncthing not starting&lt;/h2>
+&lt;p>Homebrew documents how the get syncthing started for a user. However
 again this would mean someone would need to login before things get
-going.   I was able to resolve this by moving the installed plist from
-&lt;code&gt;~/Library/LaunchAgents/&lt;/code&gt; to &lt;code&gt;/Library/LaunchDaemons/&lt;/code&gt; and adding the
-entry:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;  &amp;lt;key&amp;gt;UserName&amp;lt;/key&amp;gt;
-  &amp;lt;string&amp;gt;myuser&amp;lt;/string&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;So it would finally launch.&lt;/p&gt;
-&lt;h2 id=&#34;syncthing-launching-before-harddrive&#34;&gt;syncthing launching before harddrive&lt;/h2&gt;
-&lt;p&gt;However it turned out it would launch syncthing &lt;em&gt;before&lt;/em&gt; the external
+going. I was able to resolve this by moving the installed plist from
+&lt;code>~/Library/LaunchAgents/&lt;/code> to &lt;code>/Library/LaunchDaemons/&lt;/code> and adding the
+entry:&lt;/p>
+&lt;pre>&lt;code> &amp;lt;key&amp;gt;UserName&amp;lt;/key&amp;gt;
+&amp;lt;string&amp;gt;myuser&amp;lt;/string&amp;gt;
+&lt;/code>&lt;/pre>
+&lt;p>So it would finally launch.&lt;/p>
+&lt;h2 id="syncthing-launching-before-harddrive">syncthing launching before harddrive&lt;/h2>
+&lt;p>However it turned out it would launch syncthing &lt;em>before&lt;/em> the external
 drive was ready so syncthing would spew errors and not sync without
-interaction.&lt;/p&gt;
-&lt;p&gt;I was not able to solve this within the plist so I created a quick
-shellscript that would sleep until the drive was ready:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;#!/bin/sh
-SYNCDRIVE=&#39;/Volumes/Media/&#39;
+interaction.&lt;/p>
+&lt;p>I was not able to solve this within the plist so I created a quick
+shellscript that would sleep until the drive was ready:&lt;/p>
+&lt;pre>&lt;code>#!/bin/sh
+SYNCDRIVE='/Volumes/Media/'
 while [ ! -d &amp;quot;$SYNCDRIVE&amp;quot; ]; do
 sleep 10
 done
 /usr/local/opt/syncthing/bin/syncthing -no-browser -no-restart
-&lt;/code&gt;&lt;/pre&gt;
-&lt;h2 id=&#34;firewall&#34;&gt;firewall&lt;/h2&gt;
-&lt;p&gt;After all this it was still not syncing.  Being on a headless machine
-I haven&amp;rsquo;t gotten the firewall warning.  So the final step was easy to
-allow &lt;code&gt;syncthing&lt;/code&gt; getting connections.&lt;/p&gt;
-&lt;h2 id=&#34;ssh&#34;&gt;ssh&lt;/h2&gt;
-&lt;p&gt;Last thing was getting things to work was to get to sync through an
-ssh tunnel.  There is a 
-&lt;a href=&#34;https://docs.syncthing.net/users/tunneling.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;good
-description&lt;/a&gt; however
-I made the mistake to skim the last port number.  Turns out in the
-last command they leave one digit away so search all the ports.  Once
-fixing to &lt;code&gt;22000&lt;/code&gt; all syncing starts/&lt;/p&gt;
-&lt;h3 id=&#34;on-my-current-decisions&#34;&gt;on my current decisions&lt;/h3&gt;
-&lt;p&gt;With annex I continuously had problems that my repos wouldn&amp;rsquo;t merge
-nicely.  Also although it is under active development the
+&lt;/code>&lt;/pre>
+&lt;h2 id="firewall">firewall&lt;/h2>
+&lt;p>After all this it was still not syncing. Being on a headless machine
+I haven&amp;rsquo;t gotten the firewall warning. So the final step was easy to
+allow &lt;code>syncthing&lt;/code> getting connections.&lt;/p>
+&lt;h2 id="ssh">ssh&lt;/h2>
+&lt;p>Last thing was getting things to work was to get to sync through an
+ssh tunnel. There is a
+&lt;a href="https://docs.syncthing.net/users/tunneling.html" target="_blank" rel="noopener">good
+description&lt;/a> however
+I made the mistake to skim the last port number. Turns out in the
+last command they leave one digit away so search all the ports. Once
+fixing to &lt;code>22000&lt;/code> all syncing starts/&lt;/p>
+&lt;h3 id="on-my-current-decisions">on my current decisions&lt;/h3>
+&lt;p>With annex I continuously had problems that my repos wouldn&amp;rsquo;t merge
+nicely. Also although it is under active development the
 documentation is difficult to read - many examples on the site are 5
 years or older, which makes it difficult to realise which apply to the
-current version.  I just never managed to get it sync automatically.
-Rsync always had to be run to check for changes.  Since it has to
-rescan the remote files it always takes some extra toll.  This is
-great for some tasks.  But for my application where I control all
-endpoints it was unnecessary.&lt;/p&gt;
-&lt;p&gt;My machine wouldn&amp;rsquo;t run the latest Mac OS so I had to choose El Capitan.
+current version. I just never managed to get it sync automatically.
+Rsync always had to be run to check for changes. Since it has to
+rescan the remote files it always takes some extra toll. This is
+great for some tasks. But for my application where I control all
+endpoints it was unnecessary.&lt;/p>
+&lt;p>My machine wouldn&amp;rsquo;t run the latest Mac OS so I had to choose El Capitan.
 Instead of Mac OS I also experimented with Ubuntu linux.
 Linux would offer me all the latest versions and installed nicely.
 Unfortunately I quickly ran into troubles - updating was not as smooth
-as I am used to.  Every other time I had to tweak GRUB as the machine
-would not boot.  Also I noticed I was not able to use all of the
-hardware.   The most problematic was power management as I didn&amp;rsquo;t want
-the machine to burn its cupboard.  But I also was unable to get the
-graphics card and more than one CPU core working.  Searching the
-internet led me to believe this is a common trouble.  But maybe in a
+as I am used to. Every other time I had to tweak GRUB as the machine
+would not boot. Also I noticed I was not able to use all of the
+hardware. The most problematic was power management as I didn&amp;rsquo;t want
+the machine to burn its cupboard. But I also was unable to get the
+graphics card and more than one CPU core working. Searching the
+internet led me to believe this is a common trouble. But maybe in a
 few years when El Capitan no longer gets security patches I will
-change.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Crossover</title>
-      <link>/post/mac/crossover/</link>
-      <pubDate>Mon, 19 Nov 2018 13:42:33 +0100</pubDate>
-      <guid>/post/mac/crossover/</guid>
-      <description>&lt;p&gt;Just recently got my hand on
-
-&lt;a href=&#34;https://www.codeweavers.com/products/crossover-mac&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Crossover&lt;/a&gt;.  It&amp;rsquo;s
-essentially the commercially supported 
-&lt;a href=&#34;https://www.winehq.org&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;wine&lt;/a&gt;.
-I am impressed how polished things feel nowadays.  I
-gave it usually &lt;em&gt;problematic&lt;/em&gt; scientific programs like the TofDaqViewer from
-Ionicon and the Nist library and it produced nicely running libraries.&lt;/p&gt;
-&lt;p&gt;Any how I should note that for TofDaqViewer one needs to mark the
-checkbox that it should end its recorder process.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Rescuing my PDF presentation on mac</title>
-      <link>/post/links/pdf_presentation_rescue/</link>
-      <pubDate>Tue, 29 May 2018 10:44:19 +0200</pubDate>
-      <guid>/post/links/pdf_presentation_rescue/</guid>
-      <description>&lt;p&gt;(tldr;) use 
-&lt;a href=&#34;https://www.cs.hmc.edu/~oneill/freesoftware/pdftokeynote.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PDF to
-Keynote&lt;/a&gt; to convert a tex presentation for convenient presenting.&lt;/p&gt;
-&lt;p&gt;I did have a presentation on my PhDs topic last week.  Took me some
+change.&lt;/p></description></item><item><title>Crossover</title><link>/post/mac/crossover/</link><pubDate>Mon, 19 Nov 2018 13:42:33 +0100</pubDate><guid>/post/mac/crossover/</guid><description>&lt;p>Just recently got my hand on
+&lt;a href="https://www.codeweavers.com/products/crossover-mac" target="_blank" rel="noopener">Crossover&lt;/a>. It&amp;rsquo;s
+essentially the commercially supported
+&lt;a href="https://www.winehq.org" target="_blank" rel="noopener">wine&lt;/a>.
+I am impressed how polished things feel nowadays. I
+gave it usually &lt;em>problematic&lt;/em> scientific programs like the TofDaqViewer from
+Ionicon and the Nist library and it produced nicely running libraries.&lt;/p>
+&lt;p>Any how I should note that for TofDaqViewer one needs to mark the
+checkbox that it should end its recorder process.&lt;/p></description></item><item><title>Rescuing my PDF presentation on mac</title><link>/post/links/pdf_presentation_rescue/</link><pubDate>Tue, 29 May 2018 10:44:19 +0200</pubDate><guid>/post/links/pdf_presentation_rescue/</guid><description>&lt;p>(tldr;) use
+&lt;a href="https://www.cs.hmc.edu/~oneill/freesoftware/pdftokeynote.html" target="_blank" rel="noopener">PDF to
+Keynote&lt;/a> to convert a tex presentation for convenient presenting.&lt;/p>
+&lt;p>I did have a presentation on my PhDs topic last week. Took me some
 collecting data from recent paper drafts and old slides to create
-something polished.&lt;/p&gt;
-&lt;p&gt;As you would expect I prepared the presentation in 
-&lt;a href=&#34;https://github.com/josephwright/beamer&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;beamer latex&lt;/a&gt;.  I found the 
-&lt;a href=&#34;https://github.com/matze/mtheme&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;metropolis template&lt;/a&gt; to my liking.&lt;/p&gt;
-&lt;p&gt;Great was my shock as the slides would show up blurry in full screen -
-well for the first second - and then &amp;ldquo;jump&amp;rdquo; to nicely rendered.  I
+something polished.&lt;/p>
+&lt;p>As you would expect I prepared the presentation in
+&lt;a href="https://github.com/josephwright/beamer" target="_blank" rel="noopener">beamer latex&lt;/a>. I found the
+&lt;a href="https://github.com/matze/mtheme" target="_blank" rel="noopener">metropolis template&lt;/a> to my liking.&lt;/p>
+&lt;p>Great was my shock as the slides would show up blurry in full screen -
+well for the first second - and then &amp;ldquo;jump&amp;rdquo; to nicely rendered. I
 tried in Preview as well as Skim. They would render nicely but still
-slow in Acrobat Reader - however I don&amp;rsquo;t like that one.&lt;/p&gt;
-&lt;p&gt;On the last day I found my lifesaver: 
-&lt;a href=&#34;https://www.cs.hmc.edu/~oneill/freesoftware/pdftokeynote.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PDF to
-Keynote&lt;/a&gt;.
-Not only would it transfer my slides into sharp images,  I then could
+slow in Acrobat Reader - however I don&amp;rsquo;t like that one.&lt;/p>
+&lt;p>On the last day I found my lifesaver:
+&lt;a href="https://www.cs.hmc.edu/~oneill/freesoftware/pdftokeynote.html" target="_blank" rel="noopener">PDF to
+Keynote&lt;/a>.
+Not only would it transfer my slides into sharp images, I then could
 also use the fancy Keynote controls and the moderator screen for
-notes.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Pausenfüller</title>
-      <link>/post/2013/2013-11-04-pausenfueller/</link>
-      <pubDate>Mon, 04 Nov 2013 19:23:20 +0000</pubDate>
-      <guid>/post/2013/2013-11-04-pausenfueller/</guid>
-      <description></description>
-    </item>
-    
-  </channel>
-</rss>
+notes.&lt;/p></description></item><item><title>Pausenfüller</title><link>/post/2013/2013-11-04-pausenfueller/</link><pubDate>Mon, 04 Nov 2013 19:23:20 +0000</pubDate><guid>/post/2013/2013-11-04-pausenfueller/</guid><description/></item></channel></rss>

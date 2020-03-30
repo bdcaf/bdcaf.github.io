@@ -1,31 +1,7 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>css | bdcaf</title>
-    <link>/tags/css/</link>
-      <atom:link href="/tags/css/index.xml" rel="self" type="application/rss+xml" />
-    <description>css</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Clemens Ager 2020</copyright><lastBuildDate>Sun, 24 Feb 2019 21:07:24 +0100</lastBuildDate>
-    <image>
-      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
-      <title>css</title>
-      <link>/tags/css/</link>
-    </image>
-    
-    <item>
-      <title>Grid Layout for Site</title>
-      <link>/post/site/2019_layout/</link>
-      <pubDate>Sun, 24 Feb 2019 21:07:24 +0100</pubDate>
-      <guid>/post/site/2019_layout/</guid>
-      <description>&lt;p&gt;Recently some html and css videos caught my attention.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>css | bdcaf</title><link>/tags/css/</link><atom:link href="/tags/css/index.xml" rel="self" type="application/rss+xml"/><description>css</description><generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Clemens Ager 2020</copyright><lastBuildDate>Sun, 24 Feb 2019 21:07:24 +0100</lastBuildDate><image><url>img/map[gravatar:%!s(bool=false) shape:circle]</url><title>css</title><link>/tags/css/</link></image><item><title>Grid Layout for Site</title><link>/post/site/2019_layout/</link><pubDate>Sun, 24 Feb 2019 21:07:24 +0100</pubDate><guid>/post/site/2019_layout/</guid><description>&lt;p>Recently some html and css videos caught my attention.
 I started reworking the layout using the new practices I learnt.
-Hope they will still work fine.&lt;/p&gt;
-&lt;p&gt;In particular I found the videos by Jen Simmons inspiring.&lt;/p&gt;
-
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;https://www.youtube.com/embed/tFKrK4eAiUQ&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
-&lt;/div&gt;</description>
-    </item>
-    
-  </channel>
-</rss>
+Hope they will still work fine.&lt;/p>
+&lt;p>In particular I found the videos by Jen Simmons inspiring.&lt;/p>
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe src="https://www.youtube.com/embed/tFKrK4eAiUQ" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
+&lt;/div></description></item></channel></rss>

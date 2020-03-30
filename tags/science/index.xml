@@ -1,538 +1,205 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>science | bdcaf</title>
-    <link>/tags/science/</link>
-      <atom:link href="/tags/science/index.xml" rel="self" type="application/rss+xml" />
-    <description>science</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Clemens Ager 2020</copyright><lastBuildDate>Sun, 24 Mar 2019 08:48:56 +0100</lastBuildDate>
-    <image>
-      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
-      <title>science</title>
-      <link>/tags/science/</link>
-    </image>
-    
-    <item>
-      <title>Pheromone</title>
-      <link>/post/links/pheromone/</link>
-      <pubDate>Sun, 24 Mar 2019 08:48:56 +0100</pubDate>
-      <guid>/post/links/pheromone/</guid>
-      <description>&lt;p&gt;&amp;ldquo;BBC in our time&amp;rdquo; had a good 
-&lt;a href=&#34;https://www.bbc.co.uk/programmes/m0002mdl&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;podcast about pheromones&lt;/a&gt;.  Too bad they don&amp;rsquo;t offer transcripts.&lt;/p&gt;
-&lt;p&gt;Pheromones in breath would be most interesting however it is still in debate whether human pheromones exist at all.&lt;br&gt;
-But there was the discovery of rabbit mammary pheromone  by 
-&lt;a href=&#34;https://www.nature.com/articles/nature01739&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Schaal et al&lt;/a&gt;.  And the 
-&lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2890510/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;darcin pheromone in mice&lt;/a&gt;.
-I did learn that some animals also have another organ related to smell - the 
-&lt;a href=&#34;https://en.wikipedia.org/wiki/Vomeronasal_organ&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;vomeronasal organ (Jacobson&amp;rsquo;s organ)&lt;/a&gt;.  It seems to be also present in humans.&lt;/p&gt;
-&lt;p&gt;Unfortunately our tech still doesn&amp;rsquo;t perform to well at the relevant masses, though that is an most interesting research area.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>2018 Life Science Meeting</title>
-      <link>/post/academic/2018-live-science/</link>
-      <pubDate>Wed, 04 Apr 2018 12:45:05 +0200</pubDate>
-      <guid>/post/academic/2018-live-science/</guid>
-      <description>&lt;p&gt;I will present a poster there.  My poster session is on Thursday, at
-3pm.&lt;/p&gt;
-&lt;p&gt;Here&amp;rsquo;s the poster:&lt;/p&gt;
-&lt;div class=&#34;embed-responsive&#34;&gt;
-  &lt;object data=&#34;/post/academic/2018-life-science.pdf&#34; type=&#39;application/pdf&#39; width=&#39;100%&#39; height=&#39;400px&#39; &gt;
-    &lt;p&gt;This browser does not support inline PDFs. Please download the PDF to view it: 
-  &lt;/object&gt; &lt;a href=&#34;/post/academic/2018-life-science.pdf&#34;&gt;Download PDF&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;</description>
-    </item>
-    
-    <item>
-      <title>Erster Tag auf der IABR Konferenz</title>
-      <link>/post/academic/2016-09-iabr-tag1/</link>
-      <pubDate>Tue, 13 Sep 2016 14:05:19 +0200</pubDate>
-      <guid>/post/academic/2016-09-iabr-tag1/</guid>
-      <description>&lt;p&gt;Die Talks bis jetzt sind Wiederholungen vom letzten Jahr.  Aber es ja
-um mein Poster und Networken.&lt;/p&gt;
-&lt;p&gt;Statistik ist hier immer noch ein heißes Thema.  Die wenigsten machen
-robuste Statistik und korrigieren für wiederholte Vergleiche.  Das
-scheint noch nicht angekommen sein.  Allerdings kann ich dann sicher
-Punkten wenn ich sie als erster erkläre :)&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Endlich das Poster fertig</title>
-      <link>/post/academic/2016iabr_poster_ready/</link>
-      <pubDate>Sun, 11 Sep 2016 21:05:19 +0200</pubDate>
-      <guid>/post/academic/2016iabr_poster_ready/</guid>
-      <description>&lt;p&gt;Hatte noch einige wichtige Resultate die ich einbinden wollte.
-Ansehen kann man das Poster 
-&lt;a href=&#34;/post/academic/iabr2016_poster.pdf&#34;&gt;hier&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Ich hoffe auf einige interessante Kontakte.  Gerade auf der
-statistischen Seite wäre es spannend die Sache zu erweitern.&lt;/p&gt;
-&lt;div class=&#34;embed-responsive&#34;&gt;
-  &lt;object data=&#34;/post/academic/iabr2016_poster.pdf&#34; type=&#39;application/pdf&#39; width=&#39;100%&#39; height=&#39;400px&#39; &gt;
-    &lt;p&gt;This browser does not support inline PDFs. Please download the PDF to view it: 
-  &lt;/object&gt; &lt;a href=&#34;/post/academic/iabr2016_poster.pdf&#34;&gt;Download PDF&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;</description>
-    </item>
-    
-    <item>
-      <title>Mass spectra visualization</title>
-      <link>/post/2016/2016-01-hilbertptr/</link>
-      <pubDate>Wed, 30 Mar 2016 00:00:00 +0000</pubDate>
-      <guid>/post/2016/2016-01-hilbertptr/</guid>
-      <description>&lt;p&gt;I saw some 
-&lt;a href=&#34;http://datadrivensecurity.info/blog/posts/2015/Jan/mapping-ipv4-address-in-hilbert-space/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;nice visualiztion for IP
-adresses&lt;/a&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>science | bdcaf</title><link>/tags/science/</link><atom:link href="/tags/science/index.xml" rel="self" type="application/rss+xml"/><description>science</description><generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Clemens Ager 2020</copyright><lastBuildDate>Sun, 24 Mar 2019 08:48:56 +0100</lastBuildDate><image><url>img/map[gravatar:%!s(bool=false) shape:circle]</url><title>science</title><link>/tags/science/</link></image><item><title>Pheromone</title><link>/post/links/pheromone/</link><pubDate>Sun, 24 Mar 2019 08:48:56 +0100</pubDate><guid>/post/links/pheromone/</guid><description>&lt;p>&amp;ldquo;BBC in our time&amp;rdquo; had a good
+&lt;a href="https://www.bbc.co.uk/programmes/m0002mdl" target="_blank" rel="noopener">podcast about pheromones&lt;/a>. Too bad they don&amp;rsquo;t offer transcripts.&lt;/p>
+&lt;p>Pheromones in breath would be most interesting however it is still in debate whether human pheromones exist at all.&lt;br>
+But there was the discovery of rabbit mammary pheromone by
+&lt;a href="https://www.nature.com/articles/nature01739" target="_blank" rel="noopener">Schaal et al&lt;/a>. And the
+&lt;a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2890510/" target="_blank" rel="noopener">darcin pheromone in mice&lt;/a>.
+I did learn that some animals also have another organ related to smell - the
+&lt;a href="https://en.wikipedia.org/wiki/Vomeronasal_organ" target="_blank" rel="noopener">vomeronasal organ (Jacobson&amp;rsquo;s organ)&lt;/a>. It seems to be also present in humans.&lt;/p>
+&lt;p>Unfortunately our tech still doesn&amp;rsquo;t perform to well at the relevant masses, though that is an most interesting research area.&lt;/p></description></item><item><title>2018 Life Science Meeting</title><link>/post/academic/2018-live-science/</link><pubDate>Wed, 04 Apr 2018 12:45:05 +0200</pubDate><guid>/post/academic/2018-live-science/</guid><description>&lt;p>I will present a poster there. My poster session is on Thursday, at
+3pm.&lt;/p>
+&lt;p>Here&amp;rsquo;s the poster:&lt;/p>
+&lt;div class="embed-responsive">
+&lt;object data="/post/academic/2018-life-science.pdf" type='application/pdf' width='100%' height='400px' >
+&lt;p>This browser does not support inline PDFs. Please download the PDF to view it:
+&lt;/object> &lt;a href="/post/academic/2018-life-science.pdf">Download PDF&lt;/a>&lt;/p>
+&lt;/div></description></item><item><title>Erster Tag auf der IABR Konferenz</title><link>/post/academic/2016-09-iabr-tag1/</link><pubDate>Tue, 13 Sep 2016 14:05:19 +0200</pubDate><guid>/post/academic/2016-09-iabr-tag1/</guid><description>&lt;p>Die Talks bis jetzt sind Wiederholungen vom letzten Jahr. Aber es ja
+um mein Poster und Networken.&lt;/p>
+&lt;p>Statistik ist hier immer noch ein heißes Thema. Die wenigsten machen
+robuste Statistik und korrigieren für wiederholte Vergleiche. Das
+scheint noch nicht angekommen sein. Allerdings kann ich dann sicher
+Punkten wenn ich sie als erster erkläre :)&lt;/p></description></item><item><title>Endlich das Poster fertig</title><link>/post/academic/2016iabr_poster_ready/</link><pubDate>Sun, 11 Sep 2016 21:05:19 +0200</pubDate><guid>/post/academic/2016iabr_poster_ready/</guid><description>&lt;p>Hatte noch einige wichtige Resultate die ich einbinden wollte.
+Ansehen kann man das Poster
+&lt;a href="/post/academic/iabr2016_poster.pdf">hier&lt;/a>.&lt;/p>
+&lt;p>Ich hoffe auf einige interessante Kontakte. Gerade auf der
+statistischen Seite wäre es spannend die Sache zu erweitern.&lt;/p>
+&lt;div class="embed-responsive">
+&lt;object data="/post/academic/iabr2016_poster.pdf" type='application/pdf' width='100%' height='400px' >
+&lt;p>This browser does not support inline PDFs. Please download the PDF to view it:
+&lt;/object> &lt;a href="/post/academic/iabr2016_poster.pdf">Download PDF&lt;/a>&lt;/p>
+&lt;/div></description></item><item><title>Mass spectra visualization</title><link>/post/2016/2016-01-hilbertptr/</link><pubDate>Wed, 30 Mar 2016 00:00:00 +0000</pubDate><guid>/post/2016/2016-01-hilbertptr/</guid><description>&lt;p>I saw some
+&lt;a href="http://datadrivensecurity.info/blog/posts/2015/Jan/mapping-ipv4-address-in-hilbert-space/" target="_blank" rel="noopener">nice visualiztion for IP
+adresses&lt;/a>
 which made use of the hilbert curve for mapping sequatial data into an
 area. This has the nice benefit of assuring numbers that are close to
-each other stay close in two dimensions as well.  Unfortunately the
-opposite does not hold.  Conveniently a function to produce a hilbert
+each other stay close in two dimensions as well. Unfortunately the
+opposite does not hold. Conveniently a function to produce a hilbert
 curve is provided via
-
-&lt;a href=&#34;https://bioconductor.org/packages/release/bioc/html/HilbertVis.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;HilbertVis&lt;/a&gt;
-on bioconductor.&lt;/p&gt;
-&lt;h3 id=&#34;ptr-ms-spectra&#34;&gt;PTR-MS spectra&lt;/h3&gt;
-&lt;p&gt;I have been playing with PTR-MS data for some while.  It&amp;rsquo;s always hard to
+&lt;a href="https://bioconductor.org/packages/release/bioc/html/HilbertVis.html" target="_blank" rel="noopener">HilbertVis&lt;/a>
+on bioconductor.&lt;/p>
+&lt;h3 id="ptr-ms-spectra">PTR-MS spectra&lt;/h3>
+&lt;p>I have been playing with PTR-MS data for some while. It&amp;rsquo;s always hard to
 visualize this datasets. There are some nice patterns showing up - isotopic and
-due to hydratization.&lt;/p&gt;
-&lt;h3 id=&#34;data&#34;&gt;data&lt;/h3&gt;
-&lt;p&gt;I will not show out reading out the data - it was collected using a Ionicon PTR-TOF MS
+due to hydratization.&lt;/p>
+&lt;h3 id="data">data&lt;/h3>
+&lt;p>I will not show out reading out the data - it was collected using a Ionicon PTR-TOF MS
 which requires tedious preprocessing - most of which I can finally do in R but
-the code is poorly documented so far.  The measurment is actually from a proband
-who took a sip of ethanol a few minutes before measurement.&lt;/p&gt;
-&lt;p&gt;Just a glimpse of it looks like this:&lt;/p&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;mass&lt;/th&gt;
-&lt;th&gt;counts&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;21&lt;/td&gt;
-&lt;td&gt;142720&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;22&lt;/td&gt;
-&lt;td&gt;18708&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;23&lt;/td&gt;
-&lt;td&gt;8148&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;24&lt;/td&gt;
-&lt;td&gt;7137&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;25&lt;/td&gt;
-&lt;td&gt;6711&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;26&lt;/td&gt;
-&lt;td&gt;6468&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;h2 id=&#34;experiments&#34;&gt;Experiments&lt;/h2&gt;
-&lt;p&gt;Since over m/z 100 there is only sparse signal I created the relevant Hilbert
-curve doing&lt;/p&gt;
-&lt;h3 id=&#34;curves&#34;&gt;Curves&lt;/h3&gt;
-&lt;p&gt;The first plot uses scales the area of the dots at the masses to the observed counts.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;/~c1891011/photo/2016-01-hilbertPTR_fig/2016-01-hilbertPTR_firsttry-1.png&#34; alt=&#34;plot of chunk first try&#34;&gt;&lt;/p&gt;
-&lt;p&gt;This plot shows a little structure - the main blocks are of 16 numbers.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;The numbers 1 to 16 are basically zero as there are no protonated ions at such masses.&lt;/li&gt;
-&lt;li&gt;The next block contains the major precursors - the hydronium ion
+the code is poorly documented so far. The measurment is actually from a proband
+who took a sip of ethanol a few minutes before measurement.&lt;/p>
+&lt;p>Just a glimpse of it looks like this:&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>mass&lt;/th>
+&lt;th>counts&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>21&lt;/td>
+&lt;td>142720&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>22&lt;/td>
+&lt;td>18708&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>23&lt;/td>
+&lt;td>8148&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>24&lt;/td>
+&lt;td>7137&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>25&lt;/td>
+&lt;td>6711&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>26&lt;/td>
+&lt;td>6468&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="experiments">Experiments&lt;/h2>
+&lt;p>Since over m/z 100 there is only sparse signal I created the relevant Hilbert
+curve doing&lt;/p>
+&lt;h3 id="curves">Curves&lt;/h3>
+&lt;p>The first plot uses scales the area of the dots at the masses to the observed counts.&lt;/p>
+&lt;p>&lt;img src="/~c1891011/photo/2016-01-hilbertPTR_fig/2016-01-hilbertPTR_firsttry-1.png" alt="plot of chunk first try">&lt;/p>
+&lt;p>This plot shows a little structure - the main blocks are of 16 numbers.&lt;/p>
+&lt;ul>
+&lt;li>The numbers 1 to 16 are basically zero as there are no protonated ions at such masses.&lt;/li>
+&lt;li>The next block contains the major precursors - the hydronium ion
 \(H_3O^+\) with its isotopes at m/z 19 to 21, \(NO^+\) at 30 and
-\(O_2^+\) at 32. A little visible is ammonia at m/z 18.&lt;/li&gt;
-&lt;li&gt;The block from 33 to 48 contains the Zundel ion (\(H_2O \cdot
+\(O_2^+\) at 32. A little visible is ammonia at m/z 18.&lt;/li>
+&lt;li>The block from 33 to 48 contains the Zundel ion (\(H_2O \cdot
 H_3O^+\) ) as well as ethanol at 47 (with some isotops at 48) and its
-metabolite acetaldehyde at 45.&lt;/li&gt;
-&lt;li&gt;Following block contains the important compound acetone at 59 and
-not visible the next metabolite of ethanol acetic acid at 61.&lt;/li&gt;
-&lt;li&gt;Next block contains isoprene at 69 as well as hydrated ethanol ion at 65.&lt;/li&gt;
-&lt;li&gt;The following blocks show no visible ions although at aromatics like toluene (m/z 93) should show up there.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Unfortunately when observed on the PTR-TOF it can be seen that the signal is
-saturated at m/z 19, 37 and 47. So lets scale down the max signal.&lt;br&gt;
+metabolite acetaldehyde at 45.&lt;/li>
+&lt;li>Following block contains the important compound acetone at 59 and
+not visible the next metabolite of ethanol acetic acid at 61.&lt;/li>
+&lt;li>Next block contains isoprene at 69 as well as hydrated ethanol ion at 65.&lt;/li>
+&lt;li>The following blocks show no visible ions although at aromatics like toluene (m/z 93) should show up there.&lt;/li>
+&lt;/ul>
+&lt;p>Unfortunately when observed on the PTR-TOF it can be seen that the signal is
+saturated at m/z 19, 37 and 47. So lets scale down the max signal.&lt;br>
 The concentration of the observed compounds is in the ppm&amp;rsquo;s.
-&lt;img src=&#34;/~c1891011/photo/2016-01-hilbertPTR_fig/2016-01-hilbertPTR_scaledin-1.png&#34; alt=&#34;plot of chunk scaled in&#34;&gt;&lt;/p&gt;
-&lt;p&gt;Finally we see a little more.  But still only compounds that occur in&lt;br&gt;
-concentrations of several ppbs.&lt;/p&gt;
-&lt;p&gt;Lets try to use logarithmic scale instead.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;/~c1891011/photo/2016-01-hilbertPTR_fig/2016-01-hilbertPTR_logscale-1.png&#34; alt=&#34;plot of chunk log scale&#34;&gt;&lt;/p&gt;
-&lt;p&gt;Now the plot shows many more compounds.  All the main ions are tailed by some ions of their isotopes. Though it is still hard to see where some traces occur. I experimentd with some zooming but overall there was little benefit to it.  My next try will be to see if I can create an animated version of this to follow a volunteers breath pattern.&lt;/p&gt;
-&lt;p&gt;The code for this page was written in &lt;code&gt;R&lt;/code&gt;.  I will keep investigating and probably put a link to the git repo online once it reaches a more mature state.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Spannendes Paper</title>
-      <link>/post/2015/2015-10-19_spannendes_paper/</link>
-      <pubDate>Mon, 19 Oct 2015 10:17:23 +0200</pubDate>
-      <guid>/post/2015/2015-10-19_spannendes_paper/</guid>
-      <description>&lt;p&gt;Das Paper 
-&lt;a href=&#34;http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2627354&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Surprised by the Gambler&amp;rsquo;s and Hot Hand Fallacies? A Truth in the Law of Small Numbers&lt;/a&gt;
-ist spannend für mich.  Am Ende bedeutet es, dass unsere Studien von der Statistik künstlich gehandicapt wurden.  Versuche das aufzuklären.  Leider braucht es wohl massig Simulationen und dann wird das nicht sonderlich klar.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Launiger Artikel bei Nature</title>
-      <link>/post/2015/20151008_naturep/</link>
-      <pubDate>Fri, 09 Oct 2015 08:12:56 +0200</pubDate>
-      <guid>/post/2015/20151008_naturep/</guid>
-      <description>&lt;p&gt;Nature hat wieder einen ausgezeichneten Artikel: 
-&lt;a href=&#34;http://www.nature.com/news/how-scientists-fool-themselves-and-how-they-can-stop-1.18517&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;How scientists fool themselves – and how they can stop&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Es ist immer wieder die alte Diskussion.  Leider ohne Lösung bis jetzt.  Aber die Auflistung der typischen Fallacies hilft die eigenen Schlüsse zu hinterfragen.  Es ist jedenfalls beruhigend zu sehen, dass auch andere Felder unter den selben Problemen leiden.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Bilder von der Breath Vienna</title>
-      <link>/post/2015/20150920_bilder_breathvienna/</link>
-      <pubDate>Thu, 17 Sep 2015 11:32:05 +0200</pubDate>
-      <guid>/post/2015/20150920_bilder_breathvienna/</guid>
-      <description>&lt;p&gt;Einige Impressionen von der 
-&lt;a href=&#34;http://breathvienna.at&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt; BreathVienna &lt;/a&gt; Konferenz.&lt;/p&gt;
-&lt;figure&gt;
-
-
-  &lt;a data-fancybox=&#34;&#34; href=&#34;/~c1891011/photo/2015_breathvienna/DSC_0101.jpg&#34; data-caption=&#34;Prof. Buszewski and Pawel&#34;&gt;
-
-
-  &lt;img src=&#34;/~c1891011/photo/2015_breathvienna/DSC_0101.jpg&#34; alt=&#34;&#34;  &gt;
-&lt;/a&gt;
-
-
-  
-  
-  &lt;figcaption&gt;
-    Prof. Buszewski and Pawel
-  &lt;/figcaption&gt;
-
-
-&lt;/figure&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure&gt;
-
-
-  &lt;a data-fancybox=&#34;&#34; href=&#34;/~c1891011/photo/2015_breathvienna/DSC_0104.jpg&#34; data-caption=&#34;Prof. Buszewski and Wojtek&#34;&gt;
-
-
-  &lt;img src=&#34;/~c1891011/photo/2015_breathvienna/DSC_0104.jpg&#34; alt=&#34;&#34;  &gt;
-&lt;/a&gt;
-
-
-  
-  
-  &lt;figcaption&gt;
-    Prof. Buszewski and Wojtek
-  &lt;/figcaption&gt;
-
-
-&lt;/figure&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure&gt;
-
-
-  &lt;a data-fancybox=&#34;&#34; href=&#34;/~c1891011/photo/2015_breathvienna/DSC_0106.jpg&#34; data-caption=&#34;Karl und Julian&#34;&gt;
-
-
-  &lt;img src=&#34;/~c1891011/photo/2015_breathvienna/DSC_0106.jpg&#34; alt=&#34;&#34;  &gt;
-&lt;/a&gt;
-
-
-  
-  
-  &lt;figcaption&gt;
-    Karl und Julian
-  &lt;/figcaption&gt;
-
-
-&lt;/figure&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure&gt;
-
-
-  &lt;a data-fancybox=&#34;&#34; href=&#34;/~c1891011/photo/2015_breathvienna/DSC_0112.jpg&#34; &gt;
-
-
-  &lt;img src=&#34;/~c1891011/photo/2015_breathvienna/DSC_0112.jpg&#34; alt=&#34;&#34;  &gt;
-&lt;/a&gt;
-
-
-
-&lt;/figure&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure&gt;
-
-
-  &lt;a data-fancybox=&#34;&#34; href=&#34;/~c1891011/photo/2015_breathvienna/DSC_0117.jpg&#34; &gt;
-
-
-  &lt;img src=&#34;/~c1891011/photo/2015_breathvienna/DSC_0117.jpg&#34; alt=&#34;&#34;  &gt;
-&lt;/a&gt;
-
-
-
-&lt;/figure&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure&gt;
-
-
-  &lt;a data-fancybox=&#34;&#34; href=&#34;/~c1891011/photo/2015_breathvienna/DSC_0124.jpg&#34; &gt;
-
-
-  &lt;img src=&#34;/~c1891011/photo/2015_breathvienna/DSC_0124.jpg&#34; alt=&#34;&#34;  &gt;
-&lt;/a&gt;
-
-
-
-&lt;/figure&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure&gt;
-
-
-  &lt;a data-fancybox=&#34;&#34; href=&#34;/~c1891011/photo/2015_breathvienna/DSC_0135.jpg&#34; data-caption=&#34;Nach der Tour&#34;&gt;
-
-
-  &lt;img src=&#34;/~c1891011/photo/2015_breathvienna/DSC_0135.jpg&#34; alt=&#34;&#34;  &gt;
-&lt;/a&gt;
-
-
-  
-  
-  &lt;figcaption&gt;
-    Nach der Tour
-  &lt;/figcaption&gt;
-
-
-&lt;/figure&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure&gt;
-
-
-  &lt;a data-fancybox=&#34;&#34; href=&#34;/~c1891011/photo/2015_breathvienna/DSC_0138.jpg&#34; &gt;
-
-
-  &lt;img src=&#34;/~c1891011/photo/2015_breathvienna/DSC_0138.jpg&#34; alt=&#34;&#34;  &gt;
-&lt;/a&gt;
-
-
-
-&lt;/figure&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure&gt;
-
-
-  &lt;a data-fancybox=&#34;&#34; href=&#34;/~c1891011/photo/2015_breathvienna/DSC_0145.jpg&#34; &gt;
-
-
-  &lt;img src=&#34;/~c1891011/photo/2015_breathvienna/DSC_0145.jpg&#34; alt=&#34;&#34;  &gt;
-&lt;/a&gt;
-
-
-
-&lt;/figure&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure&gt;
-
-
-  &lt;a data-fancybox=&#34;&#34; href=&#34;/~c1891011/photo/2015_breathvienna/DSC_0146.jpg&#34; &gt;
-
-
-  &lt;img src=&#34;/~c1891011/photo/2015_breathvienna/DSC_0146.jpg&#34; alt=&#34;&#34;  &gt;
-&lt;/a&gt;
-
-
-
-&lt;/figure&gt;</description>
-    </item>
-    
-    <item>
-      <title>Ende der Konferenz</title>
-      <link>/post/2015/20150917_vorbei/</link>
-      <pubDate>Thu, 17 Sep 2015 00:00:00 +0000</pubDate>
-      <guid>/post/2015/20150917_vorbei/</guid>
-      <description>&lt;p&gt;Jetzt ist alles vorbei.  Der dritte Tag war nicht so
+&lt;img src="/~c1891011/photo/2016-01-hilbertPTR_fig/2016-01-hilbertPTR_scaledin-1.png" alt="plot of chunk scaled in">&lt;/p>
+&lt;p>Finally we see a little more. But still only compounds that occur in&lt;br>
+concentrations of several ppbs.&lt;/p>
+&lt;p>Lets try to use logarithmic scale instead.&lt;/p>
+&lt;p>&lt;img src="/~c1891011/photo/2016-01-hilbertPTR_fig/2016-01-hilbertPTR_logscale-1.png" alt="plot of chunk log scale">&lt;/p>
+&lt;p>Now the plot shows many more compounds. All the main ions are tailed by some ions of their isotopes. Though it is still hard to see where some traces occur. I experimentd with some zooming but overall there was little benefit to it. My next try will be to see if I can create an animated version of this to follow a volunteers breath pattern.&lt;/p>
+&lt;p>The code for this page was written in &lt;code>R&lt;/code>. I will keep investigating and probably put a link to the git repo online once it reaches a more mature state.&lt;/p></description></item><item><title>Spannendes Paper</title><link>/post/2015/2015-10-19_spannendes_paper/</link><pubDate>Mon, 19 Oct 2015 10:17:23 +0200</pubDate><guid>/post/2015/2015-10-19_spannendes_paper/</guid><description>&lt;p>Das Paper
+&lt;a href="http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2627354" target="_blank" rel="noopener">Surprised by the Gambler&amp;rsquo;s and Hot Hand Fallacies? A Truth in the Law of Small Numbers&lt;/a>
+ist spannend für mich. Am Ende bedeutet es, dass unsere Studien von der Statistik künstlich gehandicapt wurden. Versuche das aufzuklären. Leider braucht es wohl massig Simulationen und dann wird das nicht sonderlich klar.&lt;/p></description></item><item><title>Launiger Artikel bei Nature</title><link>/post/2015/20151008_naturep/</link><pubDate>Fri, 09 Oct 2015 08:12:56 +0200</pubDate><guid>/post/2015/20151008_naturep/</guid><description>&lt;p>Nature hat wieder einen ausgezeichneten Artikel:
+&lt;a href="http://www.nature.com/news/how-scientists-fool-themselves-and-how-they-can-stop-1.18517" target="_blank" rel="noopener">How scientists fool themselves – and how they can stop&lt;/a>.&lt;/p>
+&lt;p>Es ist immer wieder die alte Diskussion. Leider ohne Lösung bis jetzt. Aber die Auflistung der typischen Fallacies hilft die eigenen Schlüsse zu hinterfragen. Es ist jedenfalls beruhigend zu sehen, dass auch andere Felder unter den selben Problemen leiden.&lt;/p></description></item><item><title>Bilder von der Breath Vienna</title><link>/post/2015/20150920_bilder_breathvienna/</link><pubDate>Thu, 17 Sep 2015 11:32:05 +0200</pubDate><guid>/post/2015/20150920_bilder_breathvienna/</guid><description>&lt;p>Einige Impressionen von der
+&lt;a href="http://breathvienna.at" target="_blank" rel="noopener"> BreathVienna &lt;/a> Konferenz.&lt;/p>
+&lt;figure>
+&lt;a data-fancybox="" href="/~c1891011/photo/2015_breathvienna/DSC_0101.jpg" data-caption="Prof. Buszewski and Pawel">
+&lt;img src="/~c1891011/photo/2015_breathvienna/DSC_0101.jpg" alt="" >
+&lt;/a>
+&lt;figcaption>
+Prof. Buszewski and Pawel
+&lt;/figcaption>
+&lt;/figure>
+&lt;figure>
+&lt;a data-fancybox="" href="/~c1891011/photo/2015_breathvienna/DSC_0104.jpg" data-caption="Prof. Buszewski and Wojtek">
+&lt;img src="/~c1891011/photo/2015_breathvienna/DSC_0104.jpg" alt="" >
+&lt;/a>
+&lt;figcaption>
+Prof. Buszewski and Wojtek
+&lt;/figcaption>
+&lt;/figure>
+&lt;figure>
+&lt;a data-fancybox="" href="/~c1891011/photo/2015_breathvienna/DSC_0106.jpg" data-caption="Karl und Julian">
+&lt;img src="/~c1891011/photo/2015_breathvienna/DSC_0106.jpg" alt="" >
+&lt;/a>
+&lt;figcaption>
+Karl und Julian
+&lt;/figcaption>
+&lt;/figure>
+&lt;figure>
+&lt;a data-fancybox="" href="/~c1891011/photo/2015_breathvienna/DSC_0112.jpg" >
+&lt;img src="/~c1891011/photo/2015_breathvienna/DSC_0112.jpg" alt="" >
+&lt;/a>
+&lt;/figure>
+&lt;figure>
+&lt;a data-fancybox="" href="/~c1891011/photo/2015_breathvienna/DSC_0117.jpg" >
+&lt;img src="/~c1891011/photo/2015_breathvienna/DSC_0117.jpg" alt="" >
+&lt;/a>
+&lt;/figure>
+&lt;figure>
+&lt;a data-fancybox="" href="/~c1891011/photo/2015_breathvienna/DSC_0124.jpg" >
+&lt;img src="/~c1891011/photo/2015_breathvienna/DSC_0124.jpg" alt="" >
+&lt;/a>
+&lt;/figure>
+&lt;figure>
+&lt;a data-fancybox="" href="/~c1891011/photo/2015_breathvienna/DSC_0135.jpg" data-caption="Nach der Tour">
+&lt;img src="/~c1891011/photo/2015_breathvienna/DSC_0135.jpg" alt="" >
+&lt;/a>
+&lt;figcaption>
+Nach der Tour
+&lt;/figcaption>
+&lt;/figure>
+&lt;figure>
+&lt;a data-fancybox="" href="/~c1891011/photo/2015_breathvienna/DSC_0138.jpg" >
+&lt;img src="/~c1891011/photo/2015_breathvienna/DSC_0138.jpg" alt="" >
+&lt;/a>
+&lt;/figure>
+&lt;figure>
+&lt;a data-fancybox="" href="/~c1891011/photo/2015_breathvienna/DSC_0145.jpg" >
+&lt;img src="/~c1891011/photo/2015_breathvienna/DSC_0145.jpg" alt="" >
+&lt;/a>
+&lt;/figure>
+&lt;figure>
+&lt;a data-fancybox="" href="/~c1891011/photo/2015_breathvienna/DSC_0146.jpg" >
+&lt;img src="/~c1891011/photo/2015_breathvienna/DSC_0146.jpg" alt="" >
+&lt;/a>
+&lt;/figure></description></item><item><title>Ende der Konferenz</title><link>/post/2015/20150917_vorbei/</link><pubDate>Thu, 17 Sep 2015 00:00:00 +0000</pubDate><guid>/post/2015/20150917_vorbei/</guid><description>&lt;p>Jetzt ist alles vorbei. Der dritte Tag war nicht so
 spannend für mich nicht so spannend. Viel dieser
-Meta-diskussion wenig spezifisches.&lt;/p&gt;
-&lt;p&gt;Martin hat den 2. Preis für sein Poster bekommen und kriegt
-für die nächste Konferenz die Kosten.  Also fährt er sicher
-nächstes Jahr.  Selbst bin ich mir noch nicht so sicher.&lt;/p&gt;
-&lt;p&gt;Jetzt sitz&amp;rsquo; ich im Zug und versuch heim fahren. Wegen der
-deutschen Grenzen muss ich gewaltigen Umweg machen.  Hoffe
-ich komm aber noch in vernünftiger Zeit daheim an.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Interessanter Trend bei BreathVienna</title>
-      <link>/post/2015/20150915_good_news/</link>
-      <pubDate>Tue, 15 Sep 2015 16:50:16 +0200</pubDate>
-      <guid>/post/2015/20150915_good_news/</guid>
-      <description>&lt;p&gt;Guter Trend bei 
-&lt;a href=&#34;http://breathvienna.at&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;BreathVienna&lt;/a&gt; jeder der was
-auf sich hält benutzt 
-&lt;a href=&#34;https://www.r-project.org&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;R&lt;/a&gt;. Dann gehören die
+Meta-diskussion wenig spezifisches.&lt;/p>
+&lt;p>Martin hat den 2. Preis für sein Poster bekommen und kriegt
+für die nächste Konferenz die Kosten. Also fährt er sicher
+nächstes Jahr. Selbst bin ich mir noch nicht so sicher.&lt;/p>
+&lt;p>Jetzt sitz&amp;rsquo; ich im Zug und versuch heim fahren. Wegen der
+deutschen Grenzen muss ich gewaltigen Umweg machen. Hoffe
+ich komm aber noch in vernünftiger Zeit daheim an.&lt;/p></description></item><item><title>Interessanter Trend bei BreathVienna</title><link>/post/2015/20150915_good_news/</link><pubDate>Tue, 15 Sep 2015 16:50:16 +0200</pubDate><guid>/post/2015/20150915_good_news/</guid><description>&lt;p>Guter Trend bei
+&lt;a href="http://breathvienna.at" target="_blank" rel="noopener">BreathVienna&lt;/a> jeder der was
+auf sich hält benutzt
+&lt;a href="https://www.r-project.org" target="_blank" rel="noopener">R&lt;/a>. Dann gehören die
 unansehnlichen Matlab Plots bald der Vergangenheit an. Besonders
-interessant war, dass der 
-&lt;a href=&#34;http://www.menssanaresearch.com/about_Menssana.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Micheal
-Phillips&lt;/a&gt; seine
+interessant war, dass der
+&lt;a href="http://www.menssanaresearch.com/about_Menssana.html" target="_blank" rel="noopener">Micheal
+Phillips&lt;/a> seine
 Resultate mit
-
-&lt;a href=&#34;https://bioconductor.org/packages/release/bioc/html/xcms.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;xcms&lt;/a&gt;
-erarbeitet hat.  Das hatten wir auch schon ausgetestet.&lt;/p&gt;
-&lt;p&gt;Ist sehr interessant &amp;ndash; aber das automatische Auswerten ist bei uns
+&lt;a href="https://bioconductor.org/packages/release/bioc/html/xcms.html" target="_blank" rel="noopener">xcms&lt;/a>
+erarbeitet hat. Das hatten wir auch schon ausgetestet.&lt;/p>
+&lt;p>Ist sehr interessant &amp;ndash; aber das automatische Auswerten ist bei uns
 eine Endlosgeschichte, weil man die Chemiker nie komplett
-zufriedenstellen kann.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Dino ausgerottet</title>
-      <link>/post/2014/2014-10-04-dino-ausgerottet/</link>
-      <pubDate>Sat, 04 Oct 2014 08:38:06 +0000</pubDate>
-      <guid>/post/2014/2014-10-04-dino-ausgerottet/</guid>
-      <description>&lt;p&gt;Ich mach in meiner Freizeit den netten
-&lt;a href=&#34;https://class.coursera.org/dino101-003&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt; Dino 101 Kurs auf Coursera.&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Hier eine schöne Darstellung wie die Säugetiere dann die Dinos ausgerottet haben ;)&lt;/p&gt;
-&lt;p&gt;
-&lt;a href=&#34;http://sweety-creatures.soup.io/post/448639304/Bild&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;img src=&#34;http://asset-b.soup.io/asset/6171/2328_b88e_500.jpeg&#34; alt=&#34;2328 b88e 500&#34;&gt;&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-  </channel>
-</rss>
+zufriedenstellen kann.&lt;/p></description></item><item><title>Dino ausgerottet</title><link>/post/2014/2014-10-04-dino-ausgerottet/</link><pubDate>Sat, 04 Oct 2014 08:38:06 +0000</pubDate><guid>/post/2014/2014-10-04-dino-ausgerottet/</guid><description>&lt;p>Ich mach in meiner Freizeit den netten
+&lt;a href="https://class.coursera.org/dino101-003" target="_blank" rel="noopener"> Dino 101 Kurs auf Coursera.&lt;/a>&lt;/p>
+&lt;p>Hier eine schöne Darstellung wie die Säugetiere dann die Dinos ausgerottet haben ;)&lt;/p>
+&lt;p>
+&lt;a href="http://sweety-creatures.soup.io/post/448639304/Bild" target="_blank" rel="noopener">&lt;img src="http://asset-b.soup.io/asset/6171/2328_b88e_500.jpeg" alt="2328 b88e 500">&lt;/a>&lt;/p></description></item></channel></rss>

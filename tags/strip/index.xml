@@ -1,37 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>strip | bdcaf</title>
-    <link>/tags/strip/</link>
-      <atom:link href="/tags/strip/index.xml" rel="self" type="application/rss+xml" />
-    <description>strip</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Clemens Ager 2020</copyright><lastBuildDate>Fri, 26 Sep 2014 22:27:51 +0000</lastBuildDate>
-    <image>
-      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
-      <title>strip</title>
-      <link>/tags/strip/</link>
-    </image>
-    
-    <item>
-      <title>another smbc</title>
-      <link>/post/2014/2014-09-26-recommended-read-september-26-2014/</link>
-      <pubDate>Fri, 26 Sep 2014 22:27:51 +0000</pubDate>
-      <guid>/post/2014/2014-09-26-recommended-read-september-26-2014/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;http://ift.tt/1qCqaCy&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;p&gt;POW!&lt;img src=&#34;http://ift.tt/1qCq9yx&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;p&gt;via Saturday Morning Breakfast Cereal (updated daily) &lt;a href=&#34;http://ift.tt/1Cteivg&#34;&gt;http://ift.tt/1Cteivg&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Statistical nightmare</title>
-      <link>/post/2014/2014-09-18-recommended-read-september-17-2014/</link>
-      <pubDate>Thu, 18 Sep 2014 07:42:13 +0000</pubDate>
-      <guid>/post/2014/2014-09-18-recommended-read-september-17-2014/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;http://ift.tt/1r9MkRS&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;p&gt;via Saturday Morning Breakfast Cereal (updated daily) &lt;a href=&#34;http://ift.tt/1r9Mjxl&#34;&gt;http://ift.tt/1r9Mjxl&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>strip | bdcaf</title><link>/tags/strip/</link><atom:link href="/tags/strip/index.xml" rel="self" type="application/rss+xml"/><description>strip</description><generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Clemens Ager 2020</copyright><lastBuildDate>Fri, 26 Sep 2014 22:27:51 +0000</lastBuildDate><image><url>img/map[gravatar:%!s(bool=false) shape:circle]</url><title>strip</title><link>/tags/strip/</link></image><item><title>another smbc</title><link>/post/2014/2014-09-26-recommended-read-september-26-2014/</link><pubDate>Fri, 26 Sep 2014 22:27:51 +0000</pubDate><guid>/post/2014/2014-09-26-recommended-read-september-26-2014/</guid><description>&lt;p>&lt;img src="http://ift.tt/1qCqaCy" alt="">&lt;/p>
+&lt;p>POW!&lt;img src="http://ift.tt/1qCq9yx" alt="">&lt;/p>
+&lt;p>via Saturday Morning Breakfast Cereal (updated daily) &lt;a href="http://ift.tt/1Cteivg">http://ift.tt/1Cteivg&lt;/a>&lt;/p></description></item><item><title>Statistical nightmare</title><link>/post/2014/2014-09-18-recommended-read-september-17-2014/</link><pubDate>Thu, 18 Sep 2014 07:42:13 +0000</pubDate><guid>/post/2014/2014-09-18-recommended-read-september-17-2014/</guid><description>&lt;p>&lt;img src="http://ift.tt/1r9MkRS" alt="">&lt;/p>
+&lt;p>via Saturday Morning Breakfast Cereal (updated daily) &lt;a href="http://ift.tt/1r9Mjxl">http://ift.tt/1r9Mjxl&lt;/a>&lt;/p></description></item></channel></rss>

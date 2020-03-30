@@ -1,27 +1,3 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>obscure | bdcaf</title>
-    <link>/tags/obscure/</link>
-      <atom:link href="/tags/obscure/index.xml" rel="self" type="application/rss+xml" />
-    <description>obscure</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Clemens Ager 2020</copyright><lastBuildDate>Sat, 20 Sep 2014 00:24:12 +0000</lastBuildDate>
-    <image>
-      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
-      <title>obscure</title>
-      <link>/tags/obscure/</link>
-    </image>
-    
-    <item>
-      <title>Voynich - a provisional, partial decoding of the Voynich script</title>
-      <link>/post/2014/2014-09-20-voynich-a-provisional-partial-decoding-of-the-voynich-script/</link>
-      <pubDate>Sat, 20 Sep 2014 00:24:12 +0000</pubDate>
-      <guid>/post/2014/2014-09-20-voynich-a-provisional-partial-decoding-of-the-voynich-script/</guid>
-      <description>&lt;p&gt;By: [Stephen Bax](&lt;a href=&#34;http://ift.tt/1ecxgfP&#34;&gt;http://ift.tt/1ecxgfP&lt;/a&gt; Bax)&lt;/p&gt;
-&lt;p&gt;Source: 
-&lt;a href=&#34;http://ift.tt/1lkeLKl&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://ift.tt/1lkeLKl&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>obscure | bdcaf</title><link>/tags/obscure/</link><atom:link href="/tags/obscure/index.xml" rel="self" type="application/rss+xml"/><description>obscure</description><generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Clemens Ager 2020</copyright><lastBuildDate>Sat, 20 Sep 2014 00:24:12 +0000</lastBuildDate><image><url>img/map[gravatar:%!s(bool=false) shape:circle]</url><title>obscure</title><link>/tags/obscure/</link></image><item><title>Voynich - a provisional, partial decoding of the Voynich script</title><link>/post/2014/2014-09-20-voynich-a-provisional-partial-decoding-of-the-voynich-script/</link><pubDate>Sat, 20 Sep 2014 00:24:12 +0000</pubDate><guid>/post/2014/2014-09-20-voynich-a-provisional-partial-decoding-of-the-voynich-script/</guid><description>&lt;p>By: [Stephen Bax](&lt;a href="http://ift.tt/1ecxgfP">http://ift.tt/1ecxgfP&lt;/a> Bax)&lt;/p>
+&lt;p>Source:
+&lt;a href="http://ift.tt/1lkeLKl" target="_blank" rel="noopener">http://ift.tt/1lkeLKl&lt;/a>&lt;/p></description></item></channel></rss>

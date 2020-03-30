@@ -1,88 +1,29 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>space | bdcaf</title>
-    <link>/tags/space/</link>
-      <atom:link href="/tags/space/index.xml" rel="self" type="application/rss+xml" />
-    <description>space</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Clemens Ager 2020</copyright><lastBuildDate>Sat, 27 Jan 2018 14:50:00 +0100</lastBuildDate>
-    <image>
-      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
-      <title>space</title>
-      <link>/tags/space/</link>
-    </image>
-    
-    <item>
-      <title>Kerbal Space Program</title>
-      <link>/post/links/kerbal/</link>
-      <pubDate>Sat, 27 Jan 2018 14:50:00 +0100</pubDate>
-      <guid>/post/links/kerbal/</guid>
-      <description>&lt;p&gt;These days I started up 
-&lt;a href=&#34;https://kerbalspaceprogram.com/en/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Kerbal Space
-Program&lt;/a&gt;.  It is a space game
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>space | bdcaf</title><link>/tags/space/</link><atom:link href="/tags/space/index.xml" rel="self" type="application/rss+xml"/><description>space</description><generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Clemens Ager 2020</copyright><lastBuildDate>Sat, 27 Jan 2018 14:50:00 +0100</lastBuildDate><image><url>img/map[gravatar:%!s(bool=false) shape:circle]</url><title>space</title><link>/tags/space/</link></image><item><title>Kerbal Space Program</title><link>/post/links/kerbal/</link><pubDate>Sat, 27 Jan 2018 14:50:00 +0100</pubDate><guid>/post/links/kerbal/</guid><description>&lt;p>These days I started up
+&lt;a href="https://kerbalspaceprogram.com/en/" target="_blank" rel="noopener">Kerbal Space
+Program&lt;/a>. It is a space game
 where you construct your own vehicles and explore the solar system.
-As physics games go it is amazing.&lt;/p&gt;
-&lt;p&gt;Unless you carefully plan out maneuvers they will lead to disaster -
-which is often also hilarious to watch play out.  Even getting into
-orbit is a challenge in the beginning.&lt;/p&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure&gt;
-
-
-  &lt;a data-fancybox=&#34;&#34; href=&#34;/post/links/2018-01-kerbal.jpg&#34; data-caption=&#34;My first Mun landing without breaking stuff.&#34;&gt;
-
-
-  &lt;img src=&#34;/post/links/2018-01-kerbal.jpg&#34; alt=&#34;&#34;  &gt;
-&lt;/a&gt;
-
-
-  
-  
-  &lt;figcaption&gt;
-    My first Mun landing without breaking stuff.
-  &lt;/figcaption&gt;
-
-
-&lt;/figure&gt;
-
-&lt;!-- more --&gt;
-&lt;p&gt;The only critic point would be that one needs to learn about most
-concepts outside the game.  These may be small things like how the
+As physics games go it is amazing.&lt;/p>
+&lt;p>Unless you carefully plan out maneuvers they will lead to disaster -
+which is often also hilarious to watch play out. Even getting into
+orbit is a challenge in the beginning.&lt;/p>
+&lt;figure>
+&lt;a data-fancybox="" href="/post/links/2018-01-kerbal.jpg" data-caption="My first Mun landing without breaking stuff.">
+&lt;img src="/post/links/2018-01-kerbal.jpg" alt="" >
+&lt;/a>
+&lt;figcaption>
+My first Mun landing without breaking stuff.
+&lt;/figcaption>
+&lt;/figure>
+&lt;!-- more -->
+&lt;p>The only critic point would be that one needs to learn about most
+concepts outside the game. These may be small things like how the
 solid fuel boosters are different from rocket engines - the boosters
-can not be throttled, while the rocket engines can be.  To the more
+can not be throttled, while the rocket engines can be. To the more
 advanced topics of how to do orbit transfers and gravity assists.
 Though once the concepts are understood it is immensely gratifying to
-be able to these maneuvers.&lt;/p&gt;
-&lt;p&gt;And there are fun concepts that came up from this game like
-&lt;em&gt;lithobraking&lt;/em&gt; - which in analogy to aero and hydrobraking is reducing
-speed by hitting rocks.  And URD the abbreviation for unscheduled
-rapid disassembly - basically the craft explodes.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>atv dock</title>
-      <link>/post/2014/2014-08-13-atv-dock/</link>
-      <pubDate>Wed, 13 Aug 2014 19:42:56 +0000</pubDate>
-      <guid>/post/2014/2014-08-13-atv-dock/</guid>
-      <description>&lt;p&gt;Coole Sache das Andockn von 
-&lt;a href=&#34;http://blogs.esa.int/atv/2014/08/12/bulls-eye-docking-of-atv-georges-lemaitre-to-iss/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Georges Lemaitre&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-  </channel>
-</rss>
+be able to these maneuvers.&lt;/p>
+&lt;p>And there are fun concepts that came up from this game like
+&lt;em>lithobraking&lt;/em> - which in analogy to aero and hydrobraking is reducing
+speed by hitting rocks. And URD the abbreviation for unscheduled
+rapid disassembly - basically the craft explodes.&lt;/p></description></item><item><title>atv dock</title><link>/post/2014/2014-08-13-atv-dock/</link><pubDate>Wed, 13 Aug 2014 19:42:56 +0000</pubDate><guid>/post/2014/2014-08-13-atv-dock/</guid><description>&lt;p>Coole Sache das Andockn von
+&lt;a href="http://blogs.esa.int/atv/2014/08/12/bulls-eye-docking-of-atv-georges-lemaitre-to-iss/" target="_blank" rel="noopener">Georges Lemaitre&lt;/a>&lt;/p></description></item></channel></rss>

@@ -1,36 +1,11 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>congress | bdcaf</title>
-    <link>/tags/congress/</link>
-      <atom:link href="/tags/congress/index.xml" rel="self" type="application/rss+xml" />
-    <description>congress</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Clemens Ager 2020</copyright><lastBuildDate>Mon, 17 Aug 2015 18:49:07 +0200</lastBuildDate>
-    <image>
-      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
-      <title>congress</title>
-      <link>/tags/congress/</link>
-    </image>
-    
-    <item>
-      <title>Das Programm für den Atemgas Kongress ist heraußen</title>
-      <link>/post/academic/programm_breath_summit2015/</link>
-      <pubDate>Mon, 17 Aug 2015 18:49:07 +0200</pubDate>
-      <guid>/post/academic/programm_breath_summit2015/</guid>
-      <description>&lt;p&gt;Auf der Seite 
-&lt;a href=&#34;http://breathvienna.at&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Breathvienna&lt;/a&gt; gibt es das 
-&lt;a href=&#34;http://breathvienna.at/wp-content/uploads/2015/08/CLICK-HERE-to-download-IABR-summit-2015-PROGRAM.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Programm&lt;/a&gt; nun zum ansehen.&lt;/p&gt;
-&lt;p&gt;Für mich ist einiges interessant.  Selber werde ich wohl nur bei der
-Postersession präsentieren.&lt;/p&gt;
-&lt;p&gt;Gerade die &lt;em&gt;emerging topics&lt;/em&gt; und die &lt;em&gt;biomarker&lt;/em&gt; sind spannend für
-mich - leider beide gleichzeitig.  Danach ist wohl das &lt;em&gt;medical
-monitoring&lt;/em&gt; spannend.  Tag 2 werd&amp;rsquo; ich hin und her wechseln.  Aber den
-
-&lt;a href=&#34;http://www.menssanaresearch.com/about_staff_Menssana.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Michael Phillips&lt;/a&gt;
-sollte man schon gesehen haben.  Danach die Session mit Datenanalyse
-ist ein Muss für mich.&lt;/p&gt;
-</description>
-    </item>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>congress | bdcaf</title><link>/tags/congress/</link><atom:link href="/tags/congress/index.xml" rel="self" type="application/rss+xml"/><description>congress</description><generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Clemens Ager 2020</copyright><lastBuildDate>Mon, 17 Aug 2015 18:49:07 +0200</lastBuildDate><image><url>img/map[gravatar:%!s(bool=false) shape:circle]</url><title>congress</title><link>/tags/congress/</link></image><item><title>Das Programm für den Atemgas Kongress ist heraußen</title><link>/post/academic/programm_breath_summit2015/</link><pubDate>Mon, 17 Aug 2015 18:49:07 +0200</pubDate><guid>/post/academic/programm_breath_summit2015/</guid><description>&lt;p>Auf der Seite
+&lt;a href="http://breathvienna.at" target="_blank" rel="noopener">Breathvienna&lt;/a> gibt es das
+&lt;a href="http://breathvienna.at/wp-content/uploads/2015/08/CLICK-HERE-to-download-IABR-summit-2015-PROGRAM.pdf" target="_blank" rel="noopener">Programm&lt;/a> nun zum ansehen.&lt;/p>
+&lt;p>Für mich ist einiges interessant. Selber werde ich wohl nur bei der
+Postersession präsentieren.&lt;/p>
+&lt;p>Gerade die &lt;em>emerging topics&lt;/em> und die &lt;em>biomarker&lt;/em> sind spannend für
+mich - leider beide gleichzeitig. Danach ist wohl das &lt;em>medical
+monitoring&lt;/em> spannend. Tag 2 werd&amp;rsquo; ich hin und her wechseln. Aber den
+&lt;a href="http://www.menssanaresearch.com/about_staff_Menssana.html" target="_blank" rel="noopener">Michael Phillips&lt;/a>
+sollte man schon gesehen haben. Danach die Session mit Datenanalyse
+ist ein Muss für mich.&lt;/p></description></item></channel></rss>

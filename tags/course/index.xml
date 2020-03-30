@@ -1,29 +1,5 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>course | bdcaf</title>
-    <link>/tags/course/</link>
-      <atom:link href="/tags/course/index.xml" rel="self" type="application/rss+xml" />
-    <description>course</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Clemens Ager 2020</copyright><lastBuildDate>Sat, 04 Oct 2014 08:38:06 +0000</lastBuildDate>
-    <image>
-      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
-      <title>course</title>
-      <link>/tags/course/</link>
-    </image>
-    
-    <item>
-      <title>Dino ausgerottet</title>
-      <link>/post/2014/2014-10-04-dino-ausgerottet/</link>
-      <pubDate>Sat, 04 Oct 2014 08:38:06 +0000</pubDate>
-      <guid>/post/2014/2014-10-04-dino-ausgerottet/</guid>
-      <description>&lt;p&gt;Ich mach in meiner Freizeit den netten
-&lt;a href=&#34;https://class.coursera.org/dino101-003&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt; Dino 101 Kurs auf Coursera.&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Hier eine schöne Darstellung wie die Säugetiere dann die Dinos ausgerottet haben ;)&lt;/p&gt;
-&lt;p&gt;
-&lt;a href=&#34;http://sweety-creatures.soup.io/post/448639304/Bild&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;img src=&#34;http://asset-b.soup.io/asset/6171/2328_b88e_500.jpeg&#34; alt=&#34;2328 b88e 500&#34;&gt;&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>course | bdcaf</title><link>/tags/course/</link><atom:link href="/tags/course/index.xml" rel="self" type="application/rss+xml"/><description>course</description><generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Clemens Ager 2020</copyright><lastBuildDate>Sat, 04 Oct 2014 08:38:06 +0000</lastBuildDate><image><url>img/map[gravatar:%!s(bool=false) shape:circle]</url><title>course</title><link>/tags/course/</link></image><item><title>Dino ausgerottet</title><link>/post/2014/2014-10-04-dino-ausgerottet/</link><pubDate>Sat, 04 Oct 2014 08:38:06 +0000</pubDate><guid>/post/2014/2014-10-04-dino-ausgerottet/</guid><description>&lt;p>Ich mach in meiner Freizeit den netten
+&lt;a href="https://class.coursera.org/dino101-003" target="_blank" rel="noopener"> Dino 101 Kurs auf Coursera.&lt;/a>&lt;/p>
+&lt;p>Hier eine schöne Darstellung wie die Säugetiere dann die Dinos ausgerottet haben ;)&lt;/p>
+&lt;p>
+&lt;a href="http://sweety-creatures.soup.io/post/448639304/Bild" target="_blank" rel="noopener">&lt;img src="http://asset-b.soup.io/asset/6171/2328_b88e_500.jpeg" alt="2328 b88e 500">&lt;/a>&lt;/p></description></item></channel></rss>

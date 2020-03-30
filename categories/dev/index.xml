@@ -1,259 +1,180 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>dev | bdcaf</title>
-    <link>/categories/dev/</link>
-      <atom:link href="/categories/dev/index.xml" rel="self" type="application/rss+xml" />
-    <description>dev</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Clemens Ager 2020</copyright><lastBuildDate>Wed, 19 Jun 2019 17:06:19 +0200</lastBuildDate>
-    <image>
-      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
-      <title>dev</title>
-      <link>/categories/dev/</link>
-    </image>
-    
-    <item>
-      <title>Trying Atom</title>
-      <link>/post/dev/trying_atom/</link>
-      <pubDate>Wed, 19 Jun 2019 17:06:19 +0200</pubDate>
-      <guid>/post/dev/trying_atom/</guid>
-      <description>&lt;p&gt;Just got back from Dornbirn and the paper is sent off for review.
-So I got some time at hand and can checkout 
-&lt;a href=&#34;https://atom.io&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;atom&lt;/a&gt; again.
-My workhorse was vim - and although I generally feel empowered using it in larger projects I would prefer a more user-friendly organization.&lt;/p&gt;
-&lt;p&gt;So back it was - turns out I had still some preferences for atom in my home directory.&lt;br&gt;
-The list of installed packages would load forever - so I decided to dump everything.&lt;/p&gt;
-&lt;p&gt;As starter I set up an environment for latex.  As I was working on some files I still remember the problems and got thngs installed.  I ended up needing &lt;em&gt;atom-latex&lt;/em&gt;, &lt;em&gt;language-latex&lt;/em&gt;, &lt;em&gt;linter-chktex&lt;/em&gt; and &lt;em&gt;linter-spell-latex&lt;/em&gt;.  Also had to install &lt;em&gt;hunspell&lt;/em&gt; in homebrew. Now the files would show up reasonable, and even give useful linting suggestions.  Though I miss the grammar suggestions from &lt;em&gt;writegood&lt;/em&gt; and &lt;em&gt;redpen&lt;/em&gt;.&lt;/p&gt;
-&lt;p&gt;The thing I miss most in editing is manipulating text objects. And I see nothing equivalent.  Navigating with keyboard thing is more clunky as I need to move over to the arrows. Ah well I have now a pdf preview inline.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>New Project R Hugo Papers</title>
-      <link>/post/dev/r-hugo-paperss/</link>
-      <pubDate>Fri, 26 Apr 2019 13:40:24 +0200</pubDate>
-      <guid>/post/dev/r-hugo-paperss/</guid>
-      <description>&lt;p&gt;I started the project 
-&lt;a href=&#34;https://bdcaf.github.io/r-hugo-papercss-template/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;R-Hugo-Papercss&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;This is a template for the hugo static site engine.  The purpose is to use its page bundle feature with generated content from R.  There were small issues to make hugo write the relative URLs.&lt;/p&gt;
-&lt;p&gt;I also uses the 
-&lt;a href=&#34;https://www.getpapercss.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;papercss&lt;/a&gt; layout.  It seems suitable for a private science blog as it reminds me on the 
-&lt;a href=&#34;https://en.wikipedia.org/wiki/Randall_Munroe&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Randal Munroe&lt;/a&gt;s XKCD style.&lt;/p&gt;
-&lt;p&gt;By now feels complete enough to try out blogging.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Learning Blender</title>
-      <link>/post/dev/blender0/</link>
-      <pubDate>Fri, 19 Apr 2019 18:33:04 +0200</pubDate>
-      <guid>/post/dev/blender0/</guid>
-      <description>&lt;p&gt;Having some downtime I watched some tutorials for 
-&lt;a href=&#34;https://www.blender.org&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;blender&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;It feels like a  powerful tool.  However the long wait for rendering is annoying.&lt;br&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>dev | bdcaf</title><link>/categories/dev/</link><atom:link href="/categories/dev/index.xml" rel="self" type="application/rss+xml"/><description>dev</description><generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Clemens Ager 2020</copyright><lastBuildDate>Wed, 19 Jun 2019 17:06:19 +0200</lastBuildDate><image><url>img/map[gravatar:%!s(bool=false) shape:circle]</url><title>dev</title><link>/categories/dev/</link></image><item><title>Trying Atom</title><link>/post/dev/trying_atom/</link><pubDate>Wed, 19 Jun 2019 17:06:19 +0200</pubDate><guid>/post/dev/trying_atom/</guid><description>&lt;p>Just got back from Dornbirn and the paper is sent off for review.
+So I got some time at hand and can checkout
+&lt;a href="https://atom.io" target="_blank" rel="noopener">atom&lt;/a> again.
+My workhorse was vim - and although I generally feel empowered using it in larger projects I would prefer a more user-friendly organization.&lt;/p>
+&lt;p>So back it was - turns out I had still some preferences for atom in my home directory.&lt;br>
+The list of installed packages would load forever - so I decided to dump everything.&lt;/p>
+&lt;p>As starter I set up an environment for latex. As I was working on some files I still remember the problems and got thngs installed. I ended up needing &lt;em>atom-latex&lt;/em>, &lt;em>language-latex&lt;/em>, &lt;em>linter-chktex&lt;/em> and &lt;em>linter-spell-latex&lt;/em>. Also had to install &lt;em>hunspell&lt;/em> in homebrew. Now the files would show up reasonable, and even give useful linting suggestions. Though I miss the grammar suggestions from &lt;em>writegood&lt;/em> and &lt;em>redpen&lt;/em>.&lt;/p>
+&lt;p>The thing I miss most in editing is manipulating text objects. And I see nothing equivalent. Navigating with keyboard thing is more clunky as I need to move over to the arrows. Ah well I have now a pdf preview inline.&lt;/p></description></item><item><title>New Project R Hugo Papers</title><link>/post/dev/r-hugo-paperss/</link><pubDate>Fri, 26 Apr 2019 13:40:24 +0200</pubDate><guid>/post/dev/r-hugo-paperss/</guid><description>&lt;p>I started the project
+&lt;a href="https://bdcaf.github.io/r-hugo-papercss-template/" target="_blank" rel="noopener">R-Hugo-Papercss&lt;/a>.&lt;/p>
+&lt;p>This is a template for the hugo static site engine. The purpose is to use its page bundle feature with generated content from R. There were small issues to make hugo write the relative URLs.&lt;/p>
+&lt;p>I also uses the
+&lt;a href="https://www.getpapercss.com" target="_blank" rel="noopener">papercss&lt;/a> layout. It seems suitable for a private science blog as it reminds me on the
+&lt;a href="https://en.wikipedia.org/wiki/Randall_Munroe" target="_blank" rel="noopener">Randal Munroe&lt;/a>s XKCD style.&lt;/p>
+&lt;p>By now feels complete enough to try out blogging.&lt;/p></description></item><item><title>Learning Blender</title><link>/post/dev/blender0/</link><pubDate>Fri, 19 Apr 2019 18:33:04 +0200</pubDate><guid>/post/dev/blender0/</guid><description>&lt;p>Having some downtime I watched some tutorials for
+&lt;a href="https://www.blender.org" target="_blank" rel="noopener">blender&lt;/a>.&lt;/p>
+&lt;p>It feels like a powerful tool. However the long wait for rendering is annoying.&lt;br>
 I particularly like the physics simulations.
-As test I followed the this 
-&lt;a href=&#34;https://youtu.be/YFmN7eTNfNw&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;tutorial&lt;/a&gt;.  Really simple - just the render took over an hour.&lt;/p&gt;
-&lt;p&gt;Anyway enjoy some nice wood chipping.&lt;/p&gt;
-&lt;figure&gt;
-	&lt;video controls src=&#34;/post/dev/blender0/rener.mp4&#34;&gt;&lt;/video&gt;
-  &lt;figcaption&gt;&lt;p&gt;Chipping wood simulation.&lt;/p&gt;&lt;/figcaption&gt;
-&lt;/figure&gt;</description>
-    </item>
-    
-    <item>
-      <title>Configuring Syncthing on Mac Server</title>
-      <link>/post/mac/syncthing/</link>
-      <pubDate>Tue, 05 Feb 2019 10:58:41 +0100</pubDate>
-      <guid>/post/mac/syncthing/</guid>
-      <description>&lt;p&gt;
-&lt;a href=&#34;https://syncthing.net&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Syncthing&lt;/a&gt; is currently my preferred tool to
-keep folders in sync.  Previously I had affairs with 
-&lt;a href=&#34;https://git-annex.branchable.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;git
-annex&lt;/a&gt;, and
-
-&lt;a href=&#34;https://rsync.samba.org&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;rsync&lt;/a&gt; scripts.&lt;/p&gt;
-&lt;p&gt;Recently I reactivated a 2009 Mac Mini as headless server under El
-Capitan.  
-&lt;a href=&#34;https://brew.sh&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Homebrew&lt;/a&gt; is the tool of choice - it
-complains a little about the old OS but things work out nicely.&lt;/p&gt;
-&lt;h2 id=&#34;hard-drives-not-being-mounted&#34;&gt;hard drives not being mounted&lt;/h2&gt;
-&lt;p&gt;However the first issue was that the drives would not be mounted
-without a user logging in.  I was able to find following
-
-&lt;a href=&#34;https://gist.github.com/jabenninghoff/f13f81c286e914c48942f973f5d15819&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;snippet&lt;/a&gt;:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;sudo defaults write /Library/Preferences/SystemConfiguration/autodiskmount AutomountDisksWithoutUserLogin -bool true
-&lt;/code&gt;&lt;/pre&gt;
-&lt;h2 id=&#34;syncthing-not-starting&#34;&gt;syncthing not starting&lt;/h2&gt;
-&lt;p&gt;Homebrew documents how the get syncthing started for a user.  However
+As test I followed the this
+&lt;a href="https://youtu.be/YFmN7eTNfNw" target="_blank" rel="noopener">tutorial&lt;/a>. Really simple - just the render took over an hour.&lt;/p>
+&lt;p>Anyway enjoy some nice wood chipping.&lt;/p>
+&lt;figure>
+&lt;video controls src="/post/dev/blender0/rener.mp4">&lt;/video>
+&lt;figcaption>&lt;p>Chipping wood simulation.&lt;/p>&lt;/figcaption>
+&lt;/figure></description></item><item><title>Configuring Syncthing on Mac Server</title><link>/post/mac/syncthing/</link><pubDate>Tue, 05 Feb 2019 10:58:41 +0100</pubDate><guid>/post/mac/syncthing/</guid><description>&lt;p>
+&lt;a href="https://syncthing.net" target="_blank" rel="noopener">Syncthing&lt;/a> is currently my preferred tool to
+keep folders in sync. Previously I had affairs with
+&lt;a href="https://git-annex.branchable.com" target="_blank" rel="noopener">git
+annex&lt;/a>, and
+&lt;a href="https://rsync.samba.org" target="_blank" rel="noopener">rsync&lt;/a> scripts.&lt;/p>
+&lt;p>Recently I reactivated a 2009 Mac Mini as headless server under El
+Capitan.
+&lt;a href="https://brew.sh" target="_blank" rel="noopener">Homebrew&lt;/a> is the tool of choice - it
+complains a little about the old OS but things work out nicely.&lt;/p>
+&lt;h2 id="hard-drives-not-being-mounted">hard drives not being mounted&lt;/h2>
+&lt;p>However the first issue was that the drives would not be mounted
+without a user logging in. I was able to find following
+&lt;a href="https://gist.github.com/jabenninghoff/f13f81c286e914c48942f973f5d15819" target="_blank" rel="noopener">snippet&lt;/a>:&lt;/p>
+&lt;pre>&lt;code>sudo defaults write /Library/Preferences/SystemConfiguration/autodiskmount AutomountDisksWithoutUserLogin -bool true
+&lt;/code>&lt;/pre>
+&lt;h2 id="syncthing-not-starting">syncthing not starting&lt;/h2>
+&lt;p>Homebrew documents how the get syncthing started for a user. However
 again this would mean someone would need to login before things get
-going.   I was able to resolve this by moving the installed plist from
-&lt;code&gt;~/Library/LaunchAgents/&lt;/code&gt; to &lt;code&gt;/Library/LaunchDaemons/&lt;/code&gt; and adding the
-entry:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;  &amp;lt;key&amp;gt;UserName&amp;lt;/key&amp;gt;
-  &amp;lt;string&amp;gt;myuser&amp;lt;/string&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;So it would finally launch.&lt;/p&gt;
-&lt;h2 id=&#34;syncthing-launching-before-harddrive&#34;&gt;syncthing launching before harddrive&lt;/h2&gt;
-&lt;p&gt;However it turned out it would launch syncthing &lt;em&gt;before&lt;/em&gt; the external
+going. I was able to resolve this by moving the installed plist from
+&lt;code>~/Library/LaunchAgents/&lt;/code> to &lt;code>/Library/LaunchDaemons/&lt;/code> and adding the
+entry:&lt;/p>
+&lt;pre>&lt;code> &amp;lt;key&amp;gt;UserName&amp;lt;/key&amp;gt;
+&amp;lt;string&amp;gt;myuser&amp;lt;/string&amp;gt;
+&lt;/code>&lt;/pre>
+&lt;p>So it would finally launch.&lt;/p>
+&lt;h2 id="syncthing-launching-before-harddrive">syncthing launching before harddrive&lt;/h2>
+&lt;p>However it turned out it would launch syncthing &lt;em>before&lt;/em> the external
 drive was ready so syncthing would spew errors and not sync without
-interaction.&lt;/p&gt;
-&lt;p&gt;I was not able to solve this within the plist so I created a quick
-shellscript that would sleep until the drive was ready:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;#!/bin/sh
-SYNCDRIVE=&#39;/Volumes/Media/&#39;
+interaction.&lt;/p>
+&lt;p>I was not able to solve this within the plist so I created a quick
+shellscript that would sleep until the drive was ready:&lt;/p>
+&lt;pre>&lt;code>#!/bin/sh
+SYNCDRIVE='/Volumes/Media/'
 while [ ! -d &amp;quot;$SYNCDRIVE&amp;quot; ]; do
 sleep 10
 done
 /usr/local/opt/syncthing/bin/syncthing -no-browser -no-restart
-&lt;/code&gt;&lt;/pre&gt;
-&lt;h2 id=&#34;firewall&#34;&gt;firewall&lt;/h2&gt;
-&lt;p&gt;After all this it was still not syncing.  Being on a headless machine
-I haven&amp;rsquo;t gotten the firewall warning.  So the final step was easy to
-allow &lt;code&gt;syncthing&lt;/code&gt; getting connections.&lt;/p&gt;
-&lt;h2 id=&#34;ssh&#34;&gt;ssh&lt;/h2&gt;
-&lt;p&gt;Last thing was getting things to work was to get to sync through an
-ssh tunnel.  There is a 
-&lt;a href=&#34;https://docs.syncthing.net/users/tunneling.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;good
-description&lt;/a&gt; however
-I made the mistake to skim the last port number.  Turns out in the
-last command they leave one digit away so search all the ports.  Once
-fixing to &lt;code&gt;22000&lt;/code&gt; all syncing starts/&lt;/p&gt;
-&lt;h3 id=&#34;on-my-current-decisions&#34;&gt;on my current decisions&lt;/h3&gt;
-&lt;p&gt;With annex I continuously had problems that my repos wouldn&amp;rsquo;t merge
-nicely.  Also although it is under active development the
+&lt;/code>&lt;/pre>
+&lt;h2 id="firewall">firewall&lt;/h2>
+&lt;p>After all this it was still not syncing. Being on a headless machine
+I haven&amp;rsquo;t gotten the firewall warning. So the final step was easy to
+allow &lt;code>syncthing&lt;/code> getting connections.&lt;/p>
+&lt;h2 id="ssh">ssh&lt;/h2>
+&lt;p>Last thing was getting things to work was to get to sync through an
+ssh tunnel. There is a
+&lt;a href="https://docs.syncthing.net/users/tunneling.html" target="_blank" rel="noopener">good
+description&lt;/a> however
+I made the mistake to skim the last port number. Turns out in the
+last command they leave one digit away so search all the ports. Once
+fixing to &lt;code>22000&lt;/code> all syncing starts/&lt;/p>
+&lt;h3 id="on-my-current-decisions">on my current decisions&lt;/h3>
+&lt;p>With annex I continuously had problems that my repos wouldn&amp;rsquo;t merge
+nicely. Also although it is under active development the
 documentation is difficult to read - many examples on the site are 5
 years or older, which makes it difficult to realise which apply to the
-current version.  I just never managed to get it sync automatically.
-Rsync always had to be run to check for changes.  Since it has to
-rescan the remote files it always takes some extra toll.  This is
-great for some tasks.  But for my application where I control all
-endpoints it was unnecessary.&lt;/p&gt;
-&lt;p&gt;My machine wouldn&amp;rsquo;t run the latest Mac OS so I had to choose El Capitan.
+current version. I just never managed to get it sync automatically.
+Rsync always had to be run to check for changes. Since it has to
+rescan the remote files it always takes some extra toll. This is
+great for some tasks. But for my application where I control all
+endpoints it was unnecessary.&lt;/p>
+&lt;p>My machine wouldn&amp;rsquo;t run the latest Mac OS so I had to choose El Capitan.
 Instead of Mac OS I also experimented with Ubuntu linux.
 Linux would offer me all the latest versions and installed nicely.
 Unfortunately I quickly ran into troubles - updating was not as smooth
-as I am used to.  Every other time I had to tweak GRUB as the machine
-would not boot.  Also I noticed I was not able to use all of the
-hardware.   The most problematic was power management as I didn&amp;rsquo;t want
-the machine to burn its cupboard.  But I also was unable to get the
-graphics card and more than one CPU core working.  Searching the
-internet led me to believe this is a common trouble.  But maybe in a
+as I am used to. Every other time I had to tweak GRUB as the machine
+would not boot. Also I noticed I was not able to use all of the
+hardware. The most problematic was power management as I didn&amp;rsquo;t want
+the machine to burn its cupboard. But I also was unable to get the
+graphics card and more than one CPU core working. Searching the
+internet led me to believe this is a common trouble. But maybe in a
 few years when El Capitan no longer gets security patches I will
-change.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Crossover</title>
-      <link>/post/mac/crossover/</link>
-      <pubDate>Mon, 19 Nov 2018 13:42:33 +0100</pubDate>
-      <guid>/post/mac/crossover/</guid>
-      <description>&lt;p&gt;Just recently got my hand on
-
-&lt;a href=&#34;https://www.codeweavers.com/products/crossover-mac&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Crossover&lt;/a&gt;.  It&amp;rsquo;s
-essentially the commercially supported 
-&lt;a href=&#34;https://www.winehq.org&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;wine&lt;/a&gt;.
-I am impressed how polished things feel nowadays.  I
-gave it usually &lt;em&gt;problematic&lt;/em&gt; scientific programs like the TofDaqViewer from
-Ionicon and the Nist library and it produced nicely running libraries.&lt;/p&gt;
-&lt;p&gt;Any how I should note that for TofDaqViewer one needs to mark the
-checkbox that it should end its recorder process.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Mass editing tags</title>
-      <link>/post/site/mass_editing_tags/</link>
-      <pubDate>Thu, 14 Jun 2018 08:42:28 +0200</pubDate>
-      <guid>/post/site/mass_editing_tags/</guid>
-      <description>&lt;p&gt;Having read some about the
-
-&lt;a href=&#34;https://github.com/rstudio/blogdown&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;blogdown&lt;/a&gt; package I thought I
-could cleanup my site some more.&lt;/p&gt;
-&lt;p&gt;I came up with some scripts to clean up tags.&lt;/p&gt;
-&lt;p&gt;Within R I could use some of the new functionality.&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;a &amp;lt;- blogdown:::collect_yaml()
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;would give me a nice list of my categories and tags.&lt;/p&gt;
-&lt;p&gt;First I would check how many files would use the offending
-tags.  I use 
-&lt;a href=&#34;https://github.com/BurntSushi/ripgrep&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ripgrep&lt;/a&gt; for my
-searches.  To avoid replacements inside text I chose to use a regexp
-as search expression.  In my case that avoided all collisions.&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;rg &#39;^- offending&#39;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Then if it&amp;rsquo;s just one or two I can edit them. Just a warning I use
-fish and neovim - so adjust accordingly.&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;nvim (rg &#39;^- offending&#39;)
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;To correct spelling I did replacements like this:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;rg &#39;^\W*- maths$&#39; --files-with-matches | xargs sed -i &#39;&#39; &#39;s/^\( *- *\) maths$/\1math/g&#39;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;annoyingly macs &lt;code&gt;sed&lt;/code&gt; did not support the &lt;code&gt;\s&lt;/code&gt; pattern.&lt;/p&gt;
-&lt;p&gt;Fully removing a tag was done so:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;rg &#39;^- Allgemein&#39; --files-with-matches | xargs sed -i &#39;&#39; &#39;/^- Allgemein/d&#39;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;I think soon I will move stuff in subfolders.  For now this shouldn&amp;rsquo;t
-be problematic as there are almost no files in the data folder.  Also
-I still have unresolved links to images in the old imports.  But
-that&amp;rsquo;s for another day.&lt;/p&gt;
-&lt;h3 id=&#34;trouble-shooting&#34;&gt;trouble shooting&lt;/h3&gt;
-&lt;p&gt;I soon ended up having errors about empty section lists.
-Unfortunately it turned out too many.  And ripgrep wouldn&amp;rsquo;t match
-multiline patterns.  So time to also use the (slower) 
-&lt;a href=&#34;https://github.com/ggreer/the_silver_searcher&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;silver searcher&lt;/a&gt;.&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;ag -l &amp;quot;^categories:\n--&amp;quot; | xargs sed -i -e &#39;/^categories:/d&#39;
-ag -l &amp;quot;^categories:\n[^ -]&amp;quot; | xargs sed -i -e &#39;/^categories:/d&#39;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;would delete the empty categories.&lt;/p&gt;
-&lt;h4 id=&#34;cases&#34;&gt;cases&amp;hellip;&lt;/h4&gt;
-&lt;p&gt;It was a bit tricky as the page of tags showed them all in lower case - and I could locate them nicely using &lt;code&gt;rg -i&lt;/code&gt; - however mac os &lt;code&gt;sed&lt;/code&gt;
-was not able to ignore cases in patterns.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Rescuing my PDF presentation on mac</title>
-      <link>/post/links/pdf_presentation_rescue/</link>
-      <pubDate>Tue, 29 May 2018 10:44:19 +0200</pubDate>
-      <guid>/post/links/pdf_presentation_rescue/</guid>
-      <description>&lt;p&gt;(tldr;) use 
-&lt;a href=&#34;https://www.cs.hmc.edu/~oneill/freesoftware/pdftokeynote.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PDF to
-Keynote&lt;/a&gt; to convert a tex presentation for convenient presenting.&lt;/p&gt;
-&lt;p&gt;I did have a presentation on my PhDs topic last week.  Took me some
+change.&lt;/p></description></item><item><title>Crossover</title><link>/post/mac/crossover/</link><pubDate>Mon, 19 Nov 2018 13:42:33 +0100</pubDate><guid>/post/mac/crossover/</guid><description>&lt;p>Just recently got my hand on
+&lt;a href="https://www.codeweavers.com/products/crossover-mac" target="_blank" rel="noopener">Crossover&lt;/a>. It&amp;rsquo;s
+essentially the commercially supported
+&lt;a href="https://www.winehq.org" target="_blank" rel="noopener">wine&lt;/a>.
+I am impressed how polished things feel nowadays. I
+gave it usually &lt;em>problematic&lt;/em> scientific programs like the TofDaqViewer from
+Ionicon and the Nist library and it produced nicely running libraries.&lt;/p>
+&lt;p>Any how I should note that for TofDaqViewer one needs to mark the
+checkbox that it should end its recorder process.&lt;/p></description></item><item><title>Mass editing tags</title><link>/post/site/mass_editing_tags/</link><pubDate>Thu, 14 Jun 2018 08:42:28 +0200</pubDate><guid>/post/site/mass_editing_tags/</guid><description>&lt;p>Having read some about the
+&lt;a href="https://github.com/rstudio/blogdown" target="_blank" rel="noopener">blogdown&lt;/a> package I thought I
+could cleanup my site some more.&lt;/p>
+&lt;p>I came up with some scripts to clean up tags.&lt;/p>
+&lt;p>Within R I could use some of the new functionality.&lt;/p>
+&lt;pre>&lt;code>a &amp;lt;- blogdown:::collect_yaml()
+&lt;/code>&lt;/pre>
+&lt;p>would give me a nice list of my categories and tags.&lt;/p>
+&lt;p>First I would check how many files would use the offending
+tags. I use
+&lt;a href="https://github.com/BurntSushi/ripgrep" target="_blank" rel="noopener">ripgrep&lt;/a> for my
+searches. To avoid replacements inside text I chose to use a regexp
+as search expression. In my case that avoided all collisions.&lt;/p>
+&lt;pre>&lt;code>rg '^- offending'
+&lt;/code>&lt;/pre>
+&lt;p>Then if it&amp;rsquo;s just one or two I can edit them. Just a warning I use
+fish and neovim - so adjust accordingly.&lt;/p>
+&lt;pre>&lt;code>nvim (rg '^- offending')
+&lt;/code>&lt;/pre>
+&lt;p>To correct spelling I did replacements like this:&lt;/p>
+&lt;pre>&lt;code>rg '^\W*- maths$' --files-with-matches | xargs sed -i '' 's/^\( *- *\) maths$/\1math/g'
+&lt;/code>&lt;/pre>
+&lt;p>annoyingly macs &lt;code>sed&lt;/code> did not support the &lt;code>\s&lt;/code> pattern.&lt;/p>
+&lt;p>Fully removing a tag was done so:&lt;/p>
+&lt;pre>&lt;code>rg '^- Allgemein' --files-with-matches | xargs sed -i '' '/^- Allgemein/d'
+&lt;/code>&lt;/pre>
+&lt;p>I think soon I will move stuff in subfolders. For now this shouldn&amp;rsquo;t
+be problematic as there are almost no files in the data folder. Also
+I still have unresolved links to images in the old imports. But
+that&amp;rsquo;s for another day.&lt;/p>
+&lt;h3 id="trouble-shooting">trouble shooting&lt;/h3>
+&lt;p>I soon ended up having errors about empty section lists.
+Unfortunately it turned out too many. And ripgrep wouldn&amp;rsquo;t match
+multiline patterns. So time to also use the (slower)
+&lt;a href="https://github.com/ggreer/the_silver_searcher" target="_blank" rel="noopener">silver searcher&lt;/a>.&lt;/p>
+&lt;pre>&lt;code>ag -l &amp;quot;^categories:\n--&amp;quot; | xargs sed -i -e '/^categories:/d'
+ag -l &amp;quot;^categories:\n[^ -]&amp;quot; | xargs sed -i -e '/^categories:/d'
+&lt;/code>&lt;/pre>
+&lt;p>would delete the empty categories.&lt;/p>
+&lt;h4 id="cases">cases&amp;hellip;&lt;/h4>
+&lt;p>It was a bit tricky as the page of tags showed them all in lower case - and I could locate them nicely using &lt;code>rg -i&lt;/code> - however mac os &lt;code>sed&lt;/code>
+was not able to ignore cases in patterns.&lt;/p></description></item><item><title>Rescuing my PDF presentation on mac</title><link>/post/links/pdf_presentation_rescue/</link><pubDate>Tue, 29 May 2018 10:44:19 +0200</pubDate><guid>/post/links/pdf_presentation_rescue/</guid><description>&lt;p>(tldr;) use
+&lt;a href="https://www.cs.hmc.edu/~oneill/freesoftware/pdftokeynote.html" target="_blank" rel="noopener">PDF to
+Keynote&lt;/a> to convert a tex presentation for convenient presenting.&lt;/p>
+&lt;p>I did have a presentation on my PhDs topic last week. Took me some
 collecting data from recent paper drafts and old slides to create
-something polished.&lt;/p&gt;
-&lt;p&gt;As you would expect I prepared the presentation in 
-&lt;a href=&#34;https://github.com/josephwright/beamer&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;beamer latex&lt;/a&gt;.  I found the 
-&lt;a href=&#34;https://github.com/matze/mtheme&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;metropolis template&lt;/a&gt; to my liking.&lt;/p&gt;
-&lt;p&gt;Great was my shock as the slides would show up blurry in full screen -
-well for the first second - and then &amp;ldquo;jump&amp;rdquo; to nicely rendered.  I
+something polished.&lt;/p>
+&lt;p>As you would expect I prepared the presentation in
+&lt;a href="https://github.com/josephwright/beamer" target="_blank" rel="noopener">beamer latex&lt;/a>. I found the
+&lt;a href="https://github.com/matze/mtheme" target="_blank" rel="noopener">metropolis template&lt;/a> to my liking.&lt;/p>
+&lt;p>Great was my shock as the slides would show up blurry in full screen -
+well for the first second - and then &amp;ldquo;jump&amp;rdquo; to nicely rendered. I
 tried in Preview as well as Skim. They would render nicely but still
-slow in Acrobat Reader - however I don&amp;rsquo;t like that one.&lt;/p&gt;
-&lt;p&gt;On the last day I found my lifesaver: 
-&lt;a href=&#34;https://www.cs.hmc.edu/~oneill/freesoftware/pdftokeynote.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PDF to
-Keynote&lt;/a&gt;.
-Not only would it transfer my slides into sharp images,  I then could
+slow in Acrobat Reader - however I don&amp;rsquo;t like that one.&lt;/p>
+&lt;p>On the last day I found my lifesaver:
+&lt;a href="https://www.cs.hmc.edu/~oneill/freesoftware/pdftokeynote.html" target="_blank" rel="noopener">PDF to
+Keynote&lt;/a>.
+Not only would it transfer my slides into sharp images, I then could
 also use the fancy Keynote controls and the moderator screen for
-notes.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Vim for Hugo</title>
-      <link>/post/2015/20150927_vim_hugo/</link>
-      <pubDate>Sun, 27 Sep 2015 10:47:54 +0200</pubDate>
-      <guid>/post/2015/20150927_vim_hugo/</guid>
-      <description>&lt;p&gt;Ich verwende ja den Sitegenerator 
-&lt;a href=&#34;https://gohugo.io&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;hugo&lt;/a&gt; für diese Seite.  Das herumgewurschtel auf der Kommandozeile ist aber etwas nervig.  Daher hab ich ein paar Befehle für Vim geschrieben um es etwas schmerzfreier zu machen.  Soweit ist es aber noch etwas schmerzhaft.&lt;/p&gt;
-&lt;p&gt;Auf der Anleitung 
-&lt;a href=&#34;http://www.thegeekstuff.com/2008/12/vi-and-vim-autocommand-3-steps-to-add-custom-header-to-your-file/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;vi and vim autocommand&lt;/a&gt; hab ich ein paar Ideen gefunden.&lt;/p&gt;
-&lt;p&gt;Für die &lt;code&gt;vimrc&lt;/code&gt; hab ich nun folgendes autocmd entwickelt:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;augroup hugo
-  autocmd!
-  autocmd bufnewfile ~/Documents/Sites/c1891011/content/**/*.md so ~/Documents/Sites/c1891011/private/post_temp.md
-	\ | exe &amp;quot;2,7&amp;quot; . &#39;g/^title = .*$/s//title = &amp;quot;&#39; . expand(&amp;quot;%:t:r&amp;quot;) . &#39;&amp;quot;&#39; 
-	\ | exe &amp;quot;2,7&amp;quot; . &#39;g/^date =.*$/s//date = &amp;quot;&#39; .strftime(&amp;quot;%FT%T%z&amp;quot;) .&#39;&amp;quot;&#39;
-	\ | exe &amp;quot;2,7&amp;quot; . &#39;g/^date =/s/\(+\d\{2\}\):\?\(\d\{2\}\)/\1:\2/&#39;
+notes.&lt;/p></description></item><item><title>Vim for Hugo</title><link>/post/2015/20150927_vim_hugo/</link><pubDate>Sun, 27 Sep 2015 10:47:54 +0200</pubDate><guid>/post/2015/20150927_vim_hugo/</guid><description>&lt;p>Ich verwende ja den Sitegenerator
+&lt;a href="https://gohugo.io" target="_blank" rel="noopener">hugo&lt;/a> für diese Seite. Das herumgewurschtel auf der Kommandozeile ist aber etwas nervig. Daher hab ich ein paar Befehle für Vim geschrieben um es etwas schmerzfreier zu machen. Soweit ist es aber noch etwas schmerzhaft.&lt;/p>
+&lt;p>Auf der Anleitung
+&lt;a href="http://www.thegeekstuff.com/2008/12/vi-and-vim-autocommand-3-steps-to-add-custom-header-to-your-file/" target="_blank" rel="noopener">vi and vim autocommand&lt;/a> hab ich ein paar Ideen gefunden.&lt;/p>
+&lt;p>Für die &lt;code>vimrc&lt;/code> hab ich nun folgendes autocmd entwickelt:&lt;/p>
+&lt;pre>&lt;code>augroup hugo
+autocmd!
+autocmd bufnewfile ~/Documents/Sites/c1891011/content/**/*.md so ~/Documents/Sites/c1891011/private/post_temp.md
+\ | exe &amp;quot;2,7&amp;quot; . 'g/^title = .*$/s//title = &amp;quot;' . expand(&amp;quot;%:t:r&amp;quot;) . '&amp;quot;'
+\ | exe &amp;quot;2,7&amp;quot; . 'g/^date =.*$/s//date = &amp;quot;' .strftime(&amp;quot;%FT%T%z&amp;quot;) .'&amp;quot;'
+\ | exe &amp;quot;2,7&amp;quot; . 'g/^date =/s/\(+\d\{2\}\):\?\(\d\{2\}\)/\1:\2/'
 augroup END
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Wobei das Template &lt;code&gt;private/post_temp.md&lt;/code&gt; wie folgt aussieht:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;:insert
+&lt;/code>&lt;/pre>
+&lt;p>Wobei das Template &lt;code>private/post_temp.md&lt;/code> wie folgt aussieht:&lt;/p>
+&lt;pre>&lt;code>:insert
 +++
 Categories = []
 Description = &amp;quot;&amp;quot;
@@ -261,58 +182,17 @@ Tags = [&amp;quot;blog&amp;quot;]
 date = &amp;quot;insert Date here&amp;quot;
 title = &amp;quot;MyTitle&amp;quot;
 +++
-
 .
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Wenn ich nun &lt;code&gt;:e content/post/hello.md&lt;/code&gt; ein Post erstelle wird eine
-Datei erstellt wie ich vorher mit &lt;code&gt;!hugo new post/hello.md&lt;/code&gt; erhalten
-habe.&lt;/p&gt;
-&lt;p&gt;Ganz glücklich bin ich noch nicht - ich hätte gerne eine Funktion die
+&lt;/code>&lt;/pre>
+&lt;p>Wenn ich nun &lt;code>:e content/post/hello.md&lt;/code> ein Post erstelle wird eine
+Datei erstellt wie ich vorher mit &lt;code>!hugo new post/hello.md&lt;/code> erhalten
+habe.&lt;/p>
+&lt;p>Ganz glücklich bin ich noch nicht - ich hätte gerne eine Funktion die
 den Dateinamen so verändert, dass er mit dem jeweiligen Datum beginnt.
 Auch sollte ich so Sachen wie das
-Blogverzeichnis (&lt;code&gt;~/Documents/Sites/c1891011&lt;/code&gt;)  und den Bereich (&lt;code&gt;2,7&lt;/code&gt;) nicht fest eincoden.&lt;/p&gt;
-&lt;p&gt;Aber eins nach dem anderen.  In ferner Zukunft wird vielleicht mal ein
-Packet daraus.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Aller Anfang ist schwer</title>
-      <link>/post/configuring_is_hard/</link>
-      <pubDate>Sat, 11 Jul 2015 13:27:52 +0200</pubDate>
-      <guid>/post/configuring_is_hard/</guid>
-      <description>&lt;p&gt;Die erste Konfiguration ist noch ganz mühsam!&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Episode 2</title>
-      <link>/post/2013/2013-06-29-episode-2/</link>
-      <pubDate>Sat, 29 Jun 2013 18:21:19 +0000</pubDate>
-      <guid>/post/2013/2013-06-29-episode-2/</guid>
-      <description>&lt;p&gt;Bin mittlerweile bei der Farb-LED.  Nix besonders hab&amp;rsquo; dann aber gleichmal nen Kalman Filter fürs messen angehängt. So Statistik halt und weils so langweilig war gleich noch ne chaotische Zeitentwicklung obendrauf. Nutzen natürlich null. Ausser Moodlampe ;)&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Erste Bastelei</title>
-      <link>/post/2013/2013-06-22-erste-bastelei/</link>
-      <pubDate>Sat, 22 Jun 2013 09:36:08 +0000</pubDate>
-      <guid>/post/2013/2013-06-22-erste-bastelei/</guid>
-      <description>&lt;p&gt;Erste Bastelei&amp;hellip; Es klickst und blinkt alles so wies soll&amp;hellip;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Arduino</title>
-      <link>/post/2013/2013-06-17-arduino/</link>
-      <pubDate>Mon, 17 Jun 2013 08:57:26 +0000</pubDate>
-      <guid>/post/2013/2013-06-17-arduino/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;http://arduino.cc/en/uploads/Main/ArduinoUnoFront240.jpg&#34; alt=&#34;&#34;&gt;Das Bier gärt jetzt schon und auf der Suche nach neuen Projekten bin ich zum Arduino abgebogen.&lt;/p&gt;
-&lt;p&gt;Bei mir gibts jetzt bald das
-&lt;a href=&#34;http://arduino.cc/en/Main/ArduinoStarterKit&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt; StarterKit. &lt;/a&gt;Kommt hoffentlich bald. War nämlich eine Sucherei noch eins aufzutreiben (Und strange, dass die ganzen Stores keine Mehrwertsteuer anzeigen&amp;hellip;)&lt;/p&gt;
-&lt;p&gt;Hab&amp;rsquo; dann bald ein paar coole Basteleien zum herzeigen (hoff ich halt:)&lt;/p&gt;
-</description>
-    </item>
-    
-  </channel>
-</rss>
+Blogverzeichnis (&lt;code>~/Documents/Sites/c1891011&lt;/code>) und den Bereich (&lt;code>2,7&lt;/code>) nicht fest eincoden.&lt;/p>
+&lt;p>Aber eins nach dem anderen. In ferner Zukunft wird vielleicht mal ein
+Packet daraus.&lt;/p></description></item><item><title>Aller Anfang ist schwer</title><link>/post/configuring_is_hard/</link><pubDate>Sat, 11 Jul 2015 13:27:52 +0200</pubDate><guid>/post/configuring_is_hard/</guid><description>&lt;p>Die erste Konfiguration ist noch ganz mühsam!&lt;/p></description></item><item><title>Episode 2</title><link>/post/2013/2013-06-29-episode-2/</link><pubDate>Sat, 29 Jun 2013 18:21:19 +0000</pubDate><guid>/post/2013/2013-06-29-episode-2/</guid><description>&lt;p>Bin mittlerweile bei der Farb-LED.  Nix besonders hab&amp;rsquo; dann aber gleichmal nen Kalman Filter fürs messen angehängt. So Statistik halt und weils so langweilig war gleich noch ne chaotische Zeitentwicklung obendrauf. Nutzen natürlich null. Ausser Moodlampe ;)&lt;/p></description></item><item><title>Erste Bastelei</title><link>/post/2013/2013-06-22-erste-bastelei/</link><pubDate>Sat, 22 Jun 2013 09:36:08 +0000</pubDate><guid>/post/2013/2013-06-22-erste-bastelei/</guid><description>&lt;p>Erste Bastelei&amp;hellip; Es klickst und blinkt alles so wies soll&amp;hellip;&lt;/p></description></item><item><title>Arduino</title><link>/post/2013/2013-06-17-arduino/</link><pubDate>Mon, 17 Jun 2013 08:57:26 +0000</pubDate><guid>/post/2013/2013-06-17-arduino/</guid><description>&lt;p>&lt;img src="http://arduino.cc/en/uploads/Main/ArduinoUnoFront240.jpg" alt="">Das Bier gärt jetzt schon und auf der Suche nach neuen Projekten bin ich zum Arduino abgebogen.&lt;/p>
+&lt;p>Bei mir gibts jetzt bald das
+&lt;a href="http://arduino.cc/en/Main/ArduinoStarterKit" target="_blank" rel="noopener"> StarterKit. &lt;/a>Kommt hoffentlich bald. War nämlich eine Sucherei noch eins aufzutreiben (Und strange, dass die ganzen Stores keine Mehrwertsteuer anzeigen&amp;hellip;)&lt;/p>
+&lt;p>Hab&amp;rsquo; dann bald ein paar coole Basteleien zum herzeigen (hoff ich halt:)&lt;/p></description></item></channel></rss>

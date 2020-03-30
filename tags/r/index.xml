@@ -1,111 +1,60 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>r | bdcaf</title>
-    <link>/tags/r/</link>
-      <atom:link href="/tags/r/index.xml" rel="self" type="application/rss+xml" />
-    <description>r</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Clemens Ager 2020</copyright><lastBuildDate>Tue, 06 Mar 2018 10:28:51 +0100</lastBuildDate>
-    <image>
-      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
-      <title>r</title>
-      <link>/tags/r/</link>
-    </image>
-    
-    <item>
-      <title>Makey Makey</title>
-      <link>/post/2017/2017-11-05_makeymakey/</link>
-      <pubDate>Sun, 05 Nov 2017 08:51:41 +0100</pubDate>
-      <guid>/post/2017/2017-11-05_makeymakey/</guid>
-      <description>&lt;p&gt;I am quite confident using &lt;code&gt;make&lt;/code&gt; to create complex reports.
-As I dig into &lt;code&gt;R&lt;/code&gt; I see they have an 
-&lt;a href=&#34;http://r-pkgs.had.co.nz&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;interesting work flow
-creating packages&lt;/a&gt;.  It addresses a
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>r | bdcaf</title><link>/tags/r/</link><atom:link href="/tags/r/index.xml" rel="self" type="application/rss+xml"/><description>r</description><generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Clemens Ager 2020</copyright><lastBuildDate>Tue, 06 Mar 2018 10:28:51 +0100</lastBuildDate><image><url>img/map[gravatar:%!s(bool=false) shape:circle]</url><title>r</title><link>/tags/r/</link></image><item><title>Makey Makey</title><link>/post/2017/2017-11-05_makeymakey/</link><pubDate>Sun, 05 Nov 2017 08:51:41 +0100</pubDate><guid>/post/2017/2017-11-05_makeymakey/</guid><description>&lt;p>I am quite confident using &lt;code>make&lt;/code> to create complex reports.
+As I dig into &lt;code>R&lt;/code> I see they have an
+&lt;a href="http://r-pkgs.had.co.nz" target="_blank" rel="noopener">interesting work flow
+creating packages&lt;/a>. It addresses a
 few important issues - tracking dependent packages,
-documenting stuff and testing.  Most important packaging and
+documenting stuff and testing. Most important packaging and
 installing on other systems can be done automatically using
-a single command.  I want that.&lt;/p&gt;
-&lt;p&gt;I found &lt;code&gt;Makefiles&lt;/code&gt; mentioned several times included in the
+a single command. I want that.&lt;/p>
+&lt;p>I found &lt;code>Makefiles&lt;/code> mentioned several times included in the
 documentation - but so far haven&amp;rsquo;t figured out how they are
-supposed to be used.  Eventually I decided to experiment
+supposed to be used. Eventually I decided to experiment
 with an own project
-
-&lt;a href=&#34;https://github.com/bdcaf/vignetteEngineMake&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;vignetteBuilderMake&lt;/a&gt;.
+&lt;a href="https://github.com/bdcaf/vignetteEngineMake" target="_blank" rel="noopener">vignetteBuilderMake&lt;/a>.
 It is not supposed to change anything in the core R package
 process however it is intended to build vignettes using
-&lt;code&gt;make&lt;/code&gt; while still allowing the nice features of the package
-tools.&lt;/p&gt;
-&lt;p&gt;Feel free to try it out.  A word of warning, once I
+&lt;code>make&lt;/code> while still allowing the nice features of the package
+tools.&lt;/p>
+&lt;p>Feel free to try it out. A word of warning, once I
 understand the process better I hope I can make a better
-suited package.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Package rawTof</title>
-      <link>/post/2017/2017-08-05_rawtof_package/</link>
-      <pubDate>Sat, 05 Aug 2017 17:51:52 +0200</pubDate>
-      <guid>/post/2017/2017-08-05_rawtof_package/</guid>
-      <description>&lt;p&gt;I have just released a simple package to read PTR-TOF h5
-files.  This used to be part of a larger project on
+suited package.&lt;/p></description></item><item><title>Package rawTof</title><link>/post/2017/2017-08-05_rawtof_package/</link><pubDate>Sat, 05 Aug 2017 17:51:52 +0200</pubDate><guid>/post/2017/2017-08-05_rawtof_package/</guid><description>&lt;p>I have just released a simple package to read PTR-TOF h5
+files. This used to be part of a larger project on
 developing a pipeline for working with PTR-TOF files, but
-stripped from all experimental functions.  The other package
-should become a paper, so hold on for that.&lt;/p&gt;
-&lt;p&gt;The package can be found at
-
-&lt;a href=&#34;https://github.com/bdcaf/rawTof&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;bdcaf/rawTof&lt;/a&gt;.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Publication word cloud</title>
-      <link>/post/2017/2017-01-19-wc/</link>
-      <pubDate>Thu, 19 Jan 2017 12:56:26 +0100</pubDate>
-      <guid>/post/2017/2017-01-19-wc/</guid>
-      <description>&lt;p&gt;I wanted to play with word clouds for some time. Usually the problem
-is to obtain a nice corpus.  Luckily
-
-&lt;a href=&#34;https://felixfan.github.io/PubMedWordcloud/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PubMedWordCloud&lt;/a&gt; was
-recently updated and I had something to play with.&lt;/p&gt;
-&lt;p&gt;The initial cloud looks not good enough - I did not like how plurals
+stripped from all experimental functions. The other package
+should become a paper, so hold on for that.&lt;/p>
+&lt;p>The package can be found at
+&lt;a href="https://github.com/bdcaf/rawTof" target="_blank" rel="noopener">bdcaf/rawTof&lt;/a>.&lt;/p></description></item><item><title>Publication word cloud</title><link>/post/2017/2017-01-19-wc/</link><pubDate>Thu, 19 Jan 2017 12:56:26 +0100</pubDate><guid>/post/2017/2017-01-19-wc/</guid><description>&lt;p>I wanted to play with word clouds for some time. Usually the problem
+is to obtain a nice corpus. Luckily
+&lt;a href="https://felixfan.github.io/PubMedWordcloud/" target="_blank" rel="noopener">PubMedWordCloud&lt;/a> was
+recently updated and I had something to play with.&lt;/p>
+&lt;p>The initial cloud looks not good enough - I did not like how plurals
 are counted separately.
 Since I couldn&amp;rsquo;t clean it up easy enough I ended up going back to the
-
-&lt;a href=&#34;https://cran.r-project.org/web/packages/tm/index.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;tm&lt;/a&gt; package
-and roll my own script.  Unfortunately it&amp;rsquo;s far from publishable.&lt;/p&gt;
-&lt;p&gt;Anyway the result is way more to my liking.
-&lt;img src=&#34;/img/wc_clean.png&#34; alt=&#34;clean word cloud&#34;&gt;&lt;/p&gt;
-&lt;p&gt;My final script looks like this - I still use &lt;code&gt;getAbstracts&lt;/code&gt; from
-&lt;code&gt;PubMedWordCloud&lt;/code&gt;.&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;library(PubMedWordcloud)  
+&lt;a href="https://cran.r-project.org/web/packages/tm/index.html" target="_blank" rel="noopener">tm&lt;/a> package
+and roll my own script. Unfortunately it&amp;rsquo;s far from publishable.&lt;/p>
+&lt;p>Anyway the result is way more to my liking.
+&lt;img src="/img/wc_clean.png" alt="clean word cloud">&lt;/p>
+&lt;p>My final script looks like this - I still use &lt;code>getAbstracts&lt;/code> from
+&lt;code>PubMedWordCloud&lt;/code>.&lt;/p>
+&lt;pre>&lt;code class="language-r">library(PubMedWordcloud)
 library(tm)
 library(wordcloud)
 library(magrittr)
-
 pmids &amp;lt;- getPMIDs(author=&amp;quot;Clemens Ager&amp;quot;,dFrom=2002,dTo=2016,n=30)
-
 abstracts &amp;lt;- getAbstracts(pmids)
 corp &amp;lt;- VCorpus(VectorSource(abstracts))
-
 f &amp;lt;- content_transformer(function(x, pattern) gsub(pattern, &amp;quot;&amp;quot;, x))
-c1 &amp;lt;- tm_map(corp, removePunctuation) %&amp;gt;% 
-  tm_map(removeNumbers) %&amp;gt;% 
-  tm_map(content_transformer(tolower)) %&amp;gt;% 
-  tm_map(content_transformer(function(x) gsub(&amp;quot;([^si])s\\&amp;gt;&amp;quot;, &amp;quot;\\1&amp;quot;, x))) %&amp;gt;% 
-  tm_map(removeWords, stopwords(&amp;quot;english&amp;quot;)) %&amp;gt;%
-  tm_map(removeWords, c(&amp;quot;also&amp;quot;, &amp;quot;thus&amp;quot;, &amp;quot;three&amp;quot;, &amp;quot;calu&amp;quot;, &amp;quot;hbepc&amp;quot;, &amp;quot;gcm&amp;quot;, &amp;quot;ptrm&amp;quot;)) %&amp;gt;%
-  tm_map(stripWhitespace) %&amp;gt;%
-  tm_map(f, &amp;quot;\\&amp;lt;[[:alpha:]]{,2}\\&amp;gt;\\W+&amp;quot;)
-
-
-wordcloud(c1, random.order=F, min.freq = 6, 
-		  colors = brewer.pal(9,&amp;quot;Set1&amp;quot;),
-		  rot.per= 0.3)
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;I already have some ideas on where to improve - basically I could
-crawl our pdfs as well.  But for today I&amp;rsquo;m done.&lt;/p&gt;
-</description>
-    </item>
-    
-  </channel>
-</rss>
+c1 &amp;lt;- tm_map(corp, removePunctuation) %&amp;gt;%
+tm_map(removeNumbers) %&amp;gt;%
+tm_map(content_transformer(tolower)) %&amp;gt;%
+tm_map(content_transformer(function(x) gsub(&amp;quot;([^si])s\\&amp;gt;&amp;quot;, &amp;quot;\\1&amp;quot;, x))) %&amp;gt;%
+tm_map(removeWords, stopwords(&amp;quot;english&amp;quot;)) %&amp;gt;%
+tm_map(removeWords, c(&amp;quot;also&amp;quot;, &amp;quot;thus&amp;quot;, &amp;quot;three&amp;quot;, &amp;quot;calu&amp;quot;, &amp;quot;hbepc&amp;quot;, &amp;quot;gcm&amp;quot;, &amp;quot;ptrm&amp;quot;)) %&amp;gt;%
+tm_map(stripWhitespace) %&amp;gt;%
+tm_map(f, &amp;quot;\\&amp;lt;[[:alpha:]]{,2}\\&amp;gt;\\W+&amp;quot;)
+wordcloud(c1, random.order=F, min.freq = 6,
+colors = brewer.pal(9,&amp;quot;Set1&amp;quot;),
+rot.per= 0.3)
+&lt;/code>&lt;/pre>
+&lt;p>I already have some ideas on where to improve - basically I could
+crawl our pdfs as well. But for today I&amp;rsquo;m done.&lt;/p></description></item></channel></rss>

@@ -1,55 +1,30 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>github | bdcaf</title>
-    <link>/tags/github/</link>
-      <atom:link href="/tags/github/index.xml" rel="self" type="application/rss+xml" />
-    <description>github</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Clemens Ager 2020</copyright><lastBuildDate>Mon, 29 Jan 2018 10:49:51 +0100</lastBuildDate>
-    <image>
-      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
-      <title>github</title>
-      <link>/tags/github/</link>
-    </image>
-    
-    <item>
-      <title>Github pages</title>
-      <link>/post/todayilearnt/2018-move/</link>
-      <pubDate>Mon, 29 Jan 2018 10:49:51 +0100</pubDate>
-      <guid>/post/todayilearnt/2018-move/</guid>
-      <description>&lt;p&gt;Now this site is on 
-&lt;a href=&#34;https://pages.github.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;github pages&lt;/a&gt;.&lt;br&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>github | bdcaf</title><link>/tags/github/</link><atom:link href="/tags/github/index.xml" rel="self" type="application/rss+xml"/><description>github</description><generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Clemens Ager 2020</copyright><lastBuildDate>Mon, 29 Jan 2018 10:49:51 +0100</lastBuildDate><image><url>img/map[gravatar:%!s(bool=false) shape:circle]</url><title>github</title><link>/tags/github/</link></image><item><title>Github pages</title><link>/post/todayilearnt/2018-move/</link><pubDate>Mon, 29 Jan 2018 10:49:51 +0100</pubDate><guid>/post/todayilearnt/2018-move/</guid><description>&lt;p>Now this site is on
+&lt;a href="https://pages.github.com" target="_blank" rel="noopener">github pages&lt;/a>.&lt;br>
 I had already repos on github for some time and trusted it - only
 private repos I keep on other places. But mostly I was
-missing some features a bplaced so now the move.  Mostly I like that I
+missing some features a bplaced so now the move. Mostly I like that I
 can now post new content via git so I just need to transfer new posts
-and not the whole site.  That now the site is &lt;code&gt;https&lt;/code&gt; secured is a
-nice boon.&lt;/p&gt;
-&lt;p&gt;It took me some time to reconfigure my 
-&lt;a href=&#34;https://gohugo.io&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;hugo&lt;/a&gt; blog for the pages here&amp;rsquo;s what I learnt:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;the name of the repo must be &lt;code&gt;username.github.io&lt;/code&gt; - at first I had
-the impression &lt;code&gt;username&lt;/code&gt; was enough, and also some guides would
-describe how to use gitlab instead.&lt;/li&gt;
-&lt;li&gt;for me github insists publishing the &lt;code&gt;master&lt;/code&gt; branch - so I had to
-juggle around,  the previous master got renamed to hugo doing: &lt;code&gt;git branch -m master hugo&lt;/code&gt;.  I had already ignored the &lt;code&gt;public&lt;/code&gt;
+and not the whole site. That now the site is &lt;code>https&lt;/code> secured is a
+nice boon.&lt;/p>
+&lt;p>It took me some time to reconfigure my
+&lt;a href="https://gohugo.io" target="_blank" rel="noopener">hugo&lt;/a> blog for the pages here&amp;rsquo;s what I learnt:&lt;/p>
+&lt;ul>
+&lt;li>the name of the repo must be &lt;code>username.github.io&lt;/code> - at first I had
+the impression &lt;code>username&lt;/code> was enough, and also some guides would
+describe how to use gitlab instead.&lt;/li>
+&lt;li>for me github insists publishing the &lt;code>master&lt;/code> branch - so I had to
+juggle around, the previous master got renamed to hugo doing: &lt;code>git branch -m master hugo&lt;/code>. I had already ignored the &lt;code>public&lt;/code>
 directory, and had to delete the original master from online and
 recreate it empty - but I think one can streamline that.
-Then added the master using worktree in public: &lt;code&gt;git worktree add -B master public origin/master&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;the url in &lt;code&gt;config.toml&lt;/code&gt; should be &lt;code&gt;https://username.github.io/&lt;/code&gt; -
-notice the trailing slash.&lt;/li&gt;
-&lt;li&gt;I can then use the &lt;code&gt;hugo&lt;/code&gt; command to build my site.  And publish
-using &lt;code&gt;cd public; git add . ; git commit -am pub; git push; cd ..&lt;/code&gt;  - I&amp;rsquo;m in
-
-&lt;a href=&#34;https://fishshell.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;fish&lt;/a&gt; -  many others use &lt;code&gt;&amp;amp;&amp;amp;&lt;/code&gt; instead.&lt;/li&gt;
-&lt;li&gt;I tried putting my binaries under &lt;code&gt;git lfs&lt;/code&gt; - so far it seems to
-work.  I will write back in case anything shows up.&lt;/li&gt;
-&lt;li&gt;It takes a minute till the change shows up. So I need to be
-patient.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;So there we are on github now&amp;hellip;&lt;/p&gt;
-</description>
-    </item>
-    
-  </channel>
-</rss>
+Then added the master using worktree in public: &lt;code>git worktree add -B master public origin/master&lt;/code>&lt;/li>
+&lt;li>the url in &lt;code>config.toml&lt;/code> should be &lt;code>https://username.github.io/&lt;/code> -
+notice the trailing slash.&lt;/li>
+&lt;li>I can then use the &lt;code>hugo&lt;/code> command to build my site. And publish
+using &lt;code>cd public; git add . ; git commit -am pub; git push; cd ..&lt;/code> - I&amp;rsquo;m in
+&lt;a href="https://fishshell.com" target="_blank" rel="noopener">fish&lt;/a> - many others use &lt;code>&amp;amp;&amp;amp;&lt;/code> instead.&lt;/li>
+&lt;li>I tried putting my binaries under &lt;code>git lfs&lt;/code> - so far it seems to
+work. I will write back in case anything shows up.&lt;/li>
+&lt;li>It takes a minute till the change shows up. So I need to be
+patient.&lt;/li>
+&lt;/ul>
+&lt;p>So there we are on github now&amp;hellip;&lt;/p></description></item></channel></rss>
