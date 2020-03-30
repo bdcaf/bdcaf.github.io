@@ -30,6 +30,12 @@ I created a Github repo
 
 &lt;figure&gt;
     &lt;img src=&#34;/post/dev/datascience/corona03/chinaplot-1..svg&#34; alt=&#34;&#34;/&gt;&lt;figcaption&gt;Changepoints for China&lt;/figcaption&gt;&lt;/figure&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Note I&amp;rsquo;m not an epidemiologist, and the data used is only the publicly available one. So all the calculated number should be taken with a large grain of salt.
+Still it is quite interesting what can be concluded from such a data set.
+  &lt;/div&gt;
+&lt;/div&gt;
 &lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;library(tidyverse)
 library(segmented)
 
@@ -222,7 +228,15 @@ For GB interventions are rather small and can barely be discerned.&lt;/p&gt;
     &lt;img src=&#34;/post/dev/datascience/corona03/unnamed-chunk-14-1..svg&#34; alt=&#34;&#34;/&gt;&lt;figcaption&gt;USA&lt;/figcaption&gt;&lt;/figure&gt;
 Don&amp;rsquo;t have the data at hand - but the rise around 14th seems to coincide with a change in testing. I believe CDC confirmation longer required since March 12th (
 &lt;a href=&#34;https://www.cdc.gov/coronavirus/2019-ncov/cases-updates/testing-in-us.html?CDC_AA_refVal=https%3A%2F%2Fwww.cdc.gov%2Fcoronavirus%2F2019-ncov%2Ftesting-in-us.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;info&lt;/a&gt;).
-The March 21st fits with world wide interventions.&lt;/p&gt;</description>
+The March 21st fits with world wide interventions.&lt;/p&gt;
+&lt;h1 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h1&gt;
+&lt;p&gt;It&amp;rsquo;s quite interesting to see how interventions are visible in the growth data.
+This data is inherently coarse as it is only updated daily and also anonymized.&lt;br&gt;
+Still even with this simple methods dates appear to line up.
+It is nice that the model is relatively simple to visualize and read.
+There are  &amp;ldquo;small&amp;rdquo; changes stretched over large periods that I believe are artifacts of non-linearity - I wonder if I could improve the model to reduce those.&lt;/p&gt;
+&lt;p&gt;It would be interesting to see how well the changes agree with actually implemented measurements and which measurements are not showing.
+Though it will be difficult to collect these so it will need to wait.&lt;/p&gt;</description>
     </item>
     
     <item>

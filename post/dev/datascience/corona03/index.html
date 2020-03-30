@@ -551,7 +551,7 @@ Corona03.
   
   <span class="middot-divider"></span>
   <span class="article-reading-time">
-    5 min read
+    6 min read
   </span>
   
 
@@ -600,6 +600,12 @@ I created a Github repo
 
 <figure>
     <img src="/post/dev/datascience/corona03/chinaplot-1..svg" alt=""/><figcaption>Changepoints for China</figcaption></figure>
+<div class="alert alert-note">
+  <div>
+    Note I&rsquo;m not an epidemiologist, and the data used is only the publicly available one. So all the calculated number should be taken with a large grain of salt.
+Still it is quite interesting what can be concluded from such a data set.
+  </div>
+</div>
 <pre><code class="language-r">library(tidyverse)
 library(segmented)
 
@@ -793,6 +799,14 @@ For GB interventions are rather small and can barely be discerned.</p>
 Don&rsquo;t have the data at hand - but the rise around 14th seems to coincide with a change in testing. I believe CDC confirmation longer required since March 12th (
 <a href="https://www.cdc.gov/coronavirus/2019-ncov/cases-updates/testing-in-us.html?CDC_AA_refVal=https%3A%2F%2Fwww.cdc.gov%2Fcoronavirus%2F2019-ncov%2Ftesting-in-us.html" target="_blank" rel="noopener">info</a>).
 The March 21st fits with world wide interventions.</p>
+<h1 id="conclusion">Conclusion</h1>
+<p>It&rsquo;s quite interesting to see how interventions are visible in the growth data.
+This data is inherently coarse as it is only updated daily and also anonymized.<br>
+Still even with this simple methods dates appear to line up.
+It is nice that the model is relatively simple to visualize and read.
+There are  &ldquo;small&rdquo; changes stretched over large periods that I believe are artifacts of non-linearity - I wonder if I could improve the model to reduce those.</p>
+<p>It would be interesting to see how well the changes agree with actually implemented measurements and which measurements are not showing.
+Though it will be difficult to collect these so it will need to wait.</p>
     </div>
 
     
