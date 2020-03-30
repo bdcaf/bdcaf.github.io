@@ -17,6 +17,16 @@
     <rect x='80.64' y='59.04' width='371.52' height='371.52' />
   </clipPath>
 </defs>
+<defs>
+  <clipPath id='cpMC4wMHw1MDQuMDB8NTA0LjAwfDAuMDA='>
+    <rect x='0.00' y='0.00' width='504.00' height='504.00' />
+  </clipPath>
+</defs>
+<defs>
+  <clipPath id='cpODAuNjR8NDUyLjE2fDQzMC41Nnw1OS4wNA=='>
+    <rect x='80.64' y='59.04' width='371.52' height='371.52' />
+  </clipPath>
+</defs>
 <polyline points='504.00,340.36 170.84,340.36 367.35,0.00 ' style='stroke-width: 0.75; stroke: none;' clip-path='url(#cpODAuNjR8NDUyLjE2fDQzMC41Nnw1OS4wNA==)' />
 <polyline points='504.00,174.85 266.40,174.85 ' style='stroke-width: 0.75; stroke: #A9A9A9;' clip-path='url(#cpODAuNjR8NDUyLjE2fDQzMC41Nnw1OS4wNA==)' />
 <polyline points='361.96,340.36 504.00,94.33 ' style='stroke-width: 0.75; stroke: #A9A9A9;' clip-path='url(#cpODAuNjR8NDUyLjE2fDQzMC41Nnw1OS4wNA==)' />
@@ -36,14 +46,14 @@
 <polyline points='504.00,340.36 170.84,340.36 367.35,0.00 ' style='stroke-width: 0.75;' clip-path='url(#cpODAuNjR8NDUyLjE2fDQzMC41Nnw1OS4wNA==)' />
 <polyline points='170.84,340.36 185.43,315.09 191.85,303.98 186.38,313.44 189.83,318.43 186.01,320.65 182.52,325.19 179.73,328.81 182.11,330.60 175.87,339.11 180.71,331.31 180.81,332.96 179.25,334.12 ' style='stroke-width: 2.25; stroke: #E41A1C;' clip-path='url(#cpODAuNjR8NDUyLjE2fDQzMC41Nnw1OS4wNA==)' />
 <polyline points='288.45,136.65 267.00,173.81 248.85,205.25 229.20,239.28 202.56,285.42 195.09,298.36 192.37,303.07 187.38,311.71 188.72,315.02 185.27,319.91 186.37,318.67 185.10,320.44 186.45,319.64 184.18,323.75 182.06,327.22 184.12,325.11 182.72,328.38 183.32,326.26 183.38,328.15 185.96,325.35 ' style='stroke-width: 2.25; stroke: #377EB8;' clip-path='url(#cpODAuNjR8NDUyLjE2fDQzMC41Nnw1OS4wNA==)' />
-<polyline points='212.75,296.80 193.17,317.15 188.67,321.83 190.69,325.62 188.73,327.08 188.36,330.24 188.43,330.20 188.43,330.20 192.66,334.54 191.94,335.48 184.74,337.35 184.74,337.35 191.37,337.90 193.25,332.16 193.59,334.26 193.05,335.67 ' style='stroke-width: 2.25; stroke: #4DAF4A;' clip-path='url(#cpODAuNjR8NDUyLjE2fDQzMC41Nnw1OS4wNA==)' />
+<polyline points='212.75,296.80 193.17,317.15 188.67,321.83 190.69,325.62 188.73,327.08 188.36,330.24 188.43,330.20 188.43,330.20 192.66,334.54 191.94,335.48 184.74,337.35 184.74,337.35 191.37,337.90 193.25,332.16 193.59,334.26 193.05,335.67 ' style='stroke-width: 2.25; stroke: #E41A1C;' clip-path='url(#cpODAuNjR8NDUyLjE2fDQzMC41Nnw1OS4wNA==)' />
 <circle cx='89.28' cy='70.56' r='4.86' style='stroke-width: 0.75; fill: #E41A1C;' clip-path='url(#cpODAuNjR8NDUyLjE2fDQzMC41Nnw1OS4wNA==)' />
 <circle cx='89.28' cy='82.08' r='4.86' style='stroke-width: 0.75; fill: #377EB8;' clip-path='url(#cpODAuNjR8NDUyLjE2fDQzMC41Nnw1OS4wNA==)' />
 <circle cx='89.28' cy='93.60' r='4.86' style='stroke-width: 0.75; fill: #4DAF4A;' clip-path='url(#cpODAuNjR8NDUyLjE2fDQzMC41Nnw1OS4wNA==)' />
 <g clip-path='url(#cpODAuNjR8NDUyLjE2fDQzMC41Nnw1OS4wNA==)'><text x='97.92' y='74.00' style='font-size: 9.60px; font-family: Arial;' textLength='29.88px' lengthAdjust='spacing'>Austria</text></g>
 <g clip-path='url(#cpODAuNjR8NDUyLjE2fDQzMC41Nnw1OS4wNA==)'><text x='97.92' y='85.52' style='font-size: 9.60px; font-family: Arial;' textLength='39.48px' lengthAdjust='spacing'>Germany</text></g>
 <g clip-path='url(#cpODAuNjR8NDUyLjE2fDQzMC41Nnw1OS4wNA==)'><text x='97.92' y='97.04' style='font-size: 9.60px; font-family: Arial;' textLength='49.62px' lengthAdjust='spacing'>Switzerland</text></g>
-<g clip-path='url(#cpODAuNjR8NDUyLjE2fDQzMC41Nnw1OS4wNA==)'><text x='258.03' y='217.42' style='font-size: 26.40px; font-family: emoji;' textLength='16.73px' lengthAdjust='spacing'>😷</text></g>
-<g clip-path='url(#cpODAuNjR8NDUyLjE2fDQzMC41Nnw1OS4wNA==)'><text x='324.92' y='333.27' style='font-size: 26.40px; font-family: emoji;' textLength='16.73px' lengthAdjust='spacing'>💀</text></g>
-<g clip-path='url(#cpODAuNjR8NDUyLjE2fDQzMC41Nnw1OS4wNA==)'><text x='191.15' y='333.27' style='font-size: 26.40px; font-family: emoji;' textLength='16.73px' lengthAdjust='spacing'>🤧</text></g>
+<g clip-path='url(#cpODAuNjR8NDUyLjE2fDQzMC41Nnw1OS4wNA==)'><text x='258.03' y='217.42' style='font-size: 26.40px; font-family: AppleColorEmoji;' textLength='16.73px' lengthAdjust='spacing'>😷</text></g>
+<g clip-path='url(#cpODAuNjR8NDUyLjE2fDQzMC41Nnw1OS4wNA==)'><text x='324.92' y='333.27' style='font-size: 26.40px; font-family: AppleColorEmoji;' textLength='16.73px' lengthAdjust='spacing'>💀</text></g>
+<g clip-path='url(#cpODAuNjR8NDUyLjE2fDQzMC41Nnw1OS4wNA==)'><text x='191.15' y='333.27' style='font-size: 26.40px; font-family: AppleColorEmoji;' textLength='16.73px' lengthAdjust='spacing'>🤧</text></g>
 </svg>
