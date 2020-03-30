@@ -214,11 +214,15 @@ For GB interventions are rather small and can barely be discerned.&lt;/p&gt;
 
 &lt;figure&gt;
     &lt;img src=&#34;/post/dev/datascience/corona03/unnamed-chunk-13-1..svg&#34; alt=&#34;&#34;/&gt;&lt;figcaption&gt;Austria shows two mild interventions and one very vague one.&lt;/figcaption&gt;&lt;/figure&gt;
+&lt;h2 id=&#34;americas&#34;&gt;Americas&lt;/h2&gt;
 &lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;changepoints(&amp;quot;USA&amp;quot;)
 &lt;/code&gt;&lt;/pre&gt;
-
+&lt;p&gt;
 &lt;figure&gt;
-    &lt;img src=&#34;/post/dev/datascience/corona03/unnamed-chunk-14-1..svg&#34; alt=&#34;&#34;/&gt;&lt;figcaption&gt;USA&lt;/figcaption&gt;&lt;/figure&gt;</description>
+    &lt;img src=&#34;/post/dev/datascience/corona03/unnamed-chunk-14-1..svg&#34; alt=&#34;&#34;/&gt;&lt;figcaption&gt;USA&lt;/figcaption&gt;&lt;/figure&gt;
+Don&amp;rsquo;t have the data at hand - but the rise around 14th seems to coincide with a change in testing. I believe CDC confirmation longer required since March 12th (
+&lt;a href=&#34;https://www.cdc.gov/coronavirus/2019-ncov/cases-updates/testing-in-us.html?CDC_AA_refVal=https%3A%2F%2Fwww.cdc.gov%2Fcoronavirus%2F2019-ncov%2Ftesting-in-us.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;info&lt;/a&gt;).
+The March 21st fits with world wide interventions.&lt;/p&gt;</description>
     </item>
     
     <item>
