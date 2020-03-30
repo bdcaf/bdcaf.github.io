@@ -13,6 +13,215 @@
     </image>
     
     <item>
+      <title>Identifying change-points in the COVID19 infection growth</title>
+      <link>/post/dev/datascience/corona03/</link>
+      <pubDate>Mon, 30 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>/post/dev/datascience/corona03/</guid>
+      <description>&lt;p&gt;An update to the 
+&lt;a href=&#34;/post/dev/datascience/corona/&#34;&gt;previous post&lt;/a&gt;.
+The data from 
+&lt;a href=&#34;https://github.com/CSSEGISandData/COVID-19&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CSSEGISandData/COVID-19&lt;/a&gt; has changed so much that the method from the previous post didn&amp;rsquo;t make sense.
+I am interested to visualize the effect of government interventions on the growth curve.
+Unfortunately there is no dataset documenting the interventions, but I am able to detect some changes in the logarithmic growth curve.
+Also a new post 
+&lt;a href=&#34;https://joachim-gassen.github.io/2020/03/tidying-the-new-johns-hopkins-covid-19-datasests/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Tidying the new Johns Hopkins datasets&lt;/a&gt; showed some nice ideas pulling in world bank data.
+I created a Github repo 
+&lt;a href=&#34;https://github.com/bdcaf/Corona03&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Corona03&lt;/a&gt;.&lt;/p&gt;
+
+&lt;figure&gt;
+    &lt;img src=&#34;/post/dev/datascience/corona03/chinaplot-1..svg&#34; alt=&#34;&#34;/&gt;&lt;figcaption&gt;Changepoints for China&lt;/figcaption&gt;&lt;/figure&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;library(tidyverse)
+library(segmented)
+
+# svg for high quality plots
+library(svglite)
+knitr::opts_chunk$set(
+		      dev = &amp;quot;svglite&amp;quot;,
+		      dev.args = list(),
+		      fig.ext = &amp;quot;.svg&amp;quot;
+)
+
+devtools::load_all()
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;timeSeries &amp;lt;- readRDS(&amp;quot;data/timeSeries.RDS&amp;quot;)
+t_incub &amp;lt;- 5.2
+&lt;/code&gt;&lt;/pre&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    The data was imported from &lt;a href=&#34;https://github.com/CSSEGISandData/COVID-19&#34;&gt;CSSEGISandData/COVID-19&lt;/a&gt; which aggregates data from several sources.
+Data seems to be added daily, but not sure how reliable new sources are integrated.
+The displayed data was retrieved on 2020-03-30, the last recorded data point is from 2020-03-29.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Set start date at when first 100 infections were reached.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;edates_confirmed &amp;lt;- timeSeries %&amp;gt;% 
+  group_by(country) %&amp;gt;%
+  dplyr::filter(confirmed &amp;gt;= 100) %&amp;gt;%
+  summarise(edate_confirmed = min(date)) 
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;countryData &amp;lt;- timeSeries %&amp;gt;% 
+  left_join(edates_confirmed, by = &amp;quot;country&amp;quot;) %&amp;gt;%
+  mutate(
+    edate_confirmed = as.numeric(date - edate_confirmed)
+  ) %&amp;gt;%
+  dplyr::filter(edate_confirmed &amp;gt;= 0) %&amp;gt;%
+  group_by(country) %&amp;gt;%
+  dplyr::filter (n() &amp;gt;= 7) %&amp;gt;% 
+  ungroup() 
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h1 id=&#34;use-piecewise-linear-curve-to-approximate-growth&#34;&gt;use piecewise linear curve to approximate growth&lt;/h1&gt;
+&lt;p&gt;Exponential growth is visualized as a straight line in plots with an exponential axis.
+The idea is to identify a piecewise linear function that will approximate the growth curve.
+I found the 
+&lt;a href=&#34;https://cran.r-project.org/web/packages/segmented/index.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;segmented&lt;/a&gt; package a good fit.
+It can also estimate the number of change points.&lt;/p&gt;
+&lt;p&gt;There were a few annoyances as the &lt;em&gt;bootstrap restart&lt;/em&gt; that recently was added is not compatible with having a variable number of change points.
+The function then gives a cryptic error message.&lt;/p&gt;
+&lt;p&gt;When looking at a graph the change point is supposed to happen about one incubation period after the intervention.&lt;br&gt;
+Currently the incubation period is assumed to be around 5.2 days.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;changepoints &amp;lt;- function(isocode=&amp;quot;CHN&amp;quot;, 
+			 cdata=countryData){
+  wip &amp;lt;-  dplyr::filter(cdata, iso3c == isocode) 
+  ymin  &amp;lt;- first(wip$confirmed)
+
+  conf.lm &amp;lt;- lm(log10(confirmed) ~ edate_confirmed,
+		data = wip)
+  # erange  &amp;lt;- seq(from=7, to=last(wip$edate_confirmed), by = 14)
+  segm.lm &amp;lt;- segmented(conf.lm, 
+		 psi = NA,
+		 control = seg.control(n.boot = 0,
+				       quant = T,
+				       K = 3,
+				       fix.npsi = F,
+				       display = F)
+  )
+  startDate &amp;lt;- filter(wip, edate_confirmed == 0) $ date
+
+  dayFormat &amp;lt;- function(d) format(d, &amp;quot;%B %d&amp;quot;)
+
+  segm.conf &amp;lt;- as.data.frame(confint(segm.lm, level=0.9)) %&amp;gt;%
+    mutate(day_change = `Est.`,
+	   date = day_change + startDate,
+	   day_interv = day_change - t_incub,
+	   dayFst = startDate + `CI(90%).low`,
+	   dayLast = startDate + `CI(90%).up`,
+	   label = paste(dayFormat(dayFst), &amp;quot; - &amp;quot;, dayFormat(dayLast))
+    )
+
+    #geom_vline(data=psis, 
+    #           mapping = aes(xintercept = day_interv), linetype=3, color=&amp;quot;red&amp;quot;) + 
+    #geom_segment(data = psis,
+    #           mapping = aes(x = day_interv, xend = day_change), 
+    #           y = 1200, yend = 1200,
+    #           linetype=1, color=&amp;quot;red&amp;quot;,
+  #arrow = arrow(length = unit(0.03, &amp;quot;npc&amp;quot;), ends = &amp;quot;last&amp;quot;)
+    #) +
+
+  ggplot(wip ) +
+    geom_point(mapping = aes(x=edate_confirmed, y=confirmed), alpha = 0.5) +
+    geom_line(mapping = aes(x=edate_confirmed, y = 10^(segm.lm$fitted.values))) + 
+    geom_vline(data=segm.conf, mapping = aes(xintercept = day_change), linetype=3) + 
+    geom_rect(data = segm.conf, 
+	      aes(xmin = `CI(90%).low`, 
+		  xmax = `CI(90%).up`,
+		  ymin = ymin, 
+		  ymax = Inf,
+		  alpha = 1/(`CI(90%).up`- `CI(90%).low`)),
+	      fill=&amp;quot;red&amp;quot;
+    ) + 
+		      lims(alpha = c(0,1)) +
+		      guides(alpha = F) +
+    geom_text(data = segm.conf,
+	      mapping = aes(x = day_change,
+			    label = label),
+	      y = 1.1 * ymin,
+	      nudge_x= 0.2,
+	      angle = 90,
+	      hjust = &#39;left&#39;,
+	      vjust = &#39;top&#39;
+	      ) +
+		      xlab(&amp;quot;days since pat. 100&amp;quot;) + 
+		      ylab(&amp;quot;confirmed cases&amp;quot;) + 
+		      coord_trans(y = &amp;quot;log10&amp;quot;) +
+		      theme_light()
+
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;china&#34;&gt;China&lt;/h2&gt;
+&lt;p&gt;First consider China as it has the longest time series.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;changepoints(&amp;quot;CHN&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;
+&lt;figure&gt;
+    &lt;img src=&#34;/post/dev/datascience/corona03/chinaplot-1..svg&#34; alt=&#34;&#34;/&gt;&lt;figcaption&gt;China&lt;/figcaption&gt;&lt;/figure&gt;
+The plot shows the growth of number of infected people. This number is cumulative so it can only increase.&lt;br&gt;
+I chose a logarithmic scale as in this scale the growth is linear - at least until a majority of population is infected, which luckily is not the case in any country yet - or as seen in Asian countries when the virus starts dieing out.
+The gray points are the actual reported numbers and a piecewise linear black line approximates the growth.
+A dashed black line marks the approximate change point and a shaded red rectangle behind the 90% confidence interval of this change point. As small changes can be hardly detected I lighten the shade the wider the range of this change point. Also there is a text giving the date range of the change point.
+The intervention leading to the change likely happened one incubation time (currently estimated 5.2 days) ahead, although changes may be implemented gradually so the change could be stretched out.
+Personally I would look at the lower confidence minus incubation time for the start of the intervention.&lt;/p&gt;
+&lt;p&gt;Looking that the current figure for China.
+The one at 2020-02-15 seems suspiciously close to the policy change a few days earlier when the definition was altered.
+The change at end of February is not very pronounced - maybe it&amp;rsquo;s just an artifact of the growth no longer being exponential.&lt;/p&gt;
+&lt;h2 id=&#34;other-asian&#34;&gt;Other Asian&lt;/h2&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;changepoints(&amp;quot;KOR&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;
+&lt;figure&gt;
+    &lt;img src=&#34;/post/dev/datascience/corona03/unnamed-chunk-5-1..svg&#34; alt=&#34;&#34;/&gt;&lt;figcaption&gt;Korea&lt;/figcaption&gt;&lt;/figure&gt;
+Also here the last &amp;ldquo;Change&amp;rdquo; in South Korea. It may be an artifact of the disease dieing.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;changepoints(&amp;quot;JPN&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;
+&lt;figure&gt;
+    &lt;img src=&#34;/post/dev/datascience/corona03/unnamed-chunk-6-1..svg&#34; alt=&#34;&#34;/&gt;&lt;figcaption&gt;Japan&lt;/figcaption&gt;&lt;/figure&gt;
+Most curious about Japan is there seems to be an intervention that increased the rate of infection at end of March.&lt;/p&gt;
+&lt;h2 id=&#34;european-countries&#34;&gt;European countries&lt;/h2&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;changepoints(&amp;quot;ITA&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;
+&lt;figure&gt;
+    &lt;img src=&#34;/post/dev/datascience/corona03/unnamed-chunk-7-1..svg&#34; alt=&#34;&#34;/&gt;&lt;figcaption&gt;Italy&lt;/figcaption&gt;&lt;/figure&gt;
+Italy shows three interventions gradually decreasing the ratio of infections.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;changepoints(&amp;quot;ESP&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;figure&gt;
+    &lt;img src=&#34;/post/dev/datascience/corona03/unnamed-chunk-8-1..svg&#34; alt=&#34;&#34;/&gt;&lt;figcaption&gt;Spain&lt;/figcaption&gt;&lt;/figure&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;changepoints(&amp;quot;FRA&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;figure&gt;
+    &lt;img src=&#34;/post/dev/datascience/corona03/unnamed-chunk-9-1..svg&#34; alt=&#34;&#34;/&gt;&lt;figcaption&gt;France&lt;/figcaption&gt;&lt;/figure&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;changepoints(&amp;quot;DEU&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;figure&gt;
+    &lt;img src=&#34;/post/dev/datascience/corona03/unnamed-chunk-10-1..svg&#34; alt=&#34;&#34;/&gt;&lt;figcaption&gt;Germany&lt;/figcaption&gt;&lt;/figure&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;changepoints(&amp;quot;GBR&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;
+&lt;figure&gt;
+    &lt;img src=&#34;/post/dev/datascience/corona03/unnamed-chunk-11-1..svg&#34; alt=&#34;&#34;/&gt;&lt;figcaption&gt;Great Britain&lt;/figcaption&gt;&lt;/figure&gt;
+For GB interventions are rather small and can barely be discerned.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;changepoints(&amp;quot;CHE&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;figure&gt;
+    &lt;img src=&#34;/post/dev/datascience/corona03/unnamed-chunk-12-1..svg&#34; alt=&#34;&#34;/&gt;&lt;figcaption&gt;Switzerland&lt;/figcaption&gt;&lt;/figure&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;changepoints(&amp;quot;AUT&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;figure&gt;
+    &lt;img src=&#34;/post/dev/datascience/corona03/unnamed-chunk-13-1..svg&#34; alt=&#34;&#34;/&gt;&lt;figcaption&gt;Austria shows two mild interventions and one very vague one.&lt;/figcaption&gt;&lt;/figure&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;changepoints(&amp;quot;USA&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;figure&gt;
+    &lt;img src=&#34;/post/dev/datascience/corona03/unnamed-chunk-14-1..svg&#34; alt=&#34;&#34;/&gt;&lt;figcaption&gt;USA&lt;/figcaption&gt;&lt;/figure&gt;</description>
+    </item>
+    
+    <item>
       <title>Ternary plots for development of COVID19</title>
       <link>/post/dev/datascience/corona/</link>
       <pubDate>Sat, 21 Mar 2020 00:00:00 +0000</pubDate>
@@ -3600,7 +3809,8 @@ Samstag brau ich.&lt;/p&gt;
 &lt;a href=&#34;http://www.rtl2.de/93479.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Rtl2&lt;/a&gt;. Einzig die Übersetzung wirkt manchmal holprig &amp;ldquo;Walker&amp;rdquo; -&amp;gt; &amp;ldquo;Beißer&amp;rdquo; ?!?&lt;/p&gt;
 &lt;p&gt;
 &lt;a href=&#34;http://www.rtl2.de/93479.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;img src=&#34;http://www.rtl2.de/images/trailer/1-the-walking-dead-detail3.png&#34; alt=&#34;&#34;&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;[](&lt;a href=&#34;http://www.rtl2.de/93479.html&#34;&gt;http://www.rtl2.de/93479.html&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&#34;http://www.rtl2.de/93479.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
