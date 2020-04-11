@@ -3,6 +3,7 @@ title: "Ternary plots for development of COVID19"
 author: "Clemens Ager"
 date: "2020-03-21"
 link-citations: yes
+draft: true
 ---
 
 I found the inspiring post [corona virus data](https://towardsdatascience.com/chasing-the-data-coronavirus-802d8a1c4e9a). 

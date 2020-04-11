@@ -3,6 +3,7 @@ title: "Identifying change-points in the COVID19 infection growth"
 author: "Clemens Ager"
 date: "2020-03-30"
 link-citations: yes
+draft: true
 ---
 
 An update to the [previous post]({{< ref "../Corona" >}}). 
@@ -15,6 +16,17 @@ I created a Github repo [Corona03](https://github.com/bdcaf/Corona03).
 {{< bundle-figure name="chinaplot-1..svg" class=""  caption="Changepoints for China" >}}
 
 <!--more-->
+
+{{% alert warning %}}
+Note I'm not an epidemiologist, and the data used is only the publicly available one. 
+The methods applied were chosen by my statistical interest and not utility for decision making.
+They also do not adhere to any guidelines.
+So all the calculated results should be taken with a large grain of salt. 
+
+Still it is quite interesting what can be concluded from such a data set.
+And I would be greatly interested in feedback.
+{{% /alert %}}
+
 
 
 
@@ -100,7 +112,7 @@ changepoints <- function(isocode="CHN",
   )
   startDate <- filter(wip, edate_confirmed == 0) $ date
 
-  dayFormat <- function(d) format(d, "%B %d")
+  dayFormat <- function(d) format(d, "%b %d")
 
   segm.conf <- as.data.frame(confint(segm.lm, level=0.9)) %>%
     mutate(day_change = `Est.`,
@@ -242,11 +254,25 @@ changepoints("AUT")
 
 {{< bundle-figure name="unnamed-chunk-13-1..svg" class=""  caption="Austria shows two mild interventions and one very vague one." >}}
 
+## Americas
 
 ```r
 changepoints("USA")
 ```
 
 {{< bundle-figure name="unnamed-chunk-14-1..svg" class=""  caption="USA" >}}
+Don't have the data at hand - but the rise around 14th seems to coincide with a change in testing. I believe CDC confirmation longer required since March 12th ([info](https://www.cdc.gov/coronavirus/2019-ncov/cases-updates/testing-in-us.html?CDC_AA_refVal=https%3A%2F%2Fwww.cdc.gov%2Fcoronavirus%2F2019-ncov%2Ftesting-in-us.html)). 
+The March 21st fits with world wide interventions.
 
+# Conclusion
 
+It's quite interesting to see how interventions are visible in the growth data. 
+This data is inherently coarse as it is only updated daily and also anonymized.  Therefore change-points are likely only accurate to a day at best, also when several interventions happen within a few days they likely get grouped into a single change point.
+
+Still even with this simple methods dates appear to line up - though the incubation time is not a precise method. This time is smeared out, but I have not considered this effect. Looking at the figures the change points appear for me closer to interventions than the incubation time - not sure if I interpret it wrong or this is an effect of the smearing.
+
+It is nice that the model is relatively simple to visualize and read.
+There are  "small" changes stretched over large periods that I believe are artifacts of non-linearity - I wonder if I could improve the model to reduce those.
+
+It would be interesting to see how well the changes agree with actually implemented measurements and which measurements are not showing.
+Though it will be difficult to collect these so it will need to wait.  
