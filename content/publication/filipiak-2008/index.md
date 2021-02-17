@@ -2,7 +2,7 @@
 title: "Release of volatile organic compounds (VOCs) from the lung cancer cell line CALU-1 in vitro"
 date: 2008-01-01
 publishDate: 2020-03-05T16:22:27.821932Z
-authors: ["Wojciech Filipiak", "Andreas Sponring", "Tomáš Mikoviny", "Clemens Ager", "Jochen K. Schubert", "Wolfram Miekisch", "Anton Amann", "Jakob Troppmair"]
+coauthors: ["Wojciech Filipiak", "Andreas Sponring", "Tomáš Mikoviny", "Clemens Ager", "Jochen K. Schubert", "Wolfram Miekisch", "Anton Amann", "Jakob Troppmair"]
 publication_types: ["2"]
 abstract: ""
 featured: false

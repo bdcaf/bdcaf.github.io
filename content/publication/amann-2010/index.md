@@ -2,7 +2,7 @@
 title: "Analysis of exhaled breath for screening of lung cancer patients"
 date: 2010-01-01
 publishDate: 2020-03-05T16:22:27.819510Z
-authors: ["Anton Amann", "Magdalena Ligor", "Tomasz Ligor", "Amel Bajtarevic", "Clemens Ager", "Martin Pienz", "Hubert Denz", "Michael Fiegl", "Wolfgang Hilbe", "Wolfgang Weiss", "Peter Lukas", "Herbert Jamnig", "Martin Hackl", "Alfred Haidenberger", "Andreas Sponring", "Wojciech Filipiak", "Wolfram Miekisch", "Jochen K. Schubert", "Jakob Troppmair", "Bogusław Buszewski", " others"]
+coauthors: ["Anton Amann", "Magdalena Ligor", "Tomasz Ligor", "Amel Bajtarevic", "Clemens Ager", "Martin Pienz", "Hubert Denz", "Michael Fiegl", "Wolfgang Hilbe", "Wolfgang Weiss", "Peter Lukas", "Herbert Jamnig", "Martin Hackl", "Alfred Haidenberger", "Andreas Sponring", "Wojciech Filipiak", "Wolfram Miekisch", "Jochen K. Schubert", "Jakob Troppmair", "Bogusław Buszewski", " others"]
 publication_types: ["2"]
 abstract: ""
 featured: false

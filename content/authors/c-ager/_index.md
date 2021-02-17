@@ -1,6 +1,6 @@
 ---
 # Name
-title: C Ager
+title: Clemens Ager
 role:
 bio:
 avatar:

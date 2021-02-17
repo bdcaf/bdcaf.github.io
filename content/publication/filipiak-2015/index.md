@@ -2,7 +2,7 @@
 title: "Breath analysis for in vivo detection of pathogens related to ventilator-associated pneumonia in intensive care patients: a prospective pilot study."
 date: 2015-01-01
 publishDate: 2020-03-05T16:22:27.826431Z
-authors: ["Wojciech Filipiak", "Ronny Beer", "Andreas Sponring", "Anna Filipiak", "Clemens Ager", "Alois Schiefecker", "Simon Lanthaler", "Raimund Helbok", "Markus Nagl", "Jakob Troppmair", "Anton Amann"]
+coauthors: ["Wojciech Filipiak", "Ronny Beer", "Andreas Sponring", "Anna Filipiak", "Clemens Ager", "Alois Schiefecker", "Simon Lanthaler", "Raimund Helbok", "Markus Nagl", "Jakob Troppmair", "Anton Amann"]
 publication_types: ["2"]
 abstract: ""
 featured: false

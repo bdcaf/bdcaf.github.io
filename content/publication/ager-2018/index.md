@@ -2,7 +2,7 @@
 title: "Modeling-based determination of physiological parameters of systemic VOCs by breath gas analysis, part 2"
 date: 2018-01-01
 publishDate: 2020-03-05T16:22:27.817798Z
-authors: ["Clemens Ager", "Karl Unterkofler", "Paweł Mochalski", "Susanne Teschl", "Gerald Teschl", "Chris A. Mayhew", "Julian King"]
+coauthors: ["Clemens Ager", "Karl Unterkofler", "Paweł Mochalski", "Susanne Teschl", "Gerald Teschl", "Chris A. Mayhew", "Julian King"]
 publication_types: ["2"]
 abstract: ""
 featured: false

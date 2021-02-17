@@ -2,7 +2,7 @@
 title: "Multi-capillary-column proton-transfer-reaction time-of-flight mass spectrometry"
 date: 2013-01-01
 publishDate: 2020-03-05T16:22:27.831473Z
-authors: ["Veronika Ruzsanyi", "Lukas Fischer", "Jens Herbig", "Clemens Ager", "Anton Amann"]
+coauthors: ["Veronika Ruzsanyi", "Lukas Fischer", "Jens Herbig", "Clemens Ager", "Anton Amann"]
 publication_types: ["2"]
 abstract: ""
 featured: false

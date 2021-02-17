@@ -2,7 +2,7 @@
 title: "ABA-Cloud: support for collaborative breath research"
 date: 2013-01-01
 publishDate: 2020-03-05T16:22:27.821233Z
-authors: ["Ibrahim Elsayed", "Thomas Ludescher", "Julian King", "Clemens Ager", "Michael Trosin", "Uygar Senocak", "Peter Brezany", "Thomas Feilhauer", "Anton Amann"]
+coauthors: ["Ibrahim Elsayed", "Thomas Ludescher", "Julian King", "Clemens Ager", "Michael Trosin", "Uygar Senocak", "Peter Brezany", "Thomas Feilhauer", "Anton Amann"]
 publication_types: ["2"]
 abstract: ""
 featured: false

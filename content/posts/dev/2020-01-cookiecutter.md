@@ -1,6 +1,9 @@
 ---
-title: "2020 01 Cookiecutter"
+title: "Cookiecutter"
+description: Using Cookiecutter to kickstart  R projects
 date: 2020-02-11T10:00:40+01:00
+authors:
+  - C Ager
 tags:
   - cookiecutter
 ---
