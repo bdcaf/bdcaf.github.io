@@ -8,6 +8,9 @@ main:
   - name: Publications
     url: /publication/
     weight: 4
+  - name: About Me
+    url: /authors/c-ager
+    weight: 20 
   - name: Docs
     url: /docs/
     weight: 3
