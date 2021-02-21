@@ -6,5 +6,6 @@
 /* Site Specific */
 @import "assets/css/markdown";
 @import "assets/css/site";
+@import "assets/css/custom";
 /* Tailwind's utility classes - generated based on config file */
 @import "node_modules/tailwindcss/utilities";

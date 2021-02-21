@@ -1,14 +1,14 @@
 baseURL: /
-title: bdcaf
+title: C. Ager
+theme: ghostwriter
 
-# Comment when installing using Hugo Modules
-theme: eureka
-# Uncomment when installing using Hugo Modules
-# theme: github.com/wangchucheng/hugo-eureka
+languageCode: en-us
+pygmentsUseClasses: true
+pygmentsCodefences: true
 
-paginate: 3
+
 copyright: >
-  &copy; {year} Clemens Ager
+  &copy; Clemens Ager
 enableEmoji: true
 enableGitInfo: false
 summaryLength: 75
@@ -21,21 +21,27 @@ defaultContentLanguageInSubdir: false
 markup:
   # Do not modify markup.highlight
   highlight:
-    codeFences: false
-    noClasses: false
-  tableOfContents:
-    startLevel: 2
-    endLevel: 6
-    ordered: false
-  goldmark:
-    renderer:
-      unsafe: true
+    codeFences: true
+    guessSyntax: false
+    hl_Lines: ""
+    lineNoStart: 1
+    lineNos: false
+    lineNumbersInTable: true
+    noClasses: true
+    tabWidth: 2
 
 taxonomies:
   category: categories
   tag: tags
   series: series
-  author: authors
 
 build:
   useResourceCacheWhen: always
+
+privacy:
+  disqus:
+    disable: true
+  googleAnalytics:
+    anonymizeIP: true
+    respectDoNotTrack: true
+    useSessionStorage: false

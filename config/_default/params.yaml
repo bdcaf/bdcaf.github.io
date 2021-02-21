@@ -1,51 +1,31 @@
 mainSections:
-  - posts
-description: Eureka is a elegant and powerful theme for Hugo.
-
-repoURL:
-# If it is a Github repo, leave blank
-repoEditURL:
-
-dateFormat:
-
-titleSeparator:
-
-# Options: auto, light and dark. Default is auto.
-colorScheme:
-
-# E.g. Person, Organization, LocalBusiness, Project, EducationalOrganization
-siteType: Person
-icon: images/icon.png
-publisherName: C. Wang
-publisherLogo:
-
-highlight:
-  handler: highlightjs
-  
-  highlightjs:
-    # highlight.js doesn't bundle every language. So please specify additional languages you want here.
-    # See https://github.com/highlightjs/cdn-release/tree/master/build/languages for available languages.
-    languages:
-      - dart
-    # See https://github.com/highlightjs/cdn-release/tree/master/build/styles for available styles.
-    style: solarized-light
-
-math:
-  handler: katex
-
-  # katex:
-  #   # Browse https://katex.org/docs/options.html to see the options available.
-  #   # KaTeX's Auto-render ignores `displayMode` property of the options, so this property will not work.
-  #   # You can list the key and value you want as below.
-  #   leqno:
-
-comment:
-  # Options: disqus and commento.
-  platform:
-
-  disqus:
-    shortname:
-
-  commento:
-    # If self-hosting, please enter the url (e.g. https://commento.example.com) here. Otherwise leave empty.
-    url:
+  - post
+intro: true
+headline: Clemens' Notes
+description: Personal Blog
+github: "https://github.com/bdcaf"
+#gitlab: "https://gitlab.com/XXX"
+linkedin: "https://www.linkedin.com/in/clemens-ager-1228a295/"
+twitter: "https://twitter.com/c_decaf"
+stackoverflow: "https://stackoverflow.com/users/471614/bdecaf"
+#facebook: "https://www.facebook.com/username"
+email: clemens.ager@gmail.com
+opengraph: true
+shareTwitter: true
+rss: true
+shareFacebook: false
+shareLinkedIn: false
+dateFormat: "Mon, Jan 2, 2006"
+exponeaJsUrl: ""
+exponeaTarget: ""
+exponeaToken: ""
+exponeaTrackVisits: false
+readingTime: true
+readingTimeText: "Estimated reading time:"
+fathomUrl: ""
+fathomSiteId: ""
+# If you want to use plausible(https://plausible.io) for analytics, add this section
+plausibleAnalytics:
+  domain: ""
+  # Default value is plausible.io, overwrite this if you are self-hosting or using a custom domain
+  serverURL: ""

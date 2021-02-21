@@ -1,13 +1,16 @@
-main:
-  - name: About
-    url: '#about'
+ main:
+  - name: Blog
+    url: /
     weight: 1
-  - name: Posts
-    url: /posts/
+  - name: Projects
+    url: /project/
     weight: 2
+  - name: Contact
+    url: /page/contact/
+    weight: 6
+  - name: About
+    url: /page/about/
+    weight: 5
   - name: Publications
     url: /publication/
     weight: 4
-  - name: About Me
-    url: /authors/c-ager
-    weight: 20 
