@@ -2,6 +2,7 @@ mainSections:
   - post
 intro: true
 headline: Clemens' Notes
+subtitle: Clemens' personal blog
 description: Personal Blog
 github: "https://github.com/bdcaf"
 #gitlab: "https://gitlab.com/XXX"
@@ -12,6 +13,10 @@ stackoverflow: "https://stackoverflow.com/users/471614/bdecaf"
 email: clemens.ager@gmail.com
 opengraph: true
 shareTwitter: true
+schema: true
+authorbox: false
+twitter_cards: true # Enable Twitter Cards if true
+readmore: true
 rss: true
 shareFacebook: false
 shareLinkedIn: false
@@ -29,3 +34,43 @@ plausibleAnalytics:
   domain: ""
   # Default value is plausible.io, overwrite this if you are self-hosting or using a custom domain
   serverURL: ""
+customCSS: ["css/custom.css"] # Include custom CSS files
+customJS: ["js/custom.js"]
+
+style:
+  vars:
+    #highlightColor: "#e22d30" # Override highlight color
+    highlightColor: "#900000" # Override highlight color
+
+    # Override font-family sets. Secondary font-family set responsible for pre, code, kbd, and samp tags font
+    # Take care of different quotes OR escaping symbols in these params if necessary
+    fontFamilyPrimary: "'Open Sans', Helvetica, Arial, sans-serif"
+    fontFamilySecondary: "SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace"
+sidebar: 
+  home: "right" # Configure layout for home page
+  list: "left"  # Configure layout for list pages
+  single: false # Configure layout for single pages
+      # Enable widgets in given order
+  widgets: ["search", "recent", "categories", "taglist", "social", "languages"]
+      #     # 
+      #
+      #
+widgets:
+  recent_num: 5 # Set the number of articles in the "Recent articles" widget
+  tags_counter: true
+  tags_mincount: 3
+  social:
+    #facebook: "username"
+    twitter: "c_decaf"
+    #instagram: "username"
+    linkedin: "clemens-ager-1228a295"
+    #telegram: "username"
+    github: "bdcaf"
+    #gitlab: "username"
+    #bitbucket: "username"
+    email: "clemens.ager@gmail.com"
+
+logo:
+  image: "img/placeholder.png" # Logo image. Path relative to "static"
+  title: "bdcaf" # Logo title, otherwise will use site title
+  subtitle: "Clemens' blog" 

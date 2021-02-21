@@ -2,9 +2,6 @@
   - name: Blog
     url: /
     weight: 1
-  - name: Projects
-    url: /project/
-    weight: 2
   - name: Contact
     url: /page/contact/
     weight: 6
