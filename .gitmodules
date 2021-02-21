@@ -4,3 +4,12 @@
 [submodule "themes/eureka"]
 	path = themes/eureka
 	url = https://github.com/wangchucheng/hugo-eureka.git
+[submodule "themes/hugo-vitae"]
+	path = themes/hugo-vitae
+	url = https://github.com/dataCobra/hugo-vitae.git
+[submodule "themes/ghostwriter"]
+	path = themes/ghostwriter
+	url = https://github.com/jbub/ghostwriter
+[submodule "themes/kiera"]
+	path = themes/kiera
+	url = https://github.com/funkydan2/hugo-kiera.git
