@@ -1,9 +1,6 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>blog | bdcaf</title><link>/tags/blog/</link><atom:link href="/tags/blog/index.xml" rel="self" type="application/rss+xml"/><description>blog</description><generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Clemens Ager 2020</copyright><lastBuildDate>Fri, 26 Apr 2019 13:40:24 +0200</lastBuildDate><image><url>img/map[gravatar:%!s(bool=false) shape:circle]</url><title>blog</title><link>/tags/blog/</link></image><item><title>New Project R Hugo Papers</title><link>/post/dev/r-hugo-paperss/</link><pubDate>Fri, 26 Apr 2019 13:40:24 +0200</pubDate><guid>/post/dev/r-hugo-paperss/</guid><description>&lt;p>I started the project
-&lt;a href="https://bdcaf.github.io/r-hugo-papercss-template/" target="_blank" rel="noopener">R-Hugo-Papercss&lt;/a>.&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>blog on bdcaf</title><link>/tags/blog/</link><description>Recent content in blog on bdcaf</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Fri, 26 Apr 2019 13:40:24 +0200</lastBuildDate><atom:link href="/tags/blog/index.xml" rel="self" type="application/rss+xml"/><item><title>New Project R Hugo Papers</title><link>/post/dev/r-hugo-paperss/</link><pubDate>Fri, 26 Apr 2019 13:40:24 +0200</pubDate><guid>/post/dev/r-hugo-paperss/</guid><description>&lt;p>I started the project &lt;a href="https://bdcaf.github.io/r-hugo-papercss-template/">R-Hugo-Papercss&lt;/a>.&lt;/p>
 &lt;p>This is a template for the hugo static site engine. The purpose is to use its page bundle feature with generated content from R. There were small issues to make hugo write the relative URLs.&lt;/p>
-&lt;p>I also uses the
-&lt;a href="https://www.getpapercss.com" target="_blank" rel="noopener">papercss&lt;/a> layout. It seems suitable for a private science blog as it reminds me on the
-&lt;a href="https://en.wikipedia.org/wiki/Randall_Munroe" target="_blank" rel="noopener">Randal Munroe&lt;/a>s XKCD style.&lt;/p>
+&lt;p>I also uses the &lt;a href="https://www.getpapercss.com">papercss&lt;/a> layout. It seems suitable for a private science blog as it reminds me on the &lt;a href="https://en.wikipedia.org/wiki/Randall_Munroe">Randal Munroe&lt;/a>s XKCD style.&lt;/p>
 &lt;p>By now feels complete enough to try out blogging.&lt;/p></description></item><item><title>Zero Axis Video</title><link>/post/2015/2015-11-15_zero/</link><pubDate>Tue, 24 Nov 2015 10:40:57 +0100</pubDate><guid>/post/2015/2015-11-15_zero/</guid><description>&lt;p>Es hat ja jeder die schwierige Diskussion um Axen die bei 0 oder nicht
 0 los gehen. Ich verwende ja meist logarithmische - da spart man sich
 die Diskussion.&lt;/p>
@@ -13,110 +10,11 @@ die Diskussion.&lt;/p>
 &lt;/div>
 &lt;p>Die rücken da die Story in den Vordergrund - das ist ein interessanter
 Gesichtspunkt. Allerdings finde ich fast immer den Kontext ebenso
-wichtig.&lt;/p></description></item><item><title>Humble Peanuts</title><link>/post/2015/2015-11-08_humble/</link><pubDate>Sun, 08 Nov 2015 08:13:14 +0100</pubDate><guid>/post/2015/2015-11-08_humble/</guid><description>&lt;p>Die
-&lt;a href="https://www.humblebundle.com" target="_blank" rel="noopener">Humble Bundles&lt;/a> sind ein interessantes Konzept - es geht darum einer Charity zu spenden und wird dadurch versüßt, dass man mit der Spende gleichzeitig einen Download kauft.
+wichtig.&lt;/p></description></item><item><title>Humble Peanuts</title><link>/post/2015/2015-11-08_humble/</link><pubDate>Sun, 08 Nov 2015 08:13:14 +0100</pubDate><guid>/post/2015/2015-11-08_humble/</guid><description>&lt;p>Die &lt;a href="https://www.humblebundle.com">Humble Bundles&lt;/a> sind ein interessantes Konzept - es geht darum einer Charity zu spenden und wird dadurch versüßt, dass man mit der Spende gleichzeitig einen Download kauft.
 Man kann den Preis für Downloads selbst bestimmen und die angebotenen Downloads sind oft interessante Indie Games oder ebooks.&lt;/p>
-&lt;p>Diese Woche sind zum Beispiel die
-&lt;a href="https://de.wikipedia.org/wiki/Die_Peanuts" target="_blank" rel="noopener">Peanuts&lt;/a> comics im
-&lt;a href="https://www.humblebundle.com/books" target="_blank" rel="noopener">books bundle&lt;/a>. Ich kann sie nur empfehlen. Das letzte Mal hab ich die als Kind gelesen - sie werden aber nur besser.&lt;/p>
+&lt;p>Diese Woche sind zum Beispiel die &lt;a href="https://de.wikipedia.org/wiki/Die_Peanuts">Peanuts&lt;/a> comics im &lt;a href="https://www.humblebundle.com/books">books bundle&lt;/a>. Ich kann sie nur empfehlen. Das letzte Mal hab ich die als Kind gelesen - sie werden aber nur besser.&lt;/p>
 &lt;p>Aus Begeisterung hab ich gleich den Avatar angepasst.&lt;/p></description></item><item><title>Test subjects (xkcd)</title><link>/post/2015/2015-10-23_xkcd/</link><pubDate>Fri, 23 Oct 2015 09:26:13 +0200</pubDate><guid>/post/2015/2015-10-23_xkcd/</guid><description>&lt;p>Wow - xkcd hat einen wundervollen Strip zu Testsubjects.&lt;/p>
 &lt;p>&lt;img src="http://imgs.xkcd.com/comics/human_subjects.png" alt="xkcd strip">&lt;/p>
-&lt;p>
-&lt;a href="http://xkcd.com/1594/" target="_blank" rel="noopener">link out&lt;/a>&lt;/p></description></item><item><title>Bye bye StackOverflow</title><link>/post/2015/2015-10-23_so/</link><pubDate>Fri, 23 Oct 2015 09:08:07 +0200</pubDate><guid>/post/2015/2015-10-23_so/</guid><description>&lt;p>Ich war früher großer Fan von StackOverflow. Auch jetzt wann immer ich ein &lt;em>einfaches&lt;/em> Programmierproblem habe taucht die Seite mit möglichen Lösungen auf.&lt;/p>
-&lt;p>In letzter Zeit hat sich leider die Policy geändert so, dass ich es nicht mehr interessant finde. Vor allem die strengen Relevanzkriterien machen eigentlich alle Fragestellungen die mich ursprünglich interessiert haben Offtopic. Und lassen meiner Meinung nach nur noch Fragen zu die sich mit dem Manual problemlos lösen liesen.&lt;/p></description></item><item><title>Vim for Hugo</title><link>/post/2015/20150927_vim_hugo/</link><pubDate>Sun, 27 Sep 2015 10:47:54 +0200</pubDate><guid>/post/2015/20150927_vim_hugo/</guid><description>&lt;p>Ich verwende ja den Sitegenerator
-&lt;a href="https://gohugo.io" target="_blank" rel="noopener">hugo&lt;/a> für diese Seite. Das herumgewurschtel auf der Kommandozeile ist aber etwas nervig. Daher hab ich ein paar Befehle für Vim geschrieben um es etwas schmerzfreier zu machen. Soweit ist es aber noch etwas schmerzhaft.&lt;/p>
-&lt;p>Auf der Anleitung
-&lt;a href="http://www.thegeekstuff.com/2008/12/vi-and-vim-autocommand-3-steps-to-add-custom-header-to-your-file/" target="_blank" rel="noopener">vi and vim autocommand&lt;/a> hab ich ein paar Ideen gefunden.&lt;/p>
-&lt;p>Für die &lt;code>vimrc&lt;/code> hab ich nun folgendes autocmd entwickelt:&lt;/p>
-&lt;pre>&lt;code>augroup hugo
-autocmd!
-autocmd bufnewfile ~/Documents/Sites/c1891011/content/**/*.md so ~/Documents/Sites/c1891011/private/post_temp.md
-\ | exe &amp;quot;2,7&amp;quot; . 'g/^title = .*$/s//title = &amp;quot;' . expand(&amp;quot;%:t:r&amp;quot;) . '&amp;quot;'
-\ | exe &amp;quot;2,7&amp;quot; . 'g/^date =.*$/s//date = &amp;quot;' .strftime(&amp;quot;%FT%T%z&amp;quot;) .'&amp;quot;'
-\ | exe &amp;quot;2,7&amp;quot; . 'g/^date =/s/\(+\d\{2\}\):\?\(\d\{2\}\)/\1:\2/'
-augroup END
-&lt;/code>&lt;/pre>
-&lt;p>Wobei das Template &lt;code>private/post_temp.md&lt;/code> wie folgt aussieht:&lt;/p>
-&lt;pre>&lt;code>:insert
-+++
-Categories = []
-Description = &amp;quot;&amp;quot;
-Tags = [&amp;quot;blog&amp;quot;]
-date = &amp;quot;insert Date here&amp;quot;
-title = &amp;quot;MyTitle&amp;quot;
-+++
-.
-&lt;/code>&lt;/pre>
-&lt;p>Wenn ich nun &lt;code>:e content/post/hello.md&lt;/code> ein Post erstelle wird eine
-Datei erstellt wie ich vorher mit &lt;code>!hugo new post/hello.md&lt;/code> erhalten
-habe.&lt;/p>
-&lt;p>Ganz glücklich bin ich noch nicht - ich hätte gerne eine Funktion die
-den Dateinamen so verändert, dass er mit dem jeweiligen Datum beginnt.
-Auch sollte ich so Sachen wie das
-Blogverzeichnis (&lt;code>~/Documents/Sites/c1891011&lt;/code>) und den Bereich (&lt;code>2,7&lt;/code>) nicht fest eincoden.&lt;/p>
-&lt;p>Aber eins nach dem anderen. In ferner Zukunft wird vielleicht mal ein
-Packet daraus.&lt;/p></description></item><item><title>Bilder von der Breath Vienna</title><link>/post/2015/20150920_bilder_breathvienna/</link><pubDate>Thu, 17 Sep 2015 11:32:05 +0200</pubDate><guid>/post/2015/20150920_bilder_breathvienna/</guid><description>&lt;p>Einige Impressionen von der
-&lt;a href="http://breathvienna.at" target="_blank" rel="noopener"> BreathVienna &lt;/a> Konferenz.&lt;/p>
-&lt;figure>
-&lt;a data-fancybox="" href="/~c1891011/photo/2015_breathvienna/DSC_0101.jpg" data-caption="Prof. Buszewski and Pawel">
-&lt;img src="/~c1891011/photo/2015_breathvienna/DSC_0101.jpg" alt="" >
-&lt;/a>
-&lt;figcaption>
-Prof. Buszewski and Pawel
-&lt;/figcaption>
-&lt;/figure>
-&lt;figure>
-&lt;a data-fancybox="" href="/~c1891011/photo/2015_breathvienna/DSC_0104.jpg" data-caption="Prof. Buszewski and Wojtek">
-&lt;img src="/~c1891011/photo/2015_breathvienna/DSC_0104.jpg" alt="" >
-&lt;/a>
-&lt;figcaption>
-Prof. Buszewski and Wojtek
-&lt;/figcaption>
-&lt;/figure>
-&lt;figure>
-&lt;a data-fancybox="" href="/~c1891011/photo/2015_breathvienna/DSC_0106.jpg" data-caption="Karl und Julian">
-&lt;img src="/~c1891011/photo/2015_breathvienna/DSC_0106.jpg" alt="" >
-&lt;/a>
-&lt;figcaption>
-Karl und Julian
-&lt;/figcaption>
-&lt;/figure>
-&lt;figure>
-&lt;a data-fancybox="" href="/~c1891011/photo/2015_breathvienna/DSC_0112.jpg" >
-&lt;img src="/~c1891011/photo/2015_breathvienna/DSC_0112.jpg" alt="" >
-&lt;/a>
-&lt;/figure>
-&lt;figure>
-&lt;a data-fancybox="" href="/~c1891011/photo/2015_breathvienna/DSC_0117.jpg" >
-&lt;img src="/~c1891011/photo/2015_breathvienna/DSC_0117.jpg" alt="" >
-&lt;/a>
-&lt;/figure>
-&lt;figure>
-&lt;a data-fancybox="" href="/~c1891011/photo/2015_breathvienna/DSC_0124.jpg" >
-&lt;img src="/~c1891011/photo/2015_breathvienna/DSC_0124.jpg" alt="" >
-&lt;/a>
-&lt;/figure>
-&lt;figure>
-&lt;a data-fancybox="" href="/~c1891011/photo/2015_breathvienna/DSC_0135.jpg" data-caption="Nach der Tour">
-&lt;img src="/~c1891011/photo/2015_breathvienna/DSC_0135.jpg" alt="" >
-&lt;/a>
-&lt;figcaption>
-Nach der Tour
-&lt;/figcaption>
-&lt;/figure>
-&lt;figure>
-&lt;a data-fancybox="" href="/~c1891011/photo/2015_breathvienna/DSC_0138.jpg" >
-&lt;img src="/~c1891011/photo/2015_breathvienna/DSC_0138.jpg" alt="" >
-&lt;/a>
-&lt;/figure>
-&lt;figure>
-&lt;a data-fancybox="" href="/~c1891011/photo/2015_breathvienna/DSC_0145.jpg" >
-&lt;img src="/~c1891011/photo/2015_breathvienna/DSC_0145.jpg" alt="" >
-&lt;/a>
-&lt;/figure>
-&lt;figure>
-&lt;a data-fancybox="" href="/~c1891011/photo/2015_breathvienna/DSC_0146.jpg" >
-&lt;img src="/~c1891011/photo/2015_breathvienna/DSC_0146.jpg" alt="" >
-&lt;/a>
-&lt;/figure></description></item><item><title>nicht mehr ganz peinlich</title><link>/post/2015/2015-07-12_not_too_bad/</link><pubDate>Sun, 12 Jul 2015 11:33:34 +0200</pubDate><guid>/post/2015/2015-07-12_not_too_bad/</guid><description>&lt;p>Die Seite nimmt langsam gestalt an. Ist nicht mehr ganz peinlich hoffe
-ich kann sie bald hochladen.&lt;/p></description></item><item><title>Aller Anfang ist schwer</title><link>/post/configuring_is_hard/</link><pubDate>Sat, 11 Jul 2015 13:27:52 +0200</pubDate><guid>/post/configuring_is_hard/</guid><description>&lt;p>Die erste Konfiguration ist noch ganz mühsam!&lt;/p></description></item></channel></rss>
+&lt;p>&lt;a href="http://xkcd.com/1594/">link out&lt;/a>&lt;/p></description></item><item><title>Bye bye StackOverflow</title><link>/post/2015/2015-10-23_so/</link><pubDate>Fri, 23 Oct 2015 09:08:07 +0200</pubDate><guid>/post/2015/2015-10-23_so/</guid><description>&lt;p>Ich war früher großer Fan von StackOverflow. Auch jetzt wann immer ich ein &lt;em>einfaches&lt;/em> Programmierproblem habe taucht die Seite mit möglichen Lösungen auf.&lt;/p>
+&lt;p>In letzter Zeit hat sich leider die Policy geändert so, dass ich es nicht mehr interessant finde. Vor allem die strengen Relevanzkriterien machen eigentlich alle Fragestellungen die mich ursprünglich interessiert haben Offtopic. Und lassen meiner Meinung nach nur noch Fragen zu die sich mit dem Manual problemlos lösen liesen.&lt;/p></description></item><item><title>Vim for Hugo</title><link>/post/2015/20150927_vim_hugo/</link><pubDate>Sun, 27 Sep 2015 10:47:54 +0200</pubDate><guid>/post/2015/20150927_vim_hugo/</guid><description>&lt;p>Ich verwende ja den Sitegenerator &lt;a href="https://gohugo.io">hugo&lt;/a> für diese Seite. Das herumgewurschtel auf der Kommandozeile ist aber etwas nervig. Daher hab ich ein paar Befehle für Vim geschrieben um es etwas schmerzfreier zu machen. Soweit ist es aber noch etwas schmerzhaft.&lt;/p>
+&lt;p>Auf der Anleitung &lt;a href="http://www.thegeekstuff.com/2008/12/vi-and-vim-autocommand-3-steps-to-add-custom-header-to-your-file/">vi and vim autocommand&lt;/a> hab ich ein paar Ideen gefunden.&lt;/p></description></item><item><title>Bilder von der Breath Vienna</title><link>/post/2015/20150920_bilder_breathvienna/</link><pubDate>Thu, 17 Sep 2015 11:32:05 +0200</pubDate><guid>/post/2015/20150920_bilder_breathvienna/</guid><description>&lt;p>Einige Impressionen von der &lt;a href="http://breathvienna.at"> BreathVienna &lt;/a> Konferenz.&lt;/p></description></item><item><title>nicht mehr ganz peinlich</title><link>/post/2015/2015-07-12_not_too_bad/</link><pubDate>Sun, 12 Jul 2015 11:33:34 +0200</pubDate><guid>/post/2015/2015-07-12_not_too_bad/</guid><description>Die Seite nimmt langsam gestalt an. Ist nicht mehr ganz peinlich hoffe ich kann sie bald hochladen.</description></item><item><title>Aller Anfang ist schwer</title><link>/post/configuring_is_hard/</link><pubDate>Sat, 11 Jul 2015 13:27:52 +0200</pubDate><guid>/post/configuring_is_hard/</guid><description>Die erste Konfiguration ist noch ganz mühsam!</description></item></channel></rss>

@@ -1,82 +1,13 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>site | bdcaf</title><link>/categories/site/</link><atom:link href="/categories/site/index.xml" rel="self" type="application/rss+xml"/><description>site</description><generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Clemens Ager 2020</copyright><lastBuildDate>Sun, 24 Feb 2019 21:07:24 +0100</lastBuildDate><image><url>img/map[gravatar:%!s(bool=false) shape:circle]</url><title>site</title><link>/categories/site/</link></image><item><title>Grid Layout for Site</title><link>/post/site/2019_layout/</link><pubDate>Sun, 24 Feb 2019 21:07:24 +0100</pubDate><guid>/post/site/2019_layout/</guid><description>&lt;p>Recently some html and css videos caught my attention.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>site on bdcaf</title><link>/categories/site/</link><description>Recent content in site on bdcaf</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 22 Feb 2021 09:56:41 +0100</lastBuildDate><atom:link href="/categories/site/index.xml" rel="self" type="application/rss+xml"/><item><title>Layout for the new year</title><link>/post/site/2021_new/</link><pubDate>Mon, 22 Feb 2021 09:56:41 +0100</pubDate><guid>/post/site/2021_new/</guid><description>&lt;p>I didn&amp;rsquo;t blog much over the past year.
+But having some time in the February break it was time to take this blog to 2021.&lt;/p></description></item><item><title>Grid Layout for Site</title><link>/post/site/2019_layout/</link><pubDate>Sun, 24 Feb 2019 21:07:24 +0100</pubDate><guid>/post/site/2019_layout/</guid><description>&lt;p>Recently some html and css videos caught my attention.
 I started reworking the layout using the new practices I learnt.
 Hope they will still work fine.&lt;/p>
 &lt;p>In particular I found the videos by Jen Simmons inspiring.&lt;/p>
 &lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
 &lt;iframe src="https://www.youtube.com/embed/tFKrK4eAiUQ" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
 &lt;/div></description></item><item><title>Mass editing tags</title><link>/post/site/mass_editing_tags/</link><pubDate>Thu, 14 Jun 2018 08:42:28 +0200</pubDate><guid>/post/site/mass_editing_tags/</guid><description>&lt;p>Having read some about the
-&lt;a href="https://github.com/rstudio/blogdown" target="_blank" rel="noopener">blogdown&lt;/a> package I thought I
+&lt;a href="https://github.com/rstudio/blogdown">blogdown&lt;/a> package I thought I
 could cleanup my site some more.&lt;/p>
-&lt;p>I came up with some scripts to clean up tags.&lt;/p>
-&lt;p>Within R I could use some of the new functionality.&lt;/p>
-&lt;pre>&lt;code>a &amp;lt;- blogdown:::collect_yaml()
-&lt;/code>&lt;/pre>
-&lt;p>would give me a nice list of my categories and tags.&lt;/p>
-&lt;p>First I would check how many files would use the offending
-tags. I use
-&lt;a href="https://github.com/BurntSushi/ripgrep" target="_blank" rel="noopener">ripgrep&lt;/a> for my
-searches. To avoid replacements inside text I chose to use a regexp
-as search expression. In my case that avoided all collisions.&lt;/p>
-&lt;pre>&lt;code>rg '^- offending'
-&lt;/code>&lt;/pre>
-&lt;p>Then if it&amp;rsquo;s just one or two I can edit them. Just a warning I use
-fish and neovim - so adjust accordingly.&lt;/p>
-&lt;pre>&lt;code>nvim (rg '^- offending')
-&lt;/code>&lt;/pre>
-&lt;p>To correct spelling I did replacements like this:&lt;/p>
-&lt;pre>&lt;code>rg '^\W*- maths$' --files-with-matches | xargs sed -i '' 's/^\( *- *\) maths$/\1math/g'
-&lt;/code>&lt;/pre>
-&lt;p>annoyingly macs &lt;code>sed&lt;/code> did not support the &lt;code>\s&lt;/code> pattern.&lt;/p>
-&lt;p>Fully removing a tag was done so:&lt;/p>
-&lt;pre>&lt;code>rg '^- Allgemein' --files-with-matches | xargs sed -i '' '/^- Allgemein/d'
-&lt;/code>&lt;/pre>
-&lt;p>I think soon I will move stuff in subfolders. For now this shouldn&amp;rsquo;t
-be problematic as there are almost no files in the data folder. Also
-I still have unresolved links to images in the old imports. But
-that&amp;rsquo;s for another day.&lt;/p>
-&lt;h3 id="trouble-shooting">trouble shooting&lt;/h3>
-&lt;p>I soon ended up having errors about empty section lists.
-Unfortunately it turned out too many. And ripgrep wouldn&amp;rsquo;t match
-multiline patterns. So time to also use the (slower)
-&lt;a href="https://github.com/ggreer/the_silver_searcher" target="_blank" rel="noopener">silver searcher&lt;/a>.&lt;/p>
-&lt;pre>&lt;code>ag -l &amp;quot;^categories:\n--&amp;quot; | xargs sed -i -e '/^categories:/d'
-ag -l &amp;quot;^categories:\n[^ -]&amp;quot; | xargs sed -i -e '/^categories:/d'
-&lt;/code>&lt;/pre>
-&lt;p>would delete the empty categories.&lt;/p>
-&lt;h4 id="cases">cases&amp;hellip;&lt;/h4>
-&lt;p>It was a bit tricky as the page of tags showed them all in lower case - and I could locate them nicely using &lt;code>rg -i&lt;/code> - however mac os &lt;code>sed&lt;/code>
-was not able to ignore cases in patterns.&lt;/p></description></item><item><title>Github pages</title><link>/post/todayilearnt/2018-move/</link><pubDate>Mon, 29 Jan 2018 10:49:51 +0100</pubDate><guid>/post/todayilearnt/2018-move/</guid><description>&lt;p>Now this site is on
-&lt;a href="https://pages.github.com" target="_blank" rel="noopener">github pages&lt;/a>.&lt;br>
-I had already repos on github for some time and trusted it - only
-private repos I keep on other places. But mostly I was
-missing some features a bplaced so now the move. Mostly I like that I
-can now post new content via git so I just need to transfer new posts
-and not the whole site. That now the site is &lt;code>https&lt;/code> secured is a
-nice boon.&lt;/p>
-&lt;p>It took me some time to reconfigure my
-&lt;a href="https://gohugo.io" target="_blank" rel="noopener">hugo&lt;/a> blog for the pages here&amp;rsquo;s what I learnt:&lt;/p>
-&lt;ul>
-&lt;li>the name of the repo must be &lt;code>username.github.io&lt;/code> - at first I had
-the impression &lt;code>username&lt;/code> was enough, and also some guides would
-describe how to use gitlab instead.&lt;/li>
-&lt;li>for me github insists publishing the &lt;code>master&lt;/code> branch - so I had to
-juggle around, the previous master got renamed to hugo doing: &lt;code>git branch -m master hugo&lt;/code>. I had already ignored the &lt;code>public&lt;/code>
-directory, and had to delete the original master from online and
-recreate it empty - but I think one can streamline that.
-Then added the master using worktree in public: &lt;code>git worktree add -B master public origin/master&lt;/code>&lt;/li>
-&lt;li>the url in &lt;code>config.toml&lt;/code> should be &lt;code>https://username.github.io/&lt;/code> -
-notice the trailing slash.&lt;/li>
-&lt;li>I can then use the &lt;code>hugo&lt;/code> command to build my site. And publish
-using &lt;code>cd public; git add . ; git commit -am pub; git push; cd ..&lt;/code> - I&amp;rsquo;m in
-&lt;a href="https://fishshell.com" target="_blank" rel="noopener">fish&lt;/a> - many others use &lt;code>&amp;amp;&amp;amp;&lt;/code> instead.&lt;/li>
-&lt;li>I tried putting my binaries under &lt;code>git lfs&lt;/code> - so far it seems to
-work. I will write back in case anything shows up.&lt;/li>
-&lt;li>It takes a minute till the change shows up. So I need to be
-patient.&lt;/li>
-&lt;/ul>
-&lt;p>So there we are on github now&amp;hellip;&lt;/p></description></item><item><title>Move from uibk home pages</title><link>/post/2017/2017-07-14_uibkexodus/</link><pubDate>Tue, 13 Jun 2017 18:00:00 +0100</pubDate><guid>/post/2017/2017-07-14_uibkexodus/</guid><description>&lt;p>So the university is shutting down the personal home pages.
-Well it&amp;rsquo;s no big deal, though it was helpful that there was a
-server that would accept ssh connections.&lt;/p>
-&lt;p>Now I&amp;rsquo;m experimenting with the free tier of
-&lt;a href="http://www.bplaced.net" target="_blank" rel="noopener">bplaced&lt;/a>. Which is basic but
-should suffice for my plain text pages.&lt;/p></description></item></channel></rss>
+&lt;p>I came up with some scripts to clean up tags.&lt;/p></description></item><item><title>Github pages</title><link>/post/todayilearnt/2018-move/</link><pubDate>Mon, 29 Jan 2018 10:49:51 +0100</pubDate><guid>/post/todayilearnt/2018-move/</guid><description>Now this site is on github pages.
+I had already repos on github for some time and trusted it - only private repos I keep on other places. But mostly I was missing some features a bplaced so now the move. Mostly I like that I can now post new content via git so I just need to transfer new posts and not the whole site. That now the site is https secured is a nice boon.</description></item><item><title>Move from uibk home pages</title><link>/post/2017/2017-07-14_uibkexodus/</link><pubDate>Tue, 13 Jun 2017 18:00:00 +0100</pubDate><guid>/post/2017/2017-07-14_uibkexodus/</guid><description>So the university is shutting down the personal home pages. Well it&amp;rsquo;s no big deal, though it was helpful that there was a server that would accept ssh connections.
+Now I&amp;rsquo;m experimenting with the free tier of bplaced. Which is basic but should suffice for my plain text pages.</description></item></channel></rss>

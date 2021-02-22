@@ -1,98 +1,25 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>mac | bdcaf</title><link>/tags/mac/</link><atom:link href="/tags/mac/index.xml" rel="self" type="application/rss+xml"/><description>mac</description><generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Clemens Ager 2020</copyright><lastBuildDate>Tue, 05 Feb 2019 10:58:41 +0100</lastBuildDate><image><url>img/map[gravatar:%!s(bool=false) shape:circle]</url><title>mac</title><link>/tags/mac/</link></image><item><title>Configuring Syncthing on Mac Server</title><link>/post/mac/syncthing/</link><pubDate>Tue, 05 Feb 2019 10:58:41 +0100</pubDate><guid>/post/mac/syncthing/</guid><description>&lt;p>
-&lt;a href="https://syncthing.net" target="_blank" rel="noopener">Syncthing&lt;/a> is currently my preferred tool to
-keep folders in sync. Previously I had affairs with
-&lt;a href="https://git-annex.branchable.com" target="_blank" rel="noopener">git
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>mac on bdcaf</title><link>/tags/mac/</link><description>Recent content in mac on bdcaf</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 05 Feb 2019 10:58:41 +0100</lastBuildDate><atom:link href="/tags/mac/index.xml" rel="self" type="application/rss+xml"/><item><title>Configuring Syncthing on Mac Server</title><link>/post/mac/syncthing/</link><pubDate>Tue, 05 Feb 2019 10:58:41 +0100</pubDate><guid>/post/mac/syncthing/</guid><description>&lt;p>&lt;a href="https://syncthing.net">Syncthing&lt;/a> is currently my preferred tool to
+keep folders in sync. Previously I had affairs with &lt;a href="https://git-annex.branchable.com">git
 annex&lt;/a>, and
-&lt;a href="https://rsync.samba.org" target="_blank" rel="noopener">rsync&lt;/a> scripts.&lt;/p>
+&lt;a href="https://rsync.samba.org">rsync&lt;/a> scripts.&lt;/p>
 &lt;p>Recently I reactivated a 2009 Mac Mini as headless server under El
-Capitan.
-&lt;a href="https://brew.sh" target="_blank" rel="noopener">Homebrew&lt;/a> is the tool of choice - it
-complains a little about the old OS but things work out nicely.&lt;/p>
-&lt;h2 id="hard-drives-not-being-mounted">hard drives not being mounted&lt;/h2>
-&lt;p>However the first issue was that the drives would not be mounted
-without a user logging in. I was able to find following
-&lt;a href="https://gist.github.com/jabenninghoff/f13f81c286e914c48942f973f5d15819" target="_blank" rel="noopener">snippet&lt;/a>:&lt;/p>
-&lt;pre>&lt;code>sudo defaults write /Library/Preferences/SystemConfiguration/autodiskmount AutomountDisksWithoutUserLogin -bool true
-&lt;/code>&lt;/pre>
-&lt;h2 id="syncthing-not-starting">syncthing not starting&lt;/h2>
-&lt;p>Homebrew documents how the get syncthing started for a user. However
-again this would mean someone would need to login before things get
-going. I was able to resolve this by moving the installed plist from
-&lt;code>~/Library/LaunchAgents/&lt;/code> to &lt;code>/Library/LaunchDaemons/&lt;/code> and adding the
-entry:&lt;/p>
-&lt;pre>&lt;code> &amp;lt;key&amp;gt;UserName&amp;lt;/key&amp;gt;
-&amp;lt;string&amp;gt;myuser&amp;lt;/string&amp;gt;
-&lt;/code>&lt;/pre>
-&lt;p>So it would finally launch.&lt;/p>
-&lt;h2 id="syncthing-launching-before-harddrive">syncthing launching before harddrive&lt;/h2>
-&lt;p>However it turned out it would launch syncthing &lt;em>before&lt;/em> the external
-drive was ready so syncthing would spew errors and not sync without
-interaction.&lt;/p>
-&lt;p>I was not able to solve this within the plist so I created a quick
-shellscript that would sleep until the drive was ready:&lt;/p>
-&lt;pre>&lt;code>#!/bin/sh
-SYNCDRIVE='/Volumes/Media/'
-while [ ! -d &amp;quot;$SYNCDRIVE&amp;quot; ]; do
-sleep 10
-done
-/usr/local/opt/syncthing/bin/syncthing -no-browser -no-restart
-&lt;/code>&lt;/pre>
-&lt;h2 id="firewall">firewall&lt;/h2>
-&lt;p>After all this it was still not syncing. Being on a headless machine
-I haven&amp;rsquo;t gotten the firewall warning. So the final step was easy to
-allow &lt;code>syncthing&lt;/code> getting connections.&lt;/p>
-&lt;h2 id="ssh">ssh&lt;/h2>
-&lt;p>Last thing was getting things to work was to get to sync through an
-ssh tunnel. There is a
-&lt;a href="https://docs.syncthing.net/users/tunneling.html" target="_blank" rel="noopener">good
-description&lt;/a> however
-I made the mistake to skim the last port number. Turns out in the
-last command they leave one digit away so search all the ports. Once
-fixing to &lt;code>22000&lt;/code> all syncing starts/&lt;/p>
-&lt;h3 id="on-my-current-decisions">on my current decisions&lt;/h3>
-&lt;p>With annex I continuously had problems that my repos wouldn&amp;rsquo;t merge
-nicely. Also although it is under active development the
-documentation is difficult to read - many examples on the site are 5
-years or older, which makes it difficult to realise which apply to the
-current version. I just never managed to get it sync automatically.
-Rsync always had to be run to check for changes. Since it has to
-rescan the remote files it always takes some extra toll. This is
-great for some tasks. But for my application where I control all
-endpoints it was unnecessary.&lt;/p>
-&lt;p>My machine wouldn&amp;rsquo;t run the latest Mac OS so I had to choose El Capitan.
-Instead of Mac OS I also experimented with Ubuntu linux.
-Linux would offer me all the latest versions and installed nicely.
-Unfortunately I quickly ran into troubles - updating was not as smooth
-as I am used to. Every other time I had to tweak GRUB as the machine
-would not boot. Also I noticed I was not able to use all of the
-hardware. The most problematic was power management as I didn&amp;rsquo;t want
-the machine to burn its cupboard. But I also was unable to get the
-graphics card and more than one CPU core working. Searching the
-internet led me to believe this is a common trouble. But maybe in a
-few years when El Capitan no longer gets security patches I will
-change.&lt;/p></description></item><item><title>Crossover</title><link>/post/mac/crossover/</link><pubDate>Mon, 19 Nov 2018 13:42:33 +0100</pubDate><guid>/post/mac/crossover/</guid><description>&lt;p>Just recently got my hand on
-&lt;a href="https://www.codeweavers.com/products/crossover-mac" target="_blank" rel="noopener">Crossover&lt;/a>. It&amp;rsquo;s
-essentially the commercially supported
-&lt;a href="https://www.winehq.org" target="_blank" rel="noopener">wine&lt;/a>.
+Capitan. &lt;a href="https://brew.sh">Homebrew&lt;/a> is the tool of choice - it
+complains a little about the old OS but things work out nicely.&lt;/p></description></item><item><title>Crossover</title><link>/post/mac/crossover/</link><pubDate>Mon, 19 Nov 2018 13:42:33 +0100</pubDate><guid>/post/mac/crossover/</guid><description>&lt;p>Just recently got my hand on
+&lt;a href="https://www.codeweavers.com/products/crossover-mac">Crossover&lt;/a>. It&amp;rsquo;s
+essentially the commercially supported &lt;a href="https://www.winehq.org">wine&lt;/a>.
 I am impressed how polished things feel nowadays. I
 gave it usually &lt;em>problematic&lt;/em> scientific programs like the TofDaqViewer from
-Ionicon and the Nist library and it produced nicely running libraries.&lt;/p>
-&lt;p>Any how I should note that for TofDaqViewer one needs to mark the
-checkbox that it should end its recorder process.&lt;/p></description></item><item><title>Rescuing my PDF presentation on mac</title><link>/post/links/pdf_presentation_rescue/</link><pubDate>Tue, 29 May 2018 10:44:19 +0200</pubDate><guid>/post/links/pdf_presentation_rescue/</guid><description>&lt;p>(tldr;) use
-&lt;a href="https://www.cs.hmc.edu/~oneill/freesoftware/pdftokeynote.html" target="_blank" rel="noopener">PDF to
+Ionicon and the Nist library and it produced nicely running libraries.&lt;/p></description></item><item><title>Rescuing my PDF presentation on mac</title><link>/post/links/pdf_presentation_rescue/</link><pubDate>Tue, 29 May 2018 10:44:19 +0200</pubDate><guid>/post/links/pdf_presentation_rescue/</guid><description>&lt;p>(tldr;) use &lt;a href="https://www.cs.hmc.edu/~oneill/freesoftware/pdftokeynote.html">PDF to
 Keynote&lt;/a> to convert a tex presentation for convenient presenting.&lt;/p>
 &lt;p>I did have a presentation on my PhDs topic last week. Took me some
 collecting data from recent paper drafts and old slides to create
 something polished.&lt;/p>
-&lt;p>As you would expect I prepared the presentation in
-&lt;a href="https://github.com/josephwright/beamer" target="_blank" rel="noopener">beamer latex&lt;/a>. I found the
-&lt;a href="https://github.com/matze/mtheme" target="_blank" rel="noopener">metropolis template&lt;/a> to my liking.&lt;/p>
+&lt;p>As you would expect I prepared the presentation in &lt;a href="https://github.com/josephwright/beamer">beamer latex&lt;/a>. I found the &lt;a href="https://github.com/matze/mtheme">metropolis template&lt;/a> to my liking.&lt;/p>
 &lt;p>Great was my shock as the slides would show up blurry in full screen -
 well for the first second - and then &amp;ldquo;jump&amp;rdquo; to nicely rendered. I
 tried in Preview as well as Skim. They would render nicely but still
 slow in Acrobat Reader - however I don&amp;rsquo;t like that one.&lt;/p>
-&lt;p>On the last day I found my lifesaver:
-&lt;a href="https://www.cs.hmc.edu/~oneill/freesoftware/pdftokeynote.html" target="_blank" rel="noopener">PDF to
+&lt;p>On the last day I found my lifesaver: &lt;a href="https://www.cs.hmc.edu/~oneill/freesoftware/pdftokeynote.html">PDF to
 Keynote&lt;/a>.
 Not only would it transfer my slides into sharp images, I then could
 also use the fancy Keynote controls and the moderator screen for

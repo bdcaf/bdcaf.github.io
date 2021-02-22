@@ -1,20 +1,2 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>make | bdcaf</title><link>/tags/make/</link><atom:link href="/tags/make/index.xml" rel="self" type="application/rss+xml"/><description>make</description><generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Clemens Ager 2020</copyright><lastBuildDate>Sun, 05 Nov 2017 08:51:41 +0100</lastBuildDate><image><url>img/map[gravatar:%!s(bool=false) shape:circle]</url><title>make</title><link>/tags/make/</link></image><item><title>Makey Makey</title><link>/post/2017/2017-11-05_makeymakey/</link><pubDate>Sun, 05 Nov 2017 08:51:41 +0100</pubDate><guid>/post/2017/2017-11-05_makeymakey/</guid><description>&lt;p>I am quite confident using &lt;code>make&lt;/code> to create complex reports.
-As I dig into &lt;code>R&lt;/code> I see they have an
-&lt;a href="http://r-pkgs.had.co.nz" target="_blank" rel="noopener">interesting work flow
-creating packages&lt;/a>. It addresses a
-few important issues - tracking dependent packages,
-documenting stuff and testing. Most important packaging and
-installing on other systems can be done automatically using
-a single command. I want that.&lt;/p>
-&lt;p>I found &lt;code>Makefiles&lt;/code> mentioned several times included in the
-documentation - but so far haven&amp;rsquo;t figured out how they are
-supposed to be used. Eventually I decided to experiment
-with an own project
-&lt;a href="https://github.com/bdcaf/vignetteEngineMake" target="_blank" rel="noopener">vignetteBuilderMake&lt;/a>.
-It is not supposed to change anything in the core R package
-process however it is intended to build vignettes using
-&lt;code>make&lt;/code> while still allowing the nice features of the package
-tools.&lt;/p>
-&lt;p>Feel free to try it out. A word of warning, once I
-understand the process better I hope I can make a better
-suited package.&lt;/p></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>make on bdcaf</title><link>/tags/make/</link><description>Recent content in make on bdcaf</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sun, 05 Nov 2017 08:51:41 +0100</lastBuildDate><atom:link href="/tags/make/index.xml" rel="self" type="application/rss+xml"/><item><title>Makey Makey</title><link>/post/2017/2017-11-05_makeymakey/</link><pubDate>Sun, 05 Nov 2017 08:51:41 +0100</pubDate><guid>/post/2017/2017-11-05_makeymakey/</guid><description>I am quite confident using make to create complex reports. As I dig into R I see they have an interesting work flow creating packages. It addresses a few important issues - tracking dependent packages, documenting stuff and testing. Most important packaging and installing on other systems can be done automatically using a single command. I want that.
+I found Makefiles mentioned several times included in the documentation - but so far haven&amp;rsquo;t figured out how they are supposed to be used.</description></item></channel></rss>

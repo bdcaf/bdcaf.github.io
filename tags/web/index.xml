@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>web | bdcaf</title><link>/tags/web/</link><atom:link href="/tags/web/index.xml" rel="self" type="application/rss+xml"/><description>web</description><generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Clemens Ager 2020</copyright><lastBuildDate>Fri, 03 Aug 2018 12:13:16 +0200</lastBuildDate><image><url>img/map[gravatar:%!s(bool=false) shape:circle]</url><title>web</title><link>/tags/web/</link></image><item><title>Publii</title><link>/post/links/publii/</link><pubDate>Fri, 03 Aug 2018 12:13:16 +0200</pubDate><guid>/post/links/publii/</guid><description>&lt;p>I was quite happy to find the graphical tool
-&lt;a href="https://getpublii.com/" target="_blank" rel="noopener">publii&lt;/a> for building statical sites.&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>web on bdcaf</title><link>/tags/web/</link><description>Recent content in web on bdcaf</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Fri, 03 Aug 2018 12:13:16 +0200</lastBuildDate><atom:link href="/tags/web/index.xml" rel="self" type="application/rss+xml"/><item><title>Publii</title><link>/post/links/publii/</link><pubDate>Fri, 03 Aug 2018 12:13:16 +0200</pubDate><guid>/post/links/publii/</guid><description>&lt;p>I was quite happy to find the graphical tool
+&lt;a href="https://getpublii.com/">publii&lt;/a> for building statical sites.&lt;/p>
 &lt;p>Many people still use Wordpress and the like to publish their blog. I
 don&amp;rsquo;t like Wordpress as it requires to run PHP on the server meaning
 it offers a quite large attack surface.&lt;/p>
@@ -8,7 +8,6 @@ down on JavaScript and other external resources and gives me
 the peace of mind that I don&amp;rsquo;t need to worry about updating a
 Wordpress installation.&lt;/p>
 &lt;p>However the tool of
-my choice,
-&lt;a href="https://gohugo.io" target="_blank" rel="noopener">Hugo&lt;/a> is a bit technical. Now with
-&lt;a href="https://getpublii.com/" target="_blank" rel="noopener">publii&lt;/a> there is something that I might
+my choice, &lt;a href="https://gohugo.io">Hugo&lt;/a> is a bit technical. Now with
+&lt;a href="https://getpublii.com/">publii&lt;/a> there is something that I might
 suggest command line muggles.&lt;/p></description></item></channel></rss>

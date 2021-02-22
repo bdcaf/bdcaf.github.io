@@ -1,29 +1,3 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>space | bdcaf</title><link>/tags/space/</link><atom:link href="/tags/space/index.xml" rel="self" type="application/rss+xml"/><description>space</description><generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Clemens Ager 2020</copyright><lastBuildDate>Sat, 27 Jan 2018 14:50:00 +0100</lastBuildDate><image><url>img/map[gravatar:%!s(bool=false) shape:circle]</url><title>space</title><link>/tags/space/</link></image><item><title>Kerbal Space Program</title><link>/post/links/kerbal/</link><pubDate>Sat, 27 Jan 2018 14:50:00 +0100</pubDate><guid>/post/links/kerbal/</guid><description>&lt;p>These days I started up
-&lt;a href="https://kerbalspaceprogram.com/en/" target="_blank" rel="noopener">Kerbal Space
-Program&lt;/a>. It is a space game
-where you construct your own vehicles and explore the solar system.
-As physics games go it is amazing.&lt;/p>
-&lt;p>Unless you carefully plan out maneuvers they will lead to disaster -
-which is often also hilarious to watch play out. Even getting into
-orbit is a challenge in the beginning.&lt;/p>
-&lt;figure>
-&lt;a data-fancybox="" href="/post/links/2018-01-kerbal.jpg" data-caption="My first Mun landing without breaking stuff.">
-&lt;img src="/post/links/2018-01-kerbal.jpg" alt="" >
-&lt;/a>
-&lt;figcaption>
-My first Mun landing without breaking stuff.
-&lt;/figcaption>
-&lt;/figure>
-&lt;!-- more -->
-&lt;p>The only critic point would be that one needs to learn about most
-concepts outside the game. These may be small things like how the
-solid fuel boosters are different from rocket engines - the boosters
-can not be throttled, while the rocket engines can be. To the more
-advanced topics of how to do orbit transfers and gravity assists.
-Though once the concepts are understood it is immensely gratifying to
-be able to these maneuvers.&lt;/p>
-&lt;p>And there are fun concepts that came up from this game like
-&lt;em>lithobraking&lt;/em> - which in analogy to aero and hydrobraking is reducing
-speed by hitting rocks. And URD the abbreviation for unscheduled
-rapid disassembly - basically the craft explodes.&lt;/p></description></item><item><title>atv dock</title><link>/post/2014/2014-08-13-atv-dock/</link><pubDate>Wed, 13 Aug 2014 19:42:56 +0000</pubDate><guid>/post/2014/2014-08-13-atv-dock/</guid><description>&lt;p>Coole Sache das Andockn von
-&lt;a href="http://blogs.esa.int/atv/2014/08/12/bulls-eye-docking-of-atv-georges-lemaitre-to-iss/" target="_blank" rel="noopener">Georges Lemaitre&lt;/a>&lt;/p></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>space on bdcaf</title><link>/tags/space/</link><description>Recent content in space on bdcaf</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sat, 27 Jan 2018 14:50:00 +0100</lastBuildDate><atom:link href="/tags/space/index.xml" rel="self" type="application/rss+xml"/><item><title>Kerbal Space Program</title><link>/post/links/kerbal/</link><pubDate>Sat, 27 Jan 2018 14:50:00 +0100</pubDate><guid>/post/links/kerbal/</guid><description>These days I started up Kerbal Space Program. It is a space game where you construct your own vehicles and explore the solar system. As physics games go it is amazing.
+Unless you carefully plan out maneuvers they will lead to disaster - which is often also hilarious to watch play out. Even getting into orbit is a challenge in the beginning.
+My first Mun landing without breaking stuff. The only critic point would be that one needs to learn about most concepts outside the game.</description></item><item><title>atv dock</title><link>/post/2014/2014-08-13-atv-dock/</link><pubDate>Wed, 13 Aug 2014 19:42:56 +0000</pubDate><guid>/post/2014/2014-08-13-atv-dock/</guid><description>Coole Sache das Andockn von Georges Lemaitre</description></item></channel></rss>

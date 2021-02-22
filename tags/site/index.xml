@@ -1,37 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>site | bdcaf</title><link>/tags/site/</link><atom:link href="/tags/site/index.xml" rel="self" type="application/rss+xml"/><description>site</description><generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Clemens Ager 2020</copyright><lastBuildDate>Fri, 30 Mar 2018 12:40:33 +0200</lastBuildDate><image><url>img/map[gravatar:%!s(bool=false) shape:circle]</url><title>site</title><link>/tags/site/</link></image><item><title>Layout changes</title><link>/post/site/layout_new/</link><pubDate>Fri, 30 Mar 2018 12:40:33 +0200</pubDate><guid>/post/site/layout_new/</guid><description>&lt;p>I played around removing all the JavaScript dependencies of the
-hugo-academic template. I feel bootstrap and jQuery have little
-reason to be on such a simple site. By now I think I deviated from
-the original theme to no longer need it in the powered by section.&lt;/p>
-&lt;p>Anyway should you note something amiss - let me know.&lt;/p></description></item><item><title>Vim for Hugo</title><link>/post/2015/20150927_vim_hugo/</link><pubDate>Sun, 27 Sep 2015 10:47:54 +0200</pubDate><guid>/post/2015/20150927_vim_hugo/</guid><description>&lt;p>Ich verwende ja den Sitegenerator
-&lt;a href="https://gohugo.io" target="_blank" rel="noopener">hugo&lt;/a> für diese Seite. Das herumgewurschtel auf der Kommandozeile ist aber etwas nervig. Daher hab ich ein paar Befehle für Vim geschrieben um es etwas schmerzfreier zu machen. Soweit ist es aber noch etwas schmerzhaft.&lt;/p>
-&lt;p>Auf der Anleitung
-&lt;a href="http://www.thegeekstuff.com/2008/12/vi-and-vim-autocommand-3-steps-to-add-custom-header-to-your-file/" target="_blank" rel="noopener">vi and vim autocommand&lt;/a> hab ich ein paar Ideen gefunden.&lt;/p>
-&lt;p>Für die &lt;code>vimrc&lt;/code> hab ich nun folgendes autocmd entwickelt:&lt;/p>
-&lt;pre>&lt;code>augroup hugo
-autocmd!
-autocmd bufnewfile ~/Documents/Sites/c1891011/content/**/*.md so ~/Documents/Sites/c1891011/private/post_temp.md
-\ | exe &amp;quot;2,7&amp;quot; . 'g/^title = .*$/s//title = &amp;quot;' . expand(&amp;quot;%:t:r&amp;quot;) . '&amp;quot;'
-\ | exe &amp;quot;2,7&amp;quot; . 'g/^date =.*$/s//date = &amp;quot;' .strftime(&amp;quot;%FT%T%z&amp;quot;) .'&amp;quot;'
-\ | exe &amp;quot;2,7&amp;quot; . 'g/^date =/s/\(+\d\{2\}\):\?\(\d\{2\}\)/\1:\2/'
-augroup END
-&lt;/code>&lt;/pre>
-&lt;p>Wobei das Template &lt;code>private/post_temp.md&lt;/code> wie folgt aussieht:&lt;/p>
-&lt;pre>&lt;code>:insert
-+++
-Categories = []
-Description = &amp;quot;&amp;quot;
-Tags = [&amp;quot;blog&amp;quot;]
-date = &amp;quot;insert Date here&amp;quot;
-title = &amp;quot;MyTitle&amp;quot;
-+++
-.
-&lt;/code>&lt;/pre>
-&lt;p>Wenn ich nun &lt;code>:e content/post/hello.md&lt;/code> ein Post erstelle wird eine
-Datei erstellt wie ich vorher mit &lt;code>!hugo new post/hello.md&lt;/code> erhalten
-habe.&lt;/p>
-&lt;p>Ganz glücklich bin ich noch nicht - ich hätte gerne eine Funktion die
-den Dateinamen so verändert, dass er mit dem jeweiligen Datum beginnt.
-Auch sollte ich so Sachen wie das
-Blogverzeichnis (&lt;code>~/Documents/Sites/c1891011&lt;/code>) und den Bereich (&lt;code>2,7&lt;/code>) nicht fest eincoden.&lt;/p>
-&lt;p>Aber eins nach dem anderen. In ferner Zukunft wird vielleicht mal ein
-Packet daraus.&lt;/p></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>site on bdcaf</title><link>/tags/site/</link><description>Recent content in site on bdcaf</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 22 Feb 2021 09:56:41 +0100</lastBuildDate><atom:link href="/tags/site/index.xml" rel="self" type="application/rss+xml"/><item><title>Layout for the new year</title><link>/post/site/2021_new/</link><pubDate>Mon, 22 Feb 2021 09:56:41 +0100</pubDate><guid>/post/site/2021_new/</guid><description>&lt;p>I didn&amp;rsquo;t blog much over the past year.
+But having some time in the February break it was time to take this blog to 2021.&lt;/p></description></item><item><title>Layout changes</title><link>/post/site/layout_new/</link><pubDate>Fri, 30 Mar 2018 12:40:33 +0200</pubDate><guid>/post/site/layout_new/</guid><description>I played around removing all the JavaScript dependencies of the hugo-academic template. I feel bootstrap and jQuery have little reason to be on such a simple site. By now I think I deviated from the original theme to no longer need it in the powered by section.
+Anyway should you note something amiss - let me know.</description></item><item><title>Vim for Hugo</title><link>/post/2015/20150927_vim_hugo/</link><pubDate>Sun, 27 Sep 2015 10:47:54 +0200</pubDate><guid>/post/2015/20150927_vim_hugo/</guid><description>&lt;p>Ich verwende ja den Sitegenerator &lt;a href="https://gohugo.io">hugo&lt;/a> für diese Seite. Das herumgewurschtel auf der Kommandozeile ist aber etwas nervig. Daher hab ich ein paar Befehle für Vim geschrieben um es etwas schmerzfreier zu machen. Soweit ist es aber noch etwas schmerzhaft.&lt;/p>
+&lt;p>Auf der Anleitung &lt;a href="http://www.thegeekstuff.com/2008/12/vi-and-vim-autocommand-3-steps-to-add-custom-header-to-your-file/">vi and vim autocommand&lt;/a> hab ich ein paar Ideen gefunden.&lt;/p></description></item></channel></rss>
