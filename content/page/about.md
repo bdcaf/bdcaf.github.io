@@ -6,7 +6,6 @@ description = "Things about me."
 menu = "footer"
 +++
 
-## About
 
 Clemens Ager is a physicist and programmer living in Tyrol, Austria.
 
