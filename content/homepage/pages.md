@@ -1,10 +1,10 @@
 ---
-title: Pages
+title: Last Posts
 draft: false
 # Section you want to display
 section: posts
 # Pages count
-count: 5
+count: 6
 # Options: card, plain and masonry.
 style: masonry
 

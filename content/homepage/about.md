@@ -2,23 +2,23 @@
 title: Clemens Ager
 draft: false
 role: Example Role
-avatar: images/icon.png
-bio: Aenean vel bibendum quam. Aliquam at mollis quam. Proin efficitur.
-organization:
-  name: Example Organization
-  url: https://example.com/
+avatar: images/Av2021.jpeg
+bio: Physicist, Programmer
 social:
   - icon: envelope
     iconPack: fas
-    url: mailto:example@example.com
+    url: mailto:clemens.ager@gmail.com
   - icon: twitter
     iconPack: fab
-    url: https://example.com/
+    url: https://twitter.com/c_decaf
   - icon: github
     iconPack: fab
-    url: https://example.com/
+    url: https://github.com/bdcaf
+  - icon: linkedin
+    iconPack: fab
+    url: https://www.linkedin.com/in/clemens-ager-1228a295/
 
-weight: 1
+weight: 9
 widget:
   handler: about
 
@@ -45,10 +45,4 @@ widget:
 
 ## Self Introduction
 
-hello world! 
-
-Donec mollis sollicitudin:
-- Nunc dictum purus ornare purus consectetur, eu pellentesque massa ullamcorper.
-- Aliquam eu leo vitae justo aliquam tincidunt.
-- Fusce non massa id augue interdum feugiat sed et nulla.
-- Vivamus molestie augue in tristique laoreet.
+This is my personal blog. 
