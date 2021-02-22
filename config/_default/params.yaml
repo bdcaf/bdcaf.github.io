@@ -33,9 +33,11 @@ plausibleAnalytics:
   domain: ""
   # Default value is plausible.io, overwrite this if you are self-hosting or using a custom domain
   serverURL: ""
-customCSS: ["css/custom.css"] # Include custom CSS files
-customJS: ["js/custom.js"]
 
+#customCSS: ["css/custom.css"] # Include custom CSS files
+#customJS: ["js/custom.js"]
+
+googleFontsLink: "https://fonts.googleapis.com/css?family=Zilla+Slab|Noto+Serif|Source+Code+Pro"
 style:
   vars:
     #highlightColor: "#e22d30" # Override highlight color
@@ -43,8 +45,9 @@ style:
 
     # Override font-family sets. Secondary font-family set responsible for pre, code, kbd, and samp tags font
     # Take care of different quotes OR escaping symbols in these params if necessary
-    fontFamilyPrimary: "'Open Sans', Helvetica, Arial, sans-serif"
-    fontFamilySecondary: "SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace"
+    #fontFamilyPrimary: "'Open Sans', Helvetica, Arial, sans-serif"
+    fontFamilyPrimary: "'Zilla Slab', 'Noto Serif', 'Roboto Slab', Palatino, serif"
+    fontFamilySecondary: "'Source Code Pro', Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace"
 sidebar: 
   home: "right" # Configure layout for home page
   list: "left"  # Configure layout for list pages
