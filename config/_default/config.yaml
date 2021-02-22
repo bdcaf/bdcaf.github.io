@@ -5,8 +5,6 @@ theme: mainroad
 languageCode: en-us
 paginate: 10 # Number of posts per page
 
-copyright: >
-  &copy; Clemens Ager
 enableEmoji: true
 enableGitInfo: false
 summaryLength: 75

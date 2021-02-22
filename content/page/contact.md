@@ -3,8 +3,14 @@ title = "Contact"
 date = 2015-04-03T02:13:50Z
 author = "My Name"
 description = "How to contact me."
+menu = "footer"
 +++
 
-## Contact
+## [{{< partial "svg/email.svg" >}} {{< param widgets.social.email >}}](https://email.com/{{< param widgets.social.email >}})
 
-Aenean ipsum justo, semper eu nisl ut, pretium tincidunt sem. Praesent et diam sit amet lacus lobortis dictum a id lacus. Quisque hendrerit sit amet turpis eu varius. Ut id lorem ac felis ultrices tincidunt. Pellentesque consequat arcu ac fringilla imperdiet. Phasellus pellentesque, sapien non pulvinar blandit, sapien ante aliquet felis, vel porttitor sapien ante in lacus. Fusce non urna aliquet, malesuada nibh vel, luctus urna. Phasellus ut lacus molestie, varius purus quis, malesuada lorem.
+[{{< partial "svg/twitter.svg" >}} twitter:{{< param widgets.social.twitter >}}](https://twitter.com/{{< param widgets.social.twitter >}}) 
+
+[{{< partial "svg/github.svg" >}} github:{{< param widgets.social.github >}}](https://github.com/{{< param widgets.social.github >}}) 
+
+[{{< partial "svg/linkedin.svg" >}} linkedin:{{< param widgets.social.linkedin >}}](https://linkedin.com/{{< param widgets.social.linkedin >}})
+

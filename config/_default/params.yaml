@@ -1,8 +1,7 @@
 mainSections:
   - post
 intro: true
-headline: Clemens' Notes
-subtitle: Clemens' personal blog
+copyright: Clemens Ager
 description: Personal Blog
 github: "https://github.com/bdcaf"
 #gitlab: "https://gitlab.com/XXX"
@@ -51,9 +50,9 @@ sidebar:
   list: "left"  # Configure layout for list pages
   single: false # Configure layout for single pages
       # Enable widgets in given order
-  widgets: ["search", "recent", "categories", "taglist", "social", "languages"]
+  widgets: ["search", "recent", "taglist", "social", "languages"]
       #     # 
-      #
+      #"categories", 
       #
 widgets:
   recent_num: 5 # Set the number of articles in the "Recent articles" widget
@@ -71,6 +70,6 @@ widgets:
     email: "clemens.ager@gmail.com"
 
 logo:
-  image: "img/placeholder.png" # Logo image. Path relative to "static"
+  #image: "img/placeholder.png" # Logo image. Path relative to "static"
   title: "bdcaf" # Logo title, otherwise will use site title
   subtitle: "Clemens' blog" 

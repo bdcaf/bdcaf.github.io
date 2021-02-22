@@ -9,3 +9,4 @@ resources/_gen/
 assets/.sass-cache/
 assets/sass/.sass-cache/
 node_modules/
+*.acorn
