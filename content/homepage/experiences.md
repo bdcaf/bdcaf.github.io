@@ -2,12 +2,12 @@
 title: Experiences
 draft: false
 experiences:
-  - title: Example Role 1
+  - title: Research Assistant
     organization:
-      name: Example Organization 1
-      url: https://example.org
-    dates: '2019 - Present'
-    location: Country
+      name: Institute for Breath Research
+      url: https://www.uibk.ac.at/breath-research/index.html.en
+      dates: '2012 - 2019'
+    location: Innsbruck, Austria
     writeup: >
       Donec scelerisque egestas augue at tempor. Fusce faucibus magna in.
 
@@ -17,15 +17,6 @@ experiences:
 
       - Nam tincidunt diam quis lorem rutrum ullamcorper.
       
-  - title: Example Role 2
-    organization:
-      name: Example Organization 2
-      url: https://example.org
-    dates: '2017 - 2019'
-    location: Country
-    writeup: >
-      **Aliquam** at **rutrum** ante. In sed quam faucibus.
-
 weight: 3
 widget:
   handler: experiences
@@ -41,12 +32,12 @@ widget:
   
   background:
     # Options: primary, secondary, tertiary or any valid color value. Default is primary.
-    color:
+    color: tertiary
     image:
     # Options: auto, cover and contain. Default is auto.
     size:
     # Options: center, top, right, bottom, left.
     position:
     # Options: fixed, local, scroll.
-    attachment: 
+    attachment: scroll
 ---
