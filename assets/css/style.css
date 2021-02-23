@@ -1109,8 +1109,9 @@ textarea {
 /* Tags Widget */
 .widget-taglist__link {
 	display: inline-block;
-	margin: 0 4px 8px 0;
+	margin: 0 4px 4px 0;
 	text-transform: uppercase;
+	font-size: smaller;
 }
 
 /* Languages Widget */
