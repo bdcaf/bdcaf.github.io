@@ -11,3 +11,4 @@
 *.zip filter=lfs diff=lfs merge=lfs -text
 *.acorn filter=lfs diff=lfs merge=lfs -text
 *.svgz filter=lfs diff=lfs merge=lfs -text
+*.ico filter=lfs diff=lfs merge=lfs -text
