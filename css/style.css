@@ -36,7 +36,6 @@ section {
 
 /* Structure */
 html {
-	font-size: 100%;
 	-ms-text-size-adjust: none;
 	-webkit-text-size-adjust: none;
 }
@@ -44,7 +43,7 @@ html {
 body {
 	margin: 0;
 	font-family: 'Zilla Slab', 'Noto Serif', 'Roboto Slab', Palatino, serif;
-	font-size: 16px;
+	font-size: 1.0rem;
 	line-height: 1.4;
 	word-wrap: break-word;
 	background: #f7f7f7;
@@ -157,33 +156,27 @@ h6 {
 }
 
 h1 {
-	font-size: 32px;
-	font-size: 2rem;
+	/*font-size: 2rem;*/
 }
 
 h2 {
-	font-size: 24px;
-	font-size: 1.5rem;
+	/*font-size: 1.5rem;*/
 }
 
 h3 {
-	font-size: 20px;
-	font-size: 1.25rem;
+	/*font-size: 1.25rem;*/
 }
 
 h4 {
-	font-size: 18px;
-	font-size: 1.125rem;
+	/*font-size: 1.125rem;*/
 }
 
 h5 {
-	font-size: 16px;
-	font-size: 1rem;
+	/*font-size: 1rem;*/
 }
 
 h6 {
-	font-size: 16px;
-	font-size: 1rem;
+	/*font-size: 1rem;*/
 }
 
 a {
@@ -225,7 +218,6 @@ ul {
 }
 
 small {
-	font-size: 12px;
 	font-size: .75rem;
 }
 
@@ -311,7 +303,6 @@ blockquote footer {
 
 sup,
 sub {
-	font-size: 10px;
 	font-size: .625rem;
 	font-style: normal;
 }
@@ -416,7 +407,6 @@ select {
 }
 
 .logo__title {
-	font-size: 32px;
 	font-size: 2rem;
 	font-weight: 700;
 	line-height: 1;
@@ -427,7 +417,6 @@ select {
 	display: inline-block;
 	padding-top: 10px;
 	margin-top: 10px;
-	font-size: 14px;
 	font-size: .875rem;
 	font-weight: 700;
 	line-height: 1;
@@ -579,7 +568,6 @@ button:not(:-moz-focusring):focus > .menu__btn-title {
 }
 
 .main__title {
-	font-size: 28px;
 	font-size: 1.75rem;
 }
 
@@ -589,7 +577,6 @@ button:not(:-moz-focusring):focus > .menu__btn-title {
 }
 
 .meta {
-	font-size: 13px;
 	font-size: .8125rem;
 	vertical-align: baseline;
 }
@@ -726,7 +713,6 @@ button:not(:-moz-focusring):focus > .menu__btn-title {
 .tags {
 	margin-bottom: 20px;
 	margin-bottom: 1.25rem;
-	font-size: 12px;
 	font-size: .75rem;
 	line-height: 1;
 	color: #fff;
@@ -845,7 +831,6 @@ button:not(:-moz-focusring):focus > .menu__btn-title {
 }
 
 .authorbox__name {
-	font-size: 16px;
 	font-size: 1rem;
 	font-weight: 700;
 }
@@ -865,7 +850,6 @@ button:not(:-moz-focusring):focus > .menu__btn-title {
 }
 
 .list__title {
-	font-size: 20px;
 	font-size: 1.25rem;
 }
 
@@ -928,7 +912,6 @@ button:not(:-moz-focusring):focus > .menu__btn-title {
 .pager__title {
 	margin-bottom: 0;
 	overflow: hidden;
-	font-size: 13px;
 	font-size: .8125rem;
 }
 
@@ -987,7 +970,6 @@ th {
 /* Forms */
 input {
 	padding: 5px;
-	font-size: 12px;
 	vertical-align: middle;
 	background: #f5f5f5;
 	border: 1px solid #ebebeb;
@@ -1052,7 +1034,6 @@ textarea {
 .widget__title {
 	position: relative;
 	padding-bottom: 5px;
-	font-size: 16px;
 	font-size: 1rem;
 	text-transform: uppercase;
 	border-bottom: 3px solid #900000;
@@ -1086,7 +1067,6 @@ textarea {
 	width: 90%;
 	padding: 8px;
 	margin: 0 auto;
-	font-size: 11px;
 	cursor: pointer;
 	background: #fff;
 	border: 1px solid #ebebeb;
@@ -1122,9 +1102,9 @@ textarea {
 /* Tags Widget */
 .widget-taglist__link {
 	display: inline-block;
-	margin: 0 4px 8px 0;
-	font-size: 12px;
+	margin: 0 4px 4px 0;
 	text-transform: uppercase;
+	font-size: smaller;
 }
 
 /* Languages Widget */
@@ -1144,7 +1124,6 @@ textarea {
 /* Footer */
 .footer {
 	padding: 10px 25px;
-	font-size: 12px;
 	font-size: .75rem;
 	color: #999;
 	background: #2a2a2a;
@@ -1228,7 +1207,6 @@ textarea {
 	}
 
 	.logo__title {
-		font-size: 24px;
 		font-size: 1.5rem;
 	}
 
@@ -1290,18 +1268,15 @@ textarea {
 	}
 
 	.list__title {
-		font-size: 16px;
 		font-size: 1rem;
 	}
 
 	.list__lead {
-		font-size: 14px;
 		font-size: .875rem;
 	}
 
 	.list__meta {
 		display: block;
-		font-size: 11px;
 		font-size: .6875rem;
 	}
 }
