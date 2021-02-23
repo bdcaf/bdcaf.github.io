@@ -1103,7 +1103,7 @@ textarea {
 .widget-social__link-icon {
 	margin: 0 5px 0 0;
 	vertical-align: middle;
-	fill: #fff;
+	/*fill: #fff;*/
 }
 
 /* Tags Widget */
