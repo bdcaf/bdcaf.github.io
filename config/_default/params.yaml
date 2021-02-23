@@ -73,6 +73,6 @@ widgets:
     email: "clemens.ager@gmail.com"
 
 logo:
-  #image: "img/placeholder.png" # Logo image. Path relative to "static"
+  image: "img/logo_c1.jpeg" # Logo image. Path relative to "static"
   title: "bdcaf" # Logo title, otherwise will use site title
   subtitle: "Clemens' blog" 
