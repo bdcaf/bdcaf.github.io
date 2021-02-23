@@ -1297,3 +1297,27 @@ article {
  max-width: 40em;
 }
 
+.paper_meta {
+  font-size: smaller;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0.5em;
+}
+.paper_link {
+	padding: 1em;
+	display: inline;
+}
+.paper_abstract {
+	padding: 1em;
+}
+
+
+.paper_list {
+	display: block;
+	padding-bottom: 20px;
+	padding-bottom: 1.25rem;
+	margin-bottom: 20px;
+	margin-bottom: 1.25rem;
+	border-bottom: 1px solid #ebebeb;
+}
