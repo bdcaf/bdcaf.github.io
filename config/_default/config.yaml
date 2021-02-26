@@ -6,7 +6,7 @@ languageCode: en-us
 paginate: 10 # Number of posts per page
 
 enableEmoji: true
-enableGitInfo: false
+enableGitInfo: true
 summaryLength: 75
 
 defaultContentLanguage: en

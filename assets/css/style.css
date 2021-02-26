@@ -858,6 +858,7 @@ button:not(:-moz-focusring):focus > .menu__btn-title {
 
 .list__title {
 	font-size: 1.25rem;
+	float: none;
 }
 
 .list__meta {
@@ -1320,4 +1321,20 @@ article {
 	margin-bottom: 20px;
 	margin-bottom: 1.25rem;
 	border-bottom: 1px solid #ebebeb;
+}
+
+.summary__inline {
+	box-sizing: content-box;
+	float: right;
+	vertical-align: middle;
+}
+
+.list__title__link {
+	float: left;
+	padding-right: 1.2em;
+}
+
+.meta__float {
+	box-sizing: border-box;
+	float: right;
 }

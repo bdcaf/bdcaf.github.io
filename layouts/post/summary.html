@@ -1,0 +1,40 @@
+<article class="list__item post">
+	{{- if .Params.thumbnail }}
+	<figure class="list__thumbnail">
+		<a href="{{ .Permalink }}">
+			<img src="{{ .Params.thumbnail | relURL }}" alt="{{ .Title }}" />
+		</a>
+	</figure>
+	{{- end }}
+	<header class="list__header clearfix">
+		<h2 class="list__title post__title">
+			<a class="list__title__link" href="{{ .RelPermalink }}" rel="bookmark">
+			{{ .Title }}
+			</a>
+		</h2>
+		
+		{{- if not .Date.IsZero }}
+		<div class="meta meta__item-datetime meta__item meta__float">
+			<time class="meta__text" datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">
+				{{- .Date.Format (.Site.Params.dateformatShort | default "January 02, 2006") -}}
+			</time>
+		</div>
+		{{ end -}}
+		{{- with .Params.lead }}
+		<p class="list__lead post__lead">{{ . }}</p>
+		{{- end }}
+		{{ with partial "post_meta.html" . -}}
+		<div class="list__meta meta">{{ . }}</div>
+		{{- end }}
+	</header>
+	<div class="content list__excerpt post__content clearfix">
+		{{ .Summary }}
+	</div>
+	{{- if .Site.Params.readmore }}
+	{{- if .Truncated }}
+	<div class="list__footer clearfix">
+		<a class="list__footer-readmore btn" href="{{ .RelPermalink }}">{{ T "read_more" }}</a>
+	</div>
+	{{- end }}
+	{{- end }}
+</article>
