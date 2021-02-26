@@ -6,12 +6,19 @@
 		</a>
 	</figure>
 	{{- end }}
-	<header class="list__header">
+	<header class="list__header clearfix">
 		<h2 class="list__title post__title">
-			<a href="{{ .RelPermalink }}" rel="bookmark">
+			<a class="list__title__link" href="{{ .RelPermalink }}" rel="bookmark">
 			{{ .Title }}
 			</a>
 		</h2>
+		{{ with .Params.date -}}
+		<div class="meta meta__item-datetime meta__item meta__float">
+			<time class="meta__text" datetime="{{ .Format "2006-01-02T15:04:05Z07:00" }}">
+				{{- .Format "2006-01" -}}
+			</time>
+		</div>
+		{{ end -}}
 		{{- with .Params.lead }}
 		<p class="list__lead post__lead">{{ . }}</p>
 		{{- end }}
@@ -26,9 +33,6 @@
 		<div class="paper_authors">
 			{{ delimit .Params.coauthors ", " " and "}}
 		</div>
-		{{- end }}
-		{{ with .Params.date -}}
-		({{ .Format "2006" }})
 		{{- end }}
 		{{- with .Params.doi }}
 		<div class="paper_link">
