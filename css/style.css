@@ -132,7 +132,7 @@ textarea {
 
 .btn:hover {
 	color: #fff;
-	background: #900000;
+	background: #bd1a50;
 }
 
 /* Animation */
@@ -185,7 +185,7 @@ a {
 }
 
 a:hover {
-	color: #900000;
+	color: #bd1a50;
 }
 
 hr {
@@ -290,7 +290,7 @@ blockquote {
 	margin: 0 0 20px;
 	margin: 0 0 1.25rem;
 	line-height: 1.6;
-	border-left: 5px solid #900000;
+	border-left: 5px solid #bd1a50;
 }
 
 blockquote p:last-child {
@@ -420,14 +420,14 @@ select {
 	font-size: .875rem;
 	font-weight: 700;
 	line-height: 1;
-	color: #900000;
+	color: #bd1a50;
 	border-top: 1px solid #ebebeb;
 }
 
 .divider {
 	height: 5px;
 	margin: 0;
-	background: #900000;
+	background: #bd1a50;
 	border: 0;
 }
 
@@ -464,7 +464,7 @@ select {
 }
 
 :focus > .menu__btn-title {
-	box-shadow: inset 0 0 1px 3px #900000;
+	box-shadow: inset 0 0 1px 3px #bd1a50;
 }
 
 button:not(:-moz-focusring):focus > .menu__btn-title {
@@ -477,7 +477,7 @@ button:not(:-moz-focusring):focus > .menu__btn-title {
 }
 
 .js .menu__btn--active {
-	color: #900000;
+	color: #bd1a50;
 }
 
 .menu__list {
@@ -486,7 +486,7 @@ button:not(:-moz-focusring):focus > .menu__btn-title {
 }
 
 .menu__item:hover {
-	background: #900000;
+	background: #bd1a50;
 }
 
 .menu__item:first-child {
@@ -494,7 +494,7 @@ button:not(:-moz-focusring):focus > .menu__btn-title {
 }
 
 .menu__item--active {
-	background: #900000;
+	background: #bd1a50;
 }
 
 .menu__link {
@@ -535,7 +535,7 @@ button:not(:-moz-focusring):focus > .menu__btn-title {
 
 @media screen and (min-width: 767px) {
 	.menu {
-		border-bottom: 5px solid #900000;
+		border-bottom: 5px solid #bd1a50;
 	}
 
 	.menu__btn {
@@ -587,7 +587,7 @@ button:not(:-moz-focusring):focus > .menu__btn-title {
 }
 
 .meta a:hover {
-	color: #900000;
+	color: #bd1a50;
 }
 
 .meta__item {
@@ -644,13 +644,13 @@ button:not(:-moz-focusring):focus > .menu__btn-title {
 .warning a,
 .authorbox__description a {
 	font-weight: 700;
-	color: #900000;
+	color: #bd1a50;
 }
 
 .content a:hover,
 .warning a:hover,
 .authorbox__description a:hover {
-	color: #900000;
+	color: #bd1a50;
 	text-decoration: underline;
 }
 
@@ -730,7 +730,7 @@ button:not(:-moz-focusring):focus > .menu__btn-title {
 }
 
 .tags__item:hover {
-	color: #900000;
+	color: #bd1a50;
 }
 
 .tags__link,
@@ -745,7 +745,7 @@ button:not(:-moz-focusring):focus > .menu__btn-title {
 	height: 32px;
 	padding: 8px;
 	margin-right: 6px;
-	fill: #900000;
+	fill: #bd1a50;
 }
 
 /* Table of Contents */
@@ -802,7 +802,7 @@ button:not(:-moz-focusring):focus > .menu__btn-title {
 .toc__menu a {
 	display: block;
 	padding: 5px 10px;
-	color: #900000;
+	color: #bd1a50;
 	border-bottom: 1px solid #ebebeb;
 }
 
@@ -851,6 +851,7 @@ button:not(:-moz-focusring):focus > .menu__btn-title {
 
 .list__title {
 	font-size: 1.25rem;
+	float: none;
 }
 
 .list__meta {
@@ -888,7 +889,7 @@ button:not(:-moz-focusring):focus > .menu__btn-title {
 .pagination__item:hover,
 .pagination__item--current {
 	color: #fff;
-	background: #900000;
+	background: #bd1a50;
 }
 
 /* Pager (prev/next links) navigation */
@@ -1008,7 +1009,7 @@ input[type=reset] {
 
 input[type=submit]:hover,
 input[type=reset]:hover {
-	background: #900000;
+	background: #bd1a50;
 }
 
 textarea {
@@ -1036,7 +1037,7 @@ textarea {
 	padding-bottom: 5px;
 	font-size: 1rem;
 	text-transform: uppercase;
-	border-bottom: 3px solid #900000;
+	border-bottom: 3px solid #bd1a50;
 }
 
 .widget__item {
@@ -1114,7 +1115,7 @@ textarea {
 
 .widget-languages__link:hover .widget-languages__link-btn {
 	color: #fff;
-	background: #900000;
+	background: #bd1a50;
 }
 
 .widget-languages__link-btn {
@@ -1313,4 +1314,20 @@ article {
 	margin-bottom: 20px;
 	margin-bottom: 1.25rem;
 	border-bottom: 1px solid #ebebeb;
+}
+
+.summary__inline {
+	box-sizing: content-box;
+	float: right;
+	vertical-align: middle;
+}
+
+.list__title__link {
+	float: left;
+	padding-right: 1.2em;
+}
+
+.meta__float {
+	box-sizing: border-box;
+	float: right;
 }
