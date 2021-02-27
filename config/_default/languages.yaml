@@ -1,0 +1,21 @@
+en:
+  languageName: English
+  weight: 1
+de:
+  languageName: Deutsch
+  weight: 2
+  #contentDir: content/de
+  menu:
+   main:
+    - name: Blog
+      url: /
+      weight: 1
+    - name: Kontakt
+      url: /de/page/contact/
+      weight: 6
+    - name: Über Mich
+      url: /de/page/about/
+      weight: 5
+    - name: Publikationen
+      url: /publication/
+      weight: 4
