@@ -19,5 +19,5 @@ update:
 	#purifycss public/style.min.*.css      public/"**.html" -r -o tmp
 	#rm tmp
 
-import_bibtex: 
-	 academic import --overwrite --bibtex ~/Downloads/cager.bib
+#import_bibtex: 
+	 #academic import --overwrite --bibtex ~/Downloads/cager.bib
