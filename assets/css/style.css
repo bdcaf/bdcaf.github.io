@@ -212,12 +212,6 @@ p {
 	margin: 0 0 1.25rem;
 }
 
-b,
-strong {
-	font: inherit;
-	font-weight: 700;
-}
-
 i,
 em {
 	font: inherit;
@@ -249,11 +243,6 @@ figcaption {
 	margin-top: 4px;
 	margin-top: .25rem;
 	color: #666;
-}
-
-figcaption h4 {
-	margin: 0;
-	color: inherit;
 }
 
 pre,
@@ -292,12 +281,6 @@ pre code {
 	white-space: inherit;
 	background: inherit;
 	border: 0;
-}
-
-kbd {
-	padding: 2px 3px;
-	color: #fff;
-	background-color: #2a2a2a;
 }
 
 blockquote {
@@ -339,10 +322,6 @@ abbr[title] {
 	border-bottom: 1px dotted #000;
 }
 
-q {
-	font-style: italic;
-}
-
 address {
 	margin-bottom: 20px;
 	margin-bottom: 1.25rem;
@@ -350,25 +329,6 @@ address {
 	line-height: 1.5;
 }
 
-{{/* what do they do? - Description link and text*/}}
-dl {
-	margin: 0 0 10px 20px;
-}
-
-dt,
-dd {
-	display: list-item;
-}
-
-dt {
-	font-weight: bold;
-	list-style-type: square;
-}
-
-dd {
-	margin-left: 20px;
-	list-style-type: circle;
-}
 
 {{/*
 select {
