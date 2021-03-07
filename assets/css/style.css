@@ -12,16 +12,17 @@
 }
 
 article,
-aside,
-dialog,
+aside, {{/* 
+		dialog, 
+		hgroup,
+		section
+		  */}}
 figcaption,
 figure,
 footer,
 header,
-hgroup,
 main,
-nav,
-section {
+nav {
 	display: block;
 }
 
@@ -41,10 +42,10 @@ section {
 	color: transparent;
 }
 
-/* Structure */
+{{/* Structure */}}
 html {
-	-ms-text-size-adjust: none;
-	-webkit-text-size-adjust: none;
+	-ms-text-size-adjust: auto;
+	-webkit-text-size-adjust: auto;
 }
 
 body {
@@ -118,17 +119,17 @@ body {
 }
 
 input,
-button,
+button {{/*
 select,
 optgroup,
-textarea {
+textarea,
+		*/}} {
 	margin: 0;
 	font-family: inherit;
 	font-size: inherit;
 	line-height: inherit;
 }
 
-/* Button */
 .btn {
 	padding: 5px 10px;
 	font-weight: 700;
@@ -142,13 +143,13 @@ textarea {
 	background: {{ $highlightColor }};
 }
 
-/* Animation */
+{{/* Animation */}}
 .menu__item,
 .btn {
 	transition: background-color .25s ease-out;
 }
 
-/* Typography */
+{{/* Typography */}}
 h1,
 h2,
 h3,
@@ -162,29 +163,32 @@ h6 {
 	color: #000;
 }
 
+{{/*
+		// currently don't use
 h1 {
-	/*font-size: 2rem;*/
+	font-size: 2rem;
 }
 
 h2 {
-	/*font-size: 1.5rem;*/
+	font-size: 1.5rem;
 }
 
 h3 {
-	/*font-size: 1.25rem;*/
+	font-size: 1.25rem;
 }
 
 h4 {
-	/*font-size: 1.125rem;*/
+	font-size: 1.125rem;
 }
 
 h5 {
-	/*font-size: 1rem;*/
+	font-size: 1rem;
 }
 
 h6 {
-	/*font-size: 1rem;*/
+	font-size: 1rem;
 }
+*/}}
 
 a {
 	color: #000;
@@ -195,11 +199,13 @@ a:hover {
 	color: {{ $highlightColor }};
 }
 
+{{/*
 hr {
 	margin: 0 0 20px;
 	border: 0;
 	border-top: 1px solid #dadada;
 }
+*/}}
 
 p {
 	margin: 0 0 20px;
@@ -224,6 +230,7 @@ ul {
 	margin: 0;
 }
 
+{{/*
 small {
 	font-size: .75rem;
 }
@@ -231,6 +238,7 @@ small {
 mark {
 	background-color: #fd5;
 }
+*/}}
 
 figure {
 	margin: 0 0 20px;
@@ -249,9 +257,10 @@ figcaption h4 {
 }
 
 pre,
-code,
+code{{/*
 kbd,
-samp {
+samp,
+*/}} {
 	font-family: {{ $fontFamilySecondary }};
 	font-size: inherit;
 }
@@ -308,6 +317,7 @@ blockquote footer {
 	text-align: right;
 }
 
+{{/*
 sup,
 sub {
 	font-size: .625rem;
@@ -321,6 +331,7 @@ sup {
 sub {
 	vertical-align: sub;
 }
+*/}}
 
 abbr[title] {
 	text-decoration: none;
@@ -339,6 +350,7 @@ address {
 	line-height: 1.5;
 }
 
+{{/* what do they do? - Description link and text*/}}
 dl {
 	margin: 0 0 10px 20px;
 }
@@ -358,9 +370,11 @@ dd {
 	list-style-type: circle;
 }
 
+{{/*
 select {
 	max-width: 100%;
 }
+*/}}
 
 .warning {
 	padding: 20px 10px;
@@ -373,7 +387,7 @@ select {
 	fill: #ddd;
 }
 
-/* Header */
+{{/* Header */}}
 .header {
 	background: #fff;
 }
@@ -431,14 +445,16 @@ select {
 	border-top: 1px solid #ebebeb;
 }
 
+{{/*
 .divider {
 	height: 5px;
 	margin: 0;
 	background: {{ $highlightColor }};
 	border: 0;
 }
+*/}}
 
-/* Main menu */
+{{/* Main menu */}}
 .no-js .menu__btn {
 	display: none;
 }
@@ -567,7 +583,7 @@ button:not(:-moz-focusring):focus > .menu__btn-title {
 	}
 }
 
-/* Posts/Pages */
+{{/* Posts/Pages */}}
 .post__header,
 .main__header {
 	margin-bottom: 20px;
@@ -716,7 +732,7 @@ button:not(:-moz-focusring):focus > .menu__btn-title {
 	margin-top: 1.25rem;
 }
 
-/* Post tags */
+{{/* Post tags */}}
 .tags {
 	margin-bottom: 20px;
 	margin-bottom: 1.25rem;
@@ -755,7 +771,7 @@ button:not(:-moz-focusring):focus > .menu__btn-title {
 	fill: {{ $highlightColor }};
 }
 
-/* Table of Contents */
+{{/* Table of Contents */}}
 .toc {
 	margin-bottom: 20px;
 	font-weight: 700;
@@ -817,7 +833,7 @@ button:not(:-moz-focusring):focus > .menu__btn-title {
 	text-decoration: underline;
 }
 
-/* Author Box */
+{{/* Author Box */}}
 .authorbox {
 	padding: 25px 0;
 	margin-bottom: 25px;
@@ -842,7 +858,7 @@ button:not(:-moz-focusring):focus > .menu__btn-title {
 	font-weight: 700;
 }
 
-/* List content */
+{{/* List content */}}
 .list__item {
 	padding-bottom: 20px;
 	padding-bottom: 1.25rem;
@@ -880,7 +896,7 @@ button:not(:-moz-focusring):focus > .menu__btn-title {
 	margin-top: 10px;
 }
 
-/* Pagination */
+{{/* Pagination */}}
 .pagination {
 	margin-top: 20px;
 }
@@ -899,7 +915,7 @@ button:not(:-moz-focusring):focus > .menu__btn-title {
 	background: {{ $highlightColor }};
 }
 
-/* Pager (prev/next links) navigation */
+{{/* Pager (prev/next links) navigation */}}
 .pager {
 	-webkit-justify-content: space-between;
 	justify-content: space-between;
@@ -938,7 +954,7 @@ button:not(:-moz-focusring):focus > .menu__btn-title {
 	display: block;
 }
 
-/* Images / Video */
+{{/* Images / Video */}}
 img {
 	width: auto\9; /* ie8 */
 	max-width: 100%;
@@ -953,7 +969,7 @@ video {
 	max-width: 100%;
 }
 
-/* Table */
+{{/* Table */}}
 table {
 	width: 100%;
 	margin-bottom: 20px;
@@ -975,7 +991,7 @@ th {
 	font-weight: 700;
 }
 
-/* Forms */
+{{/* Forms */}}
 input {
 	padding: 5px;
 	vertical-align: middle;
@@ -1029,7 +1045,7 @@ textarea {
 	border: 1px solid rgba(0, 0, 0, .1);
 }
 
-/* Widgets */
+{{/* Widgets */}}
 .widget {
 	margin-bottom: 25px;
 	overflow: hidden;
@@ -1057,7 +1073,7 @@ textarea {
 	padding-top: 0;
 }
 
-/* Search widget */
+{{/* Search widget */}}
 .widget-search__form {
 	display: block;
 	padding: 5%;
@@ -1089,7 +1105,7 @@ textarea {
 	cursor: text;
 }
 
-/* Social widget */
+{{/* Social widget */}}
 .widget-social__item {
 	padding: 0;
 	border: 0;
@@ -1107,7 +1123,7 @@ textarea {
 	/*fill: #fff;*/
 }
 
-/* Tags Widget */
+{{/* Tags Widget */}}
 .widget-taglist__link {
 	display: inline-block;
 	margin: 0 4px 4px 0;
@@ -1115,7 +1131,7 @@ textarea {
 	font-size: smaller;
 }
 
-/* Languages Widget */
+{{/* Languages Widget */}}
 .widget-languages__link {
 	display: block;
 }
@@ -1129,7 +1145,7 @@ textarea {
 	display: inline-block;
 }
 
-/* Footer */
+{{/* Footer */}}
 .footer {
 	padding: 10px 25px;
 	font-size: .75rem;
@@ -1158,7 +1174,7 @@ textarea {
 	text-decoration: underline;
 }
 
-/* Media Queries */
+{{/* Media Queries */}}
 @media screen and (max-width: 1475px) {
 	.container--outer {
 		width: 95%;
