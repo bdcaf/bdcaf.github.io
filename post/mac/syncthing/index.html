@@ -1,54 +1,152 @@
-<!doctype html><html class=no-js lang=en><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><meta http-equiv=x-ua-compatible content="IE=edge"><title>Configuring Syncthing on Mac Server - bdcaf</title><script>(function(a,b){a[b]=a[b].replace("no-js","js")})(document.documentElement,"className")</script><meta name=description content><meta property="og:title" content="Configuring Syncthing on Mac Server"><meta property="og:description" content="Syncthing is currently my preferred tool to
+<!doctype html><html class=no-js lang=en>
+<head>
+<meta charset=utf-8>
+<meta name=viewport content="width=device-width,initial-scale=1">
+<meta http-equiv=x-ua-compatible content="IE=edge">
+<title>Configuring Syncthing on Mac Server - bdcaf</title>
+<script>(function(a,b){a[b]=a[b].replace("no-js","js")})(document.documentElement,"className")</script>
+<meta name=description content>
+<meta property="og:title" content="Configuring Syncthing on Mac Server">
+<meta property="og:description" content="Syncthing is currently my preferred tool to
 keep folders in sync.  Previously I had affairs with git
 annex, and
 rsync scripts.
 Recently I reactivated a 2009 Mac Mini as headless server under El
 Capitan.  Homebrew is the tool of choice - it
-complains a little about the old OS but things work out nicely."><meta property="og:type" content="article"><meta property="og:url" content="https://bdcaf.github.io/post/mac/syncthing/"><meta property="article:section" content="post"><meta property="article:published_time" content="2019-02-05T10:58:41+01:00"><meta property="article:modified_time" content="2021-02-21T09:43:37+01:00"><meta itemprop=name content="Configuring Syncthing on Mac Server"><meta itemprop=description content="Syncthing is currently my preferred tool to
+complains a little about the old OS but things work out nicely.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://bdcaf.github.io/post/mac/syncthing/"><meta property="article:section" content="post">
+<meta property="article:published_time" content="2019-02-05T10:58:41+01:00">
+<meta property="article:modified_time" content="2021-02-21T09:43:37+01:00">
+<meta itemprop=name content="Configuring Syncthing on Mac Server">
+<meta itemprop=description content="Syncthing is currently my preferred tool to
 keep folders in sync.  Previously I had affairs with git
 annex, and
 rsync scripts.
 Recently I reactivated a 2009 Mac Mini as headless server under El
 Capitan.  Homebrew is the tool of choice - it
-complains a little about the old OS but things work out nicely."><meta itemprop=datePublished content="2019-02-05T10:58:41+01:00"><meta itemprop=dateModified content="2021-02-21T09:43:37+01:00"><meta itemprop=wordCount content="542"><meta itemprop=keywords content="syncthing,mac,"><meta name=twitter:card content="summary"><meta name=twitter:title content="Configuring Syncthing on Mac Server"><meta name=twitter:description content="Syncthing is currently my preferred tool to
+complains a little about the old OS but things work out nicely."><meta itemprop=datePublished content="2019-02-05T10:58:41+01:00">
+<meta itemprop=dateModified content="2021-02-21T09:43:37+01:00">
+<meta itemprop=wordCount content="542">
+<meta itemprop=keywords content="syncthing,mac,">
+<meta name=twitter:card content="summary">
+<meta name=twitter:title content="Configuring Syncthing on Mac Server">
+<meta name=twitter:description content="Syncthing is currently my preferred tool to
 keep folders in sync.  Previously I had affairs with git
 annex, and
 rsync scripts.
 Recently I reactivated a 2009 Mac Mini as headless server under El
 Capitan.  Homebrew is the tool of choice - it
-complains a little about the old OS but things work out nicely."><link rel=preconnect href=https://fonts.gstatic.com crossorigin><link rel=dns-prefetch href=//fonts.googleapis.com><link rel=dns-prefetch href=//fonts.gstatic.com><link rel=stylesheet href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700"><link rel=stylesheet href=https://bdcaf.github.io/bundle.min.b875f52a21dac7468ad41e3eb2cf61550b91e4e52debedf1ea5891129de74ac7.css integrity="sha256-uHX1KiHax0aK1B4+ss9hVQuR5OUt6+3x6liREp3nSsc="><link rel="shortcut icon" href=/favicon.ico></head><body class=body><div class="container container--outer"><header class=header><div class="container header__container"><div class="logo logo--mixed"><a class=logo__link href=/ title=bdcaf rel=home><div class="logo__item logo__imagebox"><img class=logo__img src=/img/Logo_c.svg></div><div class="logo__item logo__text"><div class=logo__title>bdcaf</div><div class=logo__tagline>Clemens' blog</div></div></a></div><nav class=menu><button class=menu__btn aria-haspopup=true aria-expanded=false tabindex=0>
-<span class=menu__btn-title tabindex=-1>Menu</span></button><ul class=menu__list><li class=menu__item><a class=menu__link href=/><span class=menu__text>Blog</span></a></li><li class=menu__item><a class=menu__link href=/publication/><span class=menu__text>Publications</span></a></li><li class=menu__item><a class=menu__link href=/page/about/><span class=menu__text>About</span></a></li><li class=menu__item><a class=menu__link href=/page/contact/><span class=menu__text>Contact</span></a></li></ul></nav></div></header><div class="wrapper flex"><div class=primary><main class=main role=main><article class=post><header class=post__header><h1 class=post__title>Configuring Syncthing on Mac Server</h1><div class="post__meta meta"><div class="meta__item-datetime meta__item"><svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class=meta__text datetime=2019-02-05T10:58:41+01:00>Tue, Feb 5, 2019</time>
-<time class=meta__text datetime=2021-02-21T09:43:37+01:00>(Last Modified: Sun, Feb 21, 2021)</time></div></div></header><div class="content post__content clearfix"><p><a href=https://syncthing.net>Syncthing</a> is currently my preferred tool to
+complains a little about the old OS but things work out nicely.">
+<link rel=preconnect href=https://fonts.gstatic.com crossorigin>
+<link rel=dns-prefetch href=//fonts.googleapis.com>
+<link rel=dns-prefetch href=//fonts.gstatic.com>
+<link rel=stylesheet href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700">
+<link rel=stylesheet href=https://bdcaf.github.io/bundle.min.b875f52a21dac7468ad41e3eb2cf61550b91e4e52debedf1ea5891129de74ac7.css integrity="sha256-uHX1KiHax0aK1B4+ss9hVQuR5OUt6+3x6liREp3nSsc=">
+<link rel="shortcut icon" href=/favicon.ico>
+</head>
+<body class=body>
+<div class="container container--outer">
+<header class=header>
+<div class="container header__container">
+<div class="logo logo--mixed">
+<a class=logo__link href=/ title=bdcaf rel=home>
+<div class="logo__item logo__imagebox">
+<img class=logo__img src=/img/Logo_c.svg>
+</div><div class="logo__item logo__text">
+<div class=logo__title>bdcaf</div>
+<div class=logo__tagline>Clemens' blog</div>
+</div>
+</a>
+</div>
+<nav class=menu>
+<button class=menu__btn aria-haspopup=true aria-expanded=false tabindex=0>
+<span class=menu__btn-title tabindex=-1>Menu</span>
+</button>
+<ul class=menu__list>
+<li class=menu__item>
+<a class=menu__link href=/>
+<span class=menu__text>Blog</span>
+</a>
+</li>
+<li class=menu__item>
+<a class=menu__link href=/publication/>
+<span class=menu__text>Publications</span>
+</a>
+</li>
+<li class=menu__item>
+<a class=menu__link href=/page/about/>
+<span class=menu__text>About</span>
+</a>
+</li>
+<li class=menu__item>
+<a class=menu__link href=/page/contact/>
+<span class=menu__text>Contact</span>
+</a>
+</li>
+</ul>
+</nav>
+</div>
+</header>
+<div class="wrapper flex">
+<div class=primary>
+<main class=main role=main>
+<article class=post>
+<header class=post__header>
+<h1 class=post__title>Configuring Syncthing on Mac Server</h1><div class="post__meta meta">
+<div class="meta__item-datetime meta__item">
+<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class=meta__text datetime=2019-02-05T10:58:41+01:00>Tue, Feb 5, 2019</time>
+<time class=meta__text datetime=2021-02-21T09:43:37+01:00>(Last Modified: Sun, Feb 21, 2021)</time></div></div>
+</header><div class="content post__content clearfix">
+<p><a href=https://syncthing.net>Syncthing</a> is currently my preferred tool to
 keep folders in sync. Previously I had affairs with <a href=https://git-annex.branchable.com>git
 annex</a>, and
-<a href=https://rsync.samba.org>rsync</a> scripts.</p><p>Recently I reactivated a 2009 Mac Mini as headless server under El
+<a href=https://rsync.samba.org>rsync</a> scripts.</p>
+<p>Recently I reactivated a 2009 Mac Mini as headless server under El
 Capitan. <a href=https://brew.sh>Homebrew</a> is the tool of choice - it
-complains a little about the old OS but things work out nicely.</p><h2 id=hard-drives-not-being-mounted>hard drives not being mounted</h2><p>However the first issue was that the drives would not be mounted
+complains a little about the old OS but things work out nicely.</p>
+<h2 id=hard-drives-not-being-mounted>hard drives not being mounted</h2>
+<p>However the first issue was that the drives would not be mounted
 without a user logging in. I was able to find following
-<a href=https://gist.github.com/jabenninghoff/f13f81c286e914c48942f973f5d15819>snippet</a>:</p><pre><code>sudo defaults write /Library/Preferences/SystemConfiguration/autodiskmount AutomountDisksWithoutUserLogin -bool true
-</code></pre><h2 id=syncthing-not-starting>syncthing not starting</h2><p>Homebrew documents how the get syncthing started for a user. However
+<a href=https://gist.github.com/jabenninghoff/f13f81c286e914c48942f973f5d15819>snippet</a>:</p>
+<pre><code>sudo defaults write /Library/Preferences/SystemConfiguration/autodiskmount AutomountDisksWithoutUserLogin -bool true
+</code></pre>
+<h2 id=syncthing-not-starting>syncthing not starting</h2>
+<p>Homebrew documents how the get syncthing started for a user. However
 again this would mean someone would need to login before things get
 going. I was able to resolve this by moving the installed plist from
 <code>~/Library/LaunchAgents/</code> to <code>/Library/LaunchDaemons/</code> and adding the
-entry:</p><pre><code>  &lt;key&gt;UserName&lt;/key&gt;
+entry:</p>
+<pre><code>  &lt;key&gt;UserName&lt;/key&gt;
   &lt;string&gt;myuser&lt;/string&gt;
-</code></pre><p>So it would finally launch.</p><h2 id=syncthing-launching-before-harddrive>syncthing launching before harddrive</h2><p>However it turned out it would launch syncthing <em>before</em> the external
+</code></pre>
+<p>So it would finally launch.</p>
+<h2 id=syncthing-launching-before-harddrive>syncthing launching before harddrive</h2>
+<p>However it turned out it would launch syncthing <em>before</em> the external
 drive was ready so syncthing would spew errors and not sync without
-interaction.</p><p>I was not able to solve this within the plist so I created a quick
-shellscript that would sleep until the drive was ready:</p><pre><code>#!/bin/sh
+interaction.</p>
+<p>I was not able to solve this within the plist so I created a quick
+shellscript that would sleep until the drive was ready:</p>
+<pre><code>#!/bin/sh
 SYNCDRIVE='/Volumes/Media/'
 while [ ! -d &quot;$SYNCDRIVE&quot; ]; do
 sleep 10
 done
 /usr/local/opt/syncthing/bin/syncthing -no-browser -no-restart
-</code></pre><h2 id=firewall>firewall</h2><p>After all this it was still not syncing. Being on a headless machine
+</code></pre>
+<h2 id=firewall>firewall</h2>
+<p>After all this it was still not syncing. Being on a headless machine
 I haven&rsquo;t gotten the firewall warning. So the final step was easy to
-allow <code>syncthing</code> getting connections.</p><h2 id=ssh>ssh</h2><p>Last thing was getting things to work was to get to sync through an
+allow <code>syncthing</code> getting connections.</p>
+<h2 id=ssh>ssh</h2>
+<p>Last thing was getting things to work was to get to sync through an
 ssh tunnel. There is a <a href=https://docs.syncthing.net/users/tunneling.html>good
 description</a> however
 I made the mistake to skim the last port number. Turns out in the
 last command they leave one digit away so search all the ports. Once
-fixing to <code>22000</code> all syncing starts/</p><h3 id=on-my-current-decisions>on my current decisions</h3><p>With annex I continuously had problems that my repos wouldn&rsquo;t merge
+fixing to <code>22000</code> all syncing starts/</p>
+<h3 id=on-my-current-decisions>on my current decisions</h3>
+<p>With annex I continuously had problems that my repos wouldn&rsquo;t merge
 nicely. Also although it is under active development the
 documentation is difficult to read - many examples on the site are 5
 years or older, which makes it difficult to realise which apply to the
@@ -56,7 +154,8 @@ current version. I just never managed to get it sync automatically.
 Rsync always had to be run to check for changes. Since it has to
 rescan the remote files it always takes some extra toll. This is
 great for some tasks. But for my application where I control all
-endpoints it was unnecessary.</p><p>My machine wouldn&rsquo;t run the latest Mac OS so I had to choose El Capitan.
+endpoints it was unnecessary.</p>
+<p>My machine wouldn&rsquo;t run the latest Mac OS so I had to choose El Capitan.
 Instead of Mac OS I also experimented with Ubuntu linux.
 Linux would offer me all the latest versions and installed nicely.
 Unfortunately I quickly ran into troubles - updating was not as smooth
@@ -67,5 +166,36 @@ the machine to burn its cupboard. But I also was unable to get the
 graphics card and more than one CPU core working. Searching the
 internet led me to believe this is a common trouble. But maybe in a
 few years when El Capitan no longer gets security patches I will
-change.</p></div><footer class=post__footer><div class="post__tags tags clearfix"><svg class="tags__badge icon icon-tag" width="16" height="16" viewBox="0 0 32 32"><path d="M32 19c0 1-1 2-1 2L21 31s-1 1-2 1-2-1-2-1L2 16c-1-1-1.4-2-1.4-2S0 12.5.0 11V3C0 1.5.8.8.8.8S1.5.0 3 0h8c1.5.0 3 .6 3 .6S15 1 16 2l15 15s1 1 1 2zM7 10a3 3 0 100-6 3 3 0 000 6z"/></svg><ul class=tags__list><li class=tags__item><a class="tags__link btn" href=/tags/syncthing/ rel=tag>syncthing</a></li><li class=tags__item><a class="tags__link btn" href=/tags/mac/ rel=tag>mac</a></li></ul></div></footer></article></main></div></div><footer class=footer><div class="container footer__container flex"><div class=footer__links><a class=footer__link href=/page/about/>About</a> | <a class=footer__link href=/page/contact/>Contact</a></div><div class=footer__copyright>&copy; 2021 Clemens Ager.
-<span class=footer__copyright-credits>Generated with <a href=https://gohugo.io/ rel="nofollow noopener" target=_blank>Hugo</a> and <a href=https://github.com/Vimux/Mainroad/ rel="nofollow noopener" target=_blank>Mainroad</a> theme.</span></div></div></footer></div><script async defer src=/js/menu.js></script></body></html>
+change.</p>
+</div>
+<footer class=post__footer>
+<div class="post__tags tags clearfix"><svg class="tags__badge icon icon-tag" width="16" height="16" viewBox="0 0 32 32"><path d="M32 19c0 1-1 2-1 2L21 31s-1 1-2 1-2-1-2-1L2 16c-1-1-1.4-2-1.4-2S0 12.5.0 11V3C0 1.5.8.8.8.8S1.5.0 3 0h8c1.5.0 3 .6 3 .6S15 1 16 2l15 15s1 1 1 2zM7 10a3 3 0 100-6 3 3 0 000 6z"/></svg>
+<ul class=tags__list>
+<li class=tags__item>
+<a class="tags__link btn" href=/tags/syncthing/ rel=tag>syncthing</a>
+</li>
+<li class=tags__item>
+<a class="tags__link btn" href=/tags/mac/ rel=tag>mac</a>
+</li>
+</ul>
+</div>
+</footer>
+</article>
+</main>
+</div>
+</div>
+<footer class=footer>
+<div class="container footer__container flex">
+<div class=footer__links>
+<a class=footer__link href=/page/about/>About</a> | <a class=footer__link href=/page/contact/>Contact</a>
+</div>
+<div class=footer__copyright>
+&copy; 2021 Clemens Ager.
+<span class=footer__copyright-credits>Generated with <a href=https://gohugo.io/ rel="nofollow noopener" target=_blank>Hugo</a> and <a href=https://github.com/Vimux/Mainroad/ rel="nofollow noopener" target=_blank>Mainroad</a> theme.</span>
+</div>
+</div>
+</footer>
+</div>
+<script async defer src=/js/menu.js></script>
+</body>
+</html>

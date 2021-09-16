@@ -1,34 +1,121 @@
-<!doctype html><html class=no-js lang=en><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><meta http-equiv=x-ua-compatible content="IE=edge"><title>TidyTuesday Measles Vaccination Data - bdcaf</title><script>(function(a,b){a[b]=a[b].replace("no-js","js")})(document.documentElement,"className")</script><meta name=description content><meta property="og:title" content="TidyTuesday Measles Vaccination Data"><meta property="og:description" content="There is a Github repo td20200225.
+<!doctype html><html class=no-js lang=en>
+<head>
+<meta charset=utf-8>
+<meta name=viewport content="width=device-width,initial-scale=1">
+<meta http-equiv=x-ua-compatible content="IE=edge">
+<title>TidyTuesday Measles Vaccination Data - bdcaf</title>
+<script>(function(a,b){a[b]=a[b].replace("no-js","js")})(document.documentElement,"className")</script>
+<meta name=description content>
+<meta property="og:title" content="TidyTuesday Measles Vaccination Data">
+<meta property="og:description" content="There is a Github repo td20200225.
 I had to spend more time than expected on data cleaning.
 The analysis is done in  R with a tidy work flow.
 
 
-    Vaccination ratio medial and other exclusions."><meta property="og:type" content="article"><meta property="og:url" content="https://bdcaf.github.io/post/dev/tidytuesday/td20200225/"><meta property="article:section" content="post"><meta property="article:published_time" content="2020-02-25T00:00:00+00:00"><meta property="article:modified_time" content="2021-02-21T09:43:37+01:00"><meta itemprop=name content="TidyTuesday Measles Vaccination Data"><meta itemprop=description content="There is a Github repo td20200225.
+    Vaccination ratio medial and other exclusions.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://bdcaf.github.io/post/dev/tidytuesday/td20200225/"><meta property="article:section" content="post">
+<meta property="article:published_time" content="2020-02-25T00:00:00+00:00">
+<meta property="article:modified_time" content="2021-02-21T09:43:37+01:00">
+<meta itemprop=name content="TidyTuesday Measles Vaccination Data">
+<meta itemprop=description content="There is a Github repo td20200225.
 I had to spend more time than expected on data cleaning.
 The analysis is done in  R with a tidy work flow.
 
 
-    Vaccination ratio medial and other exclusions."><meta itemprop=datePublished content="2020-02-25T00:00:00+00:00"><meta itemprop=dateModified content="2021-02-21T09:43:37+01:00"><meta itemprop=wordCount content="1467"><meta itemprop=keywords content><meta name=twitter:card content="summary"><meta name=twitter:title content="TidyTuesday Measles Vaccination Data"><meta name=twitter:description content="There is a Github repo td20200225.
+    Vaccination ratio medial and other exclusions."><meta itemprop=datePublished content="2020-02-25T00:00:00+00:00">
+<meta itemprop=dateModified content="2021-02-21T09:43:37+01:00">
+<meta itemprop=wordCount content="1467">
+<meta itemprop=keywords content>
+<meta name=twitter:card content="summary">
+<meta name=twitter:title content="TidyTuesday Measles Vaccination Data">
+<meta name=twitter:description content="There is a Github repo td20200225.
 I had to spend more time than expected on data cleaning.
 The analysis is done in  R with a tidy work flow.
 
 
-    Vaccination ratio medial and other exclusions."><link rel=preconnect href=https://fonts.gstatic.com crossorigin><link rel=dns-prefetch href=//fonts.googleapis.com><link rel=dns-prefetch href=//fonts.gstatic.com><link rel=stylesheet href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700"><link rel=stylesheet href=https://bdcaf.github.io/bundle.min.b875f52a21dac7468ad41e3eb2cf61550b91e4e52debedf1ea5891129de74ac7.css integrity="sha256-uHX1KiHax0aK1B4+ss9hVQuR5OUt6+3x6liREp3nSsc="><link rel="shortcut icon" href=/favicon.ico></head><body class=body><div class="container container--outer"><header class=header><div class="container header__container"><div class="logo logo--mixed"><a class=logo__link href=/ title=bdcaf rel=home><div class="logo__item logo__imagebox"><img class=logo__img src=/img/Logo_c.svg></div><div class="logo__item logo__text"><div class=logo__title>bdcaf</div><div class=logo__tagline>Clemens' blog</div></div></a></div><nav class=menu><button class=menu__btn aria-haspopup=true aria-expanded=false tabindex=0>
-<span class=menu__btn-title tabindex=-1>Menu</span></button><ul class=menu__list><li class=menu__item><a class=menu__link href=/><span class=menu__text>Blog</span></a></li><li class=menu__item><a class=menu__link href=/publication/><span class=menu__text>Publications</span></a></li><li class=menu__item><a class=menu__link href=/page/about/><span class=menu__text>About</span></a></li><li class=menu__item><a class=menu__link href=/page/contact/><span class=menu__text>Contact</span></a></li></ul></nav></div></header><div class="wrapper flex"><div class=primary><main class=main role=main><article class=post><header class=post__header><h1 class=post__title>TidyTuesday Measles Vaccination Data</h1><div class="post__meta meta"><div class="meta__item-datetime meta__item"><svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class=meta__text datetime=2020-02-25T00:00:00Z>Tue, Feb 25, 2020</time>
-<time class=meta__text datetime=2021-02-21T09:43:37+01:00>(Last Modified: Sun, Feb 21, 2021)</time></div></div></header><div class="content post__content clearfix"><p>There is a Github repo <a href=https://github.com/bdcaf/td20200225>td20200225</a>.
-I had to spend more time than expected on data cleaning.<br>The analysis is done in R with a <code>tidy</code> work flow.</p><figure><img src=/post/dev/tidytuesday/td20200225/big_tern-1.png alt><figcaption>Vaccination ratio medial and other exclusions.</figcaption></figure><p>This is my first <code>#tidytuesday</code> project. My work flow isn&rsquo;t settled.</p><p>Note - I don&rsquo;t know the US American system. So I speculate on some correlations.
+    Vaccination ratio medial and other exclusions.">
+<link rel=preconnect href=https://fonts.gstatic.com crossorigin>
+<link rel=dns-prefetch href=//fonts.googleapis.com>
+<link rel=dns-prefetch href=//fonts.gstatic.com>
+<link rel=stylesheet href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700">
+<link rel=stylesheet href=https://bdcaf.github.io/bundle.min.b875f52a21dac7468ad41e3eb2cf61550b91e4e52debedf1ea5891129de74ac7.css integrity="sha256-uHX1KiHax0aK1B4+ss9hVQuR5OUt6+3x6liREp3nSsc=">
+<link rel="shortcut icon" href=/favicon.ico>
+</head>
+<body class=body>
+<div class="container container--outer">
+<header class=header>
+<div class="container header__container">
+<div class="logo logo--mixed">
+<a class=logo__link href=/ title=bdcaf rel=home>
+<div class="logo__item logo__imagebox">
+<img class=logo__img src=/img/Logo_c.svg>
+</div><div class="logo__item logo__text">
+<div class=logo__title>bdcaf</div>
+<div class=logo__tagline>Clemens' blog</div>
+</div>
+</a>
+</div>
+<nav class=menu>
+<button class=menu__btn aria-haspopup=true aria-expanded=false tabindex=0>
+<span class=menu__btn-title tabindex=-1>Menu</span>
+</button>
+<ul class=menu__list>
+<li class=menu__item>
+<a class=menu__link href=/>
+<span class=menu__text>Blog</span>
+</a>
+</li>
+<li class=menu__item>
+<a class=menu__link href=/publication/>
+<span class=menu__text>Publications</span>
+</a>
+</li>
+<li class=menu__item>
+<a class=menu__link href=/page/about/>
+<span class=menu__text>About</span>
+</a>
+</li>
+<li class=menu__item>
+<a class=menu__link href=/page/contact/>
+<span class=menu__text>Contact</span>
+</a>
+</li>
+</ul>
+</nav>
+</div>
+</header>
+<div class="wrapper flex">
+<div class=primary>
+<main class=main role=main>
+<article class=post>
+<header class=post__header>
+<h1 class=post__title>TidyTuesday Measles Vaccination Data</h1><div class="post__meta meta">
+<div class="meta__item-datetime meta__item">
+<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class=meta__text datetime=2020-02-25T00:00:00Z>Tue, Feb 25, 2020</time>
+<time class=meta__text datetime=2021-02-21T09:43:37+01:00>(Last Modified: Sun, Feb 21, 2021)</time></div></div>
+</header><div class="content post__content clearfix">
+<p>There is a Github repo <a href=https://github.com/bdcaf/td20200225>td20200225</a>.
+I had to spend more time than expected on data cleaning.<br>
+The analysis is done in R with a <code>tidy</code> work flow.</p>
+<figure>
+<img src=/post/dev/tidytuesday/td20200225/big_tern-1.png alt><figcaption>Vaccination ratio medial and other exclusions.</figcaption></figure>
+<p>This is my first <code>#tidytuesday</code> project. My work flow isn&rsquo;t settled.</p>
+<p>Note - I don&rsquo;t know the US American system. So I speculate on some correlations.
 Mostly I suppose they don&rsquo;t do vaccination against the parents will, but rather I&rsquo;m seeing honest typos in the data.
-Not too motivated to organized secondary sources.</p><h2 id=setup>Setup</h2><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-r data-lang=r><span style=color:#a6e22e>library</span>(ggplot2)
+Not too motivated to organized secondary sources.</p>
+<h2 id=setup>Setup</h2>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-r data-lang=r><span style=color:#a6e22e>library</span>(ggplot2)
 <span style=color:#a6e22e>library</span>(dplyr)
-</code></pre></div><pre><code>## 
+</code></pre></div><pre tabindex=0><code>## 
 ## Attaching package: 'dplyr'
-</code></pre><pre><code>## The following objects are masked from 'package:stats':
+</code></pre><pre tabindex=0><code>## The following objects are masked from 'package:stats':
 ## 
 ##     filter, lag
-</code></pre><pre><code>## The following objects are masked from 'package:base':
+</code></pre><pre tabindex=0><code>## The following objects are masked from 'package:base':
 ## 
 ##     intersect, setdiff, setequal, union
-</code></pre><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-r data-lang=r><span style=color:#a6e22e>library</span>(tidyr)
+</code></pre><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-r data-lang=r><span style=color:#a6e22e>library</span>(tidyr)
 <span style=color:#a6e22e>library</span>(pander)
 knitr<span style=color:#f92672>::</span>opts_chunk<span style=color:#f92672>$</span><span style=color:#a6e22e>set</span>(warning <span style=color:#f92672>=</span> <span style=color:#66d9ef>FALSE</span>, message<span style=color:#f92672>=</span><span style=color:#66d9ef>FALSE</span>)
 <span style=color:#75715e># library(svglite)</span>
@@ -36,75 +123,646 @@ knitr<span style=color:#f92672>::</span>opts_chunk<span style=color:#f92672>$</s
 <span style=color:#75715e>#   dev = &#34;svglite&#34;,</span>
 <span style=color:#75715e>#   fig.ext = &#34;.svg&#34;</span>
 <span style=color:#75715e># )</span>
-</code></pre></div><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-r data-lang=r>measles <span style=color:#f92672>&lt;-</span> <span style=color:#a6e22e>readRDS</span>(<span style=color:#e6db74>&#34;data/measles.RDS&#34;</span>)
+</code></pre></div><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-r data-lang=r>measles <span style=color:#f92672>&lt;-</span> <span style=color:#a6e22e>readRDS</span>(<span style=color:#e6db74>&#34;data/measles.RDS&#34;</span>)
 cmeasles  <span style=color:#f92672>&lt;-</span> measles <span style=color:#f92672>%&gt;%</span> <span style=color:#a6e22e>filter</span>(<span style=color:#f92672>!</span>suspicious)
-</code></pre></div><h2 id=checking-data>checking data</h2><p>I notice some annoyances:</p><ol><li>In some columns <code>-1</code> is used instead of <code>NA</code></li><li>Religious refusal is boolean ?!?</li><li>Lots of missing values.</li><li>The ratios of vaccinations and students refusing don&rsquo;t add up.</li><li>In one school <code>160%</code> (Montessori At Samish Woods) refused for personal reasons - also has year <code>null</code>.</li></ol><h3 id=data-structure>Data structure</h3><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-r data-lang=r>ptm <span style=color:#f92672>&lt;-</span> <span style=color:#a6e22e>proc.time</span>()
+</code></pre></div><h2 id=checking-data>checking data</h2>
+<p>I notice some annoyances:</p>
+<ol>
+<li>In some columns <code>-1</code> is used instead of <code>NA</code></li>
+<li>Religious refusal is boolean ?!?</li>
+<li>Lots of missing values.</li>
+<li>The ratios of vaccinations and students refusing don&rsquo;t add up.</li>
+<li>In one school <code>160%</code> (Montessori At Samish Woods) refused for personal reasons - also has year <code>null</code>.</li>
+</ol>
+<h3 id=data-structure>Data structure</h3>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-r data-lang=r>ptm <span style=color:#f92672>&lt;-</span> <span style=color:#a6e22e>proc.time</span>()
 <span style=color:#a6e22e>ggplot</span>(measles, mapping<span style=color:#f92672>=</span><span style=color:#a6e22e>aes</span>(x<span style=color:#f92672>=</span>mmr, y<span style=color:#f92672>=</span><span style=color:#a6e22e>replace_na</span>(xmed,<span style=color:#ae81ff>0</span>))) <span style=color:#f92672>+</span> 
   <span style=color:#a6e22e>geom_point</span>(alpha <span style=color:#f92672>=</span> <span style=color:#ae81ff>0.2</span>) 
-</code></pre></div><figure><img src=/post/dev/tidytuesday/td20200225/mmr_vs_xmed-1.png alt><figcaption>correspondance mmr with xmed</figcaption></figure><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-r data-lang=r><span style=color:#a6e22e>proc.time</span>()<span style=color:#f92672>-</span>ptm
-</code></pre></div><pre><code>##    user  system elapsed 
+</code></pre></div>
+<figure>
+<img src=/post/dev/tidytuesday/td20200225/mmr_vs_xmed-1.png alt><figcaption>correspondance mmr with xmed</figcaption></figure>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-r data-lang=r><span style=color:#a6e22e>proc.time</span>()<span style=color:#f92672>-</span>ptm
+</code></pre></div><pre tabindex=0><code>##    user  system elapsed 
 ##   0.811   0.050   1.144
-</code></pre><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-r data-lang=r><span style=color:#a6e22e>ggplot</span>(measles, mapping<span style=color:#f92672>=</span><span style=color:#a6e22e>aes</span>(x<span style=color:#f92672>=</span>mmr, y<span style=color:#f92672>=</span><span style=color:#a6e22e>replace_na</span>(xper,<span style=color:#ae81ff>0</span>))) <span style=color:#f92672>+</span> 
+</code></pre><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-r data-lang=r><span style=color:#a6e22e>ggplot</span>(measles, mapping<span style=color:#f92672>=</span><span style=color:#a6e22e>aes</span>(x<span style=color:#f92672>=</span>mmr, y<span style=color:#f92672>=</span><span style=color:#a6e22e>replace_na</span>(xper,<span style=color:#ae81ff>0</span>))) <span style=color:#f92672>+</span> 
   <span style=color:#a6e22e>geom_point</span>(alpha <span style=color:#f92672>=</span> <span style=color:#ae81ff>0.2</span>) 
-</code></pre></div><figure><img src=/post/dev/tidytuesday/td20200225/mmr_vs_xper-1.png alt><figcaption>correspondance mmr with xper</figcaption></figure><p>These are suspicious. There is a clearly a diagonal line visible.
+</code></pre></div>
+<figure>
+<img src=/post/dev/tidytuesday/td20200225/mmr_vs_xper-1.png alt><figcaption>correspondance mmr with xper</figcaption></figure>
+<p>These are suspicious. There is a clearly a diagonal line visible.
 There should not be points above - either they withdrew the consent, or were wrongly reported vaccinated.
 It seems many just report 100%.
-And the magic school where 169% rejected - on the figure this looks like a reasonable typo - 16.9% may fit. But still the <code>mmr</code> is 92.3% - way too high.</p><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-r data-lang=r>susps <span style=color:#f92672>&lt;-</span> measles <span style=color:#f92672>%&gt;%</span> <span style=color:#a6e22e>filter</span>(suspicious) <span style=color:#f92672>%&gt;%</span> <span style=color:#a6e22e>select</span>(<span style=color:#f92672>-</span>lng,<span style=color:#f92672>-</span>lat)
-</code></pre></div><p>In total there are 1844 suspicious entries - that&rsquo;s not much compared out of 66113.</p><h3 id=imputation>Imputation</h3><p>I didn&rsquo;t want to exclude all the <code>NA</code>s.</p><h4 id=xmed-and-xper>xmed and xper</h4><p>These seem simple. They are <code>NA</code> for <code>100%</code> schools.
-So in most cases the <code>NA</code> just may be <code>0</code>.</p><h4 id=xrel>xrel</h4><p>This is harder as it is not numerically reported.
-But mmr and xmed seem to be reliable - so I decided to have all <em>unexplained</em> non-vaccinating together. Of course this will group religious with all where no explanation was required.</p><h4 id=school-type>School type</h4><p>School type seemets interesting, but has lots of <code>NA</code>s.<br>Seems the reason is most states don&rsquo;t report these.
-Not much I can do there.</p><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-r data-lang=r><span style=color:#a6e22e>pandoc.table</span>(measles <span style=color:#f92672>%&gt;%</span> <span style=color:#a6e22e>group_by</span>(type, state) <span style=color:#f92672>%&gt;%</span> <span style=color:#a6e22e>summarise</span>(n<span style=color:#f92672>=</span><span style=color:#a6e22e>n</span>()) <span style=color:#f92672>%&gt;%</span>
+And the magic school where 169% rejected - on the figure this looks like a reasonable typo - 16.9% may fit. But still the <code>mmr</code> is 92.3% - way too high.</p>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-r data-lang=r>susps <span style=color:#f92672>&lt;-</span> measles <span style=color:#f92672>%&gt;%</span> <span style=color:#a6e22e>filter</span>(suspicious) <span style=color:#f92672>%&gt;%</span> <span style=color:#a6e22e>select</span>(<span style=color:#f92672>-</span>lng,<span style=color:#f92672>-</span>lat)
+</code></pre></div><p>In total there are 1844 suspicious entries - that&rsquo;s not much compared out of 66113.</p>
+<h3 id=imputation>Imputation</h3>
+<p>I didn&rsquo;t want to exclude all the <code>NA</code>s.</p>
+<h4 id=xmed-and-xper>xmed and xper</h4>
+<p>These seem simple. They are <code>NA</code> for <code>100%</code> schools.
+So in most cases the <code>NA</code> just may be <code>0</code>.</p>
+<h4 id=xrel>xrel</h4>
+<p>This is harder as it is not numerically reported.
+But mmr and xmed seem to be reliable - so I decided to have all <em>unexplained</em> non-vaccinating together. Of course this will group religious with all where no explanation was required.</p>
+<h4 id=school-type>School type</h4>
+<p>School type seemets interesting, but has lots of <code>NA</code>s.<br>
+Seems the reason is most states don&rsquo;t report these.
+Not much I can do there.</p>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-r data-lang=r><span style=color:#a6e22e>pandoc.table</span>(measles <span style=color:#f92672>%&gt;%</span> <span style=color:#a6e22e>group_by</span>(type, state) <span style=color:#f92672>%&gt;%</span> <span style=color:#a6e22e>summarise</span>(n<span style=color:#f92672>=</span><span style=color:#a6e22e>n</span>()) <span style=color:#f92672>%&gt;%</span>
        <span style=color:#a6e22e>spread</span>(type,n), 
      caption <span style=color:#f92672>=</span> <span style=color:#e6db74>&#34;types of school vs. states&#34;</span>,
      style<span style=color:#f92672>=</span><span style=color:#e6db74>&#34;rmarkdown&#34;</span>,
      split.tables <span style=color:#f92672>=</span> <span style=color:#66d9ef>Inf</span>)
-</code></pre></div><table><thead><tr><th style=text-align:center>state</th><th style=text-align:center>BOCES</th><th style=text-align:center>Charter</th><th style=text-align:center>Kindergarten</th><th style=text-align:center>Nonpublic</th><th style=text-align:center>Private</th><th style=text-align:center>Public</th><th style=text-align:center></th></tr></thead><tbody><tr><td style=text-align:center>Arizona</td><td style=text-align:center>NA</td><td style=text-align:center>276</td><td style=text-align:center>NA</td><td style=text-align:center>NA</td><td style=text-align:center>224</td><td style=text-align:center>951</td><td style=text-align:center>NA</td></tr><tr><td style=text-align:center>Arkansas</td><td style=text-align:center>NA</td><td style=text-align:center>NA</td><td style=text-align:center>NA</td><td style=text-align:center>NA</td><td style=text-align:center>NA</td><td style=text-align:center>NA</td><td style=text-align:center>567</td></tr><tr><td style=text-align:center>California</td><td style=text-align:center>NA</td><td style=text-align:center>NA</td><td style=text-align:center>NA</td><td style=text-align:center>NA</td><td style=text-align:center>2745</td><td style=text-align:center>13353</td><td style=text-align:center>NA</td></tr><tr><td style=text-align:center>Colorado</td><td style=text-align:center>NA</td><td style=text-align:center>NA</td><td style=text-align:center>1488</td><td style=text-align:center>NA</td><td style=text-align:center>21</td><td style=text-align:center>NA</td><td style=text-align:center>NA</td></tr><tr><td style=text-align:center>Connecticut</td><td style=text-align:center>NA</td><td style=text-align:center>NA</td><td style=text-align:center>NA</td><td style=text-align:center>173</td><td style=text-align:center>NA</td><td style=text-align:center>622</td><td style=text-align:center>NA</td></tr><tr><td style=text-align:center>Florida</td><td style=text-align:center>NA</td><td style=text-align:center>NA</td><td style=text-align:center>NA</td><td style=text-align:center>NA</td><td style=text-align:center>NA</td><td style=text-align:center>NA</td><td style=text-align:center>2678</td></tr><tr><td style=text-align:center>Idaho</td><td style=text-align:center>NA</td><td style=text-align:center>NA</td><td style=text-align:center>NA</td><td style=text-align:center>NA</td><td style=text-align:center>NA</td><td style=text-align:center>NA</td><td style=text-align:center>475</td></tr><tr><td style=text-align:center>Illinois</td><td style=text-align:center>NA</td><td style=text-align:center>NA</td><td style=text-align:center>NA</td><td style=text-align:center>NA</td><td style=text-align:center>NA</td><td style=text-align:center>NA</td><td style=text-align:center>7686</td></tr><tr><td style=text-align:center>Iowa</td><td style=text-align:center>NA</td><td style=text-align:center>NA</td><td style=text-align:center>NA</td><td style=text-align:center>NA</td><td style=text-align:center>NA</td><td style=text-align:center>NA</td><td style=text-align:center>1370</td></tr><tr><td style=text-align:center>Maine</td><td style=text-align:center>NA</td><td style=text-align:center>NA</td><td style=text-align:center>NA</td><td style=text-align:center>NA</td><td style=text-align:center>NA</td><td style=text-align:center>NA</td><td style=text-align:center>357</td></tr><tr><td style=text-align:center>Massachusetts</td><td style=text-align:center>NA</td><td style=text-align:center>NA</td><td style=text-align:center>NA</td><td style=text-align:center>NA</td><td style=text-align:center>486</td><td style=text-align:center>1108</td><td style=text-align:center>NA</td></tr><tr><td style=text-align:center>Michigan</td><td style=text-align:center>NA</td><td style=text-align:center>NA</td><td style=text-align:center>NA</td><td style=text-align:center>NA</td><td style=text-align:center>NA</td><td style=text-align:center>NA</td><td style=text-align:center>2351</td></tr><tr><td style=text-align:center>Minnesota</td><td style=text-align:center>NA</td><td style=text-align:center>NA</td><td style=text-align:center>NA</td><td style=text-align:center>NA</td><td style=text-align:center>NA</td><td style=text-align:center>NA</td><td style=text-align:center>1813</td></tr><tr><td style=text-align:center>Missouri</td><td style=text-align:center>NA</td><td style=text-align:center>NA</td><td style=text-align:center>NA</td><td style=text-align:center>NA</td><td style=text-align:center>NA</td><td style=text-align:center>NA</td><td style=text-align:center>748</td></tr><tr><td style=text-align:center>Montana</td><td style=text-align:center>NA</td><td style=text-align:center>NA</td><td style=text-align:center>NA</td><td style=text-align:center>NA</td><td style=text-align:center>NA</td><td style=text-align:center>NA</td><td style=text-align:center>645</td></tr><tr><td style=text-align:center>New Jersey</td><td style=text-align:center>NA</td><td style=text-align:center>NA</td><td style=text-align:center>NA</td><td style=text-align:center>NA</td><td style=text-align:center>NA</td><td style=text-align:center>NA</td><td style=text-align:center>2211</td></tr><tr><td style=text-align:center>New York</td><td style=text-align:center>47</td><td style=text-align:center>NA</td><td style=text-align:center>NA</td><td style=text-align:center>NA</td><td style=text-align:center>2294</td><td style=text-align:center>1934</td><td style=text-align:center>NA</td></tr><tr><td style=text-align:center>North Carolina</td><td style=text-align:center>NA</td><td style=text-align:center>NA</td><td style=text-align:center>NA</td><td style=text-align:center>NA</td><td style=text-align:center>NA</td><td style=text-align:center>NA</td><td style=text-align:center>2085</td></tr><tr><td style=text-align:center>North Dakota</td><td style=text-align:center>NA</td><td style=text-align:center>NA</td><td style=text-align:center>NA</td><td style=text-align:center>NA</td><td style=text-align:center>NA</td><td style=text-align:center>NA</td><td style=text-align:center>387</td></tr><tr><td style=text-align:center>Ohio</td><td style=text-align:center>NA</td><td style=text-align:center>NA</td><td style=text-align:center>NA</td><td style=text-align:center>NA</td><td style=text-align:center>1012</td><td style=text-align:center>2153</td><td style=text-align:center>NA</td></tr><tr><td style=text-align:center>Oklahoma</td><td style=text-align:center>NA</td><td style=text-align:center>NA</td><td style=text-align:center>NA</td><td style=text-align:center>NA</td><td style=text-align:center>NA</td><td style=text-align:center>NA</td><td style=text-align:center>1249</td></tr><tr><td style=text-align:center>Oregon</td><td style=text-align:center>NA</td><td style=text-align:center>NA</td><td style=text-align:center>NA</td><td style=text-align:center>NA</td><td style=text-align:center>NA</td><td style=text-align:center>NA</td><td style=text-align:center>817</td></tr><tr><td style=text-align:center>Pennsylvania</td><td style=text-align:center>NA</td><td style=text-align:center>NA</td><td style=text-align:center>NA</td><td style=text-align:center>NA</td><td style=text-align:center>NA</td><td style=text-align:center>NA</td><td style=text-align:center>1939</td></tr><tr><td style=text-align:center>Rhode Island</td><td style=text-align:center>NA</td><td style=text-align:center>NA</td><td style=text-align:center>NA</td><td style=text-align:center>NA</td><td style=text-align:center>NA</td><td style=text-align:center>NA</td><td style=text-align:center>230</td></tr><tr><td style=text-align:center>South Dakota</td><td style=text-align:center>NA</td><td style=text-align:center>NA</td><td style=text-align:center>NA</td><td style=text-align:center>NA</td><td style=text-align:center>NA</td><td style=text-align:center>NA</td><td style=text-align:center>390</td></tr><tr><td style=text-align:center>Tennessee</td><td style=text-align:center>NA</td><td style=text-align:center>NA</td><td style=text-align:center>NA</td><td style=text-align:center>NA</td><td style=text-align:center>NA</td><td style=text-align:center>NA</td><td style=text-align:center>1152</td></tr><tr><td style=text-align:center>Texas</td><td style=text-align:center>NA</td><td style=text-align:center>NA</td><td style=text-align:center>NA</td><td style=text-align:center>NA</td><td style=text-align:center>NA</td><td style=text-align:center>NA</td><td style=text-align:center>811</td></tr><tr><td style=text-align:center>Utah</td><td style=text-align:center>NA</td><td style=text-align:center>NA</td><td style=text-align:center>NA</td><td style=text-align:center>NA</td><td style=text-align:center>33</td><td style=text-align:center>571</td><td style=text-align:center>NA</td></tr><tr><td style=text-align:center>Vermont</td><td style=text-align:center>NA</td><td style=text-align:center>NA</td><td style=text-align:center>NA</td><td style=text-align:center>NA</td><td style=text-align:center>NA</td><td style=text-align:center>NA</td><td style=text-align:center>349</td></tr><tr><td style=text-align:center>Virginia</td><td style=text-align:center>NA</td><td style=text-align:center>NA</td><td style=text-align:center>NA</td><td style=text-align:center>NA</td><td style=text-align:center>NA</td><td style=text-align:center>NA</td><td style=text-align:center>1468</td></tr><tr><td style=text-align:center>Washington</td><td style=text-align:center>NA</td><td style=text-align:center>NA</td><td style=text-align:center>NA</td><td style=text-align:center>NA</td><td style=text-align:center>NA</td><td style=text-align:center>NA</td><td style=text-align:center>2221</td></tr><tr><td style=text-align:center>Wisconsin</td><td style=text-align:center>NA</td><td style=text-align:center>NA</td><td style=text-align:center>NA</td><td style=text-align:center>NA</td><td style=text-align:center>NA</td><td style=text-align:center>NA</td><td style=text-align:center>2623</td></tr></tbody></table><p>Table: types of school vs. states</p><h4 id=enroll>Enroll</h4><p>Number of students would be useful for a weighted average.</p><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-r data-lang=r><span style=color:#a6e22e>pander</span>(measles <span style=color:#f92672>%&gt;%</span> <span style=color:#a6e22e>group_by</span>( state) <span style=color:#f92672>%&gt;%</span> 
+</code></pre></div><table>
+<thead>
+<tr>
+<th style=text-align:center>state</th>
+<th style=text-align:center>BOCES</th>
+<th style=text-align:center>Charter</th>
+<th style=text-align:center>Kindergarten</th>
+<th style=text-align:center>Nonpublic</th>
+<th style=text-align:center>Private</th>
+<th style=text-align:center>Public</th>
+<th style=text-align:center></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style=text-align:center>Arizona</td>
+<td style=text-align:center>NA</td>
+<td style=text-align:center>276</td>
+<td style=text-align:center>NA</td>
+<td style=text-align:center>NA</td>
+<td style=text-align:center>224</td>
+<td style=text-align:center>951</td>
+<td style=text-align:center>NA</td>
+</tr>
+<tr>
+<td style=text-align:center>Arkansas</td>
+<td style=text-align:center>NA</td>
+<td style=text-align:center>NA</td>
+<td style=text-align:center>NA</td>
+<td style=text-align:center>NA</td>
+<td style=text-align:center>NA</td>
+<td style=text-align:center>NA</td>
+<td style=text-align:center>567</td>
+</tr>
+<tr>
+<td style=text-align:center>California</td>
+<td style=text-align:center>NA</td>
+<td style=text-align:center>NA</td>
+<td style=text-align:center>NA</td>
+<td style=text-align:center>NA</td>
+<td style=text-align:center>2745</td>
+<td style=text-align:center>13353</td>
+<td style=text-align:center>NA</td>
+</tr>
+<tr>
+<td style=text-align:center>Colorado</td>
+<td style=text-align:center>NA</td>
+<td style=text-align:center>NA</td>
+<td style=text-align:center>1488</td>
+<td style=text-align:center>NA</td>
+<td style=text-align:center>21</td>
+<td style=text-align:center>NA</td>
+<td style=text-align:center>NA</td>
+</tr>
+<tr>
+<td style=text-align:center>Connecticut</td>
+<td style=text-align:center>NA</td>
+<td style=text-align:center>NA</td>
+<td style=text-align:center>NA</td>
+<td style=text-align:center>173</td>
+<td style=text-align:center>NA</td>
+<td style=text-align:center>622</td>
+<td style=text-align:center>NA</td>
+</tr>
+<tr>
+<td style=text-align:center>Florida</td>
+<td style=text-align:center>NA</td>
+<td style=text-align:center>NA</td>
+<td style=text-align:center>NA</td>
+<td style=text-align:center>NA</td>
+<td style=text-align:center>NA</td>
+<td style=text-align:center>NA</td>
+<td style=text-align:center>2678</td>
+</tr>
+<tr>
+<td style=text-align:center>Idaho</td>
+<td style=text-align:center>NA</td>
+<td style=text-align:center>NA</td>
+<td style=text-align:center>NA</td>
+<td style=text-align:center>NA</td>
+<td style=text-align:center>NA</td>
+<td style=text-align:center>NA</td>
+<td style=text-align:center>475</td>
+</tr>
+<tr>
+<td style=text-align:center>Illinois</td>
+<td style=text-align:center>NA</td>
+<td style=text-align:center>NA</td>
+<td style=text-align:center>NA</td>
+<td style=text-align:center>NA</td>
+<td style=text-align:center>NA</td>
+<td style=text-align:center>NA</td>
+<td style=text-align:center>7686</td>
+</tr>
+<tr>
+<td style=text-align:center>Iowa</td>
+<td style=text-align:center>NA</td>
+<td style=text-align:center>NA</td>
+<td style=text-align:center>NA</td>
+<td style=text-align:center>NA</td>
+<td style=text-align:center>NA</td>
+<td style=text-align:center>NA</td>
+<td style=text-align:center>1370</td>
+</tr>
+<tr>
+<td style=text-align:center>Maine</td>
+<td style=text-align:center>NA</td>
+<td style=text-align:center>NA</td>
+<td style=text-align:center>NA</td>
+<td style=text-align:center>NA</td>
+<td style=text-align:center>NA</td>
+<td style=text-align:center>NA</td>
+<td style=text-align:center>357</td>
+</tr>
+<tr>
+<td style=text-align:center>Massachusetts</td>
+<td style=text-align:center>NA</td>
+<td style=text-align:center>NA</td>
+<td style=text-align:center>NA</td>
+<td style=text-align:center>NA</td>
+<td style=text-align:center>486</td>
+<td style=text-align:center>1108</td>
+<td style=text-align:center>NA</td>
+</tr>
+<tr>
+<td style=text-align:center>Michigan</td>
+<td style=text-align:center>NA</td>
+<td style=text-align:center>NA</td>
+<td style=text-align:center>NA</td>
+<td style=text-align:center>NA</td>
+<td style=text-align:center>NA</td>
+<td style=text-align:center>NA</td>
+<td style=text-align:center>2351</td>
+</tr>
+<tr>
+<td style=text-align:center>Minnesota</td>
+<td style=text-align:center>NA</td>
+<td style=text-align:center>NA</td>
+<td style=text-align:center>NA</td>
+<td style=text-align:center>NA</td>
+<td style=text-align:center>NA</td>
+<td style=text-align:center>NA</td>
+<td style=text-align:center>1813</td>
+</tr>
+<tr>
+<td style=text-align:center>Missouri</td>
+<td style=text-align:center>NA</td>
+<td style=text-align:center>NA</td>
+<td style=text-align:center>NA</td>
+<td style=text-align:center>NA</td>
+<td style=text-align:center>NA</td>
+<td style=text-align:center>NA</td>
+<td style=text-align:center>748</td>
+</tr>
+<tr>
+<td style=text-align:center>Montana</td>
+<td style=text-align:center>NA</td>
+<td style=text-align:center>NA</td>
+<td style=text-align:center>NA</td>
+<td style=text-align:center>NA</td>
+<td style=text-align:center>NA</td>
+<td style=text-align:center>NA</td>
+<td style=text-align:center>645</td>
+</tr>
+<tr>
+<td style=text-align:center>New Jersey</td>
+<td style=text-align:center>NA</td>
+<td style=text-align:center>NA</td>
+<td style=text-align:center>NA</td>
+<td style=text-align:center>NA</td>
+<td style=text-align:center>NA</td>
+<td style=text-align:center>NA</td>
+<td style=text-align:center>2211</td>
+</tr>
+<tr>
+<td style=text-align:center>New York</td>
+<td style=text-align:center>47</td>
+<td style=text-align:center>NA</td>
+<td style=text-align:center>NA</td>
+<td style=text-align:center>NA</td>
+<td style=text-align:center>2294</td>
+<td style=text-align:center>1934</td>
+<td style=text-align:center>NA</td>
+</tr>
+<tr>
+<td style=text-align:center>North Carolina</td>
+<td style=text-align:center>NA</td>
+<td style=text-align:center>NA</td>
+<td style=text-align:center>NA</td>
+<td style=text-align:center>NA</td>
+<td style=text-align:center>NA</td>
+<td style=text-align:center>NA</td>
+<td style=text-align:center>2085</td>
+</tr>
+<tr>
+<td style=text-align:center>North Dakota</td>
+<td style=text-align:center>NA</td>
+<td style=text-align:center>NA</td>
+<td style=text-align:center>NA</td>
+<td style=text-align:center>NA</td>
+<td style=text-align:center>NA</td>
+<td style=text-align:center>NA</td>
+<td style=text-align:center>387</td>
+</tr>
+<tr>
+<td style=text-align:center>Ohio</td>
+<td style=text-align:center>NA</td>
+<td style=text-align:center>NA</td>
+<td style=text-align:center>NA</td>
+<td style=text-align:center>NA</td>
+<td style=text-align:center>1012</td>
+<td style=text-align:center>2153</td>
+<td style=text-align:center>NA</td>
+</tr>
+<tr>
+<td style=text-align:center>Oklahoma</td>
+<td style=text-align:center>NA</td>
+<td style=text-align:center>NA</td>
+<td style=text-align:center>NA</td>
+<td style=text-align:center>NA</td>
+<td style=text-align:center>NA</td>
+<td style=text-align:center>NA</td>
+<td style=text-align:center>1249</td>
+</tr>
+<tr>
+<td style=text-align:center>Oregon</td>
+<td style=text-align:center>NA</td>
+<td style=text-align:center>NA</td>
+<td style=text-align:center>NA</td>
+<td style=text-align:center>NA</td>
+<td style=text-align:center>NA</td>
+<td style=text-align:center>NA</td>
+<td style=text-align:center>817</td>
+</tr>
+<tr>
+<td style=text-align:center>Pennsylvania</td>
+<td style=text-align:center>NA</td>
+<td style=text-align:center>NA</td>
+<td style=text-align:center>NA</td>
+<td style=text-align:center>NA</td>
+<td style=text-align:center>NA</td>
+<td style=text-align:center>NA</td>
+<td style=text-align:center>1939</td>
+</tr>
+<tr>
+<td style=text-align:center>Rhode Island</td>
+<td style=text-align:center>NA</td>
+<td style=text-align:center>NA</td>
+<td style=text-align:center>NA</td>
+<td style=text-align:center>NA</td>
+<td style=text-align:center>NA</td>
+<td style=text-align:center>NA</td>
+<td style=text-align:center>230</td>
+</tr>
+<tr>
+<td style=text-align:center>South Dakota</td>
+<td style=text-align:center>NA</td>
+<td style=text-align:center>NA</td>
+<td style=text-align:center>NA</td>
+<td style=text-align:center>NA</td>
+<td style=text-align:center>NA</td>
+<td style=text-align:center>NA</td>
+<td style=text-align:center>390</td>
+</tr>
+<tr>
+<td style=text-align:center>Tennessee</td>
+<td style=text-align:center>NA</td>
+<td style=text-align:center>NA</td>
+<td style=text-align:center>NA</td>
+<td style=text-align:center>NA</td>
+<td style=text-align:center>NA</td>
+<td style=text-align:center>NA</td>
+<td style=text-align:center>1152</td>
+</tr>
+<tr>
+<td style=text-align:center>Texas</td>
+<td style=text-align:center>NA</td>
+<td style=text-align:center>NA</td>
+<td style=text-align:center>NA</td>
+<td style=text-align:center>NA</td>
+<td style=text-align:center>NA</td>
+<td style=text-align:center>NA</td>
+<td style=text-align:center>811</td>
+</tr>
+<tr>
+<td style=text-align:center>Utah</td>
+<td style=text-align:center>NA</td>
+<td style=text-align:center>NA</td>
+<td style=text-align:center>NA</td>
+<td style=text-align:center>NA</td>
+<td style=text-align:center>33</td>
+<td style=text-align:center>571</td>
+<td style=text-align:center>NA</td>
+</tr>
+<tr>
+<td style=text-align:center>Vermont</td>
+<td style=text-align:center>NA</td>
+<td style=text-align:center>NA</td>
+<td style=text-align:center>NA</td>
+<td style=text-align:center>NA</td>
+<td style=text-align:center>NA</td>
+<td style=text-align:center>NA</td>
+<td style=text-align:center>349</td>
+</tr>
+<tr>
+<td style=text-align:center>Virginia</td>
+<td style=text-align:center>NA</td>
+<td style=text-align:center>NA</td>
+<td style=text-align:center>NA</td>
+<td style=text-align:center>NA</td>
+<td style=text-align:center>NA</td>
+<td style=text-align:center>NA</td>
+<td style=text-align:center>1468</td>
+</tr>
+<tr>
+<td style=text-align:center>Washington</td>
+<td style=text-align:center>NA</td>
+<td style=text-align:center>NA</td>
+<td style=text-align:center>NA</td>
+<td style=text-align:center>NA</td>
+<td style=text-align:center>NA</td>
+<td style=text-align:center>NA</td>
+<td style=text-align:center>2221</td>
+</tr>
+<tr>
+<td style=text-align:center>Wisconsin</td>
+<td style=text-align:center>NA</td>
+<td style=text-align:center>NA</td>
+<td style=text-align:center>NA</td>
+<td style=text-align:center>NA</td>
+<td style=text-align:center>NA</td>
+<td style=text-align:center>NA</td>
+<td style=text-align:center>2623</td>
+</tr>
+</tbody>
+</table>
+<p>Table: types of school vs. states</p>
+<h4 id=enroll>Enroll</h4>
+<p>Number of students would be useful for a weighted average.</p>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-r data-lang=r><span style=color:#a6e22e>pander</span>(measles <span style=color:#f92672>%&gt;%</span> <span style=color:#a6e22e>group_by</span>( state) <span style=color:#f92672>%&gt;%</span> 
        <span style=color:#a6e22e>summarise</span>(median<span style=color:#f92672>=</span><span style=color:#a6e22e>median</span>(enroll, na.rm <span style=color:#f92672>=</span> T),
 		 mad <span style=color:#f92672>=</span> <span style=color:#a6e22e>mad</span>(enroll, na.rm <span style=color:#f92672>=</span> T)),
        caption <span style=color:#f92672>=</span> <span style=color:#e6db74>&#34;types of school vs. states&#34;</span>,
        split.tables <span style=color:#f92672>=</span> <span style=color:#66d9ef>Inf</span>, 
        style<span style=color:#f92672>=</span><span style=color:#e6db74>&#34;rmarkdown&#34;</span>)
-</code></pre></div><table><thead><tr><th style=text-align:center>state</th><th style=text-align:center>median</th><th style=text-align:center>mad</th></tr></thead><tbody><tr><td style=text-align:center>Arizona</td><td style=text-align:center>71</td><td style=text-align:center>29.65</td></tr><tr><td style=text-align:center>Arkansas</td><td style=text-align:center>505</td><td style=text-align:center>192.7</td></tr><tr><td style=text-align:center>California</td><td style=text-align:center>77</td><td style=text-align:center>43</td></tr><tr><td style=text-align:center>Colorado</td><td style=text-align:center>52</td><td style=text-align:center>34.1</td></tr><tr><td style=text-align:center>Connecticut</td><td style=text-align:center>NA</td><td style=text-align:center>NA</td></tr><tr><td style=text-align:center>Florida</td><td style=text-align:center>89</td><td style=text-align:center>35.58</td></tr><tr><td style=text-align:center>Idaho</td><td style=text-align:center>NA</td><td style=text-align:center>NA</td></tr><tr><td style=text-align:center>Illinois</td><td style=text-align:center>333</td><td style=text-align:center>206.1</td></tr><tr><td style=text-align:center>Iowa</td><td style=text-align:center>270</td><td style=text-align:center>179.4</td></tr><tr><td style=text-align:center>Maine</td><td style=text-align:center>30</td><td style=text-align:center>28.17</td></tr><tr><td style=text-align:center>Massachusetts</td><td style=text-align:center>NA</td><td style=text-align:center>NA</td></tr><tr><td style=text-align:center>Michigan</td><td style=text-align:center>58</td><td style=text-align:center>35.58</td></tr><tr><td style=text-align:center>Minnesota</td><td style=text-align:center>56</td><td style=text-align:center>48.93</td></tr><tr><td style=text-align:center>Missouri</td><td style=text-align:center>NA</td><td style=text-align:center>NA</td></tr><tr><td style=text-align:center>Montana</td><td style=text-align:center>196</td><td style=text-align:center>180.9</td></tr><tr><td style=text-align:center>New Jersey</td><td style=text-align:center>45</td><td style=text-align:center>40.03</td></tr><tr><td style=text-align:center>New York</td><td style=text-align:center>NA</td><td style=text-align:center>NA</td></tr><tr><td style=text-align:center>North Carolina</td><td style=text-align:center>63</td><td style=text-align:center>44.48</td></tr><tr><td style=text-align:center>North Dakota</td><td style=text-align:center>32.5</td><td style=text-align:center>28.91</td></tr><tr><td style=text-align:center>Ohio</td><td style=text-align:center>51</td><td style=text-align:center>34.1</td></tr><tr><td style=text-align:center>Oklahoma</td><td style=text-align:center>NA</td><td style=text-align:center>NA</td></tr><tr><td style=text-align:center>Oregon</td><td style=text-align:center>58</td><td style=text-align:center>29.65</td></tr><tr><td style=text-align:center>Pennsylvania</td><td style=text-align:center>63</td><td style=text-align:center>31.13</td></tr><tr><td style=text-align:center>Rhode Island</td><td style=text-align:center>46</td><td style=text-align:center>31.13</td></tr><tr><td style=text-align:center>South Dakota</td><td style=text-align:center>19</td><td style=text-align:center>23.72</td></tr><tr><td style=text-align:center>Tennessee</td><td style=text-align:center>71</td><td style=text-align:center>37.06</td></tr><tr><td style=text-align:center>Texas</td><td style=text-align:center>NA</td><td style=text-align:center>NA</td></tr><tr><td style=text-align:center>Utah</td><td style=text-align:center>498</td><td style=text-align:center>201.6</td></tr><tr><td style=text-align:center>Vermont</td><td style=text-align:center>107</td><td style=text-align:center>106.7</td></tr><tr><td style=text-align:center>Virginia</td><td style=text-align:center>72</td><td style=text-align:center>41.51</td></tr><tr><td style=text-align:center>Washington</td><td style=text-align:center>NA</td><td style=text-align:center>NA</td></tr><tr><td style=text-align:center>Wisconsin</td><td style=text-align:center>NA</td><td style=text-align:center>NA</td></tr></tbody></table><p>Table: types of school vs. states</p><p>The overall median is 80 and
+</code></pre></div><table>
+<thead>
+<tr>
+<th style=text-align:center>state</th>
+<th style=text-align:center>median</th>
+<th style=text-align:center>mad</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style=text-align:center>Arizona</td>
+<td style=text-align:center>71</td>
+<td style=text-align:center>29.65</td>
+</tr>
+<tr>
+<td style=text-align:center>Arkansas</td>
+<td style=text-align:center>505</td>
+<td style=text-align:center>192.7</td>
+</tr>
+<tr>
+<td style=text-align:center>California</td>
+<td style=text-align:center>77</td>
+<td style=text-align:center>43</td>
+</tr>
+<tr>
+<td style=text-align:center>Colorado</td>
+<td style=text-align:center>52</td>
+<td style=text-align:center>34.1</td>
+</tr>
+<tr>
+<td style=text-align:center>Connecticut</td>
+<td style=text-align:center>NA</td>
+<td style=text-align:center>NA</td>
+</tr>
+<tr>
+<td style=text-align:center>Florida</td>
+<td style=text-align:center>89</td>
+<td style=text-align:center>35.58</td>
+</tr>
+<tr>
+<td style=text-align:center>Idaho</td>
+<td style=text-align:center>NA</td>
+<td style=text-align:center>NA</td>
+</tr>
+<tr>
+<td style=text-align:center>Illinois</td>
+<td style=text-align:center>333</td>
+<td style=text-align:center>206.1</td>
+</tr>
+<tr>
+<td style=text-align:center>Iowa</td>
+<td style=text-align:center>270</td>
+<td style=text-align:center>179.4</td>
+</tr>
+<tr>
+<td style=text-align:center>Maine</td>
+<td style=text-align:center>30</td>
+<td style=text-align:center>28.17</td>
+</tr>
+<tr>
+<td style=text-align:center>Massachusetts</td>
+<td style=text-align:center>NA</td>
+<td style=text-align:center>NA</td>
+</tr>
+<tr>
+<td style=text-align:center>Michigan</td>
+<td style=text-align:center>58</td>
+<td style=text-align:center>35.58</td>
+</tr>
+<tr>
+<td style=text-align:center>Minnesota</td>
+<td style=text-align:center>56</td>
+<td style=text-align:center>48.93</td>
+</tr>
+<tr>
+<td style=text-align:center>Missouri</td>
+<td style=text-align:center>NA</td>
+<td style=text-align:center>NA</td>
+</tr>
+<tr>
+<td style=text-align:center>Montana</td>
+<td style=text-align:center>196</td>
+<td style=text-align:center>180.9</td>
+</tr>
+<tr>
+<td style=text-align:center>New Jersey</td>
+<td style=text-align:center>45</td>
+<td style=text-align:center>40.03</td>
+</tr>
+<tr>
+<td style=text-align:center>New York</td>
+<td style=text-align:center>NA</td>
+<td style=text-align:center>NA</td>
+</tr>
+<tr>
+<td style=text-align:center>North Carolina</td>
+<td style=text-align:center>63</td>
+<td style=text-align:center>44.48</td>
+</tr>
+<tr>
+<td style=text-align:center>North Dakota</td>
+<td style=text-align:center>32.5</td>
+<td style=text-align:center>28.91</td>
+</tr>
+<tr>
+<td style=text-align:center>Ohio</td>
+<td style=text-align:center>51</td>
+<td style=text-align:center>34.1</td>
+</tr>
+<tr>
+<td style=text-align:center>Oklahoma</td>
+<td style=text-align:center>NA</td>
+<td style=text-align:center>NA</td>
+</tr>
+<tr>
+<td style=text-align:center>Oregon</td>
+<td style=text-align:center>58</td>
+<td style=text-align:center>29.65</td>
+</tr>
+<tr>
+<td style=text-align:center>Pennsylvania</td>
+<td style=text-align:center>63</td>
+<td style=text-align:center>31.13</td>
+</tr>
+<tr>
+<td style=text-align:center>Rhode Island</td>
+<td style=text-align:center>46</td>
+<td style=text-align:center>31.13</td>
+</tr>
+<tr>
+<td style=text-align:center>South Dakota</td>
+<td style=text-align:center>19</td>
+<td style=text-align:center>23.72</td>
+</tr>
+<tr>
+<td style=text-align:center>Tennessee</td>
+<td style=text-align:center>71</td>
+<td style=text-align:center>37.06</td>
+</tr>
+<tr>
+<td style=text-align:center>Texas</td>
+<td style=text-align:center>NA</td>
+<td style=text-align:center>NA</td>
+</tr>
+<tr>
+<td style=text-align:center>Utah</td>
+<td style=text-align:center>498</td>
+<td style=text-align:center>201.6</td>
+</tr>
+<tr>
+<td style=text-align:center>Vermont</td>
+<td style=text-align:center>107</td>
+<td style=text-align:center>106.7</td>
+</tr>
+<tr>
+<td style=text-align:center>Virginia</td>
+<td style=text-align:center>72</td>
+<td style=text-align:center>41.51</td>
+</tr>
+<tr>
+<td style=text-align:center>Washington</td>
+<td style=text-align:center>NA</td>
+<td style=text-align:center>NA</td>
+</tr>
+<tr>
+<td style=text-align:center>Wisconsin</td>
+<td style=text-align:center>NA</td>
+<td style=text-align:center>NA</td>
+</tr>
+</tbody>
+</table>
+<p>Table: types of school vs. states</p>
+<p>The overall median is 80 and
 mad 56.3388.
-I chose 100 as guess for the undocumented ones so that there would be a nice log10.</p><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-r data-lang=r><span style=color:#a6e22e>ggplot</span>(cmeasles, mapping<span style=color:#f92672>=</span><span style=color:#a6e22e>aes</span>(x<span style=color:#f92672>=</span>mmr)) <span style=color:#f92672>+</span> 
+I chose 100 as guess for the undocumented ones so that there would be a nice log10.</p>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-r data-lang=r><span style=color:#a6e22e>ggplot</span>(cmeasles, mapping<span style=color:#f92672>=</span><span style=color:#a6e22e>aes</span>(x<span style=color:#f92672>=</span>mmr)) <span style=color:#f92672>+</span> 
   <span style=color:#a6e22e>geom_histogram</span>(binwidth<span style=color:#f92672>=</span><span style=color:#ae81ff>5</span>) <span style=color:#f92672>+</span>
   <span style=color:#a6e22e>scale_y_log10</span>() <span style=color:#f92672>+</span> <span style=color:#a6e22e>annotation_logticks</span>(sides<span style=color:#f92672>=</span><span style=color:#a6e22e>c</span>(<span style=color:#e6db74>&#34;l&#34;</span>)) <span style=color:#f92672>+</span>
   <span style=color:#a6e22e>theme_light</span>()
-</code></pre></div><figure><img src=/post/dev/tidytuesday/td20200225/measles_dist-1.png alt><figcaption>distribution mmr(measles plus vac)</figcaption></figure><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-r data-lang=r><span style=color:#a6e22e>ggplot</span>(cmeasles, mapping<span style=color:#f92672>=</span><span style=color:#a6e22e>aes</span>(x<span style=color:#f92672>=</span>overall)) <span style=color:#f92672>+</span> 
+</code></pre></div>
+<figure>
+<img src=/post/dev/tidytuesday/td20200225/measles_dist-1.png alt><figcaption>distribution mmr(measles plus vac)</figcaption></figure>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-r data-lang=r><span style=color:#a6e22e>ggplot</span>(cmeasles, mapping<span style=color:#f92672>=</span><span style=color:#a6e22e>aes</span>(x<span style=color:#f92672>=</span>overall)) <span style=color:#f92672>+</span> 
   <span style=color:#a6e22e>geom_histogram</span>(binwidth<span style=color:#f92672>=</span><span style=color:#ae81ff>5</span>) <span style=color:#f92672>+</span>
   <span style=color:#a6e22e>scale_y_log10</span>() <span style=color:#f92672>+</span> <span style=color:#a6e22e>annotation_logticks</span>(sides<span style=color:#f92672>=</span><span style=color:#a6e22e>c</span>(<span style=color:#e6db74>&#34;l&#34;</span>))
-</code></pre></div><figure><img src=/post/dev/tidytuesday/td20200225/overall_dist-1.png alt><figcaption>distribution of overall vac</figcaption></figure><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-r data-lang=r><span style=color:#a6e22e>ggplot</span>(measles, mapping<span style=color:#f92672>=</span><span style=color:#a6e22e>aes</span>(x<span style=color:#f92672>=</span>overall, y<span style=color:#f92672>=</span>mmr)) <span style=color:#f92672>+</span> 
+</code></pre></div>
+<figure>
+<img src=/post/dev/tidytuesday/td20200225/overall_dist-1.png alt><figcaption>distribution of overall vac</figcaption></figure>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-r data-lang=r><span style=color:#a6e22e>ggplot</span>(measles, mapping<span style=color:#f92672>=</span><span style=color:#a6e22e>aes</span>(x<span style=color:#f92672>=</span>overall, y<span style=color:#f92672>=</span>mmr)) <span style=color:#f92672>+</span> 
   <span style=color:#a6e22e>geom_point</span>(alpha <span style=color:#f92672>=</span> <span style=color:#ae81ff>0.2</span>) 
-</code></pre></div><p><figure><img src=/post/dev/tidytuesday/td20200225/mmr_vs_overall-1.png alt><figcaption>correspondance mmr with overall vac</figcaption></figure>A few odd ones where overall vaccination is lower than mmr. But since I don&rsquo;t use overall later I will ignore this.</p><p>xrel is boolean!</p><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-r data-lang=r><span style=color:#a6e22e>ggplot</span>(cmeasles, mapping<span style=color:#f92672>=</span><span style=color:#a6e22e>aes</span>(x<span style=color:#f92672>=</span>mmr)) <span style=color:#f92672>+</span> 
+</code></pre></div><p>
+<figure>
+<img src=/post/dev/tidytuesday/td20200225/mmr_vs_overall-1.png alt><figcaption>correspondance mmr with overall vac</figcaption></figure>
+A few odd ones where overall vaccination is lower than mmr. But since I don&rsquo;t use overall later I will ignore this.</p>
+<p>xrel is boolean!</p>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-r data-lang=r><span style=color:#a6e22e>ggplot</span>(cmeasles, mapping<span style=color:#f92672>=</span><span style=color:#a6e22e>aes</span>(x<span style=color:#f92672>=</span>mmr)) <span style=color:#f92672>+</span> 
   <span style=color:#a6e22e>geom_histogram</span>(binwidth<span style=color:#f92672>=</span><span style=color:#ae81ff>5</span>) <span style=color:#f92672>+</span>
   <span style=color:#a6e22e>scale_y_log10</span>() <span style=color:#f92672>+</span> <span style=color:#a6e22e>annotation_logticks</span>(sides<span style=color:#f92672>=</span><span style=color:#a6e22e>c</span>(<span style=color:#e6db74>&#34;l&#34;</span>))
-</code></pre></div><figure><img src=/post/dev/tidytuesday/td20200225/unnamed-chunk-1-1.png alt><figcaption>distribution of mmr in schools with religious exclusions</figcaption></figure><p>It should be mmr + xmed &lt; 100!</p><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-r data-lang=r><span style=color:#a6e22e>ggplot</span>(cmeasles, mapping<span style=color:#f92672>=</span><span style=color:#a6e22e>aes</span>(y<span style=color:#f92672>=</span>mmr, x<span style=color:#f92672>=</span>xmed)) <span style=color:#f92672>+</span> 
+</code></pre></div>
+<figure>
+<img src=/post/dev/tidytuesday/td20200225/unnamed-chunk-1-1.png alt><figcaption>distribution of mmr in schools with religious exclusions</figcaption></figure>
+<p>It should be mmr + xmed &lt; 100!</p>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-r data-lang=r><span style=color:#a6e22e>ggplot</span>(cmeasles, mapping<span style=color:#f92672>=</span><span style=color:#a6e22e>aes</span>(y<span style=color:#f92672>=</span>mmr, x<span style=color:#f92672>=</span>xmed)) <span style=color:#f92672>+</span> 
   <span style=color:#a6e22e>geom_point</span>()
-</code></pre></div><figure><img src=/post/dev/tidytuesday/td20200225/unnamed-chunk-2-1.png alt><figcaption>distribution of mmr in schools with xmed</figcaption></figure><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-r data-lang=r>cmeasles <span style=color:#f92672>%&gt;%</span> <span style=color:#a6e22e>filter</span>(xmed <span style=color:#f92672>&gt;</span> <span style=color:#ae81ff>50</span>)
-</code></pre></div><pre><code>## # A tibble: 2 x 18
+</code></pre></div>
+<figure>
+<img src=/post/dev/tidytuesday/td20200225/unnamed-chunk-2-1.png alt><figcaption>distribution of mmr in schools with xmed</figcaption></figure>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-r data-lang=r>cmeasles <span style=color:#f92672>%&gt;%</span> <span style=color:#a6e22e>filter</span>(xmed <span style=color:#f92672>&gt;</span> <span style=color:#ae81ff>50</span>)
+</code></pre></div><pre tabindex=0><code>## # A tibble: 2 x 18
 ##   index state year  name  type  city  county district enroll   mmr overall xrel 
 ##   &lt;dbl&gt; &lt;chr&gt; &lt;chr&gt; &lt;chr&gt; &lt;chr&gt; &lt;chr&gt; &lt;chr&gt;  &lt;lgl&gt;     &lt;dbl&gt; &lt;dbl&gt;   &lt;dbl&gt; &lt;lgl&gt;
 ## 1  6500 Cali… 2018… Yuba… Publ… Neva… Nevada NA           64    36      36 NA   
 ## 2   827 Mass… 2018… Rudo… Priv… Grea… Berks… NA           NA     3      NA NA   
 ## # … with 6 more variables: xmed &lt;dbl&gt;, xper &lt;dbl&gt;, lat &lt;dbl&gt;, lng &lt;dbl&gt;,
 ## #   maxknownexcl &lt;dbl&gt;, suspicious &lt;lgl&gt;
-</code></pre><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-r data-lang=r><span style=color:#a6e22e>ggplot</span>(cmeasles, mapping<span style=color:#f92672>=</span><span style=color:#a6e22e>aes</span>(y<span style=color:#f92672>=</span>mmr, x<span style=color:#f92672>=</span>xper)) <span style=color:#f92672>+</span> 
+</code></pre><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-r data-lang=r><span style=color:#a6e22e>ggplot</span>(cmeasles, mapping<span style=color:#f92672>=</span><span style=color:#a6e22e>aes</span>(y<span style=color:#f92672>=</span>mmr, x<span style=color:#f92672>=</span>xper)) <span style=color:#f92672>+</span> 
   <span style=color:#a6e22e>geom_point</span>()
-</code></pre></div><figure><img src=/post/dev/tidytuesday/td20200225/unnamed-chunk-3-1.png alt><figcaption>distribution of mmr in schools with xper</figcaption></figure><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-r data-lang=r>cmeasles <span style=color:#f92672>%&gt;%</span> <span style=color:#a6e22e>filter</span>(xmed <span style=color:#f92672>&gt;</span> <span style=color:#ae81ff>50</span>)
-</code></pre></div><pre><code>## # A tibble: 2 x 18
+</code></pre></div>
+<figure>
+<img src=/post/dev/tidytuesday/td20200225/unnamed-chunk-3-1.png alt><figcaption>distribution of mmr in schools with xper</figcaption></figure>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-r data-lang=r>cmeasles <span style=color:#f92672>%&gt;%</span> <span style=color:#a6e22e>filter</span>(xmed <span style=color:#f92672>&gt;</span> <span style=color:#ae81ff>50</span>)
+</code></pre></div><pre tabindex=0><code>## # A tibble: 2 x 18
 ##   index state year  name  type  city  county district enroll   mmr overall xrel 
 ##   &lt;dbl&gt; &lt;chr&gt; &lt;chr&gt; &lt;chr&gt; &lt;chr&gt; &lt;chr&gt; &lt;chr&gt;  &lt;lgl&gt;     &lt;dbl&gt; &lt;dbl&gt;   &lt;dbl&gt; &lt;lgl&gt;
 ## 1  6500 Cali… 2018… Yuba… Publ… Neva… Nevada NA           64    36      36 NA   
 ## 2   827 Mass… 2018… Rudo… Priv… Grea… Berks… NA           NA     3      NA NA   
 ## # … with 6 more variables: xmed &lt;dbl&gt;, xper &lt;dbl&gt;, lat &lt;dbl&gt;, lng &lt;dbl&gt;,
 ## #   maxknownexcl &lt;dbl&gt;, suspicious &lt;lgl&gt;
-</code></pre><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-r data-lang=r><span style=color:#a6e22e>ggplot</span>(cmeasles, mapping<span style=color:#f92672>=</span><span style=color:#a6e22e>aes</span>(x<span style=color:#f92672>=</span>xper)) <span style=color:#f92672>+</span> 
+</code></pre><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-r data-lang=r><span style=color:#a6e22e>ggplot</span>(cmeasles, mapping<span style=color:#f92672>=</span><span style=color:#a6e22e>aes</span>(x<span style=color:#f92672>=</span>xper)) <span style=color:#f92672>+</span> 
   <span style=color:#a6e22e>geom_histogram</span>(binwidth<span style=color:#f92672>=</span><span style=color:#ae81ff>5</span>) <span style=color:#f92672>+</span>
   <span style=color:#a6e22e>scale_y_log10</span>() <span style=color:#f92672>+</span> <span style=color:#a6e22e>annotation_logticks</span>(sides<span style=color:#f92672>=</span><span style=color:#a6e22e>c</span>(<span style=color:#e6db74>&#34;l&#34;</span>))
-</code></pre></div><figure><img src=/post/dev/tidytuesday/td20200225/unnamed-chunk-4-1.png alt><figcaption>distribution of mmr in schools with either exemption</figcaption></figure><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-r data-lang=r><span style=color:#a6e22e>ggplot</span>(cmeasles, mapping<span style=color:#f92672>=</span><span style=color:#a6e22e>aes</span>(x<span style=color:#f92672>=</span>xper,y<span style=color:#f92672>=</span>mmr)) <span style=color:#f92672>+</span> 
+</code></pre></div>
+<figure>
+<img src=/post/dev/tidytuesday/td20200225/unnamed-chunk-4-1.png alt><figcaption>distribution of mmr in schools with either exemption</figcaption></figure>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-r data-lang=r><span style=color:#a6e22e>ggplot</span>(cmeasles, mapping<span style=color:#f92672>=</span><span style=color:#a6e22e>aes</span>(x<span style=color:#f92672>=</span>xper,y<span style=color:#f92672>=</span>mmr)) <span style=color:#f92672>+</span> 
   <span style=color:#a6e22e>geom_point</span>()
-</code></pre></div><figure><img src=/post/dev/tidytuesday/td20200225/unnamed-chunk-4-2.png alt><figcaption>distribution of mmr in schools with either exemption</figcaption></figure><p>Note:</p><ul><li>has only one sample per school.</li><li>only 15 states</li></ul><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-r data-lang=r>cmeasles <span style=color:#f92672>%&gt;%</span> <span style=color:#a6e22e>group_by</span>(type) <span style=color:#f92672>%&gt;%</span> <span style=color:#a6e22e>summarise</span>(n<span style=color:#f92672>=</span><span style=color:#a6e22e>n</span>())<span style=color:#f92672>%&gt;%</span> <span style=color:#a6e22e>arrange</span>(<span style=color:#f92672>-</span>n)
-</code></pre></div><pre><code>## # A tibble: 7 x 2
+</code></pre></div>
+<figure>
+<img src=/post/dev/tidytuesday/td20200225/unnamed-chunk-4-2.png alt><figcaption>distribution of mmr in schools with either exemption</figcaption></figure>
+<p>Note:</p>
+<ul>
+<li>has only one sample per school.</li>
+<li>only 15 states</li>
+</ul>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-r data-lang=r>cmeasles <span style=color:#f92672>%&gt;%</span> <span style=color:#a6e22e>group_by</span>(type) <span style=color:#f92672>%&gt;%</span> <span style=color:#a6e22e>summarise</span>(n<span style=color:#f92672>=</span><span style=color:#a6e22e>n</span>())<span style=color:#f92672>%&gt;%</span> <span style=color:#a6e22e>arrange</span>(<span style=color:#f92672>-</span>n)
+</code></pre></div><pre tabindex=0><code>## # A tibble: 7 x 2
 ##   type             n
 ##   &lt;chr&gt;        &lt;int&gt;
 ## 1 Public       19090
@@ -114,8 +772,9 @@ I chose 100 as guess for the undocumented ones so that there would be a nice log
 ## 5 Charter        155
 ## 6 BOCES           43
 ## 7 Nonpublic       17
-</code></pre><p>Lots of unlabelled. Private don&rsquo;t play much of a role.</p><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-r data-lang=r>cmeasles <span style=color:#f92672>%&gt;%</span> <span style=color:#a6e22e>group_by</span>(state) <span style=color:#f92672>%&gt;%</span> <span style=color:#a6e22e>summarise</span>(n<span style=color:#f92672>=</span><span style=color:#a6e22e>n</span>(),enrolls <span style=color:#f92672>=</span> <span style=color:#a6e22e>sum</span>(enroll, na.rm<span style=color:#f92672>=</span>T)) <span style=color:#f92672>%&gt;%</span> <span style=color:#a6e22e>arrange</span>(<span style=color:#f92672>-</span>n)
-</code></pre></div><pre><code>## # A tibble: 21 x 3
+</code></pre><p>Lots of unlabelled. Private don&rsquo;t play much of a role.</p>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-r data-lang=r>cmeasles <span style=color:#f92672>%&gt;%</span> <span style=color:#a6e22e>group_by</span>(state) <span style=color:#f92672>%&gt;%</span> <span style=color:#a6e22e>summarise</span>(n<span style=color:#f92672>=</span><span style=color:#a6e22e>n</span>(),enrolls <span style=color:#f92672>=</span> <span style=color:#a6e22e>sum</span>(enroll, na.rm<span style=color:#f92672>=</span>T)) <span style=color:#f92672>%&gt;%</span> <span style=color:#a6e22e>arrange</span>(<span style=color:#f92672>-</span>n)
+</code></pre></div><pre tabindex=0><code>## # A tibble: 21 x 3
 ##    state            n enrolls
 ##    &lt;chr&gt;        &lt;int&gt;   &lt;dbl&gt;
 ##  1 California   14033 1216297
@@ -129,7 +788,10 @@ I chose 100 as guess for the undocumented ones so that there would be a nice log
 ##  9 Arizona        887   61983
 ## 10 Texas          811       0
 ## # … with 11 more rows
-</code></pre><p>Everything is dwarfed by California and Illinois.</p><h2 id=visualisierung>Visualisierung:</h2><h3 id=idea-ternary-plot>Idea ternary plot:</h3><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-r data-lang=r><span style=color:#a6e22e>library</span>(ggtern)
+</code></pre><p>Everything is dwarfed by California and Illinois.</p>
+<h2 id=visualisierung>Visualisierung:</h2>
+<h3 id=idea-ternary-plot>Idea ternary plot:</h3>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-r data-lang=r><span style=color:#a6e22e>library</span>(ggtern)
 cm2 <span style=color:#f92672>&lt;-</span> cmeasles <span style=color:#f92672>%&gt;%</span> 
   <span style=color:#a6e22e>mutate</span>(xmed <span style=color:#f92672>=</span> <span style=color:#a6e22e>replace_na</span>(xmed,<span style=color:#ae81ff>0</span>),
 	 xother <span style=color:#f92672>=</span> <span style=color:#ae81ff>100</span> <span style=color:#f92672>-</span> mmr <span style=color:#f92672>-</span> xmed,
@@ -138,7 +800,7 @@ cm2 <span style=color:#f92672>&lt;-</span> cmeasles <span style=color:#f92672>%&
 cms <span style=color:#f92672>&lt;-</span> <span style=color:#a6e22e>sample_n</span>(cm2,<span style=color:#ae81ff>100</span>)
 
 my_breaks  <span style=color:#f92672>&lt;-</span>  <span style=color:#ae81ff>10</span><span style=color:#a6e22e>^seq</span>(<span style=color:#ae81ff>2</span>,<span style=color:#ae81ff>6</span>)
-</code></pre></div><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-r data-lang=r>ptm <span style=color:#f92672>&lt;-</span> <span style=color:#a6e22e>proc.time</span>()
+</code></pre></div><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-r data-lang=r>ptm <span style=color:#f92672>&lt;-</span> <span style=color:#a6e22e>proc.time</span>()
 <span style=color:#a6e22e>ggtern</span>(cm2, <span style=color:#a6e22e>aes</span>(mmr,xmed,xother)) <span style=color:#f92672>+</span>
   <span style=color:#a6e22e>geom_tri_tern</span>(bins <span style=color:#f92672>=</span> <span style=color:#ae81ff>10</span>, <span style=color:#a6e22e>aes</span>(fill<span style=color:#f92672>=</span>..stat.., value<span style=color:#f92672>=</span>enroll), fun<span style=color:#f92672>=</span><span style=color:#a6e22e>function</span>(z){(<span style=color:#a6e22e>sum</span>(z))}) <span style=color:#f92672>+</span>
   <span style=color:#a6e22e>scale_L_continuous</span>(<span style=color:#e6db74>&#34;vaccinated&#34;</span>) <span style=color:#f92672>+</span> 
@@ -152,13 +814,35 @@ my_breaks  <span style=color:#f92672>&lt;-</span>  <span style=color:#ae81ff>10<
 		      na.value <span style=color:#f92672>=</span> <span style=color:#e6db74>&#34;gray10&#34;</span>) <span style=color:#f92672>+</span> 
   <span style=color:#a6e22e>theme_matrix</span>() <span style=color:#f92672>+</span>
   <span style=color:#a6e22e>theme</span>(legend.background <span style=color:#f92672>=</span> <span style=color:#a6e22e>element_rect</span>(fill <span style=color:#f92672>=</span> <span style=color:#e6db74>&#34;gray10&#34;</span>)) 
-</code></pre></div><figure><img src=/post/dev/tidytuesday/td20200225/big_tern-1.png alt><figcaption>Vacciantion ratio medial and other exclusions.</figcaption></figure><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-r data-lang=r>  <span style=color:#75715e># theme_tropical()</span>
+</code></pre></div>
+<figure>
+<img src=/post/dev/tidytuesday/td20200225/big_tern-1.png alt><figcaption>Vacciantion ratio medial and other exclusions.</figcaption></figure>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:2;-o-tab-size:2;tab-size:2><code class=language-r data-lang=r>  <span style=color:#75715e># theme_tropical()</span>
   <span style=color:#75715e>#theme_linedraw()</span>
   <span style=color:#75715e>#theme_bvbg()</span>
   <span style=color:#75715e># scale_fill_continuous(low=&#34;thistle2&#34;, high=&#34;darkred&#34;, </span>
   <span style=color:#75715e>#                      guide=&#34;colorbar&#34;,na.value=&#34;white&#34;) +</span>
 <span style=color:#a6e22e>proc.time</span>()<span style=color:#f92672>-</span>ptm
-</code></pre></div><pre><code>##    user  system elapsed 
+</code></pre></div><pre tabindex=0><code>##    user  system elapsed 
 ##   1.254   0.131   1.399
-</code></pre></div></article></main></div></div><footer class=footer><div class="container footer__container flex"><div class=footer__links><a class=footer__link href=/page/about/>About</a> | <a class=footer__link href=/page/contact/>Contact</a></div><div class=footer__copyright>&copy; 2021 Clemens Ager.
-<span class=footer__copyright-credits>Generated with <a href=https://gohugo.io/ rel="nofollow noopener" target=_blank>Hugo</a> and <a href=https://github.com/Vimux/Mainroad/ rel="nofollow noopener" target=_blank>Mainroad</a> theme.</span></div></div></footer></div><script async defer src=/js/menu.js></script></body></html>
+</code></pre>
+</div>
+</article>
+</main>
+</div>
+</div>
+<footer class=footer>
+<div class="container footer__container flex">
+<div class=footer__links>
+<a class=footer__link href=/page/about/>About</a> | <a class=footer__link href=/page/contact/>Contact</a>
+</div>
+<div class=footer__copyright>
+&copy; 2021 Clemens Ager.
+<span class=footer__copyright-credits>Generated with <a href=https://gohugo.io/ rel="nofollow noopener" target=_blank>Hugo</a> and <a href=https://github.com/Vimux/Mainroad/ rel="nofollow noopener" target=_blank>Mainroad</a> theme.</span>
+</div>
+</div>
+</footer>
+</div>
+<script async defer src=/js/menu.js></script>
+</body>
+</html>
