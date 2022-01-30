@@ -1,18 +1,30 @@
 [submodule "themes/hugo-academic"]
 	path = themes/academic
 	url = git@github.com:bdcaf/hugo-academic.git
+	branch = master
+	shallow = true
 [submodule "themes/eureka"]
 	path = themes/eureka
 	url = https://github.com/wangchucheng/hugo-eureka.git
+	branch = master
+	shallow = true
 [submodule "themes/hugo-vitae"]
 	path = themes/hugo-vitae
 	url = https://github.com/dataCobra/hugo-vitae.git
+	branch = master
+	shallow = true
 [submodule "themes/ghostwriter"]
 	path = themes/ghostwriter
 	url = https://github.com/jbub/ghostwriter
+	branch = master
+	shallow = true
 [submodule "themes/kiera"]
 	path = themes/kiera
 	url = https://github.com/funkydan2/hugo-kiera.git
+	branch = master
+	shallow = true
 [submodule "themes/mainroad"]
 	path = themes/mainroad
 	url = https://github.com/vimux/mainroad
+	branch = master
+	shallow = true
