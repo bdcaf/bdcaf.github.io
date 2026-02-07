@@ -4,7 +4,6 @@ date: 2021-02-01
 publishDate: 2021-01-05T16:22:27.831947Z
 coauthors: ["Veronika Ruzsanyi", "Helmut Wiesenhofer", "Clemens Ager", "Jens Herbig"," Aumayr", "M. Fischer", "M. Renzler", "T. Ussmueller", "K. Lindner",  "C.A. Mayhew"]
 publication_types: ["2"]
-abstract: ""
 featured: false
 publication: ""
 doi: "10/ghhkxb"

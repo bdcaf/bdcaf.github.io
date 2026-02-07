@@ -2,7 +2,7 @@
 Description: "short rant about machine learning"
 Tags: ["xkcd", "machine learning"]
 date: 2017-05-17T10:55:52+02:00
-lang: en
+params: {"lang":"en"}
 title: Machine Learning
 ---
 

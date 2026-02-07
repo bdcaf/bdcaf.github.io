@@ -1,9 +1,8 @@
 baseURL: https://bdcaf.github.io
 title: bdcaf
-theme: mainroad
+theme: hugo-paper
 
 languageCode: en-us
-paginate: 10 # Number of posts per page
 
 enableEmoji: true
 enableGitInfo: true
@@ -41,9 +40,4 @@ privacy:
     anonymizeIP: true
     respectDoNotTrack: true
     useSessionStorage: false
-
-author: 
-  name: "Clemens Ager"           #Author name
-  bio: "John Doe's true identity is unknown. Maybe he is a successful blogger or writer. Nobody knows it."
-  avatar: "img/avatar.png"
 

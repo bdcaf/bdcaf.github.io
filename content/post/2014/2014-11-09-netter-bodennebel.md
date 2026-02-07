@@ -1,5 +1,4 @@
 ---
-draft: true
 date: 2014-11-09 15:09:18+00:00
 draft: true
 layout: post

@@ -1,7 +1,7 @@
 ---
 Tags: ["unix","config", "offlineimap", "uibk"]
 date: 2017-03-30T10:48:59+02:00
-lang: en
+params: {"lang":"en"}
 title: Configuring offlineimap
 ---
 

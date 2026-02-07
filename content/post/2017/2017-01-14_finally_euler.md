@@ -1,7 +1,7 @@
 ---
 Tags: ["sci"]
 date: 2017-01-14T10:14:24+01:00
-lang: en
+params: {"lang":"en"}
 title: After three months finally an Euler result again
 ---
 Having spent three months on and off a problem I finally managed to

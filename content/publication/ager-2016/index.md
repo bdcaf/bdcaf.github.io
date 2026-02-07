@@ -6,7 +6,7 @@ coauthors: ["Clemens Ager"]
 publication_types: ["3"]
 abstract: "Real time measurements of breath data are a convenient and save method to observe a proband.  But only in the most trivial cases they can be interpreted directly.  We demonstrate the feasibility of applying a model to interpret the observations through the parameter of such a model."
 featured: false
-lang: ["en","de"]
+params: {"lang":["en","de"]}
 publication: ""
 ---
 

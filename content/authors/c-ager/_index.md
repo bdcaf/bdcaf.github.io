@@ -1,10 +1,9 @@
 ---
 # Name
 title: Clemens Ager
-bio: Studied in Innsbruck. Worked at the BRI.
 role: Owner/Author
 avatar: images/Av2021.jpeg
-bio: Physicist, Programmer
+bio: DevOps, Programmer, Physicist
 social:
   - icon: envelope
     iconPack: fas

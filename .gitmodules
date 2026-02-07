@@ -23,8 +23,6 @@
 	url = https://github.com/funkydan2/hugo-kiera.git
 	branch = master
 	shallow = true
-[submodule "themes/mainroad"]
-	path = themes/mainroad
-	url = https://github.com/vimux/mainroad
-	branch = master
-	shallow = true
+[submodule "themes/hugo-paper"]
+	path = themes/hugo-paper
+	url = https://github.com/nanxiaobei/hugo-paper.git

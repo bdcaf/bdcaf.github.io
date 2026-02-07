@@ -1,7 +1,7 @@
 ---
 title: "Move from uibk home pages"
 date: 2017-06-13T18:00:00+01:00
-lang: en
+params: {"lang":"en"}
 categories:
   - site
 ---

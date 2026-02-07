@@ -3,18 +3,16 @@ mainSections:
 intro: true
 copyright: Clemens Ager
 description: Personal Blog
-github: "https://github.com/bdcaf"
+github: "bdcaf"
 #gitlab: "https://gitlab.com/XXX"
-linkedin: "https://www.linkedin.com/in/clemens-ager-1228a295/"
-twitter: "https://twitter.com/c_decaf"
-stackoverflow: "https://stackoverflow.com/users/471614/bdecaf"
+linkedin: "clemens-a-1228a295"
 #facebook: "https://www.facebook.com/username"
-email: clemens.ager@gmail.com
+# email: clemens.ager@gmail.com
 opengraph: true
 shareTwitter: true
 schema: true
 authorbox: false
-twitter_cards: true # Enable Twitter Cards if true
+twitter_cards: false # Enable Twitter Cards if true
 readmore: true
 rss: true
 shareFacebook: false
@@ -25,8 +23,6 @@ exponeaJsUrl: ""
 exponeaTarget: ""
 exponeaToken: ""
 exponeaTrackVisits: false
-readingTime: true
-readingTimeText: "Estimated reading time:"
 fathomUrl: ""
 fathomSiteId: ""
 # If you want to use plausible(https://plausible.io) for analytics, add this section
@@ -66,7 +62,7 @@ widgets:
     #facebook: "username"
     twitter: "c_decaf"
     #instagram: "username"
-    linkedin: "clemens-ager-1228a295"
+    linkedin: "clemens-a-1228a295"
     #telegram: "username"
     github: "bdcaf"
     #gitlab: "username"

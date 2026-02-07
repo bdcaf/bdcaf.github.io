@@ -4,7 +4,7 @@ Tags:
 Categories:
   - theatre
 date: 2017-07-16T10:55:52+02:00
-lang: en
+params: {"lang":"en"}
 title: Day of the cursed child
 ---
 
