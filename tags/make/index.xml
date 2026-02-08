@@ -1,2 +1,16 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>make on bdcaf</title><link>https://bdcaf.github.io/tags/make/</link><description>Recent content in make on bdcaf</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sun, 05 Nov 2017 08:51:41 +0100</lastBuildDate><atom:link href="https://bdcaf.github.io/tags/make/index.xml" rel="self" type="application/rss+xml"/><item><title>Makey Makey</title><link>https://bdcaf.github.io/post/2017/2017-11-05_makeymakey/</link><pubDate>Sun, 05 Nov 2017 08:51:41 +0100</pubDate><guid>https://bdcaf.github.io/post/2017/2017-11-05_makeymakey/</guid><description>I am quite confident using make to create complex reports. As I dig into R I see they have an interesting work flow creating packages. It addresses a few important issues - tracking dependent packages, documenting stuff and testing. Most important packaging and installing on other systems can be done automatically using a single command. I want that.
-I found Makefiles mentioned several times included in the documentation - but so far haven&amp;rsquo;t figured out how they are supposed to be used.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Make on bdcaf</title><link>https://bdcaf.github.io/tags/make/</link><description>Recent content in Make on bdcaf</description><generator>Hugo</generator><language>en</language><lastBuildDate>Sun, 21 Feb 2021 09:43:37 +0100</lastBuildDate><atom:link href="https://bdcaf.github.io/tags/make/index.xml" rel="self" type="application/rss+xml"/><item><title>Makey Makey</title><link>https://bdcaf.github.io/post/2017/2017-11-05_makeymakey/</link><pubDate>Sun, 05 Nov 2017 08:51:41 +0100</pubDate><guid>https://bdcaf.github.io/post/2017/2017-11-05_makeymakey/</guid><description>&lt;p&gt;I am quite confident using &lt;code&gt;make&lt;/code&gt; to create complex reports.
+As I dig into &lt;code&gt;R&lt;/code&gt; I see they have an &lt;a href="http://r-pkgs.had.co.nz"&gt;interesting work flow
+creating packages&lt;/a&gt;. It addresses a
+few important issues - tracking dependent packages,
+documenting stuff and testing. Most important packaging and
+installing on other systems can be done automatically using
+a single command. I want that.&lt;/p&gt;
+&lt;p&gt;I found &lt;code&gt;Makefiles&lt;/code&gt; mentioned several times included in the
+documentation - but so far haven&amp;rsquo;t figured out how they are
+supposed to be used. Eventually I decided to experiment
+with an own project
+&lt;a href="https://github.com/bdcaf/vignetteEngineMake"&gt;vignetteBuilderMake&lt;/a&gt;.
+It is not supposed to change anything in the core R package
+process however it is intended to build vignettes using
+&lt;code&gt;make&lt;/code&gt; while still allowing the nice features of the package
+tools.&lt;/p&gt;</description></item></channel></rss>

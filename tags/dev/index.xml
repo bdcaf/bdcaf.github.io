@@ -1,22 +1,67 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>dev on bdcaf</title><link>https://bdcaf.github.io/tags/dev/</link><description>Recent content in dev on bdcaf</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 22 Feb 2021 09:56:41 +0100</lastBuildDate><atom:link href="https://bdcaf.github.io/tags/dev/index.xml" rel="self" type="application/rss+xml"/><item><title>Layout for the new year</title><link>https://bdcaf.github.io/post/site/2021_new/</link><pubDate>Mon, 22 Feb 2021 09:56:41 +0100</pubDate><guid>https://bdcaf.github.io/post/site/2021_new/</guid><description>&lt;p>I didn&amp;rsquo;t blog much over the past year.
-But having some time in the February break it was time to take this blog to 2021.&lt;/p></description></item><item><title>Publii</title><link>https://bdcaf.github.io/post/links/publii/</link><pubDate>Fri, 03 Aug 2018 12:13:16 +0200</pubDate><guid>https://bdcaf.github.io/post/links/publii/</guid><description>&lt;p>I was quite happy to find the graphical tool
-&lt;a href="https://getpublii.com/">publii&lt;/a> for building statical sites.&lt;/p>
-&lt;p>Many people still use Wordpress and the like to publish their blog. I
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Dev on bdcaf</title><link>https://bdcaf.github.io/tags/dev/</link><description>Recent content in Dev on bdcaf</description><generator>Hugo</generator><language>en</language><lastBuildDate>Sat, 07 Feb 2026 09:45:07 +0100</lastBuildDate><atom:link href="https://bdcaf.github.io/tags/dev/index.xml" rel="self" type="application/rss+xml"/><item><title>Layout for the new year</title><link>https://bdcaf.github.io/post/site/2021_new/</link><pubDate>Mon, 22 Feb 2021 09:56:41 +0100</pubDate><guid>https://bdcaf.github.io/post/site/2021_new/</guid><description>&lt;p&gt;I didn&amp;rsquo;t blog much over the past year.
+But having some time in the February break it was time to take this blog to 2021.&lt;/p&gt;</description></item><item><title>Publii</title><link>https://bdcaf.github.io/post/links/publii/</link><pubDate>Fri, 03 Aug 2018 12:13:16 +0200</pubDate><guid>https://bdcaf.github.io/post/links/publii/</guid><description>&lt;p&gt;I was quite happy to find the graphical tool
+&lt;a href="https://getpublii.com/"&gt;publii&lt;/a&gt; for building statical sites.&lt;/p&gt;
+&lt;p&gt;Many people still use Wordpress and the like to publish their blog. I
 don&amp;rsquo;t like Wordpress as it requires to run PHP on the server meaning
-it offers a quite large attack surface.&lt;/p>
-&lt;p>I prefer the static site approach. This also allows to radically cut
+it offers a quite large attack surface.&lt;/p&gt;
+&lt;p&gt;I prefer the static site approach. This also allows to radically cut
 down on JavaScript and other external resources and gives me
 the peace of mind that I don&amp;rsquo;t need to worry about updating a
-Wordpress installation.&lt;/p>
-&lt;p>However the tool of
-my choice, &lt;a href="https://gohugo.io">Hugo&lt;/a> is a bit technical. Now with
-&lt;a href="https://getpublii.com/">publii&lt;/a> there is something that I might
-suggest command line muggles.&lt;/p></description></item><item><title>Layout changes</title><link>https://bdcaf.github.io/post/site/layout_new/</link><pubDate>Fri, 30 Mar 2018 12:40:33 +0200</pubDate><guid>https://bdcaf.github.io/post/site/layout_new/</guid><description>I played around removing all the JavaScript dependencies of the hugo-academic template. I feel bootstrap and jQuery have little reason to be on such a simple site. By now I think I deviated from the original theme to no longer need it in the powered by section.
-Anyway should you note something amiss - let me know.</description></item><item><title>Advent of Code</title><link>https://bdcaf.github.io/post/2017/2017-12-1_adventofcode/</link><pubDate>Mon, 04 Dec 2017 07:56:29 +0100</pubDate><guid>https://bdcaf.github.io/post/2017/2017-12-1_adventofcode/</guid><description>There is an advent calendar for grown ups this year. advent of code gives every day a nice challenge. This year I try to remember what I learnt of Haskell. The leader board is a bit annoying as it is completely filled with people that manage to solve the problems in seconds (the problems are released at midnight EST).
-Still they are worth checking out.</description></item><item><title>Makey Makey</title><link>https://bdcaf.github.io/post/2017/2017-11-05_makeymakey/</link><pubDate>Sun, 05 Nov 2017 08:51:41 +0100</pubDate><guid>https://bdcaf.github.io/post/2017/2017-11-05_makeymakey/</guid><description>I am quite confident using make to create complex reports. As I dig into R I see they have an interesting work flow creating packages. It addresses a few important issues - tracking dependent packages, documenting stuff and testing. Most important packaging and installing on other systems can be done automatically using a single command. I want that.
-I found Makefiles mentioned several times included in the documentation - but so far haven&amp;rsquo;t figured out how they are supposed to be used.</description></item><item><title>Package rawTof</title><link>https://bdcaf.github.io/post/2017/2017-08-05_rawtof_package/</link><pubDate>Sat, 05 Aug 2017 17:51:52 +0200</pubDate><guid>https://bdcaf.github.io/post/2017/2017-08-05_rawtof_package/</guid><description>I have just released a simple package to read PTR-TOF h5 files. This used to be part of a larger project on developing a pipeline for working with PTR-TOF files, but stripped from all experimental functions. The other package should become a paper, so hold on for that.
-The package can be found at bdcaf/rawTof.</description></item><item><title>Publishing work flow template</title><link>https://bdcaf.github.io/post/2017/2017-03-03_init_workflow/</link><pubDate>Fri, 03 Mar 2017 11:20:28 +0100</pubDate><guid>https://bdcaf.github.io/post/2017/2017-03-03_init_workflow/</guid><description>After some time my cookiecutter templates for my data analysis work flow is finally in a state that I can show the world. You can get it from github. All in all it is my way to setup a reproducible research work flow - for too long I have just copied files around.
-It is all about using external tools in addition to R. The most essential being make. I am very proud about the makefile that keeps code and data directories clean.</description></item><item><title>Category Theory Course</title><link>https://bdcaf.github.io/post/2016/2016-11-05_category/</link><pubDate>Sat, 05 Nov 2016 12:12:16 +0100</pubDate><guid>https://bdcaf.github.io/post/2016/2016-11-05_category/</guid><description>Bartosz Milewski has put his category theory course on youtube.
-An amazing introduction for newcomers. But wrapping my head around monads and comonads still feels like I haven&amp;rsquo;t fully groked the magic.</description></item><item><title>Bye bye StackOverflow</title><link>https://bdcaf.github.io/post/2015/2015-10-23_so/</link><pubDate>Fri, 23 Oct 2015 09:08:07 +0200</pubDate><guid>https://bdcaf.github.io/post/2015/2015-10-23_so/</guid><description>&lt;p>Ich war früher großer Fan von StackOverflow. Auch jetzt wann immer ich ein &lt;em>einfaches&lt;/em> Programmierproblem habe taucht die Seite mit möglichen Lösungen auf.&lt;/p>
-&lt;p>In letzter Zeit hat sich leider die Policy geändert so, dass ich es nicht mehr interessant finde. Vor allem die strengen Relevanzkriterien machen eigentlich alle Fragestellungen die mich ursprünglich interessiert haben Offtopic. Und lassen meiner Meinung nach nur noch Fragen zu die sich mit dem Manual problemlos lösen liesen.&lt;/p></description></item><item><title>Um mal wieder Anzugeben</title><link>https://bdcaf.github.io/post/2012/2012-11-16-um-mal-wieder-anzugeben/</link><pubDate>Fri, 16 Nov 2012 16:13:38 +0000</pubDate><guid>https://bdcaf.github.io/post/2012/2012-11-16-um-mal-wieder-anzugeben/</guid><description>Um mal wieder anzugeben mein Projekt Euler Status:
-Spielt eigentlich sonst noch wer?</description></item></channel></rss>
+Wordpress installation.&lt;/p&gt;
+&lt;p&gt;However the tool of
+my choice, &lt;a href="https://gohugo.io"&gt;Hugo&lt;/a&gt; is a bit technical. Now with
+&lt;a href="https://getpublii.com/"&gt;publii&lt;/a&gt; there is something that I might
+suggest command line muggles.&lt;/p&gt;</description></item><item><title>Layout changes</title><link>https://bdcaf.github.io/post/site/layout_new/</link><pubDate>Fri, 30 Mar 2018 12:40:33 +0200</pubDate><guid>https://bdcaf.github.io/post/site/layout_new/</guid><description>&lt;p&gt;I played around removing all the JavaScript dependencies of the
+hugo-academic template. I feel bootstrap and jQuery have little
+reason to be on such a simple site. By now I think I deviated from
+the original theme to no longer need it in the powered by section.&lt;/p&gt;
+&lt;p&gt;Anyway should you note something amiss - let me know.&lt;/p&gt;</description></item><item><title>Advent of Code</title><link>https://bdcaf.github.io/post/2017/2017-12-1_adventofcode/</link><pubDate>Mon, 04 Dec 2017 07:56:29 +0100</pubDate><guid>https://bdcaf.github.io/post/2017/2017-12-1_adventofcode/</guid><description>&lt;p&gt;There is an advent calendar for grown ups this year. &lt;a href="http://adventofcode.com/2017"&gt;&lt;code&gt;advent of code&lt;/code&gt;&lt;/a&gt; gives every day a nice challenge.
+This year I try to remember what I learnt of Haskell. The
+leader board is a bit annoying as it is completely filled with people
+that manage to solve the problems in seconds (the problems are
+released at midnight EST).&lt;/p&gt;
+&lt;p&gt;Still they are worth checking out.&lt;/p&gt;</description></item><item><title>Makey Makey</title><link>https://bdcaf.github.io/post/2017/2017-11-05_makeymakey/</link><pubDate>Sun, 05 Nov 2017 08:51:41 +0100</pubDate><guid>https://bdcaf.github.io/post/2017/2017-11-05_makeymakey/</guid><description>&lt;p&gt;I am quite confident using &lt;code&gt;make&lt;/code&gt; to create complex reports.
+As I dig into &lt;code&gt;R&lt;/code&gt; I see they have an &lt;a href="http://r-pkgs.had.co.nz"&gt;interesting work flow
+creating packages&lt;/a&gt;. It addresses a
+few important issues - tracking dependent packages,
+documenting stuff and testing. Most important packaging and
+installing on other systems can be done automatically using
+a single command. I want that.&lt;/p&gt;
+&lt;p&gt;I found &lt;code&gt;Makefiles&lt;/code&gt; mentioned several times included in the
+documentation - but so far haven&amp;rsquo;t figured out how they are
+supposed to be used. Eventually I decided to experiment
+with an own project
+&lt;a href="https://github.com/bdcaf/vignetteEngineMake"&gt;vignetteBuilderMake&lt;/a&gt;.
+It is not supposed to change anything in the core R package
+process however it is intended to build vignettes using
+&lt;code&gt;make&lt;/code&gt; while still allowing the nice features of the package
+tools.&lt;/p&gt;</description></item><item><title>Package rawTof</title><link>https://bdcaf.github.io/post/2017/2017-08-05_rawtof_package/</link><pubDate>Sat, 05 Aug 2017 17:51:52 +0200</pubDate><guid>https://bdcaf.github.io/post/2017/2017-08-05_rawtof_package/</guid><description>&lt;p&gt;I have just released a simple package to read PTR-TOF h5
+files. This used to be part of a larger project on
+developing a pipeline for working with PTR-TOF files, but
+stripped from all experimental functions. The other package
+should become a paper, so hold on for that.&lt;/p&gt;
+&lt;p&gt;The package can be found at
+&lt;a href="https://github.com/bdcaf/rawTof"&gt;bdcaf/rawTof&lt;/a&gt;.&lt;/p&gt;</description></item><item><title>Publishing work flow template</title><link>https://bdcaf.github.io/post/2017/2017-03-03_init_workflow/</link><pubDate>Fri, 03 Mar 2017 11:20:28 +0100</pubDate><guid>https://bdcaf.github.io/post/2017/2017-03-03_init_workflow/</guid><description>&lt;p&gt;After some time my
+&lt;a href="https://github.com/audreyr/cookiecutter"&gt;cookiecutter&lt;/a&gt; templates for
+my data analysis work flow is finally in a state that I can show the
+world. You can get it from &lt;a href="https://github.com/bdcaf/cookiecutter-r-data-analysis"&gt;github&lt;/a&gt;.
+All in all it is my way to setup a &lt;em&gt;reproducible research work flow&lt;/em&gt; -
+for too long I have just copied files around.&lt;/p&gt;
+&lt;p&gt;It is all about using external tools in addition to
+&lt;a href="https://r-project.org/"&gt;R&lt;/a&gt;. The most essential being
+&lt;a href="https://www.gnu.org/software/make/"&gt;make&lt;/a&gt;. I am very proud about the
+makefile that keeps code and data directories clean. I am still
+considering to name the directories differently - but I have used this
+scheme for so long that it has become my second nature. Also the way
+make tracks dependencies between code and data helps me keep sane in
+more complex analysis work flow.&lt;/p&gt;</description></item><item><title>Category Theory Course</title><link>https://bdcaf.github.io/post/2016/2016-11-05_category/</link><pubDate>Sat, 05 Nov 2016 12:12:16 +0100</pubDate><guid>https://bdcaf.github.io/post/2016/2016-11-05_category/</guid><description>&lt;p&gt;&lt;a href="https://bartoszmilewski.com"&gt;Bartosz Milewski&lt;/a&gt; has put his category
+theory course on youtube.&lt;/p&gt;
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"&gt;
+ &lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/I8LbkfSSR58?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"&gt;&lt;/iframe&gt;
+ &lt;/div&gt;
+
+&lt;p&gt;An amazing introduction for newcomers. But wrapping my head around
+monads and comonads still feels like I haven&amp;rsquo;t fully groked the magic.&lt;/p&gt;</description></item><item><title>Bye bye StackOverflow</title><link>https://bdcaf.github.io/post/2015/2015-10-23_so/</link><pubDate>Fri, 23 Oct 2015 09:08:07 +0200</pubDate><guid>https://bdcaf.github.io/post/2015/2015-10-23_so/</guid><description>&lt;p&gt;Ich war früher großer Fan von StackOverflow. Auch jetzt wann immer ich ein &lt;em&gt;einfaches&lt;/em&gt; Programmierproblem habe taucht die Seite mit möglichen Lösungen auf.&lt;/p&gt;
+&lt;p&gt;In letzter Zeit hat sich leider die Policy geändert so, dass ich es nicht mehr interessant finde. Vor allem die strengen Relevanzkriterien machen eigentlich alle Fragestellungen die mich ursprünglich interessiert haben Offtopic. Und lassen meiner Meinung nach nur noch Fragen zu die sich mit dem Manual problemlos lösen liesen.&lt;/p&gt;</description></item><item><title>Um mal wieder Anzugeben</title><link>https://bdcaf.github.io/post/2012/2012-11-16-um-mal-wieder-anzugeben/</link><pubDate>Fri, 16 Nov 2012 16:13:38 +0000</pubDate><guid>https://bdcaf.github.io/post/2012/2012-11-16-um-mal-wieder-anzugeben/</guid><description>&lt;p&gt;Um mal wieder anzugeben mein &lt;a href="http://projecteuler.net/about"&gt;Projekt Euler&lt;/a&gt; Status:&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://projecteuler.net/profile/cager.png"&gt;&lt;img src="http://projecteuler.net/profile/cager.png" alt=""&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Spielt eigentlich sonst noch wer?&lt;/p&gt;</description></item></channel></rss>

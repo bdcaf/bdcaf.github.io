@@ -1,5 +1,25 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>uibk on bdcaf</title><link>https://bdcaf.github.io/tags/uibk/</link><description>Recent content in uibk on bdcaf</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sat, 22 Apr 2017 10:54:55 +0200</lastBuildDate><atom:link href="https://bdcaf.github.io/tags/uibk/index.xml" rel="self" type="application/rss+xml"/><item><title>Nice stuff from uibk</title><link>https://bdcaf.github.io/post/2017/2017-04-22-uibkserv/</link><pubDate>Sat, 22 Apr 2017 10:54:55 +0200</pubDate><guid>https://bdcaf.github.io/post/2017/2017-04-22-uibkserv/</guid><description>As I was checking whether the uibk would offer us some storage for git projects I was positively surprised they run a full gitlab instance.
-Unfortunately we will be limited to 50 projects - so I will not be able to abandon my bitbucket account. Anyway nice to be able to host potentially sensitive stuff internal.
-Also they run mattermost
-now that looks very interesting. Chatting without going through american services&amp;hellip; Need to get my friends in there.</description></item><item><title>Configuring offlineimap</title><link>https://bdcaf.github.io/post/2017/2017-03-30_offlineimap/</link><pubDate>Thu, 30 Mar 2017 10:48:59 +0200</pubDate><guid>https://bdcaf.github.io/post/2017/2017-03-30_offlineimap/</guid><description>Having most of my workflow on the commandline mailing my results using Tunderbird or Mail.app is sometimes quite a chore. I would rather do it from inside my workflow. mutt seems like a natural option. I also quite quickly considered alternatives like alpine - though since I prefer vim for my text editing I quickly decided against it.
-offlineimap For mutt it quickly became aparent that I would need some external tool to fetch my mail.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Uibk on bdcaf</title><link>https://bdcaf.github.io/tags/uibk/</link><description>Recent content in Uibk on bdcaf</description><generator>Hugo</generator><language>en</language><lastBuildDate>Sat, 07 Feb 2026 09:45:07 +0100</lastBuildDate><atom:link href="https://bdcaf.github.io/tags/uibk/index.xml" rel="self" type="application/rss+xml"/><item><title>Nice stuff from uibk</title><link>https://bdcaf.github.io/post/2017/2017-04-22-uibkserv/</link><pubDate>Sat, 22 Apr 2017 10:54:55 +0200</pubDate><guid>https://bdcaf.github.io/post/2017/2017-04-22-uibkserv/</guid><description>&lt;p&gt;As I was checking whether the uibk would offer us some storage for
+&lt;a href="https://git-scm.com"&gt;git&lt;/a&gt; projects I was positively surprised they run
+a full &lt;a href="https://about.gitlab.com"&gt;gitlab&lt;/a&gt; instance.&lt;/p&gt;
+&lt;p&gt;Unfortunately we will be limited to 50 projects - so I will not be able
+to abandon my bitbucket account. Anyway nice to be able to host
+potentially sensitive stuff internal.&lt;/p&gt;
+&lt;p&gt;Also they run
+&lt;a href="https://mattermost.uibk.ac.at/breath-research/channels/town-square"&gt;mattermost&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;now that looks very interesting. Chatting without going through american
+services&amp;hellip; Need to get my friends in there.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Configuring offlineimap</title><link>https://bdcaf.github.io/post/2017/2017-03-30_offlineimap/</link><pubDate>Thu, 30 Mar 2017 10:48:59 +0200</pubDate><guid>https://bdcaf.github.io/post/2017/2017-03-30_offlineimap/</guid><description>&lt;p&gt;Having most of my workflow on the commandline mailing my results using
+Tunderbird or Mail.app is sometimes quite a chore. I would rather do
+it from inside my workflow. &lt;a href="http://www.mutt.org/"&gt;mutt&lt;/a&gt; seems like a
+natural option. I also quite quickly considered alternatives like
+&lt;a href="https://www.washington.edu/alpine/"&gt;alpine&lt;/a&gt; - though since I prefer
+vim for my text editing I quickly decided against it.&lt;/p&gt;
+&lt;h2 id="offlineimap"&gt;offlineimap&lt;/h2&gt;
+&lt;p&gt;For mutt it quickly became aparent that I would need some external
+tool to fetch my mail. Many sites describe
+&lt;a href="http://www.offlineimap.org/"&gt;offlineimap&lt;/a&gt; though as the maintainer
+put a message that he moved on to
+&lt;a href="https://github.com/OfflineIMAP/imapfw"&gt;imapfw&lt;/a&gt; I was worried. Also
+my first attempt didn&amp;rsquo;t work out so I quickly decided I wanted to go
+with a &amp;ldquo;maintained&amp;rdquo; project.&lt;/p&gt;</description></item></channel></rss>

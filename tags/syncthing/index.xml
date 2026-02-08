@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>syncthing on bdcaf</title><link>https://bdcaf.github.io/tags/syncthing/</link><description>Recent content in syncthing on bdcaf</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 05 Feb 2019 10:58:41 +0100</lastBuildDate><atom:link href="https://bdcaf.github.io/tags/syncthing/index.xml" rel="self" type="application/rss+xml"/><item><title>Configuring Syncthing on Mac Server</title><link>https://bdcaf.github.io/post/mac/syncthing/</link><pubDate>Tue, 05 Feb 2019 10:58:41 +0100</pubDate><guid>https://bdcaf.github.io/post/mac/syncthing/</guid><description>&lt;p>&lt;a href="https://syncthing.net">Syncthing&lt;/a> is currently my preferred tool to
-keep folders in sync. Previously I had affairs with &lt;a href="https://git-annex.branchable.com">git
-annex&lt;/a>, and
-&lt;a href="https://rsync.samba.org">rsync&lt;/a> scripts.&lt;/p>
-&lt;p>Recently I reactivated a 2009 Mac Mini as headless server under El
-Capitan. &lt;a href="https://brew.sh">Homebrew&lt;/a> is the tool of choice - it
-complains a little about the old OS but things work out nicely.&lt;/p></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Syncthing on bdcaf</title><link>https://bdcaf.github.io/tags/syncthing/</link><description>Recent content in Syncthing on bdcaf</description><generator>Hugo</generator><language>en</language><lastBuildDate>Sun, 21 Feb 2021 09:43:37 +0100</lastBuildDate><atom:link href="https://bdcaf.github.io/tags/syncthing/index.xml" rel="self" type="application/rss+xml"/><item><title>Configuring Syncthing on Mac Server</title><link>https://bdcaf.github.io/post/mac/syncthing/</link><pubDate>Tue, 05 Feb 2019 10:58:41 +0100</pubDate><guid>https://bdcaf.github.io/post/mac/syncthing/</guid><description>&lt;p&gt;&lt;a href="https://syncthing.net"&gt;Syncthing&lt;/a&gt; is currently my preferred tool to
+keep folders in sync. Previously I had affairs with &lt;a href="https://git-annex.branchable.com"&gt;git
+annex&lt;/a&gt;, and
+&lt;a href="https://rsync.samba.org"&gt;rsync&lt;/a&gt; scripts.&lt;/p&gt;
+&lt;p&gt;Recently I reactivated a 2009 Mac Mini as headless server under El
+Capitan. &lt;a href="https://brew.sh"&gt;Homebrew&lt;/a&gt; is the tool of choice - it
+complains a little about the old OS but things work out nicely.&lt;/p&gt;</description></item></channel></rss>

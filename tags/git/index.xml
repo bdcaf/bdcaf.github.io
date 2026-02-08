@@ -1,6 +1,33 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>git on bdcaf</title><link>https://bdcaf.github.io/tags/git/</link><description>Recent content in git on bdcaf</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 14 Feb 2018 11:24:39 +0100</lastBuildDate><atom:link href="https://bdcaf.github.io/tags/git/index.xml" rel="self" type="application/rss+xml"/><item><title>pretty git exercises</title><link>https://bdcaf.github.io/post/links/gitexercises/</link><pubDate>Wed, 14 Feb 2018 11:24:39 +0100</pubDate><guid>https://bdcaf.github.io/post/links/gitexercises/</guid><description>I probably mentioned I use git for managing my code. Even in the simplistic way I know - already helpful. Like in this xkcd It is not easy finding good exercises to improve.
-I got pointed to learngitbranching. It looks polished and the exercises are short enough to do between. Just somehow I overlooked the commandos reset and undo to restart the exercised.</description></item><item><title>Nice stuff from uibk</title><link>https://bdcaf.github.io/post/2017/2017-04-22-uibkserv/</link><pubDate>Sat, 22 Apr 2017 10:54:55 +0200</pubDate><guid>https://bdcaf.github.io/post/2017/2017-04-22-uibkserv/</guid><description>As I was checking whether the uibk would offer us some storage for git projects I was positively surprised they run a full gitlab instance.
-Unfortunately we will be limited to 50 projects - so I will not be able to abandon my bitbucket account. Anyway nice to be able to host potentially sensitive stuff internal.
-Also they run mattermost
-now that looks very interesting. Chatting without going through american services&amp;hellip; Need to get my friends in there.</description></item><item><title>Publishing work flow template</title><link>https://bdcaf.github.io/post/2017/2017-03-03_init_workflow/</link><pubDate>Fri, 03 Mar 2017 11:20:28 +0100</pubDate><guid>https://bdcaf.github.io/post/2017/2017-03-03_init_workflow/</guid><description>After some time my cookiecutter templates for my data analysis work flow is finally in a state that I can show the world. You can get it from github. All in all it is my way to setup a reproducible research work flow - for too long I have just copied files around.
-It is all about using external tools in addition to R. The most essential being make. I am very proud about the makefile that keeps code and data directories clean.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Git on bdcaf</title><link>https://bdcaf.github.io/tags/git/</link><description>Recent content in Git on bdcaf</description><generator>Hugo</generator><language>en</language><lastBuildDate>Sat, 07 Feb 2026 09:45:07 +0100</lastBuildDate><atom:link href="https://bdcaf.github.io/tags/git/index.xml" rel="self" type="application/rss+xml"/><item><title>pretty git exercises</title><link>https://bdcaf.github.io/post/links/gitexercises/</link><pubDate>Wed, 14 Feb 2018 11:24:39 +0100</pubDate><guid>https://bdcaf.github.io/post/links/gitexercises/</guid><description>&lt;p&gt;I probably mentioned I use git for managing my code. Even in the
+simplistic way I know - already helpful. Like in this &lt;a href="https://xkcd.com/1597/"&gt;xkcd&lt;/a&gt;
+&lt;a href="https://xkcd.com/1597/"&gt;&lt;img src="https://imgs.xkcd.com/comics/git.png" alt="xkcd comic"&gt;&lt;/a&gt; It
+is not easy finding good exercises to improve.&lt;/p&gt;
+&lt;p&gt;I got pointed to
+&lt;a href="https://learngitbranching.js.org"&gt;learngitbranching&lt;/a&gt;. It looks
+polished and the exercises are short enough to do between. Just
+somehow I overlooked the commandos &lt;code&gt;reset&lt;/code&gt; and &lt;code&gt;undo&lt;/code&gt; to restart the
+exercised.&lt;/p&gt;</description></item><item><title>Nice stuff from uibk</title><link>https://bdcaf.github.io/post/2017/2017-04-22-uibkserv/</link><pubDate>Sat, 22 Apr 2017 10:54:55 +0200</pubDate><guid>https://bdcaf.github.io/post/2017/2017-04-22-uibkserv/</guid><description>&lt;p&gt;As I was checking whether the uibk would offer us some storage for
+&lt;a href="https://git-scm.com"&gt;git&lt;/a&gt; projects I was positively surprised they run
+a full &lt;a href="https://about.gitlab.com"&gt;gitlab&lt;/a&gt; instance.&lt;/p&gt;
+&lt;p&gt;Unfortunately we will be limited to 50 projects - so I will not be able
+to abandon my bitbucket account. Anyway nice to be able to host
+potentially sensitive stuff internal.&lt;/p&gt;
+&lt;p&gt;Also they run
+&lt;a href="https://mattermost.uibk.ac.at/breath-research/channels/town-square"&gt;mattermost&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;now that looks very interesting. Chatting without going through american
+services&amp;hellip; Need to get my friends in there.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Publishing work flow template</title><link>https://bdcaf.github.io/post/2017/2017-03-03_init_workflow/</link><pubDate>Fri, 03 Mar 2017 11:20:28 +0100</pubDate><guid>https://bdcaf.github.io/post/2017/2017-03-03_init_workflow/</guid><description>&lt;p&gt;After some time my
+&lt;a href="https://github.com/audreyr/cookiecutter"&gt;cookiecutter&lt;/a&gt; templates for
+my data analysis work flow is finally in a state that I can show the
+world. You can get it from &lt;a href="https://github.com/bdcaf/cookiecutter-r-data-analysis"&gt;github&lt;/a&gt;.
+All in all it is my way to setup a &lt;em&gt;reproducible research work flow&lt;/em&gt; -
+for too long I have just copied files around.&lt;/p&gt;
+&lt;p&gt;It is all about using external tools in addition to
+&lt;a href="https://r-project.org/"&gt;R&lt;/a&gt;. The most essential being
+&lt;a href="https://www.gnu.org/software/make/"&gt;make&lt;/a&gt;. I am very proud about the
+makefile that keeps code and data directories clean. I am still
+considering to name the directories differently - but I have used this
+scheme for so long that it has become my second nature. Also the way
+make tracks dependencies between code and data helps me keep sane in
+more complex analysis work flow.&lt;/p&gt;</description></item></channel></rss>

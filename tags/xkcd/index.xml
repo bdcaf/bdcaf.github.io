@@ -1,3 +1,12 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>xkcd on bdcaf</title><link>https://bdcaf.github.io/tags/xkcd/</link><description>Recent content in xkcd on bdcaf</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 17 May 2017 10:55:52 +0200</lastBuildDate><atom:link href="https://bdcaf.github.io/tags/xkcd/index.xml" rel="self" type="application/rss+xml"/><item><title>Machine Learning</title><link>https://bdcaf.github.io/post/2017/2017-05-17_machine_learning/</link><pubDate>Wed, 17 May 2017 10:55:52 +0200</pubDate><guid>https://bdcaf.github.io/post/2017/2017-05-17_machine_learning/</guid><description>XKCD has a wonderful new comic:
-These days there also was an article in MIT technology review criticising the same issue.
-For me this is a daily issue. My colleagues usually are happy to just get a quick test procedure; usually on smallish data. Chances are it pattern matches some noise. But nobody will find out as reading what a classifier found is near impossible. I mean sure we weed out all the nonsensical predictor variables &amp;ndash; but even on the sensibel there is additional information mixed in.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Xkcd on bdcaf</title><link>https://bdcaf.github.io/tags/xkcd/</link><description>Recent content in Xkcd on bdcaf</description><generator>Hugo</generator><language>en</language><lastBuildDate>Sat, 07 Feb 2026 09:45:07 +0100</lastBuildDate><atom:link href="https://bdcaf.github.io/tags/xkcd/index.xml" rel="self" type="application/rss+xml"/><item><title>Machine Learning</title><link>https://bdcaf.github.io/post/2017/2017-05-17_machine_learning/</link><pubDate>Wed, 17 May 2017 10:55:52 +0200</pubDate><guid>https://bdcaf.github.io/post/2017/2017-05-17_machine_learning/</guid><description>&lt;p&gt;&lt;a href="https://xkcd.com"&gt;XKCD&lt;/a&gt; has a wonderful new comic:&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://imgs.xkcd.com/comics/machine_learning.png" alt="the comic"&gt;&lt;/p&gt;
+&lt;p&gt;These days there also was an &lt;a href="https://www.technologyreview.com/s/604087/the-dark-secret-at-the-heart-of-ai/?set=607864"&gt;article in MIT technology
+review&lt;/a&gt;
+criticising the same issue.&lt;/p&gt;
+&lt;p&gt;For me this is a daily issue. My colleagues usually are happy to just
+get a quick test procedure; usually on smallish data. Chances are it
+pattern matches some noise. But nobody will find out as reading what a
+classifier found is near impossible. I mean sure we weed out all the
+nonsensical predictor variables &amp;ndash; but even on the sensibel there is
+additional information mixed in. And once a machine learning procedure
+is through all is hashed and mixed.&lt;/p&gt;</description></item></channel></rss>

@@ -1,4 +1,32 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>r on bdcaf</title><link>https://bdcaf.github.io/tags/r/</link><description>Recent content in r on bdcaf</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sun, 05 Nov 2017 08:51:41 +0100</lastBuildDate><atom:link href="https://bdcaf.github.io/tags/r/index.xml" rel="self" type="application/rss+xml"/><item><title>Makey Makey</title><link>https://bdcaf.github.io/post/2017/2017-11-05_makeymakey/</link><pubDate>Sun, 05 Nov 2017 08:51:41 +0100</pubDate><guid>https://bdcaf.github.io/post/2017/2017-11-05_makeymakey/</guid><description>I am quite confident using make to create complex reports. As I dig into R I see they have an interesting work flow creating packages. It addresses a few important issues - tracking dependent packages, documenting stuff and testing. Most important packaging and installing on other systems can be done automatically using a single command. I want that.
-I found Makefiles mentioned several times included in the documentation - but so far haven&amp;rsquo;t figured out how they are supposed to be used.</description></item><item><title>Package rawTof</title><link>https://bdcaf.github.io/post/2017/2017-08-05_rawtof_package/</link><pubDate>Sat, 05 Aug 2017 17:51:52 +0200</pubDate><guid>https://bdcaf.github.io/post/2017/2017-08-05_rawtof_package/</guid><description>I have just released a simple package to read PTR-TOF h5 files. This used to be part of a larger project on developing a pipeline for working with PTR-TOF files, but stripped from all experimental functions. The other package should become a paper, so hold on for that.
-The package can be found at bdcaf/rawTof.</description></item><item><title>Publication word cloud</title><link>https://bdcaf.github.io/post/2017/2017-01-19-wc/</link><pubDate>Thu, 19 Jan 2017 12:56:26 +0100</pubDate><guid>https://bdcaf.github.io/post/2017/2017-01-19-wc/</guid><description>I wanted to play with word clouds for some time. Usually the problem is to obtain a nice corpus. Luckily PubMedWordCloud was recently updated and I had something to play with.
-The initial cloud looks not good enough - I did not like how plurals are counted separately. Since I couldn&amp;rsquo;t clean it up easy enough I ended up going back to the tm package and roll my own script. Unfortunately it&amp;rsquo;s far from publishable.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>R on bdcaf</title><link>https://bdcaf.github.io/tags/r/</link><description>Recent content in R on bdcaf</description><generator>Hugo</generator><language>en</language><lastBuildDate>Sat, 07 Feb 2026 09:45:07 +0100</lastBuildDate><atom:link href="https://bdcaf.github.io/tags/r/index.xml" rel="self" type="application/rss+xml"/><item><title>Makey Makey</title><link>https://bdcaf.github.io/post/2017/2017-11-05_makeymakey/</link><pubDate>Sun, 05 Nov 2017 08:51:41 +0100</pubDate><guid>https://bdcaf.github.io/post/2017/2017-11-05_makeymakey/</guid><description>&lt;p&gt;I am quite confident using &lt;code&gt;make&lt;/code&gt; to create complex reports.
+As I dig into &lt;code&gt;R&lt;/code&gt; I see they have an &lt;a href="http://r-pkgs.had.co.nz"&gt;interesting work flow
+creating packages&lt;/a&gt;. It addresses a
+few important issues - tracking dependent packages,
+documenting stuff and testing. Most important packaging and
+installing on other systems can be done automatically using
+a single command. I want that.&lt;/p&gt;
+&lt;p&gt;I found &lt;code&gt;Makefiles&lt;/code&gt; mentioned several times included in the
+documentation - but so far haven&amp;rsquo;t figured out how they are
+supposed to be used. Eventually I decided to experiment
+with an own project
+&lt;a href="https://github.com/bdcaf/vignetteEngineMake"&gt;vignetteBuilderMake&lt;/a&gt;.
+It is not supposed to change anything in the core R package
+process however it is intended to build vignettes using
+&lt;code&gt;make&lt;/code&gt; while still allowing the nice features of the package
+tools.&lt;/p&gt;</description></item><item><title>Package rawTof</title><link>https://bdcaf.github.io/post/2017/2017-08-05_rawtof_package/</link><pubDate>Sat, 05 Aug 2017 17:51:52 +0200</pubDate><guid>https://bdcaf.github.io/post/2017/2017-08-05_rawtof_package/</guid><description>&lt;p&gt;I have just released a simple package to read PTR-TOF h5
+files. This used to be part of a larger project on
+developing a pipeline for working with PTR-TOF files, but
+stripped from all experimental functions. The other package
+should become a paper, so hold on for that.&lt;/p&gt;
+&lt;p&gt;The package can be found at
+&lt;a href="https://github.com/bdcaf/rawTof"&gt;bdcaf/rawTof&lt;/a&gt;.&lt;/p&gt;</description></item><item><title>Publication word cloud</title><link>https://bdcaf.github.io/post/2017/2017-01-19-wc/</link><pubDate>Thu, 19 Jan 2017 12:56:26 +0100</pubDate><guid>https://bdcaf.github.io/post/2017/2017-01-19-wc/</guid><description>&lt;p&gt;I wanted to play with word clouds for some time. Usually the problem
+is to obtain a nice corpus. Luckily
+&lt;a href="https://felixfan.github.io/PubMedWordcloud/"&gt;PubMedWordCloud&lt;/a&gt; was
+recently updated and I had something to play with.&lt;/p&gt;
+&lt;p&gt;The initial cloud looks not good enough - I did not like how plurals
+are counted separately.
+Since I couldn&amp;rsquo;t clean it up easy enough I ended up going back to the
+&lt;a href="https://cran.r-project.org/web/packages/tm/index.html"&gt;tm&lt;/a&gt; package
+and roll my own script. Unfortunately it&amp;rsquo;s far from publishable.&lt;/p&gt;
+&lt;p&gt;Anyway the result is way more to my liking.
+&lt;img src="https://bdcaf.github.io/img/wc_clean.png" alt="clean word cloud"&gt;&lt;/p&gt;</description></item></channel></rss>
